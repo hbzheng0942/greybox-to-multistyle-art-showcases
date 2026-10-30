@@ -699,6 +699,16 @@
       }
     },
     {
+      "offset": 452984832,
+      "bytes": 8388608,
+      "sha256": "941c72c06524204ac9aad5384900402f9d4f7376d8f8287c89226c007953425b",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0055",
+        "blob_sha": "a9e529b129ef47c8571422bca7b2f8731e234a9b"
+      }
+    },
+    {
       "offset": 461373440,
       "bytes": 8388608,
       "sha256": "5a35f5d7b540246890ef9ce412b2d936851ba3401065e9fa12d7ed7b292ed33a",
@@ -789,6 +799,86 @@
       }
     },
     {
+      "offset": 536870912,
+      "bytes": 8388608,
+      "sha256": "73fbea8b3a51934afaf2ce637fbd6fb44298e7df735be2da43343c82dcb164fc",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0065",
+        "blob_sha": "b726ecc7f5439150c98570583685b96e76a9eb30"
+      }
+    },
+    {
+      "offset": 545259520,
+      "bytes": 8388608,
+      "sha256": "9cc6d9543a8311828bfe00b80111c8ce05d79fa144a314f764fafadd93966795",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0066",
+        "blob_sha": "b871add2bd9f9a84c90720bc7861ee7112e31de8"
+      }
+    },
+    {
+      "offset": 562036736,
+      "bytes": 8388608,
+      "sha256": "139c576d73644f04ee2df8012bca04f8ea895c62556e6bd0b36c9e966e2f6a28",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0068",
+        "blob_sha": "951c47aba61e95d250491468d1c8f54dde646e45"
+      }
+    },
+    {
+      "offset": 570425344,
+      "bytes": 8388608,
+      "sha256": "07c681926dec9a1a36edaa2f43b9cb86dcff0a4ac2afc28e8e53a244d920f7b1",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0069",
+        "blob_sha": "4c1144e9393f3b58769cd11c57d78c242da1df5e"
+      }
+    },
+    {
+      "offset": 578813952,
+      "bytes": 8388608,
+      "sha256": "7d435ed5ca3b6e35e810c0cc394dc3ac199998d1b9ffede55a67418af8ee0eef",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0070",
+        "blob_sha": "25be5d84f0abf1e9a33f231c24c6dbc37a56321e"
+      }
+    },
+    {
+      "offset": 595591168,
+      "bytes": 8388608,
+      "sha256": "13010857381d771c3f573e4e1312400bae82c0df5c61a541615b3016e8dfe401",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0072",
+        "blob_sha": "debc8353924550e985adb5e39b5c88715ff628a9"
+      }
+    },
+    {
+      "offset": 612368384,
+      "bytes": 8388608,
+      "sha256": "4efd21aa464d000a07c0a93bf8017d2a12a6864ad64361c9b8b1b4b476713b93",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0074",
+        "blob_sha": "3786851181306417538e2dfefc559615e3b485ba"
+      }
+    },
+    {
+      "offset": 620756992,
+      "bytes": 8388608,
+      "sha256": "d873a18a93f5ef926f6dcd0e92f03bae55e099530a940e88f8859a0c87353922",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0075",
+        "blob_sha": "a04d144d2c25ee1ab4bb34ec62b122ec4e5231a4"
+      }
+    },
+    {
       "offset": 3489660928,
       "bytes": 268435456,
       "sha256": "ea9874c03ee02125b7c808631fedb55982fce1d3f291b4750d7be4a1ea3b6b66",
@@ -829,6 +919,16 @@
       }
     },
     {
+      "offset": 4823449600,
+      "bytes": 8388608,
+      "sha256": "672b852aaa1960581cfd05aaeaac3e437eed152e96be22110eaeeb30a7a63bd5",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0576",
+        "blob_sha": "04bb3edf3551231b8be032800c357b15d0124db7"
+      }
+    },
+    {
       "offset": 4831838208,
       "bytes": 63780654,
       "sha256": "51542992add870d441240a775e9864e8ed5e0a6cca9c2be5020d43c7781e2596",
@@ -841,5 +941,5 @@
   ],
   "chunk_bytes": 8388608,
   "expected_git_chunks": 448,
-  "uploaded_git_chunks": 63
+  "uploaded_git_chunks": 73
 }
