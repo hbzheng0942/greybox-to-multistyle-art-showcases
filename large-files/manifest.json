@@ -329,6 +329,156 @@
       }
     },
     {
+      "offset": 142606336,
+      "bytes": 8388608,
+      "sha256": "ad7484ce045ff085bf9cf05979951bd05cb3d933741d4a79630c96b6a1f1a375",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0018",
+        "blob_sha": "30872a12efd7b01fe6bb2c30844d49c4843b38a0"
+      }
+    },
+    {
+      "offset": 150994944,
+      "bytes": 8388608,
+      "sha256": "21680dfb20792645df7e483cbb3eb01286cb6c8e2aed5387db19174f7fd3bea0",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0019",
+        "blob_sha": "8c53dbbfae0b08549330e5dd27334ff9344d3235"
+      }
+    },
+    {
+      "offset": 159383552,
+      "bytes": 8388608,
+      "sha256": "ddac5c8fbef228abe2dbcd2db8f8d50276d1acccf3611b81a13ce19e52d22b91",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0020",
+        "blob_sha": "94b9606b9d87c9166812fa4c400253f2f9c7119a"
+      }
+    },
+    {
+      "offset": 167772160,
+      "bytes": 8388608,
+      "sha256": "db27e80e8530666f8fd1f46d27c18ea5d6576d627020b051cc3d4c6e6b8bd54b",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0021",
+        "blob_sha": "6ef47d2925a0a40e6e8bd770095b88e46bbbb60f"
+      }
+    },
+    {
+      "offset": 176160768,
+      "bytes": 8388608,
+      "sha256": "c03351fe793d7e2aec84d6a631575bfa5a0ede68d19b84c2b964dbb9f260f01c",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0022",
+        "blob_sha": "40917b28ff0fa57d1f5ac8f89176ea68fff69e1e"
+      }
+    },
+    {
+      "offset": 184549376,
+      "bytes": 8388608,
+      "sha256": "b39cf6d27aabc59a4c8d9e84fdeefacd320662c7dc37d1524ddacfd3df09c1f4",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0023",
+        "blob_sha": "81038536f1378b8196e7b493fdf145327d97ee44"
+      }
+    },
+    {
+      "offset": 192937984,
+      "bytes": 8388608,
+      "sha256": "de84146e201a5a5b5cd41ad4a8ab35a4fe1d75651a43167020db7ed48792d224",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0024",
+        "blob_sha": "acf2946a44432a45a7c3b5cc924cf27ec4fc2722"
+      }
+    },
+    {
+      "offset": 201326592,
+      "bytes": 8388608,
+      "sha256": "403ec6b10dc54f785bd860cf39d30314f88d90d28c7d8be4b8477e1e6aab3a16",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0025",
+        "blob_sha": "443df557a01f904730f300003d247d13cc7d3ace"
+      }
+    },
+    {
+      "offset": 209715200,
+      "bytes": 8388608,
+      "sha256": "a0c14eb46258b44ba4b9a0cb18677d5fd903bbbe7a645748c688d04cd2cd0afb",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0026",
+        "blob_sha": "b74c89184f0fff88ebc677da35ad369f546982c9"
+      }
+    },
+    {
+      "offset": 218103808,
+      "bytes": 8388608,
+      "sha256": "dc3ebe0787f836409223c335933b6cd41a229712d4f657dc94a3cbca7da638cc",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0027",
+        "blob_sha": "213d564c102cefc62fa9faf73500e397b603b617"
+      }
+    },
+    {
+      "offset": 226492416,
+      "bytes": 8388608,
+      "sha256": "ee5e2d58bd619a24a43c26ed5b310c9365b7604db74f36939cc18cfc184770e1",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0028",
+        "blob_sha": "950eb98b400964e5af85dc6bc70453f587e9cdcc"
+      }
+    },
+    {
+      "offset": 234881024,
+      "bytes": 8388608,
+      "sha256": "91fd031df60267feb306442df284b5c85623e67f3f2330e70ad38af2c10048a8",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0029",
+        "blob_sha": "f1cf738b81ad684a926ad63d53cc3b34f8973998"
+      }
+    },
+    {
+      "offset": 243269632,
+      "bytes": 8388608,
+      "sha256": "7983a40c43f96d3388db79fbf92967a4583b32fdf7fe6997efd7f98616aed4ff",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0030",
+        "blob_sha": "f59dcc05a89d4d88a6a8dd135318d9624a56ff26"
+      }
+    },
+    {
+      "offset": 251658240,
+      "bytes": 8388608,
+      "sha256": "e4afb00646193b633aaf13a18f3cf75345831b04c69f47f712263dc393270524",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0031",
+        "blob_sha": "bd149b657c4eabad24f3194cbde4f46f69d2091e"
+      }
+    },
+    {
+      "offset": 260046848,
+      "bytes": 8388608,
+      "sha256": "8e8e2e83b2a1c82751339fdf91e28557b1baad69aef17013d3a2df10a7bb22c1",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0032",
+        "blob_sha": "ae6fe00cb2aaa437844573d3e99ab3f856943bff"
+      }
+    },
+    {
       "offset": 268435456,
       "bytes": 8388608,
       "sha256": "8e66b2b5aaab02223ba818135e9b02e0ecb358746fffec480f73583e458a807a",
@@ -336,6 +486,306 @@
         "type": "git",
         "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0033",
         "blob_sha": "9d0b8cc5a6076e60ad3bd1ae82d4301d7ff94d11"
+      }
+    },
+    {
+      "offset": 276824064,
+      "bytes": 8388608,
+      "sha256": "0f6a25e110c8d4d7b92ebd0ea8c4031661ac4285b6838197f63d82e5c1d1a81e",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0034",
+        "blob_sha": "835c28590f89a9ebd5f383eb8e1d9e830193b078"
+      }
+    },
+    {
+      "offset": 285212672,
+      "bytes": 8388608,
+      "sha256": "60e42aec3e95a54f7060efffb906384f1d034bc9cb132469475345b3f5130356",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0035",
+        "blob_sha": "12206298689deba9945e43734895b6f9e2eb8042"
+      }
+    },
+    {
+      "offset": 293601280,
+      "bytes": 8388608,
+      "sha256": "ef2cd27d366d397f6e0bd730398b3111d340fa9903ba6e27935ceb70d986c55a",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0036",
+        "blob_sha": "33380b5b1186f8fa4449547c6e4e33b8ef5a9a8b"
+      }
+    },
+    {
+      "offset": 301989888,
+      "bytes": 8388608,
+      "sha256": "72da564c0c521653f86d8d67d751f41ad1590e6df5c2bed28388acebb9a2e2fb",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0037",
+        "blob_sha": "ca463d9e42020fe1370e755b4534eeffe6bd351a"
+      }
+    },
+    {
+      "offset": 310378496,
+      "bytes": 8388608,
+      "sha256": "f5b0707866cf311fc7ba2e6bac39642af8f2a473d0847512c892f5328d9332b5",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0038",
+        "blob_sha": "a75c386f203f27fae26e632a630a32053c4e16e0"
+      }
+    },
+    {
+      "offset": 318767104,
+      "bytes": 8388608,
+      "sha256": "2f698f9debf7aa32cb0a7fe7b35e4fb5a9bea079ea6edd87fd02f1b663e306ce",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0039",
+        "blob_sha": "2b633c4c4ac046155715476d89998e7bd126c1c5"
+      }
+    },
+    {
+      "offset": 327155712,
+      "bytes": 8388608,
+      "sha256": "df45e12f735b21210009b3527c9941c455510e872671d50d959c2fe9880e43fd",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0040",
+        "blob_sha": "d6527fec7612c542031e9989537169230c667a5a"
+      }
+    },
+    {
+      "offset": 335544320,
+      "bytes": 8388608,
+      "sha256": "0765b3806f1c25aabbda12bf95e7260b86b36db5c0d797bdb828d4da9b3d6fc0",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0041",
+        "blob_sha": "a1ba797da268407836ec9499e25d3dfbb56e510e"
+      }
+    },
+    {
+      "offset": 343932928,
+      "bytes": 8388608,
+      "sha256": "dfcfea17a67d96089f813227eae986ab6283f1cdd552e998652056eac0075051",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0042",
+        "blob_sha": "32bd01b573910971b6bf30e9c23eefa5fbd05c38"
+      }
+    },
+    {
+      "offset": 352321536,
+      "bytes": 8388608,
+      "sha256": "6e5fdfca948f719180440f84da746953f8e3631928c4803b68babd0485b72ea9",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0043",
+        "blob_sha": "5d47ee24f7411ad086579a45fda321f572297e41"
+      }
+    },
+    {
+      "offset": 360710144,
+      "bytes": 8388608,
+      "sha256": "155c4e0b12f85839805eb6a72f794bf2fe8df4abb68c7cf77b53d48959dce789",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0044",
+        "blob_sha": "6432222554bbcf5567de44e1dc7e5843f605610c"
+      }
+    },
+    {
+      "offset": 369098752,
+      "bytes": 8388608,
+      "sha256": "85ea6c58bd74d1042a150b727d03a5f06cfd3ce59bf7dc4253932c48075d72a9",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0045",
+        "blob_sha": "9846d98a5d8e09fc6d5391140f2e4761e27273ac"
+      }
+    },
+    {
+      "offset": 377487360,
+      "bytes": 8388608,
+      "sha256": "aae8bd2d8a358be726e083eed7d619bc833526a6f8d70a0c2c7d088094c65d43",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0046",
+        "blob_sha": "bd1ac68c93ac038973e98ee43108513cd0a0064d"
+      }
+    },
+    {
+      "offset": 385875968,
+      "bytes": 8388608,
+      "sha256": "ede16f397416778f569c7c2fcd0cc566d85a84b3ab30d3ff04095e3652ec33cd",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0047",
+        "blob_sha": "abed798f7b7bf444b9f6a5d7504fbdb069cdeac8"
+      }
+    },
+    {
+      "offset": 394264576,
+      "bytes": 8388608,
+      "sha256": "b900d06b0f7a793bee9b6dc5ee4332203aed0b18fc36f0651bf88c5e1bcaa3ff",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0048",
+        "blob_sha": "e92ec492ef25d2e3f599c8493719861be1158f60"
+      }
+    },
+    {
+      "offset": 402653184,
+      "bytes": 8388608,
+      "sha256": "d10aa8a752d56980dd101f4a413198f7bfbe3d8b850f788bb86a880259fe3783",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0049",
+        "blob_sha": "9cb8e66fac1bd7c062d82edd5bbf91ea5ed2560b"
+      }
+    },
+    {
+      "offset": 411041792,
+      "bytes": 8388608,
+      "sha256": "3641e4d222c61bfcaaacae92ac5d02afd82b347539bad81cf92996f731267c90",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0050",
+        "blob_sha": "b0bd32411ebf68483cb5aa9b3e030d26982300ed"
+      }
+    },
+    {
+      "offset": 419430400,
+      "bytes": 8388608,
+      "sha256": "08acf068e1584235a1bff0a201b6bc7be5e712f6476ab5ca1e0cc240e7d72d30",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0051",
+        "blob_sha": "ada77e0eec813b3bf093b609cd3045d6b2def84b"
+      }
+    },
+    {
+      "offset": 427819008,
+      "bytes": 8388608,
+      "sha256": "1084cc4e03a509e70fcbed72a497851f1df6f760741f38b3d91c0d7d8b8a8af2",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0052",
+        "blob_sha": "08a3aa24a1882486ccba5e5b3534ff3713851e9b"
+      }
+    },
+    {
+      "offset": 436207616,
+      "bytes": 8388608,
+      "sha256": "846550b06ddd2e0f60c51988919c7fd4bd020b766b9de426c6819cdb91d7e8ea",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0053",
+        "blob_sha": "431b3192dfc17c39ec4dc4b271ff4fc25598ffb8"
+      }
+    },
+    {
+      "offset": 444596224,
+      "bytes": 8388608,
+      "sha256": "a45bfaf4414d393db70995375971b459931292f543bb96cb89359920fe9cf8d7",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0054",
+        "blob_sha": "c29987db3407ab45393f0b70a3337c23bf23e60e"
+      }
+    },
+    {
+      "offset": 461373440,
+      "bytes": 8388608,
+      "sha256": "5a35f5d7b540246890ef9ce412b2d936851ba3401065e9fa12d7ed7b292ed33a",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0056",
+        "blob_sha": "d11db48db671d92a28d841460796bd3952f37b3f"
+      }
+    },
+    {
+      "offset": 469762048,
+      "bytes": 8388608,
+      "sha256": "caf09d4c15538b12fdd86d1a2a5e1d3bea133f27ddafcd7a1540072b65122fcd",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0057",
+        "blob_sha": "49c033933bec06289c36d2f3769384a5a6f63ae9"
+      }
+    },
+    {
+      "offset": 478150656,
+      "bytes": 8388608,
+      "sha256": "166bd47b1d3765b5621659bc862fb9f7c1988d8dda00d49c3efe1c2c8b9595a7",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0058",
+        "blob_sha": "2d9d1dc4d27b0b6d40c4a7e690a6f90ab712c759"
+      }
+    },
+    {
+      "offset": 486539264,
+      "bytes": 8388608,
+      "sha256": "f6e36def1d524f23c643a1313443e506db8d5d48477ab8678627dc5d72d2940a",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0059",
+        "blob_sha": "dc5d720ebb5ed12ed44552599151b2437a9deaf1"
+      }
+    },
+    {
+      "offset": 494927872,
+      "bytes": 8388608,
+      "sha256": "d89732d37653a9f995e8f06dcc153d6a8b5e7032ba8827c6d5bceaf625a39e5a",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0060",
+        "blob_sha": "325e2797061127c96c80bbeceb93857066aefe8d"
+      }
+    },
+    {
+      "offset": 503316480,
+      "bytes": 8388608,
+      "sha256": "a94c021713078eac032b442dcfc200442e39a2fc5a655c72ee37079a941af62d",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0061",
+        "blob_sha": "9dc477b3d2119f9afba2f35d0ab221ab37725c40"
+      }
+    },
+    {
+      "offset": 511705088,
+      "bytes": 8388608,
+      "sha256": "7bac44da5f4416554e1ed686b9773b055aac4758a33c0db723c62815ee3888b1",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0062",
+        "blob_sha": "4a5bfb202c7a761d3f04669a69df283767f42faa"
+      }
+    },
+    {
+      "offset": 520093696,
+      "bytes": 8388608,
+      "sha256": "cdd971ef973673ab7daf830d5144a86fa880a5758af32b39270ab91926f38c85",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0063",
+        "blob_sha": "f386ea3fb7fa4038cd742548dcddd0edf64574d7"
+      }
+    },
+    {
+      "offset": 528482304,
+      "bytes": 8388608,
+      "sha256": "cc413096fc22bd2650858991e23ddd0dec68bf852762db96d763f1834b2319b7",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0064",
+        "blob_sha": "b9fddc07a9846a94434e42c0e497b07d70088f52"
       }
     },
     {
@@ -391,5 +841,5 @@
   ],
   "chunk_bytes": 8388608,
   "expected_git_chunks": 448,
-  "uploaded_git_chunks": 18
+  "uploaded_git_chunks": 63
 }
