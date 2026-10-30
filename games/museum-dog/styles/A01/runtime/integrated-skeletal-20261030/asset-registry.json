@@ -1,0 +1,679 @@
+{
+  "schema": 1,
+  "kind": "a01-asset-registry",
+  "assets": {
+    "specimen_bear": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/specimen_bear/fit-f5fe8549f51365cf.glb",
+      "sha256": "b686bb0922a5a16e91d6f85be5fbabe62d1eb5db6b7abc0cafb0fc373db578c3",
+      "source_sha256": "34a515851a22752a4e9684d3390936a3f880c75fa2d54eaf050d3b8ab38a29ee",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          -1.5300000607967397,
+          0
+        ]
+      },
+      "quality_status": "awaiting_repaired_in_game_qualification",
+      "material_policy": {
+        "mode": "cloth_matte",
+        "metallic": 0,
+        "roughness": 0.85
+      }
+    },
+    "mammoth_front_leg": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_front_leg/fit-beab46e981154ecf.glb",
+      "sha256": "beab46e981154ecfd264a05b08af7e2260e9851bfbedaa610704f0a8ca021c95",
+      "source_sha256": "fda7070deea47c81f4823c0284607062158fe4ad9dca137b3ebe3c6a6d921c92",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_spine": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_spine/fit-7b8dbedf0352a64b.glb",
+      "sha256": "7b8dbedf0352a64b1232e15e04c16810c902dfebbb485c52c6339b8c3c7bb90e",
+      "source_sha256": "02168a480f0fb2e46a41712bd1123c6f52da083fa2fd51b0d775919aca49478f",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_ribs": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_ribs/fit-e1ce76969043507f.glb",
+      "sha256": "e1ce76969043507fbf7eca597cc1ae0b7e0ed55bf37f8e98e2ff34231bc8f8c8",
+      "source_sha256": "cd14d884ab16397d4e400f59e76734dda54f3f871049b2ea296002b60c775ef3",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_head": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_head/fit-4b9a983ed06cb622.glb",
+      "sha256": "4b9a983ed06cb62246e1783eae4d6c6dfb3eb4489dcfb7f63c71f09fe91935ea",
+      "source_sha256": "781bd737e8d75c165b8eba95961a5521c95753988fd66182191cb6713122944c",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_jaw": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_jaw/fit-904e945a6c99c3c9.glb",
+      "sha256": "904e945a6c99c3c9cf49ce239662a090c74b2c12bdf083865b33aff7a580629b",
+      "source_sha256": "56f293a6e0e9b5aee7095caed916a9a29708352b8412a0cce42408954c58e549",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_back_leg": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_back_leg/fit-3ed43279dc829b82.glb",
+      "sha256": "3ed43279dc829b821d4419f7954e228d888a6b9f6a0563f92b534ca30e37b682",
+      "source_sha256": "2308b564eb219c8433297fb869ffb8a1791c9fe2fc45d23d70956343c436e962",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_pelvis": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_pelvis/fit-e9d8dc0be8132cd6.glb",
+      "sha256": "e9d8dc0be8132cd6c6378a2012a09ce5254b4d0497fab885b37370f0e024789d",
+      "source_sha256": "acf354c99451bf10deba1b75e3d1113e63ab6930f1156ab5efa7cf6f6e9e939d",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_chest": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_chest/fit-fda09db741d914d2.glb",
+      "sha256": "fda09db741d914d2ff97bf0f340ad51a88be502838cfd779c10eca612cb91ece",
+      "source_sha256": "88e2e151e2ce1ae38ace54303ec23fb1f0a2b2c489dad4b8496d745c0bf1f070",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_neck": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_neck/fit-128f5c5a8be75eb1.glb",
+      "sha256": "128f5c5a8be75eb18ecf9b7770ee67c8dbe7e114301c832411914afbc16b7828",
+      "source_sha256": "9b4b26fdf19e8b9a8cfd3f0203d025af1ce7b3434ab77ccb34169f5c403d44d9",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "mammoth_tail": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/mammoth_tail/fit-eed3319cf193c208.glb",
+      "sha256": "eed3319cf193c20801ba035c3eb169c3ce0eafc52f0514cb2c81b696043611c8",
+      "source_sha256": "b1893ca41100e63967c87a7d982c7f31e18fc2db9b24b26d295ae52ad6cea1f0",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "dog_player": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/dog_player/skin-d2895cc92b9c3ba6.glb",
+      "sha256": "d2895cc92b9c3ba66ab6ad4fcfd13b615777a92a8f534c6a7c9a1e23c05084f9",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "27-bone quadruped skin; source-bound procedural gait; staged behavior verification pending"
+    },
+    "visitor_staff_head": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_staff_head/fit-49fd15637f64d8ed.glb",
+      "sha256": "49fd15637f64d8ed5e2d7bdb32153bfba7930e04e91683a49284bc883f19e840",
+      "source_sha256": "c21fd14dd960779ebeb239faff9b4289d61d187964c97be494f89be85c52cd18",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_staff_torso": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_staff_torso/fit-18dd7cdf9ad9025b.glb",
+      "sha256": "18dd7cdf9ad9025b66c318c49bf8a1b647850abcfed6df70b733c33e8c879ffc",
+      "source_sha256": "43f982c4a315752d855b344754e4679415b852f9ca179e888a9e241b071d11d5",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_staff_legs": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_staff_legs/fit-1f27eb3a61deacc6.glb",
+      "sha256": "1f27eb3a61deacc691b53fe75627d38756cec1c48db3e297d9b2dec004ac93cd",
+      "source_sha256": "a66eeec362ad001f185a19ddd2842c3ea9caabb430734d702c92a7343c99e785",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_adult_head": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_adult_head/fit-d90a2135ab295e6b.glb",
+      "sha256": "d90a2135ab295e6b595441c658471e121809c5ddc80653c16b94493ac3a55b6e",
+      "source_sha256": "4ec86d7354dfe2f419467ca7d10f49665e7ef86640cd9302e116ffad410273ee",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_adult_torso": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_adult_torso/fit-c79def9d610047a0.glb",
+      "sha256": "c79def9d610047a0ffddfda455c61144b3af5fc5a410b8f00d7dae2f2876e9b0",
+      "source_sha256": "33ba6f9f97e5bb5679b3fa2d1c83c2b9b7fd9086007624e6927bdc7130c3bad6",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_adult_legs": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_adult_legs/fit-c0f39b7e332223c0.glb",
+      "sha256": "c0f39b7e332223c09c9875fc27e0b031ea3c6d9f4fa12c4812451300fefce8f3",
+      "source_sha256": "d7170b1d546686184b2665cf5d316b21ae48bb98c06a6276d87c2743ae8a5176",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_child_head": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_child_head/fit-5f2397e305376587.glb",
+      "sha256": "5f2397e30537658786b4f6f897fbe22ab7f8c71bb526b38f936a6fb845b23155",
+      "source_sha256": "52e049a7b574dcd166247c2c66c452826dd448f5efda069088069898bc8b50b9",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_child_torso": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_child_torso/fit-1beb165c10184cda.glb",
+      "sha256": "1beb165c10184cdaa0e7f433c1d47d15ad89a2ce3bcaee8c87f7545b7a51468d",
+      "source_sha256": "7083218f30371129dde2b8aa0c33973cfec3c15797143811d0c7d8d2d6b220be",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "visitor_child_legs": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/visitor_child_legs/fit-1c3340595d65f118.glb",
+      "sha256": "1c3340595d65f118b8f8f9f2589a9d0ebbcf9d38c7cc4f3f660976d493312c78",
+      "source_sha256": "5412db08d08f67a404be34efd0d5df2fcc18d2d68f1098125938ea538d05e81d",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_vase_a": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_vase_a/fit-aae4ad18a811deab.glb",
+      "sha256": "aae4ad18a811deab8125471ebff1d6e935c2f4f1ff517d8685e3bffcd428ca00",
+      "source_sha256": "cd9865aaf3530f3aa6c10fa4d150fb10f1c465dc783943abacb1d531ef35a656",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_bone": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_bone/fit-f3ef76e6b17ef03f.glb",
+      "sha256": "f3ef76e6b17ef03f0588f21aff2b6f8ae90ae20ef5f635cd10f45597f5aa8691",
+      "source_sha256": "9572c798b5633dda4df46975a9a235145e949d9c58f6259ea1f142b967ef6646",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_bust": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_bust/fit-e3910077045c5789.glb",
+      "sha256": "e3910077045c578933006a796c35a8ac77baf68ac1e081d7e43a687549a8515d",
+      "source_sha256": "6e679e5dd1f62cc4378c2fa7c3dbdd4fb93dda4a2bea0583ec2a53e9ffa80e9d",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "wall_specimen_head": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/wall_specimen_head/fit-43ca33b09fc656c8.glb",
+      "sha256": "43ca33b09fc656c8279b44435de019d75006b9090f0fcc57afa57d2abd61efdf",
+      "source_route": "local_derived",
+      "parent_asset_id": "specimen_bear",
+      "source_sha256": "34a515851a22752a4e9684d3390936a3f880c75fa2d54eaf050d3b8ab38a29ee",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          -0.2680001525878999,
+          0,
+          0
+        ]
+      },
+      "material_policy": {
+        "mode": "cloth_matte",
+        "metallic": 0,
+        "roughness": 0.85
+      },
+      "quality_status": "local_derived_asset_reviewed_combination06_pending"
+    },
+    "prop_rock_b": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_rock_b/fit-fa43044b117d03db.glb",
+      "sha256": "fa43044b117d03db0564a534ef14df04575c67a05709a8f5cfabb669001d1f42",
+      "source_sha256": "2bae0141d4f01f39c0fed9adccb9e04760cb0089cc86885798e0fd5f3f312f61",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_souvenir": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_souvenir/fit-0b3ec417b6ead2e8.glb",
+      "sha256": "0b3ec417b6ead2e8a44f7fedf2405b28f2c940715093249b37b4f0a3ea6c0bd7",
+      "source_sha256": "fd86cf9507b0992497c4539897c37f93d3033fc4b2ff713b03c64ee97f7ce11e",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_rock_a": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_rock_a/fit-7f896f3635486e2b.glb",
+      "sha256": "7f896f3635486e2b2645733abde799224119fd99700773b2116abc63b9737a24",
+      "source_sha256": "b3792ad0877eeef6bfe980e6bd043975c787dd9fd70f89d7a44240916fc88c0e",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_specimen": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_specimen/fit-0b933e3369bf994b.glb",
+      "sha256": "0b933e3369bf994bac089a37a2c576694a0f43e7fca93e06bccbacbb0cf82b7a",
+      "source_sha256": "9b9188a90b0f6ab0768d2021e71308058173a84d4cd551b42482d2e495cd232f",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_vase_b": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_vase_b/fit-a9bb216a9140c896.glb",
+      "sha256": "a9bb216a9140c896acfce7ce2a5c5622c42b0c55cb5b3d3f0f2604927d7956e3",
+      "source_sha256": "bd9c93e8d9c92bb4535c2de841a8bcc4f4fa2fb5d38353b16a1d6560efe7520f",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "prop_vase_big": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/prop_vase_big/fit-e53a8002bcec62dd.glb",
+      "sha256": "e53a8002bcec62dd853fc4eff0d6d2eaf92075eaca0b213db9842e67fba4949b",
+      "source_sha256": "567a515eed8a091cad4152b7dfdcd62aa4a59c0593c2b3f5d2a33338a3215b8f",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "specimen_wolf": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/specimen_wolf/fit-a41c56d59b755f7f.glb",
+      "sha256": "a41c56d59b755f7f105559d41efcb577418debfcb03d82662f7e7fdb80ff51d6",
+      "source_sha256": "628128280bfc203f8893a88a2975f3df25dde726c102481201c3c92ac6b59f0d",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          -1.4550000131130194,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    },
+    "specimen_deer": {
+      "status": "ready",
+      "scene_path": "res://styles/A01/assets/specimen_deer/fit-a21aed3b55dfabdc.glb",
+      "sha256": "a21aed3b55dfabdc8df4f742be460d670c1bc4ce0a53c81876f68d794f8ead54",
+      "source_sha256": "8c9100516155c40a0ff4412889d01591d90b13c031cbb32ea7ed0ab5db0c5a9e",
+      "fit": {
+        "mode": "native_local",
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          -1.6550000607967397,
+          0
+        ]
+      },
+      "quality_status": "actual_source_and_processed_asset_bound_native_review_pending"
+    }
+  },
+  "bindings": {},
+  "scope_note": "Development registry. ready means actual locally available hash-checked source, not human art acceptance. Missing assets remain explicit until generated/processed."
+}

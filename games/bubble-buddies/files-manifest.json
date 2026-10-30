@@ -1,0 +1,2773 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-bath/model-56936d3482e3cac9.glb",
+      "sha256": "56936d3482e3cac9c817bea000e12ba3b06c4bda8e5088df6132f680a8ced177",
+      "bytes": 5386752,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/56/56936d3482e3cac9c817bea000e12ba3b06c4bda8e5088df6132f680a8ced177.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-dryer/model-f31e940798200034.glb",
+      "sha256": "f31e940798200034ff9a458907fb18e853010aa3b45309083dab1adacfee7e7b",
+      "bytes": 6242412,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/f3/f31e940798200034ff9a458907fb18e853010aa3b45309083dab1adacfee7e7b.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-groom/model-0b5f8e7aa49f41e7.glb",
+      "sha256": "0b5f8e7aa49f41e7d0ae63e1cc6d137d22394126bce109cf7456c29e8d0dbc63",
+      "bytes": 4708080,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0b/0b5f8e7aa49f41e7d0ae63e1cc6d137d22394126bce109cf7456c29e8d0dbc63.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-laundry/model-59622672007d7081.glb",
+      "sha256": "59622672007d7081a46ae1c665d87685abca98ec964a0b0f81ae6bf46f9cea25",
+      "bytes": 5362140,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/59/59622672007d7081a46ae1c665d87685abca98ec964a0b0f81ae6bf46f9cea25.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-pawcare/model-ed7b70dd33f4a366.glb",
+      "sha256": "ed7b70dd33f4a366729b5b28a9bacd9c365fe26ceec288f86c87859297232b13",
+      "bytes": 4320080,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ed/ed7b70dd33f4a366729b5b28a9bacd9c365fe26ceec288f86c87859297232b13.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-receive-compact/model-4cbe4816a223578f.glb",
+      "sha256": "4cbe4816a223578f5705a5b59e250140094e2334d11b79c4495d231e275816d2",
+      "bytes": 4200652,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/4c/4cbe4816a223578f5705a5b59e250140094e2334d11b79c4495d231e275816d2.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/eq-receive-large/model-73b20e3c673de757.glb",
+      "sha256": "73b20e3c673de757de2fad30aa860fed3f7282b3da552d48c91864940c9861fa",
+      "bytes": 5029360,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/73/73b20e3c673de757de2fad30aa860fed3f7282b3da552d48c91864940c9861fa.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/owner-body/model-8c36c06abe43e36a.glb",
+      "sha256": "8c36c06abe43e36a4c4217765dfbd3a2d80cbd1f3d12ce24e26dc27e024475e6",
+      "bytes": 6263144,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/8c/8c36c06abe43e36a4c4217765dfbd3a2d80cbd1f3d12ce24e26dc27e024475e6.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+      "sha256": "66c64c3971b68e9c8fb2d3e7398e51650a96e73c9697514818cdf803087cc2b7",
+      "bytes": 6678920,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/66/66c64c3971b68e9c8fb2d3e7398e51650a96e73c9697514818cdf803087cc2b7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/assets/staff-body/model-d49cc149820f80e0.glb",
+      "sha256": "d49cc149820f80e0a667becabbdd07321f1ebd8e9f32eb29dd19f26887d21f59",
+      "bytes": 7952072,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d4/d49cc149820f80e0a667becabbdd07321f1ebd8e9f32eb29dd19f26887d21f59.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/art_layer.gd",
+      "sha256": "bb4e7bf0a9e4e62b2602aaae709d9c0459002b8b5a42d372aef9b5635adc2b3f",
+      "bytes": 12689,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/assembly.json",
+      "sha256": "58bc7b6f84dbfc90e24ad6f7b96984654717f5811e85f9e7ce6058466c9b11fa",
+      "bytes": 27419,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/character_gait.gd",
+      "sha256": "a797598221a5dc755e18ab4dcbb2514c1d434827b0946186e9e992f2151ebf45",
+      "bytes": 4310,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/effects.gd",
+      "sha256": "114353cf4a42d68a808f62c07ddc95023f0efb754027731b5f9b5d5cef59d3e2",
+      "bytes": 16390,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/grass.gdshader",
+      "sha256": "804d14de340cb4331904e102dbd5a879e22b633feceb28ce1b6eeb2c46c7290d",
+      "bytes": 474,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/ground.gdshader",
+      "sha256": "932dfa8562b22919ebc72ba4a50ebf73ee12f8a443fdcae9e72b4131484b246c",
+      "bytes": 1051,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/tint.gdshader",
+      "sha256": "6e9616eda79fd54e19fd7d41ce665024b2e1cdc08b414148a857fcd37f694f7d",
+      "bytes": 4644,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/water.gdshader",
+      "sha256": "cbe0b76848a1c784b4339973f693e1476e604b158fb721bbe62c0ec38bb4fc71",
+      "bytes": 2227,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/env-partition.tscn",
+      "sha256": "6439dc4590c75b89db4a2f0cdbcbbd41f770f03c822a095406ac2646fa14f336",
+      "bytes": 3768,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/env-shell.tscn",
+      "sha256": "8bcec72033f831e3b3ac032a7fcb6f4a239009a621414f9146a07b77f38a0ed4",
+      "bytes": 144108,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/eq-buffer.tscn",
+      "sha256": "5daa6543109f036fa853f873a45e61be4b34af49237a63d95b82b4ad9ea999ce",
+      "bytes": 7016,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/eq-handoff.tscn",
+      "sha256": "11a8e5f59d1ef1d2645580c0947d88c6fed7b19864f0a3b55c3b01ef31a14caf",
+      "bytes": 11225,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/eq-return.tscn",
+      "sha256": "5e2f84f447f4260ad388931684034c919dcff16904d5b06ab0feaf4a94aba423",
+      "bytes": 9978,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/eq-towel-rack.tscn",
+      "sha256": "8e8a7f44e617368682876ea8c3f50540cdecd9f6564668cc60bca502960287d6",
+      "bytes": 7386,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/light-rig.tscn",
+      "sha256": "23ba97299d698738009836dfdede5b71606b1a320736fcfd1fc8caf7be462cb6",
+      "bytes": 2763,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/environment/street-set.tscn",
+      "sha256": "abe077a8d4b13fce160a4d7809a2895887488dd00517527a74d09b2e11b7d0a6",
+      "bytes": 2477,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/play.tscn",
+      "sha256": "2f56d642ee500e44f887b67a172f20c9cc7c9cf1976e2b75a5caed9af622ea6d",
+      "bytes": 449,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/project.godot",
+      "sha256": "afc9b42ce4d66f06722be3ba1f7be84aca30f804490c7a4eaaa75604b5e914db",
+      "bytes": 898,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/shared/engine/care_strip.gd",
+      "sha256": "81392ad025a73ccbe25228b8e0e0f1b1a8d35c97dbe394eed7339cfb7a88ac62",
+      "bytes": 2350,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/main.gd",
+      "sha256": "b754200bfd9064b6ce7cfe2fdf86b8f51539f8051424bc8a2ab32c97b97e7b6c",
+      "bytes": 81961,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/shared/engine/movement_profile.gd",
+      "sha256": "d2d29c8fc1bb6a5e56cc021f91b2cf62c976ffc2e71abbeec5ad5cb720866f17",
+      "bytes": 690,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/shared/engine/salon_audio.gd",
+      "sha256": "22cea160cf80398c099a63985aa3d8dc7ebec0e2f31796f86b32242bf525f5c0",
+      "bytes": 19516,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/shared/engine/salon_model.gd",
+      "sha256": "e631e1550858458dd5ebd4e3b4bb330df142e7e465342cb9bb40775bbc23d817",
+      "bytes": 51441,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/salon_visuals.gd",
+      "sha256": "e9b31a21732d1e4662fd94207bfc59f055c6ae8e0183134156ebf0b5107de8ef",
+      "bytes": 20572,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/shared/engine/shift_director.gd",
+      "sha256": "b044f6bb6892574bc950a7785dc7a15517bd7528a238f3de2563529bfb8f248d",
+      "bytes": 11535,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/greybox/play.tscn",
+      "sha256": "258988024d080dd691c63d8cbd13da21e3a38486c9a836da40be4907832c6ab9",
+      "bytes": 185,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/shared/greybox/main.gd",
+      "sha256": "daac95e3f52a0e12ef7e37b92b831588a80f81d0207befc6c3f331071e3582d2",
+      "bytes": 77804,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/shared/greybox/salon_visuals.gd",
+      "sha256": "912cd8bae5972fad4f8980fc076be3007baca5061f8f3fa74fb8b9414c3751f9",
+      "bytes": 20009,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/previews/v9-greybox-native.png",
+      "sha256": "bbda36c376965e999344f97648baba82ed73accaf99bb23be94d9c5d0223016f",
+      "bytes": 166885,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-D03-qualification.png",
+      "sha256": "82da3c5479af94d839205a5003d5e3405c5dee519c5896e44f4ee9ffd268ebf8",
+      "bytes": 291115,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/previews/d1-r9-native.png",
+      "sha256": "b0542de952cb0092cbd1739feb1bd9c94d88b9643508d2554e6a5147c1b66b5f",
+      "bytes": 746875,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/concept.png",
+      "sha256": "8c0011fde8c2767467da68de781b27cac7c35e2b53897c974c1ee1a287295cb1",
+      "bytes": 1500103,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/concepts/interaction-atlas-v1.png",
+      "sha256": "27b1e219740e7ecd1f39a0cadbb8b6457c067f1ada10808dcd52882d3124ecee",
+      "bytes": 1887928,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/design/sections-v1.png",
+      "sha256": "243cb4aebde60856e82789e8c2ab0967ccf7c4452ad665316e28b942bc777708",
+      "bytes": 324312,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/design/plan-view-v1.png",
+      "sha256": "2cc05d5c4c4f1a06f09456871aac43908833c87ac5b6f77feed5e68d6ff345b3",
+      "bytes": 404505,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/design/spatial-design.json",
+      "sha256": "e0f4d3596eded441a81ee322c26c3d0f2b314763ed9faba572fc64262ade4a5d",
+      "bytes": 108706,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_laundry_door.png",
+      "sha256": "12825ffd88c567b5e5f2fc0eda5ce579f194f3ee868f27be7f312b82dba314e6",
+      "bytes": 1330469,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_towel_rack.png",
+      "sha256": "21f96f5cea229c358a690e07a35317646fc76a1db80fd691a70a7cdc78cb3a89",
+      "bytes": 1211470,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-towel_sheet.png",
+      "sha256": "3bc0041ebe274d6f53f17cbbac67cdc0904f7d935de99934440ae48a7dced7f7",
+      "bytes": 1215979,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_return.png",
+      "sha256": "be487a0cbb75b40cde7a4c82709486b336a23354dba03d1393b6f3360c36d606",
+      "bytes": 1082741,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_handoff.png",
+      "sha256": "ec2c7ab5b8e27373da3fb15c325c04aa30907418b050c627eb432a6a56c60d8b",
+      "bytes": 1124336,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-tool_paw_file.png",
+      "sha256": "e5abe47287e4d8efc307b30bbfbb75c123499eabb2e325df1fe1e4cb926bb503",
+      "bytes": 1194697,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_pawcare.png",
+      "sha256": "2d0686df15610b0576a5f2257224ad05c6eefbf5818ce194d73db1fee70703d9",
+      "bytes": 1062830,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-sign_frame.png",
+      "sha256": "13cc69859075088cddd901df8d5254ad795d2be16ed347b093b02569fb08ff2f",
+      "bytes": 1183876,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-tool_shears_half.png",
+      "sha256": "a894119da98f69ebcf697434137a886c84816440abee6d4968fdcdcea333fc8b",
+      "bytes": 1099276,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_groom.png",
+      "sha256": "462908ce870c4ad054bba4e568a2c92e520ed48d27e59790578a7f29182f36b0",
+      "bytes": 1181116,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_receive_compact.png",
+      "sha256": "e7b132be98da5434413685f72e30489581a9dc2a37aa4fce9c5995bcc79b22ab",
+      "bytes": 1166554,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_treatment.png",
+      "sha256": "09765ead2bbd8cab1318bff5d43e26a21f3b4326fcd809339a2d6344ba8bef4b",
+      "bytes": 1168792,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-tool_paw_clipper_half.png",
+      "sha256": "ba5a28c37da840a3819639b4563c801ef669142e2a7e73338858917cafe2b5a9",
+      "bytes": 1110741,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_buffer.png",
+      "sha256": "45e3fc9ea741279943c1ba325788ad9e8e9011ec8e05bb350445f48c040a720a",
+      "bytes": 1182052,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-staff.png",
+      "sha256": "88cff2b8a3fa55a269ef95faffc9176c78c8a04b7ac7005a97221b6d9c6e4420",
+      "bytes": 1131546,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-pet.png",
+      "sha256": "5b8c613557d2a58d2e242a2b9819bbcfbab57392a81457facbcaeed8948fd2a3",
+      "bytes": 1324996,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_laundry_body.png",
+      "sha256": "6b9b3202e08048cb511e3cc66911693a88ff3bf852b4983e523bfaed1f389120",
+      "bytes": 1221361,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_receive_large.png",
+      "sha256": "9e81a115ed8904896b938a8c5bc3bbf54a692f033fa138a21c5706f19dbc613b",
+      "bytes": 1217556,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_dryer.png",
+      "sha256": "26be05cb7e64ca4b2cbec04ae869bfa51f816cfb722bcedd9706cd832c6acaf9",
+      "bytes": 1240068,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-tool_comb.png",
+      "sha256": "9b1dbd8c270e7dfe7c0f8d05ba2b0db580668bc71b42a1f3fd571874da1b4248",
+      "bytes": 1195144,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-owner_bench.png",
+      "sha256": "07f1b27cdb88b99288dc7ee3866593585de1b744fc3357ece0d01ed3f2a4e803",
+      "bytes": 1144955,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-tool_nozzle.png",
+      "sha256": "f29fb6610586927144c6a1a1cffdfb3a0c08acac7b968ab322fffd31e3d98481",
+      "bytes": 1111185,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-pet_gate.png",
+      "sha256": "939d1318b4d9435f69efc5b8014c8bafff11502cbd5256d495e4419f3265c5dc",
+      "bytes": 1052288,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/modeling-references/D01-eq_bath.png",
+      "sha256": "caf4942fa920823d2f004ecaf5c6980a40653df989894cf41a327263e32d547d",
+      "bytes": 1286686,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/04_real_carry_contact.png",
+      "sha256": "2d9124ab3ec232c472ff064ceace92dc4fc0a874534424f245bad9c37bec8739",
+      "bytes": 349546,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/02_window_wrap.png",
+      "sha256": "ce869287c6bf558c817c299523b0d3441b3323f82ad6a34c000b47ab5a289ee6",
+      "bytes": 335209,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/08_actual_held_towel.png",
+      "sha256": "e26452372e59feb9b0e0cb3ce30479382e2eaeebcf85dd579377f3275ad46be9",
+      "bytes": 336799,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/01_qualification_overview.png",
+      "sha256": "c05f8e43e531d257ae0ed945bf8398edf2c28c8c777d55cca0092fdb56e91ccd",
+      "bytes": 363814,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/07_partition_handoff.png",
+      "sha256": "cd8c18b44425e98cb4481a51502be5fd78710c6675487f9f034df389cea2bf80",
+      "bytes": 343104,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/02_real_work_contact.png",
+      "sha256": "3dfa34d06ca3d132a30c3f961bee8d882f667c123775132f6f698176faf1a091",
+      "bytes": 364472,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/05_closest_legal_work_contact.png",
+      "sha256": "629bbe35ed78833c2edd7a9b08de33c03d97d1c93b62083275dce5c5aec4b820",
+      "bytes": 363823,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/06_far_work_contact.png",
+      "sha256": "5501141deba9fefb4c6c16ddec0d59b87c6bcee205e88de6dad93e1f9332e7bf",
+      "bytes": 364156,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/native-laundry-gate-v1/03_return_snapshot.png",
+      "sha256": "29b4ef144e7fa3d6916c573671d272909629a1b036d23801206667e6c264fc1a",
+      "bytes": 333442,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/tool-assembly-native-v1/shears.png",
+      "sha256": "450ec630e9b718177745e2a480d7081ebdbc4715683d9467e91b356421eb4884",
+      "bytes": 277191,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/tool-assembly-native-v1/water_nozzle.png",
+      "sha256": "1f2fd8d04c1cf1fa12ad606183e9b49e21633dc67c8def0ab20064af347940b3",
+      "bytes": 280007,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/tool-assembly-native-v1/paw_clipper.png",
+      "sha256": "ae9db9e942635790331b2bea745e34ec5b4c07cfeb6b49e560f32b81ac2c79e5",
+      "bytes": 274878,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/tool-assembly-native-v1/air_nozzle.png",
+      "sha256": "8f8fc607a8bd1c34fcd668d81a4c03f7909a7104922cc4bea94f7df49b6461cb",
+      "bytes": 273891,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/qualification/tool-assembly-native-v1/paw_file.png",
+      "sha256": "fa94e93330c3d63d1e895a6c98de2e6a735620b4979a6b252ea31e162ebe60f7",
+      "bytes": 274866,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-staff/asset.glb",
+      "sha256": "3cf7a5e70222e6ea6f8c15757188bddc2bdf480a6141f466ed3a898b41c8ca7a",
+      "bytes": 5930508,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/3c/3cf7a5e70222e6ea6f8c15757188bddc2bdf480a6141f466ed3a898b41c8ca7a.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-pet/asset.glb",
+      "sha256": "6e9be0e31aa2a850b3cfedb419fd638342fc3d5d3643264adf80e9832cf80429",
+      "bytes": 5339036,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/6e/6e9be0e31aa2a850b3cfedb419fd638342fc3d5d3643264adf80e9832cf80429.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_receive_large/asset.glb",
+      "sha256": "5e8894779ffef45cb2294241211ffeebaee7bd89c4eb1150567fdb8b0b039dc7",
+      "bytes": 1067708,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/5e/5e8894779ffef45cb2294241211ffeebaee7bd89c4eb1150567fdb8b0b039dc7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_receive_compact/asset.glb",
+      "sha256": "eff2853dcad9834fb269461d617f5d4e17224c7c51f69d3fe77ee9a100f6759b",
+      "bytes": 998204,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ef/eff2853dcad9834fb269461d617f5d4e17224c7c51f69d3fe77ee9a100f6759b.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_buffer/asset.glb",
+      "sha256": "555281f74b8572fc038bc60a17bf4833e6a4e1cafa9dc52ed03024aa2c011cdb",
+      "bytes": 6547720,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/55/555281f74b8572fc038bc60a17bf4833e6a4e1cafa9dc52ed03024aa2c011cdb.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_bath/asset.glb",
+      "sha256": "d74e25027d4c6d9e8a78295678a04b513a873e4451bcc4031d685817c14be938",
+      "bytes": 3038540,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d7/d74e25027d4c6d9e8a78295678a04b513a873e4451bcc4031d685817c14be938.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_dryer/asset.glb",
+      "sha256": "22b31acf5993c5472fddb49763e965aac112d24a6660d2d14e4617877e108d01",
+      "bytes": 1088244,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/22/22b31acf5993c5472fddb49763e965aac112d24a6660d2d14e4617877e108d01.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_handoff/asset.glb",
+      "sha256": "debc6bfa22e623c02e2c7701d4566a32c3f8b90e557bd18b22e0a3a7d978a9f7",
+      "bytes": 4920208,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/de/debc6bfa22e623c02e2c7701d4566a32c3f8b90e557bd18b22e0a3a7d978a9f7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_groom/asset.glb",
+      "sha256": "c1ae9c1de8083ec4943790ba33b709ff421fb4bc36bb739c2c8bf64d896495c2",
+      "bytes": 614680,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c1/c1ae9c1de8083ec4943790ba33b709ff421fb4bc36bb739c2c8bf64d896495c2.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_laundry_body/asset.glb",
+      "sha256": "d7ffbe4f03b006c4c887ddf497f57f4f975be327aa030e9442185434c8cd9801",
+      "bytes": 73600,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d7/d7ffbe4f03b006c4c887ddf497f57f4f975be327aa030e9442185434c8cd9801.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_laundry_door/asset.glb",
+      "sha256": "91e7be919d6fbeecb9d0c55eaf617a22375523d302253efdd5c6536f02803821",
+      "bytes": 955704,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/91/91e7be919d6fbeecb9d0c55eaf617a22375523d302253efdd5c6536f02803821.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_return/asset.glb",
+      "sha256": "dc979dae928b0925aca084c13880c2b42322f64e7cc68d4ae2240fe308b8a7b3",
+      "bytes": 5259240,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/dc/dc979dae928b0925aca084c13880c2b42322f64e7cc68d4ae2240fe308b8a7b3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_towel_rack/asset.glb",
+      "sha256": "afa85fb2d6430197fed3258d7dce539ceb0a954a288de8fa255dbfa399846376",
+      "bytes": 1379120,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/af/afa85fb2d6430197fed3258d7dce539ceb0a954a288de8fa255dbfa399846376.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_treatment/asset.glb",
+      "sha256": "8490e34ff7b009aace917073837efa76a5267e61e43470b23c79af3880c607d3",
+      "bytes": 1482200,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/84/8490e34ff7b009aace917073837efa76a5267e61e43470b23c79af3880c607d3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-eq_pawcare/asset.glb",
+      "sha256": "555349bb0e7bd906d20b71c6f2a6034e1a91c627aed79f27a8c26658dc7af4eb",
+      "bytes": 4999640,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/55/555349bb0e7bd906d20b71c6f2a6034e1a91c627aed79f27a8c26658dc7af4eb.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-tool_nozzle/asset.glb",
+      "sha256": "c7793626b6551c164973f16af4341922a17407cc6e417e19ff662f700c304b32",
+      "bytes": 611396,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c7/c7793626b6551c164973f16af4341922a17407cc6e417e19ff662f700c304b32.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-tool_comb/asset.glb",
+      "sha256": "b70bc3616d4131cf55cf2a52872634e75a025683c957ae391dc608679eee3782",
+      "bytes": 273728,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/b7/b70bc3616d4131cf55cf2a52872634e75a025683c957ae391dc608679eee3782.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-tool_shears_half/asset.glb",
+      "sha256": "a860272acb0dc6dcbdd529a6d100080b690d2433cb9a8804e923a1a3bb3ceb86",
+      "bytes": 416700,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a8/a860272acb0dc6dcbdd529a6d100080b690d2433cb9a8804e923a1a3bb3ceb86.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-tool_paw_clipper_half/asset.glb",
+      "sha256": "ddfa93e3b5060a586ca8c343a041c2b2a88062b79aa0cb5fbd1a26f11291deb0",
+      "bytes": 7082160,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/dd/ddfa93e3b5060a586ca8c343a041c2b2a88062b79aa0cb5fbd1a26f11291deb0.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-tool_paw_file/asset.glb",
+      "sha256": "0b817571ae9d40487a815609a7fd398743cbca595cc7aa1d69ff8009c99c6195",
+      "bytes": 6462528,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0b/0b817571ae9d40487a815609a7fd398743cbca595cc7aa1d69ff8009c99c6195.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-towel_sheet/towel-forms.glb",
+      "sha256": "7f8c76cd9ed1df6e3e20454147476077f88110b3ab2e1c343a2ee5896f726541",
+      "bytes": 149880,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/7f/7f8c76cd9ed1df6e3e20454147476077f88110b3ab2e1c343a2ee5896f726541.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-owner_bench/asset.glb",
+      "sha256": "7ad99f75231019b41be389e62f47cddeb0a8c58103ca2f328c69d76562a32490",
+      "bytes": 1063936,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/7a/7ad99f75231019b41be389e62f47cddeb0a8c58103ca2f328c69d76562a32490.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-pet_gate/asset.glb",
+      "sha256": "0475bd95a71f89d1e3cdb681cc6bc93c570aaefa45079f98fb0315d6574b9500",
+      "bytes": 7761424,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/04/0475bd95a71f89d1e3cdb681cc6bc93c570aaefa45079f98fb0315d6574b9500.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/assets/D01-sign_frame/asset.glb",
+      "sha256": "0ff7a4859680e047a8351b007948a8f4459f0b5347ccc1392621fd56901617fe",
+      "bytes": 783944,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0f/0ff7a4859680e047a8351b007948a8f4459f0b5347ccc1392621fd56901617fe.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/proxy/profile.json",
+      "sha256": "bb3df21d010d75d248256155b5416f20d895b7b3aa69dcd8196b3a1c1d28e275",
+      "bytes": 661,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/concept.png",
+      "sha256": "53c1d748be81bd398e11a268606fb9807e1d7fe812d7138ed65b1d9872cfe38a",
+      "bytes": 2424495,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/concepts/interaction-atlas-v1.png",
+      "sha256": "0cc737036cc6b7511425314cc1cf274ecf270002a0604bc0c957026e982a71d7",
+      "bytes": 2602935,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/design/sections-v1.png",
+      "sha256": "745015dea2e5ea600209fefe241d738b021b37b8bf7ea642c719fc3f82ff1159",
+      "bytes": 324051,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/design/plan-view-v1.png",
+      "sha256": "5313a46afc5bbb618b5d40eb601d47e9a8c0e8d45746be0b9342a3b665cdba38",
+      "bytes": 404035,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/design/spatial-design.json",
+      "sha256": "cc8038c38a9baca03a37dba338cbd2d1b6d5ce50fb703532d836a9767e2feb6d",
+      "bytes": 109012,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_buffer.png",
+      "sha256": "ccfb4ce012fbff365286514dcccdf4b04eb68245cc2e721268bfa0f762688d6a",
+      "bytes": 1727221,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_pawcare.png",
+      "sha256": "1c01e3fd811d5fdcb8d9e8f49b4868f634ca02cecfd560478f0eb6991644eb1d",
+      "bytes": 1592180,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-sign_frame.png",
+      "sha256": "4c5cc7cb7479eacf7dcc97d55a5aeb43ece6282da664378bd242848cd87e5cef",
+      "bytes": 1418526,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-staff_rabbit.png",
+      "sha256": "7e4ba0135da449e0f5b9334814b454772c650bb912dbf24c099c6b14c8943b2c",
+      "bytes": 1611946,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-owner_bench.png",
+      "sha256": "6ee9c7614adb46ba8bf142e579a6cc67afd099d04b70c3d288228e852a5dc738",
+      "bytes": 1677249,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-tool_nozzle.png",
+      "sha256": "8cbc8aeace9401c16c3945501eec4c16c96a8418daca54eeb5d4d40476a73eb0",
+      "bytes": 1365520,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_receive_large.png",
+      "sha256": "b2fb94c3b0ae3dcb4ee3cebd4f8b6ab8e8eb2e79ef9ee925e89e68cf390d3e67",
+      "bytes": 1844651,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-pet_gate.png",
+      "sha256": "f30fe05940b99fbd92ad4c137fcb90760a047234612bf7303a786b0d42a77f9a",
+      "bytes": 1509093,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-tool_comb.png",
+      "sha256": "b1f1441ea49120511254fbd5f9bc27ec5837054d4047e0fe34c054dcfecc60ae",
+      "bytes": 1601010,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_treatment.png",
+      "sha256": "b9772dfc6a0a3ad42c1859f48a38e817a022e6c35fb7ccab9bdc84a2f1ce3978",
+      "bytes": 1707194,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_handoff.png",
+      "sha256": "9f6232a4774a5dcfacc78c0f35de91b3d9f28634d8eb5d73fdebc4449507c790",
+      "bytes": 1264838,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_laundry_body.png",
+      "sha256": "575de494e457da2330aa62a84ea4ef0cb0223c3f3590d2eaf0c6df87d9eb2936",
+      "bytes": 1698869,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_dryer.png",
+      "sha256": "28e72541e3d04718a6ff3c4a81f10eb9995a76d6eead3ec07a12e56e913c6490",
+      "bytes": 2205239,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-pet.png",
+      "sha256": "a12ceb28b3b0ab9298ea8950d737030c8f33cf03079435e25076696e2324deda",
+      "bytes": 1526102,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-staff.png",
+      "sha256": "d72fe978d1c3e8d419fcb11aa8fd6a49e89992e5cf7180543adc34718a9b443b",
+      "bytes": 1603661,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_return.png",
+      "sha256": "61c7759a20986ecb8d6cffeb2e9817e921b6c582b832f97b408254b9b96b42ff",
+      "bytes": 1538389,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_bath.png",
+      "sha256": "605315af537cc5b3fff62d3762d6e5d985607415f467aa12e7a67049ba8851b5",
+      "bytes": 1667336,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_receive_compact.png",
+      "sha256": "ad780389c319594cbd56ced41c6159eaf61866aef5e19894da226329117acb33",
+      "bytes": 1820840,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-tool_paw_clipper_half.png",
+      "sha256": "afdaef06b7c5903553948c70420a3687226d17ee2cd742a44bbf41110d7b1f2c",
+      "bytes": 1539193,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_laundry_door.png",
+      "sha256": "54dc200a0376b6c8038db139b390d5096cd0b4e9dab4b6ce7ae309fa3ae245c8",
+      "bytes": 1417287,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_groom.png",
+      "sha256": "685153d922eddcf110898578349847eb2916f7d2d9c65cddbada8ab7a3b61ccf",
+      "bytes": 1675924,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-eq_towel_rack.png",
+      "sha256": "c6d443692fcad98290ef7f65261edd5c2abd57a1716bd1ec1dc4cde267ab7a86",
+      "bytes": 1615394,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-towel_sheet.png",
+      "sha256": "0c92f368c18ae61da748a71f149748a82ede2eaa7385a86f144e93dcd121e15b",
+      "bytes": 1953642,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-tool_paw_file.png",
+      "sha256": "9f3d93481762f7b1700c1a4d006b4eac81facdc49356785f531f3c59e5a23be0",
+      "bytes": 1501823,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/modeling-references/D03-tool_shears_half.png",
+      "sha256": "26e9969d8b4d4038a2f7d12f76e6a0da1bf20355ad930f614d3ed517cf161e8d",
+      "bytes": 1512736,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/04_real_carry_contact.png",
+      "sha256": "fb67f70417780d7a1787f65fdb318798c77747ddb423dd23ed1972e3ae82b3c2",
+      "bytes": 275428,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/02_real_work_contact_staff0.png",
+      "sha256": "5cf4dfb55e4ec2304c5a5ac61b3c77a1c5bdaccf80bf6556de5b0626c770b58e",
+      "bytes": 288201,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/02_real_work_contact_staff1.png",
+      "sha256": "bf697eba9f4f29add5389ab989ff11b9935ccf79bc0e608239e27ed7c85d9782",
+      "bytes": 290729,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/02_window_wrap.png",
+      "sha256": "5d55484af13ca86b1003d673f165b7d570a0ab3008b485faa265eb13f0c3a896",
+      "bytes": 265327,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/05_closest_legal_work_contact_staff1.png",
+      "sha256": "522e8bcd377993d243cd6220bcbf4b7fe696fd431dcbf42b9c18c5debfb2b840",
+      "bytes": 290861,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/08_actual_held_towel.png",
+      "sha256": "c5d86c4680a9e148ba634e6f3a7f8d2b0c668cbbfeb338fff38ca7b8f00bfce3",
+      "bytes": 266437,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/05_closest_legal_work_contact_staff0.png",
+      "sha256": "2830a103958022159ddd5b6c936560b7ff0800690e9fbbb15936278ca47cb3de",
+      "bytes": 288240,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/07_partition_handoff.png",
+      "sha256": "7a0b88ca2c03e006e173adc9a7c5a954ae3d1540605005e9bc2363c63710141e",
+      "bytes": 273018,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/06_far_work_contact.png",
+      "sha256": "c31c3e7760fc7ba1cf8e09f42582ac682a61add7f7c1a7dfd48fe902590d7d47",
+      "bytes": 290657,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/09_rabbit_carry_contact.png",
+      "sha256": "6fc5266684eee6380fc567bdc1523bf809b99922291d9c3ac5cf2e2d2a18993d",
+      "bytes": 276410,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/qualification/native-pet-approach-v1/03_return_snapshot.png",
+      "sha256": "197c60822eab1602370f7b554b1b887e1e7ad6f479fdac5c2ce06e4aaca0b77b",
+      "bytes": 262715,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-staff/asset.glb",
+      "sha256": "a176473ade16baa17c28c2751c3d649d5ce4dff63b923afdfac5e617f5092c26",
+      "bytes": 6841968,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a1/a176473ade16baa17c28c2751c3d649d5ce4dff63b923afdfac5e617f5092c26.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-pet/asset.glb",
+      "sha256": "bf74f0aff7392bd32a4795bf8a60974e35538115d28ba3428e69bef34dbd9f68",
+      "bytes": 10096240,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/bf/bf74f0aff7392bd32a4795bf8a60974e35538115d28ba3428e69bef34dbd9f68.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_receive_large/asset.glb",
+      "sha256": "787896a0704ab4d48ade7c31cd872842e8b7d4250e66c97546670e9d218453f6",
+      "bytes": 8454136,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/78/787896a0704ab4d48ade7c31cd872842e8b7d4250e66c97546670e9d218453f6.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_receive_compact/asset.glb",
+      "sha256": "5d1fb346f95e72c30aee7aad6c58f5e8bc9f4d6b31bcedfc77ba53c8e7c6e09e",
+      "bytes": 2478820,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/5d/5d1fb346f95e72c30aee7aad6c58f5e8bc9f4d6b31bcedfc77ba53c8e7c6e09e.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_buffer/asset.glb",
+      "sha256": "e912021d8c0aee18d17a0af3ddb43ea2eafe1df0687a7a10267edb5e035146c5",
+      "bytes": 7808796,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e9/e912021d8c0aee18d17a0af3ddb43ea2eafe1df0687a7a10267edb5e035146c5.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_bath/asset.glb",
+      "sha256": "e6d188c9f1bdcf285d9dfac3f98b1eb8d00a20a0cdda905af193ca1856b4e917",
+      "bytes": 1740596,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e6/e6d188c9f1bdcf285d9dfac3f98b1eb8d00a20a0cdda905af193ca1856b4e917.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_dryer/asset.glb",
+      "sha256": "0d0bdb30053d20a246875595e264bce059673a84e85feb3b92c9515259d39cc8",
+      "bytes": 8086120,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0d/0d0bdb30053d20a246875595e264bce059673a84e85feb3b92c9515259d39cc8.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_handoff/asset.glb",
+      "sha256": "93cbf99e01971819254a3ec5a15072128d5aaacd349ea8c033d0a3d5530c2077",
+      "bytes": 6895240,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/93/93cbf99e01971819254a3ec5a15072128d5aaacd349ea8c033d0a3d5530c2077.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_groom/asset.glb",
+      "sha256": "2e6f852548c67ce4a4290718727d266ad904968e8b750dd27a056c7decc3d635",
+      "bytes": 9477628,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/2e/2e6f852548c67ce4a4290718727d266ad904968e8b750dd27a056c7decc3d635.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_laundry_body/asset.glb",
+      "sha256": "0216b7f34a4529d15e09d533347ce209f9b8ec9525fa1be1eff0f5022a912cd9",
+      "bytes": 7749712,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/02/0216b7f34a4529d15e09d533347ce209f9b8ec9525fa1be1eff0f5022a912cd9.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_laundry_door/asset.glb",
+      "sha256": "f6111fd8e817fe0b8e61c18072a27f92e9315f2538229442a3726225e17a196f",
+      "bytes": 8676356,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/f6/f6111fd8e817fe0b8e61c18072a27f92e9315f2538229442a3726225e17a196f.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_return/asset.glb",
+      "sha256": "72879ed30e60727d97438e701b436454a637ac79776ffb8108e3f44691314610",
+      "bytes": 7638724,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/72/72879ed30e60727d97438e701b436454a637ac79776ffb8108e3f44691314610.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_towel_rack/asset.glb",
+      "sha256": "e9dca6b0a5c25e43dabafb95fa04901f3ae1390e436470236f7fa7a48217bcfd",
+      "bytes": 10951972,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e9/e9dca6b0a5c25e43dabafb95fa04901f3ae1390e436470236f7fa7a48217bcfd.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_treatment/asset.glb",
+      "sha256": "4fcb6c5121a155243e3fc430ae70ba215753613e8ce79bdd8e94fc31750de861",
+      "bytes": 5530420,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/4f/4fcb6c5121a155243e3fc430ae70ba215753613e8ce79bdd8e94fc31750de861.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-eq_pawcare/asset.glb",
+      "sha256": "722a4abd4c8ec895ea89852d0b9a9410a7a68ede96bd730c2ee463740505cb1e",
+      "bytes": 7596024,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/72/722a4abd4c8ec895ea89852d0b9a9410a7a68ede96bd730c2ee463740505cb1e.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-tool_nozzle/asset.glb",
+      "sha256": "1f231f327ced9bdcff5f49dc5aaf3b0562aced28b94707783898cb33fded0579",
+      "bytes": 11028088,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1f/1f231f327ced9bdcff5f49dc5aaf3b0562aced28b94707783898cb33fded0579.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-tool_comb/asset.glb",
+      "sha256": "45b9359175520dcb799d5f3b01375617207bcd0a4e2f050dd4860e04450a3c49",
+      "bytes": 765284,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/45/45b9359175520dcb799d5f3b01375617207bcd0a4e2f050dd4860e04450a3c49.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-tool_shears_half/asset.glb",
+      "sha256": "b45e94ecd9818dd7cf454113f018f70550462a7ffab34ea921ed0a62dbde0b1d",
+      "bytes": 7921932,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/b4/b45e94ecd9818dd7cf454113f018f70550462a7ffab34ea921ed0a62dbde0b1d.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-tool_paw_clipper_half/asset.glb",
+      "sha256": "123a06e38cd162185e72704f37f1678b807814d94bf5b4ee36ae5b0ae79d7054",
+      "bytes": 8361940,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/12/123a06e38cd162185e72704f37f1678b807814d94bf5b4ee36ae5b0ae79d7054.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-tool_paw_file/asset.glb",
+      "sha256": "82013a85bd4612077204850e6aad52ad1ac01f28ccc29844b467940c15d1608c",
+      "bytes": 11266568,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/82/82013a85bd4612077204850e6aad52ad1ac01f28ccc29844b467940c15d1608c.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-towel_sheet/towel-forms.glb",
+      "sha256": "483656e1a021c0e9d864be70fe5dd5aa744acb6a97ad6489dc7ae4c40881f1a3",
+      "bytes": 211836,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/48/483656e1a021c0e9d864be70fe5dd5aa744acb6a97ad6489dc7ae4c40881f1a3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-owner_bench/asset.glb",
+      "sha256": "560f2f1ee151bb23fd8405f77acafdc4962e0998664da4445be2d1265d0c1716",
+      "bytes": 9831388,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/56/560f2f1ee151bb23fd8405f77acafdc4962e0998664da4445be2d1265d0c1716.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-pet_gate/asset.glb",
+      "sha256": "64189418e1c6915b1d0361c9a133b366dc90fd3e045936c29343ade928323be5",
+      "bytes": 8652576,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/64/64189418e1c6915b1d0361c9a133b366dc90fd3e045936c29343ade928323be5.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-sign_frame/asset.glb",
+      "sha256": "c6a45cc3fdff43a970eb34f4dd9a025b895b1c34795de7f0e6e8987b1a93e10a",
+      "bytes": 6732424,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c6/c6a45cc3fdff43a970eb34f4dd9a025b895b1c34795de7f0e6e8987b1a93e10a.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/assets/D03-staff_rabbit/asset.glb",
+      "sha256": "e4810e1f301e012ac0f2e3b67839b76da98db01089790146082559e0a68423a7",
+      "bytes": 6691284,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e4/e4810e1f301e012ac0f2e3b67839b76da98db01089790146082559e0a68423a7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/proxy/profile.json",
+      "sha256": "61f3c21fb53f5fe7d5dace833c9f93ad0d09ad5b77f0a13fa399ddbe4421d873",
+      "bytes": 659,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/concept.png",
+      "sha256": "9b654d59aecb93c1ea8715593acf3eaf91769339651a1f4cfed0f0b48761faed",
+      "bytes": 1591205,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/concepts/interaction-atlas-v2.png",
+      "sha256": "a17725bf6f499ad455b2342084d0da2d3713e810621d1348207470db653813c6",
+      "bytes": 2248412,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/design/sections-v1.png",
+      "sha256": "2359ef2af9a7b3b0fd912a58e7e536a770e51061c2a27813ee37c7cee06f05c9",
+      "bytes": 324676,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/design/plan-view-v1.png",
+      "sha256": "b57b61ad7b3db6c7771f7a58cd92c757dc3ae091884c268c45715bd8547a07ff",
+      "bytes": 405930,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/design/spatial-design.json",
+      "sha256": "c9819604464b35cb991660363cd209bbefa54b2c7e8e72cdc275454a5eda8470",
+      "bytes": 109278,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_towel_rack.png",
+      "sha256": "84b9e15d6c08d43f3010477949ac6a8d116d0d82bfed395d4b3f32ef8ef77042",
+      "bytes": 1132583,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_dryer.png",
+      "sha256": "9f0914ebc53978d3a1a431fe94aa82f2274c6f4a1953eef335b75c31cbb3a5c1",
+      "bytes": 1241828,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-pet_gate.png",
+      "sha256": "e7a4b3ab613348edb919e12b2f8cf45d9cfdb17eb99db1996b69ed5535054504",
+      "bytes": 1078228,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-tool_paw_file.png",
+      "sha256": "02499569b11464ca18d31e217a2508ebe99bd8969aa254b3b0e6e68af32c3c3e",
+      "bytes": 1219916,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_buffer.png",
+      "sha256": "58bee99008da08e9e9e0c3d90efbc355b04d03c007acfc4aa1796238679f18f6",
+      "bytes": 1260607,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_laundry_body.png",
+      "sha256": "8ff63146d9e184678a4cfb852a6cbf1d2de022b99e7265889695ce1024533c25",
+      "bytes": 1265830,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_bath.png",
+      "sha256": "f34ad3373943f248e5c4249bd945349a14bd125b72fcf7075f8267679f9f33aa",
+      "bytes": 1214278,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_treatment.png",
+      "sha256": "052a88821d031d8967bbe5fe66a2836835e875e2dcfd6700a759e08b7f13320e",
+      "bytes": 1144719,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-owner_bench.png",
+      "sha256": "2850f79fd0a935485a7e714cf7c171cf0289e63291f3c935498252d34604add4",
+      "bytes": 1132456,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-tool_shears_half.png",
+      "sha256": "1d51dd4ac4c9862aaa2bd8a1ec95ef3b85e8677bb2c90cbb82fab88cb6453637",
+      "bytes": 1206529,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-tool_comb.png",
+      "sha256": "34aeaeac96bba870660f790b0c7fa8a0ed0878185eeb107b6de934da19f2828c",
+      "bytes": 1206958,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-tool_nozzle.png",
+      "sha256": "d6e4f0d419e4e49803b453ca591dabacf993d452e5bfdf25252cf596d2e3a006",
+      "bytes": 1153030,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_receive_large.png",
+      "sha256": "10a42c9f2e0d7633d0ae56ff96816a0430c3d53858431b6227495c2b38c0073b",
+      "bytes": 1258044,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_laundry_door.png",
+      "sha256": "b49c4e6033b5ea389c80719beb38f5b66a587b177f9779c4f8f3d1cc435ec3aa",
+      "bytes": 1225737,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-towel_sheet.png",
+      "sha256": "f3792419dfdfcd466f99618acd036d03eda97c6fa702a8cdfdf60ef8bb834be4",
+      "bytes": 1309469,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-pet.png",
+      "sha256": "13ed77ecdcdcc63644500de4779e0d162cc2651772c9b3bdf0ea7cb8dd53d1dd",
+      "bytes": 1332338,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-staff.png",
+      "sha256": "d1a1a4930207c2a6f8abcea58d4f94adba61de374287f334dbb8a87cd334f654",
+      "bytes": 1368452,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_groom.png",
+      "sha256": "0f02266f56f7bc3450a3483963c5e2a32006788053177b4182abf63cc61aa5a1",
+      "bytes": 1184250,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_handoff.png",
+      "sha256": "f517d8d380d721bfb593de8042e464de633897cf75a93a0f8efbe8c7d88dedfa",
+      "bytes": 1122740,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_return.png",
+      "sha256": "e69ecd8af893c61422a74b2fcc936dad6478e09f732e20df85ef6f395e05b8d4",
+      "bytes": 1238117,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-sign_frame.png",
+      "sha256": "542a2b30aa5b6d59152c4e0cc1b4e1505791a4556247be524bfab9891b9f404b",
+      "bytes": 1050835,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_pawcare.png",
+      "sha256": "ae48a9af96c474c66055e31520fb11e07c9b1a0268439be420a94669450bbc6b",
+      "bytes": 1211455,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-tool_paw_clipper_half.png",
+      "sha256": "9f1c4fba433194d0153c6295ec92b07887d8083ee79ea3ff1fce35dbc1db1a5e",
+      "bytes": 1103740,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/modeling-references/D05-eq_receive_compact.png",
+      "sha256": "eb86b450507e815a427617334f883d6d7373b8576943da880d73c8c3ab1ebf54",
+      "bytes": 1220899,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/04_real_carry_contact.png",
+      "sha256": "cb520a0a8cb435214553c314a758a977e0990508ba9d20bf2136c7d4c0244aa7",
+      "bytes": 225403,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/02_window_wrap.png",
+      "sha256": "30b67d623872bbe7f9cae99b9a377ad73a684b41edd1958792e1a36e4489423f",
+      "bytes": 214726,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/08_actual_held_towel.png",
+      "sha256": "cc4daaf8c67c2ffd82bc2093a2daa86b8cddcd031d91b7ecd551ec97216e3815",
+      "bytes": 216502,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/01_qualification_overview.png",
+      "sha256": "d17d47ded93a2537d56faa49e6dba3da3c731096274342a2567e638a2a736c59",
+      "bytes": 243993,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/07_partition_handoff.png",
+      "sha256": "69d3f34b82e6ba2902d074c05c51c1b1e090cd334421a9b0a0df74f7be10521e",
+      "bytes": 223299,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/02_real_work_contact.png",
+      "sha256": "d5e803421713621f19088dc2f50a239399311f89f24e6afa7a34cdff1985e098",
+      "bytes": 244536,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/05_closest_legal_work_contact.png",
+      "sha256": "a51fc8c2a08229595b4269541e32157f0239dc48e113ee842a9671c1398b4bd2",
+      "bytes": 244403,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/06_far_work_contact.png",
+      "sha256": "b515daedeeb409ac45e097be9adc4d92d45d53ba41cdf4f6c75e45fad2694509",
+      "bytes": 244274,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/qualification/native-pet-approach-v1/03_return_snapshot.png",
+      "sha256": "32f45b3c6af5b29dea36a4cee838507e233ba97d9097f6a9ae2128f2a2717042",
+      "bytes": 210682,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-staff/asset.glb",
+      "sha256": "d5f92993eb831c0258638c4ec64bcd43be162ec61a24e960a370dad1914fb025",
+      "bytes": 7581704,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d5/d5f92993eb831c0258638c4ec64bcd43be162ec61a24e960a370dad1914fb025.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-pet/asset.glb",
+      "sha256": "764959b8674ad2a913e904028683a82fe4d036aedd03434ab488c5f88bce3a55",
+      "bytes": 9454700,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/76/764959b8674ad2a913e904028683a82fe4d036aedd03434ab488c5f88bce3a55.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_receive_large/asset.glb",
+      "sha256": "1d8e62730a078b18d1a627afa6f9b121f278d99637a64aaa345db6f8623820bb",
+      "bytes": 6178700,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1d/1d8e62730a078b18d1a627afa6f9b121f278d99637a64aaa345db6f8623820bb.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_receive_compact/asset.glb",
+      "sha256": "28783cb98b898e7d2fc3f81cbe66036713fb5a307a5abbe33ef2e30c4b5d9c68",
+      "bytes": 846260,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/28/28783cb98b898e7d2fc3f81cbe66036713fb5a307a5abbe33ef2e30c4b5d9c68.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_buffer/asset.glb",
+      "sha256": "f5d88f5d38c7da371a5230176ac4e5e7be16350b7eeb6cb91792037d79e873a2",
+      "bytes": 5947456,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/f5/f5d88f5d38c7da371a5230176ac4e5e7be16350b7eeb6cb91792037d79e873a2.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_bath/asset.glb",
+      "sha256": "e75c17ed815da6ce6ea41ff1c1ab36987d0587726e6aebffe9ffbe047bfac151",
+      "bytes": 3538864,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e7/e75c17ed815da6ce6ea41ff1c1ab36987d0587726e6aebffe9ffbe047bfac151.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_dryer/asset.glb",
+      "sha256": "1aff6fdb51453e2338886fea0c414edb8d1e504bb92b5d8193284dd581611efc",
+      "bytes": 5624552,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1a/1aff6fdb51453e2338886fea0c414edb8d1e504bb92b5d8193284dd581611efc.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_handoff/asset.glb",
+      "sha256": "38d9eb714926c34da5925160d7cb42d6d394c473a5b77036f39d3186fdef3d20",
+      "bytes": 4169832,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/38/38d9eb714926c34da5925160d7cb42d6d394c473a5b77036f39d3186fdef3d20.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_groom/asset.glb",
+      "sha256": "3c4d8668550f26d4775cf26b11856f0e01a77f2d170b98c8674c7c69b47c91dc",
+      "bytes": 4725332,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/3c/3c4d8668550f26d4775cf26b11856f0e01a77f2d170b98c8674c7c69b47c91dc.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_laundry_body/asset.glb",
+      "sha256": "dcfc26db52058180569fa62d89565580c1f772c99a60f4299f22b3caa7606afe",
+      "bytes": 3749196,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/dc/dcfc26db52058180569fa62d89565580c1f772c99a60f4299f22b3caa7606afe.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_laundry_door/asset.glb",
+      "sha256": "60d95dc03eddb4cd7af490dd4879524b9e62ca99c2e571ad57c80205c2e90e9e",
+      "bytes": 741848,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/60/60d95dc03eddb4cd7af490dd4879524b9e62ca99c2e571ad57c80205c2e90e9e.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_return/asset.glb",
+      "sha256": "f2c3186be28bcc3542afa2f8fed0950a2084dbd51cab0c89ee4f1aa070d6efb4",
+      "bytes": 581876,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/f2/f2c3186be28bcc3542afa2f8fed0950a2084dbd51cab0c89ee4f1aa070d6efb4.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_towel_rack/asset.glb",
+      "sha256": "e90e39be439a212b060f7d8d037c3ee62591e6ad4483348422e93e87c94a5f43",
+      "bytes": 6242496,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e9/e90e39be439a212b060f7d8d037c3ee62591e6ad4483348422e93e87c94a5f43.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-eq_treatment/asset.glb",
+      "sha256": "a815c4238ced35d1889b461d4fbf58e418836996ce6b2018984539baef0ebbab",
+      "bytes": 1209288,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a8/a815c4238ced35d1889b461d4fbf58e418836996ce6b2018984539baef0ebbab.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-tool_nozzle/asset.glb",
+      "sha256": "434865fa85f991497466e5de8c5acf2ba328790ea3f651dcc63797f4f96b5b28",
+      "bytes": 6522788,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/43/434865fa85f991497466e5de8c5acf2ba328790ea3f651dcc63797f4f96b5b28.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-tool_comb/asset.glb",
+      "sha256": "2fa1f875b148a33ab382cdf25c256269fb2c9ab4cb850d45283ed6dbb7c04887",
+      "bytes": 759064,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/2f/2fa1f875b148a33ab382cdf25c256269fb2c9ab4cb850d45283ed6dbb7c04887.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-tool_shears_half/asset.glb",
+      "sha256": "fc4dac66ecb3b43b72d90275d747832b75d488500cdeced69c6c9ba90102e944",
+      "bytes": 822616,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/fc/fc4dac66ecb3b43b72d90275d747832b75d488500cdeced69c6c9ba90102e944.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-tool_paw_clipper_half/asset.glb",
+      "sha256": "ea9a65de5cc1154dc93f50eecb0985d3a16ec27a7f0bbe6b0f98917f818fb84e",
+      "bytes": 1194148,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ea/ea9a65de5cc1154dc93f50eecb0985d3a16ec27a7f0bbe6b0f98917f818fb84e.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-tool_paw_file/asset.glb",
+      "sha256": "11cd7c1420218b5157fa1cd30e1e3a06793fad981f47aaa73da59789250b3bfb",
+      "bytes": 5969268,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/11/11cd7c1420218b5157fa1cd30e1e3a06793fad981f47aaa73da59789250b3bfb.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-towel_sheet/towel-forms.glb",
+      "sha256": "7bbcb9c5ae95b73421bd8d22b4219659559e9bc93c96250def60963d82c94dee",
+      "bytes": 140372,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/7b/7bbcb9c5ae95b73421bd8d22b4219659559e9bc93c96250def60963d82c94dee.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-owner_bench/asset.glb",
+      "sha256": "183f58cc8f40a301781a2db4ca0f1083d132e7aa2e0dede346307a411edbc34b",
+      "bytes": 724120,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/18/183f58cc8f40a301781a2db4ca0f1083d132e7aa2e0dede346307a411edbc34b.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-pet_gate/asset.glb",
+      "sha256": "a857b1f16db175d5585390a2b202d9c273d21ad71c8d1630ee82c81722972578",
+      "bytes": 4719616,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a8/a857b1f16db175d5585390a2b202d9c273d21ad71c8d1630ee82c81722972578.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/assets/D05-sign_frame/asset.glb",
+      "sha256": "dcf581eefe312297ef368b37518ac699ef5beb01af8761ddbb45c9b2799a807f",
+      "bytes": 5135852,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/dc/dcf581eefe312297ef368b37518ac699ef5beb01af8761ddbb45c9b2799a807f.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/proxy/profile.json",
+      "sha256": "cd72537cb5a16356f94ff31cb82e5c77b0632bf6d74f1644d76863276851e648",
+      "bytes": 660,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/concept.png",
+      "sha256": "33946a6c30eab3b06210e97bb0ab0d9ee90b70ac4d3b6efe8877db86b0f962cf",
+      "bytes": 1798865,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/concepts/interaction-atlas-v1.png",
+      "sha256": "6e671c7036e313c5321bc897959c3962b7517b634318ae0eff24ff5c3f1f98c7",
+      "bytes": 2133325,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/design/sections-v1.png",
+      "sha256": "100a66a54c859b897aabe5601702c4236308e6e41737cebfdd3ce173ba4bb772",
+      "bytes": 326518,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/design/plan-view-v1.png",
+      "sha256": "f1e0ff29d6457affe347020522113fa3614498bfb7c6d4c4a182c768ce71eedd",
+      "bytes": 406234,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/design/spatial-design.json",
+      "sha256": "0df8b8f0f7595527560263f50523eba33a7d16cc9b7970625758760a62d64afe",
+      "bytes": 110089,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-tool_shears_half.png",
+      "sha256": "3f94eb03fe90d1b053ca83948c65e2bc460c30be05d370d56fd213f15920f634",
+      "bytes": 1113434,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-tool_comb.png",
+      "sha256": "eeba57afaec9fead21d58ee60f30a702f045cfddcf94e99f317a353dab46fb85",
+      "bytes": 1114986,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_laundry_door.png",
+      "sha256": "10c7d0695c0d441f8195f5212e07be51070024e80355257d48634d1453673c52",
+      "bytes": 1167859,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_groom.png",
+      "sha256": "a4d48250610e57f749a227e923e6a26c328067eafa78a0a8ca4f4fd99fb96cf8",
+      "bytes": 1238914,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_handoff.png",
+      "sha256": "436c0ecc3d3c66bf983f187aff2fc469745773d39c56e1759286b849193060fa",
+      "bytes": 1136583,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_treatment.png",
+      "sha256": "8574a1b1df96eb7674775774964caa12c92111719fc5bacf8e846dbcb8a1f4e6",
+      "bytes": 1260164,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-sign_frame.png",
+      "sha256": "132b2b09b5a8355efddcdb254ff1e0652dc69afafb7fc013e31fd91b109adb38",
+      "bytes": 1137975,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-owner_bench.png",
+      "sha256": "d1a044a2f03d4614519c8c723e3d0e323de4423cbb5353dc0ffa72f3a727c960",
+      "bytes": 1073057,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-staff.png",
+      "sha256": "afbcccbb2de88ba840cf8f29a66086233aa33f1f01200690be3f25109c99568c",
+      "bytes": 1195326,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_pawcare.png",
+      "sha256": "63afaa857325c6922054a2a43d82b81ec1e8117199b0e576b659ad6b958947c0",
+      "bytes": 1111164,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_buffer.png",
+      "sha256": "15750ac77a1ce2549486bd2679723e3aeb5512110562adb6f24a9250171700cb",
+      "bytes": 1170233,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-tool_paw_clipper_half.png",
+      "sha256": "a1a3e15fc55778439b1864803c27efacdf9702196307ee1ee0203eabb6aa6775",
+      "bytes": 1432986,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-tool_nozzle.png",
+      "sha256": "3e743ef608a5737d7e1ce055b7b3e086b1dc6531bc4a0407adc5f519fdaf6f50",
+      "bytes": 1217831,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_dryer.png",
+      "sha256": "1058037b920f7337733c7e2f58a78ee40b786455ff6eb0ca2ff2c8453996ea2a",
+      "bytes": 1302943,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-towel_sheet.png",
+      "sha256": "5d354eb4bb38bb16dfacf4019bf4d400a1398c254ca156cb203b8e4999d1e321",
+      "bytes": 1300196,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_laundry_body.png",
+      "sha256": "fd5fabfafdee6c2be37badb8d990f114288f7c453e492b0bbbb34296c464f525",
+      "bytes": 1280787,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_receive_compact.png",
+      "sha256": "b218f71bb5f3b0420a692c8de25536199bfa598d7be6f74164300491487cd552",
+      "bytes": 1268474,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-pet.png",
+      "sha256": "33594b1cba989908125096f4675f08c37d2b88ad4c97a80ef1355e12c3d9e408",
+      "bytes": 1229366,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-pet_gate.png",
+      "sha256": "0e0f9b4d81ed93ff3d3290971ab2569b5286c3cfbff272a4b77b0189cf3e8419",
+      "bytes": 1096994,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_receive_large.png",
+      "sha256": "c7d748b1906983d401aa4f173ea5ccb2dda528ca4471255360eacb827a25230f",
+      "bytes": 1328465,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_bath.png",
+      "sha256": "3cfab9dd59cfc948515bd326691a5cc97e7e36cb1721039312f90dc4c50c62ca",
+      "bytes": 1267722,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_towel_rack.png",
+      "sha256": "0dab6e3918210dd04d5e8d5b10238bb2f6b038f48eedd37f9d7e5010abd6616a",
+      "bytes": 1245480,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-tool_paw_file.png",
+      "sha256": "b6130fa2d7a838b34a8c1bb4dbd9a75877b535ba8994bcc3f74b20bd9661a1d5",
+      "bytes": 1462571,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/modeling-references/D10-eq_return.png",
+      "sha256": "17c472f6b5100eb607f63e6aa56cb7d29059ec6aa990c1f16c7ffc0f2c979204",
+      "bytes": 1207363,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/04_real_carry_contact.png",
+      "sha256": "c44b6532ff675bf7cf0bafc56808028a21e41ac5b4d1cd468d6fb7521db7f670",
+      "bytes": 247862,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/02_window_wrap.png",
+      "sha256": "e554b65f190c4202db25f5db0ae8d2ea4d9a91ded338df7c2cf36095f962a2bd",
+      "bytes": 236302,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/08_actual_held_towel.png",
+      "sha256": "2e355c365b1a2fc4869d1328aef7d57d59872bf437e7b29f6a1a38931828ebff",
+      "bytes": 238379,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/01_qualification_overview.png",
+      "sha256": "58dbc5d00955b5a52b189b2d41bdf3e958f63dcc497850ce25f353d61d8ee6d1",
+      "bytes": 263814,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/07_partition_handoff.png",
+      "sha256": "15fa02d168bae131283bc5b7f8ba5840e6ce112e0a774c00b5f20054f390a936",
+      "bytes": 243788,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/02_real_work_contact.png",
+      "sha256": "8e1850a85b66bbac82badda807bc3fc4fa8daec3ab7e24cee16d4df77d1be315",
+      "bytes": 264038,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/05_closest_legal_work_contact.png",
+      "sha256": "bd1f2503aba5cadeb09d219c0c542de407a9dab279e50c7f5b04dbb02a4a1c08",
+      "bytes": 264277,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/06_far_work_contact.png",
+      "sha256": "8341ed92735e42962935c4dff32bca8a47edd9a2fc007a23d2754bdb8975045a",
+      "bytes": 264436,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/qualification/native-pet-approach-v1/03_return_snapshot.png",
+      "sha256": "1e354dee5410e7ddf043ccc3dc97f68346b76f384857937ddb068777cec0e81a",
+      "bytes": 234147,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-staff/asset.glb",
+      "sha256": "bb8df34d1758e5ff1fc997dc61df205eb6d245d5cf134a6c4a6e4093dcaf409d",
+      "bytes": 4594420,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/bb/bb8df34d1758e5ff1fc997dc61df205eb6d245d5cf134a6c4a6e4093dcaf409d.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-pet/asset.glb",
+      "sha256": "dd2fe146ce90a3a7df2416cefcbf8ae54872b112b72e25be35a699034d0464ca",
+      "bytes": 4018984,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/dd/dd2fe146ce90a3a7df2416cefcbf8ae54872b112b72e25be35a699034d0464ca.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_receive_large/asset.glb",
+      "sha256": "918a73d5d3532ecec9586b3fd7d35066ebbf72b5dc6330f3475ed2bcc2fd1021",
+      "bytes": 6524448,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/91/918a73d5d3532ecec9586b3fd7d35066ebbf72b5dc6330f3475ed2bcc2fd1021.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_receive_compact/asset.glb",
+      "sha256": "ad4e9855cf2df5a83f88ba3d62149f754021ebfed11d7d295cdb3ae8d1386b50",
+      "bytes": 5249616,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ad/ad4e9855cf2df5a83f88ba3d62149f754021ebfed11d7d295cdb3ae8d1386b50.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_buffer/asset.glb",
+      "sha256": "1a1519b42ef61079035e2a62e41d839e8a8caafba95e73caf8bbe24b4171b367",
+      "bytes": 5545992,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1a/1a1519b42ef61079035e2a62e41d839e8a8caafba95e73caf8bbe24b4171b367.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_bath/asset.glb",
+      "sha256": "3e5ef71229bbcc63bd22852b304874756b9fe40a6389dfdc3a70db6d837ad58a",
+      "bytes": 345704,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/3e/3e5ef71229bbcc63bd22852b304874756b9fe40a6389dfdc3a70db6d837ad58a.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_dryer/asset.glb",
+      "sha256": "9762e0d2b9ca714628bf231756bb6e613db6f5bb603ab62122e39dd3a12ec1f3",
+      "bytes": 5414180,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/97/9762e0d2b9ca714628bf231756bb6e613db6f5bb603ab62122e39dd3a12ec1f3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_handoff/asset.glb",
+      "sha256": "f1ed13336bc09956cc2365b22eb08216387a5626888bb9e1b642d6f2b23582af",
+      "bytes": 4565720,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/f1/f1ed13336bc09956cc2365b22eb08216387a5626888bb9e1b642d6f2b23582af.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_groom/asset.glb",
+      "sha256": "654b6bd34af491934df938593f30daf1cb643b4f74a6c31053d954c2336af4c7",
+      "bytes": 6798952,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/65/654b6bd34af491934df938593f30daf1cb643b4f74a6c31053d954c2336af4c7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_laundry_body/asset.glb",
+      "sha256": "3c3540b72d8296a6476c3fac057ac6b2b09386926ab0cd32263db2a07d48b991",
+      "bytes": 6709728,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/3c/3c3540b72d8296a6476c3fac057ac6b2b09386926ab0cd32263db2a07d48b991.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_laundry_door/asset.glb",
+      "sha256": "fce35e0ac19c28bf4b4f8ad9a08ed9d31c3a05aeff9e8b98d95394318ee46cca",
+      "bytes": 5365640,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/fc/fce35e0ac19c28bf4b4f8ad9a08ed9d31c3a05aeff9e8b98d95394318ee46cca.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_return/asset.glb",
+      "sha256": "47eb949ecc5208edf062998eefbaf09ab7f55fccde6396f09e50db10c66e2715",
+      "bytes": 5421172,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/47/47eb949ecc5208edf062998eefbaf09ab7f55fccde6396f09e50db10c66e2715.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_towel_rack/asset.glb",
+      "sha256": "7ce921e5dd9f91515acd2e4f0515dd3d8fd07a32acc0027a9a6494e957247db3",
+      "bytes": 5681912,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/7c/7ce921e5dd9f91515acd2e4f0515dd3d8fd07a32acc0027a9a6494e957247db3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_treatment/asset.glb",
+      "sha256": "c516339be73396d41bc073dc759da377c791d2be7491c93d8972e15db197aacb",
+      "bytes": 6938572,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c5/c516339be73396d41bc073dc759da377c791d2be7491c93d8972e15db197aacb.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-eq_pawcare/asset.glb",
+      "sha256": "5e4b88b08a2c28310a07187f870ed211358f61e6a9d39b7d917eae5c07ec2c37",
+      "bytes": 5372764,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/5e/5e4b88b08a2c28310a07187f870ed211358f61e6a9d39b7d917eae5c07ec2c37.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-tool_nozzle/asset.glb",
+      "sha256": "39b7cd4b50816127c80bff3d94a91c69760cce1a98197cd84e2b55636072198b",
+      "bytes": 6026948,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/39/39b7cd4b50816127c80bff3d94a91c69760cce1a98197cd84e2b55636072198b.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-tool_comb/asset.glb",
+      "sha256": "32caa79e7ffa64c12e83202fbdb451a013e5860930c134a09c93fc8681432067",
+      "bytes": 77708,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/32/32caa79e7ffa64c12e83202fbdb451a013e5860930c134a09c93fc8681432067.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-tool_shears_half/asset.glb",
+      "sha256": "38172804be74b328077cbf440513f4976e820f95b6bb20c168dac6a15be55f59",
+      "bytes": 4937412,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/38/38172804be74b328077cbf440513f4976e820f95b6bb20c168dac6a15be55f59.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-tool_paw_clipper_half/asset.glb",
+      "sha256": "ad9c8fc34aa7f18bd7804fe7856f613e06351107cf3ce1517350e9baef55a5d3",
+      "bytes": 5263812,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ad/ad9c8fc34aa7f18bd7804fe7856f613e06351107cf3ce1517350e9baef55a5d3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-tool_paw_file/asset.glb",
+      "sha256": "c7c1b35c76a1e5daa264023919f1a68f060c79c3262e0992252429ddc9f61533",
+      "bytes": 5406008,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c7/c7c1b35c76a1e5daa264023919f1a68f060c79c3262e0992252429ddc9f61533.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-towel_sheet/towel-forms.glb",
+      "sha256": "6381bb9f289a4fcfa7cca124f6c104ebed82dfb5b7ae5114642f362c90a815a2",
+      "bytes": 179924,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/63/6381bb9f289a4fcfa7cca124f6c104ebed82dfb5b7ae5114642f362c90a815a2.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-owner_bench/asset.glb",
+      "sha256": "29039f00953669ad3202b03d5478c4bf564d1efad4e4cd922402fe829278efc2",
+      "bytes": 4719400,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/29/29039f00953669ad3202b03d5478c4bf564d1efad4e4cd922402fe829278efc2.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-pet_gate/asset.glb",
+      "sha256": "c384ce66ea282b56a42360bbcbaa2cfc04c9be95bd8d31e651ff7948ee978040",
+      "bytes": 4872848,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c3/c384ce66ea282b56a42360bbcbaa2cfc04c9be95bd8d31e651ff7948ee978040.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/assets/D10-sign_frame/asset.glb",
+      "sha256": "7884652cb89b42cb6313920832de32a4f96b1396837331179bdc26b5524404e7",
+      "bytes": 4085320,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/78/7884652cb89b42cb6313920832de32a4f96b1396837331179bdc26b5524404e7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/proxy/profile.json",
+      "sha256": "e67f851bf8f958cb28fe124558a772c19c4472be9f1bab4ae5286aa1b436eeca",
+      "bytes": 659,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/shared-proxy/launcher.gd",
+      "sha256": "12f93b0b27f00413813451b53bd9e070799af72afec678cc73ec97717ff183bc",
+      "bytes": 506,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/shared-proxy/proxy_main.gd",
+      "sha256": "09f5e8794a3dbabfad936a9d84e7a6a1869cbf0aeadee3d74695832a42196f36",
+      "bytes": 2267,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/shared-proxy/overlay.gd",
+      "sha256": "0939e04e551f1669ff12761ee1ad5c97bc6da75dab700c3a9c3aa99f201f958a",
+      "bytes": 19715,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/spatial-contract-v2.json",
+      "sha256": "278746de476c987c5a6719761e8c792d09e16d5bc7d0e2114cb4703b803c26b5",
+      "bytes": 25768,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/directions/d1-animal-city.png",
+      "sha256": "6590e2d1332e045882cdb020ccadf8a83a5cceb263fde1522c617ed3b44b1f56",
+      "bytes": 1799164,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/directions/d2-handcrafted-coop.png",
+      "sha256": "e02ac48218e0c68f8458ff9336399b84bc4b2fe086d986d654cf0c34549ca824",
+      "bytes": 2341444,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/directions/d3-cel-dusk.png",
+      "sha256": "f3c9bd24d3d92cf8665b4644706b258b41917bc265300111ed527ea915a8500b",
+      "bytes": 1138704,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/directions/d4-riso.png",
+      "sha256": "183d0cb42117370f5cccd6de54846767113894881e6c46bc6005810c69796865",
+      "bytes": 3186497,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/plan-view.png",
+      "sha256": "c5def3bf199ac304afda1c2cfb69a826e42e816592adb5010d66ada6abc5305a",
+      "bytes": 107830,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/frame-budget.png",
+      "sha256": "b26ee7d0c66720115effb077c986d05c8e5330a5b8fa8e00efc7472292ed7b7f",
+      "bytes": 228793,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/section-x0.png",
+      "sha256": "d7b905572361eba39d3246f17f66cca71c4ebd8d89b36c5debe1093058c196f4",
+      "bytes": 50326,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/evidence/frame-art-surface.png",
+      "sha256": "b810d53093bb7ba8ae7182c272d438770afc65312fdbf4424f0f82f256eb38da",
+      "bytes": 168802,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/evidence/frame-default.png",
+      "sha256": "b6d109e5e7aa92365c7edfb339446a35a43b65e1b5515e73324f85e216be6512",
+      "bytes": 304004,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/ATLAS-D1.md",
+      "sha256": "f6db3928de4f34fefc97422802ea8375a758b56b2d790b4294fd5f4d22aae002",
+      "bytes": 5471,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/S6-PROXY.md",
+      "sha256": "3c7b02d4d6d6f122d8ece739f30720f8e7cc6804f8ad9d9cecc0e4d6e5f7c848",
+      "bytes": 6903,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/scene-visuals.json",
+      "sha256": "7165eeb3073577d50d0e55be9e3da25f71affcdf5c82392e2293b7b9b5669523",
+      "bytes": 62193,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/design/spatial-graph-d1.json",
+      "sha256": "c82c90b8d84430571161eb9525e1f57522c65781a21dbf569045a08d7e78c22e",
+      "bytes": 8557,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/pilots/h4-v1/01_shared_camera_after_settle.png",
+      "sha256": "bef843cc3f6d593bf04399e693c7bbd0437b63c0042d2666ced97e0655ddf2ba",
+      "bytes": 242338,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/pilots/h4-v1/00_shared_camera.png",
+      "sha256": "c93bc4a0bd696b3719694cf35bad2d171bb1f8658371d9d729a676c0a8b361bd",
+      "bytes": 242469,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/concept-view-r7.png",
+      "sha256": "c09b14e8b87d2d3cec5e0a47b82b7721ba7ac4d71611c1b6e5dce58feb6ae73f",
+      "bytes": 582573,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/concept-view-r8.png",
+      "sha256": "cfc095086d04d46a10e1e732f4eafd6faa809fa2364af465fd2a351e94063957",
+      "bytes": 600374,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/concept-view-r9.png",
+      "sha256": "6c24fc2668065dca7306f741d1b532f29d90514a825b399854285f6cdf3e2178",
+      "bytes": 614289,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/camera-before.png",
+      "sha256": "2df29ca14f81562b8367d6bf8f0a50d671d636038580ce1761b88ad5a820acf7",
+      "bytes": 692538,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/camera-after.png",
+      "sha256": "36a6d9deeda193eceb5c3faa6d9efcb5c70a45800b3f632e2b7d7c271c31ae7a",
+      "bytes": 992986,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/tile-before.png",
+      "sha256": "8a2f9f81e57873fadeb256fdbf37e01d51e56c8e10a89f5d2daf859e27e41f52",
+      "bytes": 262582,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/tile-after.png",
+      "sha256": "c721023ba5c74125cb45be5a96042285b08e89c3ade521732340c4cbf960783f",
+      "bytes": 300586,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/trim-before.png",
+      "sha256": "89756bed3864425621ac6f097d81bf5c6483352d47d3c44ff43653c127496ab2",
+      "bytes": 290441,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/workbuddy/D1/assembly/trim-after.png",
+      "sha256": "765d59eb87c288d19823318e3d11d43eefbb40c467aab32943723b95c5d2d15e",
+      "bytes": 297401,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/GAME.md",
+      "sha256": "abf632fc163db6e84eec9117b0f6cb7ed53c72c6f756879c067ddf5502a8c7be",
+      "bytes": 2797,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/INTEGRATION.md",
+      "sha256": "601ebf4d3088fab29b9ca31cd4ad4a1f4ae2ec5ca559bea158333bbd8b1ba41d",
+      "bytes": 1258,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/VALIDATION.json",
+      "sha256": "a7aabd84263be4d5b223a7babde2e4b035598522aed9e1d49aab8120906fc82b",
+      "bytes": 3847,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/.gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/INDEX.md",
+      "sha256": "21161bde75384dec3de7d56d915c58d50ced8113f3d79459e9f9f640470f8a05",
+      "bytes": 2941,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/README.md",
+      "sha256": "d246d485b759b77b2693b412b3afd74f8bb7aa02baf58ddd2ee1db169fbb4586",
+      "bytes": 37,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/catalog.json",
+      "sha256": "a9af7fd259de77fb5eebf8a505e8b3e7c5d2f20471a4291bd0797996f07cd5a6",
+      "bytes": 91972,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D01/current-models.json",
+      "sha256": "270895e75d3a25a4af4e301bc11be2432185f3590c63e1c758989f86728810c3",
+      "bytes": 7496,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D03/current-models.json",
+      "sha256": "f6fb666679346a606462f583de28c258d6be50242f97cde87d1ce4ba0c226029",
+      "bytes": 7802,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D05/current-models.json",
+      "sha256": "996a91c01a20681a5ef20a7aaaa27133934327fe2596931b15624ca693cf7091",
+      "bytes": 7196,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/process/original-lineage/D10/current-models.json",
+      "sha256": "b16cd889367877524d01c9cf741d9d00401487793b2ebb680c3abe637fc2ae51",
+      "bytes": 7496,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/shared/showcase_clean.gd",
+      "sha256": "d81ed56e6659e25cbda56db0d1aba6d069a80849be1e4f72ef0fd1058c04b80c",
+      "bytes": 1117,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/grass.gdshader.uid",
+      "sha256": "06dde8c20cfeff36b6ac8e377ba40f56a62deb258a22ee63fd2f865ea3e26293",
+      "bytes": 19,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/ground.gdshader.uid",
+      "sha256": "0d6c262a1b27f7ea9217126596aad0e6d5380de932aa7f158284c11f47a9e469",
+      "bytes": 20,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/tint.gdshader.uid",
+      "sha256": "d93f419f07c961c1ddf76497a5a944769fc04fc4c534f3ca2bfc8fc3645273ba",
+      "bytes": 19,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles/d1-animal-city/runtime/water.gdshader.uid",
+      "sha256": "40b91f24907651fea6181560e399820dcaf968a8ed9019aff0da73e4399e7079",
+      "bytes": 20,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/bubble-buddies/styles.json",
+      "sha256": "a529b2adc8afe6c66a30c67eef27c5b4837f85e0a81d7c309867d7c8d209f515",
+      "bytes": 1526,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    }
+  ]
+}

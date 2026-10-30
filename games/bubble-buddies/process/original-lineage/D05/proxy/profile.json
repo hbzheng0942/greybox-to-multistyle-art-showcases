@@ -1,0 +1,31 @@
+{
+  "name": "动漫赛璐璐",
+  "shape": "cel",
+  "wet": "acdcd9",
+  "dry": "f3dfc6",
+  "shell": "f0bf87",
+  "accent": "d57485",
+  "staff": [
+    "e18780",
+    "77aabf"
+  ],
+  "pet": [
+    "e8c3a2",
+    "f0e8dd",
+    "b4b8d1"
+  ],
+  "wall": "b4d1ce",
+  "schema": 1,
+  "kind": "art_proxy",
+  "style_id": "D05",
+  "stage": "S6",
+  "quality": "cheap native massing; not H4 sample",
+  "staff_height": 1.38,
+  "staff_body_width": 0.48,
+  "pet_width": 0.58,
+  "pet_depth": 0.79,
+  "pet_height": 0.7,
+  "pet_support_local_y": -0.03,
+  "towel_fold_center_local_y": -0.04,
+  "source_design_sha256": "59fbe856a807dabc7b7022741b0a4fdce4b29919a2bf1f37c7bee99a6513a34b"
+}

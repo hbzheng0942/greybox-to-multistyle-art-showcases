@@ -1,0 +1,1542 @@
+{
+  "scenery": [
+    {
+      "id": "quay_00",
+      "asset_id": "E04",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        0.0,
+        0,
+        -18.0
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            44.0,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0,
+            -0.34,
+            0
+          ],
+          "color": "68787e",
+          "rotation_degrees": [
+            0,
+            -0.0,
+            0
+          ]
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "quay_01",
+      "asset_id": "E04",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        22.0,
+        0,
+        0.0
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            36.0,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0,
+            -0.34,
+            0
+          ],
+          "color": "68787e",
+          "rotation_degrees": [
+            0,
+            -90.0,
+            0
+          ]
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "quay_02",
+      "asset_id": "E04",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        6.5,
+        0,
+        18.0
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            31.0,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0,
+            -0.34,
+            0
+          ],
+          "color": "68787e",
+          "rotation_degrees": [
+            0,
+            -180.0,
+            0
+          ]
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "quay_03",
+      "asset_id": "E04",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -9.0,
+        0,
+        13.0
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            10.0,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0,
+            -0.34,
+            0
+          ],
+          "color": "68787e",
+          "rotation_degrees": [
+            0,
+            90.0,
+            0
+          ]
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "quay_04",
+      "asset_id": "E04",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -15.5,
+        0,
+        8.0
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            13.0,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0,
+            -0.34,
+            0
+          ],
+          "color": "68787e",
+          "rotation_degrees": [
+            0,
+            -180.0,
+            0
+          ]
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "quay_05",
+      "asset_id": "E04",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -22.0,
+        0,
+        -5.0
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            26.0,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0,
+            -0.34,
+            0
+          ],
+          "color": "68787e",
+          "rotation_degrees": [
+            0,
+            90.0,
+            0
+          ]
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_bank_01",
+      "asset_id": "E05",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        0,
+        0,
+        -27.5
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            72,
+            0.5,
+            11
+          ],
+          "position": [
+            0,
+            -0.26,
+            0
+          ],
+          "color": "6c7a78"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_boat_01",
+      "asset_id": "E07",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -16,
+        -0.16,
+        13
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.2,
+            0.35,
+            1.0
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "476f92"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.3,
+            0.5,
+            0.75
+          ],
+          "position": [
+            0.12,
+            0.32,
+            0
+          ],
+          "color": "c8d0c4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6,
+            0.18,
+            0.62
+          ],
+          "position": [
+            0.12,
+            0.66,
+            0
+          ],
+          "color": "809caa"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_bridge_01",
+      "asset_id": "E08",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        13,
+        0,
+        -22
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            10,
+            0.3,
+            2.5
+          ],
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "color": "88979f"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.75,
+            2.0,
+            2.6
+          ],
+          "position": [
+            -4.2,
+            0.42,
+            0
+          ],
+          "color": "6f8189"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.75,
+            2.0,
+            2.6
+          ],
+          "position": [
+            4.2,
+            0.42,
+            0
+          ],
+          "color": "6f8189"
+        },
+        {
+          "kind": "box",
+          "size": [
+            10,
+            0.12,
+            0.1
+          ],
+          "position": [
+            0,
+            2.05,
+            -1.1
+          ],
+          "color": "bcc2ad"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            -4,
+            1.8,
+            -1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            -2,
+            1.8,
+            -1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            0,
+            1.8,
+            -1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            2,
+            1.8,
+            -1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            4,
+            1.8,
+            -1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            10,
+            0.12,
+            0.1
+          ],
+          "position": [
+            0,
+            2.05,
+            1.1
+          ],
+          "color": "bcc2ad"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            -4,
+            1.8,
+            1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            -2,
+            1.8,
+            1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            0,
+            1.8,
+            1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            2,
+            1.8,
+            1.1
+          ],
+          "color": "899697"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.12,
+            0.6,
+            0.12
+          ],
+          "position": [
+            4,
+            1.8,
+            1.1
+          ],
+          "color": "899697"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_00",
+      "asset_id": "E10",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -24,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            3.0,
+            3
+          ],
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "color": "8c9ba7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            3.0,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_01",
+      "asset_id": "E09",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -19,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            4.1,
+            3
+          ],
+          "position": [
+            0,
+            2.05,
+            0
+          ],
+          "color": "aca298"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            4.1,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_02",
+      "asset_id": "E10",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -14,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            5.2,
+            3
+          ],
+          "position": [
+            0,
+            2.6,
+            0
+          ],
+          "color": "899e9a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            5.2,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_03",
+      "asset_id": "E09",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -9,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            3.0,
+            3
+          ],
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "color": "8c9ba7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            3.0,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_04",
+      "asset_id": "E10",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -4,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            4.1,
+            3
+          ],
+          "position": [
+            0,
+            2.05,
+            0
+          ],
+          "color": "aca298"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            4.1,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_05",
+      "asset_id": "E09",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        1,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            5.2,
+            3
+          ],
+          "position": [
+            0,
+            2.6,
+            0
+          ],
+          "color": "899e9a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            5.2,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_06",
+      "asset_id": "E10",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        6,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            3.0,
+            3
+          ],
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "color": "8c9ba7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            3.0,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_07",
+      "asset_id": "E09",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        23,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            4.1,
+            3
+          ],
+          "position": [
+            0,
+            2.05,
+            0
+          ],
+          "color": "aca298"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            4.1,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_building_08",
+      "asset_id": "E10",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        28,
+        0,
+        -26
+      ],
+      "parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.4,
+            5.2,
+            3
+          ],
+          "position": [
+            0,
+            2.6,
+            0
+          ],
+          "color": "899e9a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.55,
+            0.14,
+            3.15
+          ],
+          "position": [
+            0,
+            5.2,
+            0
+          ],
+          "color": "bac0b1"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_00",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -31,
+        0,
+        -24
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_01",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -27,
+        0,
+        -24
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_02",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -22,
+        0,
+        -23
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_03",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -17,
+        0,
+        -23
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_04",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -12,
+        0,
+        -23
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_05",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -7,
+        0,
+        -23
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_06",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        -2,
+        0,
+        -23
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_07",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        8,
+        0,
+        -25
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_08",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        12,
+        0,
+        -27
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_09",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        17,
+        0,
+        -27
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_10",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        30,
+        0,
+        -23
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    },
+    {
+      "id": "bg_tree_11",
+      "asset_id": "E11",
+      "role": "SCENERY_ONLY",
+      "position_xyz": [
+        33,
+        0,
+        -25
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.35,
+            1.4,
+            0.35
+          ],
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "color": "927659",
+          "top_radius": 0.15
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.8,
+            2,
+            1.65
+          ],
+          "position": [
+            0,
+            1.85,
+            0
+          ],
+          "color": "758e69"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.1,
+            1.2,
+            1.1
+          ],
+          "position": [
+            0.55,
+            2.3,
+            0.1
+          ],
+          "color": "98a678"
+        }
+      ],
+      "score": 0
+    }
+  ]
+}

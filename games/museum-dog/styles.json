@@ -1,0 +1,43 @@
+{
+  "game": "museum-dog",
+  "engine": "Godot4.7.2",
+  "default_style": "A01",
+  "styles": [
+    {
+      "id": "greybox",
+      "name": "Museum Dog greybox",
+      "entry": "shared/game/dog_game.tscn",
+      "status": "shared gameplay baseline v0.3.2"
+    },
+    {
+      "id": "A01",
+      "name": "Inflatable touring museum / 充气巡回博物馆",
+      "entry": "styles/A01/runtime/integrated-skeletal-20261030/play.tscn",
+      "source_revision": "754b7eac17927af0 + dog d2895 skin/controller + adult3d8c v6 controller",
+      "status": "integrated skeletal development: dog +6 adult skins;2 child/2 staff skeletal production pending",
+      "native_verified": false,
+      "user_accepted": false,
+      "package_revision": "integrated-skeletal-20261030",
+      "animation_complete": false
+    },
+    {
+      "id": "A04",
+      "name": "Bamboo field museum / 竹编田野博物馆",
+      "entry": null,
+      "status": "selected direction; queued; no produced game"
+    },
+    {
+      "id": "A08",
+      "name": "Hand-drawn cel adventure / 手绘赛璐璐冒险馆",
+      "entry": null,
+      "status": "selected direction; queued; no produced game"
+    }
+  ],
+  "package_checks": {
+    "headless_import": "pass",
+    "headless_entry_assembly": "pass: integrated skeleton/skin/clip/physics fixture37 assertions",
+    "visual_review": "controlled native skeletal sequence reviewed; final art/H4/H5 pending",
+    "human_accepted": false,
+    "controlled_native_assertions_passed": 37
+  }
+}

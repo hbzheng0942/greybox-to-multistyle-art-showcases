@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "stage": "S8_partial",
+  "style_id": "odd-logistics",
+  "spaces": [
+    "N01",
+    "N02"
+  ],
+  "assets": [
+    {
+      "id": "B2-LUX-22-scanner_bollard-offset_bollard",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-22-scanner_bollard-offset_bollard/source.glb",
+        "sha256": "6f9b1673c31d83985a14f993e1f88393c16c79d4475e044fd739b5082fca4f26"
+      },
+      "source_up": "+Y",
+      "source_front": "+Z",
+      "source_to_normalized": [
+        -3.0648580333818973,
+        0,
+        -3.7533685804221923e-16,
+        0,
+        0,
+        3.0648580333818973,
+        0,
+        0,
+        3.7533685804221923e-16,
+        0,
+        -3.0648580333818973,
+        0,
+        0.0,
+        0.6129716158103682,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        0.8624305754061234,
+        1.0,
+        1.0167451131676084
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-22-scanner_bollard-offset_bollard/lod-v1/manifest.json",
+        "sha256": "0c5c41bdc336e3076a7bde0dbe89dba7534a6cff8930fdf0c4fa7a8f0074affe"
+      }
+    },
+    {
+      "id": "B2-LUX-23-speed_lamp-bent_elbow",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-23-speed_lamp-bent_elbow/source.glb",
+        "sha256": "a2d5e37ca70ec7834a05ed1306b45c26b5749baae6c72bee7583984a3d57934e"
+      },
+      "source_up": "+Y",
+      "source_front": "+Z",
+      "source_to_normalized": [
+        -1.1764705552361838,
+        0,
+        -1.440760899761102e-16,
+        0,
+        0,
+        1.1764705552361838,
+        0,
+        0,
+        1.440760899761102e-16,
+        0,
+        -1.1764705552361838,
+        0,
+        0.0,
+        0.5,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        0.30381636608863255,
+        1.0,
+        0.5147667698364603
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-23-speed_lamp-bent_elbow/lod-v1/manifest.json",
+        "sha256": "4eed84501bc8b239949d7f5b87991de7e70aeac8ec84be7d7368320552135140"
+      }
+    },
+    {
+      "id": "B2-LUX-24-ceiling_lamp-fat_strip_lamp",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-24-ceiling_lamp-fat_strip_lamp/source.glb",
+        "sha256": "79af1fb8200a73f7b8d4aef00128db03902ab4339b5e45a50b6c423f3e3f8c33"
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        5.802871116578291,
+        0,
+        -0.0,
+        0,
+        0,
+        5.802871116578291,
+        0,
+        0,
+        0.0,
+        0,
+        5.802871116578291,
+        0,
+        -0.0,
+        0.5,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        4.642296962438247,
+        1.0,
+        1.015423481437459
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-24-ceiling_lamp-fat_strip_lamp/lod-v1/manifest.json",
+        "sha256": "4d7f97cbc9b7d6195009394b56345a23808145935965bc61dc0e34f7bdc48450"
+      }
+    },
+    {
+      "id": "B2-LUX-11-soft_obstacle-plastic_cone",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-plastic_cone/source.glb",
+        "sha256": "fedabda33320373096263eb8ef3ed202f9ee828f0d20324dbbd4cd41d757dcfc"
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        1.4285714528998554,
+        0,
+        -0.0,
+        0,
+        0,
+        1.4285714528998554,
+        0,
+        0,
+        0.0,
+        0,
+        1.4285714528998554,
+        0,
+        -0.0,
+        0.5,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        0.7121846201110673,
+        1.0,
+        0.6814357754406891
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-plastic_cone/lod-v1/manifest.json",
+        "sha256": "e9dfd67183485de099995644d102e41e03fefad78ae971c6169c0bbf48edb7dc"
+      }
+    },
+    {
+      "id": "B2-LUX-11-soft_obstacle-loose_bin",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-loose_bin/source.glb",
+        "sha256": "e5abb42227499b1a4d038345f19fd02c4ccddb72f24b828104be132682133e13"
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        2.045269769584315,
+        0,
+        -0.0,
+        0,
+        0,
+        2.045269769584315,
+        0,
+        0,
+        0.0,
+        0,
+        2.045269769584315,
+        0,
+        -0.0,
+        0.5,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        1.2271619105136202,
+        1.0,
+        1.177862364028097
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-loose_bin/lod-v1/manifest.json",
+        "sha256": "5111dbbf806796ac2c60994923466345c9bcc3d3c9f63d0a4c384a610d03a198"
+      }
+    },
+    {
+      "id": "B2-LUX-06-locked_freight-tall_lockbox",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-tall_lockbox/source.glb",
+        "sha256": "ac261456d2f4a3cd1b29e064092fc9c8dd739a4f1937dc0d34c3fcc2125adb5f"
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        1.2499999813735487,
+        0,
+        -0.0,
+        0,
+        0,
+        1.2499999813735487,
+        0,
+        0,
+        0.0,
+        0,
+        1.2499999813735487,
+        0,
+        -0.0,
+        0.5,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        0.5642566373309994,
+        1.0,
+        0.5698743750173692
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-tall_lockbox/lod-v1/manifest.json",
+        "sha256": "0b983ac19a6c7e3b6974829d3377b753eba33866cca485ffd0205b0d49234194"
+      }
+    }
+  ],
+  "roles": {
+    "guide_bollard": "B2-LUX-22-scanner_bollard-offset_bollard",
+    "speed_lamp": "B2-LUX-23-speed_lamp-bent_elbow",
+    "ceiling_lamp": "",
+    "soft_cone": "B2-LUX-11-soft_obstacle-plastic_cone",
+    "soft_bin": "B2-LUX-11-soft_obstacle-loose_bin",
+    "hard_lockbox": "B2-LUX-06-locked_freight-tall_lockbox"
+  },
+  "normalization": "Uniform source height 1m, bottom-center origin, +Y up/-Z front. Placement uses explicit uniform height or envelope fit.",
+  "limits": [
+    "Hard blockers require a separate visible-height fit; not substituted yet.",
+    "Soft models retain original hit/reset owners; actual native response must be reviewed.",
+    "Source PBR remains canonical; geometry-only LOD files embed no images."
+  ]
+}

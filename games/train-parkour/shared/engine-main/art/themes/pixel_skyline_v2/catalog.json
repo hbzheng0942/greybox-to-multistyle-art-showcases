@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "source": "R2 track-to-segment and shot anchors extracted from committed production plan; no clay design or assets inherited",
+  "scenes": [
+    {
+      "id": "station",
+      "tracks": [
+        "station_start",
+        "station_carve"
+      ]
+    },
+    {
+      "id": "canyon",
+      "tracks": [
+        "station_ramp",
+        "canyon_safe",
+        "canyon_fast_catch",
+        "canyon_fast",
+        "canyon_merge"
+      ]
+    },
+    {
+      "id": "vertical",
+      "tracks": [
+        "rush",
+        "carve",
+        "wall",
+        "inverted",
+        "drop",
+        "rollout"
+      ]
+    },
+    {
+      "id": "coaster",
+      "tracks": [
+        "loop_entry",
+        "loop",
+        "loop_out",
+        "exit_ramp",
+        "grind",
+        "relay",
+        "high",
+        "high_merge"
+      ]
+    },
+    {
+      "id": "tunnel",
+      "tracks": [
+        "tunnel"
+      ]
+    },
+    {
+      "id": "valley",
+      "tracks": [
+        "cliff_turn",
+        "cliff_lip",
+        "upper",
+        "rescue",
+        "rescue_merge",
+        "finish",
+        "landmark_return"
+      ]
+    },
+    {
+      "id": "finale",
+      "tracks": [
+        "underpass",
+        "return_switchback",
+        "final_approach",
+        "final_ramp",
+        "final_receiver",
+        "final_upper_catch",
+        "final_upper",
+        "victory_run"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "station-01",
+      "scene_id": "station",
+      "track_id": "station_start",
+      "s_m": 90.01
+    },
+    {
+      "id": "station-02",
+      "scene_id": "station",
+      "track_id": "station_carve",
+      "s_m": 215.25
+    },
+    {
+      "id": "station-03",
+      "scene_id": "station",
+      "track_id": "station_carve",
+      "s_m": 396.06
+    },
+    {
+      "id": "canyon-01",
+      "scene_id": "canyon",
+      "track_id": "station_ramp",
+      "s_m": 20.25
+    },
+    {
+      "id": "canyon-02",
+      "scene_id": "canyon",
+      "track_id": "canyon_safe",
+      "s_m": 417.79
+    },
+    {
+      "id": "canyon-03",
+      "scene_id": "canyon",
+      "track_id": "canyon_fast_catch",
+      "s_m": 148.14
+    },
+    {
+      "id": "vertical-01",
+      "scene_id": "vertical",
+      "track_id": "wall",
+      "s_m": 96.0
+    },
+    {
+      "id": "vertical-02",
+      "scene_id": "vertical",
+      "track_id": "inverted",
+      "s_m": 107.25
+    },
+    {
+      "id": "vertical-03",
+      "scene_id": "vertical",
+      "track_id": "drop",
+      "s_m": 132.0
+    },
+    {
+      "id": "coaster-01",
+      "scene_id": "coaster",
+      "track_id": "loop",
+      "s_m": 107.89
+    },
+    {
+      "id": "coaster-02",
+      "scene_id": "coaster",
+      "track_id": "grind",
+      "s_m": 72.05
+    },
+    {
+      "id": "coaster-03",
+      "scene_id": "coaster",
+      "track_id": "relay",
+      "s_m": 165.0
+    },
+    {
+      "id": "tunnel-01",
+      "scene_id": "tunnel",
+      "track_id": "relay",
+      "s_m": 280.5
+    },
+    {
+      "id": "tunnel-02",
+      "scene_id": "tunnel",
+      "track_id": "tunnel",
+      "s_m": 85.65
+    },
+    {
+      "id": "tunnel-03",
+      "scene_id": "tunnel",
+      "track_id": "tunnel",
+      "s_m": 214.12
+    },
+    {
+      "id": "tunnel-04",
+      "scene_id": "tunnel",
+      "track_id": "tunnel",
+      "s_m": 685.19
+    },
+    {
+      "id": "tunnel-05",
+      "scene_id": "tunnel",
+      "track_id": "tunnel",
+      "s_m": 1227.63
+    },
+    {
+      "id": "tunnel-06",
+      "scene_id": "tunnel",
+      "track_id": "cliff_turn",
+      "s_m": 49.59
+    },
+    {
+      "id": "valley-01",
+      "scene_id": "valley",
+      "track_id": "upper",
+      "s_m": 170.0
+    },
+    {
+      "id": "valley-02",
+      "scene_id": "valley",
+      "track_id": "rescue",
+      "s_m": 260.0
+    },
+    {
+      "id": "valley-03",
+      "scene_id": "valley",
+      "track_id": "landmark_return",
+      "s_m": 1402.92
+    },
+    {
+      "id": "finale-01",
+      "scene_id": "finale",
+      "track_id": "underpass",
+      "s_m": 260.0
+    },
+    {
+      "id": "finale-02",
+      "scene_id": "finale",
+      "track_id": "final_receiver",
+      "s_m": 179.01
+    },
+    {
+      "id": "finale-03",
+      "scene_id": "finale",
+      "track_id": "victory_run",
+      "s_m": 132.0
+    },
+    {
+      "id": "canyon-fast-curve",
+      "scene_id": "canyon",
+      "track_id": "canyon_fast",
+      "s_m": 320
+    },
+    {
+      "id": "canyon-fast-rejoin",
+      "scene_id": "canyon",
+      "track_id": "canyon_fast",
+      "s_m": 590
+    },
+    {
+      "id": "station-mid-platform",
+      "scene_id": "station",
+      "track_id": "station_start",
+      "s_m": 345.0
+    },
+    {
+      "id": "vertical-rush",
+      "scene_id": "vertical",
+      "track_id": "rush",
+      "s_m": 240.0
+    },
+    {
+      "id": "vertical-carve",
+      "scene_id": "vertical",
+      "track_id": "carve",
+      "s_m": 210.0
+    },
+    {
+      "id": "waterfront-power",
+      "scene_id": "valley",
+      "track_id": "landmark_return",
+      "s_m": 755.0
+    },
+    {
+      "id": "waterfront-low-street",
+      "scene_id": "valley",
+      "track_id": "landmark_return",
+      "s_m": 1830.0
+    },
+    {
+      "id": "coaster-loop-entry",
+      "scene_id": "coaster",
+      "track_id": "loop_entry",
+      "s_m": 90.0
+    },
+    {
+      "id": "coaster-loop-exit",
+      "scene_id": "coaster",
+      "track_id": "loop_out",
+      "s_m": 70.0
+    },
+    {
+      "id": "coaster-high",
+      "scene_id": "coaster",
+      "track_id": "high",
+      "s_m": 160.0
+    },
+    {
+      "id": "coaster-high-merge",
+      "scene_id": "coaster",
+      "track_id": "high_merge",
+      "s_m": 350.0
+    },
+    {
+      "id": "finale-high-catch",
+      "scene_id": "finale",
+      "track_id": "final_upper_catch",
+      "s_m": 140.0
+    },
+    {
+      "id": "finale-high",
+      "scene_id": "finale",
+      "track_id": "final_upper",
+      "s_m": 110.0
+    }
+  ]
+}

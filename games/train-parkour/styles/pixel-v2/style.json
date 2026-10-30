@@ -1,0 +1,18 @@
+{
+  "id": "pixel-v2",
+  "name": "像素天际线 / Pixel Skyline V2",
+  "version": "route-finish / continuous + bold",
+  "engine": "main",
+  "descriptor": "art/themes/pixel_skyline_v2/theme.json",
+  "scene": "pixel_v2",
+  "pixel_scale": 2,
+  "progress": "Seven-node playable art candidate. Whole-concept art, performance and human acceptance remain open.",
+  "engine_root": "shared/engine-main/game",
+  "entry_scene": "res://showcase_entries/pixel_v2.tscn",
+  "status": "playable-development-candidate",
+  "thumbnail": "styles/pixel-v2/thumbnail.jpg",
+  "technical_validation": "native static launch verified; see validation/index.json",
+  "native_preview": "styles/pixel-v2/thumbnail.jpg",
+  "native_preview_sha256": "625c2dab01f6003aeb9eccc327d5c68719d2b2e7e45de025e666ad67f6d45883",
+  "native_preview_scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+}

@@ -1,0 +1,594 @@
+{
+  "schema": 1,
+  "scope": "existing valid process checkpoints; concepts, massing and qualification are not completed art styles",
+  "items": [
+    {
+      "file": "process/directions/A01-concept.png",
+      "stage": "H1 directions",
+      "identity": "充气巡回博物馆; selected",
+      "sha256": "fdb734e07f2f93668d9f6434af4e10f7876ec15315469db37de4375a8c719a8b",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A02-concept.png",
+      "stage": "H1 directions",
+      "identity": "搪瓷机器科学馆; explored, not produced",
+      "sha256": "2088581def810383503f829beed459600e8fc6387f81db10e3ea491f62a6d722",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A03-concept.png",
+      "stage": "H1 directions",
+      "identity": "海盐铸玻璃馆; explored, not produced",
+      "sha256": "b6c97cdd88fb4bd4a244da00f50dd8901de11999a216a519a19ded2471fbbec9",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A04-concept.png",
+      "stage": "H1 directions",
+      "identity": "竹编田野博物馆; selected",
+      "sha256": "d12795676b384ff36eb4da0ad2bb98bca1ddf48741a7bb43eee5ecd2770805c1",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A05-concept.png",
+      "stage": "H1 directions",
+      "identity": "混凝土考古堡; explored, not produced",
+      "sha256": "8ce8f8b2bd946c4fea70cb259569c22d1f5390b7d77df5b4598981034679a111",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A06-concept.png",
+      "stage": "H1 directions",
+      "identity": "巨型首饰匣自然馆; explored, not produced",
+      "sha256": "a04300e96ffe22bd4b7106f2c04e9da71bcad09c672bb16b1c613547bdc8ced8",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A07-concept.png",
+      "stage": "H1 directions",
+      "identity": "压榨软木标本工坊; explored, not produced",
+      "sha256": "e572af25da338f96f7518065494f6724a51932d770dc25c452e5c9a417e4eb5d",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A08-concept.png",
+      "stage": "H1 directions",
+      "identity": "手绘赛璐璐冒险馆; selected",
+      "sha256": "ffb8515212d711ce24722e762f9bc529736dc46c23c83d736bec30e992cf6e2a",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A01-concept.png",
+      "stage": "H2 spatial atlas",
+      "identity": "hall-structural; source-bound concept",
+      "sha256": "fdb734e07f2f93668d9f6434af4e10f7876ec15315469db37de4375a8c719a8b",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/hall-gameplay.png",
+      "stage": "H2 spatial atlas",
+      "identity": "hall-gameplay; source-bound concept",
+      "sha256": "c0db560fd44b316dece2ed8985d67271ddf7ffc9a1ec7a28ad0b87240dac681b",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/porcelain-overview.png",
+      "stage": "H2 spatial atlas",
+      "identity": "porcelain-overview; source-bound concept",
+      "sha256": "453731a8e45a362dbe5fffe5d7a3c89f9f8e69f5ccf2717cc74ed42e3a269ed2",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/taxidermy-overview.png",
+      "stage": "H2 spatial atlas",
+      "identity": "taxidermy-overview; source-bound concept",
+      "sha256": "e83df5db2560c0af6aca89982b5a4277d63c11a6e3d732461da049399d11cd2e",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/kids-overview.png",
+      "stage": "H2 spatial atlas",
+      "identity": "kids-overview; source-bound concept",
+      "sha256": "723b60a0cc38fc4a8816c4d5b9b5bcba8c5033cb67f65d93e6cdb6e8947bd0dd",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/vestibule-overview.png",
+      "stage": "H2 spatial atlas",
+      "identity": "vestibule-overview; source-bound concept",
+      "sha256": "b3d679e0c25808ad4553531a2d35f2c2c3fe4b68f4f51ebd5cce7980bd44ce3e",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/east-transition.png",
+      "stage": "H2 spatial atlas",
+      "identity": "east-transition; source-bound concept",
+      "sha256": "17a560fa441a08d8bd9cb65a79fcce221645619a76ee05314097c65801f3b7f2",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/porcelain-overview.png",
+      "stage": "H2 spatial atlas",
+      "identity": "west-transition; source-bound concept",
+      "sha256": "453731a8e45a362dbe5fffe5d7a3c89f9f8e69f5ccf2717cc74ed42e3a269ed2",
+      "kind": "image"
+    },
+    {
+      "file": "process/directions/A01-concept.png",
+      "stage": "H2 spatial atlas",
+      "identity": "kids-entry; source-bound concept",
+      "sha256": "fdb734e07f2f93668d9f6434af4e10f7876ec15315469db37de4375a8c719a8b",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/atlas/vestibule-overview.png",
+      "stage": "H2 spatial atlas",
+      "identity": "vestibule-entry; source-bound concept",
+      "sha256": "b3d679e0c25808ad4553531a2d35f2c2c3fe4b68f4f51ebd5cce7980bd44ce3e",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/greybox-inputs/kids-overview.png",
+      "stage": "native greybox input",
+      "identity": "kids-overview",
+      "sha256": "78af21ebd3941cb1deb5e51e46ff003febdd61c3f62371551b1771fd7e2bca46",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/greybox-inputs/hall-gameplay.png",
+      "stage": "native greybox input",
+      "identity": "hall-gameplay",
+      "sha256": "6e257bf588f3fde95c86a24910b817a28255baa68221c7716d9335987198fe05",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/greybox-inputs/vestibule-transition.png",
+      "stage": "native greybox input",
+      "identity": "vestibule-transition",
+      "sha256": "18257067f335245cd85fdfd3c267badc84175562be226bc9d002388882ed7c44",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/greybox-inputs/porcelain-transition.png",
+      "stage": "native greybox input",
+      "identity": "porcelain-transition",
+      "sha256": "7b7c5294ce81c87e9dc67fd27d671323e45ef75e8caacf1e0fd75f6de5bbb951",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/greybox-inputs/east-transition.png",
+      "stage": "native greybox input",
+      "identity": "east-transition",
+      "sha256": "579fa239cd97aab29f591e1f23c7d240046a2dd4091c378452d30d8c2e23137f",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/greybox-inputs/taxidermy-overview.png",
+      "stage": "native greybox input",
+      "identity": "taxidermy-overview",
+      "sha256": "b7617d896a18972a4435e71eaa64d532196fa55c565acb8f7fe5c2a3baa4af1d",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/specimen_bear.png",
+      "stage": "asset modeling reference",
+      "identity": "specimen_bear",
+      "sha256": "7e93814a0df6bb76c7dcbd6ffe74ead9386b17f50bbfc6bee826f6b718ee0843",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/specimen_wolf.png",
+      "stage": "asset modeling reference",
+      "identity": "specimen_wolf",
+      "sha256": "139bde1ee5ab77bac9ee5c4d6021e5d91ff7417c7db7df9e8ad3808f54664d8d",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/specimen_deer.png",
+      "stage": "asset modeling reference",
+      "identity": "specimen_deer",
+      "sha256": "ec01127f928ebb306825328872b5ffc05a12ed98e1b102ce7b78060d6a2b1390",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/dog_player.png",
+      "stage": "asset modeling reference",
+      "identity": "dog_player",
+      "sha256": "cf74066ce18d329dd5b2281d43017bbd6573b4160b1b85ba0183af0c1e1819ff",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_staff_head.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_staff_head",
+      "sha256": "1f8889566ba56fdfe18ea9369aec18d40389118c1ff417cc04ffca40682a47ae",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_staff_torso.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_staff_torso",
+      "sha256": "5d550b9abc3c803f5f5a5e72fadc23aabf2255ec8b1c3f86adb0e71791d0805c",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_staff_legs.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_staff_legs",
+      "sha256": "43dd76100faab7cf629ec1de8236dc50af7eaec4952487859b05716694ede1cd",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_adult_head.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_adult_head",
+      "sha256": "30ef41538b9be905ee684a3cf9267049de8941e2fe79c26e6cefae99c29f57a3",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_adult_torso.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_adult_torso",
+      "sha256": "f08a59c5d6c796066445aba362b1b31df16d88086af901415e546736800a048f",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_adult_legs.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_adult_legs",
+      "sha256": "43e564e3ca25dcb811875d481b8a47bf9fac471f2f2e48c07b451f751f4967d7",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_child_head.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_child_head",
+      "sha256": "8bc2b0a236f267b03e929a07d3418b7359812e3b37b5462192bd66b499a547dc",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_child_torso.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_child_torso",
+      "sha256": "b64c22b28d2a9e9ecda17ea450ac16864875eebb73b4d88cb678773d7d1edcec",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/visitor_child_legs.png",
+      "stage": "asset modeling reference",
+      "identity": "visitor_child_legs",
+      "sha256": "052e6dc2dc1ae0db611e1475c420a16dd34d98c6fa8251b971c6493a885f2dc0",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_vase_a.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_vase_a",
+      "sha256": "4c21447f3f0ed32780319767a02d63def7b76b16fdb1057f8e59423b6a1fc74f",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_vase_b.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_vase_b",
+      "sha256": "f2b23d895dc4782a6d7f9aceb6c09e6c0d3cead90e736467af5428c325511413",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_vase_big.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_vase_big",
+      "sha256": "c5ac7678c9852f2da32640b2b4f1184d00f9fd7d5c61961e7e6317923cb4a3a4",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_rock_a.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_rock_a",
+      "sha256": "d206ef62ae22d61194f7166eac05cc9b352ee96f8c4cc3636d4449f55bac2588",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_rock_b.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_rock_b",
+      "sha256": "c7e377adf0ee869b916f5b852b1c7970a9f513e166f35aaf03660236c9487e96",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_bust.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_bust",
+      "sha256": "7fb83f494d58b7261ac5546099b7597bc3727dab9e53e4000647061c965ba7e3",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_bone.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_bone",
+      "sha256": "57dff59823ef1db3abf72405fdf46b981b8241c4ced4206aff6b24741241967a",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_specimen.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_specimen",
+      "sha256": "a6baf4ce9bee85c117a154ba5f9365bdda56f92d3a2f2a337eac47e03d0f2587",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/prop_souvenir.png",
+      "stage": "asset modeling reference",
+      "identity": "prop_souvenir",
+      "sha256": "8407bdf3357c29981254f6c466f393af4ba9316dc5cbc601f25b4e94e6f3d8b3",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_back_leg.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_back_leg",
+      "sha256": "e6acd0a50ac93bc4302a1e1d6e2a06d453c214862c3dd1c4478b7e11313b20d1",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_front_leg.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_front_leg",
+      "sha256": "a189a2586089aa8c2e11e34c177d89638c5d46761a65f5bea62b629c319dfcad",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_pelvis.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_pelvis",
+      "sha256": "3209f31f9f8f3a18a51a9b483eeef7f62f947068707606eb6415005ceddcfe79",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_chest.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_chest",
+      "sha256": "d567ba4f14395cf7ce487e2965a74c9fd035c7b350a7781a1e839a1aa316e7de",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_neck.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_neck",
+      "sha256": "6fa3a28a6b5b3938907b674f77895928817228b1b2ab77c31ebd20f674835ecf",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_spine.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_spine",
+      "sha256": "cd265386313c0c6e190fc271947c2b8fced37e9a3c946fa02dd483aba920c345",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_tail.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_tail",
+      "sha256": "fbb2d0e2c488764be48d4f3d733e9b6c796e1d06d290e966a9047a9f54825b76",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_ribs.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_ribs",
+      "sha256": "03db63e6c2ef28837f0b3e050a61769636615f1279ba218cb017c2d9a0f86556",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_head.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_head",
+      "sha256": "d107e9f02674f95a2c95b9bf502c48f64507c3ecea58570f9629ec0bb0dc4f91",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/modeling-references/mammoth_jaw.png",
+      "stage": "asset modeling reference",
+      "identity": "mammoth_jaw",
+      "sha256": "007712703059a6db4a7e98222c3a3386b979853c5767fbdfbe7f8d498ebd72d8",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/west-door-gameplay.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "west-door-gameplay; not finished art",
+      "sha256": "54321704b1009900c5bc39f626e3224d09ccc71e87ffe5078d91170c23a83cbd",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/hall-full-collapse.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "hall-full-collapse; not finished art",
+      "sha256": "6dd15629cb0417a03a2f349f714c07caef25d048e970d7706383241b4b5dea18",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/kids-overview.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "kids-overview; not finished art",
+      "sha256": "367ced128bed71b53c1b9e3854c24500132d0b96863450a2075d586e388500dc",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/hall-gameplay.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "hall-gameplay; not finished art",
+      "sha256": "bf63130a320d4ea4613211bf09a8d3ea904daebe17b3a4faeb9377d7b8c00ba5",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/vestibule-transition.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "vestibule-transition; not finished art",
+      "sha256": "d7473c5a62c70eef35dafdffe3aa00369ebbeac0928bb4a5f4ea52e732bdb6fe",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/east-transition.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "east-transition; not finished art",
+      "sha256": "39792f8ff42cf7a944ce5d04cea460f94d5874a4657a66fe21477b2a69727a3e",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/structural.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "structural; not finished art",
+      "sha256": "3ccb7292427757df8645801236b32c7925f8e126d3e27ecef061c5815dfe892b",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/rough/native-v2/taxidermy-overview.png",
+      "stage": "S6 native massing/proxy",
+      "identity": "taxidermy-overview; not finished art",
+      "sha256": "7a1b5acf9fbe0389a21678035431ae293d457277eab63122141d7a3cec9d7b5a",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/full-assembly-01/kids-overview.png",
+      "stage": "native assembly checkpoint",
+      "identity": "full-assembly-01 / kids-overview",
+      "sha256": "2deabf66bad5a3b0472b2a525c2fca3bb004800e80010ca0e51a9e47b661231a",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/full-assembly-01/hall-gameplay.png",
+      "stage": "native assembly checkpoint",
+      "identity": "full-assembly-01 / hall-gameplay",
+      "sha256": "7ae6036ec504c97e21cd50ab342851dccc645f1aac8c94865af86dcc93487df3",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/full-assembly-01/vestibule-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "full-assembly-01 / vestibule-transition",
+      "sha256": "24ceb81e2a9ac51f2a2d843056c986ba04e17ca6c46acd9af351cfa9f8bf75a5",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/full-assembly-01/porcelain-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "full-assembly-01 / porcelain-transition",
+      "sha256": "24ffabc1315cad43cfdbe3c6202d73d5907876776ad29b5cbe9991247bcf606d",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/full-assembly-01/taxidermy-overview.png",
+      "stage": "native assembly checkpoint",
+      "identity": "full-assembly-01 / taxidermy-overview",
+      "sha256": "08ed536df22196722d0b97db4f4b1cf019c6c0f7f916331b67427be34b7a7295",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/environment-layering-02/kids-overview.png",
+      "stage": "native assembly checkpoint",
+      "identity": "environment-layering-02 / kids-overview",
+      "sha256": "a26a30b535b451f578cfbd6e9309a756d6943bd72647b67333bf0e78cea6dc97",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/environment-layering-02/hall-gameplay.png",
+      "stage": "native assembly checkpoint",
+      "identity": "environment-layering-02 / hall-gameplay",
+      "sha256": "ac118b7f3e0c52d40bc0fe41fc054ebee2e8d878052a34ced1d63acc8dbf0a8c",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/environment-layering-02/vestibule-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "environment-layering-02 / vestibule-transition",
+      "sha256": "5229c710d8faafa8cfa7dad647f5baa074fb48cf617161baecd19177226f649a",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/environment-layering-02/porcelain-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "environment-layering-02 / porcelain-transition",
+      "sha256": "94f6201b4dab421c6d5ffc78e2370997165b6c8ba7a086bd62cfd2a3b065c9f6",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/environment-layering-02/taxidermy-overview.png",
+      "stage": "native assembly checkpoint",
+      "identity": "environment-layering-02 / taxidermy-overview",
+      "sha256": "18a16d92c27cfa381049f5433a82f537a6e51db15db5186fe36073887940621b",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/kids-pool-detail.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / kids-pool-detail",
+      "sha256": "0736ca8321227a742aa175bc040cb94d3b2bb7ab1d8573a9e9f234f7c1f57652",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/kids-construction.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / kids-construction",
+      "sha256": "d9f296b002e32b482ee79af6070a223bd9e838a8e560a27de8bd42c32fa855e8",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/kids-overview.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / kids-overview",
+      "sha256": "3b065ca8e5f11bb8c6f85b85aa838b0b9d6e809a5f09248f40a65cc0331db8f6",
+      "kind": "image"
+    },
+    {
+      "file": "previews/a01-hall-7499002260658bd3.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / hall-gameplay",
+      "sha256": "31fc61a46ad1869cccd6e9283e65d5de49250157f61f38b18e0833bbcd1bb5da",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/vestibule-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / vestibule-transition",
+      "sha256": "b0a4974c9a5e35ac365f380e58743b7a7191bec920644b421859982f01cb0388",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/hall-structural-v2.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / hall-structural-v2",
+      "sha256": "e4606fadcd082b9212a1382bc92dad8406c6f426212b931cff317613ab863342",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/porcelain-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / porcelain-transition",
+      "sha256": "9f96e11622a7540ec57998835d4c29fcc1e4d4a38b889dfb2203d03e29231545",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/east-transition.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / east-transition",
+      "sha256": "2cc4c400a6bec521851b67bbf79d707aed0c08571e8029816da86ada4ca437cd",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/taxidermy-overview.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / taxidermy-overview",
+      "sha256": "a197317ece1dc35c410623b02fe7d9d47afe1c7245538cf37d8eeb6caac7a079",
+      "kind": "image"
+    },
+    {
+      "file": "process/A01/assembly/polish-20261030-published-7499002260658bd3/mammoth-detail.png",
+      "stage": "native assembly checkpoint",
+      "identity": "polish-20261030-published-7499002260658bd3 / mammoth-detail",
+      "sha256": "f053031fe64687d22fcc0fb5f6a23ded199ff36b6a3d1cd35f0cf302a87a17e8",
+      "kind": "image"
+    }
+  ]
+}

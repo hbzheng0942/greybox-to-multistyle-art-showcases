@@ -1,0 +1,279 @@
+{
+  "schema": 1,
+  "design": "Authored receiving zones and branch-aware cargo islands; quantities are designed, route frames measured",
+  "station": {
+    "width": 64,
+    "height": 22,
+    "column_x": 14.8,
+    "column_step": 28,
+    "loaded_scale": 0.62,
+    "receiving_scale": 0.65
+  },
+  "canyon_groups": [
+    {
+      "s": 34,
+      "x": 28,
+      "top": 154,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 101,
+      "x": 38,
+      "top": 164,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 168,
+      "x": 25,
+      "top": 148,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 236,
+      "x": 45,
+      "top": 160,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 304,
+      "x": 30,
+      "top": 152,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 373,
+      "x": 39,
+      "top": 167,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 442,
+      "x": 27,
+      "top": 153,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 511,
+      "x": 46,
+      "top": 159,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 580,
+      "x": 31,
+      "top": 147,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 649,
+      "x": 40,
+      "top": 162,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 718,
+      "x": 26,
+      "top": 152,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 787,
+      "x": 37,
+      "top": 165,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 844,
+      "x": 28,
+      "top": 150,
+      "side": 1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 35,
+      "x": -25,
+      "top": 150,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 105,
+      "x": -30,
+      "top": 157,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 177,
+      "x": -28,
+      "top": 164,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 250,
+      "x": -42,
+      "top": 150,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 321,
+      "x": -65,
+      "top": 157,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 395,
+      "x": -35,
+      "top": 164,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 467,
+      "x": -38,
+      "top": 150,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 539,
+      "x": -40,
+      "top": 157,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 610,
+      "x": -31,
+      "top": 164,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 679,
+      "x": -28,
+      "top": 150,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 748,
+      "x": -27,
+      "top": 157,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 817,
+      "x": -30,
+      "top": 164,
+      "side": -1,
+      "count": 3,
+      "depth": 0
+    },
+    {
+      "s": 410,
+      "x": -123,
+      "top": 162,
+      "side": -1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 480,
+      "x": -141,
+      "top": 168,
+      "side": -1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 555,
+      "x": -132,
+      "top": 174,
+      "side": -1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 632,
+      "x": -110,
+      "top": 162,
+      "side": -1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 235,
+      "x": 67,
+      "top": 168,
+      "side": 1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 380,
+      "x": 69,
+      "top": 174,
+      "side": 1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 550,
+      "x": 68,
+      "top": 162,
+      "side": 1,
+      "count": 3,
+      "depth": 1
+    },
+    {
+      "s": 730,
+      "x": 65,
+      "top": 168,
+      "side": 1,
+      "count": 3,
+      "depth": 1
+    }
+  ],
+  "design_revision": "group edges leave approximately20-35m gaps; branch-aware islands and rear depth rows"
+}

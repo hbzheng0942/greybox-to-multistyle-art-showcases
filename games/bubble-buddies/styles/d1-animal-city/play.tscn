@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://styles/d1-animal-city/runtime/main.gd" id="1_main"]
+[ext_resource type="Script" path="res://styles/d1-animal-city/runtime/art_layer.gd" id="2_art"]
+
+[node name="BubbleBuddies" type="Node3D"]
+script = ExtResource("1_main")
+
+[node name="_GreyboxArtLayer" type="Node" parent="."]
+script = ExtResource("2_art")
+manifest_path = "res://styles/d1-animal-city/runtime/assembly.json"

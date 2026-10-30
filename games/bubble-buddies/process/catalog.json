@@ -1,0 +1,2013 @@
+{
+  "schema": 1,
+  "scope": "existing valid process checkpoints; concepts, massing and qualification are not completed art styles",
+  "items": [
+    {
+      "file": "process/original-lineage/D01/concept.png",
+      "stage": "original-lineage H1 selected direction",
+      "identity": "D01 (distinct from WorkBuddy D1)",
+      "sha256": "8c0011fde8c2767467da68de781b27cac7c35e2b53897c974c1ee1a287295cb1",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/concepts/interaction-atlas-v1.png",
+      "stage": "original-lineage spatial/interaction atlas",
+      "identity": "D01 / interaction-atlas-v1",
+      "sha256": "27b1e219740e7ecd1f39a0cadbb8b6457c067f1ada10808dcd52882d3124ecee",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/design/sections-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D01 / sections-v1",
+      "sha256": "243cb4aebde60856e82789e8c2ab0967ccf7c4452ad665316e28b942bc777708",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/design/plan-view-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D01 / plan-view-v1",
+      "sha256": "2cc05d5c4c4f1a06f09456871aac43908833c87ac5b6f77feed5e68d6ff345b3",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_laundry_door.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_laundry_door / three-quarter-v1",
+      "sha256": "12825ffd88c567b5e5f2fc0eda5ce579f194f3ee868f27be7f312b82dba314e6",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_towel_rack.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_towel_rack / three-quarter-v1",
+      "sha256": "21f96f5cea229c358a690e07a35317646fc76a1db80fd691a70a7cdc78cb3a89",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-towel_sheet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-towel_sheet / three-quarter-v1",
+      "sha256": "3bc0041ebe274d6f53f17cbbac67cdc0904f7d935de99934440ae48a7dced7f7",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_return.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_return / three-quarter-v1",
+      "sha256": "be487a0cbb75b40cde7a4c82709486b336a23354dba03d1393b6f3360c36d606",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_handoff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_handoff / three-quarter-v1",
+      "sha256": "ec2c7ab5b8e27373da3fb15c325c04aa30907418b050c627eb432a6a56c60d8b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-tool_paw_file.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-tool_paw_file / three-quarter-v1",
+      "sha256": "e5abe47287e4d8efc307b30bbfbb75c123499eabb2e325df1fe1e4cb926bb503",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_pawcare.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_pawcare / three-quarter-v1",
+      "sha256": "2d0686df15610b0576a5f2257224ad05c6eefbf5818ce194d73db1fee70703d9",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-sign_frame.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-sign_frame / three-quarter-v1",
+      "sha256": "13cc69859075088cddd901df8d5254ad795d2be16ed347b093b02569fb08ff2f",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-tool_shears_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-tool_shears_half / three-quarter-v1",
+      "sha256": "a894119da98f69ebcf697434137a886c84816440abee6d4968fdcdcea333fc8b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_groom.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_groom / three-quarter-v1",
+      "sha256": "462908ce870c4ad054bba4e568a2c92e520ed48d27e59790578a7f29182f36b0",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_receive_compact.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_receive_compact / three-quarter-v1",
+      "sha256": "e7b132be98da5434413685f72e30489581a9dc2a37aa4fce9c5995bcc79b22ab",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_treatment.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_treatment / three-quarter-v1",
+      "sha256": "09765ead2bbd8cab1318bff5d43e26a21f3b4326fcd809339a2d6344ba8bef4b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-tool_paw_clipper_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-tool_paw_clipper_half / three-quarter-v1",
+      "sha256": "ba5a28c37da840a3819639b4563c801ef669142e2a7e73338858917cafe2b5a9",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_buffer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_buffer / three-quarter-v1",
+      "sha256": "45e3fc9ea741279943c1ba325788ad9e8e9011ec8e05bb350445f48c040a720a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-staff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-staff / three-quarter-v1",
+      "sha256": "88cff2b8a3fa55a269ef95faffc9176c78c8a04b7ac7005a97221b6d9c6e4420",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-pet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-pet / three-quarter-v1",
+      "sha256": "5b8c613557d2a58d2e242a2b9819bbcfbab57392a81457facbcaeed8948fd2a3",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_laundry_body.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_laundry_body / three-quarter-v1",
+      "sha256": "6b9b3202e08048cb511e3cc66911693a88ff3bf852b4983e523bfaed1f389120",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_receive_large.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_receive_large / three-quarter-v1",
+      "sha256": "9e81a115ed8904896b938a8c5bc3bbf54a692f033fa138a21c5706f19dbc613b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_dryer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_dryer / three-quarter-v1",
+      "sha256": "26be05cb7e64ca4b2cbec04ae869bfa51f816cfb722bcedd9706cd832c6acaf9",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-tool_comb.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-tool_comb / three-quarter-v1",
+      "sha256": "9b1dbd8c270e7dfe7c0f8d05ba2b0db580668bc71b42a1f3fd571874da1b4248",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-owner_bench.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-owner_bench / three-quarter-v1",
+      "sha256": "07f1b27cdb88b99288dc7ee3866593585de1b744fc3357ece0d01ed3f2a4e803",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-tool_nozzle.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-tool_nozzle / three-quarter-v1",
+      "sha256": "f29fb6610586927144c6a1a1cffdfb3a0c08acac7b968ab322fffd31e3d98481",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-pet_gate.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-pet_gate / three-quarter-v1",
+      "sha256": "939d1318b4d9435f69efc5b8014c8bafff11502cbd5256d495e4419f3265c5dc",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/modeling-references/D01-eq_bath.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D01-eq_bath / three-quarter-v1",
+      "sha256": "caf4942fa920823d2f004ecaf5c6980a40653df989894cf41a327263e32d547d",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/04_real_carry_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 04_real_carry_contact",
+      "sha256": "2d9124ab3ec232c472ff064ceace92dc4fc0a874534424f245bad9c37bec8739",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/02_window_wrap.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 02_window_wrap",
+      "sha256": "ce869287c6bf558c817c299523b0d3441b3323f82ad6a34c000b47ab5a289ee6",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/08_actual_held_towel.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 08_actual_held_towel",
+      "sha256": "e26452372e59feb9b0e0cb3ce30479382e2eaeebcf85dd579377f3275ad46be9",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/01_qualification_overview.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 01_qualification_overview",
+      "sha256": "c05f8e43e531d257ae0ed945bf8398edf2c28c8c777d55cca0092fdb56e91ccd",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/07_partition_handoff.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 07_partition_handoff",
+      "sha256": "cd8c18b44425e98cb4481a51502be5fd78710c6675487f9f034df389cea2bf80",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/02_real_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 02_real_work_contact",
+      "sha256": "3dfa34d06ca3d132a30c3f961bee8d882f667c123775132f6f698176faf1a091",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/05_closest_legal_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 05_closest_legal_work_contact",
+      "sha256": "629bbe35ed78833c2edd7a9b08de33c03d97d1c93b62083275dce5c5aec4b820",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/06_far_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 06_far_work_contact",
+      "sha256": "5501141deba9fefb4c6c16ddec0d59b87c6bcee205e88de6dad93e1f9332e7bf",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/native-laundry-gate-v1/03_return_snapshot.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / native-laundry-gate-v1 / 03_return_snapshot",
+      "sha256": "29b4ef144e7fa3d6916c573671d272909629a1b036d23801206667e6c264fc1a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/tool-assembly-native-v1/shears.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / tool-assembly-native-v1 / shears",
+      "sha256": "450ec630e9b718177745e2a480d7081ebdbc4715683d9467e91b356421eb4884",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/tool-assembly-native-v1/water_nozzle.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / tool-assembly-native-v1 / water_nozzle",
+      "sha256": "1f2fd8d04c1cf1fa12ad606183e9b49e21633dc67c8def0ab20064af347940b3",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/tool-assembly-native-v1/paw_clipper.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / tool-assembly-native-v1 / paw_clipper",
+      "sha256": "ae9db9e942635790331b2bea745e34ec5b4c07cfeb6b49e560f32b81ac2c79e5",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/tool-assembly-native-v1/air_nozzle.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / tool-assembly-native-v1 / air_nozzle",
+      "sha256": "8f8fc607a8bd1c34fcd668d81a4c03f7909a7104922cc4bea94f7df49b6461cb",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/qualification/tool-assembly-native-v1/paw_file.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D01 / tool-assembly-native-v1 / paw_file",
+      "sha256": "fa94e93330c3d63d1e895a6c98de2e6a735620b4979a6b252ea31e162ebe60f7",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-staff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-staff; partial-assembly qualification, not finished game",
+      "sha256": "3cf7a5e70222e6ea6f8c15757188bddc2bdf480a6141f466ed3a898b41c8ca7a",
+      "kind": "editable_glb",
+      "bytes": 5930508
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-pet/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-pet; partial-assembly qualification, not finished game",
+      "sha256": "6e9be0e31aa2a850b3cfedb419fd638342fc3d5d3643264adf80e9832cf80429",
+      "kind": "editable_glb",
+      "bytes": 5339036
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_receive_large/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_receive_large; partial-assembly qualification, not finished game",
+      "sha256": "5e8894779ffef45cb2294241211ffeebaee7bd89c4eb1150567fdb8b0b039dc7",
+      "kind": "editable_glb",
+      "bytes": 1067708
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_receive_compact/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_receive_compact; partial-assembly qualification, not finished game",
+      "sha256": "eff2853dcad9834fb269461d617f5d4e17224c7c51f69d3fe77ee9a100f6759b",
+      "kind": "editable_glb",
+      "bytes": 998204
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_buffer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_buffer; partial-assembly qualification, not finished game",
+      "sha256": "555281f74b8572fc038bc60a17bf4833e6a4e1cafa9dc52ed03024aa2c011cdb",
+      "kind": "editable_glb",
+      "bytes": 6547720
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_bath/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_bath; partial-assembly qualification, not finished game",
+      "sha256": "d74e25027d4c6d9e8a78295678a04b513a873e4451bcc4031d685817c14be938",
+      "kind": "editable_glb",
+      "bytes": 3038540
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_dryer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_dryer; partial-assembly qualification, not finished game",
+      "sha256": "22b31acf5993c5472fddb49763e965aac112d24a6660d2d14e4617877e108d01",
+      "kind": "editable_glb",
+      "bytes": 1088244
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_handoff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_handoff; partial-assembly qualification, not finished game",
+      "sha256": "debc6bfa22e623c02e2c7701d4566a32c3f8b90e557bd18b22e0a3a7d978a9f7",
+      "kind": "editable_glb",
+      "bytes": 4920208
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_groom/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_groom; partial-assembly qualification, not finished game",
+      "sha256": "c1ae9c1de8083ec4943790ba33b709ff421fb4bc36bb739c2c8bf64d896495c2",
+      "kind": "editable_glb",
+      "bytes": 614680
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_laundry_body/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_laundry_body; partial-assembly qualification, not finished game",
+      "sha256": "d7ffbe4f03b006c4c887ddf497f57f4f975be327aa030e9442185434c8cd9801",
+      "kind": "editable_glb",
+      "bytes": 73600
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_laundry_door/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_laundry_door; partial-assembly qualification, not finished game",
+      "sha256": "91e7be919d6fbeecb9d0c55eaf617a22375523d302253efdd5c6536f02803821",
+      "kind": "editable_glb",
+      "bytes": 955704
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_return/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_return; partial-assembly qualification, not finished game",
+      "sha256": "dc979dae928b0925aca084c13880c2b42322f64e7cc68d4ae2240fe308b8a7b3",
+      "kind": "editable_glb",
+      "bytes": 5259240
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_towel_rack/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_towel_rack; partial-assembly qualification, not finished game",
+      "sha256": "afa85fb2d6430197fed3258d7dce539ceb0a954a288de8fa255dbfa399846376",
+      "kind": "editable_glb",
+      "bytes": 1379120
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_treatment/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_treatment; partial-assembly qualification, not finished game",
+      "sha256": "8490e34ff7b009aace917073837efa76a5267e61e43470b23c79af3880c607d3",
+      "kind": "editable_glb",
+      "bytes": 1482200
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-eq_pawcare/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-eq_pawcare; partial-assembly qualification, not finished game",
+      "sha256": "555349bb0e7bd906d20b71c6f2a6034e1a91c627aed79f27a8c26658dc7af4eb",
+      "kind": "editable_glb",
+      "bytes": 4999640
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-tool_nozzle/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-tool_nozzle; partial-assembly qualification, not finished game",
+      "sha256": "c7793626b6551c164973f16af4341922a17407cc6e417e19ff662f700c304b32",
+      "kind": "editable_glb",
+      "bytes": 611396
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-tool_comb/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-tool_comb; partial-assembly qualification, not finished game",
+      "sha256": "b70bc3616d4131cf55cf2a52872634e75a025683c957ae391dc608679eee3782",
+      "kind": "editable_glb",
+      "bytes": 273728
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-tool_shears_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-tool_shears_half; partial-assembly qualification, not finished game",
+      "sha256": "a860272acb0dc6dcbdd529a6d100080b690d2433cb9a8804e923a1a3bb3ceb86",
+      "kind": "editable_glb",
+      "bytes": 416700
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-tool_paw_clipper_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-tool_paw_clipper_half; partial-assembly qualification, not finished game",
+      "sha256": "ddfa93e3b5060a586ca8c343a041c2b2a88062b79aa0cb5fbd1a26f11291deb0",
+      "kind": "editable_glb",
+      "bytes": 7082160
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-tool_paw_file/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-tool_paw_file; partial-assembly qualification, not finished game",
+      "sha256": "0b817571ae9d40487a815609a7fd398743cbca595cc7aa1d69ff8009c99c6195",
+      "kind": "editable_glb",
+      "bytes": 6462528
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-towel_sheet/towel-forms.glb",
+      "stage": "current qualification model",
+      "identity": "D01-towel_sheet; partial-assembly qualification, not finished game",
+      "sha256": "7f8c76cd9ed1df6e3e20454147476077f88110b3ab2e1c343a2ee5896f726541",
+      "kind": "editable_glb",
+      "bytes": 149880
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-owner_bench/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-owner_bench; partial-assembly qualification, not finished game",
+      "sha256": "7ad99f75231019b41be389e62f47cddeb0a8c58103ca2f328c69d76562a32490",
+      "kind": "editable_glb",
+      "bytes": 1063936
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-pet_gate/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-pet_gate; partial-assembly qualification, not finished game",
+      "sha256": "0475bd95a71f89d1e3cdb681cc6bc93c570aaefa45079f98fb0315d6574b9500",
+      "kind": "editable_glb",
+      "bytes": 7761424
+    },
+    {
+      "file": "process/original-lineage/D01/assets/D01-sign_frame/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D01-sign_frame; partial-assembly qualification, not finished game",
+      "sha256": "0ff7a4859680e047a8351b007948a8f4459f0b5347ccc1392621fd56901617fe",
+      "kind": "editable_glb",
+      "bytes": 783944
+    },
+    {
+      "file": "process/original-lineage/D03/concept.png",
+      "stage": "original-lineage H1 selected direction",
+      "identity": "D03 (distinct from WorkBuddy D1)",
+      "sha256": "53c1d748be81bd398e11a268606fb9807e1d7fe812d7138ed65b1d9872cfe38a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/concepts/interaction-atlas-v1.png",
+      "stage": "original-lineage spatial/interaction atlas",
+      "identity": "D03 / interaction-atlas-v1",
+      "sha256": "0cc737036cc6b7511425314cc1cf274ecf270002a0604bc0c957026e982a71d7",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/design/sections-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D03 / sections-v1",
+      "sha256": "745015dea2e5ea600209fefe241d738b021b37b8bf7ea642c719fc3f82ff1159",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/design/plan-view-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D03 / plan-view-v1",
+      "sha256": "5313a46afc5bbb618b5d40eb601d47e9a8c0e8d45746be0b9342a3b665cdba38",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_buffer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_buffer / three-quarter-v1",
+      "sha256": "ccfb4ce012fbff365286514dcccdf4b04eb68245cc2e721268bfa0f762688d6a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_pawcare.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_pawcare / three-quarter-v1",
+      "sha256": "1c01e3fd811d5fdcb8d9e8f49b4868f634ca02cecfd560478f0eb6991644eb1d",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-sign_frame.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-sign_frame / three-quarter-v1",
+      "sha256": "4c5cc7cb7479eacf7dcc97d55a5aeb43ece6282da664378bd242848cd87e5cef",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-staff_rabbit.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-staff_rabbit / three-quarter-v1",
+      "sha256": "7e4ba0135da449e0f5b9334814b454772c650bb912dbf24c099c6b14c8943b2c",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-owner_bench.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-owner_bench / three-quarter-v1",
+      "sha256": "6ee9c7614adb46ba8bf142e579a6cc67afd099d04b70c3d288228e852a5dc738",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-tool_nozzle.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-tool_nozzle / three-quarter-v1",
+      "sha256": "8cbc8aeace9401c16c3945501eec4c16c96a8418daca54eeb5d4d40476a73eb0",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_receive_large.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_receive_large / three-quarter-v1",
+      "sha256": "b2fb94c3b0ae3dcb4ee3cebd4f8b6ab8e8eb2e79ef9ee925e89e68cf390d3e67",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-pet_gate.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-pet_gate / three-quarter-v1",
+      "sha256": "f30fe05940b99fbd92ad4c137fcb90760a047234612bf7303a786b0d42a77f9a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-tool_comb.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-tool_comb / three-quarter-v1",
+      "sha256": "b1f1441ea49120511254fbd5f9bc27ec5837054d4047e0fe34c054dcfecc60ae",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_treatment.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_treatment / three-quarter-v1",
+      "sha256": "b9772dfc6a0a3ad42c1859f48a38e817a022e6c35fb7ccab9bdc84a2f1ce3978",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_handoff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_handoff / three-quarter-v1",
+      "sha256": "9f6232a4774a5dcfacc78c0f35de91b3d9f28634d8eb5d73fdebc4449507c790",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_laundry_body.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_laundry_body / three-quarter-v1",
+      "sha256": "575de494e457da2330aa62a84ea4ef0cb0223c3f3590d2eaf0c6df87d9eb2936",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_dryer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_dryer / three-quarter-v1",
+      "sha256": "28e72541e3d04718a6ff3c4a81f10eb9995a76d6eead3ec07a12e56e913c6490",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-pet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-pet / three-quarter-v1",
+      "sha256": "a12ceb28b3b0ab9298ea8950d737030c8f33cf03079435e25076696e2324deda",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-staff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-staff / three-quarter-v1",
+      "sha256": "d72fe978d1c3e8d419fcb11aa8fd6a49e89992e5cf7180543adc34718a9b443b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_return.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_return / three-quarter-v1",
+      "sha256": "61c7759a20986ecb8d6cffeb2e9817e921b6c582b832f97b408254b9b96b42ff",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_bath.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_bath / three-quarter-v1",
+      "sha256": "605315af537cc5b3fff62d3762d6e5d985607415f467aa12e7a67049ba8851b5",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_receive_compact.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_receive_compact / three-quarter-v1",
+      "sha256": "ad780389c319594cbd56ced41c6159eaf61866aef5e19894da226329117acb33",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-tool_paw_clipper_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-tool_paw_clipper_half / three-quarter-v1",
+      "sha256": "afdaef06b7c5903553948c70420a3687226d17ee2cd742a44bbf41110d7b1f2c",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_laundry_door.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_laundry_door / three-quarter-v1",
+      "sha256": "54dc200a0376b6c8038db139b390d5096cd0b4e9dab4b6ce7ae309fa3ae245c8",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_groom.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_groom / three-quarter-v1",
+      "sha256": "685153d922eddcf110898578349847eb2916f7d2d9c65cddbada8ab7a3b61ccf",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-eq_towel_rack.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-eq_towel_rack / three-quarter-v1",
+      "sha256": "c6d443692fcad98290ef7f65261edd5c2abd57a1716bd1ec1dc4cde267ab7a86",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-towel_sheet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-towel_sheet / three-quarter-v1",
+      "sha256": "0c92f368c18ae61da748a71f149748a82ede2eaa7385a86f144e93dcd121e15b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-tool_paw_file.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-tool_paw_file / three-quarter-v1",
+      "sha256": "9f3d93481762f7b1700c1a4d006b4eac81facdc49356785f531f3c59e5a23be0",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/modeling-references/D03-tool_shears_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D03-tool_shears_half / three-quarter-v1",
+      "sha256": "26e9969d8b4d4038a2f7d12f76e6a0da1bf20355ad930f614d3ed517cf161e8d",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/04_real_carry_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 04_real_carry_contact",
+      "sha256": "fb67f70417780d7a1787f65fdb318798c77747ddb423dd23ed1972e3ae82b3c2",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/02_real_work_contact_staff0.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 02_real_work_contact_staff0",
+      "sha256": "5cf4dfb55e4ec2304c5a5ac61b3c77a1c5bdaccf80bf6556de5b0626c770b58e",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/02_real_work_contact_staff1.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 02_real_work_contact_staff1",
+      "sha256": "bf697eba9f4f29add5389ab989ff11b9935ccf79bc0e608239e27ed7c85d9782",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/02_window_wrap.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 02_window_wrap",
+      "sha256": "5d55484af13ca86b1003d673f165b7d570a0ab3008b485faa265eb13f0c3a896",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/05_closest_legal_work_contact_staff1.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 05_closest_legal_work_contact_staff1",
+      "sha256": "522e8bcd377993d243cd6220bcbf4b7fe696fd431dcbf42b9c18c5debfb2b840",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/08_actual_held_towel.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 08_actual_held_towel",
+      "sha256": "c5d86c4680a9e148ba634e6f3a7f8d2b0c668cbbfeb338fff38ca7b8f00bfce3",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/05_closest_legal_work_contact_staff0.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 05_closest_legal_work_contact_staff0",
+      "sha256": "2830a103958022159ddd5b6c936560b7ff0800690e9fbbb15936278ca47cb3de",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-D03-qualification.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 01_qualification_overview",
+      "sha256": "82da3c5479af94d839205a5003d5e3405c5dee519c5896e44f4ee9ffd268ebf8",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/07_partition_handoff.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 07_partition_handoff",
+      "sha256": "7a0b88ca2c03e006e173adc9a7c5a954ae3d1540605005e9bc2363c63710141e",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/06_far_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 06_far_work_contact",
+      "sha256": "c31c3e7760fc7ba1cf8e09f42582ac682a61add7f7c1a7dfd48fe902590d7d47",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/09_rabbit_carry_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 09_rabbit_carry_contact",
+      "sha256": "6fc5266684eee6380fc567bdc1523bf809b99922291d9c3ac5cf2e2d2a18993d",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/qualification/native-pet-approach-v1/03_return_snapshot.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D03 / native-pet-approach-v1 / 03_return_snapshot",
+      "sha256": "197c60822eab1602370f7b554b1b887e1e7ad6f479fdac5c2ce06e4aaca0b77b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-staff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-staff; partial-assembly qualification, not finished game",
+      "sha256": "a176473ade16baa17c28c2751c3d649d5ce4dff63b923afdfac5e617f5092c26",
+      "kind": "editable_glb",
+      "bytes": 6841968
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-pet/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-pet; partial-assembly qualification, not finished game",
+      "sha256": "bf74f0aff7392bd32a4795bf8a60974e35538115d28ba3428e69bef34dbd9f68",
+      "kind": "editable_glb",
+      "bytes": 10096240
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_receive_large/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_receive_large; partial-assembly qualification, not finished game",
+      "sha256": "787896a0704ab4d48ade7c31cd872842e8b7d4250e66c97546670e9d218453f6",
+      "kind": "editable_glb",
+      "bytes": 8454136
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_receive_compact/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_receive_compact; partial-assembly qualification, not finished game",
+      "sha256": "5d1fb346f95e72c30aee7aad6c58f5e8bc9f4d6b31bcedfc77ba53c8e7c6e09e",
+      "kind": "editable_glb",
+      "bytes": 2478820
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_buffer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_buffer; partial-assembly qualification, not finished game",
+      "sha256": "e912021d8c0aee18d17a0af3ddb43ea2eafe1df0687a7a10267edb5e035146c5",
+      "kind": "editable_glb",
+      "bytes": 7808796
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_bath/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_bath; partial-assembly qualification, not finished game",
+      "sha256": "e6d188c9f1bdcf285d9dfac3f98b1eb8d00a20a0cdda905af193ca1856b4e917",
+      "kind": "editable_glb",
+      "bytes": 1740596
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_dryer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_dryer; partial-assembly qualification, not finished game",
+      "sha256": "0d0bdb30053d20a246875595e264bce059673a84e85feb3b92c9515259d39cc8",
+      "kind": "editable_glb",
+      "bytes": 8086120
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_handoff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_handoff; partial-assembly qualification, not finished game",
+      "sha256": "93cbf99e01971819254a3ec5a15072128d5aaacd349ea8c033d0a3d5530c2077",
+      "kind": "editable_glb",
+      "bytes": 6895240
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_groom/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_groom; partial-assembly qualification, not finished game",
+      "sha256": "2e6f852548c67ce4a4290718727d266ad904968e8b750dd27a056c7decc3d635",
+      "kind": "editable_glb",
+      "bytes": 9477628
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_laundry_body/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_laundry_body; partial-assembly qualification, not finished game",
+      "sha256": "0216b7f34a4529d15e09d533347ce209f9b8ec9525fa1be1eff0f5022a912cd9",
+      "kind": "editable_glb",
+      "bytes": 7749712
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_laundry_door/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_laundry_door; partial-assembly qualification, not finished game",
+      "sha256": "f6111fd8e817fe0b8e61c18072a27f92e9315f2538229442a3726225e17a196f",
+      "kind": "editable_glb",
+      "bytes": 8676356
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_return/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_return; partial-assembly qualification, not finished game",
+      "sha256": "72879ed30e60727d97438e701b436454a637ac79776ffb8108e3f44691314610",
+      "kind": "editable_glb",
+      "bytes": 7638724
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_towel_rack/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_towel_rack; partial-assembly qualification, not finished game",
+      "sha256": "e9dca6b0a5c25e43dabafb95fa04901f3ae1390e436470236f7fa7a48217bcfd",
+      "kind": "editable_glb",
+      "bytes": 10951972
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_treatment/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_treatment; partial-assembly qualification, not finished game",
+      "sha256": "4fcb6c5121a155243e3fc430ae70ba215753613e8ce79bdd8e94fc31750de861",
+      "kind": "editable_glb",
+      "bytes": 5530420
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-eq_pawcare/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-eq_pawcare; partial-assembly qualification, not finished game",
+      "sha256": "722a4abd4c8ec895ea89852d0b9a9410a7a68ede96bd730c2ee463740505cb1e",
+      "kind": "editable_glb",
+      "bytes": 7596024
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-tool_nozzle/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-tool_nozzle; partial-assembly qualification, not finished game",
+      "sha256": "1f231f327ced9bdcff5f49dc5aaf3b0562aced28b94707783898cb33fded0579",
+      "kind": "editable_glb",
+      "bytes": 11028088
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-tool_comb/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-tool_comb; partial-assembly qualification, not finished game",
+      "sha256": "45b9359175520dcb799d5f3b01375617207bcd0a4e2f050dd4860e04450a3c49",
+      "kind": "editable_glb",
+      "bytes": 765284
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-tool_shears_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-tool_shears_half; partial-assembly qualification, not finished game",
+      "sha256": "b45e94ecd9818dd7cf454113f018f70550462a7ffab34ea921ed0a62dbde0b1d",
+      "kind": "editable_glb",
+      "bytes": 7921932
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-tool_paw_clipper_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-tool_paw_clipper_half; partial-assembly qualification, not finished game",
+      "sha256": "123a06e38cd162185e72704f37f1678b807814d94bf5b4ee36ae5b0ae79d7054",
+      "kind": "editable_glb",
+      "bytes": 8361940
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-tool_paw_file/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-tool_paw_file; partial-assembly qualification, not finished game",
+      "sha256": "82013a85bd4612077204850e6aad52ad1ac01f28ccc29844b467940c15d1608c",
+      "kind": "editable_glb",
+      "bytes": 11266568
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-towel_sheet/towel-forms.glb",
+      "stage": "current qualification model",
+      "identity": "D03-towel_sheet; partial-assembly qualification, not finished game",
+      "sha256": "483656e1a021c0e9d864be70fe5dd5aa744acb6a97ad6489dc7ae4c40881f1a3",
+      "kind": "editable_glb",
+      "bytes": 211836
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-owner_bench/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-owner_bench; partial-assembly qualification, not finished game",
+      "sha256": "560f2f1ee151bb23fd8405f77acafdc4962e0998664da4445be2d1265d0c1716",
+      "kind": "editable_glb",
+      "bytes": 9831388
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-pet_gate/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-pet_gate; partial-assembly qualification, not finished game",
+      "sha256": "64189418e1c6915b1d0361c9a133b366dc90fd3e045936c29343ade928323be5",
+      "kind": "editable_glb",
+      "bytes": 8652576
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-sign_frame/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-sign_frame; partial-assembly qualification, not finished game",
+      "sha256": "c6a45cc3fdff43a970eb34f4dd9a025b895b1c34795de7f0e6e8987b1a93e10a",
+      "kind": "editable_glb",
+      "bytes": 6732424
+    },
+    {
+      "file": "process/original-lineage/D03/assets/D03-staff_rabbit/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D03-staff_rabbit; partial-assembly qualification, not finished game",
+      "sha256": "e4810e1f301e012ac0f2e3b67839b76da98db01089790146082559e0a68423a7",
+      "kind": "editable_glb",
+      "bytes": 6691284
+    },
+    {
+      "file": "process/original-lineage/D05/concept.png",
+      "stage": "original-lineage H1 selected direction",
+      "identity": "D05 (distinct from WorkBuddy D1)",
+      "sha256": "9b654d59aecb93c1ea8715593acf3eaf91769339651a1f4cfed0f0b48761faed",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/concepts/interaction-atlas-v2.png",
+      "stage": "original-lineage spatial/interaction atlas",
+      "identity": "D05 / interaction-atlas-v2",
+      "sha256": "a17725bf6f499ad455b2342084d0da2d3713e810621d1348207470db653813c6",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/design/sections-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D05 / sections-v1",
+      "sha256": "2359ef2af9a7b3b0fd912a58e7e536a770e51061c2a27813ee37c7cee06f05c9",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/design/plan-view-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D05 / plan-view-v1",
+      "sha256": "b57b61ad7b3db6c7771f7a58cd92c757dc3ae091884c268c45715bd8547a07ff",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_towel_rack.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_towel_rack / three-quarter-v2",
+      "sha256": "84b9e15d6c08d43f3010477949ac6a8d116d0d82bfed395d4b3f32ef8ef77042",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_dryer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_dryer / three-quarter-v1",
+      "sha256": "9f0914ebc53978d3a1a431fe94aa82f2274c6f4a1953eef335b75c31cbb3a5c1",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-pet_gate.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-pet_gate / three-quarter-v1",
+      "sha256": "e7a4b3ab613348edb919e12b2f8cf45d9cfdb17eb99db1996b69ed5535054504",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-tool_paw_file.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-tool_paw_file / three-quarter-v2",
+      "sha256": "02499569b11464ca18d31e217a2508ebe99bd8969aa254b3b0e6e68af32c3c3e",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_buffer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_buffer / three-quarter-v1",
+      "sha256": "58bee99008da08e9e9e0c3d90efbc355b04d03c007acfc4aa1796238679f18f6",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_laundry_body.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_laundry_body / three-quarter-v2",
+      "sha256": "8ff63146d9e184678a4cfb852a6cbf1d2de022b99e7265889695ce1024533c25",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_bath.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_bath / three-quarter-v1",
+      "sha256": "f34ad3373943f248e5c4249bd945349a14bd125b72fcf7075f8267679f9f33aa",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_treatment.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_treatment / three-quarter-v1",
+      "sha256": "052a88821d031d8967bbe5fe66a2836835e875e2dcfd6700a759e08b7f13320e",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-owner_bench.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-owner_bench / three-quarter-v2",
+      "sha256": "2850f79fd0a935485a7e714cf7c171cf0289e63291f3c935498252d34604add4",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-tool_shears_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-tool_shears_half / three-quarter-v2",
+      "sha256": "1d51dd4ac4c9862aaa2bd8a1ec95ef3b85e8677bb2c90cbb82fab88cb6453637",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-tool_comb.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-tool_comb / three-quarter-v2",
+      "sha256": "34aeaeac96bba870660f790b0c7fa8a0ed0878185eeb107b6de934da19f2828c",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-tool_nozzle.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-tool_nozzle / three-quarter-v2",
+      "sha256": "d6e4f0d419e4e49803b453ca591dabacf993d452e5bfdf25252cf596d2e3a006",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_receive_large.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_receive_large / three-quarter-v1",
+      "sha256": "10a42c9f2e0d7633d0ae56ff96816a0430c3d53858431b6227495c2b38c0073b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_laundry_door.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_laundry_door / three-quarter-v2",
+      "sha256": "b49c4e6033b5ea389c80719beb38f5b66a587b177f9779c4f8f3d1cc435ec3aa",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-towel_sheet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-towel_sheet / three-quarter-v1",
+      "sha256": "f3792419dfdfcd466f99618acd036d03eda97c6fa702a8cdfdf60ef8bb834be4",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-pet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-pet / three-quarter-v1",
+      "sha256": "13ed77ecdcdcc63644500de4779e0d162cc2651772c9b3bdf0ea7cb8dd53d1dd",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-staff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-staff / three-quarter-v1",
+      "sha256": "d1a1a4930207c2a6f8abcea58d4f94adba61de374287f334dbb8a87cd334f654",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_groom.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_groom / three-quarter-v1",
+      "sha256": "0f02266f56f7bc3450a3483963c5e2a32006788053177b4182abf63cc61aa5a1",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_handoff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_handoff / three-quarter-v1",
+      "sha256": "f517d8d380d721bfb593de8042e464de633897cf75a93a0f8efbe8c7d88dedfa",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_return.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_return / three-quarter-v1",
+      "sha256": "e69ecd8af893c61422a74b2fcc936dad6478e09f732e20df85ef6f395e05b8d4",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-sign_frame.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-sign_frame / three-quarter-v1",
+      "sha256": "542a2b30aa5b6d59152c4e0cc1b4e1505791a4556247be524bfab9891b9f404b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_pawcare.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_pawcare / three-quarter-v2",
+      "sha256": "ae48a9af96c474c66055e31520fb11e07c9b1a0268439be420a94669450bbc6b",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-tool_paw_clipper_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-tool_paw_clipper_half / three-quarter-v1",
+      "sha256": "9f1c4fba433194d0153c6295ec92b07887d8083ee79ea3ff1fce35dbc1db1a5e",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/modeling-references/D05-eq_receive_compact.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D05-eq_receive_compact / three-quarter-v1",
+      "sha256": "eb86b450507e815a427617334f883d6d7373b8576943da880d73c8c3ab1ebf54",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/04_real_carry_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 04_real_carry_contact",
+      "sha256": "cb520a0a8cb435214553c314a758a977e0990508ba9d20bf2136c7d4c0244aa7",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/02_window_wrap.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 02_window_wrap",
+      "sha256": "30b67d623872bbe7f9cae99b9a377ad73a684b41edd1958792e1a36e4489423f",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/08_actual_held_towel.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 08_actual_held_towel",
+      "sha256": "cc4daaf8c67c2ffd82bc2093a2daa86b8cddcd031d91b7ecd551ec97216e3815",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/01_qualification_overview.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 01_qualification_overview",
+      "sha256": "d17d47ded93a2537d56faa49e6dba3da3c731096274342a2567e638a2a736c59",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/07_partition_handoff.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 07_partition_handoff",
+      "sha256": "69d3f34b82e6ba2902d074c05c51c1b1e090cd334421a9b0a0df74f7be10521e",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/02_real_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 02_real_work_contact",
+      "sha256": "d5e803421713621f19088dc2f50a239399311f89f24e6afa7a34cdff1985e098",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/05_closest_legal_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 05_closest_legal_work_contact",
+      "sha256": "a51fc8c2a08229595b4269541e32157f0239dc48e113ee842a9671c1398b4bd2",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/06_far_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 06_far_work_contact",
+      "sha256": "b515daedeeb409ac45e097be9adc4d92d45d53ba41cdf4f6c75e45fad2694509",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/qualification/native-pet-approach-v1/03_return_snapshot.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D05 / native-pet-approach-v1 / 03_return_snapshot",
+      "sha256": "32f45b3c6af5b29dea36a4cee838507e233ba97d9097f6a9ae2128f2a2717042",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-staff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-staff; partial-assembly qualification, not finished game",
+      "sha256": "d5f92993eb831c0258638c4ec64bcd43be162ec61a24e960a370dad1914fb025",
+      "kind": "editable_glb",
+      "bytes": 7581704
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-pet/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-pet; partial-assembly qualification, not finished game",
+      "sha256": "764959b8674ad2a913e904028683a82fe4d036aedd03434ab488c5f88bce3a55",
+      "kind": "editable_glb",
+      "bytes": 9454700
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_receive_large/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_receive_large; partial-assembly qualification, not finished game",
+      "sha256": "1d8e62730a078b18d1a627afa6f9b121f278d99637a64aaa345db6f8623820bb",
+      "kind": "editable_glb",
+      "bytes": 6178700
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_receive_compact/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_receive_compact; partial-assembly qualification, not finished game",
+      "sha256": "28783cb98b898e7d2fc3f81cbe66036713fb5a307a5abbe33ef2e30c4b5d9c68",
+      "kind": "editable_glb",
+      "bytes": 846260
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_buffer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_buffer; partial-assembly qualification, not finished game",
+      "sha256": "f5d88f5d38c7da371a5230176ac4e5e7be16350b7eeb6cb91792037d79e873a2",
+      "kind": "editable_glb",
+      "bytes": 5947456
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_bath/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_bath; partial-assembly qualification, not finished game",
+      "sha256": "e75c17ed815da6ce6ea41ff1c1ab36987d0587726e6aebffe9ffbe047bfac151",
+      "kind": "editable_glb",
+      "bytes": 3538864
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_dryer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_dryer; partial-assembly qualification, not finished game",
+      "sha256": "1aff6fdb51453e2338886fea0c414edb8d1e504bb92b5d8193284dd581611efc",
+      "kind": "editable_glb",
+      "bytes": 5624552
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_handoff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_handoff; partial-assembly qualification, not finished game",
+      "sha256": "38d9eb714926c34da5925160d7cb42d6d394c473a5b77036f39d3186fdef3d20",
+      "kind": "editable_glb",
+      "bytes": 4169832
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_groom/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_groom; partial-assembly qualification, not finished game",
+      "sha256": "3c4d8668550f26d4775cf26b11856f0e01a77f2d170b98c8674c7c69b47c91dc",
+      "kind": "editable_glb",
+      "bytes": 4725332
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_laundry_body/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_laundry_body; partial-assembly qualification, not finished game",
+      "sha256": "dcfc26db52058180569fa62d89565580c1f772c99a60f4299f22b3caa7606afe",
+      "kind": "editable_glb",
+      "bytes": 3749196
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_laundry_door/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_laundry_door; partial-assembly qualification, not finished game",
+      "sha256": "60d95dc03eddb4cd7af490dd4879524b9e62ca99c2e571ad57c80205c2e90e9e",
+      "kind": "editable_glb",
+      "bytes": 741848
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_return/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_return; partial-assembly qualification, not finished game",
+      "sha256": "f2c3186be28bcc3542afa2f8fed0950a2084dbd51cab0c89ee4f1aa070d6efb4",
+      "kind": "editable_glb",
+      "bytes": 581876
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_towel_rack/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_towel_rack; partial-assembly qualification, not finished game",
+      "sha256": "e90e39be439a212b060f7d8d037c3ee62591e6ad4483348422e93e87c94a5f43",
+      "kind": "editable_glb",
+      "bytes": 6242496
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-eq_treatment/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-eq_treatment; partial-assembly qualification, not finished game",
+      "sha256": "a815c4238ced35d1889b461d4fbf58e418836996ce6b2018984539baef0ebbab",
+      "kind": "editable_glb",
+      "bytes": 1209288
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-tool_nozzle/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-tool_nozzle; partial-assembly qualification, not finished game",
+      "sha256": "434865fa85f991497466e5de8c5acf2ba328790ea3f651dcc63797f4f96b5b28",
+      "kind": "editable_glb",
+      "bytes": 6522788
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-tool_comb/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-tool_comb; partial-assembly qualification, not finished game",
+      "sha256": "2fa1f875b148a33ab382cdf25c256269fb2c9ab4cb850d45283ed6dbb7c04887",
+      "kind": "editable_glb",
+      "bytes": 759064
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-tool_shears_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-tool_shears_half; partial-assembly qualification, not finished game",
+      "sha256": "fc4dac66ecb3b43b72d90275d747832b75d488500cdeced69c6c9ba90102e944",
+      "kind": "editable_glb",
+      "bytes": 822616
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-tool_paw_clipper_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-tool_paw_clipper_half; partial-assembly qualification, not finished game",
+      "sha256": "ea9a65de5cc1154dc93f50eecb0985d3a16ec27a7f0bbe6b0f98917f818fb84e",
+      "kind": "editable_glb",
+      "bytes": 1194148
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-tool_paw_file/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-tool_paw_file; partial-assembly qualification, not finished game",
+      "sha256": "11cd7c1420218b5157fa1cd30e1e3a06793fad981f47aaa73da59789250b3bfb",
+      "kind": "editable_glb",
+      "bytes": 5969268
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-towel_sheet/towel-forms.glb",
+      "stage": "current qualification model",
+      "identity": "D05-towel_sheet; partial-assembly qualification, not finished game",
+      "sha256": "7bbcb9c5ae95b73421bd8d22b4219659559e9bc93c96250def60963d82c94dee",
+      "kind": "editable_glb",
+      "bytes": 140372
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-owner_bench/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-owner_bench; partial-assembly qualification, not finished game",
+      "sha256": "183f58cc8f40a301781a2db4ca0f1083d132e7aa2e0dede346307a411edbc34b",
+      "kind": "editable_glb",
+      "bytes": 724120
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-pet_gate/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-pet_gate; partial-assembly qualification, not finished game",
+      "sha256": "a857b1f16db175d5585390a2b202d9c273d21ad71c8d1630ee82c81722972578",
+      "kind": "editable_glb",
+      "bytes": 4719616
+    },
+    {
+      "file": "process/original-lineage/D05/assets/D05-sign_frame/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D05-sign_frame; partial-assembly qualification, not finished game",
+      "sha256": "dcf581eefe312297ef368b37518ac699ef5beb01af8761ddbb45c9b2799a807f",
+      "kind": "editable_glb",
+      "bytes": 5135852
+    },
+    {
+      "file": "process/original-lineage/D10/concept.png",
+      "stage": "original-lineage H1 selected direction",
+      "identity": "D10 (distinct from WorkBuddy D1)",
+      "sha256": "33946a6c30eab3b06210e97bb0ab0d9ee90b70ac4d3b6efe8877db86b0f962cf",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/concepts/interaction-atlas-v1.png",
+      "stage": "original-lineage spatial/interaction atlas",
+      "identity": "D10 / interaction-atlas-v1",
+      "sha256": "6e671c7036e313c5321bc897959c3962b7517b634318ae0eff24ff5c3f1f98c7",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/design/sections-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D10 / sections-v1",
+      "sha256": "100a66a54c859b897aabe5601702c4236308e6e41737cebfdd3ce173ba4bb772",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/design/plan-view-v1.png",
+      "stage": "original-lineage design drawing",
+      "identity": "D10 / plan-view-v1",
+      "sha256": "f1e0ff29d6457affe347020522113fa3614498bfb7c6d4c4a182c768ce71eedd",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-tool_shears_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-tool_shears_half / three-quarter-v2",
+      "sha256": "3f94eb03fe90d1b053ca83948c65e2bc460c30be05d370d56fd213f15920f634",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-tool_comb.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-tool_comb / three-quarter-v1",
+      "sha256": "eeba57afaec9fead21d58ee60f30a702f045cfddcf94e99f317a353dab46fb85",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_laundry_door.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_laundry_door / three-quarter-v1",
+      "sha256": "10c7d0695c0d441f8195f5212e07be51070024e80355257d48634d1453673c52",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_groom.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_groom / three-quarter-v1",
+      "sha256": "a4d48250610e57f749a227e923e6a26c328067eafa78a0a8ca4f4fd99fb96cf8",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_handoff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_handoff / three-quarter-v1",
+      "sha256": "436c0ecc3d3c66bf983f187aff2fc469745773d39c56e1759286b849193060fa",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_treatment.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_treatment / three-quarter-v1",
+      "sha256": "8574a1b1df96eb7674775774964caa12c92111719fc5bacf8e846dbcb8a1f4e6",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-sign_frame.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-sign_frame / three-quarter-v1",
+      "sha256": "132b2b09b5a8355efddcdb254ff1e0652dc69afafb7fc013e31fd91b109adb38",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-owner_bench.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-owner_bench / three-quarter-v1",
+      "sha256": "d1a044a2f03d4614519c8c723e3d0e323de4423cbb5353dc0ffa72f3a727c960",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-staff.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-staff / three-quarter-v1",
+      "sha256": "afbcccbb2de88ba840cf8f29a66086233aa33f1f01200690be3f25109c99568c",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_pawcare.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_pawcare / three-quarter-v1",
+      "sha256": "63afaa857325c6922054a2a43d82b81ec1e8117199b0e576b659ad6b958947c0",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_buffer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_buffer / three-quarter-v2",
+      "sha256": "15750ac77a1ce2549486bd2679723e3aeb5512110562adb6f24a9250171700cb",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-tool_paw_clipper_half.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-tool_paw_clipper_half / three-quarter-v2",
+      "sha256": "a1a3e15fc55778439b1864803c27efacdf9702196307ee1ee0203eabb6aa6775",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-tool_nozzle.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-tool_nozzle / three-quarter-v1",
+      "sha256": "3e743ef608a5737d7e1ce055b7b3e086b1dc6531bc4a0407adc5f519fdaf6f50",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_dryer.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_dryer / three-quarter-v1",
+      "sha256": "1058037b920f7337733c7e2f58a78ee40b786455ff6eb0ca2ff2c8453996ea2a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-towel_sheet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-towel_sheet / three-quarter-v1",
+      "sha256": "5d354eb4bb38bb16dfacf4019bf4d400a1398c254ca156cb203b8e4999d1e321",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_laundry_body.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_laundry_body / three-quarter-v1",
+      "sha256": "fd5fabfafdee6c2be37badb8d990f114288f7c453e492b0bbbb34296c464f525",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_receive_compact.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_receive_compact / three-quarter-v1",
+      "sha256": "b218f71bb5f3b0420a692c8de25536199bfa598d7be6f74164300491487cd552",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-pet.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-pet / three-quarter-v1",
+      "sha256": "33594b1cba989908125096f4675f08c37d2b88ad4c97a80ef1355e12c3d9e408",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-pet_gate.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-pet_gate / three-quarter-v1",
+      "sha256": "0e0f9b4d81ed93ff3d3290971ab2569b5286c3cfbff272a4b77b0189cf3e8419",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_receive_large.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_receive_large / three-quarter-v1",
+      "sha256": "c7d748b1906983d401aa4f173ea5ccb2dda528ca4471255360eacb827a25230f",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_bath.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_bath / three-quarter-v1",
+      "sha256": "3cfab9dd59cfc948515bd326691a5cc97e7e36cb1721039312f90dc4c50c62ca",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_towel_rack.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_towel_rack / three-quarter-v1",
+      "sha256": "0dab6e3918210dd04d5e8d5b10238bb2f6b038f48eedd37f9d7e5010abd6616a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-tool_paw_file.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-tool_paw_file / three-quarter-v2",
+      "sha256": "b6130fa2d7a838b34a8c1bb4dbd9a75877b535ba8994bcc3f74b20bd9661a1d5",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/modeling-references/D10-eq_return.png",
+      "stage": "original-lineage asset reference",
+      "identity": "D10-eq_return / three-quarter-v1",
+      "sha256": "17c472f6b5100eb607f63e6aa56cb7d29059ec6aa990c1f16c7ffc0f2c979204",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/04_real_carry_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 04_real_carry_contact",
+      "sha256": "c44b6532ff675bf7cf0bafc56808028a21e41ac5b4d1cd468d6fb7521db7f670",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/02_window_wrap.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 02_window_wrap",
+      "sha256": "e554b65f190c4202db25f5db0ae8d2ea4d9a91ded338df7c2cf36095f962a2bd",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/08_actual_held_towel.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 08_actual_held_towel",
+      "sha256": "2e355c365b1a2fc4869d1328aef7d57d59872bf437e7b29f6a1a38931828ebff",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/01_qualification_overview.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 01_qualification_overview",
+      "sha256": "58dbc5d00955b5a52b189b2d41bdf3e958f63dcc497850ce25f353d61d8ee6d1",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/07_partition_handoff.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 07_partition_handoff",
+      "sha256": "15fa02d168bae131283bc5b7f8ba5840e6ce112e0a774c00b5f20054f390a936",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/02_real_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 02_real_work_contact",
+      "sha256": "8e1850a85b66bbac82badda807bc3fc4fa8daec3ab7e24cee16d4df77d1be315",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/05_closest_legal_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 05_closest_legal_work_contact",
+      "sha256": "bd1f2503aba5cadeb09d219c0c542de407a9dab279e50c7f5b04dbb02a4a1c08",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/06_far_work_contact.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 06_far_work_contact",
+      "sha256": "8341ed92735e42962935c4dff32bca8a47edd9a2fc007a23d2754bdb8975045a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/qualification/native-pet-approach-v1/03_return_snapshot.png",
+      "stage": "original-lineage native qualification; incomplete art loop",
+      "identity": "D10 / native-pet-approach-v1 / 03_return_snapshot",
+      "sha256": "1e354dee5410e7ddf043ccc3dc97f68346b76f384857937ddb068777cec0e81a",
+      "kind": "image"
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-staff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-staff; partial-assembly qualification, not finished game",
+      "sha256": "bb8df34d1758e5ff1fc997dc61df205eb6d245d5cf134a6c4a6e4093dcaf409d",
+      "kind": "editable_glb",
+      "bytes": 4594420
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-pet/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-pet; partial-assembly qualification, not finished game",
+      "sha256": "dd2fe146ce90a3a7df2416cefcbf8ae54872b112b72e25be35a699034d0464ca",
+      "kind": "editable_glb",
+      "bytes": 4018984
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_receive_large/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_receive_large; partial-assembly qualification, not finished game",
+      "sha256": "918a73d5d3532ecec9586b3fd7d35066ebbf72b5dc6330f3475ed2bcc2fd1021",
+      "kind": "editable_glb",
+      "bytes": 6524448
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_receive_compact/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_receive_compact; partial-assembly qualification, not finished game",
+      "sha256": "ad4e9855cf2df5a83f88ba3d62149f754021ebfed11d7d295cdb3ae8d1386b50",
+      "kind": "editable_glb",
+      "bytes": 5249616
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_buffer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_buffer; partial-assembly qualification, not finished game",
+      "sha256": "1a1519b42ef61079035e2a62e41d839e8a8caafba95e73caf8bbe24b4171b367",
+      "kind": "editable_glb",
+      "bytes": 5545992
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_bath/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_bath; partial-assembly qualification, not finished game",
+      "sha256": "3e5ef71229bbcc63bd22852b304874756b9fe40a6389dfdc3a70db6d837ad58a",
+      "kind": "editable_glb",
+      "bytes": 345704
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_dryer/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_dryer; partial-assembly qualification, not finished game",
+      "sha256": "9762e0d2b9ca714628bf231756bb6e613db6f5bb603ab62122e39dd3a12ec1f3",
+      "kind": "editable_glb",
+      "bytes": 5414180
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_handoff/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_handoff; partial-assembly qualification, not finished game",
+      "sha256": "f1ed13336bc09956cc2365b22eb08216387a5626888bb9e1b642d6f2b23582af",
+      "kind": "editable_glb",
+      "bytes": 4565720
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_groom/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_groom; partial-assembly qualification, not finished game",
+      "sha256": "654b6bd34af491934df938593f30daf1cb643b4f74a6c31053d954c2336af4c7",
+      "kind": "editable_glb",
+      "bytes": 6798952
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_laundry_body/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_laundry_body; partial-assembly qualification, not finished game",
+      "sha256": "3c3540b72d8296a6476c3fac057ac6b2b09386926ab0cd32263db2a07d48b991",
+      "kind": "editable_glb",
+      "bytes": 6709728
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_laundry_door/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_laundry_door; partial-assembly qualification, not finished game",
+      "sha256": "fce35e0ac19c28bf4b4f8ad9a08ed9d31c3a05aeff9e8b98d95394318ee46cca",
+      "kind": "editable_glb",
+      "bytes": 5365640
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_return/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_return; partial-assembly qualification, not finished game",
+      "sha256": "47eb949ecc5208edf062998eefbaf09ab7f55fccde6396f09e50db10c66e2715",
+      "kind": "editable_glb",
+      "bytes": 5421172
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_towel_rack/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_towel_rack; partial-assembly qualification, not finished game",
+      "sha256": "7ce921e5dd9f91515acd2e4f0515dd3d8fd07a32acc0027a9a6494e957247db3",
+      "kind": "editable_glb",
+      "bytes": 5681912
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_treatment/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_treatment; partial-assembly qualification, not finished game",
+      "sha256": "c516339be73396d41bc073dc759da377c791d2be7491c93d8972e15db197aacb",
+      "kind": "editable_glb",
+      "bytes": 6938572
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-eq_pawcare/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-eq_pawcare; partial-assembly qualification, not finished game",
+      "sha256": "5e4b88b08a2c28310a07187f870ed211358f61e6a9d39b7d917eae5c07ec2c37",
+      "kind": "editable_glb",
+      "bytes": 5372764
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-tool_nozzle/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-tool_nozzle; partial-assembly qualification, not finished game",
+      "sha256": "39b7cd4b50816127c80bff3d94a91c69760cce1a98197cd84e2b55636072198b",
+      "kind": "editable_glb",
+      "bytes": 6026948
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-tool_comb/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-tool_comb; partial-assembly qualification, not finished game",
+      "sha256": "32caa79e7ffa64c12e83202fbdb451a013e5860930c134a09c93fc8681432067",
+      "kind": "editable_glb",
+      "bytes": 77708
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-tool_shears_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-tool_shears_half; partial-assembly qualification, not finished game",
+      "sha256": "38172804be74b328077cbf440513f4976e820f95b6bb20c168dac6a15be55f59",
+      "kind": "editable_glb",
+      "bytes": 4937412
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-tool_paw_clipper_half/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-tool_paw_clipper_half; partial-assembly qualification, not finished game",
+      "sha256": "ad9c8fc34aa7f18bd7804fe7856f613e06351107cf3ce1517350e9baef55a5d3",
+      "kind": "editable_glb",
+      "bytes": 5263812
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-tool_paw_file/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-tool_paw_file; partial-assembly qualification, not finished game",
+      "sha256": "c7c1b35c76a1e5daa264023919f1a68f060c79c3262e0992252429ddc9f61533",
+      "kind": "editable_glb",
+      "bytes": 5406008
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-towel_sheet/towel-forms.glb",
+      "stage": "current qualification model",
+      "identity": "D10-towel_sheet; partial-assembly qualification, not finished game",
+      "sha256": "6381bb9f289a4fcfa7cca124f6c104ebed82dfb5b7ae5114642f362c90a815a2",
+      "kind": "editable_glb",
+      "bytes": 179924
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-owner_bench/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-owner_bench; partial-assembly qualification, not finished game",
+      "sha256": "29039f00953669ad3202b03d5478c4bf564d1efad4e4cd922402fe829278efc2",
+      "kind": "editable_glb",
+      "bytes": 4719400
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-pet_gate/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-pet_gate; partial-assembly qualification, not finished game",
+      "sha256": "c384ce66ea282b56a42360bbcbaa2cfc04c9be95bd8d31e651ff7948ee978040",
+      "kind": "editable_glb",
+      "bytes": 4872848
+    },
+    {
+      "file": "process/original-lineage/D10/assets/D10-sign_frame/asset.glb",
+      "stage": "current qualification model",
+      "identity": "D10-sign_frame; partial-assembly qualification, not finished game",
+      "sha256": "7884652cb89b42cb6313920832de32a4f96b1396837331179bdc26b5524404e7",
+      "kind": "editable_glb",
+      "bytes": 4085320
+    },
+    {
+      "file": "process/workbuddy/directions/d1-animal-city.png",
+      "stage": "WorkBuddy H1 selected direction",
+      "identity": "d1-animal-city; active",
+      "sha256": "6590e2d1332e045882cdb020ccadf8a83a5cceb263fde1522c617ed3b44b1f56",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/directions/d2-handcrafted-coop.png",
+      "stage": "WorkBuddy H1 selected direction",
+      "identity": "d2-handcrafted-coop; queued",
+      "sha256": "e02ac48218e0c68f8458ff9336399b84bc4b2fe086d986d654cf0c34549ca824",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/directions/d3-cel-dusk.png",
+      "stage": "WorkBuddy H1 selected direction",
+      "identity": "d3-cel-dusk; queued",
+      "sha256": "f3c9bd24d3d92cf8665b4644706b258b41917bc265300111ed527ea915a8500b",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/directions/d4-riso.png",
+      "stage": "WorkBuddy H1 selected direction",
+      "identity": "d4-riso; queued",
+      "sha256": "183d0cb42117370f5cccd6de54846767113894881e6c46bc6005810c69796865",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/design/plan-view.png",
+      "stage": "WorkBuddy D1 plan/S6 probe",
+      "identity": "plan-view",
+      "sha256": "c5def3bf199ac304afda1c2cfb69a826e42e816592adb5010d66ada6abc5305a",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/design/frame-budget.png",
+      "stage": "WorkBuddy D1 plan/S6 probe",
+      "identity": "frame-budget",
+      "sha256": "b26ee7d0c66720115effb077c986d05c8e5330a5b8fa8e00efc7472292ed7b7f",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/design/section-x0.png",
+      "stage": "WorkBuddy D1 plan/S6 probe",
+      "identity": "section-x0",
+      "sha256": "d7b905572361eba39d3246f17f66cca71c4ebd8d89b36c5debe1093058c196f4",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/design/evidence/frame-art-surface.png",
+      "stage": "WorkBuddy D1 plan/S6 probe",
+      "identity": "frame-art-surface",
+      "sha256": "b810d53093bb7ba8ae7182c272d438770afc65312fdbf4424f0f82f256eb38da",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/design/evidence/frame-default.png",
+      "stage": "WorkBuddy D1 plan/S6 probe",
+      "identity": "frame-default",
+      "sha256": "b6d109e5e7aa92365c7edfb339446a35a43b65e1b5515e73324f85e216be6512",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/pilots/h4-v1/01_shared_camera_after_settle.png",
+      "stage": "WorkBuddy D1 representative pilot",
+      "identity": "h4-v1 / 01_shared_camera_after_settle",
+      "sha256": "bef843cc3f6d593bf04399e693c7bbd0437b63c0042d2666ced97e0655ddf2ba",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/pilots/h4-v1/00_shared_camera.png",
+      "stage": "WorkBuddy D1 representative pilot",
+      "identity": "h4-v1 / 00_shared_camera",
+      "sha256": "c93bc4a0bd696b3719694cf35bad2d171bb1f8658371d9d729a676c0a8b361bd",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/concept-view-r7.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "concept-view-r7.png",
+      "sha256": "c09b14e8b87d2d3cec5e0a47b82b7721ba7ac4d71611c1b6e5dce58feb6ae73f",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/concept-view-r8.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "concept-view-r8.png",
+      "sha256": "cfc095086d04d46a10e1e732f4eafd6faa809fa2364af465fd2a351e94063957",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/concept-view-r9.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "concept-view-r9.png",
+      "sha256": "6c24fc2668065dca7306f741d1b532f29d90514a825b399854285f6cdf3e2178",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/camera-before.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "camera-before.png",
+      "sha256": "2df29ca14f81562b8367d6bf8f0a50d671d636038580ce1761b88ad5a820acf7",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/camera-after.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "camera-after.png",
+      "sha256": "36a6d9deeda193eceb5c3faa6d9efcb5c70a45800b3f632e2b7d7c271c31ae7a",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/tile-before.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "tile-before.png",
+      "sha256": "8a2f9f81e57873fadeb256fdbf37e01d51e56c8e10a89f5d2daf859e27e41f52",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/tile-after.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "tile-after.png",
+      "sha256": "c721023ba5c74125cb45be5a96042285b08e89c3ade521732340c4cbf960783f",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/trim-before.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "trim-before.png",
+      "sha256": "89756bed3864425621ac6f097d81bf5c6483352d47d3c44ff43653c127496ab2",
+      "kind": "image"
+    },
+    {
+      "file": "process/workbuddy/D1/assembly/trim-after.png",
+      "stage": "WorkBuddy D1 assembly revision",
+      "identity": "trim-after.png",
+      "sha256": "765d59eb87c288d19823318e3d11d43eefbb40c467aab32943723b95c5d2d15e",
+      "kind": "image"
+    }
+  ]
+}

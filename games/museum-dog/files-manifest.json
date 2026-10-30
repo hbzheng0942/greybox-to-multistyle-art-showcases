@@ -1,0 +1,1725 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "games/museum-dog/styles/A01/assets/authored_graphics_kit/poster-atlas-d3ed7c3c227f55fa.png",
+      "sha256": "d3ed7c3c227f55fa20fc3f69ce6a3404da5b7811d065220f9495a3100ed88527",
+      "bytes": 3238410,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d3/d3ed7c3c227f55fa20fc3f69ce6a3404da5b7811d065220f9495a3100ed88527.png",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/exhibit_refinement/specimen_bear-fur-albedo-2a939a944a350c7b.png",
+      "sha256": "2a939a944a350c7bb95fcd0926fe3b7ebccf24b29df48060a4cb0e6938490753",
+      "bytes": 3732678,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/2a/2a939a944a350c7bb95fcd0926fe3b7ebccf24b29df48060a4cb0e6938490753.png",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/exhibit_refinement/specimen_wolf-fur-albedo-0ffd994a7d0e250a.png",
+      "sha256": "0ffd994a7d0e250a00a49ca0341cb359f7dcacc20f79d5c7b6188b40f51e11b3",
+      "bytes": 4457295,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0f/0ffd994a7d0e250a00a49ca0341cb359f7dcacc20f79d5c7b6188b40f51e11b3.png",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_back_leg/fit-3ed43279dc829b82.glb",
+      "sha256": "3ed43279dc829b821d4419f7954e228d888a6b9f6a0563f92b534ca30e37b682",
+      "bytes": 5156896,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/3e/3ed43279dc829b821d4419f7954e228d888a6b9f6a0563f92b534ca30e37b682.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_chest/fit-fda09db741d914d2.glb",
+      "sha256": "fda09db741d914d2ff97bf0f340ad51a88be502838cfd779c10eca612cb91ece",
+      "bytes": 5266744,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/fd/fda09db741d914d2ff97bf0f340ad51a88be502838cfd779c10eca612cb91ece.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_front_leg/fit-beab46e981154ecf.glb",
+      "sha256": "beab46e981154ecfd264a05b08af7e2260e9851bfbedaa610704f0a8ca021c95",
+      "bytes": 5535528,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/be/beab46e981154ecfd264a05b08af7e2260e9851bfbedaa610704f0a8ca021c95.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_head/fit-4b9a983ed06cb622.glb",
+      "sha256": "4b9a983ed06cb62246e1783eae4d6c6dfb3eb4489dcfb7f63c71f09fe91935ea",
+      "bytes": 5277484,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/4b/4b9a983ed06cb62246e1783eae4d6c6dfb3eb4489dcfb7f63c71f09fe91935ea.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_jaw/fit-904e945a6c99c3c9.glb",
+      "sha256": "904e945a6c99c3c9cf49ce239662a090c74b2c12bdf083865b33aff7a580629b",
+      "bytes": 4645816,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/90/904e945a6c99c3c9cf49ce239662a090c74b2c12bdf083865b33aff7a580629b.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_neck/fit-128f5c5a8be75eb1.glb",
+      "sha256": "128f5c5a8be75eb18ecf9b7770ee67c8dbe7e114301c832411914afbc16b7828",
+      "bytes": 5047364,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/12/128f5c5a8be75eb18ecf9b7770ee67c8dbe7e114301c832411914afbc16b7828.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_pelvis/fit-e9d8dc0be8132cd6.glb",
+      "sha256": "e9d8dc0be8132cd6c6378a2012a09ce5254b4d0497fab885b37370f0e024789d",
+      "bytes": 5524000,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e9/e9d8dc0be8132cd6c6378a2012a09ce5254b4d0497fab885b37370f0e024789d.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_ribs/fit-e1ce76969043507f.glb",
+      "sha256": "e1ce76969043507fbf7eca597cc1ae0b7e0ed55bf37f8e98e2ff34231bc8f8c8",
+      "bytes": 4206140,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e1/e1ce76969043507fbf7eca597cc1ae0b7e0ed55bf37f8e98e2ff34231bc8f8c8.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_spine/fit-7b8dbedf0352a64b.glb",
+      "sha256": "7b8dbedf0352a64b1232e15e04c16810c902dfebbb485c52c6339b8c3c7bb90e",
+      "bytes": 6738984,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/7b/7b8dbedf0352a64b1232e15e04c16810c902dfebbb485c52c6339b8c3c7bb90e.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/mammoth_tail/fit-eed3319cf193c208.glb",
+      "sha256": "eed3319cf193c20801ba035c3eb169c3ce0eafc52f0514cb2c81b696043611c8",
+      "bytes": 5722376,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ee/eed3319cf193c20801ba035c3eb169c3ce0eafc52f0514cb2c81b696043611c8.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_bone/fit-f3ef76e6b17ef03f.glb",
+      "sha256": "f3ef76e6b17ef03f0588f21aff2b6f8ae90ae20ef5f635cd10f45597f5aa8691",
+      "bytes": 2878520,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/f3/f3ef76e6b17ef03f0588f21aff2b6f8ae90ae20ef5f635cd10f45597f5aa8691.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_bust/fit-e3910077045c5789.glb",
+      "sha256": "e3910077045c578933006a796c35a8ac77baf68ac1e081d7e43a687549a8515d",
+      "bytes": 5126104,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e3/e3910077045c578933006a796c35a8ac77baf68ac1e081d7e43a687549a8515d.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_rock_a/fit-7f896f3635486e2b.glb",
+      "sha256": "7f896f3635486e2b2645733abde799224119fd99700773b2116abc63b9737a24",
+      "bytes": 5855228,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/7f/7f896f3635486e2b2645733abde799224119fd99700773b2116abc63b9737a24.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_rock_b/fit-fa43044b117d03db.glb",
+      "sha256": "fa43044b117d03db0564a534ef14df04575c67a05709a8f5cfabb669001d1f42",
+      "bytes": 4740232,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/fa/fa43044b117d03db0564a534ef14df04575c67a05709a8f5cfabb669001d1f42.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_souvenir/fit-0b3ec417b6ead2e8.glb",
+      "sha256": "0b3ec417b6ead2e8a44f7fedf2405b28f2c940715093249b37b4f0a3ea6c0bd7",
+      "bytes": 5503672,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0b/0b3ec417b6ead2e8a44f7fedf2405b28f2c940715093249b37b4f0a3ea6c0bd7.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_specimen/fit-0b933e3369bf994b.glb",
+      "sha256": "0b933e3369bf994bac089a37a2c576694a0f43e7fca93e06bccbacbb0cf82b7a",
+      "bytes": 6698276,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/0b/0b933e3369bf994bac089a37a2c576694a0f43e7fca93e06bccbacbb0cf82b7a.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_vase_a/fit-aae4ad18a811deab.glb",
+      "sha256": "aae4ad18a811deab8125471ebff1d6e935c2f4f1ff517d8685e3bffcd428ca00",
+      "bytes": 3240940,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/aa/aae4ad18a811deab8125471ebff1d6e935c2f4f1ff517d8685e3bffcd428ca00.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_vase_b/fit-a9bb216a9140c896.glb",
+      "sha256": "a9bb216a9140c896acfce7ce2a5c5622c42b0c55cb5b3d3f0f2604927d7956e3",
+      "bytes": 3615948,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a9/a9bb216a9140c896acfce7ce2a5c5622c42b0c55cb5b3d3f0f2604927d7956e3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/prop_vase_big/fit-e53a8002bcec62dd.glb",
+      "sha256": "e53a8002bcec62dd853fc4eff0d6d2eaf92075eaca0b213db9842e67fba4949b",
+      "bytes": 3779768,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/e5/e53a8002bcec62dd853fc4eff0d6d2eaf92075eaca0b213db9842e67fba4949b.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/specimen_bear/fit-f5fe8549f51365cf.glb",
+      "sha256": "b686bb0922a5a16e91d6f85be5fbabe62d1eb5db6b7abc0cafb0fc373db578c3",
+      "bytes": 7866964,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/b6/b686bb0922a5a16e91d6f85be5fbabe62d1eb5db6b7abc0cafb0fc373db578c3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/specimen_deer/fit-a21aed3b55dfabdc.glb",
+      "sha256": "a21aed3b55dfabdc8df4f742be460d670c1bc4ce0a53c81876f68d794f8ead54",
+      "bytes": 5975196,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a2/a21aed3b55dfabdc8df4f742be460d670c1bc4ce0a53c81876f68d794f8ead54.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/specimen_wolf/fit-a41c56d59b755f7f.glb",
+      "sha256": "a41c56d59b755f7f105559d41efcb577418debfcb03d82662f7e7fdb80ff51d6",
+      "bytes": 8330468,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a4/a41c56d59b755f7f105559d41efcb577418debfcb03d82662f7e7fdb80ff51d6.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_adult_head/fit-d90a2135ab295e6b.glb",
+      "sha256": "d90a2135ab295e6b595441c658471e121809c5ddc80653c16b94493ac3a55b6e",
+      "bytes": 7300424,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d9/d90a2135ab295e6b595441c658471e121809c5ddc80653c16b94493ac3a55b6e.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_adult_legs/fit-c0f39b7e332223c0.glb",
+      "sha256": "c0f39b7e332223c09c9875fc27e0b031ea3c6d9f4fa12c4812451300fefce8f3",
+      "bytes": 4415824,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c0/c0f39b7e332223c09c9875fc27e0b031ea3c6d9f4fa12c4812451300fefce8f3.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_adult_torso/fit-c79def9d610047a0.glb",
+      "sha256": "c79def9d610047a0ffddfda455c61144b3af5fc5a410b8f00d7dae2f2876e9b0",
+      "bytes": 5026524,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/c7/c79def9d610047a0ffddfda455c61144b3af5fc5a410b8f00d7dae2f2876e9b0.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_child_head/fit-5f2397e305376587.glb",
+      "sha256": "5f2397e30537658786b4f6f897fbe22ab7f8c71bb526b38f936a6fb845b23155",
+      "bytes": 6725100,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/5f/5f2397e30537658786b4f6f897fbe22ab7f8c71bb526b38f936a6fb845b23155.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_child_legs/fit-1c3340595d65f118.glb",
+      "sha256": "1c3340595d65f118b8f8f9f2589a9d0ebbcf9d38c7cc4f3f660976d493312c78",
+      "bytes": 6094448,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1c/1c3340595d65f118b8f8f9f2589a9d0ebbcf9d38c7cc4f3f660976d493312c78.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_child_torso/fit-1beb165c10184cda.glb",
+      "sha256": "1beb165c10184cdaa0e7f433c1d47d15ad89a2ce3bcaee8c87f7545b7a51468d",
+      "bytes": 6611308,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1b/1beb165c10184cdaa0e7f433c1d47d15ad89a2ce3bcaee8c87f7545b7a51468d.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_staff_head/fit-49fd15637f64d8ed.glb",
+      "sha256": "49fd15637f64d8ed5e2d7bdb32153bfba7930e04e91683a49284bc883f19e840",
+      "bytes": 6736776,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/49/49fd15637f64d8ed5e2d7bdb32153bfba7930e04e91683a49284bc883f19e840.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_staff_legs/fit-1f27eb3a61deacc6.glb",
+      "sha256": "1f27eb3a61deacc691b53fe75627d38756cec1c48db3e297d9b2dec004ac93cd",
+      "bytes": 6291920,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/1f/1f27eb3a61deacc691b53fe75627d38756cec1c48db3e297d9b2dec004ac93cd.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_staff_torso/fit-18dd7cdf9ad9025b.glb",
+      "sha256": "18dd7cdf9ad9025b66c318c49bf8a1b647850abcfed6df70b733c33e8c879ffc",
+      "bytes": 6809888,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/18/18dd7cdf9ad9025b66c318c49bf8a1b647850abcfed6df70b733c33e8c879ffc.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/wall_specimen_head/fit-43ca33b09fc656c8.glb",
+      "sha256": "43ca33b09fc656c8279b44435de019d75006b9090f0fcc57afa57d2abd61efdf",
+      "bytes": 5947944,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/43/43ca33b09fc656c8279b44435de019d75006b9090f0fcc57afa57d2abd61efdf.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/069f37f06a8d43ae-a01_lighting.gd",
+      "sha256": "069f37f06a8d43aed04814d834f2b0619a3ac091410e8c486b2cb9295d277ef8",
+      "bytes": 12202,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/08501ccae70f88f7-a01_occlusion.gd",
+      "sha256": "08501ccae70f88f7dec87a696d77fe985d8ce14fd6ba3c0b93523eae56543f24",
+      "bytes": 1366,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/09ca506573468454-visitor_visual_motion.gd",
+      "sha256": "09ca506573468454eb9748557bb77adfd95760d185951d25217ad5513404c0ea",
+      "bytes": 12526,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/103f70d0fc575254-forest_mural.gd",
+      "sha256": "103f70d0fc57525489375d5714801fe2a31d9481d7c168ce486a8ac2e2e35b1b",
+      "bytes": 7393,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/1bc1c8a495047e0c-room_structure.gd",
+      "sha256": "1bc1c8a495047e0c7f7c3c8a83c6555ad9d617bbb04698d7ca8c57adb8925274",
+      "bytes": 10775,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/31d2527de24987c4-graphics_relief.gd",
+      "sha256": "c9c20905fa00099e76d0428b87ab7cafa439e4e40dddd6d0268702c1b407abcd",
+      "bytes": 12675,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/334ec3c542507687-visual_pick.gd",
+      "sha256": "334ec3c54250768748283a7939487a6bf838dc9a51a2593577141c6e11886b8f",
+      "bytes": 3693,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/37f3258ff922d886-exhibit_style.gd",
+      "sha256": "72c133ff88fab57a68d4e4fa5bd8d0a6c287841f1c590f5f29bbb03c89eb7015",
+      "bytes": 37633,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/395c4f086a53ba66-camera_composition_guard.gd",
+      "sha256": "2c3f09f7e845987e3219a87d71a18e765300ebc2dc16416b4d70783b58502369",
+      "bytes": 41521,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/71dc66a83d60259e-camera_visual_guard.gd",
+      "sha256": "71dc66a83d60259eaa8e1589bc81785af6e86066bc16c1f52bbef03cd807a37e",
+      "bytes": 16484,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/8a2387b28b666c09-camera_furniture_surfaces.gd",
+      "sha256": "8a2387b28b666c093a9a853c5d4649442c930157194adaaf16bc4cbabaf708aa",
+      "bytes": 3175,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/8ae8b471957da1a2-surface_texture_source.gd",
+      "sha256": "8ae8b471957da1a2a8aaf142542cbed065138a6dc268b61aa59b7d61779aeac1",
+      "bytes": 5368,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/8eb527291b5ae069-player_art_contact.gd",
+      "sha256": "8eb527291b5ae0698e17ffd96ae275a0fd05d6c6f6113c6d2d3a7f104eba4190",
+      "bytes": 6488,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/94e5de0ab2d31df6-semantic-bindings.json",
+      "sha256": "94e5de0ab2d31df6eecb7ae59463175807ff17a441789c7062c3d722ee989d1a",
+      "bytes": 765533,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/b7b190c992c5008a-held_art_contact.gd",
+      "sha256": "b7b190c992c5008a7ef4aed1cb004a8ac171eccac38892e54d38140e293ef496",
+      "bytes": 21878,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/bca603ba5d6f7b42-a01_hud.gd",
+      "sha256": "bca603ba5d6f7b4247c21504f8f4bea12708cc949e3395aba29017cd3cefb463",
+      "bytes": 3531,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/c2793d3a2246a98f-exhibit_socket_data.gd",
+      "sha256": "c2793d3a2246a98f72ce0cdb359037088342b9bd0a49690f5aa2cdc8bf834307",
+      "bytes": 343007,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/c55f42a18825edd0-material_palette.gd",
+      "sha256": "5260e0fda824577c8f5c1de4d1a2b318670d31a8720b321d0cf1bf8076f16fdf",
+      "bytes": 9906,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/cefaa8054e44c8a0-a01_game.gd",
+      "sha256": "2902aea1fb985f29e7f0529c6ae7f65e8babd2db25192198b297a344c97b7376",
+      "bytes": 3768,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/d8b33df473ba85e4-exhibit_cloth_finish.gd",
+      "sha256": "611603a5cfa161933e4d28aef7806262432878e8c34307638c0565c46422358b",
+      "bytes": 5986,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/d9126d48a16b57a6-scene_kits.gd",
+      "sha256": "aa75cc63940227c8f269e096d7ced10ead864dc72412f92a50f4ce236c592961",
+      "bytes": 26428,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/dcb734d66fbc1b19-graphics-atlas.json",
+      "sha256": "077bb633fda41e49dfa23189abba6cd41707d7145beb424dab490a7d1ecb63e0",
+      "bytes": 365,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/e6dcf42d578a6ccd-soft_shell_library.gd",
+      "sha256": "3c4442c4002d7ed190a0f93199cd447bd86c07671d88678e95007e99f05b535c",
+      "bytes": 38409,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/ec58f2faa7cec5bb-concept_layout.gd",
+      "sha256": "ec58f2faa7cec5bb2f7f7ac9ad1e3c022786f004f71ec52e43b5970fe7478c37",
+      "bytes": 3964,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/edd50d33cc748d6c-asset_loader.gd",
+      "sha256": "edd50d33cc748d6c50d982b1bd2be3b3e29debb02b19f4136e4d6e7cf93d51d0",
+      "bytes": 7151,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/f4d7dddaaa4314ba-camera_furniture_fade.gd",
+      "sha256": "cf6de85880081a6cd3f7ede03de4d8a2582b45809b34fb07ab60bdc2ea8cd581",
+      "bytes": 6720,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/modules/fb4c3a0f78a4802d-porcelain_display.gd",
+      "sha256": "fb4c3a0f78a4802dce2220489cec3554624862084452df8e92305e1c79252e2f",
+      "bytes": 5750,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/alarm.pcm",
+      "sha256": "d99567479fe920028a2d865b25fa5f8deeefc5a6fb5e1aec5239dc3780efb860",
+      "bytes": 114660,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d9/d99567479fe920028a2d865b25fa5f8deeefc5a6fb5e1aec5239dc3780efb860.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/applause.pcm",
+      "sha256": "b1acbe460ee173d2a77cbca1ef60700310ed3de3515035fa674e2a746c814a5c",
+      "bytes": 211680,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/b1/b1acbe460ee173d2a77cbca1ef60700310ed3de3515035fa674e2a746c814a5c.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/bark.pcm",
+      "sha256": "cfd0e938a7e2937679550c8eeedae4eef22dc859df253a1d8cf8f6d60ccef88f",
+      "bytes": 26460,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/cf/cfd0e938a7e2937679550c8eeedae4eef22dc859df253a1d8cf8f6d60ccef88f.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/ceramic.pcm",
+      "sha256": "12fc09df421dacc4c471758b35c6b2b0a928ec8c49bf9daa45ba6a089dbd0624",
+      "bytes": 48510,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/12/12fc09df421dacc4c471758b35c6b2b0a928ec8c49bf9daa45ba6a089dbd0624.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/glass.pcm",
+      "sha256": "d9afadc65ccfb5bd655426f554c0af7b36211f203a9abf05da4a39cdf04123c2",
+      "bytes": 79380,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d9/d9afadc65ccfb5bd655426f554c0af7b36211f203a9abf05da4a39cdf04123c2.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/metal.pcm",
+      "sha256": "b331aee5d86d41680bd3a9c55f6e07732e5a963feeff03103323e841c5c218c2",
+      "bytes": 83790,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/b3/b331aee5d86d41680bd3a9c55f6e07732e5a963feeff03103323e841c5c218c2.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/porcelain.pcm",
+      "sha256": "926676f96bb28e8ea18232b39608a8789cee02ba2b1a2a0d8aeabfb118895596",
+      "bytes": 33516,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/92/926676f96bb28e8ea18232b39608a8789cee02ba2b1a2a0d8aeabfb118895596.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/soft.pcm",
+      "sha256": "95a6176640cb2ec4eb0ced3d78550bb42f0ae9885048ddd488d5fbbd1f8fb573",
+      "bytes": 22932,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/95/95a6176640cb2ec4eb0ced3d78550bb42f0ae9885048ddd488d5fbbd1f8fb573.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/stone.pcm",
+      "sha256": "5170a868720d1716fb85776aa287bc767d452a8f184d1bee4d9245b3a8a05b52",
+      "bytes": 29988,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/51/5170a868720d1716fb85776aa287bc767d452a8f184d1bee4d9245b3a8a05b52.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/thud.pcm",
+      "sha256": "32897f1fd9e643f53fe4b69807e2653623639668ede44e8861d0e3bee944a83c",
+      "bytes": 35280,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/32/32897f1fd9e643f53fe4b69807e2653623639668ede44e8861d0e3bee944a83c.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/whoosh.pcm",
+      "sha256": "ec26b1676671e37107df44705edd24b7649c23658a8d1fe6b84e5228b41179c6",
+      "bytes": 44100,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/ec/ec26b1676671e37107df44705edd24b7649c23658a8d1fe6b84e5228b41179c6.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/audio/wood.pcm",
+      "sha256": "a090df19530cbbf6ecfa3172a1ee7b7cf95478d47d99afeef1fd76dc51bc9f23",
+      "bytes": 17640,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/a0/a090df19530cbbf6ecfa3172a1ee7b7cf95478d47d99afeef1fd76dc51bc9f23.pcm",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/game/dog_game.gd",
+      "sha256": "a898e182ffc2cbbf3de825ceebc085b063a96282d41d9fbedaa2c8ee5f78993d",
+      "bytes": 66522,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/shared/game/dog_game.tscn",
+      "sha256": "ff29389bae96f7cc15f7944b368f2aab5ad93c3bad6ccb6d35b633508e85e2f2",
+      "bytes": 178,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/shared/game/museum_builder.gd",
+      "sha256": "4c528b3828a103afe3dc9c797802bef12a35d99798e87b1138fff9c46836a280",
+      "bytes": 38259,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/shared/game/prop_specs.gd",
+      "sha256": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f",
+      "bytes": 2489,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/game/visual_catalog.gd",
+      "sha256": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739",
+      "bytes": 8555,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/project.godot",
+      "sha256": "828fe1753e21ae3c8d5f394bec3e9cee37be8b6d812dc84d5fd14610025ef345",
+      "bytes": 679,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/previews/a01-hall-7499002260658bd3.png",
+      "sha256": "31fc61a46ad1869cccd6e9283e65d5de49250157f61f38b18e0833bbcd1bb5da",
+      "bytes": 880006,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/dog_player/skin-d2895cc92b9c3ba6.glb",
+      "sha256": "d2895cc92b9c3ba66ab6ad4fcfd13b615777a92a8f534c6a7c9a1e23c05084f9",
+      "bytes": 7198612,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/d2/d2895cc92b9c3ba66ab6ad4fcfd13b615777a92a8f534c6a7c9a1e23c05084f9.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/assets/visitor_adult/skin-motion-3d8c86aed09c7328.glb",
+      "sha256": "3d8c86aed09c732837a7ef5e7abc61abfaa8191e23c16b6590b6a117ed6d0614",
+      "bytes": 34309188,
+      "kind": "asset",
+      "asset": "shared/assets/sha256/3d/3d8c86aed09c732837a7ef5e7abc61abfaa8191e23c16b6590b6a117ed6d0614.glb",
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/animation/dog_skeletal_motion.gd",
+      "sha256": "c6a587dbbd7df36757e55ac23f57804ee2bc015245f3a79f4dc330ca4acdfed5",
+      "bytes": 9904,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/animation/visitor_skeletal_motion.gd",
+      "sha256": "9992bc7778d853d5de200feaa795a20cc7a569f29992a81b875acda02a154861",
+      "bytes": 35024,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/integrated-skeletal-20261030/play.tscn",
+      "sha256": "63d2742d62ad2a51807b6d3a024afbfe6099e8f52d3e772d39f3e5224e56e847",
+      "bytes": 209,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/integrated-skeletal-20261030/a01_scene.gd",
+      "sha256": "a661f2e987a810bb3805fc2cf8198ae9bcee03d4389cd718b324a197fc25dd45",
+      "bytes": 16375,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/integrated-skeletal-20261030/asset-registry.json",
+      "sha256": "58cf9c2eacb58b9ff2ca17861fbd8fac39c75e348b54e7de1653eb13b517f6ae",
+      "bytes": 20663,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/styles/A01/runtime/animation/visitor-skins.json",
+      "sha256": "1b8b1fe3656bc427320544673856e6dd2fc516e97700a322efead05b37daa9fa",
+      "bytes": 517,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors.mp4",
+      "sha256": "f6123039c2b9a333c63f49fd741789eb54a1a67a6084f89d570a59eb516f2732",
+      "bytes": 6199161,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0000.jpg",
+      "sha256": "bb31b3e0e10bb309af07a11abf12eb35983b70792b9d24002ca8bfb550a31de0",
+      "bytes": 107164,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0010.jpg",
+      "sha256": "da3b569dcfdd3cf8205bc4ca063831dadc5a664e902cf23252c9aa6adcdab0e5",
+      "bytes": 104342,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0035.jpg",
+      "sha256": "1d7837e559986e4918d058322a240bd3ba3fbfed1a00af2b647399324b3c9bc5",
+      "bytes": 101633,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0050.jpg",
+      "sha256": "55fa6a7e23891da3625597eed4582ee09ac8f546231ca493292f9129a9f0596b",
+      "bytes": 103200,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0080.jpg",
+      "sha256": "64f9a06769680ccd9b036ecc61ea985b0b13e68f27c1d678bf49dc4384a3ff8b",
+      "bytes": 107440,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0200.jpg",
+      "sha256": "941aa7e794f68507ce4607d90fcccf13a6f34463f4217d3b885b55dae8934c3e",
+      "bytes": 91500,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0310.jpg",
+      "sha256": "ecd492d2f6e77a06138c5195238c8c7a7640c81e6780f7ecd4a6aedcbed5c6a5",
+      "bytes": 114490,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0325.jpg",
+      "sha256": "90c456f920a02951582da0eb5ae19da0a6b12f81114298b08a2491801078d937",
+      "bytes": 116154,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0340.jpg",
+      "sha256": "474277f4017f3c2d43f15763729429d7a8ab1f2349d064993d0ad2f571de4b70",
+      "bytes": 110016,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/visitors/frame-0346.jpg",
+      "sha256": "e89f61a7116a574cd287b4c6d82d41a3301413f821f5ac4a0d51a9e89acf41f9",
+      "bytes": 111745,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry.mp4",
+      "sha256": "14c7affeec3c7a3eab64e945558a02ca6d6d922155d4d0c0b1da4fa71b8c4801",
+      "bytes": 3630608,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0000.jpg",
+      "sha256": "784447ebd7ca482746af8f9d1d8d4ccfdbc5986789bbeaf86bc5c2a1fc3afd4a",
+      "bytes": 110646,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0010.jpg",
+      "sha256": "ed8b262e38610b0be108eaf8491558086c4a7f18989bda8713cb822a7001f9da",
+      "bytes": 110318,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0030.jpg",
+      "sha256": "6de39805fac6d58fbdb46d26b3bf61a443662c5bc3065f86a907275daa1929ef",
+      "bytes": 114568,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0055.jpg",
+      "sha256": "c972aa84b39c50742dbe9a5c9342b01cb1532d9b07b13bc43ca2376d8b768e52",
+      "bytes": 123186,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0100.jpg",
+      "sha256": "a86841e5e03d03b6931131b4910293f1f4c52ad316f96c3c42791489707a7ca4",
+      "bytes": 121130,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0140.jpg",
+      "sha256": "159bfcda8fd3f92ca1fb00b0dc8ff8ca357cc9fdc9fe5fdc86575088d7576f88",
+      "bytes": 117220,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0165.jpg",
+      "sha256": "010a770d693ca727c07891c42c7e876d9726f13ddd6be3df7ddff4d49b070f73",
+      "bytes": 116050,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0190.jpg",
+      "sha256": "f6cdc1f00c1e1ba72e5262cdf6f1c9dd83b355f9fa677e9442f519f25c3c8b61",
+      "bytes": 105554,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0220.jpg",
+      "sha256": "860a0089e0c7609dc7cffdb878f7a72a62197f9128ac4fe970f85eb67dd44ba9",
+      "bytes": 102339,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/dog-carry/frame-0233.jpg",
+      "sha256": "2b0a30d8d451cd59932b0d6fa8ccfb3ce351f0f90d99bbae922159a70857c7d3",
+      "bytes": 102330,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/replay_fixture.gd",
+      "sha256": "acf0f0c8a83a256409e818e37c924c044d3cbfbcb37ce4ab8f73b55711aa6918",
+      "bytes": 14562,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/encode_capture.py",
+      "sha256": "f6938ab93e6cf85c277953551a82ab770dd6d1556a271a736bea9414477e27c0",
+      "bytes": 3069,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/previews/current-skeletal-native.png",
+      "sha256": "bca0af451b069489c31f8b89fd272d5e726f173345f852fbf481586e8e8b825a",
+      "bytes": 829016,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A01-concept.png",
+      "sha256": "fdb734e07f2f93668d9f6434af4e10f7876ec15315469db37de4375a8c719a8b",
+      "bytes": 2046126,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A02-concept.png",
+      "sha256": "2088581def810383503f829beed459600e8fc6387f81db10e3ea491f62a6d722",
+      "bytes": 2328667,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A03-concept.png",
+      "sha256": "b6c97cdd88fb4bd4a244da00f50dd8901de11999a216a519a19ded2471fbbec9",
+      "bytes": 2845411,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A04-concept.png",
+      "sha256": "d12795676b384ff36eb4da0ad2bb98bca1ddf48741a7bb43eee5ecd2770805c1",
+      "bytes": 2854303,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A05-concept.png",
+      "sha256": "8ce8f8b2bd946c4fea70cb259569c22d1f5390b7d77df5b4598981034679a111",
+      "bytes": 2387751,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A06-concept.png",
+      "sha256": "a04300e96ffe22bd4b7106f2c04e9da71bcad09c672bb16b1c613547bdc8ced8",
+      "bytes": 2292292,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A07-concept.png",
+      "sha256": "e572af25da338f96f7518065494f6724a51932d770dc25c452e5c9a417e4eb5d",
+      "bytes": 2565270,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/directions/A08-concept.png",
+      "sha256": "ffb8515212d711ce24722e762f9bc529736dc46c23c83d736bec30e992cf6e2a",
+      "bytes": 2020724,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/atlas/hall-gameplay.png",
+      "sha256": "c0db560fd44b316dece2ed8985d67271ddf7ffc9a1ec7a28ad0b87240dac681b",
+      "bytes": 1947474,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/atlas/porcelain-overview.png",
+      "sha256": "453731a8e45a362dbe5fffe5d7a3c89f9f8e69f5ccf2717cc74ed42e3a269ed2",
+      "bytes": 1917452,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/atlas/taxidermy-overview.png",
+      "sha256": "e83df5db2560c0af6aca89982b5a4277d63c11a6e3d732461da049399d11cd2e",
+      "bytes": 2129042,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/atlas/kids-overview.png",
+      "sha256": "723b60a0cc38fc4a8816c4d5b9b5bcba8c5033cb67f65d93e6cdb6e8947bd0dd",
+      "bytes": 2107383,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/atlas/vestibule-overview.png",
+      "sha256": "b3d679e0c25808ad4553531a2d35f2c2c3fe4b68f4f51ebd5cce7980bd44ce3e",
+      "bytes": 1807338,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/atlas/east-transition.png",
+      "sha256": "17a560fa441a08d8bd9cb65a79fcce221645619a76ee05314097c65801f3b7f2",
+      "bytes": 1941449,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/greybox-inputs/kids-overview.png",
+      "sha256": "78af21ebd3941cb1deb5e51e46ff003febdd61c3f62371551b1771fd7e2bca46",
+      "bytes": 179918,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/greybox-inputs/hall-gameplay.png",
+      "sha256": "6e257bf588f3fde95c86a24910b817a28255baa68221c7716d9335987198fe05",
+      "bytes": 130982,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/greybox-inputs/vestibule-transition.png",
+      "sha256": "18257067f335245cd85fdfd3c267badc84175562be226bc9d002388882ed7c44",
+      "bytes": 203511,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/greybox-inputs/porcelain-transition.png",
+      "sha256": "7b7c5294ce81c87e9dc67fd27d671323e45ef75e8caacf1e0fd75f6de5bbb951",
+      "bytes": 145589,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/greybox-inputs/east-transition.png",
+      "sha256": "579fa239cd97aab29f591e1f23c7d240046a2dd4091c378452d30d8c2e23137f",
+      "bytes": 133874,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/greybox-inputs/taxidermy-overview.png",
+      "sha256": "b7617d896a18972a4435e71eaa64d532196fa55c565acb8f7fe5c2a3baa4af1d",
+      "bytes": 194070,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/spatial-design.md",
+      "sha256": "69b4237af35e52588f11b9955727c8931657f805af1f5b1444f68a96accb280d",
+      "bytes": 6959,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/rendering-plan.md",
+      "sha256": "435d3226d99fa08b1208a6ba5c692add184d392d79f22f972768ff6a99ae27d0",
+      "bytes": 8585,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/spatial-design.json",
+      "sha256": "b87781f2e0e0945061f3eae1bee367dc157f11e03049e169ce732c9f2671a15a",
+      "bytes": 2261,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/spatial-graph.json",
+      "sha256": "801296310b710c9718cfddcaadfb646ba365f5299bc585ab4a81538e7a860618",
+      "bytes": 10156,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/specimen_bear.png",
+      "sha256": "7e93814a0df6bb76c7dcbd6ffe74ead9386b17f50bbfc6bee826f6b718ee0843",
+      "bytes": 1821566,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/specimen_wolf.png",
+      "sha256": "139bde1ee5ab77bac9ee5c4d6021e5d91ff7417c7db7df9e8ad3808f54664d8d",
+      "bytes": 1651653,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/specimen_deer.png",
+      "sha256": "ec01127f928ebb306825328872b5ffc05a12ed98e1b102ce7b78060d6a2b1390",
+      "bytes": 1302475,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/dog_player.png",
+      "sha256": "cf74066ce18d329dd5b2281d43017bbd6573b4160b1b85ba0183af0c1e1819ff",
+      "bytes": 1595897,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_staff_head.png",
+      "sha256": "1f8889566ba56fdfe18ea9369aec18d40389118c1ff417cc04ffca40682a47ae",
+      "bytes": 239315,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_staff_torso.png",
+      "sha256": "5d550b9abc3c803f5f5a5e72fadc23aabf2255ec8b1c3f86adb0e71791d0805c",
+      "bytes": 348361,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_staff_legs.png",
+      "sha256": "43dd76100faab7cf629ec1de8236dc50af7eaec4952487859b05716694ede1cd",
+      "bytes": 236308,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_adult_head.png",
+      "sha256": "30ef41538b9be905ee684a3cf9267049de8941e2fe79c26e6cefae99c29f57a3",
+      "bytes": 237235,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_adult_torso.png",
+      "sha256": "f08a59c5d6c796066445aba362b1b31df16d88086af901415e546736800a048f",
+      "bytes": 339640,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_adult_legs.png",
+      "sha256": "43e564e3ca25dcb811875d481b8a47bf9fac471f2f2e48c07b451f751f4967d7",
+      "bytes": 260900,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_child_head.png",
+      "sha256": "8bc2b0a236f267b03e929a07d3418b7359812e3b37b5462192bd66b499a547dc",
+      "bytes": 348166,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_child_torso.png",
+      "sha256": "b64c22b28d2a9e9ecda17ea450ac16864875eebb73b4d88cb678773d7d1edcec",
+      "bytes": 292707,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/visitor_child_legs.png",
+      "sha256": "052e6dc2dc1ae0db611e1475c420a16dd34d98c6fa8251b971c6493a885f2dc0",
+      "bytes": 247400,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_vase_a.png",
+      "sha256": "4c21447f3f0ed32780319767a02d63def7b76b16fdb1057f8e59423b6a1fc74f",
+      "bytes": 122474,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_vase_b.png",
+      "sha256": "f2b23d895dc4782a6d7f9aceb6c09e6c0d3cead90e736467af5428c325511413",
+      "bytes": 148485,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_vase_big.png",
+      "sha256": "c5ac7678c9852f2da32640b2b4f1184d00f9fd7d5c61961e7e6317923cb4a3a4",
+      "bytes": 243353,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_rock_a.png",
+      "sha256": "d206ef62ae22d61194f7166eac05cc9b352ee96f8c4cc3636d4449f55bac2588",
+      "bytes": 322259,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_rock_b.png",
+      "sha256": "c7e377adf0ee869b916f5b852b1c7970a9f513e166f35aaf03660236c9487e96",
+      "bytes": 363019,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_bust.png",
+      "sha256": "7fb83f494d58b7261ac5546099b7597bc3727dab9e53e4000647061c965ba7e3",
+      "bytes": 250404,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_bone.png",
+      "sha256": "57dff59823ef1db3abf72405fdf46b981b8241c4ced4206aff6b24741241967a",
+      "bytes": 1363252,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_specimen.png",
+      "sha256": "a6baf4ce9bee85c117a154ba5f9365bdda56f92d3a2f2a337eac47e03d0f2587",
+      "bytes": 586292,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/prop_souvenir.png",
+      "sha256": "8407bdf3357c29981254f6c466f393af4ba9316dc5cbc601f25b4e94e6f3d8b3",
+      "bytes": 642928,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_back_leg.png",
+      "sha256": "e6acd0a50ac93bc4302a1e1d6e2a06d453c214862c3dd1c4478b7e11313b20d1",
+      "bytes": 275182,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_front_leg.png",
+      "sha256": "a189a2586089aa8c2e11e34c177d89638c5d46761a65f5bea62b629c319dfcad",
+      "bytes": 272183,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_pelvis.png",
+      "sha256": "3209f31f9f8f3a18a51a9b483eeef7f62f947068707606eb6415005ceddcfe79",
+      "bytes": 330259,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_chest.png",
+      "sha256": "d567ba4f14395cf7ce487e2965a74c9fd035c7b350a7781a1e839a1aa316e7de",
+      "bytes": 319753,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_neck.png",
+      "sha256": "6fa3a28a6b5b3938907b674f77895928817228b1b2ab77c31ebd20f674835ecf",
+      "bytes": 240214,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_spine.png",
+      "sha256": "cd265386313c0c6e190fc271947c2b8fced37e9a3c946fa02dd483aba920c345",
+      "bytes": 1337220,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_tail.png",
+      "sha256": "fbb2d0e2c488764be48d4f3d733e9b6c796e1d06d290e966a9047a9f54825b76",
+      "bytes": 1295234,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_ribs.png",
+      "sha256": "03db63e6c2ef28837f0b3e050a61769636615f1279ba218cb017c2d9a0f86556",
+      "bytes": 1457432,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_head.png",
+      "sha256": "d107e9f02674f95a2c95b9bf502c48f64507c3ecea58570f9629ec0bb0dc4f91",
+      "bytes": 1302286,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/mammoth_jaw.png",
+      "sha256": "007712703059a6db4a7e98222c3a3386b979853c5767fbdfbe7f8d498ebd72d8",
+      "bytes": 1274093,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/west-door-gameplay.png",
+      "sha256": "54321704b1009900c5bc39f626e3224d09ccc71e87ffe5078d91170c23a83cbd",
+      "bytes": 279358,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/hall-full-collapse.png",
+      "sha256": "6dd15629cb0417a03a2f349f714c07caef25d048e970d7706383241b4b5dea18",
+      "bytes": 301013,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/kids-overview.png",
+      "sha256": "367ced128bed71b53c1b9e3854c24500132d0b96863450a2075d586e388500dc",
+      "bytes": 324507,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/hall-gameplay.png",
+      "sha256": "bf63130a320d4ea4613211bf09a8d3ea904daebe17b3a4faeb9377d7b8c00ba5",
+      "bytes": 317565,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/vestibule-transition.png",
+      "sha256": "d7473c5a62c70eef35dafdffe3aa00369ebbeac0928bb4a5f4ea52e732bdb6fe",
+      "bytes": 318872,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/east-transition.png",
+      "sha256": "39792f8ff42cf7a944ce5d04cea460f94d5874a4657a66fe21477b2a69727a3e",
+      "bytes": 253215,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/structural.png",
+      "sha256": "3ccb7292427757df8645801236b32c7925f8e126d3e27ecef061c5815dfe892b",
+      "bytes": 493519,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/native-v2/taxidermy-overview.png",
+      "sha256": "7a1b5acf9fbe0389a21678035431ae293d457277eab63122141d7a3cec9d7b5a",
+      "bytes": 385869,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/full-assembly-01/kids-overview.png",
+      "sha256": "2deabf66bad5a3b0472b2a525c2fca3bb004800e80010ca0e51a9e47b661231a",
+      "bytes": 480999,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/full-assembly-01/hall-gameplay.png",
+      "sha256": "7ae6036ec504c97e21cd50ab342851dccc645f1aac8c94865af86dcc93487df3",
+      "bytes": 538496,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/full-assembly-01/vestibule-transition.png",
+      "sha256": "24ceb81e2a9ac51f2a2d843056c986ba04e17ca6c46acd9af351cfa9f8bf75a5",
+      "bytes": 633605,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/full-assembly-01/porcelain-transition.png",
+      "sha256": "24ffabc1315cad43cfdbe3c6202d73d5907876776ad29b5cbe9991247bcf606d",
+      "bytes": 612808,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/full-assembly-01/taxidermy-overview.png",
+      "sha256": "08ed536df22196722d0b97db4f4b1cf019c6c0f7f916331b67427be34b7a7295",
+      "bytes": 583780,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/environment-layering-02/kids-overview.png",
+      "sha256": "a26a30b535b451f578cfbd6e9309a756d6943bd72647b67333bf0e78cea6dc97",
+      "bytes": 479001,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/environment-layering-02/hall-gameplay.png",
+      "sha256": "ac118b7f3e0c52d40bc0fe41fc054ebee2e8d878052a34ced1d63acc8dbf0a8c",
+      "bytes": 536050,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/environment-layering-02/vestibule-transition.png",
+      "sha256": "5229c710d8faafa8cfa7dad647f5baa074fb48cf617161baecd19177226f649a",
+      "bytes": 630708,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/environment-layering-02/porcelain-transition.png",
+      "sha256": "94f6201b4dab421c6d5ffc78e2370997165b6c8ba7a086bd62cfd2a3b065c9f6",
+      "bytes": 594907,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/environment-layering-02/taxidermy-overview.png",
+      "sha256": "18a16d92c27cfa381049f5433a82f537a6e51db15db5186fe36073887940621b",
+      "bytes": 458194,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/kids-pool-detail.png",
+      "sha256": "0736ca8321227a742aa175bc040cb94d3b2bb7ab1d8573a9e9f234f7c1f57652",
+      "bytes": 969831,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/kids-construction.png",
+      "sha256": "d9f296b002e32b482ee79af6070a223bd9e838a8e560a27de8bd42c32fa855e8",
+      "bytes": 990657,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/kids-overview.png",
+      "sha256": "3b065ca8e5f11bb8c6f85b85aa838b0b9d6e809a5f09248f40a65cc0331db8f6",
+      "bytes": 983265,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/vestibule-transition.png",
+      "sha256": "b0a4974c9a5e35ac365f380e58743b7a7191bec920644b421859982f01cb0388",
+      "bytes": 996064,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/hall-structural-v2.png",
+      "sha256": "e4606fadcd082b9212a1382bc92dad8406c6f426212b931cff317613ab863342",
+      "bytes": 1044026,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/porcelain-transition.png",
+      "sha256": "9f96e11622a7540ec57998835d4c29fcc1e4d4a38b889dfb2203d03e29231545",
+      "bytes": 816559,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/east-transition.png",
+      "sha256": "2cc4c400a6bec521851b67bbf79d707aed0c08571e8029816da86ada4ca437cd",
+      "bytes": 810494,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/taxidermy-overview.png",
+      "sha256": "a197317ece1dc35c410623b02fe7d9d47afe1c7245538cf37d8eeb6caac7a079",
+      "bytes": 947015,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/assembly/polish-20261030-published-7499002260658bd3/mammoth-detail.png",
+      "sha256": "f053031fe64687d22fcc0fb5f6a23ded199ff36b6a3d1cd35f0cf302a87a17e8",
+      "bytes": 1037900,
+      "kind": "preview",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/native-facts.md",
+      "sha256": "1d4329b60da4108327c6a7f61fc3233a3791f5a94614c5c97924b7795bbe3cd7",
+      "bytes": 8612,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/native-facts.json",
+      "sha256": "9177058a9685a1168a111ff819a4b4203e24ab79efa71402d3867b2b571f6f6e",
+      "bytes": 154554,
+      "kind": "source",
+      "asset": null,
+      "transformed": true
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/plan.svg",
+      "sha256": "75f8dacfe57758fca72a8db5d8a42cf1c3120c187c0e352d2e996021209c7b19",
+      "bytes": 42650,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/design/section.svg",
+      "sha256": "1f5786cba9d2a40ec61e208c86ff972a2e2730ae20ebb5111a67ac0ee0d46b72",
+      "bytes": 9105,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/rough/kids-route-check.json",
+      "sha256": "8565cb47a6512542510db429958bd5dc0d16e53bf07852689685b072b5cb48d4",
+      "bytes": 4048,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/GAME.md",
+      "sha256": "269fcfb72d3b2a2683bdae6b8dbb53d3d05536134f64030d3a1585ef96a96bf0",
+      "bytes": 3139,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/INTEGRATION.md",
+      "sha256": "0e390265d7841f94a8d2dda94839c41ae677f3c36e7de1d039d232d89eb6e8b9",
+      "bytes": 2515,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/INTEGRATION_MATRIX.json",
+      "sha256": "d0c205a38916f1714ad0bcd04eb17167b02f8f6c8f7b3a6022fadc3b79077d0a",
+      "bytes": 8948,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/INTEGRATION_MATRIX.md",
+      "sha256": "912a9047dfe3b31dbec7a1d349981f80d6d5271c662e0eec27f41ac0c2d91d68",
+      "bytes": 3312,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/VALIDATION.json",
+      "sha256": "ec16a2a1b38f7b5049cd7a81f4f91fdc30dd65708bbdfa7571422251512516c6",
+      "bytes": 3675,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/.gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/A01/modeling-references/index.json",
+      "sha256": "3b068c190c288ca020328c2e5c9eb14c8d734648fe98918a2c63d7e61b9fc97e",
+      "bytes": 12272,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/INDEX.md",
+      "sha256": "97515e5d45e2bd6df178e252827383050335fc4e45bb53a49dcef7c24950f164",
+      "bytes": 2808,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/README.md",
+      "sha256": "d33be52a340e2a0b485cf65f0e973b0b9eca29836cd68d3cc61383818fcddcf8",
+      "bytes": 1390,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/animation/VALIDATION.json",
+      "sha256": "c66d81bd03bef7d938429f761ca460678f4f0eaa9a1db6319013efa75674b9b2",
+      "bytes": 4668,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/process/catalog.json",
+      "sha256": "c58109272128d28022c76e7862bb16662ffc82dd8d344090c5e761fb91a2739d",
+      "bytes": 23807,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/shared/showcase_clean.gd",
+      "sha256": "d81ed56e6659e25cbda56db0d1aba6d069a80849be1e4f72ef0fd1058c04b80c",
+      "bytes": 1117,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    },
+    {
+      "path": "games/museum-dog/styles.json",
+      "sha256": "b052226126c91af7ff3bba5a60feb41fbc29476046474d2970c49957b37d5e06",
+      "bytes": 1494,
+      "kind": "source",
+      "asset": null,
+      "transformed": false
+    }
+  ]
+}

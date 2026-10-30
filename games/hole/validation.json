@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "checked_at_local": "2026-10-30T13:07+08:00",
+  "engine": "Godot4.7.2.stable.official.ed1daf0bf",
+  "runtime_files_digest": "76dc7100220f832c5c83351933ef4b18e195878f61f7a7aa63a2e58849f7be43",
+  "entries_checked": 12,
+  "art_style_entries": 11,
+  "greybox_entries": 1,
+  "regression_checks": 377,
+  "failures": 0,
+  "checks": [
+    {
+      "style": "amusement",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "snack",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "mycelium",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "lunar",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "coral",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "saffron",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "papercraft",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 54,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38
+    },
+    {
+      "style": "comic",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 66,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38,
+      "appearance_bindings": 255
+    },
+    {
+      "style": "enamel",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 66,
+      "forced_tier": -1,
+      "gameplay_regression_checks": 38,
+      "appearance_bindings": 255
+    },
+    {
+      "style": "ceramic",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 57,
+      "forced_tier": -1,
+      "generated_views": 215
+    },
+    {
+      "style": "orbital",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "simulated_auto_route_seconds": 12,
+      "consumed": 57,
+      "forced_tier": -1,
+      "generated_views": 215
+    },
+    {
+      "style": "greybox",
+      "headless_import": "pass",
+      "native_scene_assembly": "pass",
+      "logical_objects": 215,
+      "object_views": 215,
+      "gameplay_regression_checks": 35,
+      "manual_clean_launcher": "pass-headless-ready-marker"
+    }
+  ],
+  "graphical_checks": [
+    {
+      "style": "comic",
+      "native_exit": 0,
+      "pixels_reviewed": true,
+      "screenshot": "validation/native/comic.png",
+      "scope": "Current package native startup frame; not human playtest or performance certification."
+    },
+    {
+      "style": "orbital",
+      "native_exit": 0,
+      "pixels_reviewed": true,
+      "screenshot": "validation/native/orbital.png",
+      "scope": "Current package native startup frame; not human playtest or performance certification."
+    }
+  ],
+  "manual_clean_launcher": {
+    "path": "shared/record_clean.gd",
+    "manual_input": true,
+    "prototype_hud_hidden": true,
+    "debug_labels_hidden": true,
+    "optional_real_viewport": "--clean-size=1920x1080",
+    "tested_entry": "shared/greybox/project/project.godot",
+    "test": "parser and headless startup ready marker pass"
+  },
+  "process_images": 33,
+  "process_image_identity_review": "pass with separate concept/style board, native draft, reference/model comparison and current native labels",
+  "human_art_acceptance": "pending",
+  "human_playtest": "pending",
+  "performance": "not measured by capture frame rate"
+}

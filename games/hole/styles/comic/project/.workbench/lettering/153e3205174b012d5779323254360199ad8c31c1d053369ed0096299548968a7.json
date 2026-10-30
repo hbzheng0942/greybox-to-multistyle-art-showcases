@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "932543e55d9774a2a1d21916b4dc970c8e07a739ff55bed77034b584cea5f409",
+  "outputSha256": "00c36a404fe5b8d0c49b354e7d30c842568d51495865447e058428b21caf14a1",
+  "labels": [
+    {
+      "labelId": "label-f3784d03ba2811809bee",
+      "instanceId": "instance-3d4b206b0fedbd5b5da4",
+      "text": "饼铺",
+      "textSha256": "3d8a1e64effaff484d4b66cdaee2426bfcdb5da7b2d02f848e5d1e97b5b06dd5",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "9d1bc00f4774ac7d2b2c89b1a55de01b77c92d0e10128defc3582f91b908c3b1",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "932543e55d9774a2a1d21916b4dc970c8e07a739ff55bed77034b584cea5f409",
+        "frameHash": "82eeb2e791f9ca9f644daed7a8809953199785c2deb8cbe8231d16eb886a8e06",
+        "center": [
+          -5.10702591327572e-15,
+          0.22461086980227682
+        ],
+        "size": [
+          1.1675172526260893,
+          0.2918793131565223
+        ],
+        "evidencePath": "evidence/assembly_repair_20261013/comic-sign-faces/pastry_shop-__.png",
+        "evidenceHash": "5b2cce4aafef9bedef97e464c13e3fd46d6a12cb6dbe72a3d834c0a833a299d4",
+        "pixelBounds": [
+          230,
+          262,
+          410,
+          307
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 769,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "148ce7285704094e2a4eb3f9afff5d1815339765e279c8e9c7e59fc95abb716c",
+      "outputImageHash": "a559e97367a08974ac14f06f10e3c95fac67d0ba2bf9cb53b160822e8e68a433",
+      "changedTexels": 769,
+      "maskTexels": 769,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "3bb2c717062e7435204350e882afdf026ba6882420bf113742873a0cbb0ee666",
+  "preservedBinaryPrefixBytes": 8889128,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

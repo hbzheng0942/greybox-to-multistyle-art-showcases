@@ -1,0 +1,31 @@
+{
+  "name": "怪趣切面",
+  "shape": "faceted",
+  "wet": "b5b1d4",
+  "dry": "d9e0bd",
+  "shell": "d3aa66",
+  "accent": "d37555",
+  "staff": [
+    "d47d61",
+    "82a59b"
+  ],
+  "pet": [
+    "deb984",
+    "b6a1ce",
+    "c6b491"
+  ],
+  "wall": "7b8791",
+  "schema": 1,
+  "kind": "art_proxy",
+  "style_id": "D01",
+  "stage": "S6",
+  "quality": "cheap native massing; not H4 sample",
+  "staff_height": 1.38,
+  "staff_body_width": 0.48,
+  "pet_width": 0.58,
+  "pet_depth": 0.79,
+  "pet_height": 0.7,
+  "pet_support_local_y": -0.03,
+  "towel_fold_center_local_y": -0.04,
+  "source_design_sha256": "4644866ae8b9480148b4608483c9220e9fb98f29c5c89f5fbfd1d60137d8b615"
+}

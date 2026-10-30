@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "m1.7r2-unified-v2",
+  "application_scene": "game/scenes/app/spatial_full_r2_lab.tscn",
+  "engine_version": "4.7.2",
+  "frame": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "-Z"
+  },
+  "expected_tracks": 37,
+  "greybox_comparison": {
+    "changed_files": [
+      "game/scripts/spatial/spatial_camera.gd"
+    ],
+    "camera_policy": "Shared P21 camera with station_art_camera=false by default. Clay opts into its existing profile; cel/pixel and greybox use baseline behavior."
+  },
+  "scope": "Integration contract; existing art acceptance remains open. Original v1 lock and receipts retained unchanged.",
+  "supersedes": "m1.7r2-common-v1",
+  "migration": {
+    "date": "2026-09-30",
+    "integration_parents": [
+      "e267a88ea34f080f247163fb5cb3af82a42cd468",
+      "7b229e9ce03d99168931cba76625238d123078a7"
+    ],
+    "changed_files": [
+      "game/project.godot",
+      "game/scripts/spatial/spatial_camera.gd"
+    ],
+    "reason": "One checkout for three themes. Existing P21 optional station camera defaults off; only clay enables it. Godot default entry advances from historical Network to R2. No route, solver, collision, speed, scoring or input changes."
+  }
+}

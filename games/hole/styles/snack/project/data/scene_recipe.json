@@ -1,0 +1,2498 @@
+{
+  "artContract": {
+    "preserveGameplayGeometry": true,
+    "prototypeId": "hole-concept-scale-v3-2d7f5d7e09",
+    "sourceHash": "2d7f5d7e0922e97bf8296db1087969cea995e0ccd2a4b54c2ac07b6d5dbd3291"
+  },
+  "assets": {
+    "E04_quay_0": {
+      "assetRevisionId": "09827b43-7ab9-465f-9996-54268874b971",
+      "bakedPath": "res://assets/baked/E04_quay_0.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/21f96afed5fff56a81f4d0604c1a2d7046848452876164c1fa6439f0bb182133.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_1": {
+      "assetRevisionId": "fb7e5b08-254d-4ab8-ad3d-d81c488b25f6",
+      "bakedPath": "res://assets/baked/E04_quay_1.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/62a44196718d0de6d75b0e4dc119689e1b44a87755e004a97495f5a2cc83a467.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_2": {
+      "assetRevisionId": "8aa3a4c7-70b5-4792-b9dc-34025dd7f4b2",
+      "bakedPath": "res://assets/baked/E04_quay_2.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/22bf2b00ff9f7a274596aba7c57e74bb93d06b43df110f33651f4e151032661f.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_3": {
+      "assetRevisionId": "ff21f456-977e-434f-af5e-b80598779ee2",
+      "bakedPath": "res://assets/baked/E04_quay_3.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/dd9efe56311b278d891af585e1a1b897a90ba31ba94a70f82385d4ddeb8be3a4.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_4": {
+      "assetRevisionId": "fdc2682d-64a4-4523-8911-139dd09d577d",
+      "bakedPath": "res://assets/baked/E04_quay_4.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/f13026975a1bd84898cf605a251c021abb3a0fa25ca0feb3b6656791eb96d58b.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_5": {
+      "assetRevisionId": "86358a62-a06a-4323-a68e-ac64535e0d20",
+      "bakedPath": "res://assets/baked/E04_quay_5.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/6551c2a3165db67f32152f71c8bade8c20d8d121907164a8e1f1943acd2faea7.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E07": {
+      "bakedPath": "res://assets/baked/E07.scn",
+      "parts": [
+        {
+          "fitSize": [
+            3.25,
+            1.85,
+            1.7
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "SightseeingBoat",
+          "path": "res://assets/production/dd6f47e65df3db0c32bb77f68e10947786bab78ee81c26d06b57804181383a01.glb",
+          "position": [
+            0,
+            -0.42,
+            0
+          ],
+          "productionPartId": "07551f5a-9cdb-4ef0-8635-6a8fda9cae3c"
+        }
+      ]
+    },
+    "E08": {
+      "assetRevisionId": "6eea6c15-6ad6-477d-9e0b-66f519023b44",
+      "bakedPath": "res://assets/baked/E08.scn",
+      "cardId": "family-30",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/b0c6a4a1d9a84b290ecd22113c47b63899cfe5b99dd6587751b8ed6b42b061a9.glb"
+        }
+      ]
+    },
+    "E09": {
+      "bakedPath": "res://assets/baked/E09.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.5,
+            4.5,
+            2.1
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "wafer-shop",
+          "path": "res://assets/production/723ce78ca0f601b51e1fe7197d62566b5b08472447f3bf289973fe877726e354.glb",
+          "source": {
+            "referenceSha256": "229b6451bc7c7867293e3c98ba365d91dedf6838c41e95242e84bccf275bb0fe",
+            "reused": false,
+            "taskId": "3835537"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "wafer-shop"
+    },
+    "E10": {
+      "bakedPath": "res://assets/baked/E10.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.5,
+            4.5,
+            2.1
+          ],
+          "fitYawDegrees": -90,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "milk-carton-shop",
+          "path": "res://assets/production/c242783476a2fa1529cb6bc78d0dffe397fcbbd3fda118191304fe9a6dbe6f55.glb",
+          "source": {
+            "referenceSha256": "b68c1267e8a310441f2ffaf7cf16decaf566e82c0efaa73fc08932e3889770eb",
+            "reused": false,
+            "taskId": "3835823"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "milk-carton-shop"
+    },
+    "E11": {
+      "bakedPath": "res://assets/baked/E11.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.5,
+            2.1,
+            1.5
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-planter",
+          "path": "res://assets/production/12b3d8b39aa2b524423b4ac942bb63e2e990f975052d6d69d60cfcd501770010.glb",
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "f267debba49bba80eb69bc809b2195a1be2cdb59415c3e0df27f14f72cc87645",
+            "reused": false,
+            "taskId": "3852905",
+            "version": "G1-Turbo"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-planter"
+    },
+    "P01": {
+      "assetRevisionId": "snack-small-props-001-P01",
+      "bakedPath": "res://assets/baked/P01.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.46,
+            0.485,
+            0.35
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.3,
+          "name": "snack-pouch",
+          "path": "res://assets/production/b56c0517582ccdd7e03bf9f35bde6810d56893f1f7e42e37e86caf8a22f1dc49.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-snack-pouch",
+            "referenceSha256": "4451e24720889bc632d9ab294fb0d4af0a3e1e4e7e7d9c63314ddd1bca7f64c3",
+            "reused": false,
+            "taskId": "3835838"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-pouch"
+    },
+    "P02": {
+      "bakedPath": "res://assets/baked/P02.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "cup-bin",
+          "path": "res://assets/production/ab82c6646a7de34cb65c3e54d75eed924dfb73fd6450ad6a82ce2bebd39f31e8.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "assetId": "snack-lux-primary-001-cup-bin",
+            "referenceSha256": "d05d60e49747b1a25e253c03075af40c7300aee78f6f66d932dd4970a7f7a721",
+            "reused": true,
+            "taskId": "3835841"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cup-bin",
+      "assetRevisionId": "snack-small-props-001-P02"
+    },
+    "P03": {
+      "bakedPath": "res://assets/baked/P03.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-planter",
+          "path": "res://assets/production/12b3d8b39aa2b524423b4ac942bb63e2e990f975052d6d69d60cfcd501770010.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "f267debba49bba80eb69bc809b2195a1be2cdb59415c3e0df27f14f72cc87645",
+            "reused": false,
+            "taskId": "3852905",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-planter"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-planter",
+      "assetRevisionId": "snack-small-props-001-P03"
+    },
+    "P04": {
+      "assetRevisionId": "snack-small-props-001-P04",
+      "bakedPath": "res://assets/baked/P04.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.46,
+            0.485,
+            0.35
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.88,
+                  0.56,
+                  0.23
+                ],
+                "color_family": 6,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.3,
+          "name": "snack-pouch",
+          "path": "res://assets/production/b56c0517582ccdd7e03bf9f35bde6810d56893f1f7e42e37e86caf8a22f1dc49.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-snack-pouch",
+            "referenceSha256": "4451e24720889bc632d9ab294fb0d4af0a3e1e4e7e7d9c63314ddd1bca7f64c3",
+            "reused": false,
+            "taskId": "3835838"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-pouch"
+    },
+    "P05": {
+      "assetRevisionId": "snack-small-props-001-P05",
+      "bakedPath": "res://assets/baked/P05.scn",
+      "envelope": [
+        0.54,
+        3.04,
+        0.54
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.5292,
+            2.9792,
+            0.5292
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "lollipop-light",
+          "path": "res://assets/production/ab58303736219d3f9d331349c4c3cf47e95e0fdf5fc227ae63658b74ec0abb04.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-lollipop-light",
+            "referenceSha256": "6840f1b9ee47e86b0b874dd74620b9a5e41453fee9cddb82fccf0f0ce093e244",
+            "reused": false,
+            "taskId": "3835844"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "lollipop-light"
+    },
+    "P06": {
+      "assetRevisionId": "snack-small-props-001-P06",
+      "bakedPath": "res://assets/baked/P06.scn",
+      "envelope": [
+        0.54,
+        3.36,
+        0.54
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.5292,
+            3.2928,
+            0.5292
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.4,
+                  0.62,
+                  0.35
+                ],
+                "color_family": 5,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "lollipop-light",
+          "path": "res://assets/production/ab58303736219d3f9d331349c4c3cf47e95e0fdf5fc227ae63658b74ec0abb04.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-lollipop-light",
+            "referenceSha256": "6840f1b9ee47e86b0b874dd74620b9a5e41453fee9cddb82fccf0f0ce093e244",
+            "reused": false,
+            "taskId": "3835844"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "lollipop-light"
+    },
+    "P07": {
+      "bakedPath": "res://assets/baked/P07.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-prize",
+          "path": "res://assets/production/15a8aa791ae34428b3093f733f2b872aebb257665fc5dd18966850c743f091a3.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "667efe9a0787b4e98ac693045b0983eaf4c401a11b92e97da47cbd50f87c1777",
+            "reused": false,
+            "taskId": "3852896",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-prize",
+      "assetRevisionId": "snack-small-props-001-P07"
+    },
+    "P08": {
+      "bakedPath": "res://assets/baked/P08.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-prize",
+          "path": "res://assets/production/15a8aa791ae34428b3093f733f2b872aebb257665fc5dd18966850c743f091a3.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "667efe9a0787b4e98ac693045b0983eaf4c401a11b92e97da47cbd50f87c1777",
+            "reused": false,
+            "taskId": "3852896",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-prize",
+      "assetRevisionId": "snack-small-props-001-P08"
+    },
+    "P09": {
+      "bakedPath": "res://assets/baked/P09.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-prize",
+          "path": "res://assets/production/15a8aa791ae34428b3093f733f2b872aebb257665fc5dd18966850c743f091a3.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "667efe9a0787b4e98ac693045b0983eaf4c401a11b92e97da47cbd50f87c1777",
+            "reused": false,
+            "taskId": "3852896",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-prize",
+      "assetRevisionId": "snack-small-props-001-P09"
+    },
+    "P10": {
+      "assetRevisionId": "snack-small-props-001-P10",
+      "bakedPath": "res://assets/baked/P10.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "cup-bin",
+          "path": "res://assets/production/ab82c6646a7de34cb65c3e54d75eed924dfb73fd6450ad6a82ce2bebd39f31e8.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-cup-bin",
+            "referenceSha256": "d05d60e49747b1a25e253c03075af40c7300aee78f6f66d932dd4970a7f7a721",
+            "reused": false,
+            "taskId": "3835841"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cup-bin"
+    },
+    "P11": {
+      "assetRevisionId": "snack-small-props-001-P11",
+      "bakedPath": "res://assets/baked/P11.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.69,
+                  0.37,
+                  0.45
+                ],
+                "color_family": 6,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "cup-bin",
+          "path": "res://assets/production/ab82c6646a7de34cb65c3e54d75eed924dfb73fd6450ad6a82ce2bebd39f31e8.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-cup-bin",
+            "referenceSha256": "d05d60e49747b1a25e253c03075af40c7300aee78f6f66d932dd4970a7f7a721",
+            "reused": false,
+            "taskId": "3835841"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cup-bin"
+    },
+    "P12": {
+      "bakedPath": "res://assets/baked/P12.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-sign",
+          "path": "res://assets/production/52e224c465968079f6e4ed1e8ae79c92994363141641112a7a67a7c8af055c0f.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "28b0c246c28cf6be2be2565237b0e6b357cb30e436b50c2539f439cf22928f49",
+            "reused": false,
+            "taskId": "3852908",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-sign"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-sign",
+      "assetRevisionId": "snack-small-props-001-P12"
+    },
+    "P13": {
+      "bakedPath": "res://assets/baked/P13.scn",
+      "envelope": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.16424,
+            1.0976,
+            0.2744
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-barrier",
+          "path": "res://assets/production/61f9f9015d2e0df3db0860aef9abb5870dbe21dada3f6a3ef2d1dc873de1363d.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "222e7222e8d070a725af4d3d5bf3c5cf3a34486673d86087a21d9b9645c8f2bf",
+            "reused": false,
+            "taskId": "3852913",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-barrier"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-barrier",
+      "assetRevisionId": "snack-small-props-001-P13"
+    },
+    "P14": {
+      "bakedPath": "res://assets/baked/P14.scn",
+      "envelope": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.16424,
+            1.0976,
+            0.2744
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-barrier",
+          "path": "res://assets/production/61f9f9015d2e0df3db0860aef9abb5870dbe21dada3f6a3ef2d1dc873de1363d.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "222e7222e8d070a725af4d3d5bf3c5cf3a34486673d86087a21d9b9645c8f2bf",
+            "reused": false,
+            "taskId": "3852913",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-barrier"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-barrier",
+      "assetRevisionId": "snack-small-props-001-P14"
+    },
+    "P15": {
+      "bakedPath": "res://assets/baked/P15.scn",
+      "envelope": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.7938,
+            0.7938,
+            0.7938
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-crate",
+          "path": "res://assets/production/2ea41bbe51066b2e4695e660564eac2bd99b6ed8b7fb7b67156d9678d33a8e45.glb",
+          "scale": [
+            1.01020408624457,
+            1.49939073047599,
+            1.01020401039064
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "ad40bcc5bafb4cb803bb67d4aa502614678f7690d07786516be42f79d2bb7081",
+            "reused": false,
+            "taskId": "3852899",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-crate"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-crate",
+      "assetRevisionId": "snack-small-props-001-P15"
+    },
+    "P16": {
+      "bakedPath": "res://assets/baked/P16.scn",
+      "envelope": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.7938,
+            0.7938,
+            0.7938
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-crate",
+          "path": "res://assets/production/2ea41bbe51066b2e4695e660564eac2bd99b6ed8b7fb7b67156d9678d33a8e45.glb",
+          "scale": [
+            1.01020408624457,
+            1.49939073047599,
+            1.01020401039064
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "ad40bcc5bafb4cb803bb67d4aa502614678f7690d07786516be42f79d2bb7081",
+            "reused": false,
+            "taskId": "3852899",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-crate"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-crate",
+      "assetRevisionId": "snack-small-props-001-P16"
+    },
+    "P17": {
+      "assemblyNote": "Two shared short display modules, one original gameplay unit; avoids stretching round cookies.",
+      "assetRevisionId": "snack-small-props-001-P17",
+      "bakedPath": "res://assets/baked/P17.scn",
+      "envelope": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.04,
+            0.91,
+            0.49
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "DisplayModule0",
+          "path": "res://assets/production/6890eaead0a94fa8c2d20c927b830880893ebbf1a5e72e8221d1d2781157773f.glb",
+          "position": [
+            -0.53,
+            0,
+            0
+          ],
+          "source": {
+            "referenceSha256": "2addc40faa2fbc066f36defcce0aac459b5a7e819a3b1d66da2192b1f5608b4e",
+            "reused": false,
+            "taskId": "3835835"
+          }
+        },
+        {
+          "fitSize": [
+            1.04,
+            0.91,
+            0.49
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "DisplayModule1",
+          "path": "res://assets/production/6890eaead0a94fa8c2d20c927b830880893ebbf1a5e72e8221d1d2781157773f.glb",
+          "position": [
+            0.53,
+            0,
+            0
+          ],
+          "source": {
+            "referenceSha256": "2addc40faa2fbc066f36defcce0aac459b5a7e819a3b1d66da2192b1f5608b4e",
+            "reused": false,
+            "taskId": "3835835"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cookie-bench"
+    },
+    "P18": {
+      "assemblyNote": "Two shared short display modules, one original gameplay unit; avoids stretching round cookies.",
+      "assetRevisionId": "snack-small-props-001-P18",
+      "bakedPath": "res://assets/baked/P18.scn",
+      "envelope": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.04,
+            0.91,
+            0.49
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.36,
+                  0.22,
+                  0.14
+                ],
+                "color_family": 6,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "DisplayModule0",
+          "path": "res://assets/production/6890eaead0a94fa8c2d20c927b830880893ebbf1a5e72e8221d1d2781157773f.glb",
+          "position": [
+            -0.53,
+            0,
+            0
+          ],
+          "source": {
+            "referenceSha256": "2addc40faa2fbc066f36defcce0aac459b5a7e819a3b1d66da2192b1f5608b4e",
+            "reused": false,
+            "taskId": "3835835"
+          }
+        },
+        {
+          "fitSize": [
+            1.04,
+            0.91,
+            0.49
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.36,
+                  0.22,
+                  0.14
+                ],
+                "color_family": 6,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "DisplayModule1",
+          "path": "res://assets/production/6890eaead0a94fa8c2d20c927b830880893ebbf1a5e72e8221d1d2781157773f.glb",
+          "position": [
+            0.53,
+            0,
+            0
+          ],
+          "source": {
+            "referenceSha256": "2addc40faa2fbc066f36defcce0aac459b5a7e819a3b1d66da2192b1f5608b4e",
+            "reused": false,
+            "taskId": "3835835"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cookie-bench"
+    },
+    "P19": {
+      "assetRevisionId": "snack-small-props-001-P19",
+      "bakedPath": "res://assets/baked/P19.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.764,
+            1.0976,
+            0.9016
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.3,
+          "name": "dessert-van",
+          "path": "res://assets/production/e292fe3c19edb79ba9e55610688ab3d09d06ac5dfc4b5bcfd22d1f8e96a4c196.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-dessert-van",
+            "referenceSha256": "83243061337918810a2c1f838bc8ac4283f4b50e97a10088b1c0c64b7e07bef9",
+            "reused": false,
+            "taskId": "3835832"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "dessert-van"
+    },
+    "P20": {
+      "assetRevisionId": "snack-small-props-001-P20",
+      "bakedPath": "res://assets/baked/P20.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.764,
+            1.0976,
+            0.9016
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.38,
+                  0.58,
+                  0.33
+                ],
+                "color_family": 5,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.3,
+          "name": "dessert-van",
+          "path": "res://assets/production/e292fe3c19edb79ba9e55610688ab3d09d06ac5dfc4b5bcfd22d1f8e96a4c196.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-dessert-van",
+            "referenceSha256": "83243061337918810a2c1f838bc8ac4283f4b50e97a10088b1c0c64b7e07bef9",
+            "reused": false,
+            "taskId": "3835832"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "dessert-van"
+    },
+    "P21": {
+      "assetRevisionId": "snack-small-props-001-P21",
+      "bakedPath": "res://assets/baked/P21.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.764,
+            1.0976,
+            0.9016
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.91,
+                  0.64,
+                  0.24
+                ],
+                "color_family": 5,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.3,
+          "name": "dessert-van",
+          "path": "res://assets/production/e292fe3c19edb79ba9e55610688ab3d09d06ac5dfc4b5bcfd22d1f8e96a4c196.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-dessert-van",
+            "referenceSha256": "83243061337918810a2c1f838bc8ac4283f4b50e97a10088b1c0c64b7e07bef9",
+            "reused": false,
+            "taskId": "3835832"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "dessert-van"
+    },
+    "P22": {
+      "assetRevisionId": "snack-small-props-001-P22",
+      "bakedPath": "res://assets/baked/P22.scn",
+      "envelope": [
+        2.478,
+        3.105,
+        1.3216
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.42844,
+            1.75,
+            1.295168
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "cold-drink-cart",
+          "path": "res://assets/production/467eed554c71862007467aa7b6a047830d367765887c60a22323ffd4f8ee1e66.glb",
+          "source": {
+            "assetId": "7231ff2b-b3ae-4357-8d1b-ab953af7270f",
+            "reused": true
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cold-drink-cart"
+    },
+    "P23": {
+      "assetRevisionId": "snack-small-props-001-P23",
+      "bakedPath": "res://assets/baked/P23.scn",
+      "envelope": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.911,
+            2.2932,
+            1.0829
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "tasting-table",
+          "path": "res://assets/production/d4d8dd7a253aa319a83291d7196054df10d230bfeec15f6f0a8a90177544ba74.glb",
+          "source": {
+            "assetId": "a64009d4-3a92-4525-92c1-90409380f695",
+            "reused": true
+          }
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "support-contact",
+          "path": "res://assets/production/snack-7cd768f2d66ebd70c6c316e5152a1baf2f910e17c142a6e060bb98975a9ac331.glb",
+          "recipeHash": "273b9c4597967ea6bbd5cf427f1d9af0e149d4aace743f6c5f24bb7889e1582a",
+          "sha256": "7cd768f2d66ebd70c6c316e5152a1baf2f910e17c142a6e060bb98975a9ac331",
+          "sourcePath": "data/assets/procedural-7cd768f2d66ebd70c6c316e5152a1baf2f910e17c142a6e060bb98975a9ac331.glb"
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "tasting-table"
+    },
+    "P24": {
+      "assetRevisionId": "snack-small-props-001-P24",
+      "bakedPath": "res://assets/baked/P24.scn",
+      "envelope": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.911,
+            2.2932,
+            1.0829
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.64,
+                  0.36,
+                  0.41
+                ],
+                "color_family": 6,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "tasting-table",
+          "path": "res://assets/production/d4d8dd7a253aa319a83291d7196054df10d230bfeec15f6f0a8a90177544ba74.glb",
+          "source": {
+            "assetId": "a64009d4-3a92-4525-92c1-90409380f695",
+            "reused": true
+          }
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "support-contact",
+          "path": "res://assets/production/snack-7cd768f2d66ebd70c6c316e5152a1baf2f910e17c142a6e060bb98975a9ac331.glb",
+          "recipeHash": "273b9c4597967ea6bbd5cf427f1d9af0e149d4aace743f6c5f24bb7889e1582a",
+          "sha256": "7cd768f2d66ebd70c6c316e5152a1baf2f910e17c142a6e060bb98975a9ac331",
+          "sourcePath": "data/assets/procedural-7cd768f2d66ebd70c6c316e5152a1baf2f910e17c142a6e060bb98975a9ac331.glb"
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "tasting-table"
+    },
+    "P25": {
+      "bakedPath": "res://assets/baked/P25.scn",
+      "envelope": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.8522,
+            0.33075,
+            1.0584
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-platform",
+          "path": "res://assets/production/c11aabf95d03efaa3ba6c2462e30996e3f0c2cd97aeee50ae5c9f845c3f8749a.glb",
+          "scale": [
+            1.08059016567339,
+            1.02040819857187,
+            1.09285012652503
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "b710316c53443d6efeb2c027d5df8d151a4aa7ea5405f5182515c5cc87792cbb",
+            "reused": false,
+            "taskId": "3852902",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-platform"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-platform",
+      "assetRevisionId": "snack-small-props-001-P25"
+    },
+    "P26": {
+      "bakedPath": "res://assets/baked/P26.scn",
+      "envelope": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.8522,
+            0.33075,
+            1.0584
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "snack-platform",
+          "path": "res://assets/production/c11aabf95d03efaa3ba6c2462e30996e3f0c2cd97aeee50ae5c9f845c3f8749a.glb",
+          "scale": [
+            1.08059016567339,
+            1.02040819857187,
+            1.09285012652503
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-snack-assets",
+            "referenceSha256": "b710316c53443d6efeb2c027d5df8d151a4aa7ea5405f5182515c5cc87792cbb",
+            "reused": false,
+            "taskId": "3852902",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-snack-assets-snack-platform"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "snack-platform",
+      "assetRevisionId": "snack-small-props-001-P26"
+    },
+    "P27": {
+      "assetRevisionId": "snack-small-props-001-P27",
+      "bakedPath": "res://assets/baked/P27.scn",
+      "envelope": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            4.0768,
+            2.032128
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "wafer-shop",
+          "path": "res://assets/production/723ce78ca0f601b51e1fe7197d62566b5b08472447f3bf289973fe877726e354.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-wafer-shop",
+            "referenceSha256": "229b6451bc7c7867293e3c98ba365d91dedf6838c41e95242e84bccf275bb0fe",
+            "reused": false,
+            "taskId": "3835537"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "wafer-shop"
+    },
+    "P28": {
+      "assetRevisionId": "snack-small-props-001-P28",
+      "bakedPath": "res://assets/baked/P28.scn",
+      "envelope": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            4.018,
+            2.032128
+          ],
+          "fitYawDegrees": -90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "milk-carton-shop",
+          "path": "res://assets/production/c242783476a2fa1529cb6bc78d0dffe397fcbbd3fda118191304fe9a6dbe6f55.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-milk-carton-shop",
+            "referenceSha256": "b68c1267e8a310441f2ffaf7cf16decaf566e82c0efaa73fc08932e3889770eb",
+            "reused": false,
+            "taskId": "3835823"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "milk-carton-shop"
+    },
+    "P29": {
+      "assetRevisionId": "snack-small-props-001-P29",
+      "bakedPath": "res://assets/baked/P29.scn",
+      "envelope": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            4.214,
+            2.032128
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.8,
+                  0.46,
+                  0.23
+                ],
+                "color_family": 6,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "wafer-shop",
+          "path": "res://assets/production/723ce78ca0f601b51e1fe7197d62566b5b08472447f3bf289973fe877726e354.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-wafer-shop",
+            "referenceSha256": "229b6451bc7c7867293e3c98ba365d91dedf6838c41e95242e84bccf275bb0fe",
+            "reused": false,
+            "taskId": "3835537"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "wafer-shop"
+    },
+    "P30": {
+      "assetRevisionId": "snack-small-props-001-P30",
+      "bakedPath": "res://assets/baked/P30.scn",
+      "envelope": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            3.9396,
+            2.032128
+          ],
+          "fitYawDegrees": -90,
+          "material": {
+            "albedo_gain": 1,
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.4,
+                  0.25,
+                  0.17
+                ],
+                "color_family": 4,
+                "detail_contrast": 0.2,
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.42,
+                  0.9
+                ],
+                "strength": 0.9
+              }
+            ],
+            "material_revision": "snack-family-variants-001",
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "milk-carton-shop",
+          "path": "res://assets/production/c242783476a2fa1529cb6bc78d0dffe397fcbbd3fda118191304fe9a6dbe6f55.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-milk-carton-shop",
+            "referenceSha256": "b68c1267e8a310441f2ffaf7cf16decaf566e82c0efaa73fc08932e3889770eb",
+            "reused": false,
+            "taskId": "3835823"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "milk-carton-shop"
+    },
+    "P31": {
+      "assetRevisionId": "snack-small-props-001-P31",
+      "bakedPath": "res://assets/baked/P31.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.26144,
+            2.352,
+            3.01056
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "cookie-kiosk",
+          "path": "res://assets/production/ab246ce7280cdbf1760fdb7ba87b3933be0803f83f949d50145efa894705fd11.glb",
+          "source": {
+            "assetId": "ffd567b5-6ed3-493a-b3ec-78ed5c200587",
+            "reused": true
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cookie-kiosk"
+    },
+    "P32": {
+      "assetRevisionId": "snack-small-props-001-P32",
+      "bakedPath": "res://assets/baked/P32.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.15,
+            2.352,
+            2.72
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "normal_revision": {
+              "crease_degrees": 38,
+              "local_bounds": [
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1
+              ],
+              "protect_warm_material_edges": false,
+              "strength": 0.65
+            },
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.7,
+          "name": "milk-tea-kiosk",
+          "path": "res://assets/production/241a4a8f6d989516d7c83a6ef64441748b73afe24028ca8377f121eba53d944f.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-milk-tea-kiosk",
+            "referenceSha256": "0aeacb943f79f53f9a626ed59d6200fcfeec45bf8f5fca11e32ca9f7e4ce6d5c",
+            "reused": false,
+            "taskId": "3835458"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "milk-tea-kiosk"
+    },
+    "P33": {
+      "assetRevisionId": "snack-small-props-001-P33",
+      "bakedPath": "res://assets/baked/P33.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.15,
+            2.352,
+            2.72
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "normal_revision": {
+              "crease_degrees": 38,
+              "local_bounds": [
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1
+              ],
+              "protect_warm_material_edges": false,
+              "strength": 0.65
+            },
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.5,
+          "name": "candy-kiosk",
+          "path": "res://assets/production/db21982decc95ae125064bf7ca1c7cc37e3c167b83c62ac337226c688e6532f6.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-candy-kiosk",
+            "referenceSha256": "44f68708bd14f3f951e618bbf4f936ec1ac317b436bb24e8a493fc14047d4bfe",
+            "reused": false,
+            "taskId": "3835179"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "candy-kiosk"
+    },
+    "P34": {
+      "assetRevisionId": "snack-small-props-001-P34",
+      "bakedPath": "res://assets/baked/P34.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.15,
+            2.352,
+            2.72
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.4,
+          "name": "bakery-kiosk",
+          "path": "res://assets/production/3322ac96657473a5fa8af6eaa718b651211fbab2d7ce341e0b1f0e6226b91598.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-bakery-kiosk",
+            "referenceSha256": "b18128f8e73b0941917a0e8ba236ecb4c29cbefbfb4e14a794830b7447e58e5d",
+            "reused": false,
+            "taskId": "3835829"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "bakery-kiosk"
+    },
+    "P35": {
+      "assetRevisionId": "snack-small-props-001-P35",
+      "bakedPath": "res://assets/baked/P35.scn",
+      "envelope": [
+        6.272,
+        6.832,
+        5.152
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            6.14656,
+            5.6,
+            5.04896
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.15,
+          "name": "cookie-landmark",
+          "path": "res://assets/production/8ed540c4fe11925031d54d3ad8b6fd19b07bb3056eb78a37960fbf62bac165cf.glb",
+          "source": {
+            "assetId": "d4f8c17f-c984-4bcd-984f-8b010796cc83",
+            "reused": true
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "cookie-landmark"
+    },
+    "P36": {
+      "assetRevisionId": "snack-small-props-001-P36",
+      "bakedPath": "res://assets/baked/P36.scn",
+      "envelope": [
+        5.4,
+        4.16,
+        4.03
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            5.292,
+            4.0768,
+            3.9494
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "normal_revision": {
+              "crease_degrees": 38,
+              "local_bounds": [
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1
+              ],
+              "protect_warm_material_edges": false,
+              "strength": 0.65
+            },
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.3,
+          "name": "bubble-tea-landmark",
+          "path": "res://assets/production/42355ab393de3cffe16f12d2edae4bb0551303548fdf25bd51d74d829a52d159.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-bubble-tea-landmark",
+            "referenceSha256": "f0076e7d636ebe4d5e37688d35b62b888c1d3b1d7a867969d2098d1295134ee8",
+            "reused": false,
+            "taskId": "3835410"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "bubble-tea-landmark"
+    },
+    "P37": {
+      "assetRevisionId": "snack-small-props-001-P37",
+      "bakedPath": "res://assets/baked/P37.scn",
+      "envelope": [
+        4.72,
+        4.096,
+        3.658
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            4.6256,
+            4.01408,
+            3.58484
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "normal_revision": {
+              "crease_degrees": 38,
+              "local_bounds": [
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                1
+              ],
+              "protect_warm_material_edges": false,
+              "strength": 0.65
+            },
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.25,
+          "name": "candy-jar-landmark",
+          "path": "res://assets/production/0b213f02a558b733f950092ec5f4663d6d50b6a495e40255c44654194a3fb709.glb",
+          "source": {
+            "assetId": "snack-lux-primary-001-candy-jar-landmark",
+            "referenceSha256": "d23398bcd3cf82689c6a55e89c9c9b7ab82583f5762b200c8acf2edf03faa364",
+            "reused": false,
+            "taskId": "3835826"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "candy-jar-landmark"
+    }
+  },
+  "boardId": "f03f7855-32da-44b2-85f2-46d560d5fb2b",
+  "boardRevision": 10,
+  "buildId": "snack-small-props-001",
+  "contactShadows": {
+    "color": [
+      0.24,
+      0.25,
+      0.37
+    ],
+    "spread": 1.26,
+    "strength": 0.24
+  },
+  "coverage": {
+    "complete": true,
+    "formalRelease": false,
+    "gameplayInstances": 215,
+    "generatedSlots": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P36",
+      "P37"
+    ],
+    "localSlots": [],
+    "supplementalModels": 6
+  },
+  "floor": {
+    "asphalt_color": [
+      0.46,
+      0.36,
+      0.43
+    ],
+    "calibrated_light": true,
+    "floor_fill": 0,
+    "kerb_color": [
+      0.99,
+      0.88,
+      0.66
+    ],
+    "park_paving": false,
+    "path_edge_width": 0.13,
+    "paving_color": [
+      0.99,
+      0.88,
+      0.65
+    ],
+    "walkway_color": [
+      0.92,
+      0.76,
+      0.57
+    ]
+  },
+  "floorShader": "res://shaders/park_floor_v2.gdshader",
+  "groundMarks": [],
+  "instanceAssets": {},
+  "lighting": {
+    "ambient_color": [
+      0.85,
+      0.9,
+      1
+    ],
+    "ambient_energy": 0.12,
+    "key_color": [
+      1,
+      0.98,
+      0.94
+    ],
+    "key_energy": 0.46,
+    "key_rotation_degrees": [
+      -55,
+      -35,
+      0
+    ],
+    "shadow_bias": 0.1,
+    "shadow_blur": 2,
+    "shadow_distance": 70,
+    "shadow_normal_bias": 2,
+    "shadow_opacity": 0.76
+  },
+  "materialCalibration": {
+    "mode": "source-preserved",
+    "sourceFaithfulPBR": true,
+    "sourceFilesPreserved": true
+  },
+  "occlusionStyle": "projected-mouth-001",
+  "presentation": {
+    "accent": [
+      0.66,
+      0.79,
+      0.44
+    ],
+    "subtitle": "临水零食街",
+    "title": "SNACK HARBOUR"
+  },
+  "prototypeId": "hole-concept-scale-v3-2d7f5d7e09",
+  "scaleRevision": {
+    "clearanceOffsets": {
+      "bench_004": [
+        0.15,
+        0,
+        0.08
+      ],
+      "bin_004": [
+        1.1,
+        0,
+        0.8
+      ],
+      "bin_005": [
+        -0.18,
+        0,
+        -0.1
+      ],
+      "bin_006": [
+        0.46,
+        0,
+        -0.5
+      ],
+      "bin_013": [
+        -0.16,
+        0,
+        0
+      ],
+      "micro_block_026": [
+        0.4,
+        0,
+        -0.8
+      ],
+      "micro_block_028": [
+        0.18,
+        0,
+        0.08
+      ],
+      "micro_block_030": [
+        0.02,
+        0,
+        0.12
+      ],
+      "tall_pole_007": [
+        0.22,
+        0,
+        0
+      ],
+      "vehicle_003": [
+        0,
+        0,
+        -0.22
+      ]
+    },
+    "fitDiameters": {
+      "P01": 0.57,
+      "P02": 0.46,
+      "P03": 0.41,
+      "P04": 0.48,
+      "P05": 0.5,
+      "P06": 0.5,
+      "P07": 0.42,
+      "P08": 0.42,
+      "P09": 0.41,
+      "P10": 0.89,
+      "P11": 1.16,
+      "P12": 0.89,
+      "P13": 1.18,
+      "P14": 1.18,
+      "P15": 1.03,
+      "P16": 1.04,
+      "P17": 2.07,
+      "P18": 1.99,
+      "P19": 1.66,
+      "P20": 1.77,
+      "P21": 1.73,
+      "P22": 2.3,
+      "P23": 2.19,
+      "P24": 2.19,
+      "P25": 2.08,
+      "P26": 2.08,
+      "P27": 2.99,
+      "P28": 2.99,
+      "P29": 2.99,
+      "P30": 2.99,
+      "P31": 4.11,
+      "P32": 4.06,
+      "P33": 4.06,
+      "P34": 4.06,
+      "P35": 6.26,
+      "P36": 5.28,
+      "P37": 5.64
+    },
+    "fitMeasurement": "evidence/final_art_polish_20260929/023_candidate_geometry.json; actual nested runtime vertices at target row outer width 2.28m; structure reauthored in 003, round details preserved; >=1.5% clearance",
+    "id": "b2-concept-scale-003",
+    "rationale": "Normalize prop scale against island width; stop treating old graybox envelopes as final art dimensions.",
+    "rowSpacingScale": 1.2,
+    "scales": {
+      "P01": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P02": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P03": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P04": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P05": [
+        1.8,
+        1.9,
+        1.8
+      ],
+      "P06": [
+        1.8,
+        2.1,
+        1.8
+      ],
+      "P07": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P08": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P09": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P10": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P11": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P12": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P13": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P14": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P15": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P16": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P17": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P18": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P19": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P20": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P21": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P22": [
+        1.18,
+        1.35,
+        1.12
+      ],
+      "P23": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P24": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P25": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P26": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P27": [
+        1,
+        1,
+        1.08
+      ],
+      "P28": [
+        1,
+        1,
+        1.08
+      ],
+      "P29": [
+        1,
+        1,
+        1.08
+      ],
+      "P30": [
+        1,
+        1,
+        1.08
+      ],
+      "P31": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P32": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P33": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P34": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P35": [
+        1.12,
+        1.12,
+        1.12
+      ],
+      "P36": [
+        1.35,
+        1.3,
+        1.3
+      ],
+      "P37": [
+        1.18,
+        1.28,
+        1.18
+      ]
+    }
+  },
+  "sceneryMaterial": {
+    "model": "physical_vertex_color",
+    "roughness": 0.9,
+    "specular": 0.18
+  },
+  "sceneryOverrides": {
+    "bg_bridge_01": {
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    },
+    "bg_building_00": {
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "bg_building_01": {
+      "scale": [
+        1,
+        0.84,
+        1
+      ]
+    },
+    "bg_building_02": {
+      "scale": [
+        1,
+        1.17,
+        1
+      ]
+    },
+    "bg_building_03": {
+      "scale": [
+        1,
+        0.92,
+        1
+      ]
+    },
+    "bg_building_04": {
+      "scale": [
+        1,
+        1.08,
+        1
+      ]
+    },
+    "bg_building_05": {
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "bg_building_06": {
+      "scale": [
+        1,
+        0.84,
+        1
+      ]
+    },
+    "bg_building_07": {
+      "scale": [
+        1,
+        1.17,
+        1
+      ]
+    },
+    "bg_building_08": {
+      "scale": [
+        1,
+        0.92,
+        1
+      ]
+    },
+    "quay_00": {
+      "assetKey": "E04_quay_0",
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "quay_01": {
+      "assetKey": "E04_quay_1",
+      "rotationDegrees": [
+        0,
+        -90,
+        0
+      ]
+    },
+    "quay_02": {
+      "assetKey": "E04_quay_2",
+      "rotationDegrees": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "quay_03": {
+      "assetKey": "E04_quay_3",
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    },
+    "quay_04": {
+      "assetKey": "E04_quay_4",
+      "rotationDegrees": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "quay_05": {
+      "assetKey": "E04_quay_5",
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    }
+  },
+  "schema": "hole_scene_recipe_v1",
+  "themeId": "snack",
+  "water": {
+    "deep_color": [
+      0.12,
+      0.48,
+      0.52
+    ],
+    "light_color": [
+      0.4,
+      0.72,
+      0.72
+    ]
+  },
+  "waterShader": "res://shaders/snack_water.gdshader"
+}

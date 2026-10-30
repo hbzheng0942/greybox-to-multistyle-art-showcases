@@ -1,0 +1,17 @@
+{
+  "id": "greybox",
+  "name": "玩法灰盒 / Gameplay Greybox",
+  "version": "m1.7r2-unified-v2",
+  "engine": "main",
+  "engine_root": "shared/engine-main/game",
+  "entry_scene": "res://showcase_entries/greybox.tscn",
+  "direct_scene": "res://scenes/app/spatial_full_r2_lab.tscn",
+  "descriptor": null,
+  "status": "playable-greybox-input",
+  "progress": "Complete input gameplay greybox without art overlay; same shared route, motion and camera baseline.",
+  "thumbnail": "styles/greybox/thumbnail.jpg",
+  "technical_validation": "native static launch verified; see validation/index.json",
+  "native_preview": "styles/greybox/thumbnail.jpg",
+  "native_preview_sha256": "90a4997bae754a1962c82fe79df50a5d530ff0005449bfdc4fef6e133087e463",
+  "native_preview_scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+}

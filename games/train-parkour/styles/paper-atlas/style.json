@@ -1,0 +1,17 @@
+{
+  "id": "paper-atlas",
+  "name": "纸艺地图 / Paper Atlas",
+  "version": "R9 full-course refinement",
+  "engine": "paper",
+  "descriptor": "art/themes/paper_atlas/theme-canyon-art.json",
+  "scene": "paper_atlas",
+  "progress": "Seven-node playable art candidate. R9 has historical six-route technical evidence; concept, performance and human acceptance remain open.",
+  "engine_root": "styles/paper-atlas/engine/game",
+  "entry_scene": "res://showcase_entries/paper_atlas.tscn",
+  "status": "playable-development-candidate",
+  "thumbnail": "styles/paper-atlas/thumbnail.jpg",
+  "technical_validation": "native static launch verified; see validation/index.json",
+  "native_preview": "styles/paper-atlas/thumbnail.jpg",
+  "native_preview_sha256": "0f5dc8fe86c440ae92dc8da46afe22274d128d202e37e2dda144963f10123463",
+  "native_preview_scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+}

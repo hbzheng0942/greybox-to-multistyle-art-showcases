@@ -1,0 +1,18 @@
+{
+  "id": "clay",
+  "name": "彩色黏土 / Clay",
+  "version": "P21",
+  "engine": "main",
+  "direct_scene": "res://themes/clay/entry.tscn",
+  "descriptor": null,
+  "scene": "clay",
+  "progress": "Native playable art candidate; historical P21. Not re-accepted for this publication.",
+  "engine_root": "shared/engine-main/game",
+  "entry_scene": "res://showcase_entries/clay.tscn",
+  "status": "playable-development-candidate",
+  "thumbnail": "styles/clay/thumbnail.jpg",
+  "technical_validation": "native static launch verified; see validation/index.json",
+  "native_preview": "styles/clay/thumbnail.jpg",
+  "native_preview_sha256": "cccd6eb01d0c042316493cefe1ddc775622cd4fb719ce4c02e8c1722de2aad41",
+  "native_preview_scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+}

@@ -1,0 +1,6322 @@
+{
+  "schema": 2,
+  "kind": "art-spatial-design-draft",
+  "style_id": "odd-logistics",
+  "style_code": "B2",
+  "status": "S5_draft_pending_H2",
+  "atlas_digest": "b40486269571e089d87d969e86e254b3557d9d10ad74927238991080eed494ca",
+  "atlas_binding": "Existing key_scene images verified against manifest hashes; H2 approval remains pending.",
+  "space_ids": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+  ],
+  "transition_ids": [
+    "next:canyon_merge:rush:00",
+    "next:drop:loop_entry:00",
+    "connection:exit_ramp:grind:00",
+    "connection:exit_ramp:high:01",
+    "connection:exit_ramp:high_merge:02",
+    "next:finish:landmark_return:00",
+    "next:high_merge:tunnel:00",
+    "connection:inverted:loop_entry:01",
+    "next:relay:tunnel:00",
+    "next:return_switchback:final_approach:00",
+    "next:rollout:loop_entry:00",
+    "next:station_carve:station_ramp:00",
+    "next:tunnel:cliff_turn:00"
+  ],
+  "organization": {
+    "planning_regions": 9,
+    "runtime_scenes": 7,
+    "runtime_scene_ids_unchanged": [
+      "canyon",
+      "coaster",
+      "finale",
+      "station",
+      "tunnel",
+      "valley",
+      "vertical"
+    ],
+    "note": "N01–N09 are design units, not replacement runtime scene IDs."
+  },
+  "style_bible": {
+    "premise": "规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+    "shape": "功能清楚的服务沟槽与夸张机械外形共存；形体笑点集中成组，避免每个小件争抢视线。",
+    "palette": "灰黄、褪色灰绿和暗橡胶；普通黄色压低对比，金色主动离轨装置保持优先级。",
+    "functional_color_contract": {
+      "red": "danger",
+      "cyan": "guide/real boost",
+      "gold": "active release/safe grind",
+      "purple": "rescue"
+    }
+  },
+  "baseline_facts": {
+    "provenance": "measured_frozen_snapshot",
+    "baseline": "m1.7r2-unified-v2",
+    "sources": [
+      {
+        "path": "art/themes/pixel_skyline_v2/planning/world_reference.json",
+        "sha256": "c192aa6b33e0da0bb62490f2b35c8f96cfa9f1818ff27f3b92eb482113a79b4c"
+      },
+      {
+        "path": "art/themes/baselines/m1.7r2-unified-v2.json",
+        "sha256": "9c5a25685437b2fd983e5fbbdd219f296d74ac313b0d959faa9f8d084dfd6070"
+      },
+      {
+        "path": "art/themes/pixel_skyline_v2/catalog.json",
+        "sha256": "190588d4ad0907c49a36f56c981cb653a34a0ecfabfb1b9c6ffc9b71128b0e14"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-art-v2-survey-01/result.json",
+        "sha256": "a04f0da2e73799aaad2f7b62727fa6a73fe48a37f80fcdce949d69243ccc7a50"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-art-v2-survey-01/receipt.json",
+        "sha256": "5cc7f600e36a33e80c6d0e952a5e44b02f157fb59094b8a97542ccfa4d8a436b"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/a1-b2-atlas-20261020-survey-ready/result.json",
+        "sha256": "a04f0da2e73799aaad2f7b62727fa6a73fe48a37f80fcdce949d69243ccc7a50"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/a1-b2-atlas-20261020-survey-ready/receipt.json",
+        "sha256": "fb8f5c556a468b3298f072cf7852d9c8ace01a0a46c3c54060d8c2b72ac946cf"
+      },
+      {
+        "path": "art/train-parkour/shared/tools/build_spatial_package.py",
+        "sha256": "42d2b965bcd200e0989294a66fc1a28075fb96dab27643b7844bdcc94e9548df"
+      }
+    ],
+    "frozen_source_count": 116,
+    "verified_source_hashes_match": true,
+    "max_reference_position_error_m": 0.00023860452587544582,
+    "current_survey": {
+      "path": "local/theme-pipeline/neutral_a/runs/a1-b2-atlas-20261020-survey-ready/result.json",
+      "sha256": "a04f0da2e73799aaad2f7b62727fa6a73fe48a37f80fcdce949d69243ccc7a50",
+      "receipt": "local/theme-pipeline/neutral_a/runs/a1-b2-atlas-20261020-survey-ready/receipt.json",
+      "receipt_sha256": "fb8f5c556a468b3298f072cf7852d9c8ace01a0a46c3c54060d8c2b72ac946cf",
+      "snapshot_equals_reference_survey": true,
+      "native": false
+    },
+    "route_transform": {
+      "basis": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tracks": {
+      "canyon_fast": {
+        "length": 685.6329996585846,
+        "kind": "clip",
+        "half_width": 2.2,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [
+          "canyon_merge"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [
+          {
+            "a": 383.95447980880743,
+            "b": 395.95447980880743,
+            "id": "canyon_fast:pulse:00",
+            "lane": 0
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N02",
+        "runtime_scene_id": "canyon",
+        "start_frame": {
+          "origin": [
+            -4.400000095367432,
+            104.0,
+            990.0
+          ],
+          "basis": [
+            [
+              0.9999756707663632,
+              -1.677010087871786e-11,
+              -0.00697551971984975
+            ],
+            [
+              -0.00030413438091814914,
+              0.9990490569911278,
+              -0.043599188380252056
+            ],
+            [
+              0.00696888639887007,
+              0.04360024914078315,
+              0.9990247508932005
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            65.0,
+            350.0
+          ],
+          "basis": [
+            [
+              0.9992683574695984,
+              0.03757863741346364,
+              0.007113070374901684
+            ],
+            [
+              -0.03757354984179954,
+              0.9992935054154501,
+              -0.0008475770098427601
+            ],
+            [
+              -0.007139895818335163,
+              0.0005796935821949725,
+              0.9999743425923757
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            -112.20864868164062,
+            65.0,
+            350.0
+          ],
+          "max": [
+            -1.6497357917180312e-30,
+            104.0,
+            990.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.canyon_fast",
+        "exact_vertices_embedded": false
+      },
+      "canyon_fast_catch": {
+        "length": 185.1728881597519,
+        "kind": "grind",
+        "half_width": 2.2,
+        "entry_half_width": 3.8,
+        "entry_taper_length": 50.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [
+          "canyon_fast"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N02",
+        "runtime_scene_id": "canyon",
+        "start_frame": {
+          "origin": [
+            -4.400000095367432,
+            112.0,
+            1175.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.9990663869850489,
+              -0.043201324014902766
+            ],
+            [
+              0.0,
+              0.043201324014902766,
+              0.9990663869850489
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            -4.400000095367432,
+            104.0,
+            990.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.9990663869850489,
+              -0.043201324014902766
+            ],
+            [
+              0.0,
+              0.043201324014902766,
+              0.9990663869850489
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            -4.400000095367432,
+            104.0,
+            990.0
+          ],
+          "max": [
+            -4.400000095367432,
+            112.0,
+            1175.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.canyon_fast_catch",
+        "exact_vertices_embedded": false
+      },
+      "canyon_merge": {
+        "length": 350.0,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [
+          "rush"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "group": "merge_soft",
+            "height": 2.0,
+            "id": "merge_soft",
+            "kind": "soft",
+            "lanes": [
+              0
+            ],
+            "s": 85.0
+          }
+        ],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N02",
+        "runtime_scene_id": "canyon",
+        "start_frame": {
+          "origin": [
+            0.0,
+            65.0,
+            350.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            65.0,
+            0.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            65.0,
+            0.0
+          ],
+          "max": [
+            0.0,
+            65.0,
+            350.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.canyon_merge",
+        "exact_vertices_embedded": false
+      },
+      "canyon_safe": {
+        "length": 835.5836844444275,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 5.0,
+        "entry_taper_length": 65.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "canyon_merge"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "group": "canyon_soft_a",
+            "height": 2.2,
+            "id": "canyon_soft_a",
+            "kind": "soft",
+            "lanes": [
+              -1
+            ],
+            "s": 518.0618843555451
+          },
+          {
+            "group": "canyon_soft_b",
+            "height": 2.4,
+            "id": "canyon_soft_b",
+            "kind": "soft",
+            "lanes": [
+              1
+            ],
+            "s": 593.2644159555435
+          },
+          {
+            "height": 5.0,
+            "id": "canyon_block_a",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 775.5836844444275
+          }
+        ],
+        "pads": [
+          {
+            "a": 350.94514746665953,
+            "b": 362.94514746665953,
+            "id": "canyon_safe:pulse:00",
+            "lane": 1
+          },
+          {
+            "a": 618.3319264888763,
+            "b": 630.3319264888763,
+            "id": "canyon_safe:pulse:01",
+            "lane": -1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N02",
+        "runtime_scene_id": "canyon",
+        "start_frame": {
+          "origin": [
+            4.400000095367432,
+            94.0,
+            1185.0
+          ],
+          "basis": [
+            [
+              0.9999860011320457,
+              -2.2665761154343385e-11,
+              -0.005291270163217921
+            ],
+            [
+              -0.00018441189633687467,
+              0.9993924807454541,
+              -0.034851620072812575
+            ],
+            [
+              0.005288055615502701,
+              0.03485210796275001,
+              0.9993784903820775
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            65.0,
+            350.0
+          ],
+          "basis": [
+            [
+              0.9999999946470632,
+              9.373165704029907e-05,
+              -4.382065732893682e-05
+            ],
+            [
+              -9.374432950551311e-05,
+              0.9999999537654822,
+              -0.00028927674337229594
+            ],
+            [
+              4.379354091441035e-05,
+              0.00028928084976195557,
+              0.999999957199357
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            65.0,
+            350.0
+          ],
+          "max": [
+            4.400000095367432,
+            94.0,
+            1185.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.canyon_safe",
+        "exact_vertices_embedded": false
+      },
+      "carve": {
+        "length": 340.45158779621124,
+        "kind": "clip",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "wall"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N03",
+        "runtime_scene_id": "vertical",
+        "start_frame": {
+          "origin": [
+            0.0,
+            45.0,
+            -280.0
+          ],
+          "basis": [
+            [
+              0.9999962814607184,
+              -1.281046683256114e-13,
+              0.0027270982262648
+            ],
+            [
+              -7.996334473713848e-07,
+              0.9999999570116779,
+              0.00029321664848973387
+            ],
+            [
+              -0.002727098109031461,
+              -0.00029321773883106444,
+              0.9999962384725561
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            192.70704650878906,
+            53.0,
+            -531.1407470703125
+          ],
+          "basis": [
+            [
+              0.0002832689639231667,
+              -0.9999999570124884,
+              -7.572130398147969e-05
+            ],
+            [
+              0.26147272013268347,
+              9.800811469062864e-07,
+              0.9652108664045671
+            ],
+            [
+              -0.9652108248383406,
+              -0.00029321333741810784,
+              0.26147270917024823
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            45.0,
+            -531.1407470703125
+          ],
+          "max": [
+            192.70704650878906,
+            53.0,
+            -280.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.carve",
+        "exact_vertices_embedded": false
+      },
+      "cliff_lip": {
+        "length": 26.286513328552246,
+        "kind": "ramp",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "crest",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 329.99997222423553,
+            "fallback_target": "rescue",
+            "from": 0.0,
+            "intent": "natural",
+            "minimum_speed": 110.0,
+            "priority": 10,
+            "screen_direction": 1,
+            "source": "cliff_lip",
+            "target": "upper",
+            "until": 28.286513328552246
+          },
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 510.0000536441803,
+            "from": 0.0,
+            "intent": "natural",
+            "minimum_speed": 15.0,
+            "preferred_maximum_speed": 110.0,
+            "priority": 5,
+            "screen_direction": -1,
+            "source": "cliff_lip",
+            "target": "rescue",
+            "until": 28.286513328552246
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N07",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3256.16015625,
+            27.51366424560547,
+            -1367.265869140625
+          ],
+          "basis": [
+            [
+              0.7817034485019726,
+              0.422569993924909,
+              0.45866580299214194
+            ],
+            [
+              -0.3728565904627227,
+              0.9062041298810305,
+              -0.19942928053592787
+            ],
+            [
+              -0.49991767477119414,
+              -0.015122011138294755,
+              0.865940900541426
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3269.16015625,
+            31.153663635253906,
+            -1389.782470703125
+          ],
+          "basis": [
+            [
+              0.8660396296679244,
+              4.037637167948749e-06,
+              0.4999753592211739
+            ],
+            [
+              -0.07288713743372807,
+              0.989317837428442,
+              0.12624453153553847
+            ],
+            [
+              -0.4946340314225875,
+              -0.14577454005966958,
+              0.8567887478422149
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3256.16015625,
+            27.51366424560547,
+            -1389.782470703125
+          ],
+          "max": [
+            3269.16015625,
+            31.153663635253906,
+            -1367.265869140625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.cliff_lip",
+        "exact_vertices_embedded": false
+      },
+      "cliff_turn": {
+        "length": 165.29648232460022,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "canyon",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "cliff_lip"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N07",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3128.64697265625,
+            37.51366424560547,
+            -1269.4215087890625
+          ],
+          "basis": [
+            [
+              0.2619635560338405,
+              8.88013812873692e-11,
+              0.9650777664572451
+            ],
+            [
+              0.0014544683854804045,
+              0.9999988643246078,
+              -0.0003948052814429909
+            ],
+            [
+              -0.9650766704422092,
+              0.0015070996963098512,
+              0.26196325852814706
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3256.16015625,
+            27.51366424560547,
+            -1367.265869140625
+          ],
+          "basis": [
+            [
+              0.8001239608177086,
+              0.37913495557801313,
+              0.46482075339235873
+            ],
+            [
+              -0.3270117827356134,
+              0.9253401613902991,
+              -0.1918564037770212
+            ],
+            [
+              -0.5028567800850039,
+              0.0015070424789656867,
+              0.8643684327562574
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3128.64697265625,
+            27.51366424560547,
+            -1367.265869140625
+          ],
+          "max": [
+            3256.16015625,
+            37.51366424560547,
+            -1269.4215087890625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.cliff_turn",
+        "exact_vertices_embedded": false
+      },
+      "drop": {
+        "length": 239.9999713897705,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "landing",
+        "next": [
+          "loop_entry"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N03",
+        "runtime_scene_id": "vertical",
+        "start_frame": {
+          "origin": [
+            474.37835693359375,
+            43.0,
+            -600.4032592773438
+          ],
+          "basis": [
+            [
+              0.25882993613182603,
+              0.0,
+              0.9659229079807533
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659229079807533,
+              -0.0,
+              0.25882993613182603
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            706.2010498046875,
+            43.0,
+            -662.5178833007812
+          ],
+          "basis": [
+            [
+              0.2588350260767832,
+              0.0,
+              0.9659215440582277
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659215440582277,
+              -0.0,
+              0.2588350260767832
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            474.37835693359375,
+            43.0,
+            -662.5178833007812
+          ],
+          "max": [
+            706.2010498046875,
+            43.0,
+            -600.4032592773438
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.drop",
+        "exact_vertices_embedded": false
+      },
+      "exit_ramp": {
+        "length": 30.379196524620056,
+        "kind": "ramp",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "crest",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 465.0,
+            "from": 0.0,
+            "intent": "natural",
+            "minimum_speed": 15.0,
+            "priority": 5,
+            "screen_direction": 1,
+            "source": "exit_ramp",
+            "target": "grind",
+            "until": 32.379196524620056
+          },
+          {
+            "a": 0.0,
+            "assist": false,
+            "b": 260.000036239624,
+            "from": 0.0,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": -1,
+            "source": "exit_ramp",
+            "target": "high",
+            "until": 32.379196524620056
+          },
+          {
+            "a": 0.0,
+            "assist": false,
+            "b": 300.0,
+            "from": 0.0,
+            "intent": "intentional",
+            "minimum_speed": 150.0,
+            "priority": 12,
+            "screen_direction": -1,
+            "source": "exit_ramp",
+            "target": "high_merge",
+            "until": 32.379196524620056
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            11.0,
+            30.379196166992188
+          ]
+        ],
+        "impulse": [
+          0.0,
+          8.0,
+          0.0
+        ],
+        "space_id": "N04",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            933.5400390625,
+            43.0,
+            -702.7291259765625
+          ],
+          "basis": [
+            [
+              0.2588248309529369,
+              -4.3248389071381954e-10,
+              0.9659242759565492
+            ],
+            [
+              -0.014125397926834314,
+              0.9998930678122777,
+              0.0037849801004048497
+            ],
+            [
+              -0.9658209875621839,
+              -0.01462371159972309,
+              0.25879715424141725
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            962.517822265625,
+            47.5,
+            -710.4937133789062
+          ],
+          "basis": [
+            [
+              0.2588246031189518,
+              9.001840125116845e-07,
+              0.965924337005496
+            ],
+            [
+              -0.14992871378622197,
+              0.9878803005493667,
+              0.040173281779088466
+            ],
+            [
+              -0.9542175881855912,
+              -0.1552176271745016,
+              0.25568786168215185
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            933.5400390625,
+            43.0,
+            -710.4937133789062
+          ],
+          "max": [
+            962.517822265625,
+            47.5,
+            -702.7291259765625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.exit_ramp",
+        "exact_vertices_embedded": false
+      },
+      "final_approach": {
+        "length": 175.0000203847885,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [
+          "final_ramp"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "final_block",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 135.0
+          }
+        ],
+        "pads": [
+          {
+            "a": 45.0,
+            "b": 57.0,
+            "id": "final_approach:pulse:00",
+            "lane": 1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N09",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            3503.567626953125,
+            1.2144203186035156,
+            -944.9253540039062
+          ],
+          "basis": [
+            [
+              -0.771871316127138,
+              0.0,
+              0.6357787912003352
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6357787912003352,
+              0.0,
+              -0.771871316127138
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3614.8369140625,
+            1.2144203186035156,
+            -809.8544311523438
+          ],
+          "basis": [
+            [
+              -0.771871316127138,
+              0.0,
+              0.6357787912003352
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6357787912003352,
+              0.0,
+              -0.771871316127138
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3503.567626953125,
+            1.2144203186035156,
+            -944.9253540039062
+          ],
+          "max": [
+            3614.8369140625,
+            1.2144203186035156,
+            -809.8544311523438
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.final_approach",
+        "exact_vertices_embedded": false
+      },
+      "final_ramp": {
+        "length": 40.68635964393616,
+        "kind": "ramp",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "crest",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 875.0278351306915,
+            "default": true,
+            "from": 0.0,
+            "intent": "natural",
+            "minimum_speed": 15.0,
+            "priority": 5,
+            "screen_direction": 1,
+            "source": "final_ramp",
+            "target": "final_receiver",
+            "until": 42.68635964393616
+          },
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 410.07629692554474,
+            "from": 0.0,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": -1,
+            "source": "final_ramp",
+            "target": "final_upper_catch",
+            "until": 42.68635964393616
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            8.0,
+            40.68635940551758
+          ]
+        ],
+        "impulse": [
+          3.179121971130371,
+          16.0,
+          3.8591690063476562
+        ],
+        "space_id": "N09",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            3614.8369140625,
+            1.2144203186035156,
+            -809.8544311523438
+          ],
+          "basis": [
+            [
+              -0.7718493699183011,
+              2.0687283917159016e-10,
+              0.6358054341987982
+            ],
+            [
+              -0.008088988561735302,
+              0.9999190666405335,
+              -0.009819798000587195
+            ],
+            [
+              -0.6357539763310729,
+              -0.012722427784201441,
+              -0.7717869015541181
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3640.269775390625,
+            8.214420318603516,
+            -778.9810791015625
+          ],
+          "basis": [
+            [
+              -0.7718488818162501,
+              -4.445231638963709e-06,
+              0.6358060267245386
+            ],
+            [
+              -0.11339520623206803,
+              0.9839683020888861,
+              -0.1376513991498137
+            ],
+            [
+              -0.6256123646816706,
+              -0.1783434340382468,
+              -0.7594753377778993
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3614.8369140625,
+            1.2144203186035156,
+            -809.8544311523438
+          ],
+          "max": [
+            3640.269775390625,
+            8.214420318603516,
+            -778.9810791015625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.final_ramp",
+        "exact_vertices_embedded": false
+      },
+      "final_receiver": {
+        "length": 895.0278351306915,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 5.0,
+        "entry_taper_length": 70.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [
+          "victory_run"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "group": "receiver_soft",
+            "height": 2.2,
+            "id": "receiver_soft",
+            "kind": "soft",
+            "lanes": [
+              -1
+            ],
+            "s": 210.0
+          },
+          {
+            "height": 5.0,
+            "id": "receiver_block",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 820.0
+          }
+        ],
+        "pads": [
+          {
+            "a": 260.0,
+            "b": 272.0,
+            "id": "final_receiver:pulse:00",
+            "lane": 0
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N09",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            3671.84423828125,
+            -4.785579681396484,
+            -733.7326049804688
+          ],
+          "basis": [
+            [
+              -0.7686517328014436,
+              -2.5929785272063577e-10,
+              0.6396675024271115
+            ],
+            [
+              0.0035882288137614867,
+              0.9999842665069444,
+              0.004311769074111884
+            ],
+            [
+              -0.6396574382240221,
+              0.005609522133691582,
+              -0.7686396392238131
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            4244.302734375,
+            -9.785579681396484,
+            -45.739013671875
+          ],
+          "basis": [
+            [
+              -0.7718321548325962,
+              1.4370776414463947e-05,
+              0.6358263320750032
+            ],
+            [
+              4.068556079240082e-05,
+              0.9999999988135807,
+              2.6786634652224583e-05
+            ],
+            [
+              -0.6358263309357018,
+              4.654373683138676e-05,
+              -0.7718321545015626
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3671.84423828125,
+            -9.785579681396484,
+            -733.7326049804688
+          ],
+          "max": [
+            4244.302734375,
+            -4.785579681396484,
+            -45.739013671875
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.final_receiver",
+        "exact_vertices_embedded": false
+      },
+      "final_upper": {
+        "length": 301.58972042798996,
+        "kind": "grind",
+        "half_width": 1.2,
+        "entry_half_width": 3.2,
+        "entry_taper_length": 45.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [
+          "victory_run"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N09",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            4101.45947265625,
+            6.214420318603516,
+            -226.05831909179688
+          ],
+          "basis": [
+            [
+              -0.7615994440738332,
+              -1.4392633907595043e-09,
+              0.6480480590098444
+            ],
+            [
+              0.012797210620685895,
+              0.9998050026851544,
+              0.015039548067290515
+            ],
+            [
+              -0.6479216914000924,
+              0.019747318950645826,
+              -0.7614509342088323
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            4244.302734375,
+            -9.785579681396484,
+            -45.739013671875
+          ],
+          "basis": [
+            [
+              -0.7819333120290675,
+              -1.1306219738541588e-08,
+              0.6233620902326772
+            ],
+            [
+              0.0004898729557303807,
+              0.999999691203833,
+              0.0006145052690339114
+            ],
+            [
+              -0.6233618977478009,
+              0.0007858703699075495,
+              -0.7819330705655193
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            4101.45947265625,
+            -9.785579681396484,
+            -226.05831909179688
+          ],
+          "max": [
+            4249.8935546875,
+            6.214420318603516,
+            -45.739013671875
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.final_upper",
+        "exact_vertices_embedded": false
+      },
+      "final_upper_catch": {
+        "length": 420.07629692554474,
+        "kind": "grind",
+        "half_width": 1.2,
+        "entry_half_width": 3.2,
+        "entry_taper_length": 45.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [
+          "final_upper"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N09",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            3834.4130859375,
+            14.214420318603516,
+            -550.228515625
+          ],
+          "basis": [
+            [
+              -0.7718010606385616,
+              -1.2385501322459413e-09,
+              0.6358640757246719
+            ],
+            [
+              0.012108595380014043,
+              0.999818670524573,
+              0.01469721022502005
+            ],
+            [
+              -0.635748774843581,
+              0.01904274324973505,
+              -0.7716611103421049
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            4101.45947265625,
+            6.214420318603516,
+            -226.05831909179688
+          ],
+          "basis": [
+            [
+              -0.7717129661606315,
+              -2.6394253858624123e-06,
+              0.6359709882161235
+            ],
+            [
+              0.012107734724964455,
+              0.9998186963058412,
+              0.014696165388224445
+            ],
+            [
+              -0.635855723116014,
+              0.01904138940102822,
+              -0.7715730197915739
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3834.4130859375,
+            6.214420318603516,
+            -550.228515625
+          ],
+          "max": [
+            4101.45947265625,
+            14.214420318603516,
+            -226.05831909179688
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.final_upper_catch",
+        "exact_vertices_embedded": false
+      },
+      "finish": {
+        "length": 479.99995493888855,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [
+          "landmark_return"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N07",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3669.157470703125,
+            25.153663635253906,
+            -2082.6044921875
+          ],
+          "basis": [
+            [
+              0.8660310840808246,
+              0.0,
+              0.49999016130899177
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.49999016130899177,
+              -0.0,
+              0.8660310840808246
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3909.15283203125,
+            25.153663635253906,
+            -2498.29931640625
+          ],
+          "basis": [
+            [
+              0.8659903816330343,
+              0.0,
+              0.5000606552400134
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5000606552400134,
+              -0.0,
+              0.8659903816330343
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3669.157470703125,
+            25.153663635253906,
+            -2498.29931640625
+          ],
+          "max": [
+            3909.15283203125,
+            25.153663635253906,
+            -2082.6044921875
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.finish",
+        "exact_vertices_embedded": false
+      },
+      "grind": {
+        "length": 480.3577711582184,
+        "kind": "grind",
+        "half_width": 2.0,
+        "entry_half_width": 4.0,
+        "entry_taper_length": 800.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 280.0,
+            "from": 349.999964594841,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": 1,
+            "source": "grind",
+            "target": "relay",
+            "until": 481.999964594841
+          },
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 319.9999774694443,
+            "default": true,
+            "from": 350.3577711582184,
+            "intent": "natural",
+            "minimum_speed": 15.0,
+            "priority": 5,
+            "screen_direction": 1,
+            "source": "grind",
+            "target": "relay",
+            "until": 482.3577711582184
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            349.9999694824219,
+            477.9999694824219
+          ]
+        ],
+        "impulse": [
+          0.0,
+          10.0,
+          0.0
+        ],
+        "space_id": "N05",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            978.7666625976562,
+            43.5,
+            -707.8076782226562
+          ],
+          "basis": [
+            [
+              0.25882484617961266,
+              0.0,
+              0.9659242718764757
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659242718764757,
+              -0.0,
+              0.25882484617961266
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            1442.4110107421875,
+            43.5,
+            -832.0408325195312
+          ],
+          "basis": [
+            [
+              0.2588350260767829,
+              3.297222464482941e-08,
+              0.9659215440582275
+            ],
+            [
+              -8.534366271098367e-09,
+              0.9999999999999994,
+              -3.184858223500435e-08
+            ],
+            [
+              -0.9659215440582279,
+              3.6716812958920497e-16,
+              0.258835026076783
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            978.7666625976562,
+            39.500816345214844,
+            -832.0408325195312
+          ],
+          "max": [
+            1442.4110107421875,
+            43.5,
+            -707.8076782226562
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.grind",
+        "exact_vertices_embedded": false
+      },
+      "high": {
+        "length": 260.000036239624,
+        "kind": "clip",
+        "half_width": 2.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [
+          "high_merge"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N05",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            1057.3504638671875,
+            57.5,
+            -742.9439086914062
+          ],
+          "basis": [
+            [
+              0.2588013549733339,
+              0.0,
+              0.9659305661712784
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659305661712784,
+              -0.0,
+              0.2588013549733339
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            1308.4912109375,
+            57.5,
+            -810.2368774414062
+          ],
+          "basis": [
+            [
+              0.2588395403159037,
+              0.0,
+              0.9659203343801451
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659203343801451,
+              -0.0,
+              0.2588395403159037
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            1057.3504638671875,
+            57.5,
+            -810.2368774414062
+          ],
+          "max": [
+            1308.4912109375,
+            57.5,
+            -742.9439086914062
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.high",
+        "exact_vertices_embedded": false
+      },
+      "high_merge": {
+        "length": 517.4045059680939,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "tunnel"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N05",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            1308.4912109375,
+            57.5,
+            -810.2368774414062
+          ],
+          "basis": [
+            [
+              0.2671925237529028,
+              -6.2371464004847e-11,
+              0.9636431680090689
+            ],
+            [
+              0.0006350025133991297,
+              0.9999997828857025,
+              -0.00017606917934533917
+            ],
+            [
+              -0.9636429587883484,
+              0.0006589602020900422,
+              0.26719246574162536
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            1774.5177001953125,
+            36.5,
+            -913.9886474609375
+          ],
+          "basis": [
+            [
+              0.24897991319594467,
+              0.044785978585237585,
+              0.9674725933829356
+            ],
+            [
+              -0.010523204054236943,
+              0.9989963873308475,
+              -0.04353711378063815
+            ],
+            [
+              -0.9684514778766014,
+              0.0006589552928548334,
+              0.24920132579211784
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            1308.4912109375,
+            36.5,
+            -951.6473388671875
+          ],
+          "max": [
+            1774.5177001953125,
+            57.5,
+            -810.2368774414062
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.high_merge",
+        "exact_vertices_embedded": false
+      },
+      "inverted": {
+        "length": 194.99999022483826,
+        "kind": "inverted",
+        "half_width": 3.0,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "inverted",
+        "next": [
+          "rollout"
+        ],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 175.0,
+            "from": 95.0,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": 0,
+            "source": "inverted",
+            "target": "drop",
+            "until": 196.99999022483826
+          },
+          {
+            "a": 0.0,
+            "assist": false,
+            "b": 40.0,
+            "from": 164.99999022483826,
+            "intent": "intentional",
+            "minimum_speed": 145.0,
+            "priority": -5,
+            "screen_direction": 0,
+            "source": "inverted",
+            "target": "loop_entry",
+            "until": 196.99999022483826
+          },
+          {
+            "a": 254.45632928609848,
+            "assist": false,
+            "b": 275.4563292860985,
+            "capture_width": 3.0,
+            "from": 164.99999022483826,
+            "intent": "intentional",
+            "minimum_speed": 135.0,
+            "preferred_minimum_speed": 145.0,
+            "priority": -5,
+            "screen_direction": 0,
+            "source": "inverted",
+            "target": "rollout",
+            "until": 196.99999022483826
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            104.99999237060547,
+            193.99998474121094
+          ]
+        ],
+        "impulse": [
+          0.0,
+          -35.0,
+          0.0
+        ],
+        "space_id": "N03",
+        "runtime_scene_id": "vertical",
+        "start_frame": {
+          "origin": [
+            329.48919677734375,
+            65.0,
+            -561.5814208984375
+          ],
+          "basis": [
+            [
+              -0.25880849497054637,
+              8.74227762219175e-08,
+              -0.9659286531266547
+            ],
+            [
+              -2.26257603891098e-08,
+              -0.9999999999999963,
+              -8.44441636181096e-08
+            ],
+            [
+              -0.9659286531266584,
+              3.363569739370958e-15,
+              0.25880849497054714
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            517.8451538085938,
+            65.0,
+            -612.049560546875
+          ],
+          "basis": [
+            [
+              -0.2588058692549534,
+              8.742276342310523e-08,
+              -0.9659293566504644
+            ],
+            [
+              -2.2625524102160678e-08,
+              -0.999999999999996,
+              -8.444421367763909e-08
+            ],
+            [
+              -0.9659293566504682,
+              -1.8451277355554027e-16,
+              0.2588058692549545
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            329.48919677734375,
+            65.0,
+            -612.049560546875
+          ],
+          "max": [
+            517.8451538085938,
+            65.0,
+            -561.5814208984375
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.inverted",
+        "exact_vertices_embedded": false
+      },
+      "landmark_return": {
+        "length": 2338.2055311203003,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "underpass"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "return_block_a",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 1519.8335952281952
+          },
+          {
+            "group": "return_soft",
+            "height": 2.3,
+            "id": "return_soft",
+            "kind": "soft",
+            "lanes": [
+              -1
+            ],
+            "s": 1706.8900377178193
+          },
+          {
+            "height": 5.0,
+            "id": "return_block_b",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 1870.5644248962403
+          }
+        ],
+        "pads": [
+          {
+            "a": 561.1693274688721,
+            "b": 573.1693274688721,
+            "id": "landmark_return:pulse:00",
+            "lane": 0
+          },
+          {
+            "a": 1566.5977058506012,
+            "b": 1578.5977058506012,
+            "id": "landmark_return:pulse:01",
+            "lane": 1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N08",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3909.15283203125,
+            25.153663635253906,
+            -2498.29931640625
+          ],
+          "basis": [
+            [
+              0.8703300508740304,
+              0.0,
+              0.49246888485020823
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.49246888485020823,
+              -0.0,
+              0.8703300508740304
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3013.98291015625,
+            13.214420318603516,
+            -1539.2374267578125
+          ],
+          "basis": [
+            [
+              -0.7750627869055617,
+              -0.010158371729698428,
+              0.6318025671346902
+            ],
+            [
+              -0.007816420846938068,
+              0.99994839828998,
+              0.006488784358195917
+            ],
+            [
+              -0.6318358805254153,
+              9.078053139196466e-05,
+              -0.7751021944489436
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            2923.75439453125,
+            13.214420318603516,
+            -2948.317626953125
+          ],
+          "max": [
+            3949.355712890625,
+            25.153663635253906,
+            -1539.2374267578125
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.landmark_return",
+        "exact_vertices_embedded": false
+      },
+      "loop": {
+        "length": 239.76153367757797,
+        "kind": "loop",
+        "half_width": 2.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "loop",
+        "next": [
+          "loop_out"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N04",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            841.4302978515625,
+            43.0,
+            -698.7539672851562
+          ],
+          "basis": [
+            [
+              0.2582965482461106,
+              9.306970992495334e-12,
+              0.9660656774589111
+            ],
+            [
+              -0.006319646517370441,
+              0.9999786032940058,
+              0.0016896810541486146
+            ],
+            [
+              -0.9660450068356239,
+              -0.006541632378027759,
+              0.25829102155086725
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            846.606689453125,
+            43.0,
+            -679.4354248046875
+          ],
+          "basis": [
+            [
+              0.258181811664445,
+              3.8025129182536754e-10,
+              0.9660963472271618
+            ],
+            [
+              0.006320048824668852,
+              0.9999786019276786,
+              -0.0016889847894438125
+            ],
+            [
+              -0.9660756746282966,
+              0.006541841236622191,
+              0.2581762870689637
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            809.0808715820312,
+            43.0,
+            -706.0988159179688
+          ],
+          "max": [
+            878.9561157226562,
+            119.0,
+            -672.090576171875
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.loop",
+        "exact_vertices_embedded": false
+      },
+      "loop_entry": {
+        "length": 140.0000023841858,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "crest",
+        "next": [
+          "loop"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [
+          {
+            "a": 60.0,
+            "b": 72.0,
+            "id": "loop_entry:pulse:00",
+            "lane": 1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N04",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            706.20068359375,
+            43.0,
+            -662.519287109375
+          ],
+          "basis": [
+            [
+              0.2588357632249185,
+              0.0,
+              0.9659213465266072
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659213465266072,
+              -0.0,
+              0.2588357632249185
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            841.4302978515625,
+            43.0,
+            -698.7539672851562
+          ],
+          "basis": [
+            [
+              0.2588357632249185,
+              0.0,
+              0.9659213465266072
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659213465266072,
+              -0.0,
+              0.2588357632249185
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            706.20068359375,
+            43.0,
+            -698.7539672851562
+          ],
+          "max": [
+            841.4302978515625,
+            43.0,
+            -662.519287109375
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.loop_entry",
+        "exact_vertices_embedded": false
+      },
+      "loop_out": {
+        "length": 90.00002098083496,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "crest",
+        "next": [
+          "exit_ramp"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N04",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            846.606689453125,
+            43.0,
+            -679.4354248046875
+          ],
+          "basis": [
+            [
+              0.25882484617961266,
+              0.0,
+              0.9659242718764757
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659242718764757,
+              -0.0,
+              0.25882484617961266
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            933.5400390625,
+            43.0,
+            -702.7291259765625
+          ],
+          "basis": [
+            [
+              0.25882484617961266,
+              0.0,
+              0.9659242718764757
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659242718764757,
+              -0.0,
+              0.25882484617961266
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            846.606689453125,
+            43.0,
+            -702.7291259765625
+          ],
+          "max": [
+            933.5400390625,
+            43.0,
+            -679.4354248046875
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.loop_out",
+        "exact_vertices_embedded": false
+      },
+      "relay": {
+        "length": 329.9999774694443,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "landing",
+        "next": [
+          "tunnel"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N05",
+        "runtime_scene_id": "coaster",
+        "start_frame": {
+          "origin": [
+            1455.7620849609375,
+            36.5,
+            -828.578369140625
+          ],
+          "basis": [
+            [
+              0.2588350260767832,
+              0.0,
+              0.9659215440582277
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659215440582277,
+              -0.0,
+              0.2588350260767832
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            1774.517578125,
+            36.5,
+            -913.9886474609375
+          ],
+          "basis": [
+            [
+              0.2588350260767832,
+              0.0,
+              0.9659215440582277
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9659215440582277,
+              -0.0,
+              0.2588350260767832
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            1455.7620849609375,
+            36.5,
+            -913.9886474609375
+          ],
+          "max": [
+            1774.517578125,
+            36.5,
+            -828.578369140625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.relay",
+        "exact_vertices_embedded": false
+      },
+      "rescue": {
+        "length": 520.0000536441803,
+        "kind": "rescue",
+        "half_width": 3.0,
+        "entry_half_width": 4.0,
+        "entry_taper_length": 48.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rescue",
+        "next": [
+          "rescue_merge"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N07",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3273.271240234375,
+            1.1536636352539062,
+            -1410.503173828125
+          ],
+          "basis": [
+            [
+              0.8660427384451368,
+              0.0,
+              0.49996997428490475
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.49996997428490475,
+              -0.0,
+              0.8660427384451368
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3533.271484375,
+            1.1536636352539062,
+            -1860.8363037109375
+          ],
+          "basis": [
+            [
+              0.8660427384451368,
+              0.0,
+              0.49996997428490475
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.49996997428490475,
+              -0.0,
+              0.8660427384451368
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3273.271240234375,
+            1.1536636352539062,
+            -1860.8363037109375
+          ],
+          "max": [
+            3533.271484375,
+            1.1536636352539062,
+            -1410.503173828125
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.rescue",
+        "exact_vertices_embedded": false
+      },
+      "rescue_merge": {
+        "length": 339.08662497997284,
+        "kind": "clip",
+        "half_width": 2.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "finish"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N07",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3533.271240234375,
+            1.1536636352539062,
+            -1860.8363037109375
+          ],
+          "basis": [
+            [
+              0.8752268939159945,
+              1.3565700212464504e-13,
+              0.4837126049279267
+            ],
+            [
+              -0.0006674308178093479,
+              0.9999990480636449,
+              0.001207645605031255
+            ],
+            [
+              -0.4837121444643125,
+              -0.0013798086113345435,
+              0.8752260607556953
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3669.16015625,
+            25.153663635253906,
+            -2082.60302734375
+          ],
+          "basis": [
+            [
+              0.8561647717399073,
+              6.72558729975653e-09,
+              0.5167028968677766
+            ],
+            [
+              -0.0007124498680814564,
+              0.999999049417054,
+              0.0011804999677740738
+            ],
+            [
+              -0.5167024056908752,
+              -0.0013788273961590118,
+              0.8561639578890681
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3508.849609375,
+            1.1536636352539062,
+            -2082.60302734375
+          ],
+          "max": [
+            3669.16015625,
+            25.153663635253906,
+            -1860.8363037109375
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.rescue_merge",
+        "exact_vertices_embedded": false
+      },
+      "return_switchback": {
+        "length": 251.32781100273132,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "final_approach"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "switch_block",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 220.0
+          }
+        ],
+        "pads": [
+          {
+            "a": 35.0,
+            "b": 47.0,
+            "id": "return_switchback:pulse:00",
+            "lane": 1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N08",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            3344.611572265625,
+            13.214420318603516,
+            -1137.8837890625
+          ],
+          "basis": [
+            [
+              -0.7731691626085292,
+              1.4209309239215234e-11,
+              0.6341998470444674
+            ],
+            [
+              0.0004553229728672034,
+              0.9999997422747919,
+              0.0005550957936673429
+            ],
+            [
+              -0.634199683595172,
+              0.000717948709705509,
+              -0.7731689633433524
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3503.567626953125,
+            1.2144203186035156,
+            -944.9253540039062
+          ],
+          "basis": [
+            [
+              -0.770544393919464,
+              -0.011421230073563247,
+              0.637283996741557
+            ],
+            [
+              -0.008344022102707706,
+              0.9999345184258435,
+              0.007831740268039032
+            ],
+            [
+              -0.6373317144897434,
+              0.0007171918036573384,
+              -0.7705892364557667
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3344.611572265625,
+            1.2144203186035156,
+            -1137.8837890625
+          ],
+          "max": [
+            3503.567626953125,
+            13.214420318603516,
+            -944.9253540039062
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.return_switchback",
+        "exact_vertices_embedded": false
+      },
+      "rollout": {
+        "length": 275.4563289284706,
+        "kind": "clip",
+        "half_width": 3.0,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "inverted",
+        "next": [
+          "loop_entry"
+        ],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N03",
+        "runtime_scene_id": "vertical",
+        "start_frame": {
+          "origin": [
+            517.8451538085938,
+            65.0,
+            -612.049560546875
+          ],
+          "basis": [
+            [
+              -0.2807497315252695,
+              8.734515008978431e-08,
+              -0.9597810105688076
+            ],
+            [
+              -0.0016218171992558755,
+              -0.9999985723666669,
+              0.0004743138207943552
+            ],
+            [
+              -0.9597796403120153,
+              0.001689752828306417,
+              0.2807493308592522
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            706.20068359375,
+            43.0,
+            -662.519287109375
+          ],
+          "basis": [
+            [
+              0.23681781416777725,
+              1.4848274352999118e-08,
+              0.9715540761546914
+            ],
+            [
+              0.001637895257251771,
+              0.999998578946358,
+              -0.00039925479438740485
+            ],
+            [
+              -0.9715526955301613,
+              0.0016858544612002257,
+              0.23681747761264005
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            517.8451538085938,
+            43.0,
+            -724.9619140625
+          ],
+          "max": [
+            706.20068359375,
+            65.0,
+            -612.049560546875
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.rollout",
+        "exact_vertices_embedded": false
+      },
+      "rush": {
+        "length": 280.8552598953247,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [
+          "carve"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "rush_block",
+            "kind": "block",
+            "lanes": [
+              -1,
+              0
+            ],
+            "s": 265.0
+          }
+        ],
+        "pads": [
+          {
+            "a": 140.0,
+            "b": 152.0,
+            "id": "rush:pulse:00",
+            "lane": 1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N03",
+        "runtime_scene_id": "vertical",
+        "start_frame": {
+          "origin": [
+            0.0,
+            65.0,
+            0.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.9999994295653227,
+              -0.001068114707813345
+            ],
+            [
+              0.0,
+              0.001068114707813345,
+              0.9999994295653227
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            45.0,
+            -280.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.9999994295603489,
+              -0.0010681193644227886
+            ],
+            [
+              0.0,
+              0.0010681193644227886,
+              0.9999994295603489
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            45.0,
+            -280.0
+          ],
+          "max": [
+            0.0,
+            65.0,
+            0.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.rush",
+        "exact_vertices_embedded": false
+      },
+      "station_carve": {
+        "length": 430.5015652179718,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "carve",
+        "next": [
+          "station_ramp"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "station_carve_block",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 210.0
+          },
+          {
+            "group": "station_carve_soft",
+            "height": 2.2,
+            "id": "station_carve_soft",
+            "kind": "soft",
+            "lanes": [
+              -1
+            ],
+            "s": 310.0
+          }
+        ],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N01",
+        "runtime_scene_id": "station",
+        "start_frame": {
+          "origin": [
+            0.0,
+            130.0,
+            1700.0
+          ],
+          "basis": [
+            [
+              0.9999889576264627,
+              -2.7551851486320045e-14,
+              0.004699428171675858
+            ],
+            [
+              5.01953010277023e-06,
+              0.9999994295649303,
+              -0.0010681032807236264
+            ],
+            [
+              -0.004699425490957192,
+              0.0010681150752493978,
+              0.9999883871976919
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            100.0,
+            1280.0
+          ],
+          "basis": [
+            [
+              0.951024751961367,
+              0.30907747634383803,
+              -0.004799455567518722
+            ],
+            [
+              -0.30907901345961747,
+              0.9510362625826406,
+              0.00043668257619560715
+            ],
+            [
+              0.004699425033978315,
+              0.001068115053239677,
+              0.999988387199863
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            100.0,
+            1280.0
+          ],
+          "max": [
+            40.0,
+            130.0,
+            1700.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.station_carve",
+        "exact_vertices_embedded": false
+      },
+      "station_ramp": {
+        "length": 40.50574493408203,
+        "kind": "ramp",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "crest",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 815.5836844444275,
+            "default": true,
+            "from": 0.0,
+            "intent": "natural",
+            "minimum_speed": 15.0,
+            "priority": 5,
+            "screen_direction": 1,
+            "source": "station_ramp",
+            "target": "canyon_safe",
+            "until": 42.50574493408203
+          },
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 175.1728881597519,
+            "from": 0.0,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": -1,
+            "source": "station_ramp",
+            "target": "canyon_fast_catch",
+            "until": 42.50574493408203
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            8.0,
+            40.50574493408203
+          ]
+        ],
+        "impulse": [
+          0.0,
+          12.0,
+          0.0
+        ],
+        "space_id": "N02",
+        "runtime_scene_id": "canyon",
+        "start_frame": {
+          "origin": [
+            0.0,
+            100.0,
+            1280.0
+          ],
+          "basis": [
+            [
+              0.9510564980057146,
+              0.30899866943450816,
+              0.003370443414402852
+            ],
+            [
+              -0.30901705066404694,
+              0.950999926412727,
+              0.010373155830396238
+            ],
+            [
+              -8.964612537541716e-11,
+              -0.010906981740673035,
+              0.999940517105547
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            106.0,
+            1240.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.9881467156564191,
+              0.15351243707736503
+            ],
+            [
+              0.0,
+              -0.15351243707736503,
+              0.9881467156564191
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            100.0,
+            1240.0
+          ],
+          "max": [
+            0.0,
+            106.0,
+            1280.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.station_ramp",
+        "exact_vertices_embedded": false
+      },
+      "station_start": {
+        "length": 600.0833415985107,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [
+          "station_carve"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "group": "station_soft_a",
+            "height": 2.2,
+            "id": "station_soft_a",
+            "kind": "soft",
+            "lanes": [
+              0
+            ],
+            "s": 145.0
+          },
+          {
+            "height": 5.0,
+            "id": "station_block_a",
+            "kind": "block",
+            "lanes": [
+              1
+            ],
+            "s": 230.0
+          },
+          {
+            "group": "station_soft_b",
+            "height": 2.4,
+            "id": "station_soft_b",
+            "kind": "soft",
+            "lanes": [
+              -1,
+              0
+            ],
+            "s": 395.0
+          },
+          {
+            "height": 5.0,
+            "id": "station_block_b",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 520.0
+          }
+        ],
+        "pads": [
+          {
+            "a": 65.0,
+            "b": 77.0,
+            "id": "station_start:pulse:00",
+            "lane": 0
+          },
+          {
+            "a": 305.0,
+            "b": 317.0,
+            "id": "station_start:pulse:01",
+            "lane": -1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N01",
+        "runtime_scene_id": "station",
+        "start_frame": {
+          "origin": [
+            0.0,
+            140.0,
+            2300.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.9998612078155846,
+              -0.016660285278478605
+            ],
+            [
+              0.0,
+              0.016660285278478605,
+              0.9998612078155846
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            0.0,
+            130.0,
+            1700.0
+          ],
+          "basis": [
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.9998612078155846,
+              -0.016660285278478605
+            ],
+            [
+              0.0,
+              0.016660285278478605,
+              0.9998612078155846
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            0.0,
+            130.0,
+            1700.0
+          ],
+          "max": [
+            0.0,
+            140.0,
+            2300.0
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.station_start",
+        "exact_vertices_embedded": false
+      },
+      "tunnel": {
+        "length": 1427.4797413349152,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "tunnel",
+        "enclosure_half_width": 38.0,
+        "ceiling": 18.0,
+        "camera_phase": "tunnel",
+        "next": [
+          "cliff_turn"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "tunnel_block_a",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 256.9463534402847
+          },
+          {
+            "bottom": 3.2,
+            "height": 5.0,
+            "id": "tunnel_beam_a",
+            "kind": "beam",
+            "lanes": [
+              0
+            ],
+            "s": 485.3431120538712
+          },
+          {
+            "group": "tunnel_soft",
+            "height": 2.2,
+            "id": "tunnel_soft",
+            "kind": "soft",
+            "lanes": [
+              -1
+            ],
+            "s": 656.640681014061
+          },
+          {
+            "height": 5.0,
+            "id": "tunnel_block_b",
+            "kind": "block",
+            "lanes": [
+              -1,
+              0
+            ],
+            "s": 870.7626422142982
+          },
+          {
+            "bottom": 3.2,
+            "height": 5.0,
+            "id": "tunnel_beam_b",
+            "kind": "beam",
+            "lanes": [
+              0
+            ],
+            "s": 1113.4341982412338
+          },
+          {
+            "height": 5.0,
+            "id": "tunnel_block_c",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 1299.0065646147727
+          }
+        ],
+        "pads": [
+          {
+            "a": 385.41953016042714,
+            "b": 397.41953016042714,
+            "id": "tunnel:pulse:00",
+            "lane": 1
+          },
+          {
+            "a": 1027.785413761139,
+            "b": 1039.785413761139,
+            "id": "tunnel:pulse:01",
+            "lane": -1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N06",
+        "runtime_scene_id": "tunnel",
+        "start_frame": {
+          "origin": [
+            1774.517578125,
+            36.5,
+            -913.9886474609375
+          ],
+          "basis": [
+            [
+              0.2521057356538906,
+              8.623087812374697e-12,
+              0.9676996941460767
+            ],
+            [
+              -0.0008998994953717063,
+              0.9999995676087418,
+              0.00023444237612616024
+            ],
+            [
+              -0.9676992757211864,
+              -0.0009299367341351408,
+              0.2521056266455821
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3128.64697265625,
+            37.51366424560547,
+            -1269.4215087890625
+          ],
+          "basis": [
+            [
+              0.2556302274366226,
+              9.881476279952539e-06,
+              0.9667746307816818
+            ],
+            [
+              -0.0005032329824743353,
+              0.9999998658332514,
+              0.00012284154241130052
+            ],
+            [
+              -0.9667744998588172,
+              -0.0005179148922540563,
+              0.255630198112231
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            1774.517578125,
+            36.5,
+            -1269.4215087890625
+          ],
+          "max": [
+            3128.64697265625,
+            51.0086555480957,
+            -913.9886474609375
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.tunnel",
+        "exact_vertices_embedded": false
+      },
+      "underpass": {
+        "length": 520.0000559091568,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "tunnel",
+        "enclosure_half_width": 11.0,
+        "ceiling": 18.0,
+        "camera_phase": "tunnel",
+        "next": [
+          "return_switchback"
+        ],
+        "connections": [],
+        "obstacles": [
+          {
+            "height": 5.0,
+            "id": "underpass_block_a",
+            "kind": "block",
+            "lanes": [
+              0,
+              1
+            ],
+            "s": 90.0
+          },
+          {
+            "height": 5.0,
+            "id": "underpass_block_b",
+            "kind": "block",
+            "lanes": [
+              -1,
+              0
+            ],
+            "s": 485.0
+          }
+        ],
+        "pads": [
+          {
+            "a": 85.0,
+            "b": 97.0,
+            "id": "underpass:pulse:00",
+            "lane": -1
+          },
+          {
+            "a": 215.0,
+            "b": 227.0,
+            "id": "underpass:pulse:01",
+            "lane": 1
+          }
+        ],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N08",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            3013.98291015625,
+            13.214420318603516,
+            -1539.2374267578125
+          ],
+          "basis": [
+            [
+              -0.7718079257776913,
+              0.0,
+              0.6358557428432471
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6358557428432471,
+              0.0,
+              -0.7718079257776913
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3344.611572265625,
+            13.214420318603516,
+            -1137.8837890625
+          ],
+          "basis": [
+            [
+              -0.771840919700143,
+              0.0,
+              0.6358156923798259
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6358156923798259,
+              0.0,
+              -0.771840919700143
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3013.98291015625,
+            13.214420318603516,
+            -1539.2374267578125
+          ],
+          "max": [
+            3344.611572265625,
+            13.214420318603516,
+            -1137.8837890625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.underpass",
+        "exact_vertices_embedded": false
+      },
+      "upper": {
+        "length": 339.99997222423553,
+        "kind": "grind",
+        "half_width": 2.0,
+        "entry_half_width": 4.0,
+        "entry_taper_length": 60.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "grind",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 469.99995493888855,
+            "from": 259.99997222423553,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": -1,
+            "source": "upper",
+            "target": "finish",
+            "until": 341.99997222423553
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            259.9999694824219,
+            339.9999694824219
+          ]
+        ],
+        "impulse": [
+          5.999999523162842,
+          39.0,
+          -10.392303466796875
+        ],
+        "space_id": "N07",
+        "runtime_scene_id": "valley",
+        "start_frame": {
+          "origin": [
+            3335.049072265625,
+            25.153663635253906,
+            -1490.3056640625
+          ],
+          "basis": [
+            [
+              0.8660383578355624,
+              0.0,
+              0.4999775622540299
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.4999775622540299,
+              -0.0,
+              0.8660383578355624
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            3505.042724609375,
+            25.153663635253906,
+            -1784.7579345703125
+          ],
+          "basis": [
+            [
+              0.8660179127334737,
+              0.0,
+              0.5000129746564157
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5000129746564157,
+              -0.0,
+              0.8660179127334737
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            3335.049072265625,
+            25.153663635253906,
+            -1784.7579345703125
+          ],
+          "max": [
+            3505.042724609375,
+            25.153663635253906,
+            -1490.3056640625
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.upper",
+        "exact_vertices_embedded": false
+      },
+      "victory_run": {
+        "length": 219.99999582767487,
+        "kind": "wide",
+        "half_width": 6.5,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": false,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "rush",
+        "next": [],
+        "connections": [],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [],
+        "impulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "space_id": "N09",
+        "runtime_scene_id": "finale",
+        "start_frame": {
+          "origin": [
+            4244.302734375,
+            -9.785579681396484,
+            -45.739013671875
+          ],
+          "basis": [
+            [
+              -0.7718052897528711,
+              0.0,
+              0.6358589424624671
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6358589424624671,
+              0.0,
+              -0.7718052897528711
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            4384.18408203125,
+            -9.785579681396484,
+            124.06442260742188
+          ],
+          "basis": [
+            [
+              -0.7718042699184255,
+              0.0,
+              0.6358601803350215
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6358601803350215,
+              0.0,
+              -0.7718042699184255
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            4244.302734375,
+            -9.785579681396484,
+            -45.739013671875
+          ],
+          "max": [
+            4384.18408203125,
+            -9.785579681396484,
+            124.06442260742188
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.victory_run",
+        "exact_vertices_embedded": false
+      },
+      "wall": {
+        "length": 159.9999965429306,
+        "kind": "wall",
+        "half_width": 2.2,
+        "entry_half_width": 0.0,
+        "entry_taper_length": 0.0,
+        "single_lane": true,
+        "enclosure": "open",
+        "enclosure_half_width": 11.0,
+        "ceiling": "positive_infinity",
+        "camera_phase": "wall",
+        "next": [],
+        "connections": [
+          {
+            "a": 0.0,
+            "assist": true,
+            "assist_max_error": 8.0,
+            "assist_time": 0.6,
+            "b": 180.0,
+            "from": 39.9999965429306,
+            "intent": "intentional",
+            "minimum_speed": 15.0,
+            "priority": 10,
+            "screen_direction": 0,
+            "source": "wall",
+            "target": "inverted",
+            "until": 161.9999965429306
+          }
+        ],
+        "obstacles": [],
+        "pads": [],
+        "release_windows": [
+          [
+            39.999996185302734,
+            158.0
+          ]
+        ],
+        "impulse": [
+          3.1058287620544434,
+          30.0,
+          11.591110229492188
+        ],
+        "space_id": "N03",
+        "runtime_scene_id": "vertical",
+        "start_frame": {
+          "origin": [
+            192.70704650878906,
+            53.0,
+            -531.1407470703125
+          ],
+          "basis": [
+            [
+              1.0809221284713288e-07,
+              -0.9999999999999849,
+              1.3606665710819144e-07
+            ],
+            [
+              0.2588222345324053,
+              1.5940684994220078e-07,
+              0.9659249716782495
+            ],
+            [
+              -0.9659249716782565,
+              -6.91918914386136e-08,
+              0.2588222345324186
+            ]
+          ]
+        },
+        "end_frame": {
+          "origin": [
+            347.25518798828125,
+            53.0,
+            -572.5517578125
+          ],
+          "basis": [
+            [
+              -1.1102230246251565e-16,
+              -1.0,
+              0.0
+            ],
+            [
+              0.25880444982052875,
+              -1.1102230246251565e-16,
+              0.9659297369649066
+            ],
+            [
+              -0.9659297369649066,
+              0.0,
+              0.25880444982052864
+            ]
+          ]
+        },
+        "world_bounds_m": {
+          "min": [
+            192.70704650878906,
+            53.0,
+            -572.5517578125
+          ],
+          "max": [
+            347.25518798828125,
+            53.0,
+            -531.1407470703125
+          ]
+        },
+        "geometry_source_selector": "snapshot.tracks.wall",
+        "exact_vertices_embedded": false
+      }
+    },
+    "camera_settings": {
+      "comfort": false,
+      "far": 4400.0,
+      "fov": 88.66667175292969,
+      "frustum_offset": [
+        0.0,
+        0.0
+      ],
+      "keep_aspect": 1,
+      "near": 0.20000000298023224,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "pose": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9945268034934998,
+            -0.104482002556324
+          ],
+          [
+            0.0,
+            0.104482002556324,
+            0.9945268034934998
+          ]
+        ],
+        "origin": [
+          0.0,
+          145.6825714111328,
+          2292.904296875
+        ]
+      },
+      "projection": 0,
+      "script": "res://scripts/spatial/spatial_camera.gd"
+    },
+    "trajectory_sources": [
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-v2-baseline-main-01/result.json",
+        "sha256": "59d22434abf4f5aaca9941af070fd1d670fb319fe1a32f4768a20299cb701d57",
+        "receipt": "local/theme-pipeline/neutral_a/runs/pixel-v2-baseline-main-01/receipt.json",
+        "receipt_sha256": "2037eb644ac3bddd64cc3a23c5e2fe717bf2766b9bc781a16eacc28bd4601845",
+        "native": true,
+        "passed": true,
+        "branch": "main"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-v2-baseline-fast-01/result.json",
+        "sha256": "61d87a2ba166fafb37e069a1e9802aef0f8817b4963e86eb90e838cc06dc1f8a",
+        "receipt": "local/theme-pipeline/neutral_a/runs/pixel-v2-baseline-fast-01/receipt.json",
+        "receipt_sha256": "b6f482bc310cb202505644ba6c63623fdedf090f901ea4e379d0775ef0ea1147",
+        "native": true,
+        "passed": true,
+        "branch": "fast"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-safe-01/result.json",
+        "sha256": "a4ecbbb7e90e8c58492517b1646b62ab748b142883558950e509a4d0287d4162",
+        "receipt": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-safe-01/receipt.json",
+        "receipt_sha256": "3347645f7facac443aafa65395468fa024fc25d0c9f4afcacae4d53f0bcaae4f",
+        "native": false,
+        "passed": true,
+        "branch": "safe"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-rescue-01/result.json",
+        "sha256": "6418a33051f29546e777588b38edde264dba312b6eb5901803cc4af808f28a6e",
+        "receipt": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-rescue-01/receipt.json",
+        "receipt_sha256": "29c26081aa6cc48534a18f3feaabeba759f12d41cb738ce239022d38fc0744eb",
+        "native": false,
+        "passed": true,
+        "branch": "rescue"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-high-01/result.json",
+        "sha256": "800a18c5c1f70f7876d6dbf209dc14c8298921f462f4d0d42fe9dad805415ee4",
+        "receipt": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-high-01/receipt.json",
+        "receipt_sha256": "35ae455511bb73ad0f7b1267cd0600d48e8a882a676b84c353339502de50395b",
+        "native": false,
+        "passed": true,
+        "branch": "high"
+      },
+      {
+        "path": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-high-short-01/result.json",
+        "sha256": "b6bc689b9e37947a00d16ef391f3a8a19207f0682a1788bafa34acbae3da349c",
+        "receipt": "local/theme-pipeline/neutral_a/runs/pixel-v2-p3-reference-high-short-01/receipt.json",
+        "receipt_sha256": "10fa1ccad46b351431427f501961c7df54cfbaf0ad3d0141e5a2b5a17558dc67",
+        "native": false,
+        "passed": true,
+        "branch": "high-short"
+      }
+    ],
+    "evidence_boundary": "main/fast native; safe/rescue/high/high-short headless. Recorded coverage is not every input/continuous sweep."
+  },
+  "protected_contract": {
+    "status": "design_constraints_only_not_clearance_verification",
+    "frame": {
+      "units": "metres",
+      "up": "+Y",
+      "forward": "-Z",
+      "basis": "column vectors"
+    },
+    "train_collision": {
+      "size_m": [
+        2.6,
+        3.4,
+        12.0
+      ],
+      "local_center_m": [
+        0,
+        1.7,
+        0
+      ],
+      "source": "game/scenes/player/train.tscn",
+      "edit_policy": "exact",
+      "visual_overhang_and_trick_animation": "separate unresolved envelope"
+    },
+    "supported_motion": {
+      "source": "tools/pixel_skyline_v2/audit_route_corridor.py",
+      "frame_source": "snapshot.tracks[track_id].points/distances/rotations",
+      "lane_spacing_m": 4.4,
+      "center_lateral_bound": "width_at(s) for single_lane; width_at(s)-1.35 m otherwise",
+      "protected_body": "Union of train OBB at every supported center, including intermediate lane changes.",
+      "conservative_outer_guard": "Train center to full width_at(s), then Minkowski sum with train OBB.",
+      "local_up_rule": "Use actual rotated SupportFrame for wall/inverted/loop; never WORLD_UP substitution."
+    },
+    "camera": {
+      "audit_sphere_radius_m": 0.35,
+      "source": "tools/theme_pipeline/runtime.gd:449",
+      "sphere_is_physical_collider": false,
+      "sphere_covers_full_frustum": false,
+      "required": [
+        "actual trajectory",
+        "camera-target viewing corridor",
+        "near plane/frustum",
+        "comfort camera",
+        "launch/catch visibility",
+        "foreground occlusion"
+      ],
+      "status": "camera traces exist; new-art and alternate-view tests pending"
+    },
+    "airborne": {
+      "source": "snapshot.tracks[*].connections/release_windows plus recorded trajectories",
+      "required": [
+        "source window",
+        "target window",
+        "speed/direction conditions",
+        "train/camera actual flight poses",
+        "unrecorded-input uncertainty"
+      ],
+      "status": "all 16 logical connections retained; no continuous all-input swept-volume proof"
+    },
+    "functional": {
+      "hard_obstacle": "3 m width × (height-bottom) × 2 m depth; centered at lane*4.4, bottom+(height-bottom)/2",
+      "soft_obstacle": "1.3 m width/depth; actual height from obstacle; retain original soft_props state binding",
+      "advance_warning": "3.5×0.08×3.8 m, local y=0.18; original four preview ratios 1/.72/.48/.28",
+      "signals": {
+        "red": "danger",
+        "cyan": "guide/real boost",
+        "gold": "active release/safe grind",
+        "purple": "rescue"
+      },
+      "source": "game/levels/labs/spatial_full_lab/spatial_full_lab.gd"
+    },
+    "water_and_floors": "Per-region/local support frame. Any proposed surface must subtract all protected volumes; no global flat ground/water.",
+    "required_checks": [
+      "frozen fingerprint",
+      "37-track coverage",
+      "all next/connections",
+      "supported body clearance",
+      "recorded flights",
+      "camera/frustum",
+      "visual cue readability",
+      "soft-prop states",
+      "actual imported geometry"
+    ]
+  },
+  "functional_translation": {
+    "Bed/Rail/Clamps": "模块化服务沟槽、粗扣件和笨重支架；实际行车面连续，几何比例遵守冻结轨道。",
+    "ApproachMarks": "低矮宽框白叉警示垫；不能变成加速箭头或看似硬障碍的高墩。",
+    "Block/LowBeam": "锁死货箱/载货台车、厚壳检修横梁；按真实障碍包络区分可通过空隙。",
+    "SoftProp": "松散包裹、锥桶和薄壁周转箱；原碰撞事件使其倾倒/恢复。",
+    "Pickets/NearSpeedMarkers": "偏轴扫描小灯、歪脖大灯头；路外身体可夸张，小青色镜片保持导向语义。",
+    "NoEntrySign": "笨重肘形支架上的白横杠禁入牌；避免普通装饰牌复制相同信号。",
+    "ReleaseWindow/InvertedEjectPad": "金色弹簧/夹具解锁机座；仅装饰演出，不新增机关判定。",
+    "CatchRunway/CatchGate": "青色扫描导向与贯通接收框；看起来笨但入口净空清楚。",
+    "Rescue": "紫色退件回收线和应急扫描灯；不与普通货物流向混淆。"
+  },
+  "water_design": {
+    "status": "not_applicable",
+    "basins": [],
+    "transitions": [],
+    "rule": "Warehouse floors remain local stepped assemblies, not a global ground plane."
+  },
+  "space_designs": [
+    {
+      "space_id": "N01",
+      "title": "夜班收货站",
+      "track_ids": [
+        "station_start",
+        "station_carve"
+      ],
+      "runtime_scene_ids": [
+        "station"
+      ],
+      "view_ids": [
+        "B2-N01"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N01",
+        "image_sha256": "a1d11904ac1da241f200d707e97bcdecc0b5a8c38b15487f7bd9c42a4ef8c991"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            0.0,
+            100.0,
+            1280.0
+          ],
+          "max": [
+            40.0,
+            140.0,
+            2300.0
+          ]
+        },
+        "entrance_edge_ids": [],
+        "exit_edge_ids": [
+          "next:station_carve:station_ramp:00"
+        ],
+        "tracks": {
+          "station_start": "baseline_facts.tracks.station_start",
+          "station_carve": "baseline_facts.tracks.station_carve"
+        }
+      },
+      "art_intent": "夜班收货站；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "服务沟槽、怪比例扫描灯、小轮大货箱和可撞散包裹",
+      "midground": "低矮收货棚、粗壮吊臂与成组码放台，主轨留白",
+      "background": "歪斜仓库天际线与重复粗支架，建立系统尺度",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            -90.0,
+            60.0,
+            1190.0
+          ],
+          "max": [
+            130.0,
+            240.0,
+            2390.0
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "收货楼板随各轨局部标高做错台；错台在路外，不强制拉平站区。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N01-support",
+          "B2-N01-functional-kit",
+          "B2-N01-near",
+          "B2-N01-mid",
+          "B2-N01-far"
+        ],
+        "landmark_refs": [],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "station_start:pulse:00",
+          "station_start:station_soft_a",
+          "station_start:station_block_a",
+          "station_start:pulse:01",
+          "station_start:station_soft_b",
+          "station_start:station_block_b",
+          "station_carve:station_carve_block",
+          "carve:station_carve",
+          "station_carve:station_carve_soft"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "station_start",
+          "station_carve"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:station_carve:station_ramp:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N02",
+      "title": "货架峡谷",
+      "track_ids": [
+        "station_ramp",
+        "canyon_safe",
+        "canyon_fast_catch",
+        "canyon_fast",
+        "canyon_merge"
+      ],
+      "runtime_scene_ids": [
+        "canyon"
+      ],
+      "view_ids": [
+        "B2-N02"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N02",
+        "image_sha256": "f849eaceb2d998cc549e9d96298ef2d9b1ed440e6922b42325d6d3b0447b063c"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            -112.20864868164062,
+            65.0,
+            0.0
+          ],
+          "max": [
+            4.400000095367432,
+            112.0,
+            1280.0
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:station_carve:station_ramp:00"
+        ],
+        "exit_edge_ids": [
+          "next:canyon_merge:rush:00"
+        ],
+        "tracks": {
+          "station_ramp": "baseline_facts.tracks.station_ramp",
+          "canyon_safe": "baseline_facts.tracks.canyon_safe",
+          "canyon_fast_catch": "baseline_facts.tracks.canyon_fast_catch",
+          "canyon_fast": "baseline_facts.tracks.canyon_fast",
+          "canyon_merge": "baseline_facts.tracks.canyon_merge"
+        }
+      },
+      "art_intent": "货架峡谷；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "快慢线接收框、粗螺栓和货架脚座",
+      "midground": "高货架/吊装架围合大空洞；支线有独立服务边带",
+      "background": "远处仓库堆叠，货物成大块分组而非碎片铺满",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            -202.20864868164062,
+            25.0,
+            -90.0
+          ],
+          "max": [
+            94.40000009536743,
+            212.0,
+            1370.0
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "独立仓储台地和货架基座沿坡势分层；断轨与飞跃空间保持空。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N02-support",
+          "B2-N02-functional-kit",
+          "B2-N02-near",
+          "B2-N02-mid",
+          "B2-N02-far"
+        ],
+        "landmark_refs": [],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "station_ramp:coil:00",
+          "canyon_safe:pulse:00",
+          "canyon_safe:canyon_soft_a",
+          "canyon_safe:canyon_soft_b",
+          "canyon_safe:pulse:01",
+          "canyon_safe:canyon_block_a",
+          "canyon_fast:pulse:00",
+          "canyon_merge:merge_soft"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "station_ramp",
+          "canyon_safe",
+          "canyon_fast_catch",
+          "canyon_fast",
+          "canyon_merge"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:station_carve:station_ramp:00",
+          "next:canyon_merge:rush:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N03",
+      "title": "倒挂分拣机",
+      "track_ids": [
+        "rush",
+        "carve",
+        "wall",
+        "inverted",
+        "drop",
+        "rollout"
+      ],
+      "runtime_scene_ids": [
+        "vertical"
+      ],
+      "view_ids": [
+        "B2-N03"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N03",
+        "image_sha256": "8d3ed98ff8cf28764a4fb7a88235df28434121e2e94d298cfda47f19e059c6db"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            0.0,
+            43.0,
+            -724.9619140625
+          ],
+          "max": [
+            706.2010498046875,
+            65.0,
+            0.0
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:canyon_merge:rush:00"
+        ],
+        "exit_edge_ids": [
+          "next:drop:loop_entry:00",
+          "connection:inverted:loop_entry:01",
+          "next:rollout:loop_entry:00"
+        ],
+        "tracks": {
+          "rush": "baseline_facts.tracks.rush",
+          "carve": "baseline_facts.tracks.carve",
+          "wall": "baseline_facts.tracks.wall",
+          "inverted": "baseline_facts.tracks.inverted",
+          "drop": "baseline_facts.tracks.drop",
+          "rollout": "baseline_facts.tracks.rollout"
+        }
+      },
+      "art_intent": "倒挂分拣机；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "金色解锁夹具、偏轴灯和粗壳低梁",
+      "midground": "巨型分拣机空腔、歪斜传动壳体与悬挂检修骨架",
+      "background": "粗切面管道/货箱块体连接上一、下区",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            -90.0,
+            3.0,
+            -814.9619140625
+          ],
+          "max": [
+            796.2010498046875,
+            165.0,
+            90.0
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "机器内部楼板只在路外形成层级；倒挂下方是明确空腔，不能塞成货堆。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N03-support",
+          "B2-N03-functional-kit",
+          "B2-N03-near",
+          "B2-N03-mid",
+          "B2-N03-far"
+        ],
+        "landmark_refs": [],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "rush:pulse:00",
+          "rush:rush_block",
+          "wall:coil:00",
+          "inverted:coil:00"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "rush",
+          "carve",
+          "wall",
+          "inverted",
+          "drop",
+          "rollout"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:canyon_merge:rush:00",
+          "next:drop:loop_entry:00",
+          "connection:inverted:loop_entry:01",
+          "next:rollout:loop_entry:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N04",
+      "title": "卷缆与输送环",
+      "track_ids": [
+        "loop_entry",
+        "loop",
+        "loop_out",
+        "exit_ramp"
+      ],
+      "runtime_scene_ids": [
+        "coaster"
+      ],
+      "view_ids": [
+        "B2-N04"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N04",
+        "image_sha256": "8590e205c09c3fae28e55d7efc3aa255d21533bb57dce7ec03731829898ac3f2"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            706.20068359375,
+            43.0,
+            -710.4937133789062
+          ],
+          "max": [
+            962.517822265625,
+            119.0,
+            -662.519287109375
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:drop:loop_entry:00",
+          "connection:inverted:loop_entry:01",
+          "next:rollout:loop_entry:00"
+        ],
+        "exit_edge_ids": [
+          "connection:exit_ramp:grind:00",
+          "connection:exit_ramp:high:01",
+          "connection:exit_ramp:high_merge:02"
+        ],
+        "tracks": {
+          "loop_entry": "baseline_facts.tracks.loop_entry",
+          "loop": "baseline_facts.tracks.loop",
+          "loop_out": "baseline_facts.tracks.loop_out",
+          "exit_ramp": "baseline_facts.tracks.exit_ramp"
+        }
+      },
+      "art_intent": "卷缆与输送环；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "环轨扣件、夸张小托轮和出口解锁器",
+      "midground": "巨大卷缆盘/输送转盘外框衬托真实回环，外形不冒充可行走路线",
+      "background": "大空白背景与少量歪塔提供喜剧比例",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            616.20068359375,
+            3.0,
+            -800.4937133789062
+          ],
+          "max": [
+            1052.517822265625,
+            219.0,
+            -572.519287109375
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "基座退到环外；中心洞口与舒适镜头外绕空间独立保护。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N04-support",
+          "B2-N04-functional-kit",
+          "B2-N04-near",
+          "B2-N04-mid",
+          "B2-N04-far"
+        ],
+        "landmark_refs": [],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "loop_entry:pulse:00",
+          "exit_ramp:coil:00"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "loop_entry",
+          "loop",
+          "loop_out",
+          "exit_ramp"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:drop:loop_entry:00",
+          "connection:inverted:loop_entry:01",
+          "next:rollout:loop_entry:00",
+          "connection:exit_ramp:grind:00",
+          "connection:exit_ramp:high:01",
+          "connection:exit_ramp:high_merge:02"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N05",
+      "title": "高低搬运线",
+      "track_ids": [
+        "grind",
+        "relay",
+        "high",
+        "high_merge"
+      ],
+      "runtime_scene_ids": [
+        "coaster"
+      ],
+      "view_ids": [
+        "B2-N05"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N05",
+        "image_sha256": "cd98f4494024292b97b8a3e838597070d9244c1958075b2dfca7e1ca376a8b0a"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            978.7666625976562,
+            36.5,
+            -951.6473388671875
+          ],
+          "max": [
+            1774.5177001953125,
+            57.5,
+            -707.8076782226562
+          ]
+        },
+        "entrance_edge_ids": [
+          "connection:exit_ramp:grind:00",
+          "connection:exit_ramp:high:01",
+          "connection:exit_ramp:high_merge:02"
+        ],
+        "exit_edge_ids": [
+          "next:high_merge:tunnel:00",
+          "next:relay:tunnel:00"
+        ],
+        "tracks": {
+          "grind": "baseline_facts.tracks.grind",
+          "relay": "baseline_facts.tracks.relay",
+          "high": "baseline_facts.tracks.high",
+          "high_merge": "baseline_facts.tracks.high_merge"
+        }
+      },
+      "art_intent": "高低搬运线；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "窄轨托架、小轮运输设备与不同层级接收框",
+      "midground": "高低吊装门架、错位平台和笨拙输送支座",
+      "background": "仓库群拉开距离，主枢纽开始出现",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            888.7666625976562,
+            -3.5,
+            -1041.6473388671875
+          ],
+          "max": [
+            1864.5177001953125,
+            157.5,
+            -617.8076782226562
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "两层独立楼板/支座，保留中间坠落与飞跃空间，不搭连续厚楼板。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N05-support",
+          "B2-N05-functional-kit",
+          "B2-N05-near",
+          "B2-N05-mid",
+          "B2-N05-far"
+        ],
+        "landmark_refs": [],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "grind:coil:00"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "grind",
+          "relay",
+          "high",
+          "high_merge"
+        ],
+        "incoming_and_outgoing_edges": [
+          "connection:exit_ramp:grind:00",
+          "connection:exit_ramp:high:01",
+          "connection:exit_ramp:high_merge:02",
+          "next:high_merge:tunnel:00",
+          "next:relay:tunnel:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N06",
+      "title": "包裹扫描隧道",
+      "track_ids": [
+        "tunnel"
+      ],
+      "runtime_scene_ids": [
+        "tunnel"
+      ],
+      "view_ids": [
+        "B2-N06"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N06",
+        "image_sha256": "ab6c20081a6f51a033a1f8be4f7d7c1f1942a956b73a2f2a144a528ce858695d"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            1774.517578125,
+            36.5,
+            -1269.4215087890625
+          ],
+          "max": [
+            3128.64697265625,
+            51.0086555480957,
+            -913.9886474609375
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:high_merge:tunnel:00",
+          "next:relay:tunnel:00"
+        ],
+        "exit_edge_ids": [
+          "next:tunnel:cliff_turn:00"
+        ],
+        "tracks": {
+          "tunnel": "baseline_facts.tracks.tunnel"
+        }
+      },
+      "art_intent": "包裹扫描隧道；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "宽缝壳板、粗边检修口、低梁和节奏扫描灯",
+      "midground": "厚壳扫描机通道；表面略歪但贯通洞口尺寸不动",
+      "background": "出口看到退件桥区；稀疏冷暖灯代替密集闪烁",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            1684.517578125,
+            -3.5,
+            -1359.4215087890625
+          ],
+          "max": [
+            3218.64697265625,
+            151.0086555480957,
+            -823.9886474609375
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "模块地坪追随轨道；机器外壳内部空间明确，不把扫描门变窄。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N06-support",
+          "B2-N06-functional-kit",
+          "B2-N06-near",
+          "B2-N06-mid",
+          "B2-N06-far"
+        ],
+        "landmark_refs": [],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "tunnel:tunnel_block_a",
+          "tunnel:pulse:00",
+          "tunnel:tunnel_beam_a",
+          "tunnel:tunnel_soft",
+          "tunnel:tunnel_block_b",
+          "tunnel:pulse:01",
+          "tunnel:tunnel_beam_b",
+          "tunnel:tunnel_block_c"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "tunnel"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:high_merge:tunnel:00",
+          "next:relay:tunnel:00",
+          "next:tunnel:cliff_turn:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N07",
+      "title": "退件桥与回收支线",
+      "track_ids": [
+        "cliff_turn",
+        "cliff_lip",
+        "upper",
+        "rescue",
+        "rescue_merge",
+        "finish"
+      ],
+      "runtime_scene_ids": [
+        "valley"
+      ],
+      "view_ids": [
+        "B2-N07"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N07",
+        "image_sha256": "394640d1c6b3c4e073e089eb278fb7b059208da4c12d46484bec720203423ec1"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            3128.64697265625,
+            1.1536636352539062,
+            -2498.29931640625
+          ],
+          "max": [
+            3909.15283203125,
+            37.51366424560547,
+            -1269.4215087890625
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:tunnel:cliff_turn:00"
+        ],
+        "exit_edge_ids": [
+          "next:finish:landmark_return:00"
+        ],
+        "tracks": {
+          "cliff_turn": "baseline_facts.tracks.cliff_turn",
+          "cliff_lip": "baseline_facts.tracks.cliff_lip",
+          "upper": "baseline_facts.tracks.upper",
+          "rescue": "baseline_facts.tracks.rescue",
+          "rescue_merge": "baseline_facts.tracks.rescue_merge",
+          "finish": "baseline_facts.tracks.finish"
+        }
+      },
+      "art_intent": "退件桥与回收支线；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "紫色回收线、笨重桥边设备和各自支座",
+      "midground": "共享退件枢纽跨在下穿通道上方；低层回收箱/货盘只在保护区外",
+      "background": "唯一笨重退件枢纽：大箱体、小轮子、偏心烟囱/扫码头形成剪影",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            3038.64697265625,
+            -38.846336364746094,
+            -2588.29931640625
+          ],
+          "max": [
+            3999.15283203125,
+            137.51366424560547,
+            -1179.4215087890625
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "多层货台沿实际轨面分开；低层救援不是垃圾填埋区，桥下孔洞始终贯通。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N07-support",
+          "B2-N07-functional-kit",
+          "B2-N07-near",
+          "B2-N07-mid",
+          "B2-N07-far"
+        ],
+        "landmark_refs": [
+          "B2-LM01"
+        ],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "carve:cliff_turn",
+          "upper:coil:00"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "cliff_turn",
+          "cliff_lip",
+          "upper",
+          "rescue",
+          "rescue_merge",
+          "finish"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:tunnel:cliff_turn:00",
+          "next:finish:landmark_return:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N08",
+      "title": "枢纽背面与桥下",
+      "track_ids": [
+        "landmark_return",
+        "underpass",
+        "return_switchback"
+      ],
+      "runtime_scene_ids": [
+        "finale",
+        "valley"
+      ],
+      "view_ids": [
+        "B2-N08"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N08",
+        "image_sha256": "4fd5fe4946d11fd4d4fbcd2d4c1bd2ce4fbdb9864609396d556f11c7b17a427a"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            2923.75439453125,
+            1.2144203186035156,
+            -2948.317626953125
+          ],
+          "max": [
+            3949.355712890625,
+            25.153663635253906,
+            -944.9253540039062
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:finish:landmark_return:00"
+        ],
+        "exit_edge_ids": [
+          "next:return_switchback:final_approach:00"
+        ],
+        "tracks": {
+          "landmark_return": "baseline_facts.tracks.landmark_return",
+          "underpass": "baseline_facts.tracks.underpass",
+          "return_switchback": "baseline_facts.tracks.return_switchback"
+        }
+      },
+      "art_intent": "枢纽背面与桥下；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "返程扫描灯、弯道白叉和下穿导向",
+      "midground": "绕回同一枢纽的背面，露出滑稽支架/背板；下穿看到同一桥梁底部",
+      "background": "同一枢纽侧面重复出现，其他仓库只作参照",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            2833.75439453125,
+            -38.785579681396484,
+            -3038.317626953125
+          ],
+          "max": [
+            4039.355712890625,
+            125.1536636352539,
+            -854.9253540039062
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "underpass与桥墩脚之间留清楚通道；转弯楼板沿原高程下降，不用平仓库地板填补。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N08-support",
+          "B2-N08-functional-kit",
+          "B2-N08-near",
+          "B2-N08-mid",
+          "B2-N08-far"
+        ],
+        "landmark_refs": [
+          "B2-LM01"
+        ],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "landmark_return:pulse:00",
+          "carve:landmark_return",
+          "landmark_return:return_block_a",
+          "landmark_return:pulse:01",
+          "landmark_return:return_soft",
+          "landmark_return:return_block_b",
+          "underpass:pulse:00",
+          "underpass:underpass_block_a",
+          "underpass:pulse:01",
+          "underpass:underpass_block_b",
+          "return_switchback:pulse:00",
+          "carve:return_switchback",
+          "return_switchback:switch_block"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "landmark_return",
+          "underpass",
+          "return_switchback"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:finish:landmark_return:00",
+          "next:return_switchback:final_approach:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    },
+    {
+      "space_id": "N09",
+      "title": "双层派送终端",
+      "track_ids": [
+        "final_approach",
+        "final_ramp",
+        "final_receiver",
+        "final_upper_catch",
+        "final_upper",
+        "victory_run"
+      ],
+      "runtime_scene_ids": [
+        "finale"
+      ],
+      "view_ids": [
+        "B2-N09"
+      ],
+      "image_binding": {
+        "status": "image_present_pending_H2",
+        "view_id": "B2-N09",
+        "image_sha256": "8206628ab54acdbb15cad66dd7e5f59a077df8dd6ad60a5141ee69a1be4156e1"
+      },
+      "baseline_facts": {
+        "provenance": "measured_frozen_snapshot",
+        "edit_policy": "exact",
+        "track_world_bounds_m": {
+          "min": [
+            3503.567626953125,
+            -9.785579681396484,
+            -944.9253540039062
+          ],
+          "max": [
+            4384.18408203125,
+            14.214420318603516,
+            124.06442260742188
+          ]
+        },
+        "entrance_edge_ids": [
+          "next:return_switchback:final_approach:00"
+        ],
+        "exit_edge_ids": [],
+        "tracks": {
+          "final_approach": "baseline_facts.tracks.final_approach",
+          "final_ramp": "baseline_facts.tracks.final_ramp",
+          "final_receiver": "baseline_facts.tracks.final_receiver",
+          "final_upper_catch": "baseline_facts.tracks.final_upper_catch",
+          "final_upper": "baseline_facts.tracks.final_upper",
+          "victory_run": "baseline_facts.tracks.victory_run"
+        }
+      },
+      "art_intent": "双层派送终端；规模失控却仍工作的夜班物流系统：笨重外壳、小轮大箱、粗切面和歪斜夹具贯穿九区。",
+      "gameplay_invariants": "全部原轨、窗口、障碍、相机与评分保持；保护体积见 protected_contract。",
+      "visual_freedom": "路外主形、轮廓、围合、材质可设计；不得把参考灰盒每条边锁为美术轮廓。",
+      "foreground": "宽接收槽、窄上层搬运线与终点扫描框",
+      "midground": "两个夸张派送口各自有结构身份，合流后进入开敞装卸场",
+      "background": "主枢纽仍处于一致方向，远仓库降低收束画面",
+      "design_proposals": {
+        "provenance": "designed_reversible",
+        "approval": "pending_H2",
+        "planning_envelope_m": {
+          "min": [
+            3413.567626953125,
+            -49.785579681396484,
+            -1034.9253540039062
+          ],
+          "max": [
+            4474.18408203125,
+            114.21442031860352,
+            214.06442260742188
+          ]
+        },
+        "planning_envelope_meaning": "Candidate art study extent only; not land ownership or cleared volume.",
+        "local_detail_bands": {
+          "near": "route-side 0–20 m after subtracting protections",
+          "mid": "20–90 m candidate masses; modify for branches/camera",
+          "far": "outside local masses; shared skyline IDs, visibility pending"
+        },
+        "ground_water_or_floor_rule": "接收平台按实际高低层分别建；出口货堆不覆盖低位接收线或合流。",
+        "basin_ids": [],
+        "concept_drift_constraints": [
+          "Appearance images do not change actual train pose, track normal, airborne state, logical edges or receiver face.",
+          "Rolled camera screen-up is not world-up; use SupportFrame and world Y for floors, hanging props and water.",
+          "Support columns and environmental gantries never become additional playable routes."
+        ],
+        "assembly_ids": [
+          "B2-N09-support",
+          "B2-N09-functional-kit",
+          "B2-N09-near",
+          "B2-N09-mid",
+          "B2-N09-far"
+        ],
+        "landmark_refs": [
+          "B2-LM01"
+        ],
+        "functional_translation_ref": "functional_translation",
+        "relevant_action_ids": [
+          "final_approach:pulse:00",
+          "final_approach:final_block",
+          "final_ramp:coil:00",
+          "final_receiver:receiver_soft",
+          "final_receiver:pulse:00",
+          "final_receiver:receiver_block"
+        ],
+        "entrance_exit_rule": "No end-cap at a route edge; reconcile shared support, material seam, light adaptation and view into next region.",
+        "cross_view_rule": "Use the same track frames, assembly IDs and landmark transform; offscreen structure remains declared, not invented per image."
+      },
+      "protected_volumes": {
+        "contract_ref": "protected_contract",
+        "track_ids": [
+          "final_approach",
+          "final_ramp",
+          "final_receiver",
+          "final_upper_catch",
+          "final_upper",
+          "victory_run"
+        ],
+        "incoming_and_outgoing_edges": [
+          "next:return_switchback:final_approach:00"
+        ],
+        "status": "required_not_validated"
+      },
+      "unverified": [
+        "new art geometry clearance",
+        "native camera readability",
+        "actual atlas fidelity",
+        "water/floor intersections",
+        "performance",
+        "human H2 decision"
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "next:canyon_merge:rush:00",
+      "from_space_id": "N02",
+      "to_space_id": "N03",
+      "logical_edge_ref": "next:canyon_merge:rush:00",
+      "source_frame": {
+        "origin": [
+          0.0,
+          65.0,
+          0.0
+        ],
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          0.0,
+          65.0,
+          0.0
+        ],
+        "basis": [
+          [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.9999994295653227,
+            -0.001068114707813345
+          ],
+          [
+            0.0,
+            0.001068114707813345,
+            0.9999994295653227
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N02",
+        "consumer": "N03"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:drop:loop_entry:00",
+      "from_space_id": "N03",
+      "to_space_id": "N04",
+      "logical_edge_ref": "next:drop:loop_entry:00",
+      "source_frame": {
+        "origin": [
+          706.2010498046875,
+          43.0,
+          -662.5178833007812
+        ],
+        "basis": [
+          [
+            0.2588350260767832,
+            0.0,
+            0.9659215440582277
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659215440582277,
+            -0.0,
+            0.2588350260767832
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          706.20068359375,
+          43.0,
+          -662.519287109375
+        ],
+        "basis": [
+          [
+            0.2588357632249185,
+            0.0,
+            0.9659213465266072
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659213465266072,
+            -0.0,
+            0.2588357632249185
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N03",
+        "consumer": "N04"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "connection:exit_ramp:grind:00",
+      "from_space_id": "N04",
+      "to_space_id": "N05",
+      "logical_edge_ref": "connection:exit_ramp:grind:00",
+      "source_frame": {
+        "origin": [
+          933.5400390625,
+          43.0,
+          -702.7291259765625
+        ],
+        "basis": [
+          [
+            0.2588248309529369,
+            -4.3248389071381954e-10,
+            0.9659242759565492
+          ],
+          [
+            -0.014125397926834314,
+            0.9998930678122777,
+            0.0037849801004048497
+          ],
+          [
+            -0.9658209875621839,
+            -0.01462371159972309,
+            0.25879715424141725
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          978.7666625976562,
+          43.5,
+          -707.8076782226562
+        ],
+        "basis": [
+          [
+            0.25882484617961266,
+            0.0,
+            0.9659242718764757
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659242718764757,
+            -0.0,
+            0.25882484617961266
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N04",
+        "consumer": "N05"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "connection:exit_ramp:high:01",
+      "from_space_id": "N04",
+      "to_space_id": "N05",
+      "logical_edge_ref": "connection:exit_ramp:high:01",
+      "source_frame": {
+        "origin": [
+          933.5400390625,
+          43.0,
+          -702.7291259765625
+        ],
+        "basis": [
+          [
+            0.2588248309529369,
+            -4.3248389071381954e-10,
+            0.9659242759565492
+          ],
+          [
+            -0.014125397926834314,
+            0.9998930678122777,
+            0.0037849801004048497
+          ],
+          [
+            -0.9658209875621839,
+            -0.01462371159972309,
+            0.25879715424141725
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          1057.3504638671875,
+          57.5,
+          -742.9439086914062
+        ],
+        "basis": [
+          [
+            0.2588013549733339,
+            0.0,
+            0.9659305661712784
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659305661712784,
+            -0.0,
+            0.2588013549733339
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N04",
+        "consumer": "N05"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "connection:exit_ramp:high_merge:02",
+      "from_space_id": "N04",
+      "to_space_id": "N05",
+      "logical_edge_ref": "connection:exit_ramp:high_merge:02",
+      "source_frame": {
+        "origin": [
+          933.5400390625,
+          43.0,
+          -702.7291259765625
+        ],
+        "basis": [
+          [
+            0.2588248309529369,
+            -4.3248389071381954e-10,
+            0.9659242759565492
+          ],
+          [
+            -0.014125397926834314,
+            0.9998930678122777,
+            0.0037849801004048497
+          ],
+          [
+            -0.9658209875621839,
+            -0.01462371159972309,
+            0.25879715424141725
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          1308.4912109375,
+          57.5,
+          -810.2368774414062
+        ],
+        "basis": [
+          [
+            0.2671925237529028,
+            -6.2371464004847e-11,
+            0.9636431680090689
+          ],
+          [
+            0.0006350025133991297,
+            0.9999997828857025,
+            -0.00017606917934533917
+          ],
+          [
+            -0.9636429587883484,
+            0.0006589602020900422,
+            0.26719246574162536
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N04",
+        "consumer": "N05"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:finish:landmark_return:00",
+      "from_space_id": "N07",
+      "to_space_id": "N08",
+      "logical_edge_ref": "next:finish:landmark_return:00",
+      "source_frame": {
+        "origin": [
+          3909.15283203125,
+          25.153663635253906,
+          -2498.29931640625
+        ],
+        "basis": [
+          [
+            0.8659903816330343,
+            0.0,
+            0.5000606552400134
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.5000606552400134,
+            -0.0,
+            0.8659903816330343
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          3909.15283203125,
+          25.153663635253906,
+          -2498.29931640625
+        ],
+        "basis": [
+          [
+            0.8703300508740304,
+            0.0,
+            0.49246888485020823
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.49246888485020823,
+            -0.0,
+            0.8703300508740304
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N07",
+        "consumer": "N08"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:high_merge:tunnel:00",
+      "from_space_id": "N05",
+      "to_space_id": "N06",
+      "logical_edge_ref": "next:high_merge:tunnel:00",
+      "source_frame": {
+        "origin": [
+          1774.5177001953125,
+          36.5,
+          -913.9886474609375
+        ],
+        "basis": [
+          [
+            0.24897991319594467,
+            0.044785978585237585,
+            0.9674725933829356
+          ],
+          [
+            -0.010523204054236943,
+            0.9989963873308475,
+            -0.04353711378063815
+          ],
+          [
+            -0.9684514778766014,
+            0.0006589552928548334,
+            0.24920132579211784
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          1774.517578125,
+          36.5,
+          -913.9886474609375
+        ],
+        "basis": [
+          [
+            0.2521057356538906,
+            8.623087812374697e-12,
+            0.9676996941460767
+          ],
+          [
+            -0.0008998994953717063,
+            0.9999995676087418,
+            0.00023444237612616024
+          ],
+          [
+            -0.9676992757211864,
+            -0.0009299367341351408,
+            0.2521056266455821
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N05",
+        "consumer": "N06"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "connection:inverted:loop_entry:01",
+      "from_space_id": "N03",
+      "to_space_id": "N04",
+      "logical_edge_ref": "connection:inverted:loop_entry:01",
+      "source_frame": {
+        "origin": [
+          488.86731601855263,
+          65.0,
+          -604.2852190129988
+        ],
+        "basis": [
+          [
+            -0.2588154034170774,
+            8.742277915774663e-08,
+            -0.9659268020683802
+          ],
+          [
+            -2.2626356890173276e-08,
+            -0.9999999999999961,
+            -8.444400683022255e-08
+          ],
+          [
+            -0.965926802068384,
+            -5.14053556237306e-15,
+            0.2588154034170784
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          706.20068359375,
+          43.0,
+          -662.519287109375
+        ],
+        "basis": [
+          [
+            0.2588357632249185,
+            0.0,
+            0.9659213465266072
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659213465266072,
+            -0.0,
+            0.2588357632249185
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N03",
+        "consumer": "N04"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:relay:tunnel:00",
+      "from_space_id": "N05",
+      "to_space_id": "N06",
+      "logical_edge_ref": "next:relay:tunnel:00",
+      "source_frame": {
+        "origin": [
+          1774.517578125,
+          36.5,
+          -913.9886474609375
+        ],
+        "basis": [
+          [
+            0.2588350260767832,
+            0.0,
+            0.9659215440582277
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659215440582277,
+            -0.0,
+            0.2588350260767832
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          1774.517578125,
+          36.5,
+          -913.9886474609375
+        ],
+        "basis": [
+          [
+            0.2521057356538906,
+            8.623087812374697e-12,
+            0.9676996941460767
+          ],
+          [
+            -0.0008998994953717063,
+            0.9999995676087418,
+            0.00023444237612616024
+          ],
+          [
+            -0.9676992757211864,
+            -0.0009299367341351408,
+            0.2521056266455821
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N05",
+        "consumer": "N06"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:return_switchback:final_approach:00",
+      "from_space_id": "N08",
+      "to_space_id": "N09",
+      "logical_edge_ref": "next:return_switchback:final_approach:00",
+      "source_frame": {
+        "origin": [
+          3503.567626953125,
+          1.2144203186035156,
+          -944.9253540039062
+        ],
+        "basis": [
+          [
+            -0.770544393919464,
+            -0.011421230073563247,
+            0.637283996741557
+          ],
+          [
+            -0.008344022102707706,
+            0.9999345184258435,
+            0.007831740268039032
+          ],
+          [
+            -0.6373317144897434,
+            0.0007171918036573384,
+            -0.7705892364557667
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          3503.567626953125,
+          1.2144203186035156,
+          -944.9253540039062
+        ],
+        "basis": [
+          [
+            -0.771871316127138,
+            0.0,
+            0.6357787912003352
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.6357787912003352,
+            0.0,
+            -0.771871316127138
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N08",
+        "consumer": "N09"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:rollout:loop_entry:00",
+      "from_space_id": "N03",
+      "to_space_id": "N04",
+      "logical_edge_ref": "next:rollout:loop_entry:00",
+      "source_frame": {
+        "origin": [
+          706.20068359375,
+          43.0,
+          -662.519287109375
+        ],
+        "basis": [
+          [
+            0.23681781416777725,
+            1.4848274352999118e-08,
+            0.9715540761546914
+          ],
+          [
+            0.001637895257251771,
+            0.999998578946358,
+            -0.00039925479438740485
+          ],
+          [
+            -0.9715526955301613,
+            0.0016858544612002257,
+            0.23681747761264005
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          706.20068359375,
+          43.0,
+          -662.519287109375
+        ],
+        "basis": [
+          [
+            0.2588357632249185,
+            0.0,
+            0.9659213465266072
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.9659213465266072,
+            -0.0,
+            0.2588357632249185
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N03",
+        "consumer": "N04"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:station_carve:station_ramp:00",
+      "from_space_id": "N01",
+      "to_space_id": "N02",
+      "logical_edge_ref": "next:station_carve:station_ramp:00",
+      "source_frame": {
+        "origin": [
+          0.0,
+          100.0,
+          1280.0
+        ],
+        "basis": [
+          [
+            0.951024751961367,
+            0.30907747634383803,
+            -0.004799455567518722
+          ],
+          [
+            -0.30907901345961747,
+            0.9510362625826406,
+            0.00043668257619560715
+          ],
+          [
+            0.004699425033978315,
+            0.001068115053239677,
+            0.999988387199863
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          0.0,
+          100.0,
+          1280.0
+        ],
+        "basis": [
+          [
+            0.9510564980057146,
+            0.30899866943450816,
+            0.003370443414402852
+          ],
+          [
+            -0.30901705066404694,
+            0.950999926412727,
+            0.010373155830396238
+          ],
+          [
+            -8.964612537541716e-11,
+            -0.010906981740673035,
+            0.999940517105547
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N01",
+        "consumer": "N02"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    },
+    {
+      "id": "next:tunnel:cliff_turn:00",
+      "from_space_id": "N06",
+      "to_space_id": "N07",
+      "logical_edge_ref": "next:tunnel:cliff_turn:00",
+      "source_frame": {
+        "origin": [
+          3128.64697265625,
+          37.51366424560547,
+          -1269.4215087890625
+        ],
+        "basis": [
+          [
+            0.2556302274366226,
+            9.881476279952539e-06,
+            0.9667746307816818
+          ],
+          [
+            -0.0005032329824743353,
+            0.9999998658332514,
+            0.00012284154241130052
+          ],
+          [
+            -0.9667744998588172,
+            -0.0005179148922540563,
+            0.255630198112231
+          ]
+        ]
+      },
+      "target_frame": {
+        "origin": [
+          3128.64697265625,
+          37.51366424560547,
+          -1269.4215087890625
+        ],
+        "basis": [
+          [
+            0.2619635560338405,
+            8.88013812873692e-11,
+            0.9650777664572451
+          ],
+          [
+            0.0014544683854804045,
+            0.9999988643246078,
+            -0.0003948052814429909
+          ],
+          [
+            -0.9650766704422092,
+            0.0015070996963098512,
+            0.26196325852814706
+          ]
+        ]
+      },
+      "continuity_rule": "同一实例接口：轨姿/净空不变；支撑、表面接缝、材料尺度、灯光过渡与下一场景视线连续。",
+      "owners": {
+        "producer": "N06",
+        "consumer": "N07"
+      },
+      "status": "design_pending; route edges are measured, art connection is not built"
+    }
+  ],
+  "shared_landmarks": [
+    {
+      "id": "B2-LM01",
+      "world_identity": "shared-bridge-underpass-crossing-01",
+      "name": "笨重退件枢纽",
+      "owner_space_id": "N07",
+      "consumer_spaces": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "baseline_anchor": {
+        "provenance": "measured_frozen_snapshot",
+        "track_id": "cliff_turn",
+        "s_m": 85.95417080879211,
+        "transform": {
+          "origin": [
+            3204.7302708894476,
+            32.214421933415686,
+            -1307.6872064371573
+          ],
+          "basis": [
+            [
+              0.6224800277389776,
+              0.2037999667030566,
+              0.755634957263039
+            ],
+            [
+              -0.05774677485260975,
+              0.9748286593474883,
+              -0.21534714975801436
+            ],
+            [
+              -0.7805023542951064,
+              0.09041381800704842,
+              0.6185801617035456
+            ]
+          ]
+        }
+      },
+      "underpass_anchor": {
+        "provenance": "measured_frozen_snapshot",
+        "track_id": "underpass",
+        "s_m": 300.0,
+        "transform": {
+          "origin": [
+            3204.7301341613643,
+            13.214420318603516,
+            -1307.6872261862848
+          ],
+          "basis": [
+            [
+              -0.7718535292328486,
+              0.0,
+              0.6358003848778295
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6358003848778295,
+              0.0,
+              -0.7718535292328486
+            ]
+          ]
+        }
+      },
+      "measured_vertical_separation_m": 19.00000161481217,
+      "underpass_ceiling_constraint": {
+        "provenance": "measured_frozen_snapshot_with_derived_center_axis_arithmetic",
+        "height_above_lower_track_m": 18.0,
+        "ceiling_world_y_at_crossing_m": 31.214420318603516,
+        "upper_centerline_minus_lower_ceiling_m": 1.0000016148121702,
+        "meaning": "About1m at the common center axis only; upper track is banked. This does not establish a uniform slab thickness or clearance across the full crossing."
+      },
+      "baseline_relation_source": "game/scripts/spatial/spatial_full_r2_route.gd:_build_landmark_finale",
+      "design_proposal": {
+        "provenance": "designed_reversible",
+        "edit_policy": "bounded",
+        "bridge_rule": "Art bridge wraps the existing cliff_turn crossing; underpass remains the same 19 m-lower corridor.",
+        "bridge_mass_rule": "Keep bulky trusses/box girders beside or above the upper deck; no deep downstand beam in the existing lower opening. Resolve local bank/width/underpass roof geometry before choosing slab thickness.",
+        "tower_body_center_world_m": [
+          3226.348299113342,
+          71.21442193341568,
+          -1281.4448579197149
+        ],
+        "tower_body_size_m": [
+          24,
+          62,
+          22
+        ],
+        "tower_center_offset_rule": "34 m along flattened cliff_turn local right, 39 m world-up from the measured bridge anchor",
+        "allowed_revision_ranges": {
+          "lateral_offset_m": [
+            26,
+            55
+          ],
+          "height_above_bridge_m": [
+            44,
+            78
+          ],
+          "body_width_m": [
+            18,
+            32
+          ],
+          "body_depth_m": [
+            18,
+            30
+          ]
+        },
+        "clearance_status": "not_tested; bounds are proposals, not approved safe volumes",
+        "cross_view_rule": "One transform/geometry hypothesis for N07/N08/N09; do not duplicate or move the tower to force it into a shot. A forward launch camera may leave it behind/out of frame; visibility is unresolved."
+      }
+    }
+  ],
+  "instance_interface": {
+    "fields": [
+      "instance_id",
+      "asset_id",
+      "space_id",
+      "runtime_scene_id",
+      "owner",
+      "source_sha256",
+      "frame",
+      "front",
+      "pivot_m",
+      "mount_transform",
+      "port_id",
+      "bounds_m",
+      "keepouts",
+      "state_binding"
+    ],
+    "frame": "metres,+Y up,-Z forward; source normalization once; instance transforms separate",
+    "mount_rule": "module_world * port_local * asset_mount_inverse",
+    "reference_implementation": "game/themes/common/exact_modules.gd",
+    "soft_prop_rule": "Preserve original obstacle key / upright transform / hit and restore binding.",
+    "batch_rule": "Read original Pickets/ApproachMarks/etc batch transforms; old visual_slots is not exhaustive."
+  },
+  "artifacts": {
+    "plan_view": "plan.svg",
+    "section_or_volume": "sections.svg",
+    "relations": "spatial-relations.json",
+    "readme": "README.md"
+  },
+  "unverified": [
+    "atlas fidelity and H2 approval",
+    "all proposed masses/clearance",
+    "camera frusta",
+    "unrecorded airborne steering",
+    "comfort branch art review",
+    "material conversion",
+    "native performance",
+    "H3 asset production and spend"
+  ],
+  "scope": "Design draft only. No native run, Blender build, paid generation or asset production authorization."
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "785596a4878685947f7541d80a0a4efa6be500a4cf428f3410020640ef16c287",
+  "outputSha256": "388b2bf39ffa228c14b6b32fb4887614f673078ed06c301b470eb1225e56776a",
+  "labels": [
+    {
+      "labelId": "label-1b63746ef723569ef2c4",
+      "instanceId": "instance-ab05c2b25a45bf553331",
+      "text": "BOBA & JOY",
+      "textSha256": "72e550e2a8afa9d44b6a69d5624665b2f2d0719e2c0147480f4cd53aa739f9eb",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "990cf6ec48a64e391fac318cdfeb5ceeaeb15119b284030a78e7bb4272cf48d5",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "785596a4878685947f7541d80a0a4efa6be500a4cf428f3410020640ef16c287",
+        "frameHash": "c563342275a52a47d3a14895c12de90b29a25cb51f150b5bec206249695f2ba2",
+        "center": [
+          -0.10617948889630652,
+          0.046702498758960896
+        ],
+        "size": [
+          1.7113635269168581,
+          0.2873092052488156
+        ],
+        "evidencePath": "evidence/human_control_20261013/sign-faces/tea_shop-BOBA___JOY.png",
+        "evidenceHash": "fb9c093d731fd650fcf8dbd9d7d51eee49107752292383954c8f006160904b04",
+        "pixelBounds": [
+          166,
+          304,
+          440,
+          350
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 1881,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "43cdf6da625247d4852618a832b8ea886a018065f1f7d43eee33fdb97e712c0c",
+      "outputImageHash": "40b039b033353969f3008dd52cfd35588002e744104c4fd66f6b6295df838738",
+      "changedTexels": 1881,
+      "maskTexels": 1881,
+      "inkColor": [
+        37,
+        47,
+        51
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "a871c1d04d7057ad1200b21b14fc1ebe6e9410696d05a6c3a1e23a61c0e282d0",
+  "preservedBinaryPrefixBytes": 6046764,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

@@ -1,0 +1,269 @@
+{
+  "schema": 1,
+  "images": [
+    {
+      "style": "amusement",
+      "path": "process/amusement/concept.png",
+      "sha256": "ec80bdecac94bb9e788c185e26eb676cf26b37c3188afde140d98503b9dc379a",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "amusement",
+      "path": "process/amusement/stage-history.png",
+      "sha256": "d07e9cbacd0504e5bf020bf277dd451bd4d93e7e3a3ed369d34f463d3d51543f",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "amusement",
+      "path": "process/amusement/native-current.png",
+      "sha256": "57b56de0d2c56f4a9ad8ce45be7f1100f095942b0882e5728c4970e717258b22",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "snack",
+      "path": "process/snack/concept.png",
+      "sha256": "f30530a68181da1f27fc2935b77bf591179820a83383cdf92b1f6268da4f1021",
+      "identity": "historical selected style/asset board; not a full scene concept or gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "snack",
+      "path": "process/snack/stage-history.png",
+      "sha256": "bbc2766f706428b360e37be4a2785d0afdf49d00692e87dfd3e26a8f5483fb37",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "snack",
+      "path": "process/snack/native-current.png",
+      "sha256": "7c16f4283903a9c7e8cf358d6aabc49b096be0a3adb40ce8ffdb7393305e13e2",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "mycelium",
+      "path": "process/mycelium/concept.png",
+      "sha256": "3bfb61836c2ba6c9ef5ac438d1ec553d8af080bec0d1a2a8e978b182b3ca0c96",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "mycelium",
+      "path": "process/mycelium/stage-history.png",
+      "sha256": "ef8f1f7f8588cb1f4a9aad8d5457f5fdafa26ff210b456f17a996e16ebd633ac",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "mycelium",
+      "path": "process/mycelium/native-current.png",
+      "sha256": "0f051c010e7bd078deb10a6c07a5b5849f5d5957446ff24969e98cbb8453163c",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "lunar",
+      "path": "process/lunar/concept.png",
+      "sha256": "9a01d7fda8768d3c973bf67e4eee31443c1d3eae5bf8f6865412c2b500f0fbf8",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "lunar",
+      "path": "process/lunar/stage-history.png",
+      "sha256": "a5448eb8d3a95380db615d70a6ac0fe01a4dfec73deac36140c114045a2ac66c",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "lunar",
+      "path": "process/lunar/native-current.png",
+      "sha256": "28b42555d3e9552e5e8a7804f73ceb2cd7f3ff29e423683bc3efb6f5c7615117",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "coral",
+      "path": "process/coral/concept.png",
+      "sha256": "dcafcfe09f46c25151cc5d9a29b3f4acf378d0665f576a8d6b077db36063c1ab",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "coral",
+      "path": "process/coral/stage-history.png",
+      "sha256": "37a7ac9ed09c802f7eeb731e3ae09c2f218ca7ce59700ecf14d69314c2b77560",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "coral",
+      "path": "process/coral/native-current.png",
+      "sha256": "517d4b156a3216b81aa73ca6dfb8fabfb474aaea5d7186fd4cac16ffdcef224a",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "saffron",
+      "path": "process/saffron/concept.png",
+      "sha256": "8c63783504da601d6797e884ec99fd27e72c2f780e3b2341ab865217ac5a3785",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "saffron",
+      "path": "process/saffron/stage-history.png",
+      "sha256": "c9d3031bd9233466f657d15438958c81a81e107369f3d905dcdf1d89f566854b",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "saffron",
+      "path": "process/saffron/native-current.png",
+      "sha256": "110e509d24337e1a517843ff0a7c72b4e4d0f0754c82cc977b67abb409ba5575",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "papercraft",
+      "path": "process/papercraft/concept.png",
+      "sha256": "2516be0769dc8ae72ae46a2d25c3dfb50a325e9805d09092e5adfac6f5588880",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "papercraft",
+      "path": "process/papercraft/stage-history.png",
+      "sha256": "cc7f447b107b4d82751760106e525b2d975ee5cf2db0e8f024aa46a679385641",
+      "identity": "historical Godot native assembly sample; not a greybox",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "papercraft",
+      "path": "process/papercraft/native-current.png",
+      "sha256": "dc05fd10ff92cda201086fec7d4b21ae318d9cd0007554b574d13247d10ee10a",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "comic",
+      "path": "process/comic/concept.png",
+      "sha256": "569c9a81e4173cfe8f15abc42a659b1c04b43fd0a2ff43f89cff17027fe4a6c5",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "comic",
+      "path": "process/comic/stage-history.png",
+      "sha256": "6779f76adfa356726525d00876cdf75497cc86389d4a48f562a19d4ec557d30e",
+      "identity": "reference versus native model preview comparison; not gameplay and not a coarse scene",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "comic",
+      "path": "process/comic/native-current.png",
+      "sha256": "1f40bcb9ddbb2dfaf9112f777fa9074c7882eeadb145436595af973a8cf5970d",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "enamel",
+      "path": "process/enamel/concept.png",
+      "sha256": "654053b96dc3d2ed2e6e3eff2f3b0defcbfdc7354299f545d3d2ca65fe119279",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "enamel",
+      "path": "process/enamel/stage-history.png",
+      "sha256": "35129b960730663c3a6f8fcec5cb41ffb13d331cb80ec51cf23d8c28dd010426",
+      "identity": "reference versus native model preview comparison; not gameplay and not a coarse scene",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "enamel",
+      "path": "process/enamel/native-current.png",
+      "sha256": "5aba498f90474bef7204dd0782055bf73735ac2c080be9ebf40189658c908c09",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "ceramic",
+      "path": "process/ceramic/concept.png",
+      "sha256": "f0042441f541120eb9bbdb9848eb0891fe56fe042d93f1d37477fee87e13c7bb",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "ceramic",
+      "path": "process/ceramic/stage-history.png",
+      "sha256": "46f67c66f5de04727acf2369fbdcab7094cfe8df292aff0ecdd4bbe700282b9b",
+      "identity": "native parameter-condition capture",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "ceramic",
+      "path": "process/ceramic/native-current.png",
+      "sha256": "230b40785359674e2ef91dbb85a2c6f6fc5785a4642c7481726096108ccc0015",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "orbital",
+      "path": "process/orbital/concept.png",
+      "sha256": "f3c46a4b764b25dec37f99982e29fba802a0c264fde807f72a0add3db099a08f",
+      "identity": "historical selected art-direction concept; not gameplay",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "orbital",
+      "path": "process/orbital/stage-history.png",
+      "sha256": "4dffff7406e9b3fefee44d8888beee91cb6f3c3ba32f41d4c65b143e8388890c",
+      "identity": "native parameter-condition capture",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    },
+    {
+      "style": "orbital",
+      "path": "process/orbital/native-current.png",
+      "sha256": "36668873e34b61e0b7663fe28f743a6238ac7e0fc9015d8ca6c576368d0f7c3d",
+      "identity": "historical native Godot frame from selected latest build",
+      "pixels_reviewed": true,
+      "review_scope": "image identity and stage labeling; no new art or gameplay acceptance"
+    }
+  ]
+}

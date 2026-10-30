@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "native_entries": [
+    {
+      "style_id": "clay",
+      "native_launch_passed": true,
+      "native_renderer": "Vulkan / Forward+",
+      "screenshot": "styles/clay/thumbnail.jpg",
+      "screenshot_sha256": "cccd6eb01d0c042316493cefe1ddc775622cd4fb719ce4c02e8c1722de2aad41",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "source_unchanged_before_after": true,
+      "script_or_shader_errors": false,
+      "application_name": "Greybox Art Showcase - Train Parkour",
+      "graceful_capture_process_shutdown": true,
+      "scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+    },
+    {
+      "style_id": "odd-logistics",
+      "native_launch_passed": true,
+      "native_renderer": "Vulkan / Forward+",
+      "screenshot": "styles/odd-logistics/thumbnail.jpg",
+      "screenshot_sha256": "57fb9f4dd16ab565c27b32b8e9163420dedf241bad2b54a639096f7df0256183",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "source_unchanged_before_after": true,
+      "script_or_shader_errors": false,
+      "application_name": "Greybox Art Showcase - Train Parkour",
+      "graceful_capture_process_shutdown": true,
+      "scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+    },
+    {
+      "style_id": "halloween-comic",
+      "native_launch_passed": true,
+      "native_renderer": "Vulkan / Forward+",
+      "screenshot": "styles/halloween-comic/thumbnail.jpg",
+      "screenshot_sha256": "7cae742a20cf1dda7512fa24b90390e8f9d71061cdbd9c358d7f98eee3260fbb",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "source_unchanged_before_after": true,
+      "script_or_shader_errors": false,
+      "application_name": "Greybox Art Showcase - Train Parkour",
+      "graceful_capture_process_shutdown": true,
+      "scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+    },
+    {
+      "style_id": "pixel-v2",
+      "native_launch_passed": true,
+      "native_renderer": "Vulkan / Forward+",
+      "screenshot": "styles/pixel-v2/thumbnail.jpg",
+      "screenshot_sha256": "625c2dab01f6003aeb9eccc327d5c68719d2b2e7e45de025e666ad67f6d45883",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "source_unchanged_before_after": true,
+      "script_or_shader_errors": false,
+      "application_name": "Greybox Art Showcase - Train Parkour",
+      "graceful_capture_process_shutdown": true,
+      "scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+    },
+    {
+      "style_id": "paper-atlas",
+      "native_launch_passed": true,
+      "native_renderer": "Vulkan / Forward+",
+      "screenshot": "styles/paper-atlas/thumbnail.jpg",
+      "screenshot_sha256": "0f5dc8fe86c440ae92dc8da46afe22274d128d202e37e2dda144963f10123463",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "source_unchanged_before_after": true,
+      "script_or_shader_errors": false,
+      "application_name": "Greybox Art Showcase - Train Parkour - Paper Atlas",
+      "graceful_capture_process_shutdown": false,
+      "scope": "Native static launch frame; no human play, concept-fidelity or performance claim.",
+      "limit": "The screenshot was saved correctly; the capture process was terminated after 12 s waiting for shutdown. Normal exit cleanup was not verified."
+    },
+    {
+      "style_id": "greybox",
+      "native_launch_passed": true,
+      "native_renderer": "Vulkan / Forward+",
+      "screenshot": "styles/greybox/thumbnail.jpg",
+      "screenshot_sha256": "90a4997bae754a1962c82fe79df50a5d530ff0005449bfdc4fef6e133087e463",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "source_unchanged_before_after": true,
+      "script_or_shader_errors": false,
+      "application_name": "Greybox Art Showcase - Train Parkour",
+      "graceful_capture_process_shutdown": true,
+      "scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+    }
+  ],
+  "headless_h07_contract": {
+    "file": "h07-integration.json",
+    "passed": true,
+    "tracks_visited": 37,
+    "declared_regions": 9,
+    "six_branches_finished": true,
+    "source_unchanged_before_after": true,
+    "scope": "Headless assembly and six synthetic-input gameplay branches; no rendering/performance/visual/human acceptance claim.",
+    "post_contract_adapter_change": "Isolated Showcase application/save names only; final native entries above use those names."
+  },
+  "imports": {
+    "main": "passed; no script errors",
+    "paper": "passed; no script errors"
+  },
+  "shader_include_dependency_repair": "The initial source closure omitted two shader include files; the missing-include frames were rejected. Includes were staged and affected native entries rerun successfully.",
+  "performance_acceptance": false,
+  "human_final_acceptance": false,
+  "post_native_metadata_cleanup": {
+    "files": [
+      "styles/paper-atlas/engine/game/themes/paper_atlas/canyon_art_instances.json",
+      "shared/engine-main/game/themes/pixel_skyline_v2/presentation.gd"
+    ],
+    "change": "Removed provider task metadata only; placement, geometry, material and gameplay data unchanged. Native frames precede this metadata-only cleanup."
+  }
+}

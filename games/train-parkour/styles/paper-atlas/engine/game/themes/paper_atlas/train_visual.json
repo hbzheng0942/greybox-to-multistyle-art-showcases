@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "asset_id": "TRAIN_HERO",
+  "state": "ready",
+  "runtime_path": "game/themes/paper_atlas/assets/lux3d/TRAIN_HERO.glb",
+  "runtime_sha256": "e6ae09054861ff57b6cfb212e674b7c0d2475a274991e72d76c2029633a0eafb",
+  "source_sha256": "6eccf3cc5d5ceb274d1e61468a182b382f6589d5552d387d7da3db5bca42b8e7",
+  "fit": {
+    "source_oriented_size_m": [
+      5.361133098602295,
+      6.374538421630859,
+      25.0
+    ],
+    "uniform_scale": 0.4783200015258789,
+    "translation_m": [
+      -0.0,
+      1.6855345964431763,
+      -0.0
+    ],
+    "yaw_degrees": 90.0,
+    "source_foot_y_m": 0.161,
+    "target_limit_min": [
+      -1.2999999523162842,
+      0.019999999552965164,
+      -5.980000019073486
+    ],
+    "target_limit_max": [
+      1.2999999523162842,
+      3.2799999713897705,
+      5.980000019073486
+    ],
+    "axis_fill_ratio_xyz": [
+      0.9862835715243156,
+      0.9352973118039682,
+      0.9998327759202658
+    ],
+    "proportions_accepted": true,
+    "source_vertex_count": 143784,
+    "vertex_count": 144832,
+    "nonuniform_scale": false,
+    "wheel_adapter": {
+      "spec_path": "art/themes/paper_atlas/planning/train-wheel-contact.json",
+      "spec_sha256": "0b7aa4530cf89dc1872936923fc7c239b2151491b8ed5e078d72974bb4d69d4a",
+      "source_outer_wheels_preserved": true,
+      "added_inner_treads": 8,
+      "contact": {
+        "schema_version": 1,
+        "asset_id": "TRAIN_HERO",
+        "measurement": "G1 actual uniform-fit underside: four original wheel pairs centered at these longitudinal positions; source outer faces remain intact.",
+        "axle_centers_z_m": [
+          -4.56,
+          -2.98,
+          3.0,
+          4.57
+        ],
+        "rail_head_y_m": 0.16,
+        "ordinary_rail_centers_x_m": [
+          -0.72,
+          0.72
+        ],
+        "radius_m": 0.3,
+        "ring_x_radius_fraction": [
+          [
+            0.62,
+            0.9
+          ],
+          [
+            0.65,
+            1.0
+          ],
+          [
+            0.99,
+            1.0
+          ],
+          [
+            1.04,
+            0.9
+          ]
+        ],
+        "source_wheel_overlap_lateral_m": [
+          0.88,
+          1.04
+        ],
+        "grind_gauge_note": "Frozen grind rails are at x=+-0.26 m; the vehicle uses its unchanged gameplay grind behavior, not ordinary wheel-to-rail contact."
+      },
+      "scope": "Ordinary rail gauge; grind rail remains its frozen narrower gauge, not wheel-running contact."
+    },
+    "underframe": {
+      "spec_path": "art/themes/paper_atlas/planning/train-underframe.json",
+      "spec_sha256": "053e49f7b02d5e4ae59d0309c26761695f421968014fda5f69387bf6eaf9a6eb",
+      "measurement": {
+        "closed_components": 23,
+        "source_mount_samples": 81,
+        "seats": [
+          {
+            "part": "longitudinal_beam_-0.79",
+            "source_floor_min_y": 0.37058818340301514,
+            "source_floor_max_y": 0.3707035183906555,
+            "top_y": 0.39570351839065554,
+            "bottom_y": 0.26558818340301515,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "longitudinal_beam_0.79",
+            "source_floor_min_y": 0.370489239692688,
+            "source_floor_max_y": 0.3705219626426697,
+            "top_y": 0.3955219626426697,
+            "bottom_y": 0.265489239692688,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "cross_member_-2.12",
+            "source_floor_min_y": 0.3705177307128906,
+            "source_floor_max_y": 0.3707035183906555,
+            "top_y": 0.39570351839065554,
+            "bottom_y": 0.26551773071289064,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "cross_member_-0.65",
+            "source_floor_min_y": 0.3705218434333801,
+            "source_floor_max_y": 0.37070339918136597,
+            "top_y": 0.395703399181366,
+            "bottom_y": 0.26552184343338014,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "cross_member_0.7",
+            "source_floor_min_y": 0.3705218434333801,
+            "source_floor_max_y": 0.37070345878601074,
+            "top_y": 0.39570345878601076,
+            "bottom_y": 0.26552184343338014,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "cross_member_2.12",
+            "source_floor_min_y": 0.37052178382873535,
+            "source_floor_max_y": 0.37070268392562866,
+            "top_y": 0.3957026839256287,
+            "bottom_y": 0.26552178382873537,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "equipment_0",
+            "source_floor_min_y": 0.3705218434333801,
+            "source_floor_max_y": 0.3705322742462158,
+            "top_y": 0.39553227424621584,
+            "bottom_y": 0.24052184343338012,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "equipment_1",
+            "source_floor_min_y": 0.37052178382873535,
+            "source_floor_max_y": 0.3705219626426697,
+            "top_y": 0.3955219626426697,
+            "bottom_y": 0.25052178382873536,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          },
+          {
+            "part": "equipment_2",
+            "source_floor_min_y": 0.3705218434333801,
+            "source_floor_max_y": 0.3705548644065857,
+            "top_y": 0.3955548644065857,
+            "bottom_y": 0.27052184343338015,
+            "sample_count": 9,
+            "minimum_embed_m": 0.025000000000000022
+          }
+        ],
+        "scope": "Central non-bogie region only, all cases/beams seated into actual source belly; pipes intersect cross members. Source upper/side body, original wheels and inner treads unchanged."
+      }
+    },
+    "normalized_min": [
+      -1.2821686267852783,
+      0.1599999964237213,
+      -5.979000091552734
+    ],
+    "normalized_max": [
+      1.2821686267852783,
+      3.210069179534912,
+      5.979000091552734
+    ]
+  },
+  "note": "Geometry fit only. Native front/back/underside/material and all-route review still required."
+}

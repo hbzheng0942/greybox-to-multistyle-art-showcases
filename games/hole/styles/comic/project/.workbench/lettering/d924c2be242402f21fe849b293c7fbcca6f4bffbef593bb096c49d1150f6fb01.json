@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "e82c77b1f2d303035ed5aff4e12a5c173bbe5dd85299cb2da399fb3be70fcd50",
+  "outputSha256": "ca759eab00ad77c6373b6b025fbc2d4c5cc42364d069ac556485559f15f4ad92",
+  "labels": [
+    {
+      "labelId": "label-956524f2cd4355a4c724",
+      "instanceId": "instance-2251f33be540bd905a8e",
+      "text": "杂货",
+      "textSha256": "92d70c70a01be21793b28d7f186be8326d3923726c9852f7031103d78e0b140d",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "30fac8addd409861e114e33af6791b64f5c1a14082e36661975f2215b6d80f92",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "e82c77b1f2d303035ed5aff4e12a5c173bbe5dd85299cb2da399fb3be70fcd50",
+        "frameHash": "1ac450edb6bbad068a84648b52893a73cdd11ab78fdf5a2625694ec0cb8431c9",
+        "center": [
+          0.014565943027366584,
+          -0.3792706802384585
+        ],
+        "size": [
+          0.8286550179843254,
+          0.15563571403766518
+        ],
+        "evidencePath": "evidence/assembly_repair_20261013/comic-sign-faces/general_shop-__.png",
+        "evidenceHash": "574649eedc54d443575c273909142f85102c8b9bef5364735bdfbc2de643c58e",
+        "pixelBounds": [
+          224,
+          263,
+          421,
+          300
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 618,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "b313b173dfac6b7948f8ae73fc0432c6b8c2341c936368f59ff4bdc0edc9c215",
+      "outputImageHash": "4864e6f9c66b590aadffc353efe3d79164e6468bfa34d21162845fbe8ee9b070",
+      "changedTexels": 618,
+      "maskTexels": 618,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "a3fdf18683940c126fa49bb398f916e57d7ebb8a64a3957c6b9935444b32f922",
+  "preservedBinaryPrefixBytes": 9319252,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

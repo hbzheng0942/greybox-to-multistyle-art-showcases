@@ -1,0 +1,7747 @@
+{
+  "bones": [
+    {
+      "body_origin_reach_threshold": 1.41000001430511,
+      "box_collision_size": [
+        0.340000003576279,
+        1.72000002861023,
+        0.340000003576279
+      ],
+      "frozen": true,
+      "id": "back_leg_l",
+      "mass": 3.20000004768372,
+      "supports": [],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -1.25,
+          1.71000003814697,
+          -2.75
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.41000001430511,
+      "box_collision_size": [
+        0.340000003576279,
+        1.72000002861023,
+        0.340000003576279
+      ],
+      "frozen": true,
+      "id": "back_leg_r",
+      "mass": 3.20000004768372,
+      "supports": [],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -1.25,
+          1.71000003814697,
+          -1.65000009536743
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.41000001430511,
+      "box_collision_size": [
+        0.340000003576279,
+        1.72000002861023,
+        0.340000003576279
+      ],
+      "frozen": true,
+      "id": "front_leg_l",
+      "mass": 3.20000004768372,
+      "supports": [],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          1.25,
+          1.71000003814697,
+          -2.75
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.41000001430511,
+      "box_collision_size": [
+        0.340000003576279,
+        1.72000002861023,
+        0.340000003576279
+      ],
+      "frozen": true,
+      "id": "front_leg_r",
+      "mass": 3.20000004768372,
+      "supports": [],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          1.25,
+          1.71000003814697,
+          -1.65000009536743
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.09000002145767,
+      "box_collision_size": [
+        0.899999976158142,
+        0.639999985694885,
+        1.08000004291534
+      ],
+      "frozen": true,
+      "id": "pelvis",
+      "mass": 6.0,
+      "supports": [
+        "back_leg_l",
+        "back_leg_r"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -1.25,
+          2.80000019073486,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.06999998092651,
+      "box_collision_size": [
+        0.759999990463257,
+        0.740000009536743,
+        1.03999996185303
+      ],
+      "frozen": true,
+      "id": "chest",
+      "mass": 6.0,
+      "supports": [
+        "front_leg_l",
+        "front_leg_r"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          1.25,
+          2.90000009536743,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 2.09999995231628,
+      "box_collision_size": [
+        3.09999990463257,
+        0.189999997615814,
+        0.219999998807907
+      ],
+      "frozen": true,
+      "id": "spine",
+      "mass": 2.40000009536743,
+      "supports": [
+        "pelvis",
+        "chest"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          3.19000005722046,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.72499995231628,
+      "box_collision_size": [
+        2.34999990463257,
+        1.04999995231628,
+        1.01999998092651
+      ],
+      "frozen": true,
+      "id": "ribs",
+      "mass": 4.0,
+      "supports": [
+        "spine"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.300000011920929,
+          2.59000015258789,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 0.860000002384186,
+      "box_collision_size": [
+        0.620000004768372,
+        0.5,
+        0.519999980926514
+      ],
+      "frozen": true,
+      "id": "neck",
+      "mass": 1.39999997615814,
+      "supports": [
+        "spine"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          1.60000002384186,
+          3.23000001907349,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.05,
+      "box_collision_size": [
+        1.0,
+        0.620000004768372,
+        0.600000023841858
+      ],
+      "frozen": true,
+      "id": "head",
+      "mass": 2.59999990463257,
+      "supports": [
+        "neck"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          2.20000004768372,
+          3.28999996185303,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.01000000834465,
+      "box_collision_size": [
+        0.920000016689301,
+        0.219999998807907,
+        0.519999980926514
+      ],
+      "frozen": true,
+      "id": "jaw",
+      "mass": 1.20000004768372,
+      "supports": [
+        "head"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          2.38000011444092,
+          2.90000009536743,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "body_origin_reach_threshold": 1.32499997615814,
+      "box_collision_size": [
+        1.54999995231628,
+        0.340000003576279,
+        0.239999994635582
+      ],
+      "frozen": true,
+      "id": "tail",
+      "mass": 1.79999995231628,
+      "supports": [
+        "pelvis"
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.27999997138977,
+          2.84999990463257,
+          -2.20000004768372
+        ]
+      }
+    }
+  ],
+  "captures": [
+    {
+      "camera_target": [
+        0.0,
+        1.1002653837204,
+        2.25
+      ],
+      "camera_world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.955314993858337,
+            -0.295589715242386
+          ],
+          [
+            0.0,
+            0.295589715242386,
+            0.955314993858337
+          ]
+        ],
+        "origin": [
+          0.0,
+          2.46000862121582,
+          6.64454793930054
+        ]
+      },
+      "damage_at_capture": 0,
+      "dog_position": [
+        0.0,
+        0.0502603948116302,
+        2.59999990463257
+      ],
+      "engine_physics_frames": 60,
+      "fov": 66.0,
+      "height": 720,
+      "hud_visible": false,
+      "id": "hall-gameplay",
+      "mode": "follow",
+      "path": "private-source-reference-omitted",
+      "purpose": "Normal initial gameplay camera; hall, central exhibit and player",
+      "save_error": 0,
+      "sha256": "6e257bf588f3fde95c86a24910b817a28255baa68221c7716d9335987198fe05",
+      "source_hashes_at_capture": {
+        "capture_script": "4464e3ddd8dc9dac25f0e98a9d7d1c02ba3bcecb76bdfb188a0869409d7f339a",
+        "res://game/dog_game.gd": "d41449b588144c399b0a5bf34448a203374410934d492692793b6b74167c6c9d",
+        "res://game/dog_game.tscn": "6cad0fabae6a623aebd1778a544af32c0fe926dfd474673567d8ae1513ee4b68",
+        "res://game/museum_builder.gd": "1eba69ee9ad4155f2c4c00b176a7af46875c3fcb8f8c20aa842f93844e368a0b",
+        "res://game/prop_specs.gd": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f",
+        "res://game/visual_catalog.gd": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739",
+        "res://project.godot": "0565f11ce30f7e61da7a8b9ca920e7bd6f93a726ed2afd2f67e5f76efdb4b6cb"
+      },
+      "visitor_route_motion_paused": true,
+      "width": 1280,
+      "world_geometry_or_props_repositioned": false,
+      "visually_inspected": true
+    },
+    {
+      "camera_target": [
+        -9.95000076293945,
+        1.10026443004608,
+        1.5
+      ],
+      "camera_world_transform": {
+        "basis_columns": [
+          [
+            -4.37113882867379e-08,
+            0.0,
+            -1.0
+          ],
+          [
+            -0.237766593694687,
+            0.971322298049927,
+            1.03931077077846e-08
+          ],
+          [
+            0.971322298049927,
+            0.237766593694687,
+            -4.24578452395963e-08
+          ]
+        ],
+        "origin": [
+          -5.67611360549927,
+          2.14645433425903,
+          1.5
+        ]
+      },
+      "damage_at_capture": 0,
+      "dog_position": [
+        -9.60000038146973,
+        0.0502603948116302,
+        1.5
+      ],
+      "engine_physics_frames": 120,
+      "fov": 66.0,
+      "height": 720,
+      "hud_visible": false,
+      "id": "porcelain-transition",
+      "mode": "follow",
+      "path": "private-source-reference-omitted",
+      "purpose": "Native follow camera across hall-to-porcelain doorway",
+      "save_error": 0,
+      "sha256": "7b7c5294ce81c87e9dc67fd27d671323e45ef75e8caacf1e0fd75f6de5bbb951",
+      "source_hashes_at_capture": {
+        "capture_script": "4464e3ddd8dc9dac25f0e98a9d7d1c02ba3bcecb76bdfb188a0869409d7f339a",
+        "res://game/dog_game.gd": "d41449b588144c399b0a5bf34448a203374410934d492692793b6b74167c6c9d",
+        "res://game/dog_game.tscn": "6cad0fabae6a623aebd1778a544af32c0fe926dfd474673567d8ae1513ee4b68",
+        "res://game/museum_builder.gd": "1eba69ee9ad4155f2c4c00b176a7af46875c3fcb8f8c20aa842f93844e368a0b",
+        "res://game/prop_specs.gd": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f",
+        "res://game/visual_catalog.gd": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739",
+        "res://project.godot": "0565f11ce30f7e61da7a8b9ca920e7bd6f93a726ed2afd2f67e5f76efdb4b6cb"
+      },
+      "visitor_route_motion_paused": true,
+      "width": 1280,
+      "world_geometry_or_props_repositioned": false,
+      "visually_inspected": true
+    },
+    {
+      "camera_target": [
+        0.0,
+        1.54999995231628,
+        2.25
+      ],
+      "camera_world_transform": {
+        "basis_columns": [
+          [
+            0.73105525970459,
+            0.0,
+            0.682318270206451
+          ],
+          [
+            0.153887450695038,
+            0.974234819412231,
+            -0.164879411458969
+          ],
+          [
+            -0.664738237857819,
+            0.225536182522774,
+            0.712219476699829
+          ]
+        ],
+        "origin": [
+          9.0,
+          3.20000004768372,
+          4.80000019073486
+        ]
+      },
+      "damage_at_capture": 0,
+      "dog_position": [
+        0.0,
+        0.0502603948116302,
+        2.59999990463257
+      ],
+      "engine_physics_frames": 180,
+      "fov": 68.0,
+      "height": 720,
+      "hud_visible": false,
+      "id": "taxidermy-overview",
+      "mode": "fixed",
+      "path": "private-source-reference-omitted",
+      "purpose": "Taxidermy platforms, specimen side tables and bone counter",
+      "save_error": 0,
+      "sha256": "b7617d896a18972a4435e71eaa64d532196fa55c565acb8f7fe5c2a3baa4af1d",
+      "source_hashes_at_capture": {
+        "capture_script": "4464e3ddd8dc9dac25f0e98a9d7d1c02ba3bcecb76bdfb188a0869409d7f339a",
+        "res://game/dog_game.gd": "d41449b588144c399b0a5bf34448a203374410934d492692793b6b74167c6c9d",
+        "res://game/dog_game.tscn": "6cad0fabae6a623aebd1778a544af32c0fe926dfd474673567d8ae1513ee4b68",
+        "res://game/museum_builder.gd": "1eba69ee9ad4155f2c4c00b176a7af46875c3fcb8f8c20aa842f93844e368a0b",
+        "res://game/prop_specs.gd": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f",
+        "res://game/visual_catalog.gd": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739",
+        "res://project.godot": "0565f11ce30f7e61da7a8b9ca920e7bd6f93a726ed2afd2f67e5f76efdb4b6cb"
+      },
+      "visitor_route_motion_paused": true,
+      "width": 1280,
+      "world_geometry_or_props_repositioned": false,
+      "visually_inspected": true
+    },
+    {
+      "camera_target": [
+        0.0,
+        1.54999995231628,
+        2.25
+      ],
+      "camera_world_transform": {
+        "basis_columns": [
+          [
+            0.948683321475983,
+            0.0,
+            0.31622776389122
+          ],
+          [
+            0.128015488386154,
+            0.914396166801453,
+            -0.384046465158463
+          ],
+          [
+            -0.28915748000145,
+            0.404820531606674,
+            0.867472410202026
+          ]
+        ],
+        "origin": [
+          -1.39999997615814,
+          3.40000009536743,
+          -6.80000019073486
+        ]
+      },
+      "damage_at_capture": 0,
+      "dog_position": [
+        0.0,
+        0.0502603948116302,
+        2.59999990463257
+      ],
+      "engine_physics_frames": 240,
+      "fov": 68.0,
+      "height": 720,
+      "hud_visible": false,
+      "id": "kids-overview",
+      "mode": "fixed",
+      "path": "private-source-reference-omitted",
+      "purpose": "Kids craft table, ball pit, button table and toy shelf",
+      "save_error": 0,
+      "sha256": "78af21ebd3941cb1deb5e51e46ff003febdd61c3f62371551b1771fd7e2bca46",
+      "source_hashes_at_capture": {
+        "capture_script": "4464e3ddd8dc9dac25f0e98a9d7d1c02ba3bcecb76bdfb188a0869409d7f339a",
+        "res://game/dog_game.gd": "d41449b588144c399b0a5bf34448a203374410934d492692793b6b74167c6c9d",
+        "res://game/dog_game.tscn": "6cad0fabae6a623aebd1778a544af32c0fe926dfd474673567d8ae1513ee4b68",
+        "res://game/museum_builder.gd": "1eba69ee9ad4155f2c4c00b176a7af46875c3fcb8f8c20aa842f93844e368a0b",
+        "res://game/prop_specs.gd": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f",
+        "res://game/visual_catalog.gd": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739",
+        "res://project.godot": "0565f11ce30f7e61da7a8b9ca920e7bd6f93a726ed2afd2f67e5f76efdb4b6cb"
+      },
+      "visitor_route_motion_paused": true,
+      "width": 1280,
+      "world_geometry_or_props_repositioned": false,
+      "visually_inspected": true
+    }
+  ],
+  "case_id": "museum-dog",
+  "counts": {
+    "dog": 1,
+    "ordinary_exhibits": 149,
+    "ordinary_exhibits_by_kind": {
+      "ball": 12,
+      "bone": 6,
+      "brochure": 1,
+      "bust": 2,
+      "button": 4,
+      "craft": 28,
+      "plate": 48,
+      "rock": 10,
+      "souvenir": 16,
+      "specimen": 3,
+      "vase": 18,
+      "vase_big": 1
+    },
+    "ordinary_exhibits_by_region": {
+      "hall": 28,
+      "kids": 44,
+      "porcelain": 67,
+      "taxidermy": 9,
+      "vestibule": 1
+    },
+    "props_total": 161,
+    "skeleton_bodies": 12,
+    "visitor_rigid_parts": 30,
+    "visitors": 10,
+    "visitors_by_room": {
+      "hall": 4,
+      "porcelain": 2,
+      "taxidermy": 2,
+      "kids": 2
+    },
+    "static_collision_boxes": 116
+  },
+  "dog": {
+    "capsule_height": 0.699999988079071,
+    "capsule_local_transform": {
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0.0,
+        0.349999994039536,
+        0.0
+      ]
+    },
+    "capsule_radius": 0.270000010728836,
+    "collision_layer": 8,
+    "collision_mask": 7,
+    "initial_transform": {
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0.0,
+        0.5,
+        2.59999990463257
+      ]
+    },
+    "mouth_local_transform": {
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0.0,
+        0.449999988079071,
+        -0.479999989271164
+      ]
+    }
+  },
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "evidence_class": {
+    "derived": "Analytical calculations only, not player route or metric image verification",
+    "runtime_snapshot": "Exact initialized native transforms/counts",
+    "source_dimensions": "Read from builder constants and collision construction"
+  },
+  "exhibits": [
+    {
+      "id": "hall/prop_bust/4ee6d55fdb42",
+      "kind": "bust",
+      "region": "hall",
+      "spawn_center": [
+        -6.19999980926514,
+        1.52199995517731,
+        -2.0
+      ],
+      "value": 2600
+    },
+    {
+      "id": "hall/prop_bust/20cab38f32cb",
+      "kind": "bust",
+      "region": "hall",
+      "spawn_center": [
+        6.19999980926514,
+        1.52199995517731,
+        -2.0
+      ],
+      "value": 2400
+    },
+    {
+      "id": "hall/prop_rock/cf2fc7c48d16",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        -6.64999961853027,
+        1.05200004577637,
+        2.54999995231628
+      ],
+      "value": 220
+    },
+    {
+      "id": "hall/prop_rock/30c5459f3729",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        -5.75,
+        1.05200004577637,
+        2.54999995231628
+      ],
+      "value": 260
+    },
+    {
+      "id": "hall/prop_rock/caabcd160cc0",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        -6.64999961853027,
+        1.05200004577637,
+        3.15000009536743
+      ],
+      "value": 300
+    },
+    {
+      "id": "hall/prop_rock/db64a6d74d4c",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        -5.75,
+        1.05200004577637,
+        3.15000009536743
+      ],
+      "value": 340
+    },
+    {
+      "id": "hall/prop_rock/699e70bb709e",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        -6.64999961853027,
+        1.05200004577637,
+        3.75
+      ],
+      "value": 380
+    },
+    {
+      "id": "hall/prop_rock/63755f91c766",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        5.75,
+        1.05200004577637,
+        2.54999995231628
+      ],
+      "value": 220
+    },
+    {
+      "id": "hall/prop_rock/8ed336ff13ef",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        6.64999961853027,
+        1.05200004577637,
+        2.54999995231628
+      ],
+      "value": 260
+    },
+    {
+      "id": "hall/prop_rock/7687c3c3525c",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        5.75,
+        1.05200004577637,
+        3.15000009536743
+      ],
+      "value": 300
+    },
+    {
+      "id": "hall/prop_rock/e18a6ee55c6a",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        6.64999961853027,
+        1.05200004577637,
+        3.15000009536743
+      ],
+      "value": 340
+    },
+    {
+      "id": "hall/prop_rock/410641ae1ee2",
+      "kind": "rock",
+      "region": "hall",
+      "spawn_center": [
+        5.75,
+        1.05200004577637,
+        3.75
+      ],
+      "value": 380
+    },
+    {
+      "id": "hall/prop_souvenir/d7a40bfdb047",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -6.75,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 420
+    },
+    {
+      "id": "hall/prop_souvenir/e2ac58e8d480",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -6.19000005722046,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 510
+    },
+    {
+      "id": "hall/prop_souvenir/2a81baf86c36",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -5.63000011444092,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 600
+    },
+    {
+      "id": "hall/prop_souvenir/c058725f478b",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -5.07000017166138,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 690
+    },
+    {
+      "id": "hall/prop_souvenir/52f74854d516",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -6.75,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 780
+    },
+    {
+      "id": "hall/prop_souvenir/824422c5ba58",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -6.19000005722046,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 870
+    },
+    {
+      "id": "hall/prop_souvenir/5f43985135c2",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -5.63000011444092,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 960
+    },
+    {
+      "id": "hall/prop_souvenir/84d2b7d86631",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        -5.07000017166138,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 1050
+    },
+    {
+      "id": "hall/prop_souvenir/a76e8f8a6a10",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        5.05000019073486,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 420
+    },
+    {
+      "id": "hall/prop_souvenir/185270bb538b",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        5.6100001335144,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 510
+    },
+    {
+      "id": "hall/prop_souvenir/b521900961a0",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        6.17000007629395,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 600
+    },
+    {
+      "id": "hall/prop_souvenir/fef466b0ace3",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        6.73000001907349,
+        1.04200005531311,
+        6.76000022888184
+      ],
+      "value": 690
+    },
+    {
+      "id": "hall/prop_souvenir/d54f91be07cc",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        5.05000019073486,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 780
+    },
+    {
+      "id": "hall/prop_souvenir/e41a25e717d3",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        5.6100001335144,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 870
+    },
+    {
+      "id": "hall/prop_souvenir/9e5e425e9328",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        6.17000007629395,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 960
+    },
+    {
+      "id": "hall/prop_souvenir/4a8f945dab35",
+      "kind": "souvenir",
+      "region": "hall",
+      "spawn_center": [
+        6.73000001907349,
+        1.04200005531311,
+        7.23999977111816
+      ],
+      "value": 1050
+    },
+    {
+      "id": "porcelain/prop_plate/cda64bd5ea2b",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.7800006866455,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/efcc2aa334dd",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6999998092651,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/23dbeb67ab8e",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.6199998855591,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/21630d43bd95",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.539999961853,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/d1b584e80790",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.460000038147,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/b9c7b96ba3bc",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.3800001144409,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/7ea1b87b1410",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.3000001907349,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/3fd194c6afc0",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.22000026702881,
+        1.01699995994568,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/c644824f422b",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.7800006866455,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/d683ddc43f70",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6999998092651,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/35e5a9fc755c",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.6199998855591,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/f652bb3439dc",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.539999961853,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/2fec505d534c",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.460000038147,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/a69d458edac9",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.3800001144409,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/389fbd5f2dbc",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.3000001907349,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/bc70c9c28922",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.22000026702881,
+        1.73699998855591,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/5649ad9e1eb2",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.7800006866455,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/71c8482e4773",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6999998092651,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/e096be0a957e",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.6199998855591,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/cc34e3cf54f2",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.539999961853,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/3eee312bf6e8",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.460000038147,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/366b1b523381",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.3800001144409,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/de42d65346f7",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.3000001907349,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/8c1bc15cdbbb",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.22000026702881,
+        2.45700001716614,
+        -3.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/ce6beb95a918",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.22000026702881,
+        1.01699995994568,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/a9ca00d10bda",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.3000001907349,
+        1.01699995994568,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/c61678cf0825",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.3800001144409,
+        1.01699995994568,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/52c24852cd41",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.460000038147,
+        1.01699995994568,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/273047ad8e2a",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.539999961853,
+        1.01699995994568,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/534fbb3c7e54",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.6199998855591,
+        1.01699995994568,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/ac070a316228",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6999998092651,
+        1.01699995994568,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/90c1d3bb19b7",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.7800006866455,
+        1.01699995994568,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/a8558c1c844f",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.22000026702881,
+        1.73699998855591,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/7421e0971d58",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.3000001907349,
+        1.73699998855591,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/d54b9af4a077",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.3800001144409,
+        1.73699998855591,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/18302903a1f4",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.460000038147,
+        1.73699998855591,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/7cd104a61bb1",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.539999961853,
+        1.73699998855591,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/22502393fe88",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.6199998855591,
+        1.73699998855591,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/c06cba204386",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6999998092651,
+        1.73699998855591,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/dc268824270d",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.7800006866455,
+        1.73699998855591,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/d3bf274b2ab8",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.22000026702881,
+        2.45700001716614,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/708f2a1b7a57",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.3000001907349,
+        2.45700001716614,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/a7c36b3503e4",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.3800001144409,
+        2.45700001716614,
+        5.67999982833862
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/fcf8410c35b6",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.460000038147,
+        2.45700001716614,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/1a39cc7438e0",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.539999961853,
+        2.45700001716614,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/7434cd50ed2a",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.6199998855591,
+        2.45700001716614,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/b90d01fe968e",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6999998092651,
+        2.45700001716614,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_plate/71cd1773dba0",
+      "kind": "plate",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.7800006866455,
+        2.45700001716614,
+        5.68000030517578
+      ],
+      "value": 480
+    },
+    {
+      "id": "porcelain/prop_vase/99d8cc360f93",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.8000011444092,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 900
+    },
+    {
+      "id": "porcelain/prop_vase/c53224f69b1a",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.2000007629395,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 1200
+    },
+    {
+      "id": "porcelain/prop_vase/434aacc7d0c0",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6000003814697,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 1500
+    },
+    {
+      "id": "porcelain/prop_vase/4f5654791b7d",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.8000011444092,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 900
+    },
+    {
+      "id": "porcelain/prop_vase/74139575af6a",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -16.2000007629395,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 1200
+    },
+    {
+      "id": "porcelain/prop_vase/58f953d37bef",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -15.6000003814697,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 1500
+    },
+    {
+      "id": "porcelain/prop_vase/5b47bbbddc36",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.0,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 900
+    },
+    {
+      "id": "porcelain/prop_vase/e12871bed198",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.3999996185303,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 1200
+    },
+    {
+      "id": "porcelain/prop_vase/64e125b38a32",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.7999992370605,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 1500
+    },
+    {
+      "id": "porcelain/prop_vase/18ac8d94930a",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -14.0,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 900
+    },
+    {
+      "id": "porcelain/prop_vase/3151ac8ed947",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -13.3999996185303,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 1200
+    },
+    {
+      "id": "porcelain/prop_vase/2836cd6989bf",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -12.7999992370605,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 1500
+    },
+    {
+      "id": "porcelain/prop_vase/c9bae687cdc8",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.2000007629395,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 900
+    },
+    {
+      "id": "porcelain/prop_vase/7624bf64f8fb",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.6000003814697,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 1200
+    },
+    {
+      "id": "porcelain/prop_vase/36188b70bf02",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.0,
+        1.12199997901917,
+        -1.20000004768372
+      ],
+      "value": 1500
+    },
+    {
+      "id": "porcelain/prop_vase/0af83d3b20f0",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -11.2000007629395,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 900
+    },
+    {
+      "id": "porcelain/prop_vase/93423e5510f2",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.6000003814697,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 1200
+    },
+    {
+      "id": "porcelain/prop_vase/18abcea8ac57",
+      "kind": "vase",
+      "region": "porcelain",
+      "spawn_center": [
+        -10.0,
+        1.12199997901917,
+        2.59999990463257
+      ],
+      "value": 1500
+    },
+    {
+      "id": "porcelain/prop_vase_big/330a34a7eaf2",
+      "kind": "vase_big",
+      "region": "porcelain",
+      "spawn_center": [
+        -9.60000038146973,
+        1.49699997901917,
+        3.59999990463257
+      ],
+      "value": 6200
+    },
+    {
+      "id": "taxidermy/prop_specimen/0b5da488a026",
+      "kind": "specimen",
+      "region": "taxidermy",
+      "spawn_center": [
+        10.6000003814697,
+        1.14199995994568,
+        1.20000004768372
+      ],
+      "value": 3400
+    },
+    {
+      "id": "taxidermy/prop_specimen/b7dc8dd8da14",
+      "kind": "specimen",
+      "region": "taxidermy",
+      "spawn_center": [
+        14.6000003814697,
+        1.14199995994568,
+        1.39999997615814
+      ],
+      "value": 2800
+    },
+    {
+      "id": "taxidermy/prop_specimen/d8ded100bfce",
+      "kind": "specimen",
+      "region": "taxidermy",
+      "spawn_center": [
+        12.3999996185303,
+        1.14199995994568,
+        5.0
+      ],
+      "value": 3100
+    },
+    {
+      "id": "taxidermy/prop_bone/ea3edd10daa7",
+      "kind": "bone",
+      "region": "taxidermy",
+      "spawn_center": [
+        14.1999998092651,
+        0.657000005245209,
+        4.80000019073486
+      ],
+      "value": 350
+    },
+    {
+      "id": "taxidermy/prop_bone/4e9a8289aa96",
+      "kind": "bone",
+      "region": "taxidermy",
+      "spawn_center": [
+        14.6800003051758,
+        0.657000005245209,
+        4.80000019073486
+      ],
+      "value": 350
+    },
+    {
+      "id": "taxidermy/prop_bone/c25cb45afd5b",
+      "kind": "bone",
+      "region": "taxidermy",
+      "spawn_center": [
+        15.1599998474121,
+        0.657000005245209,
+        4.80000019073486
+      ],
+      "value": 350
+    },
+    {
+      "id": "taxidermy/prop_bone/c3ced9a98f86",
+      "kind": "bone",
+      "region": "taxidermy",
+      "spawn_center": [
+        15.6400003433228,
+        0.657000005245209,
+        4.80000019073486
+      ],
+      "value": 350
+    },
+    {
+      "id": "taxidermy/prop_bone/ba2f01232b3c",
+      "kind": "bone",
+      "region": "taxidermy",
+      "spawn_center": [
+        16.1200008392334,
+        0.657000005245209,
+        4.80000019073486
+      ],
+      "value": 350
+    },
+    {
+      "id": "taxidermy/prop_bone/e230d88fca11",
+      "kind": "bone",
+      "region": "taxidermy",
+      "spawn_center": [
+        16.6000003814697,
+        0.657000005245209,
+        4.80000019073486
+      ],
+      "value": 350
+    },
+    {
+      "id": "kids/prop_craft/da82702458f7",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -2.20000004768372,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/e6b56126ff3a",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -1.58000004291534,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/f94fa828dd04",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -0.959999978542328,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/a81b5bee08ec",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -0.340000003576279,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/521bc9204383",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        0.280000001192093,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/e9e8b043f3c6",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        0.899999976158142,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/4c3a8f310b04",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        1.51999998092651,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/7809a9e879f7",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        2.14000010490417,
+        1.00199997425079,
+        -11.5
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/4bf5c7c19ee3",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -2.20000004768372,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/a167d0676a0c",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -1.58000004291534,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/7ffff7911a3a",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -0.959999978542328,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/0e3ff1efcad3",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -0.340000003576279,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/7cbd801f4bc2",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        0.280000001192093,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/f7c6eede3705",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        0.899999976158142,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/de779c9544a8",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        1.51999998092651,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_craft/5cead2546e0c",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        2.14000010490417,
+        1.00199997425079,
+        -10.8999996185303
+      ],
+      "value": 320
+    },
+    {
+      "id": "kids/prop_ball/1eb770c02311",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        0.99999988079071,
+        0.222000002861023,
+        -14.5500001907349
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/e6f4c6655d58",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        1.71999990940094,
+        0.222000002861023,
+        -14.5500001907349
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/7d9b46718868",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        2.43999981880188,
+        0.222000002861023,
+        -14.5500001907349
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/2b6b7d36f684",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        3.15999984741211,
+        0.222000002861023,
+        -14.5500001907349
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/072f67bdf1f1",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        0.99999988079071,
+        0.222000002861023,
+        -13.6500005722046
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/713d062608f3",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        1.71999990940094,
+        0.222000002861023,
+        -13.6500005722046
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/070a99746a2d",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        2.43999981880188,
+        0.222000002861023,
+        -13.6500005722046
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/be321a63e42f",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        3.15999984741211,
+        0.222000002861023,
+        -13.6500005722046
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/5d2b76844d34",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        0.99999988079071,
+        0.222000002861023,
+        -12.75
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/d6c32f01891e",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        1.71999990940094,
+        0.222000002861023,
+        -12.75
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/869e3bfea564",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        2.43999981880188,
+        0.222000002861023,
+        -12.75
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_ball/352d5b73bd87",
+      "kind": "ball",
+      "region": "kids",
+      "spawn_center": [
+        3.15999984741211,
+        0.222000002861023,
+        -12.75
+      ],
+      "value": 260
+    },
+    {
+      "id": "kids/prop_button/9f7a3f13339b",
+      "kind": "button",
+      "region": "kids",
+      "spawn_center": [
+        -3.0,
+        1.09700000286102,
+        -14.1999998092651
+      ],
+      "value": 800
+    },
+    {
+      "id": "kids/prop_button/8311b82b991d",
+      "kind": "button",
+      "region": "kids",
+      "spawn_center": [
+        -2.59999990463257,
+        1.09700000286102,
+        -14.1999998092651
+      ],
+      "value": 800
+    },
+    {
+      "id": "kids/prop_button/fcfd4169c4e9",
+      "kind": "button",
+      "region": "kids",
+      "spawn_center": [
+        -2.20000004768372,
+        1.09700000286102,
+        -14.1999998092651
+      ],
+      "value": 800
+    },
+    {
+      "id": "kids/prop_button/a951834d5715",
+      "kind": "button",
+      "region": "kids",
+      "spawn_center": [
+        -1.79999995231628,
+        1.09700000286102,
+        -14.1999998092651
+      ],
+      "value": 800
+    },
+    {
+      "id": "kids/prop_craft/77cf71650f18",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        0.741999983787537,
+        -13.9499998092651
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/c9b32ef960f8",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        0.741999983787537,
+        -13.4099998474121
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/49e9152c6381",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        0.741999983787537,
+        -12.8699998855591
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/1e0f5b3ef312",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        0.741999983787537,
+        -12.3299999237061
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/9679d3ba14f1",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        0.741999983787537,
+        -11.789999961853
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/6a04cf1c2d41",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        0.741999983787537,
+        -11.25
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/c0d9d0c2fe01",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        1.14199995994568,
+        -13.9499998092651
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/8da37fe27131",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        1.14199995994568,
+        -13.4099998474121
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/ec52b68a091f",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        1.14199995994568,
+        -12.8699998855591
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/1d0fe4fb61d5",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        1.14199995994568,
+        -12.3299999237061
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/6786ae712dac",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        1.14199995994568,
+        -11.789999961853
+      ],
+      "value": 300
+    },
+    {
+      "id": "kids/prop_craft/1eb1db739906",
+      "kind": "craft",
+      "region": "kids",
+      "spawn_center": [
+        -3.59999990463257,
+        1.14199995994568,
+        -11.25
+      ],
+      "value": 300
+    },
+    {
+      "id": "vestibule/prop_brochure/48589989b9fd",
+      "kind": "brochure",
+      "region": "vestibule",
+      "spawn_center": [
+        -1.89999997615814,
+        1.20200002193451,
+        9.39999961853027
+      ],
+      "value": 150
+    }
+  ],
+  "schema": "museum-dog-native-facts-v1",
+  "source_authority": "Current native greybox; no historical style sources",
+  "source_hashes_at_initialization": {
+    "capture_script": "4464e3ddd8dc9dac25f0e98a9d7d1c02ba3bcecb76bdfb188a0869409d7f339a",
+    "res://game/dog_game.gd": "d41449b588144c399b0a5bf34448a203374410934d492692793b6b74167c6c9d",
+    "res://game/dog_game.tscn": "6cad0fabae6a623aebd1778a544af32c0fe926dfd474673567d8ae1513ee4b68",
+    "res://game/museum_builder.gd": "1eba69ee9ad4155f2c4c00b176a7af46875c3fcb8f8c20aa842f93844e368a0b",
+    "res://game/prop_specs.gd": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f",
+    "res://game/visual_catalog.gd": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739",
+    "res://project.godot": "0565f11ce30f7e61da7a8b9ca920e7bd6f93a726ed2afd2f67e5f76efdb4b6cb"
+  },
+  "static_collision_boxes": [
+    {
+      "region": "hall",
+      "role": "floor",
+      "semantic_id": "hall/floor/60788a6317f7",
+      "size": [
+        16.0,
+        0.300000011920929,
+        14.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          -0.100000001490116,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "ceiling",
+      "semantic_id": "hall/ceiling/8a71348aeb31",
+      "size": [
+        16.0,
+        0.300000011920929,
+        14.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          8.64999961853027,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/2eb4fc76b195",
+      "size": [
+        0.300000011920929,
+        8.5,
+        6.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -8.0,
+          4.25,
+          -3.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/9109d677a23e",
+      "size": [
+        0.300000011920929,
+        8.5,
+        5.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -8.0,
+          4.25,
+          5.5
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/d7e1c26f3b02",
+      "size": [
+        0.300000011920929,
+        4.90000009536743,
+        3.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -8.0,
+          6.05000019073486,
+          1.5
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/f5d9bd97968f",
+      "size": [
+        0.600000023841858,
+        3.59999990463257,
+        0.140000000596046
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -8.0,
+          1.79999995231628,
+          0.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/c7be10b86d83",
+      "size": [
+        0.600000023841858,
+        3.59999990463257,
+        0.140000000596046
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -8.0,
+          1.79999995231628,
+          3.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/1797f52976a9",
+      "size": [
+        0.300000011920929,
+        8.5,
+        6.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          8.0,
+          4.25,
+          -3.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/bf4ddb8d7f7c",
+      "size": [
+        0.300000011920929,
+        8.5,
+        5.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          8.0,
+          4.25,
+          5.5
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/7881e4013ecf",
+      "size": [
+        0.300000011920929,
+        4.90000009536743,
+        3.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          8.0,
+          6.05000019073486,
+          1.5
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/e95e665171d3",
+      "size": [
+        0.600000023841858,
+        3.59999990463257,
+        0.140000000596046
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          8.0,
+          1.79999995231628,
+          0.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/3b91d507454d",
+      "size": [
+        0.600000023841858,
+        3.59999990463257,
+        0.140000000596046
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          8.0,
+          1.79999995231628,
+          3.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/22dab69cb5cd",
+      "size": [
+        10.1999998092651,
+        8.5,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.90000009536743,
+          4.25,
+          -6.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/9fa804fc2df7",
+      "size": [
+        4.09999990463257,
+        8.5,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          5.94999980926514,
+          4.25,
+          -6.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/32adb4e2b75b",
+      "size": [
+        1.70000004768372,
+        4.90000009536743,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          3.04999995231628,
+          6.05000019073486,
+          -6.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/638ba6fd9070",
+      "size": [
+        0.140000000596046,
+        3.59999990463257,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          2.20000004768372,
+          1.79999995231628,
+          -6.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/957dc492779d",
+      "size": [
+        0.140000000596046,
+        3.59999990463257,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          3.90000009536743,
+          1.79999995231628,
+          -6.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/cf5a19a3e1e7",
+      "size": [
+        6.5,
+        8.5,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -4.75,
+          4.25,
+          8.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "wall",
+      "semantic_id": "hall/wall/7555bc6dfcff",
+      "size": [
+        6.5,
+        8.5,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          4.75,
+          4.25,
+          8.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/b4978121f1f6",
+      "size": [
+        3.0,
+        4.90000009536743,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          6.05000019073486,
+          8.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/9b8651318cc1",
+      "size": [
+        0.140000000596046,
+        3.59999990463257,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -1.5,
+          1.79999995231628,
+          8.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "door_frame",
+      "semantic_id": "hall/door_frame/a27d063fb422",
+      "size": [
+        0.140000000596046,
+        3.59999990463257,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          1.5,
+          1.79999995231628,
+          8.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "ceiling_detail",
+      "semantic_id": "hall/ceiling_detail/331cd97b8199",
+      "size": [
+        11.0,
+        0.119999997317791,
+        1.60000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          8.27999973297119,
+          -4.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "ceiling_detail",
+      "semantic_id": "hall/ceiling_detail/427b3e332a61",
+      "size": [
+        11.0,
+        0.119999997317791,
+        1.60000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          8.27999973297119,
+          0.5
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "ceiling_detail",
+      "semantic_id": "hall/ceiling_detail/c2bdbf57b699",
+      "size": [
+        11.0,
+        0.119999997317791,
+        1.60000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          8.27999973297119,
+          5.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/d2ae79e2717f",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -7.05000019073486,
+          0.174999997019768,
+          -4.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/2e18bc25d355",
+      "size": [
+        0.699999988079071,
+        7.80000019073486,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -7.05000019073486,
+          4.25,
+          -4.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/33c0b12fda50",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -7.05000019073486,
+          8.32499980926514,
+          -4.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/86b7544d846e",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          7.05000019073486,
+          0.174999997019768,
+          -4.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/89e03f8f2adc",
+      "size": [
+        0.699999988079071,
+        7.80000019073486,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          7.05000019073486,
+          4.25,
+          -4.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/89c3866d7fb2",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          7.05000019073486,
+          8.32499980926514,
+          -4.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/44bbd4b2609e",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -7.05000019073486,
+          0.174999997019768,
+          6.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/f197f86edec2",
+      "size": [
+        0.699999988079071,
+        7.80000019073486,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -7.05000019073486,
+          4.25,
+          6.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/36b0ab1b9441",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -7.05000019073486,
+          8.32499980926514,
+          6.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/c9ebcc4e390f",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          7.05000019073486,
+          0.174999997019768,
+          6.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/871bd074d7c0",
+      "size": [
+        0.699999988079071,
+        7.80000019073486,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          7.05000019073486,
+          4.25,
+          6.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "column",
+      "semantic_id": "hall/column/c66aab67c51d",
+      "size": [
+        0.949999988079071,
+        0.349999994039536,
+        0.949999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          7.05000019073486,
+          8.32499980926514,
+          6.19999980926514
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "structure",
+      "semantic_id": "hall/structure/2d9e2ee8707b",
+      "size": [
+        7.0,
+        4.69999980926514,
+        0.200000002980232
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -1.20000004768372,
+          2.40000009536743,
+          -5.65999984741211
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "display_platform",
+      "semantic_id": "hall/display_platform/196f6cd82ac2",
+      "size": [
+        7.59999990463257,
+        0.800000011920929,
+        3.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          0.450000017881393,
+          -2.20000004768372
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "barrier_post",
+      "semantic_id": "hall/barrier_post/3288164f83a2",
+      "size": [
+        0.0599999986588955,
+        0.949999988079071,
+        0.0599999986588955
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -4.59999990463257,
+          0.479999989271164,
+          -4.30000019073486
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "barrier_post",
+      "semantic_id": "hall/barrier_post/3db889d93c6e",
+      "size": [
+        0.0599999986588955,
+        0.949999988079071,
+        0.0599999986588955
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          4.59999990463257,
+          0.479999989271164,
+          -4.30000019073486
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "barrier_post",
+      "semantic_id": "hall/barrier_post/c397b5d8566a",
+      "size": [
+        0.0599999986588955,
+        0.949999988079071,
+        0.0599999986588955
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -4.59999990463257,
+          0.479999989271164,
+          -0.100000001490116
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "barrier_post",
+      "semantic_id": "hall/barrier_post/dbfc197e6f27",
+      "size": [
+        0.0599999986588955,
+        0.949999988079071,
+        0.0599999986588955
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          4.59999990463257,
+          0.479999989271164,
+          -0.100000001490116
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "bench",
+      "semantic_id": "hall/bench/2291f76f498d",
+      "size": [
+        2.20000004768372,
+        0.140000000596046,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -3.59999990463257,
+          0.529999971389771,
+          5.40000009536743
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "bench",
+      "semantic_id": "hall/bench/e6835be7e56e",
+      "size": [
+        2.20000004768372,
+        0.5,
+        0.119999997317791
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -3.59999990463257,
+          0.829999983310699,
+          5.16000032424927
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "bench",
+      "semantic_id": "hall/bench/2583d45e33c7",
+      "size": [
+        2.20000004768372,
+        0.140000000596046,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          3.59999990463257,
+          0.529999971389771,
+          5.40000009536743
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "bench",
+      "semantic_id": "hall/bench/2e9784fd856d",
+      "size": [
+        2.20000004768372,
+        0.5,
+        0.119999997317791
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          3.59999990463257,
+          0.829999983310699,
+          5.16000032424927
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "display_platform",
+      "semantic_id": "hall/display_platform/f1e5c6d65785",
+      "size": [
+        0.899999976158142,
+        1.14999997615814,
+        0.899999976158142
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -6.19999980926514,
+          0.620000004768372,
+          -2.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "display_platform",
+      "semantic_id": "hall/display_platform/e6644ba5b0f0",
+      "size": [
+        0.899999976158142,
+        1.14999997615814,
+        0.899999976158142
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          6.19999980926514,
+          0.620000004768372,
+          -2.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "display_platform",
+      "semantic_id": "hall/display_platform/765f22d28720",
+      "size": [
+        1.79999995231628,
+        0.850000023841858,
+        1.79999995231628
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -6.19999980926514,
+          0.469999998807907,
+          3.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "display_platform",
+      "semantic_id": "hall/display_platform/3dbdddeedbe8",
+      "size": [
+        1.79999995231628,
+        0.850000023841858,
+        1.79999995231628
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          6.19999980926514,
+          0.469999998807907,
+          3.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "gift_table",
+      "semantic_id": "hall/gift_table/70c5caa6427d",
+      "size": [
+        2.40000009536743,
+        0.119999997317791,
+        1.20000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -5.90000009536743,
+          0.870000004768372,
+          7.0
+        ]
+      }
+    },
+    {
+      "region": "hall",
+      "role": "gift_table",
+      "semantic_id": "hall/gift_table/d54d8741e7b6",
+      "size": [
+        2.40000009536743,
+        0.119999997317791,
+        1.20000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          5.90000009536743,
+          0.870000004768372,
+          7.0
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "floor",
+      "semantic_id": "porcelain/floor/0dd3e87674ea",
+      "size": [
+        10.0,
+        0.300000011920929,
+        10.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          -0.100000001490116,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "ceiling",
+      "semantic_id": "porcelain/ceiling/40529ddaf107",
+      "size": [
+        10.0,
+        0.300000011920929,
+        10.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          5.34999990463257,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "wall",
+      "semantic_id": "porcelain/wall/0aeb7b9114d6",
+      "size": [
+        0.300000011920929,
+        5.19999980926514,
+        10.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -18.0,
+          2.59999990463257,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "wall",
+      "semantic_id": "porcelain/wall/3b408a267237",
+      "size": [
+        10.0,
+        5.19999980926514,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          2.59999990463257,
+          -4.0
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "wall",
+      "semantic_id": "porcelain/wall/240bb199eebb",
+      "size": [
+        10.0,
+        5.19999980926514,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          2.59999990463257,
+          6.0
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/48f2e2ec1767",
+      "size": [
+        9.0,
+        3.0,
+        0.219999998807907
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          1.54999995231628,
+          -3.92999982833862
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/a89f7cc8de97",
+      "size": [
+        9.0,
+        0.159999996423721,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          0.0799999982118607,
+          -3.74000000953674
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/9a9b737ee14a",
+      "size": [
+        9.0,
+        0.219999998807907,
+        0.620000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          3.05999994277954,
+          -3.74000000953674
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/fe1db18d0987",
+      "size": [
+        8.76000022888184,
+        0.0700000002980232,
+        0.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          0.949999988079071,
+          -3.67999982833862
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/2d0dbf397988",
+      "size": [
+        8.76000022888184,
+        0.0700000002980232,
+        0.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          1.66999995708466,
+          -3.67999982833862
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/0e987258753d",
+      "size": [
+        8.76000022888184,
+        0.0700000002980232,
+        0.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          2.39000010490417,
+          -3.67999982833862
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/945b056f651c",
+      "size": [
+        9.0,
+        3.0,
+        0.219999998807907
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          1.54999995231628,
+          5.93000030517578
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/066f38f4c123",
+      "size": [
+        9.0,
+        0.159999996423721,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          0.0799999982118607,
+          5.74000024795532
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/d44a322337b6",
+      "size": [
+        9.0,
+        0.219999998807907,
+        0.620000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          3.05999994277954,
+          5.74000024795532
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/f0f29ae623fc",
+      "size": [
+        8.76000022888184,
+        0.0700000002980232,
+        0.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          0.949999988079071,
+          5.68000030517578
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/37b861a949fe",
+      "size": [
+        8.76000022888184,
+        0.0700000002980232,
+        0.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          1.66999995708466,
+          5.68000030517578
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_shelf",
+      "semantic_id": "porcelain/display_shelf/0d2da4509f0e",
+      "size": [
+        8.76000022888184,
+        0.0700000002980232,
+        0.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          -13.0,
+          2.39000010490417,
+          5.68000030517578
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_table",
+      "semantic_id": "porcelain/display_table/d6e8f47ecf7b",
+      "size": [
+        2.09999990463257,
+        0.850000023841858,
+        1.10000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -16.2000007629395,
+          0.469999998807907,
+          -1.20000004768372
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_table",
+      "semantic_id": "porcelain/display_table/ecc8accf577a",
+      "size": [
+        2.09999990463257,
+        0.850000023841858,
+        1.10000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -16.2000007629395,
+          0.469999998807907,
+          2.59999990463257
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_table",
+      "semantic_id": "porcelain/display_table/00868f5542d3",
+      "size": [
+        2.09999990463257,
+        0.850000023841858,
+        1.10000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.3999996185303,
+          0.469999998807907,
+          -1.20000004768372
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_table",
+      "semantic_id": "porcelain/display_table/f58bcca963c3",
+      "size": [
+        2.09999990463257,
+        0.850000023841858,
+        1.10000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -13.3999996185303,
+          0.469999998807907,
+          2.59999990463257
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_table",
+      "semantic_id": "porcelain/display_table/fddf7ac3b121",
+      "size": [
+        2.09999990463257,
+        0.850000023841858,
+        1.10000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -10.6000003814697,
+          0.469999998807907,
+          -1.20000004768372
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_table",
+      "semantic_id": "porcelain/display_table/cbca17ba08a8",
+      "size": [
+        2.09999990463257,
+        0.850000023841858,
+        1.10000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -10.6000003814697,
+          0.469999998807907,
+          2.59999990463257
+        ]
+      }
+    },
+    {
+      "region": "porcelain",
+      "role": "display_platform",
+      "semantic_id": "porcelain/display_platform/311832686751",
+      "size": [
+        1.39999997615814,
+        1.0,
+        1.39999997615814
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -9.60000038146973,
+          0.550000011920929,
+          3.59999990463257
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "floor",
+      "semantic_id": "taxidermy/floor/bb7e68b3b658",
+      "size": [
+        10.0,
+        0.300000011920929,
+        10.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          13.0,
+          -0.100000001490116,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "ceiling",
+      "semantic_id": "taxidermy/ceiling/2445c6e7d1c5",
+      "size": [
+        10.0,
+        0.300000011920929,
+        10.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          13.0,
+          5.65000009536743,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "wall",
+      "semantic_id": "taxidermy/wall/bc0857164c8d",
+      "size": [
+        0.300000011920929,
+        5.5,
+        10.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          18.0,
+          2.75,
+          1.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "wall",
+      "semantic_id": "taxidermy/wall/034c2e4cf2a6",
+      "size": [
+        10.0,
+        5.5,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          13.0,
+          2.75,
+          -4.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "wall",
+      "semantic_id": "taxidermy/wall/1852c88fa603",
+      "size": [
+        10.0,
+        5.5,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          13.0,
+          2.75,
+          6.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "specimen_display",
+      "semantic_id": "taxidermy/specimen_display/720f572c7e6a",
+      "size": [
+        2.59999990463257,
+        0.800000011920929,
+        2.09999990463257
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          10.8000001907349,
+          0.449999988079071,
+          -1.39999997615814
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "specimen_display",
+      "semantic_id": "taxidermy/specimen_display/4f68561d67f5",
+      "size": [
+        2.59999990463257,
+        0.800000011920929,
+        2.09999990463257
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          14.8000001907349,
+          0.449999988079071,
+          -1.79999995231628
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "specimen_display",
+      "semantic_id": "taxidermy/specimen_display/69dd2993bad6",
+      "size": [
+        2.59999990463257,
+        0.800000011920929,
+        2.09999990463257
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          12.3999996185303,
+          0.449999988079071,
+          3.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "display_table",
+      "semantic_id": "taxidermy/display_table/c2d86c1f7397",
+      "size": [
+        1.0,
+        0.720000028610229,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          10.6000003814697,
+          0.409999996423721,
+          1.20000004768372
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "display_table",
+      "semantic_id": "taxidermy/display_table/600b7b02e452",
+      "size": [
+        1.0,
+        0.720000028610229,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          14.6000003814697,
+          0.409999996423721,
+          1.39999997615814
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "display_table",
+      "semantic_id": "taxidermy/display_table/9490c6863115",
+      "size": [
+        1.0,
+        0.720000028610229,
+        0.699999988079071
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          12.3999996185303,
+          0.409999996423721,
+          5.0
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "furniture",
+      "semantic_id": "taxidermy/furniture/c1812c8791f4",
+      "size": [
+        3.20000004768372,
+        0.550000011920929,
+        1.20000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          15.3999996185303,
+          0.330000013113022,
+          4.80000019073486
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "bench",
+      "semantic_id": "taxidermy/bench/a9a0da8eea81",
+      "size": [
+        2.20000004768372,
+        0.140000000596046,
+        0.600000023841858
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          11.1999998092651,
+          0.529999971389771,
+          5.40000009536743
+        ]
+      }
+    },
+    {
+      "region": "taxidermy",
+      "role": "bench",
+      "semantic_id": "taxidermy/bench/c00ca3e5f686",
+      "size": [
+        2.20000004768372,
+        0.5,
+        0.119999997317791
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            8.74227765734759e-08
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -8.74227765734759e-08,
+            0.0,
+            -1.0
+          ]
+        ],
+        "origin": [
+          11.1999998092651,
+          0.829999983310699,
+          5.16000032424927
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "floor",
+      "semantic_id": "kids/floor/5258de84db80",
+      "size": [
+        8.0,
+        0.300000011920929,
+        9.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          -0.100000001490116,
+          -10.5
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "ceiling",
+      "semantic_id": "kids/ceiling/c12c79016b3f",
+      "size": [
+        8.0,
+        0.300000011920929,
+        9.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          6.15000009536743,
+          -10.5
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "wall",
+      "semantic_id": "kids/wall/f9965aaac01a",
+      "size": [
+        0.300000011920929,
+        6.0,
+        9.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -4.0,
+          3.0,
+          -10.5
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "wall",
+      "semantic_id": "kids/wall/bdf7baf9fad7",
+      "size": [
+        0.300000011920929,
+        6.0,
+        9.0
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          4.0,
+          3.0,
+          -10.5
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "wall",
+      "semantic_id": "kids/wall/e3f281a266f1",
+      "size": [
+        8.0,
+        6.0,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          3.0,
+          -15.0
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/97960b67242e",
+      "size": [
+        5.40000009536743,
+        0.159999996423721,
+        1.5
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          0.810000002384186,
+          -11.1999998092651
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/4ad8ed26d0f6",
+      "size": [
+        3.20000004768372,
+        0.259999990463257,
+        0.159999996423721
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          2.09999990463257,
+          0.180000007152557,
+          -15.0
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/0c6dfd8884d6",
+      "size": [
+        3.20000004768372,
+        0.259999990463257,
+        0.159999996423721
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          2.09999990463257,
+          0.180000007152557,
+          -12.2000007629395
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/3ed3148bc13e",
+      "size": [
+        0.159999996423721,
+        0.259999990463257,
+        2.96000003814697
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.499999910593033,
+          0.180000007152557,
+          -13.6000003814697
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/76e17b82a950",
+      "size": [
+        0.159999996423721,
+        0.259999990463257,
+        2.96000003814697
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          3.69999980926514,
+          0.180000007152557,
+          -13.6000003814697
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/bcab79e0b1e1",
+      "size": [
+        2.0,
+        1.0,
+        0.800000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.40000009536743,
+          0.550000011920929,
+          -14.1999998092651
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/367bf4e28c1e",
+      "size": [
+        1.60000002384186,
+        0.5,
+        1.60000002384186
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.40000009536743,
+          0.300000011920929,
+          -8.60000038146973
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/3b8a28c6d653",
+      "size": [
+        1.20000004768372,
+        0.899999976158142,
+        1.20000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.5,
+          0.5,
+          -9.89999961853027
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/54aef7285259",
+      "size": [
+        1.39999997615814,
+        0.349999994039536,
+        2.40000009536743
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.59999990463257,
+          0.219999998807907,
+          -12.3999996185303
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/68d5a4b7e6a9",
+      "size": [
+        0.159999996423721,
+        1.20000004768372,
+        3.20000004768372
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -3.77999997138977,
+          0.649999976158142,
+          -12.6000003814697
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/5b2911870e3c",
+      "size": [
+        0.360000014305115,
+        0.0599999986588955,
+        3.09999990463257
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -3.59999990463257,
+          0.600000023841858,
+          -12.6000003814697
+        ]
+      }
+    },
+    {
+      "region": "kids",
+      "role": "furniture",
+      "semantic_id": "kids/furniture/e2c4a8e66235",
+      "size": [
+        0.360000014305115,
+        0.0599999986588955,
+        3.09999990463257
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -3.59999990463257,
+          1.0,
+          -12.6000003814697
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "floor",
+      "semantic_id": "vestibule/floor/4e83948c6a4c",
+      "size": [
+        6.0,
+        0.300000011920929,
+        3.40000009536743
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          -0.100000001490116,
+          9.69999980926514
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "ceiling",
+      "semantic_id": "vestibule/ceiling/61433cbdf9ec",
+      "size": [
+        6.0,
+        0.300000011920929,
+        3.40000009536743
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          3.95000004768372,
+          9.69999980926514
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "wall",
+      "semantic_id": "vestibule/wall/1d9ae8ad831b",
+      "size": [
+        0.300000011920929,
+        3.79999995231628,
+        3.40000009536743
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -3.0,
+          1.89999997615814,
+          9.69999980926514
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "wall",
+      "semantic_id": "vestibule/wall/23a2214c50c0",
+      "size": [
+        0.300000011920929,
+        3.79999995231628,
+        3.40000009536743
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          3.0,
+          1.89999997615814,
+          9.69999980926514
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "wall",
+      "semantic_id": "vestibule/wall/64c4ef9a0daa",
+      "size": [
+        2.0,
+        3.79999995231628,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -2.0,
+          1.89999997615814,
+          11.3999996185303
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "wall",
+      "semantic_id": "vestibule/wall/b5a010c0ea97",
+      "size": [
+        2.0,
+        3.79999995231628,
+        0.300000011920929
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          2.0,
+          1.89999997615814,
+          11.3999996185303
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "entrance_door",
+      "semantic_id": "vestibule/entrance_door/3a1bbe47b010",
+      "size": [
+        2.0,
+        3.79999995231628,
+        0.219999998807907
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          0.0,
+          1.89999997615814,
+          11.3999996185303
+        ]
+      }
+    },
+    {
+      "region": "vestibule",
+      "role": "furniture",
+      "semantic_id": "vestibule/furniture/a8d067fe4aaa",
+      "size": [
+        2.20000004768372,
+        0.949999988079071,
+        0.899999976158142
+      ],
+      "world_transform": {
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin": [
+          -1.89999997615814,
+          0.519999980926514,
+          9.39999961853027
+        ]
+      }
+    }
+  ],
+  "style_id": "A01",
+  "visitors": [
+    {
+      "name": "网红",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "hall",
+      "spawn": [
+        -4.40000009536743,
+        0.0,
+        4.40000009536743
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "讲解员",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "hall",
+      "spawn": [
+        4.40000009536743,
+        0.0,
+        4.40000009536743
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "老爷爷",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "hall",
+      "spawn": [
+        -4.59999990463257,
+        0.0,
+        2.20000004768372
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "瓷器迷",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "porcelain",
+      "spawn": [
+        -10.3999996185303,
+        0.0,
+        4.40000009536743
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "情侣",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "porcelain",
+      "spawn": [
+        -13.1999998092651,
+        0.0,
+        1.60000002384186
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "猎奇青年",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "taxidermy",
+      "spawn": [
+        15.6000003814697,
+        0.0,
+        1.20000004768372
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "背包客",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "taxidermy",
+      "spawn": [
+        12.6000003814697,
+        0.0,
+        4.19999980926514
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "小学生甲",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "kids",
+      "spawn": [
+        0.400000005960464,
+        0.0,
+        -10.6000003814697
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "小学生乙",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": false,
+      "room": "kids",
+      "spawn": [
+        -2.79999995231628,
+        0.0,
+        -8.19999980926514
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "保安",
+      "parts": [
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              0.400000005960464,
+              0.0
+            ]
+          },
+          "mass": 3.20000004768372
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.10000002384186,
+              0.0
+            ]
+          },
+          "mass": 9.0
+        },
+        {
+          "local_transform": {
+            "basis_columns": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "origin": [
+              0.0,
+              1.55999994277954,
+              0.0
+            ]
+          },
+          "mass": 1.39999997615814
+        }
+      ],
+      "post": true,
+      "room": "hall",
+      "spawn": [
+        -6.19999980926514,
+        0.0,
+        -3.29999995231628
+      ],
+      "yaw": -1.57079994678497
+    }
+  ],
+  "visual_catalog_entry_count": 569,
+  "visual_catalog_errors": [],
+  "source_dimensions": {
+    "basis": "GDScript construction constants cross-referenced with initialized static_collision_boxes; coordinates in native world units (treated as metres by game design)",
+    "floor_collision_top": 0.05,
+    "wall_thickness": 0.3,
+    "rooms": [
+      {
+        "id": "hall",
+        "nominal_floor_x": [
+          -8,
+          8
+        ],
+        "nominal_floor_z": [
+          -6,
+          8
+        ],
+        "floor_size_xz": [
+          16,
+          14
+        ],
+        "ceiling_collision_underside": 8.5,
+        "floor_to_ceiling_without_trim": 8.45,
+        "note": "Floor footprint, not obstacle-free navigation rectangle"
+      },
+      {
+        "id": "porcelain",
+        "nominal_floor_x": [
+          -18,
+          -8
+        ],
+        "nominal_floor_z": [
+          -4,
+          6
+        ],
+        "floor_size_xz": [
+          10,
+          10
+        ],
+        "ceiling_collision_underside": 5.2,
+        "floor_to_ceiling_without_trim": 5.15,
+        "note": "Floor footprint, not obstacle-free navigation rectangle"
+      },
+      {
+        "id": "taxidermy",
+        "nominal_floor_x": [
+          8,
+          18
+        ],
+        "nominal_floor_z": [
+          -4,
+          6
+        ],
+        "floor_size_xz": [
+          10,
+          10
+        ],
+        "ceiling_collision_underside": 5.5,
+        "floor_to_ceiling_without_trim": 5.45,
+        "note": "Floor footprint, not obstacle-free navigation rectangle"
+      },
+      {
+        "id": "kids",
+        "nominal_floor_x": [
+          -4,
+          4
+        ],
+        "nominal_floor_z": [
+          -15,
+          -6
+        ],
+        "floor_size_xz": [
+          8,
+          9
+        ],
+        "ceiling_collision_underside": 6.0,
+        "floor_to_ceiling_without_trim": 5.95,
+        "note": "Floor footprint, not obstacle-free navigation rectangle"
+      },
+      {
+        "id": "vestibule",
+        "nominal_floor_x": [
+          -3,
+          3
+        ],
+        "nominal_floor_z": [
+          8,
+          11.4
+        ],
+        "floor_size_xz": [
+          6,
+          3.4000000000000004
+        ],
+        "ceiling_collision_underside": 3.8,
+        "floor_to_ceiling_without_trim": 3.75,
+        "note": "Floor footprint, not obstacle-free navigation rectangle"
+      }
+    ],
+    "connections": [
+      {
+        "id": "hall-porcelain",
+        "rooms": [
+          "hall",
+          "porcelain"
+        ],
+        "plane_axis": "x",
+        "plane_coordinate": -8,
+        "span_axis": "z",
+        "nominal_span": [
+          0,
+          3
+        ],
+        "jamb_clear_span": [
+          0.07,
+          2.93
+        ],
+        "collision_clear_width": 2.86
+      },
+      {
+        "id": "hall-taxidermy",
+        "rooms": [
+          "hall",
+          "taxidermy"
+        ],
+        "plane_axis": "x",
+        "plane_coordinate": 8,
+        "span_axis": "z",
+        "nominal_span": [
+          0,
+          3
+        ],
+        "jamb_clear_span": [
+          0.07,
+          2.93
+        ],
+        "collision_clear_width": 2.86
+      },
+      {
+        "id": "hall-kids",
+        "rooms": [
+          "hall",
+          "kids"
+        ],
+        "plane_axis": "z",
+        "plane_coordinate": -6,
+        "span_axis": "x",
+        "nominal_span": [
+          2.2,
+          3.9
+        ],
+        "jamb_clear_span": [
+          2.27,
+          3.83
+        ],
+        "collision_clear_width": 1.56
+      },
+      {
+        "id": "hall-vestibule",
+        "rooms": [
+          "hall",
+          "vestibule"
+        ],
+        "plane_axis": "z",
+        "plane_coordinate": 8,
+        "span_axis": "x",
+        "nominal_span": [
+          -1.5,
+          1.5
+        ],
+        "jamb_clear_span": [
+          -1.43,
+          1.43
+        ],
+        "collision_clear_width": 2.86
+      }
+    ],
+    "door_header_underside": 3.6,
+    "door_clear_height_above_floor": 3.55,
+    "jamb_depth_through_wall": 0.6,
+    "exterior_exit": {
+      "plane_z": 11.4,
+      "center_x": 0,
+      "width": 2.0,
+      "height": 3.8,
+      "depth": 0.22,
+      "state": "visibly and physically closed; no exterior level"
+    },
+    "central_plinth": {
+      "collision_center": [
+        0,
+        0.45,
+        -2.2
+      ],
+      "collision_size": [
+        7.6,
+        0.8,
+        3.0
+      ],
+      "collision_top": 0.85,
+      "collision_footprint_x": [
+        -3.8,
+        3.8
+      ],
+      "collision_footprint_z": [
+        -3.7,
+        -0.7
+      ],
+      "cosmetic_cap_center": [
+        0,
+        0.885,
+        -2.2
+      ],
+      "cosmetic_cap_size": [
+        7.78,
+        0.07,
+        3.18
+      ],
+      "cosmetic_cap_top": 0.92,
+      "cosmetic_cap_has_collision": false,
+      "note": "0.07m visual-cap height is not an additional gameplay support plane"
+    },
+    "skeleton_origin": [
+      0,
+      0.85,
+      -2.2
+    ],
+    "barrier_post_centers_xz": [
+      [
+        -4.6,
+        -4.3
+      ],
+      [
+        4.6,
+        -4.3
+      ],
+      [
+        -4.6,
+        -0.1
+      ],
+      [
+        4.6,
+        -0.1
+      ]
+    ],
+    "barrier_rope_center_y": 0.95,
+    "barrier_rope_has_collision": false,
+    "post_collision_size": [
+      0.06,
+      0.95,
+      0.06
+    ]
+  },
+  "source_action_envelopes": {
+    "movement_speed": 4.2,
+    "zoomies_speed": 9.5,
+    "zoomies_duration_seconds": 2.6,
+    "zoomies_cooldown_after_run_seconds": 6,
+    "zoomies_total_reactivation_seconds": 8.6,
+    "gravity": 22,
+    "jump_velocity": 6.9,
+    "grab_query_sphere": {
+      "center_relative_to_dog": {
+        "up": 0.85,
+        "forward": 0.55
+      },
+      "radius": 0.7,
+      "collision_mask": 2,
+      "max_results": 16,
+      "line_of_sight_mask": 1,
+      "note": "Query overlaps collider volume; this is not a promise that every point/object in the sphere is selectable"
+    },
+    "hold_target": "Mouth local transform; position recorded in dog field",
+    "hold_velocity_gain": 14,
+    "throw_impulse": {
+      "forward": 10,
+      "up": 2.6
+    },
+    "bark": {
+      "radius": 9,
+      "cooldown_seconds": 1.4
+    },
+    "visitor_knock": {
+      "dog_speed_above": 3,
+      "dog_to_root_distance_below": 1.25,
+      "prop_speed_above": 3,
+      "prop_to_root_distance_below": 1
+    },
+    "visitor_recovery_seconds": 6,
+    "visitor_recovery_immunity_seconds": 2,
+    "skeleton_run_hit": {
+      "dog_speed_min": 3.2,
+      "radius_rule": "max(box_size)/2 + 0.55, measured from dog origin to bone origin"
+    },
+    "skeleton_cascade_delay_seconds": 0.16,
+    "skeleton_complete_condition": "all 12 registered bones broken",
+    "damage_condition": "ordinary prop center falls >0.4 below its spawn center; once per prop",
+    "camera": {
+      "default_fov_degrees": 66,
+      "zoomies_fov_degrees": 78,
+      "user_requested_orbit_distance": [
+        1.4,
+        7
+      ],
+      "collision_can_shorten_below_min": true,
+      "pitch_radians": [
+        -0.12,
+        1.05
+      ],
+      "mouse_yaw_scale": 0.0038,
+      "mouse_pitch_scale": 0.003,
+      "scroll_step": 0.45,
+      "sweep_radius": 0.22,
+      "sweep_mask": 1,
+      "safe_fraction_backoff_metres": 0.02,
+      "anchor_relative_up": 0.45,
+      "unconstrained_focus_relative_up": 1.05,
+      "unconstrained_focus_relative_forward": 0.35,
+      "focus_and_camera_both_swept": true,
+      "note": "This orbit envelope does not guarantee its entire sphere is camera-accessible in furnished rooms"
+    }
+  },
+  "analytical_inferences_not_runtime_tests": {
+    "ideal_jump_height_above_launch": 1.0820454545454548,
+    "ideal_time_to_apex_seconds": 0.31363636363636366,
+    "ideal_same_level_airtime_seconds": 0.6272727272727273,
+    "grab_query_axis_extents_relative_to_dog": {
+      "up": [
+        0.15,
+        1.55
+      ],
+      "forward": [
+        -0.15,
+        1.25
+      ],
+      "side": [
+        -0.7,
+        0.7
+      ]
+    },
+    "caveats": [
+      "Jump estimates ignore timestep, contact, obstacles and early ceiling hits",
+      "Door dimensions are static collider openings; no route or comfort clearance is certified by this measurement",
+      "Runtime source units are not a metric claim derived from screenshots"
+    ]
+  },
+  "skeleton_collision_union": {
+    "min": [
+      -3.05499994754791,
+      0.850000023841855,
+      -2.9200000017881393
+    ],
+    "max": [
+      2.840000122785571,
+      3.599999964237216,
+      -1.4800000935792905
+    ],
+    "size": [
+      5.895000070333481,
+      2.7499999403953606,
+      1.4399999082088488
+    ],
+    "note": "Initial axis-aligned collider union; not combined visual mesh bounds. All initial bone basis matrices are identity."
+  },
+  "known_baseline_observations": [
+    {
+      "id": "kids-visitor-table-overlap",
+      "evidence": "kids-overview.png",
+      "status": "observed native overlap",
+      "details": "Authored child spawn (0.4,0,-10.6) lies inside craft table XZ footprint x[-2.7,2.7],z[-11.95,-10.45]. Standing actor is visually intersected by table when routes are paused; do not interpret this as intended seated pose."
+    },
+    {
+      "id": "dog-primitive-has-no-legs",
+      "status": "source-confirmed",
+      "details": "Native player uses capsule body/head/snout/ears/tail without leg meshes. A01 four-legged dog is approved art intent, not a native visual fact."
+    }
+  ],
+  "captured_at_local": "2026-10-27T18:59+08:00",
+  "capture_source_hashes_consistent": true
+}

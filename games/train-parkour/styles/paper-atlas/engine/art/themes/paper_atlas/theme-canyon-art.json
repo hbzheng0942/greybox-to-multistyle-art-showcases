@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "paper_atlas",
+  "status": "development",
+  "baseline": "art/themes/baselines/m1.7r2-unified-v2.json",
+  "application_scene": "game/scenes/app/spatial_full_r2_lab.tscn",
+  "camera_policy": "baseline",
+  "recipe": "art/themes/paper_atlas/recipe.json",
+  "catalog": "art/themes/catalog.json",
+  "presentation_script": "game/themes/paper_atlas/canyon_art.gd",
+  "render_profile": {
+    "mode": "native"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "83e4ce7decd624ef386b0e8f59bdf9312072cbb83cb3c9d0cd5e2858486fae3d",
+  "outputSha256": "5234a28d1cb848b5ab890571d99480e2430f6071dd1f21f3ca5f8782584ca2b1",
+  "labels": [
+    {
+      "labelId": "label-7b0403c52e87befc6269",
+      "instanceId": "instance-4259808d94d61a37af77",
+      "text": "FLOWERS",
+      "textSha256": "1a89584a7ab6d121e565de8f7df4ababe940bf01bc7e6212a755fcb61f5f998d",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "69843425dae643f02df17cb5267980ce0185e43e30a037546747dcdf373d9f12",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "83e4ce7decd624ef386b0e8f59bdf9312072cbb83cb3c9d0cd5e2858486fae3d",
+        "frameHash": "1d6c7b1a99dd0bfccc7b7f15c9ec45ca3b643b0753a55fdbca25aad1b6c1c2cb",
+        "center": [
+          -0.07951919634902671,
+          -0.2261679681253584
+        ],
+        "size": [
+          0.8660809321594407,
+          0.10939969669382409
+        ],
+        "evidencePath": "evidence/human_control_20261013/sign-faces/flower_shop-FLOWERS.png",
+        "evidenceHash": "26550c46fc2bf01d3cd850538f46d40c608c7610fc1b4c1521edf7bc9be116e4",
+        "pixelBounds": [
+          150,
+          193,
+          435,
+          229
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 1085,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "ea53527cca68f957659b1a3757bb068a428f85e999f1de8732f627d471529535",
+      "outputImageHash": "2aed403f95a150ab9f3f855bf7da7c4148df303ed369d782f0e136063eac0411",
+      "changedTexels": 1085,
+      "maskTexels": 1085,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "ef0f26af77b594946bcb32af4b05b0efaaaa1a858eb2611d314ab59fae06a9c8",
+  "preservedBinaryPrefixBytes": 6497748,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "odd_logistics",
+  "status": "development",
+  "baseline": "art/themes/baselines/m1.7r2-unified-v2.json",
+  "application_scene": "game/scenes/app/spatial_full_r2_lab.tscn",
+  "camera_policy": "baseline",
+  "recipe": "art/themes/odd_logistics/full_scene-recipe.json",
+  "catalog": "art/themes/pixel_skyline_v2/catalog.json",
+  "presentation_script": "game/themes/odd_logistics/full_scene_presentation.gd",
+  "render_profile": {
+    "mode": "native"
+  },
+  "production_stage": "B2 complete scene development; N01 retained, N03-N09 native review pending",
+  "lux3d_version": "G1"
+}

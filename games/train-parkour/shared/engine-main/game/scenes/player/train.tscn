@@ -1,0 +1,144 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/train_controller.gd" id="1_controller"]
+
+[sub_resource type="StandardMaterial3D" id="Material_body"]
+albedo_color = Color(0.78, 0.81, 0.85, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_body"]
+material = SubResource("Material_body")
+size = Vector3(2.6, 2.8, 12)
+
+[sub_resource type="StandardMaterial3D" id="Material_front"]
+albedo_color = Color(0.12, 0.62, 0.85, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_front"]
+material = SubResource("Material_front")
+size = Vector3(2.2, 1.1, 0.05)
+
+[sub_resource type="BoxShape3D" id="Shape_body"]
+size = Vector3(2.6, 3.4, 12)
+
+[sub_resource type="StandardMaterial3D" id="Material_dark"]
+albedo_color = Color(0.055, 0.10, 0.14, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Material_accent"]
+albedo_color = Color(0.10, 0.60, 0.64, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_band"]
+material = SubResource("Material_accent")
+size = Vector3(0.04, 0.3, 11.4)
+
+[sub_resource type="BoxMesh" id="Mesh_windows"]
+material = SubResource("Material_dark")
+size = Vector3(0.04, 1.0, 1.6)
+
+[sub_resource type="BoxMesh" id="Mesh_roof"]
+material = SubResource("Material_dark")
+size = Vector3(1.6, 0.22, 5.5)
+
+[sub_resource type="CylinderMesh" id="Mesh_wheel"]
+material = SubResource("Material_dark")
+top_radius = 0.33
+bottom_radius = 0.33
+height = 0.18
+radial_segments = 12
+rings = 1
+
+[node name="Train" type="CharacterBody3D"]
+process_mode = 1
+script = ExtResource("1_controller")
+collision_layer = 2
+collision_mask = 1
+
+[node name="VisualRoot" type="Node3D" parent="."]
+
+[node name="TrickPivot" type="Node3D" parent="VisualRoot"]
+position = Vector3(0, 1.7, 0)
+
+[node name="Geometry" type="Node3D" parent="VisualRoot/TrickPivot"]
+position = Vector3(0, -1.7, 0)
+
+[node name="Body" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(0, 1.9, 0)
+mesh = SubResource("Mesh_body")
+
+[node name="FrontMarker" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(0, 2.1, -6.01)
+mesh = SubResource("Mesh_front")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.7, 0)
+shape = SubResource("Shape_body")
+
+[node name="RearWindow" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(0, 2.1, 6.01)
+mesh = SubResource("Mesh_front")
+
+[node name="RoofVent" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(0, 3.4, 0)
+mesh = SubResource("Mesh_roof")
+
+[node name="LeftBand" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.305, 1.15, 0)
+mesh = SubResource("Mesh_band")
+
+[node name="LeftWindow0" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.305, 2.2, -4.3)
+mesh = SubResource("Mesh_windows")
+
+[node name="LeftWindow1" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.305, 2.2, -1.8)
+mesh = SubResource("Mesh_windows")
+
+[node name="LeftWindow2" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.305, 2.2, 0.7)
+mesh = SubResource("Mesh_windows")
+
+[node name="LeftWindow3" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.305, 2.2, 3.2)
+mesh = SubResource("Mesh_windows")
+
+[node name="LeftWheel0" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.23, 0.33, -3.8)
+rotation_degrees = Vector3(0, 0, 90)
+mesh = SubResource("Mesh_wheel")
+
+[node name="LeftWheel1" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(-1.23, 0.33, 3.8)
+rotation_degrees = Vector3(0, 0, 90)
+mesh = SubResource("Mesh_wheel")
+
+[node name="RightBand" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.305, 1.15, 0)
+mesh = SubResource("Mesh_band")
+
+[node name="RightWindow0" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.305, 2.2, -4.3)
+mesh = SubResource("Mesh_windows")
+
+[node name="RightWindow1" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.305, 2.2, -1.8)
+mesh = SubResource("Mesh_windows")
+
+[node name="RightWindow2" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.305, 2.2, 0.7)
+mesh = SubResource("Mesh_windows")
+
+[node name="RightWindow3" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.305, 2.2, 3.2)
+mesh = SubResource("Mesh_windows")
+
+[node name="RightWheel0" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.23, 0.33, -3.8)
+rotation_degrees = Vector3(0, 0, 90)
+mesh = SubResource("Mesh_wheel")
+
+[node name="RightWheel1" type="MeshInstance3D" parent="VisualRoot/TrickPivot/Geometry"]
+position = Vector3(1.23, 0.33, 3.8)
+rotation_degrees = Vector3(0, 0, 90)
+mesh = SubResource("Mesh_wheel")

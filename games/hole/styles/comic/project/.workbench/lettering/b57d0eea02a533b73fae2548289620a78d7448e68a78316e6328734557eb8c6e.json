@@ -1,0 +1,99 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "c8372bfa685f809a7433947f3599a64ec96d68363766559a34b99b96d3a59b06",
+  "outputSha256": "0659ade20806c11bf9382b541a3d96a95e9d8c4ec53f0fcb250e9a6244da3dbd",
+  "labels": [
+    {
+      "labelId": "label-9bb6dca8fd7ccbe49dcb",
+      "instanceId": "instance-9ef4f0a15ee8cfafc7b1",
+      "text": "鲜食",
+      "textSha256": "778cfba348dd378dc68e0f4b351cc20c0146a297ea4391c0742ddd9a6696fd7e",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "823f6c0ac05e92fd839bc53200327e0195e1c11f3c98efb3af1d97988607f698",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "c8372bfa685f809a7433947f3599a64ec96d68363766559a34b99b96d3a59b06",
+        "frameHash": "93a8cc22c25b252cd98143c39b983c404e83667b0b76dffb185a881a4d305bb1",
+        "center": [
+          -0.0005821320669716463,
+          -0.029040298211017668
+        ],
+        "size": [
+          0.30388252698868823,
+          0.06636514957224227
+        ],
+        "evidencePath": "evidence/assembly_repair_20261013/comic-sign-faces/street_blackboard-__.png",
+        "evidenceHash": "ffc1c58d9e10496393b565aef61426c065a93d49e4e5e23cf545d635f39cdaf0",
+        "pixelBounds": [
+          189,
+          177,
+          450,
+          234
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 2663,
+      "materials": [
+        0
+      ]
+    },
+    {
+      "labelId": "label-3989243261b669435d0c",
+      "instanceId": "instance-9ef4f0a15ee8cfafc7b1",
+      "text": "小食",
+      "textSha256": "9de22e2b22d8c81fea12b8427d48a60a564ecb37c55d3dd67b6a194d81589f1d",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "f4f6f5b967375b7971e5d854d5536733bd216fad89ae6b8a4f343d18ed3806bb",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "c8372bfa685f809a7433947f3599a64ec96d68363766559a34b99b96d3a59b06",
+        "frameHash": "846eeeb5355baf2fe628c6a2ecbff4a376746022375619d855da35b4e04d9d13",
+        "center": [
+          -0.0005821329411985594,
+          0.11095968748386725
+        ],
+        "size": [
+          0.30388252698868823,
+          0.06636514957224227
+        ],
+        "evidencePath": "evidence/assembly_repair_20261013/comic-sign-faces/street_blackboard-__.png",
+        "evidenceHash": "ffc1c58d9e10496393b565aef61426c065a93d49e4e5e23cf545d635f39cdaf0",
+        "pixelBounds": [
+          189,
+          177,
+          450,
+          234
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 1985,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "c3a8f1c1ad6f0139d303861dd1334a5b3b24bfe1daacb3ee27a14d987c6729c3",
+      "outputImageHash": "65820eddfc1dc38dbaae065e779d019f22a4b0b68c87c6255356eb0999f74d9c",
+      "changedTexels": 3093,
+      "maskTexels": 3093,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "dba7f8263975205ad628e7ee364304119107fbe4cd7602c8b35d4d997cca0568",
+  "preservedBinaryPrefixBytes": 6519056,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

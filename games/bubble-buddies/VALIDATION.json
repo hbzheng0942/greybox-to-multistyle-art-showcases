@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-30",
+  "engine": "Godot4.7.2",
+  "source_asset_import": "pass; clean generated cache created from staged source files",
+  "entries": [
+    {
+      "engine": "4.7.2-stable (official)",
+      "entry": "res://styles/greybox/play.tscn",
+      "human_acceptance": false,
+      "kind": "headless_package_entry_assembly_smoke",
+      "model_ready": true,
+      "ok": true,
+      "visual_review": false
+    },
+    {
+      "assembly_errors": [],
+      "bindings": 30,
+      "engine": "4.7.2-stable (official)",
+      "entry": "res://styles/d1-animal-city/play.tscn",
+      "human_acceptance": false,
+      "kind": "headless_package_entry_assembly_smoke",
+      "model_ready": true,
+      "ok": true,
+      "visual_review": false
+    }
+  ],
+  "limits": [
+    "Headless load/assembly checks do not verify rendered appearance, controls, performance or user acceptance.",
+    "Source and package revisions remain separate; public status does not infer H4/H5."
+  ],
+  "rendered_review": {
+    "entry": "res://styles/d1-animal-city/play.tscn",
+    "mode": "actual staged native clean preview after solo start",
+    "bindings": 30,
+    "assembly_errors": [],
+    "resolution": [
+      1280,
+      800
+    ],
+    "human_acceptance": false,
+    "limit": "Screenshot confirms development appearance/assembly only; complete art service-loop H4 and user signoff pending."
+  },
+  "recording_adapter": "Default clean presentation adapter added after screenshot; final headless checks verify labels/overlays hidden and start/pause menus preserved.",
+  "clean_recording_mode": {
+    "default": true,
+    "restore_flag": "--show-hud",
+    "explicit_clean_flag": "--showcase-clean",
+    "checks": [
+      {
+        "clean_enabled": true,
+        "entry": "res://styles/greybox/play.tscn",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "style": "",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      },
+      {
+        "clean_enabled": true,
+        "entry": "res://styles/d1-animal-city/play.tscn",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "style": "",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      },
+      {
+        "clean_enabled": true,
+        "entry": "",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "proxy_collision_signature_preserved": true,
+        "proxy_profile": "D01",
+        "style": "D01",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      },
+      {
+        "clean_enabled": true,
+        "entry": "",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "proxy_collision_signature_preserved": true,
+        "proxy_profile": "D03",
+        "style": "D03",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      },
+      {
+        "clean_enabled": true,
+        "entry": "",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "proxy_collision_signature_preserved": true,
+        "proxy_profile": "D05",
+        "style": "D05",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      },
+      {
+        "clean_enabled": true,
+        "entry": "",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "proxy_collision_signature_preserved": true,
+        "proxy_profile": "D10",
+        "style": "D10",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      }
+    ],
+    "native_pixels_of_adapter": "Presentation adapter added after native capture; it applies the same hiding policy. Final eight headless checks validate actual node visibility/menu preservation; no new performance claim."
+  }
+}

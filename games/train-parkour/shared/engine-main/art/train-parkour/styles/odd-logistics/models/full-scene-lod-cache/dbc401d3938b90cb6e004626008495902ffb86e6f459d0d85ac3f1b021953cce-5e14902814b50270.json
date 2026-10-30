@@ -1,0 +1,94 @@
+{
+  "base_index_count": 134952,
+  "base_triangles": 44984,
+  "base_vertex_count": 39535,
+  "cache_key": {
+    "bone_transforms": [],
+    "godot": "4.7.2-stable (official)",
+    "material_policy": "none",
+    "normal_merge_angle": 60.0,
+    "normal_split_angle": 25.0,
+    "schema": "b2-importer-mesh-lod/v1",
+    "source_sha256": "dbc401d3938b90cb6e004626008495902ffb86e6f459d0d85ac3f1b021953cce"
+  },
+  "cache_reused": false,
+  "compiler_sha256": "4010ee1b18f31473d965d92a4000fec1ec0b1b1c0b7a42bfc34bf7773d20ba90",
+  "lod_count": 3,
+  "lods": [
+    {
+      "index": 0,
+      "index_count": 67476,
+      "indices_sha256": "83b4d651187e27f465e16a10303a9c7be5a2810dc871220cd41396af66eb8d13",
+      "screen_size": 0.013587474822998047,
+      "triangles": 22492
+    },
+    {
+      "index": 1,
+      "index_count": 33738,
+      "indices_sha256": "2caf10c71cfa0cc2725647d926d6e0e3aafa8a32f27fa85b2ccb71d86b3eb4c7",
+      "screen_size": 0.04700670763850212,
+      "triangles": 11246
+    },
+    {
+      "index": 2,
+      "index_count": 16476,
+      "indices_sha256": "947489ceddbee793e21b94bfcbbd1dd2d698a9694873d29b70b59b774b75c2a7",
+      "screen_size": 2.1750917434692383,
+      "triangles": 5492
+    }
+  ],
+  "mesh": {
+    "path": "art/train-parkour/styles/odd-logistics/models/full-scene-lod-cache/dbc401d3938b90cb6e004626008495902ffb86e6f459d0d85ac3f1b021953cce-5e14902814b50270.res",
+    "sha256": "3b3b37bbbc291360153c2a5c4c41853e6021b57a34484253140acb006556434e"
+  },
+  "original_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "3e51a95a8a49d0a8b4b0792cbfddc13f2e65f3988366e0a4ea6a7c30e5bc5570",
+    "normals": "6ef0f689ceaf22569d91665a845d7ddab3beb253b71fbaf1f940f378b4582ce3",
+    "tangents": "99859bd5a1c603afa2df9ade7fff43c60ce837909591c0de97fa80a0b27ee7c8",
+    "uv": "13adea48a7002daf8be70c4a5b32fb0df95473699a17d2f26ab1843d6f64e157",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "00d73357498fae0d3de2a251075c074a12590b5e97af3ac4c645cac7566597f1",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "preservation": {
+    "base_aabb_exact": true,
+    "base_primitive_exact": true,
+    "external_resource_dependencies": 0,
+    "highest_lod_scope": "Exact source positions, UV0, index order, primitive and AABB; ArrayMesh normal/tangent encoding may change decoded attribute bits.",
+    "importer_base_arrays_exact": true,
+    "materials": 0,
+    "reencoded_attributes": [
+      "normals",
+      "tangents"
+    ],
+    "saved_roundtrip_arrays_exact": true,
+    "textures_copied": 0,
+    "vertices_uv_indices_exact": true
+  },
+  "saved_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "3e51a95a8a49d0a8b4b0792cbfddc13f2e65f3988366e0a4ea6a7c30e5bc5570",
+    "normals": "208d3fca9159c3cecefd47b392bc69ad4fa01928d9ea0c3af5104bba7fe1f508",
+    "tangents": "ec0e56c5a26dc48b41d68efc30eeae4f67ed05976357935dfe53e6d3cbc33e97",
+    "uv": "13adea48a7002daf8be70c4a5b32fb0df95473699a17d2f26ab1843d6f64e157",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "00d73357498fae0d3de2a251075c074a12590b5e97af3ac4c645cac7566597f1",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "source_geometry": {
+    "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-19-return_tower-single_offset_head/lod-v1/near.glb",
+    "sha256": "dbc401d3938b90cb6e004626008495902ffb86e6f459d0d85ac3f1b021953cce"
+  },
+  "status": "compiled"
+}

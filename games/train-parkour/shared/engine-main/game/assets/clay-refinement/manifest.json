@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "status": "authored_pending_native_review",
+  "assets": [
+    {
+      "id": "gallery-frame",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/gallery-frame.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        39.64999771118164,
+        13.899999618530273,
+        3.969999670982361
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "9b8b2efdf54040c677de4a21971e614a313b10e1a86e3288ec3bc0b69504d2e0",
+      "triangles": 4708
+    },
+    {
+      "id": "underpass-frame",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/underpass-frame.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        20.899999618530273,
+        13.199999809265137,
+        2.549999952316284
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "679434696ae08f5e2a5641f264fd3cda886c36ed31db74b844cd507b37b1f9c5",
+      "triangles": 3692
+    },
+    {
+      "id": "arcade-wall",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/arcade-wall.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        13.300000190734863,
+        12.625,
+        2.5999999046325684
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "6b736d08883558bd4c4388a47f670cdb2302dcd5393f4133df6df80e27834258",
+      "triangles": 2128
+    },
+    {
+      "id": "arched-niche",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/arched-niche.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        5.099999904632568,
+        5.550000190734863,
+        0.9999999701976776
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "067a51813c41a3b24665dc4f2bfdfc39f1cff73fbf31dff15fd99d0ffe021cd8",
+      "triangles": 3536
+    },
+    {
+      "id": "balustrade",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/balustrade.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        12.0,
+        2.5999999046325684,
+        0.9599999785423279
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "bb5156f5608ecbaf330240d16c47f6002c21d11c6a37a831d029c6b940846980",
+      "triangles": 2380
+    },
+    {
+      "id": "station-column",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/station-column.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        2.700000047683716,
+        9.950000762939453,
+        2.700000047683716
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "d44c09fdbb5e1e3346573f2ac27835c2d8ddd0e55cf02b0c85f4fae6b38661bb",
+      "triangles": 2032
+    },
+    {
+      "id": "domed-tower",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/domed-tower.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        7.0,
+        16.31999969482422,
+        7.0
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "574114185a59462f94d1115997336e9868dc4fd606061de43092945f27f2da7d",
+      "triangles": 5484
+    },
+    {
+      "id": "way-bollard",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/way-bollard.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        0.8399999737739563,
+        2.5199999809265137,
+        0.8399999737739563
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "07d08397a4d31596b441c6ebfe15ad9318fa8932914450862178eb2f480826a9",
+      "triangles": 1924
+    },
+    {
+      "id": "maintenance-block",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/maintenance-block.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        3.6500000953674316,
+        5.319999694824219,
+        2.899999976158142
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "e88c8fd67809ec720e54e317710d894e720b9bb12fbdcc89128e3a5a7630257f",
+      "triangles": 2544
+    },
+    {
+      "id": "maintenance-barrier",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/maintenance-barrier.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        3.6698050498962402,
+        3.472002387046814,
+        1.2000000476837158
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "dded595dc0e17aeef6482082c4614822ee1ba4419d4f0be9b19a8e179e48f0ec",
+      "triangles": 1504
+    },
+    {
+      "id": "wall-vent",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/wall-vent.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        3.799999952316284,
+        4.809999942779541,
+        1.5
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "af3f97e1c80a01cfb77e17c79d1e8a205e4bf982e65ea2ffb0b2bba5fe32e13c",
+      "triangles": 4252
+    },
+    {
+      "id": "platform-bench",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/platform-bench.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        3.200000047683716,
+        2.0749998092651367,
+        1.0499999523162842
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "c1a63b24c8a632bc0d1f7e35befc6db015ddc30d73f68a7b1cdbcebfe39f4380",
+      "triangles": 752
+    },
+    {
+      "id": "ceramic-lantern",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/ceramic-lantern.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        1.8138502836227417,
+        5.769999980926514,
+        1.8138502836227417
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "525e6eeb1c87d1833be2fa4e45b906a3c326fc2410bae0b90a5d021e84830f02",
+      "triangles": 3472
+    },
+    {
+      "id": "clay-carriage",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-refinement/clay-carriage.glb",
+      "source": "tools/art_workbench/build_clay_refinement.py",
+      "dimensions_godot_m": [
+        2.675999879837036,
+        2.869999885559082,
+        12.28000020980835
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "362cad4533c6b77031b81ccc1dcc5631704ab929e46ccfdefab6f0e76e76fa25",
+      "triangles": 6264
+    }
+  ]
+}

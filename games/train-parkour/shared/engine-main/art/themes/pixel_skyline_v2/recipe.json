@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "theme_id": "pixel_skyline_v2",
+  "seed": 20261013,
+  "assets": [],
+  "instances": [],
+  "authoring": "Blender scene is the spatial source. presentation.gd imports the independent sample_world.glb as one authored world; assets are registered recursively at runtime and recorded in the V2 source manifest."
+}

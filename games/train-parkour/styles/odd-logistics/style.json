@@ -1,0 +1,17 @@
+{
+  "id": "odd-logistics",
+  "name": "怪诞物流 / Odd Logistics B2",
+  "version": "full_scene / capture18 + suite03 Vulkan",
+  "engine": "main",
+  "descriptor": "art/themes/odd_logistics/full_scene-theme.json",
+  "scene": "odd_logistics",
+  "progress": "N01–N09 playable art prototype. Visual/human acceptance and stable performance remain open. Vulkan is the recorded working backend.",
+  "engine_root": "shared/engine-main/game",
+  "entry_scene": "res://showcase_entries/odd_logistics.tscn",
+  "status": "playable-development-candidate",
+  "thumbnail": "styles/odd-logistics/thumbnail.jpg",
+  "technical_validation": "native static launch verified; see validation/index.json",
+  "native_preview": "styles/odd-logistics/thumbnail.jpg",
+  "native_preview_sha256": "57fb9f4dd16ab565c27b32b8e9163420dedf241bad2b54a639096f7df0256183",
+  "native_preview_scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+}

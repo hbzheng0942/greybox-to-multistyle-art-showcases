@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "scope": "Existing concept/early assembly images and isolated editable components; not complete obsolete projects or live AI-generation footage",
+  "items": [
+    {
+      "style_id": "clay",
+      "role": "concept",
+      "path": "process/clay/concept.png",
+      "identity": "production-v1 station concept; visual target, not native output",
+      "sha256": "ee30c16f367c84f26329a99c0324f64ed3a619886bfd82bdf6f86f8b9264f74c",
+      "bytes": 2076279
+    },
+    {
+      "style_id": "clay",
+      "role": "early-assembly",
+      "path": "process/clay/early-assembly.png",
+      "identity": "production-v1 original native assembly; historical, not P21 final acceptance",
+      "sha256": "836b293f6a7e444a947ba819c47f4b57389c595cd6feb18b1493899833475312",
+      "bytes": 432466
+    },
+    {
+      "style_id": "pixel-v2",
+      "role": "concept",
+      "path": "process/pixel-v2/concept.png",
+      "identity": "Pixel V2 restart seven-node target board; concept, not gameplay",
+      "sha256": "d2d67ea190c8e6eb1b950728f9a76cd598c6d67080b8adde7982f618e7e5bd38",
+      "bytes": 2514016
+    },
+    {
+      "style_id": "pixel-v2",
+      "role": "early-assembly",
+      "path": "process/pixel-v2/early-assembly.jpg",
+      "identity": "Pixel V2 early sample, original main-720 recording at2s; historical assembly frame",
+      "sha256": "6b3eb680306ac6b600fda411c20479323d189e6cddd8c22743d992411f38acc0",
+      "bytes": 180389
+    },
+    {
+      "style_id": "paper-atlas",
+      "role": "concept",
+      "path": "process/paper-atlas/concept.png",
+      "identity": "Paper Atlas selected initial direction; concept, not native output",
+      "sha256": "3ecdbfde495e84681b943ad98ed05c82735988886d1fc393fff58e23ab42f9a3",
+      "bytes": 2553845
+    },
+    {
+      "style_id": "paper-atlas",
+      "role": "early-assembly",
+      "path": "process/paper-atlas/early-assembly.jpg",
+      "identity": "Paper early art-r1 native candidate; process-only predecessor to R9",
+      "sha256": "f70af71adc27547b64d6ecb285f48931a8d0fc3838b7393a16ec04e0686ae14b",
+      "bytes": 187991
+    },
+    {
+      "style_id": "odd-logistics",
+      "role": "concept",
+      "path": "process/odd-logistics/concept.png",
+      "identity": "B2 selected N02 full-route concept; image target, not gameplay",
+      "sha256": "f849eaceb2d998cc549e9d96298ef2d9b1ed440e6922b42325d6d3b0447b063c",
+      "bytes": 2213858
+    },
+    {
+      "style_id": "odd-logistics",
+      "role": "early-assembly",
+      "path": "process/odd-logistics/early-assembly.jpg",
+      "identity": "2026-10-20 S6 native proxy massing; process image, not final B2 art",
+      "sha256": "86752a6cf3e0f21701bf1350b73ac4a5061446f47f58364e0d9656d81f506d9c",
+      "bytes": 108030
+    },
+    {
+      "style_id": "halloween-comic",
+      "role": "concept",
+      "path": "process/halloween-comic/concept.png",
+      "identity": "Selected H07 concept direction; image target, not native output",
+      "sha256": "d950de9ce56809cae94c3b1c3e28591cde4af238949364521b5e742c0e9231d2",
+      "bytes": 2429707
+    },
+    {
+      "style_id": "halloween-comic",
+      "role": "early-assembly",
+      "path": "process/halloween-comic/early-assembly.jpg",
+      "identity": "H07 early native production-v2 sample, before current full city08/T2/readability combination",
+      "sha256": "10bc8d290517a0a80811e6f101de1106be688e778fe386bd09e6d51a839cf4c4",
+      "bytes": 342169
+    },
+    {
+      "style_id": "clay",
+      "role": "editable-component",
+      "path": "process/models/clay-rail-sleeper.glb",
+      "identity": "Authored production-v1 reusable geometry, still referenced by P21; editable kit component.",
+      "sha256": "223ed5a65db0f119acb8f6e66894039fa71398c60444745f9f624c86e284a359",
+      "bytes": 6092
+    },
+    {
+      "style_id": "pixel-v2",
+      "role": "editable-component",
+      "path": "process/models/pixel-current-concourse.glb",
+      "identity": "Current V2 editable concourse component; this is not a recovered historical rough-world project.",
+      "sha256": "8e78b06ec8e7a07d0277d237c3542f273913c913a5ff3dcebd89c3dd40db9d2c",
+      "bytes": 2665856
+    },
+    {
+      "style_id": "paper-atlas",
+      "role": "editable-component",
+      "path": "process/models/paper-early-sample-world.glb",
+      "identity": "Initial Paper sample geometry inherited by the R9 scene builder; isolated editable component.",
+      "sha256": "8dd7e7f54386ee265c617d44d3821c4d867146a6e93c89642502b15b6f99b552",
+      "bytes": 1737592
+    },
+    {
+      "style_id": "odd-logistics",
+      "role": "editable-component",
+      "path": "process/models/b2-proxy-kit.glb",
+      "identity": "S6 six-module editable proxy kit, reused by current B2 runtime.",
+      "sha256": "47b90b2c983b5b4231f10cee72f4666d3a71dea8c5db9e9558ca7517cc5867ca",
+      "bytes": 163600
+    },
+    {
+      "style_id": "halloween-comic",
+      "role": "editable-component",
+      "path": "process/models/h07-current-t2-train.glb",
+      "identity": "Current editable T2 train asset with local face refinement; not a standalone early scene. H07 rough environment is authored in the included procedural source/layout.",
+      "sha256": "be3f3288a9a952f1c773f17b28e19d391a0f832a4cb571f94d75ac99845aaca9",
+      "bytes": 9537252
+    }
+  ]
+}

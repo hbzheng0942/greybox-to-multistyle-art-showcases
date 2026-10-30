@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000" role="img" aria-label="A01 剖面与支撑接口"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8" fill="#d86423"/></marker><marker id="dim" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M7,0 L0,3.5 L7,7" fill="none" stroke="#566570"/></marker></defs><rect x="0" y="0" width="1500" height="1000" fill="#faf8f1"/><g font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" fill="#253d49">
+<text x="54" y="58" font-size="32" font-weight="700" fill="#253d49" text-anchor="start">A01 · 高度、支撑与门洞剖面</text>
+<text x="54" y="91" font-size="18" font-weight="400" fill="#253d49" text-anchor="start">黑／灰：原生事实　蓝：碰撞包络　橙：允许的美术处理　红：禁止侵入净空</text>
+<rect x="1180" y="40" width="265" height="42" rx="10" fill="#ffe5cb" stroke="none" stroke-width="1" />
+<text x="1312" y="67" font-size="17" font-weight="600" fill="#9a481d" text-anchor="middle">H2 设计草案 · 待确认</text>
+<text x="54" y="145" font-size="20" font-weight="700" fill="#253d49" text-anchor="start">A · 中庭 X–Y 高度投影（非实体剖切）</text>
+<rect x="106" y="202.5" width="688" height="552.5" rx="0" fill="#f0e8db" stroke="none" stroke-width="1" />
+<rect x="99.55000000000001" y="202.5" width="12.9" height="552.5" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="787.55" y="202.5" width="12.9" height="552.5" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="106" y="183.0" width="688" height="19.5" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="106" y="751.75" width="688" height="19.5" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="286.6" y="699.75" width="326.8" height="52.0" rx="0" fill="#c9ac86" stroke="#725e47" stroke-width="1.5" />
+<rect x="282.73" y="695.2" width="334.54" height="4.550000000000001" rx="0" fill="#b65c3e" stroke="none" stroke-width="1" />
+<rect x="318.635" y="521.0" width="253.48499999999999" height="178.75" rx="0" fill="#dcebf0" stroke="#327c9b" stroke-width="2" stroke-dasharray="8 5"/>
+<rect x="388.93999992311" y="587.9499965906145" width="14.620000153779998" height="111.80000185966495" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="388.93999992311" y="587.9499965906145" width="14.620000153779998" height="111.80000185966495" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="496.43999992311" y="587.9499965906145" width="14.620000153779998" height="111.80000185966495" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="496.43999992311" y="587.9499965906145" width="14.620000153779998" height="111.80000185966495" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="376.90000051259995" y="552.1999880671503" width="38.6999989748001" height="41.59999907016753" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="487.41000020504" y="542.4499934911729" width="32.67999958992005" height="48.1000006198883" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="383.3500020503997" y="541.4749963581562" width="133.29999589920052" height="12.34999984502791" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="412.37500256299967" y="552.5249916315081" width="101.04999589920051" height="68.2499969005582" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="505.47000092267996" y="528.7999987602232" width="26.660000205039996" height="32.5" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="523.1000020504" y="521.0000023245809" width="43.0" height="40.30000030994418" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="532.5600045621396" y="559.3499938398601" width="39.560000717639944" height="14.299999922513955" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<rect x="318.6350022554399" y="558.7000060826539" width="66.64999794960003" height="22.100000232458136" rx="0" fill="none" stroke="#7aa1b0" stroke-width="1" />
+<text x="450" y="605.5" font-size="16" font-weight="600" fill="#22647f" text-anchor="middle">12 段既有碰撞盒</text>
+<line x1="643.5" y1="699.75" x2="643.5" y2="521.0" stroke="#327c9b" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="655.5" y="615.25" font-size="18" font-weight="600" fill="#22647f" text-anchor="start">2.75 m</text>
+<text x="655.5" y="637.25" font-size="14" font-weight="400" fill="#253d49" text-anchor="start">碰撞并集高度</text>
+<line x1="140.39999999999998" y1="751.75" x2="140.39999999999998" y2="202.5" stroke="#566570" stroke-width="1.2" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="155.45" y="410.5" font-size="18" font-weight="600" fill="#253d49" text-anchor="start">8.45 m</text>
+<text x="155.45" y="433.5" font-size="14" font-weight="400" fill="#253d49" text-anchor="start">地面至顶板</text>
+<text x="450" y="232.5" font-size="17" font-weight="600" fill="#253d49" text-anchor="middle">天花板碰撞底 y=8.50</text>
+<line x1="286.6" y1="699.75" x2="145" y2="840" stroke="#725e47" stroke-width="1.2" />
+<text x="76" y="868" font-size="18" font-weight="600" fill="#253d49" text-anchor="start">物理支撑顶 y=0.85</text>
+<text x="76" y="893" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">盖板外壳不能改变支撑高度</text>
+<line x1="617.27" y1="695.2" x2="680" y2="840" stroke="#b65c3e" stroke-width="1.2" />
+<text x="540" y="868" font-size="18" font-weight="600" fill="#a54832" text-anchor="start">旧装饰盖板顶 y=0.92</text>
+<text x="540" y="893" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">高 0.07 m，无碰撞；接触需重对齐</text>
+<text x="450" y="786" font-size="17" font-weight="600" fill="#253d49" text-anchor="middle">地板碰撞顶 y=0.05</text>
+<text x="940" y="145" font-size="20" font-weight="700" fill="#253d49" text-anchor="start">B · 门厅—中庭门洞（X=0）</text>
+<rect x="960" y="260.0" width="435.20000000000005" height="420.0" rx="0" fill="#f1e7d7" stroke="none" stroke-width="1" />
+<rect x="1164" y="270.00000000000006" width="231.2" height="30.0" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="1153.8" y="260.0" width="20.4" height="60.0" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="1387.7199999999998" y="300.0" width="14.96" height="380.0" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<rect x="960" y="675.0" width="435.20000000000005" height="30.0" rx="0" fill="#586873" stroke="none" stroke-width="1" />
+<line x1="960" y1="320.0" x2="1395.2" y2="320.0" stroke="#327c9b" stroke-width="1.3" stroke-dasharray="6 4"/>
+<rect x="1142.92" y="302.0" width="42.16" height="16.0" rx="7" fill="#e78b45" stroke="#a34f22" stroke-width="1.2" />
+<rect x="1142.92" y="321.0" width="42.16" height="33.0" rx="8" fill="#fae0db" stroke="#b84236" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="1010" y="235" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">中庭顶在图上方：y=8.50</text>
+<text x="1176" y="256.00000000000006" font-size="16" font-weight="600" fill="#253d49" text-anchor="start">门厅顶板底 y=3.80</text>
+<line x1="1245.6" y1="300.0" x2="1245.6" y2="320.0" stroke="#d86423" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="1257.6" y="314.0" font-size="18" font-weight="700" fill="#9a481d" text-anchor="start">仅 0.20 m</text>
+<line x1="1320.4" y1="675.0" x2="1320.4" y2="320.0" stroke="#327c9b" stroke-width="1.3" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="1204.8" y="470.0" font-size="20" font-weight="700" fill="#22647f" text-anchor="start">净高 3.55 m</text>
+<text x="973.6" y="375.0" font-size="14" font-weight="600" fill="#a54832" text-anchor="start">不向门洞悬挂气管</text>
+<line x1="1075.6" y1="368.0" x2="1150.4" y2="338.0" stroke="#b84236" stroke-width="1.2" />
+<text x="973.6" y="560.0" font-size="20" font-weight="700" fill="#253d49" text-anchor="start">中庭</text>
+<text x="1198.0" y="560.0" font-size="20" font-weight="700" fill="#253d49" text-anchor="start">门厅</text>
+<text x="980" y="730" font-size="17" font-weight="600" fill="#9a481d" text-anchor="start">橙色薄扁包边：全部留在 y≥3.60</text>
+<text x="980" y="760" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">侧柱向实墙侧鼓起；不改墙／地／门碰撞</text>
+<text x="980" y="790" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">门柱净宽：常规 2.86 m；儿童入口 1.56 m</text>
+<text x="980" y="820" font-size="16" font-weight="600" fill="#253d49" text-anchor="start">不加门槛、骨架支杆或围绳碰撞。</text>
+<text x="54" y="950" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">来源：native-facts.json。骨架外观、气囊轮廓与厚度须通过设计后原生探针核对；本图不宣告样板已通过。</text>
+</g></svg>

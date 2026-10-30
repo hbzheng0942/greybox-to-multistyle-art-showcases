@@ -1,0 +1,203 @@
+{
+  "package_revision": "integrated-skeletal-20261030",
+  "scope": "controlled full-environment museum fixture; unrelated props frozen; actual native motor/E/grab/throw/R and visitor patrol/ragdoll/recovery run through a trusted driver; six adult skins and one dog skin, children/staff new rigs pending",
+  "human_playtest": false,
+  "performance_certification": false,
+  "overlay_ui": "hidden; phases kept in sidecar",
+  "native_resolution": [
+    1280,
+    720
+  ],
+  "videos": [
+    {
+      "file": "visitors.mp4",
+      "frames": "347",
+      "duration_sec": "11.566667",
+      "sha256": "f6123039c2b9a333c63f49fd741789eb54a1a67a6084f89d570a59eb516f2732",
+      "audio": "none; frame-sequence native QA recording"
+    },
+    {
+      "file": "dog-carry.mp4",
+      "frames": "234",
+      "duration_sec": "7.800000",
+      "sha256": "14c7affeec3c7a3eab64e945558a02ca6d6d922155d4d0c0b1da4fa71b8c4801",
+      "audio": "none; frame-sequence native QA recording"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "scene_assembled_without_failure",
+      "passed": true
+    },
+    {
+      "id": "six_actual_adult_skeletal_visitors",
+      "passed": true
+    },
+    {
+      "id": "one_actual_adult_appearance_resource",
+      "passed": true
+    },
+    {
+      "id": "dog_27_bones",
+      "passed": true
+    },
+    {
+      "id": "visitor_skin_camera_hulls_registered",
+      "passed": true
+    },
+    {
+      "id": "three_original_bodies_网红",
+      "passed": true
+    },
+    {
+      "id": "actual_skin_and_base_clips_网红",
+      "passed": true
+    },
+    {
+      "id": "old_meshes_hidden_网红",
+      "passed": true
+    },
+    {
+      "id": "three_original_bodies_老爷爷",
+      "passed": true
+    },
+    {
+      "id": "actual_skin_and_base_clips_老爷爷",
+      "passed": true
+    },
+    {
+      "id": "old_meshes_hidden_老爷爷",
+      "passed": true
+    },
+    {
+      "id": "three_original_bodies_瓷器迷",
+      "passed": true
+    },
+    {
+      "id": "actual_skin_and_base_clips_瓷器迷",
+      "passed": true
+    },
+    {
+      "id": "old_meshes_hidden_瓷器迷",
+      "passed": true
+    },
+    {
+      "id": "three_original_bodies_情侣",
+      "passed": true
+    },
+    {
+      "id": "actual_skin_and_base_clips_情侣",
+      "passed": true
+    },
+    {
+      "id": "old_meshes_hidden_情侣",
+      "passed": true
+    },
+    {
+      "id": "three_original_bodies_猎奇青年",
+      "passed": true
+    },
+    {
+      "id": "actual_skin_and_base_clips_猎奇青年",
+      "passed": true
+    },
+    {
+      "id": "old_meshes_hidden_猎奇青年",
+      "passed": true
+    },
+    {
+      "id": "three_original_bodies_背包客",
+      "passed": true
+    },
+    {
+      "id": "actual_skin_and_base_clips_背包客",
+      "passed": true
+    },
+    {
+      "id": "old_meshes_hidden_背包客",
+      "passed": true
+    },
+    {
+      "id": "native_patrol_walk_observed",
+      "passed": true
+    },
+    {
+      "id": "idle_observed",
+      "passed": true
+    },
+    {
+      "id": "native_gag_clap_observed",
+      "passed": true
+    },
+    {
+      "id": "native_knockdown_skin_observed",
+      "passed": true
+    },
+    {
+      "id": "native_recovery_observed",
+      "passed": true
+    },
+    {
+      "id": "R_restores_all_visitors",
+      "passed": true
+    },
+    {
+      "id": "R_clears_score_and_held",
+      "passed": true
+    },
+    {
+      "id": "E_acquired_original_neck",
+      "passed": true
+    },
+    {
+      "id": "Space_released_neck",
+      "passed": true
+    },
+    {
+      "id": "dog_head_neutral_during_real_states",
+      "passed": true
+    },
+    {
+      "id": "Mouth_transform_unchanged",
+      "passed": true
+    },
+    {
+      "id": "final_all_visitors_restored",
+      "passed": true
+    },
+    {
+      "id": "camera_skin_hulls_remain_registered",
+      "passed": true
+    },
+    {
+      "id": "source_and_asset_hashes_unchanged",
+      "passed": true
+    }
+  ],
+  "actual_tree_counts": {
+    "AnimationPlayer": 0,
+    "AnimationTree": 0,
+    "BoneAttachment3D": 0,
+    "Skeleton3D": 7,
+    "skinned_meshes": 19
+  },
+  "actual_bone_pose_hashes": {
+    "dog_unique": 55,
+    "adult_unique": 109
+  },
+  "stable_carry_samples": 28,
+  "maximum_stable_bite_error_m": 3.62560911071341e-07,
+  "source_asset_hashes_unchanged": true,
+  "visual_review": {
+    "seen": [
+      "adult connected walk pose",
+      "adult skeletal clap",
+      "dog actual skin with held native neck bone",
+      "dog carrying walk",
+      "reset restored dog and skin binding"
+    ],
+    "limits": [
+      "NPCs partly occlude the controlled knockdown/carry camera at some moments; no complete camera-route or final art acceptance claim."
+    ]
+  }
+}

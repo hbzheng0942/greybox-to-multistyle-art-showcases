@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "aa6e16764560dc6128eef4331a0146161d5b45fc13812e3a04eb304834164921",
+  "outputSha256": "74feb8bae6f26dee7020c7f40298abb9cec0d36fe1e33bc761c7d2ff45a90f0c",
+  "labels": [
+    {
+      "labelId": "label-956524f2cd4355a4c724",
+      "instanceId": "instance-2251f33be540bd905a8e",
+      "text": "CORNER",
+      "textSha256": "511af92a90cc814cd866f1b1b5ff30fa998d309fbdb1e32786d64445b822f594",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "3389e531313bef70cae51d9ea0bb41ca23b5cd6022e788b117aae5725a92f222",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "aa6e16764560dc6128eef4331a0146161d5b45fc13812e3a04eb304834164921",
+        "frameHash": "e45ca00b2587d8d4930d64a056bf20a9322f34e979b1118764a38eb14a51ec5b",
+        "center": [
+          -0.001751235188795437,
+          -0.004306063760960932
+        ],
+        "size": [
+          0.8083077218180335,
+          0.15083254139188185
+        ],
+        "evidencePath": "evidence/human_control_20261013/sign-faces/general_shop-CORNER.png",
+        "evidenceHash": "a9a5f75994761d68b41ab812c0742924a756c60d3de54d235d34bce8f8ce9b0b",
+        "pixelBounds": [
+          214,
+          172,
+          423,
+          211
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 1973,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "726bd48cb70cb1ade5065ce10a2f3b5c627d437aa98c6b2f8d79b01baf7748fa",
+      "outputImageHash": "d1d019df05dc6d6c9657c0399fa23f5a08b232985be70cec1aaebc09eb1c6f9b",
+      "changedTexels": 1973,
+      "maskTexels": 1973,
+      "inkColor": [
+        37,
+        47,
+        51
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "a283418b8a2f589a9089f3a58d08b5ef3cb18cbe9321595cfd073d4240bdac91",
+  "preservedBinaryPrefixBytes": 7218304,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

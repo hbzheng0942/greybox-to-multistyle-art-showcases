@@ -1,0 +1,1 @@
+../../../../../../shared/engine-main/game/scripts/gameplay/lane_gate.gd

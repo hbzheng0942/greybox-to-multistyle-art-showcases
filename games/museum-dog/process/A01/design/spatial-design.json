@@ -1,0 +1,73 @@
+{
+  "case_id": "museum-dog",
+  "style_id": "A01",
+  "stage": "H2-design-draft",
+  "user_h2_accepted": false,
+  "h1_selection": "Inherited user selection of A01, A04, A08; priority A01",
+  "native_facts_sha256": "dc51caa4876b8723a462a3dc5a8d37a2c45dc0f5a8b56d80d2cd69e7713a52c9",
+  "approved_direction": {
+    "path": "private-source-reference-omitted",
+    "sha256": "fdb734e07f2f93668d9f6434af4e10f7876ec15315469db37de4375a8c719a8b"
+  },
+  "generated_by": "deterministic SVG coordinates from native-facts.json; no image generation",
+  "artifacts": {
+    "plan.svg": {
+      "sha256": "75f8dacfe57758fca72a8db5d8a42cf1c3120c187c0e352d2e996021209c7b19",
+      "bytes": 42650
+    },
+    "section.svg": {
+      "sha256": "1f5786cba9d2a40ec61e208c86ff972a2e2730ae20ebb5111a67ac0ee0d46b72",
+      "bytes": 9105
+    },
+    "spatial-design.md": {
+      "sha256": "40e701540a169a8ff1f8ab65439eecb964b07a54994246322ce4960b14406141",
+      "bytes": 6990
+    }
+  },
+  "inspection": {
+    "plan": "Original full raster inspected; correction-status label re-rendered and visually checked, geometry unchanged",
+    "section": "Rendered with sips and opened actual raster preview; central support and low-vestibule header details readable"
+  },
+  "scope_limits": [
+    "Not a native gameplay clearance certificate",
+    "Concept images are style/design references, not geometry authority",
+    "Original shared greybox child/table and child/soft-block overlaps are retained as baseline facts; A01 proxy instance spawns/routes/recovery were corrected and bounded-tested, not a global gameplay source change"
+  ],
+  "kids_variant_correction": {
+    "status": "implemented-and-bounded-tested-in-A01-proxy-only",
+    "evidence": "art/museum-dog/styles/A01/proxy/kids-route-check.json",
+    "sha256": "8565cb47a6512542510db429958bd5dc0d16e53bf07852689685b072b5cb48d4",
+    "shared_gameplay_source_changed": false,
+    "plan_geometry_changed": false,
+    "spawns": [
+      [
+        0.4,
+        0,
+        -9.8
+      ],
+      [
+        0.4,
+        0,
+        -8.2
+      ]
+    ],
+    "route_xz": [
+      [
+        0.4,
+        -8.2
+      ],
+      [
+        2.4,
+        -8.2
+      ],
+      [
+        2.4,
+        -9.8
+      ],
+      [
+        0.4,
+        -9.8
+      ]
+    ]
+  }
+}

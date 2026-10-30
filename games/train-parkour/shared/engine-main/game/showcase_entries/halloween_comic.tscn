@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://showcase_entry.gd" id="1"]
+
+[node name="TrainParkourShowcase" type="Node"]
+script = ExtResource("1")
+style_label = "酸色漫画鬼节 / H07 Halloween"
+descriptor = "art/themes/halloween_festival/integrated-theme.json"

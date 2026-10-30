@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://showcase_entry.gd" id="1"]
+
+[node name="TrainParkourShowcase" type="Node"]
+script = ExtResource("1")
+style_label = "像素天际线 / Pixel Skyline V2"
+descriptor = "art/themes/pixel_skyline_v2/theme.json"
+pixel_scale = 2

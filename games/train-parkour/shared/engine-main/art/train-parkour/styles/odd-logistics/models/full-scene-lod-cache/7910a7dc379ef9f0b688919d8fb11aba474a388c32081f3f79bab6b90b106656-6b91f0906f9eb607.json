@@ -1,0 +1,80 @@
+{
+  "base_index_count": 53745,
+  "base_triangles": 17915,
+  "base_vertex_count": 24464,
+  "cache_key": {
+    "bone_transforms": [],
+    "godot": "4.7.2-stable (official)",
+    "material_policy": "none",
+    "normal_merge_angle": 60.0,
+    "normal_split_angle": 25.0,
+    "schema": "b2-importer-mesh-lod/v1",
+    "source_sha256": "7910a7dc379ef9f0b688919d8fb11aba474a388c32081f3f79bab6b90b106656"
+  },
+  "cache_reused": false,
+  "compiler_sha256": "4010ee1b18f31473d965d92a4000fec1ec0b1b1c0b7a42bfc34bf7773d20ba90",
+  "lod_count": 1,
+  "lods": [
+    {
+      "index": 0,
+      "index_count": 26559,
+      "indices_sha256": "9b339bb0b00712d14ef6beb988fc4fd21643deb7157bd83ef631571aa5558286",
+      "screen_size": 0.28787532448768616,
+      "triangles": 8853
+    }
+  ],
+  "mesh": {
+    "path": "art/train-parkour/styles/odd-logistics/models/full-scene-lod-cache/7910a7dc379ef9f0b688919d8fb11aba474a388c32081f3f79bab6b90b106656-6b91f0906f9eb607.res",
+    "sha256": "169a2c3c11830c33b1657f6c59291b39b2084e2e20c99f1863cdcacf3052a55d"
+  },
+  "original_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "4b3536678edba64ffff0237c472bb51a446059b454916c60b51daa6b1f9bb561",
+    "normals": "c0914b6e2ed0509d65b21b36a255c038700bd37b0da08a40d12483761263184f",
+    "tangents": "7e59cc205b013a13990cd81ce127dd677b1b0469e947cd64c8e8515432ee1114",
+    "uv": "a38aab72d6bc96b1931cd08d68dd7ed038655ea5b0323a5047f9d51fe0a27ccd",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "13d059f00a62e8003d4a3f6e7f2899ceee087ba370a715cd467e24af268bff37",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "preservation": {
+    "base_aabb_exact": true,
+    "base_primitive_exact": true,
+    "external_resource_dependencies": 0,
+    "highest_lod_scope": "Exact source positions, UV0, index order, primitive and AABB; ArrayMesh normal/tangent encoding may change decoded attribute bits.",
+    "importer_base_arrays_exact": true,
+    "materials": 0,
+    "reencoded_attributes": [
+      "normals",
+      "tangents"
+    ],
+    "saved_roundtrip_arrays_exact": true,
+    "textures_copied": 0,
+    "vertices_uv_indices_exact": true
+  },
+  "saved_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "4b3536678edba64ffff0237c472bb51a446059b454916c60b51daa6b1f9bb561",
+    "normals": "ea806f79b49df853255589261fc22eba4d2c37eb2319078585d62fefa51adc47",
+    "tangents": "105eb993dc20b02270e826d2020a1ae2ddfb563354ae5ce2bf372948945c1555",
+    "uv": "a38aab72d6bc96b1931cd08d68dd7ed038655ea5b0323a5047f9d51fe0a27ccd",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "13d059f00a62e8003d4a3f6e7f2899ceee087ba370a715cd467e24af268bff37",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "source_geometry": {
+    "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/lod-v1/near.glb",
+    "sha256": "7910a7dc379ef9f0b688919d8fb11aba474a388c32081f3f79bab6b90b106656"
+  },
+  "status": "compiled"
+}

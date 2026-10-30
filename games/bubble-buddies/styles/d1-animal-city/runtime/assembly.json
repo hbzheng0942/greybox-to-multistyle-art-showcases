@@ -1,0 +1,1156 @@
+{
+  "schema": 1,
+  "style": "d1-animal-city",
+  "source_scene": "res://styles/d1-animal-city/play.tscn",
+  "contract": {
+    "scene": "res://styles/d1-animal-city/play.tscn",
+    "camera": "SharedCamera"
+  },
+  "effects": {
+    "lighting": {
+      "light_path": "KeyLight",
+      "sun_rotation": [
+        -63,
+        -32,
+        0
+      ],
+      "sun_energy": 1.42,
+      "color": [
+        1.0,
+        0.93,
+        0.8
+      ],
+      "shadows": true,
+      "shadow_softness": 1.35,
+      "shadow_blur": 1.6,
+      "shadow_max_distance": 32.0,
+      "sky": false,
+      "background_color": [
+        0.06,
+        0.11,
+        0.15
+      ],
+      "ambient_color": [
+        0.92,
+        0.93,
+        0.94
+      ],
+      "ambient_energy": 0.58,
+      "exposure": 1.0,
+      "tonemap": "agx",
+      "ssao": true,
+      "ssao_radius": 1.55,
+      "ssao_intensity": 2.55,
+      "ssao_power": 1.9,
+      "ssao_detail": 0.7,
+      "ssao_light_affect": 0.25,
+      "ssil": true,
+      "ssil_radius": 3.2,
+      "ssil_intensity": 0.85,
+      "glow": true,
+      "glow_intensity": 0.3,
+      "glow_threshold": 1.0,
+      "glow_bloom": 0.03,
+      "saturation": 1.12,
+      "contrast": 1.05
+    }
+  },
+  "bindings": [
+    {
+      "id": "b-eq-bath-wash0",
+      "owner": "wash0",
+      "hide": [
+        "wash0/Visual",
+        "wash0Top",
+        "wash0Water",
+        "wash0TapStem",
+        "wash0Tap",
+        "wash0Highlight/Edge2",
+        "wash0Highlight/Edge3",
+        "wash0Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.25
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-bath/model-56936d3482e3cac9.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-bath"
+    },
+    {
+      "id": "b-eq-bath-wash1",
+      "owner": "wash1",
+      "hide": [
+        "wash1/Visual",
+        "wash1Top",
+        "wash1Water",
+        "wash1TapStem",
+        "wash1Tap",
+        "wash1Highlight/Edge2",
+        "wash1Highlight/Edge3",
+        "wash1Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.25
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-bath/model-56936d3482e3cac9.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-bath"
+    },
+    {
+      "id": "b-eq-receive-large-intake0",
+      "owner": "intake0",
+      "hide": [
+        "intake0/Visual",
+        "intake0Top",
+        "intake0Highlight/Edge2",
+        "intake0Highlight/Edge3",
+        "intake0Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.25
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-receive-large/model-73b20e3c673de757.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-receive-large"
+    },
+    {
+      "id": "b-eq-receive-large-intake1",
+      "owner": "intake1",
+      "hide": [
+        "intake1/Visual",
+        "intake1Top",
+        "intake1Highlight/Edge2",
+        "intake1Highlight/Edge3",
+        "intake1Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.25
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-receive-large/model-73b20e3c673de757.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-receive-large"
+    },
+    {
+      "id": "b-eq-receive-large-intake2",
+      "owner": "intake2",
+      "hide": [
+        "intake2/Visual",
+        "intake2Top",
+        "intake2Highlight/Edge2",
+        "intake2Highlight/Edge3",
+        "intake2Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.25
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-receive-large/model-73b20e3c673de757.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-receive-large"
+    },
+    {
+      "id": "b-eq-pawcare-treatment",
+      "owner": "treatment",
+      "hide": [
+        "treatment/Visual",
+        "treatmentTop",
+        "treatmentHighlight/Edge2",
+        "treatmentHighlight/Edge3",
+        "treatmentHighlight/Edge4",
+        "TreatmentHood/HoodPost",
+        "TreatmentHood/HoodPost2",
+        "TreatmentHood/CanopyRib",
+        "TreatmentHood/CanopyRib2",
+        "TreatmentHood/CanopyRib3",
+        "TreatmentHood/CanopyRib4",
+        "TreatmentHood/CanopyRib5",
+        "TreatmentHood/CanopyRib6",
+        "TreatmentHood/HoodPost3",
+        "TreatmentHood/HoodPost4",
+        "TreatmentHood/CanopyRib7",
+        "TreatmentHood/CanopyRib8",
+        "TreatmentHood/CanopyRib9",
+        "TreatmentHood/CanopyRib10",
+        "TreatmentHood/CanopyRib11",
+        "TreatmentHood/CanopyRib12",
+        "TreatmentHood/CanopyRidge",
+        "TreatmentHood/BubbleRim",
+        "TreatmentHood/BubblePump",
+        "TreatmentHood/PumpBubble",
+        "TreatmentHood/PumpBubble2",
+        "TreatmentHood/Bubbles/Bubble0",
+        "TreatmentHood/Bubbles/Bubble1",
+        "TreatmentHood/Bubbles/Bubble2",
+        "TreatmentHood/Bubbles/Bubble3",
+        "TreatmentHood/Bubbles/Bubble4",
+        "TreatmentHood/ReadyMarker/CheckShort",
+        "TreatmentHood/ReadyMarker/CheckLong"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.0
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-pawcare/model-ed7b70dd33f4a366.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-pawcare"
+    },
+    {
+      "id": "b-eq-laundry-laundry-mint",
+      "owner": "laundry",
+      "hide": [
+        "laundry/Visual",
+        "laundryTop",
+        "laundryHighlight/Edge2",
+        "laundryHighlight/Edge3",
+        "laundryHighlight/Edge4",
+        "LaundryDoor"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.1
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-laundry/model-59622672007d7081.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "variant": "mint",
+      "tint": {
+        "target": [
+          0.17,
+          0.36,
+          0.21
+        ],
+        "ref_luma": 0.251,
+        "gain": 1.0,
+        "roughness": 0.46,
+        "metallic": 0.0,
+        "protect": 0.9,
+        "protect_low": 0.5,
+        "protect_high": 0.85
+      },
+      "asset_id": "eq-laundry"
+    },
+    {
+      "id": "b-eq-laundry-intake_dry-steel",
+      "owner": "intake_dry",
+      "hide": [
+        "intake_dry/Visual",
+        "intake_dryTop",
+        "intake_dryHighlight/Edge2",
+        "intake_dryHighlight/Edge3",
+        "intake_dryHighlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.05
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-laundry/model-59622672007d7081.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "variant": "steel",
+      "tint": {
+        "target": [
+          0.355,
+          0.36,
+          0.38
+        ],
+        "ref_luma": 0.251,
+        "gain": 1.0,
+        "roughness": 0.42,
+        "metallic": 0.05,
+        "protect": 0.0
+      },
+      "asset_id": "eq-laundry"
+    },
+    {
+      "id": "b-eq-receive-compact-paws",
+      "owner": "paws",
+      "hide": [
+        "paws/Visual",
+        "pawsTop",
+        "pawsHighlight/Edge2",
+        "pawsHighlight/Edge3",
+        "pawsHighlight/Edge4",
+        "PawCareTools/PawPad",
+        "PawCareTools/ToePad",
+        "PawCareTools/ToePad2",
+        "PawCareTools/ToePad3",
+        "PawCareTools/PawFile",
+        "PawCareTools/ClipperHandle",
+        "PawCareTools/ClipperHandle2",
+        "PawCareTools/ClipperTip"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.0
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-receive-compact/model-4cbe4816a223578f.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-receive-compact"
+    },
+    {
+      "id": "b-eq-dryer-dryer",
+      "owner": "dryer",
+      "hide": [
+        "dryer/Visual",
+        "dryerTop",
+        "dryerHighlight/Edge2",
+        "dryerHighlight/Edge3",
+        "dryerHighlight/Edge4",
+        "DryerBack",
+        "Vent0",
+        "Vent1",
+        "Vent2",
+        "Vent3",
+        "Vent4"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.2
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-dryer/model-f31e940798200034.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-dryer"
+    },
+    {
+      "id": "b-eq-groom-brush",
+      "owner": "brush",
+      "hide": [
+        "brush/Visual",
+        "brushTop",
+        "brushHighlight/Edge2",
+        "brushHighlight/Edge3",
+        "brushHighlight/Edge4",
+        "BrushHandle",
+        "CombTooth0",
+        "CombTooth1",
+        "CombTooth2",
+        "CombTooth3",
+        "CombTooth4",
+        "ScissorBlade1",
+        "ScissorBlade3"
+      ],
+      "anchor": [
+        0,
+        -0.32,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.1
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/eq-groom/model-0b5f8e7aa49f41e7.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "eq-groom"
+    },
+    {
+      "id": "b-pet-body-petslot1",
+      "owner": "PetSlot1",
+      "hide": [],
+      "anchor": [
+        0,
+        0.0006,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 0.8
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "pet-body"
+    },
+    {
+      "id": "b-pet-body-petslot2",
+      "owner": "PetSlot2",
+      "hide": [],
+      "anchor": [
+        0,
+        -0.0146,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 0.8
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "pet-body"
+    },
+    {
+      "id": "b-pet-body-petslot3",
+      "owner": "PetSlot3",
+      "hide": [],
+      "anchor": [
+        0,
+        -0.0071,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 0.8
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "pet-body"
+    },
+    {
+      "id": "b-pet-body-petslot4",
+      "owner": "PetSlot4",
+      "hide": [],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 0.8
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "pet-body"
+    },
+    {
+      "id": "b-pet-body-petslot5",
+      "owner": "PetSlot5",
+      "hide": [],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 0.8
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "pet-body"
+    },
+    {
+      "id": "b-pet-body-petslot6",
+      "owner": "PetSlot6",
+      "hide": [],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 0.8
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/pet-body/model-66c64c3971b68e9c.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "pet-body"
+    },
+    {
+      "id": "b-staff-body-player1",
+      "owner": "Player1/Visual",
+      "hide": [
+        "Player1/Visual/FootMarker",
+        "Player1/Visual/Apron",
+        "Player1/Visual/ApronPocket",
+        "Player1/Visual/Head",
+        "Player1/Visual/Cap",
+        "Player1/Visual/CapButton",
+        "Player1/Visual/CapBrim",
+        "Player1/Visual/Hand-1",
+        "Player1/Visual/Eye-1",
+        "Player1/Visual/Boot-1",
+        "Player1/Visual/Hand1",
+        "Player1/Visual/Eye1",
+        "Player1/Visual/Boot1",
+        "Player1/Visual/Smile"
+      ],
+      "anchor": [
+        0,
+        0.0175,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.36
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/staff-body/model-d49cc149820f80e0.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "staff-body"
+    },
+    {
+      "id": "b-staff-body-player2",
+      "owner": "Player2/Visual",
+      "hide": [
+        "Player2/Visual/FootMarker",
+        "Player2/Visual/Apron",
+        "Player2/Visual/ApronPocket",
+        "Player2/Visual/Head",
+        "Player2/Visual/Cap",
+        "Player2/Visual/CapBand",
+        "Player2/Visual/CapCorner-1",
+        "Player2/Visual/CapCorner1",
+        "Player2/Visual/Hand-1",
+        "Player2/Visual/Eye-1",
+        "Player2/Visual/Boot-1",
+        "Player2/Visual/Hand1",
+        "Player2/Visual/Eye1",
+        "Player2/Visual/Boot1",
+        "Player2/Visual/Smile"
+      ],
+      "anchor": [
+        0,
+        0.0175,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.36
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/staff-body/model-d49cc149820f80e0.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "staff-body"
+    },
+    {
+      "id": "b-owner-body-waitingowner",
+      "owner": "WaitingOwner",
+      "hide": [
+        "WaitingOwner/Coat",
+        "WaitingOwner/Head",
+        "WaitingOwner/Leg",
+        "WaitingOwner/Hand",
+        "WaitingOwner/Leg2",
+        "WaitingOwner/Hand2"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "bottom_center",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "uniform_bounds",
+        "space": "owner",
+        "max_extent": 1.3
+      },
+      "kind": "static",
+      "source": {
+        "path": "res://styles/d1-animal-city/assets/owner-body/model-8c36c06abe43e36a.glb",
+        "route": "generated",
+        "units": "m",
+        "basis": "gltf"
+      },
+      "asset_id": "owner-body"
+    },
+    {
+      "id": "b-env-shell-Floor",
+      "owner": "Floor",
+      "hide": [
+        "Floor/Visual",
+        "BackWall/Visual",
+        "LeftWall/Visual",
+        "RightWall/Visual",
+        "FrontWall/Visual",
+        "RightWallBack",
+        "RightWallFront",
+        "GridX",
+        "GridX2",
+        "GridX3",
+        "GridX4",
+        "GridX5",
+        "GridX6",
+        "GridX7",
+        "GridX8",
+        "GridX9",
+        "GridX10",
+        "GridX11",
+        "GridX12",
+        "GridX13",
+        "GridZ",
+        "GridZ2",
+        "GridZ3",
+        "GridZ4",
+        "GridZ5",
+        "GridZ6",
+        "GridZ7",
+        "GridZ8",
+        "GridZ9",
+        "WetZone",
+        "DryZone",
+        "AccessMark",
+        "AccessMark2",
+        "AccessMark3",
+        "AccessMark4",
+        "AccessMark5",
+        "AccessMark6",
+        "AccessMark7",
+        "AccessMark8",
+        "AccessMark9",
+        "AccessMark10",
+        "AccessMark11",
+        "AccessMark12",
+        "AccessMark13",
+        "AccessMark14",
+        "AccessMark15",
+        "AccessMark16",
+        "AccessMark17",
+        "AccessMark18",
+        "AccessMark19",
+        "AccessMark20",
+        "AccessMark21",
+        "AccessMark22",
+        "AccessMark23",
+        "AccessMark24",
+        "AccessMark25",
+        "AccessMark26",
+        "AccessMark27",
+        "AccessMark28",
+        "AccessMark29",
+        "AccessMark30",
+        "AccessMark31",
+        "AccessMark32",
+        "AccessMark33",
+        "AccessMark34",
+        "AccessMark35",
+        "AccessMark36",
+        "AccessMark37",
+        "AccessMark38",
+        "AccessMark39",
+        "AccessMark40",
+        "AccessMark41",
+        "AccessMark42",
+        "AccessMark43",
+        "AccessMark44",
+        "AccessMark45",
+        "AccessMark46",
+        "AccessMark47",
+        "AccessMark48",
+        "AccessMark49",
+        "AccessMark50",
+        "AccessMark51",
+        "AccessMark52",
+        "AccessMark53",
+        "AccessMark54",
+        "AccessMark55",
+        "AccessMark56",
+        "AccessMark57",
+        "AccessMark58",
+        "AccessMark59",
+        "AccessMark60",
+        "AccessMark61",
+        "AccessMark62",
+        "AccessMark63",
+        "AccessMark64",
+        "AccessMark65",
+        "AccessMark66",
+        "AccessMark67",
+        "AccessMark68",
+        "AccessMark69",
+        "AccessMark70",
+        "AccessMark71",
+        "AccessMark72",
+        "AccessMark73",
+        "AccessMark74",
+        "AccessMark75",
+        "AccessMark76"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/env-shell.tscn"
+      }
+    },
+    {
+      "id": "b-env-partition-Floor",
+      "owner": "Floor",
+      "hide": [
+        "SplashDivider0/Visual",
+        "SplashDivider1/Visual",
+        "SplashDivider2/Visual",
+        "HandoffWindowLintel/Visual",
+        "HandoffWindowLintel2/Visual",
+        "StaffDoorLintel/Visual",
+        "StaffDoorJamb/Visual",
+        "StaffDoorJamb2/Visual",
+        "StaffDoorThreshold",
+        "WindowFrameTop",
+        "WindowFrameTop2",
+        "WindowFrameSide",
+        "WindowFrameSide2",
+        "WindowFrameSide3",
+        "WindowFrameSide4",
+        "DividerCap",
+        "DividerCap2",
+        "DividerCap3",
+        "PetGate",
+        "PetDoorPost",
+        "PetDoorPost2"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/env-partition.tscn"
+      }
+    },
+    {
+      "id": "b-eq-handoff-bench0",
+      "owner": "bench0",
+      "hide": [
+        "bench0/Visual",
+        "bench0Top",
+        "bench0Highlight/Edge2",
+        "bench0Highlight/Edge3",
+        "bench0Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/eq-handoff.tscn"
+      }
+    },
+    {
+      "id": "b-eq-handoff-bench1",
+      "owner": "bench1",
+      "hide": [
+        "bench1/Visual",
+        "bench1Top",
+        "bench1Highlight/Edge2",
+        "bench1Highlight/Edge3",
+        "bench1Highlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/eq-handoff.tscn"
+      }
+    },
+    {
+      "id": "b-eq-towel-rack-rack",
+      "owner": "rack",
+      "hide": [
+        "rack/Visual",
+        "rackTop",
+        "rackHighlight/Edge2",
+        "rackHighlight/Edge3",
+        "rackHighlight/Edge4",
+        "TowelRail"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/eq-towel-rack.tscn"
+      }
+    },
+    {
+      "id": "b-eq-buffer-buffer_wet",
+      "owner": "buffer_wet",
+      "hide": [
+        "buffer_wet/Visual",
+        "buffer_wetTop",
+        "buffer_wetRestMat",
+        "buffer_wetRestRail1",
+        "buffer_wetRestRail3",
+        "buffer_wetHighlight/Edge2",
+        "buffer_wetHighlight/Edge3",
+        "buffer_wetHighlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/eq-buffer.tscn"
+      }
+    },
+    {
+      "id": "b-eq-buffer-buffer_dry",
+      "owner": "buffer_dry",
+      "hide": [
+        "buffer_dry/Visual",
+        "buffer_dryTop",
+        "buffer_dryRestMat",
+        "buffer_dryRestRail1",
+        "buffer_dryRestRail3",
+        "buffer_dryHighlight/Edge2",
+        "buffer_dryHighlight/Edge3",
+        "buffer_dryHighlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/eq-buffer.tscn"
+      }
+    },
+    {
+      "id": "b-eq-return-exit",
+      "owner": "exit",
+      "hide": [
+        "exit/Visual",
+        "exitTop",
+        "exitHighlight/Edge2",
+        "exitHighlight/Edge3",
+        "exitHighlight/Edge4"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/eq-return.tscn"
+      }
+    },
+    {
+      "id": "b-street-set-PickupCourt",
+      "owner": "PickupCourt",
+      "hide": [
+        "WaitingBench",
+        "WaitingBenchBack",
+        "OutsideCurb"
+      ],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/street-set.tscn"
+      }
+    },
+    {
+      "id": "b-light-rig-BackWall",
+      "owner": "BackWall",
+      "hide": [],
+      "anchor": [
+        0,
+        0.0,
+        0
+      ],
+      "anchor_mode": "origin",
+      "uniform_scale": 1.0,
+      "normalize": {
+        "mode": "none",
+        "space": "owner"
+      },
+      "kind": "static",
+      "source": {
+        "route": "procedural",
+        "units": "m",
+        "basis": "godot",
+        "path": "res://styles/d1-animal-city/environment/light-rig.tscn"
+      }
+    }
+  ]
+}

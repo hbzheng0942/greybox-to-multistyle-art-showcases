@@ -1,0 +1,31 @@
+{
+  "name": "方块像素",
+  "shape": "block",
+  "wet": "a3c2b7",
+  "dry": "d7c899",
+  "shell": "b08558",
+  "accent": "5b9b99",
+  "staff": [
+    "5a98a9",
+    "b77854"
+  ],
+  "pet": [
+    "c49b6e",
+    "d7d3bb",
+    "9e9987"
+  ],
+  "wall": "9fa88f",
+  "schema": 1,
+  "kind": "art_proxy",
+  "style_id": "D10",
+  "stage": "S6",
+  "quality": "cheap native massing; not H4 sample",
+  "staff_height": 1.38,
+  "staff_body_width": 0.48,
+  "pet_width": 0.58,
+  "pet_depth": 0.79,
+  "pet_height": 0.7,
+  "pet_support_local_y": -0.03,
+  "towel_fold_center_local_y": -0.04,
+  "source_design_sha256": "fb2161d8f9d4778e22c87998c30e82f0dbf77f3dc240b266cca53482add6928f"
+}

@@ -1,0 +1,1 @@
+../../../../../../../shared/engine-main/game/levels/labs/controller_lab/controller_lab.gd

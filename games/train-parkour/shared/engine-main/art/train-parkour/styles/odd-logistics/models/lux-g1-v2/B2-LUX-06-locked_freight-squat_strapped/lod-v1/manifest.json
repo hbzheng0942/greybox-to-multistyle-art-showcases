@@ -1,0 +1,287 @@
+{
+  "schema": 1,
+  "asset_id": "B2-LUX-06-locked_freight-squat_strapped",
+  "kind": "shared_geometry_only_runtime_lods",
+  "source": {
+    "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/source.glb",
+    "sha256": "950f65abac60e9ad70647e9e69d318194fad83bc758b4c5bf0e103073b24580a",
+    "gltf_y_up_bounds": {
+      "min": [
+        -0.4000000059604645,
+        -0.33027175068855286,
+        -0.4056614339351654
+      ],
+      "max": [
+        0.4000000059604645,
+        0.33027175068855286,
+        0.4056614339351654
+      ]
+    },
+    "actual_triangles": 117056,
+    "nodes": [
+      {
+        "mesh": 0,
+        "name": "geometry_0"
+      }
+    ]
+  },
+  "script_sha256": "9b22635e56f2906f28293dfc3fd827322edc7ea8d99d006e66a1c8ccac45b569",
+  "blender_version": "5.1.2",
+  "source_unchanged": true,
+  "source_coordinate_system": "original glTF +Y up; no normalization",
+  "method": "Exact-position seam weld retaining loop UV; protected-extrema Blender collapse decimate;35deg-sharp weighted normals; geometry-only PLACEHOLDER glTF materials",
+  "algorithm_reference": "https://github.com/blender/blender/blob/main/source/blender/bmesh/tools/bmesh_decimate_collapse.cc#L225",
+  "levels": [
+    {
+      "id": "near",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/lod-v1/near.glb",
+      "sha256": "7910a7dc379ef9f0b688919d8fb11aba474a388c32081f3f79bab6b90b106656",
+      "bytes": 891392,
+      "target_triangles": 18000,
+      "gltf_y_up_bounds": {
+        "min": [
+          -0.4000000059604645,
+          -0.33027175068855286,
+          -0.4056614339351654
+        ],
+        "max": [
+          0.4000000059604645,
+          0.33027175068855286,
+          0.4056614339351654
+        ]
+      },
+      "actual_triangles": 17915,
+      "vertex_count": 24464,
+      "mesh_count": 1,
+      "surface_count": 1,
+      "surfaces": [
+        {
+          "mesh_index": 0,
+          "primitive_index": 0,
+          "vertex_count": 24464,
+          "uv_count": 24464,
+          "triangle_count": 17915
+        }
+      ],
+      "uv": {
+        "attribute": "TEXCOORD_0",
+        "count": 24464,
+        "complete": true,
+        "finite": true,
+        "min": [
+          0.0,
+          0.0004532933235168457
+        ],
+        "max": [
+          0.9995461702346802,
+          1.0
+        ]
+      },
+      "image_count": 0,
+      "texture_count": 0,
+      "nodes": [
+        {
+          "mesh": 0,
+          "name": "geometry_0.001"
+        }
+      ],
+      "materials": [],
+      "bounds_delta_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "bounds_units_note": "Original source coordinate units, named m for loader schema compatibility; no physical normalization applied.",
+      "roundtrip_verified": true,
+      "roundtrip_world_bounds_max_delta": 0.0,
+      "preprocess": {
+        "exact_position_weld_distance": 8.113228678703308e-08,
+        "source_vertices": 88139,
+        "welded_vertices": 58198,
+        "protected_extreme_contact_vertices": 943,
+        "normal_transfer": "geometry-derived weighted normals,35-degree sharp edges; no dense custom normal transfer"
+      },
+      "material_slots": [
+        {
+          "lod_mesh_index": 0,
+          "lod_primitive_index": 0,
+          "source_mesh_index": 0,
+          "source_primitive_index": 0,
+          "source_material_index": 0,
+          "source_material_name": "Designer_Logic_PBR"
+        }
+      ],
+      "front_ray_diagnostic": {
+        "grid": [
+          96,
+          96
+        ],
+        "silhouette_iou": 0.9990407673860912,
+        "source_open_or_recessed_ray_count": 1116,
+        "newly_front_closed_ray_count": 0,
+        "newly_front_closed_fraction": 0.0,
+        "mean_relative_depth_error": 0.0007344992208468279,
+        "scope": "Front-only ray depth/silhouette diagnostic, not watertightness or full hole topology proof."
+      },
+      "visual_review": "accepted_for_native_integration",
+      "requested_triangles": 18000,
+      "bounds_units": "original_source_coordinates_not_authoritative_metres"
+    },
+    {
+      "id": "far",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/lod-v1/near.glb",
+      "sha256": "7910a7dc379ef9f0b688919d8fb11aba474a388c32081f3f79bab6b90b106656",
+      "bytes": 891392,
+      "target_triangles": 18000,
+      "gltf_y_up_bounds": {
+        "min": [
+          -0.4000000059604645,
+          -0.33027175068855286,
+          -0.4056614339351654
+        ],
+        "max": [
+          0.4000000059604645,
+          0.33027175068855286,
+          0.4056614339351654
+        ]
+      },
+      "actual_triangles": 17915,
+      "vertex_count": 24464,
+      "mesh_count": 1,
+      "surface_count": 1,
+      "surfaces": [
+        {
+          "mesh_index": 0,
+          "primitive_index": 0,
+          "vertex_count": 24464,
+          "uv_count": 24464,
+          "triangle_count": 17915
+        }
+      ],
+      "uv": {
+        "attribute": "TEXCOORD_0",
+        "count": 24464,
+        "complete": true,
+        "finite": true,
+        "min": [
+          0.0,
+          0.0004532933235168457
+        ],
+        "max": [
+          0.9995461702346802,
+          1.0
+        ]
+      },
+      "image_count": 0,
+      "texture_count": 0,
+      "nodes": [
+        {
+          "mesh": 0,
+          "name": "geometry_0.001"
+        }
+      ],
+      "materials": [],
+      "bounds_delta_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "bounds_units_note": "Original source coordinate units, named m for loader schema compatibility; no physical normalization applied.",
+      "roundtrip_verified": true,
+      "roundtrip_world_bounds_max_delta": 0.0,
+      "preprocess": {
+        "exact_position_weld_distance": 8.113228678703308e-08,
+        "source_vertices": 88139,
+        "welded_vertices": 58198,
+        "protected_extreme_contact_vertices": 943,
+        "normal_transfer": "geometry-derived weighted normals,35-degree sharp edges; no dense custom normal transfer"
+      },
+      "material_slots": [
+        {
+          "lod_mesh_index": 0,
+          "lod_primitive_index": 0,
+          "source_mesh_index": 0,
+          "source_primitive_index": 0,
+          "source_material_index": 0,
+          "source_material_name": "Designer_Logic_PBR"
+        }
+      ],
+      "front_ray_diagnostic": {
+        "grid": [
+          96,
+          96
+        ],
+        "silhouette_iou": 0.9990407673860912,
+        "source_open_or_recessed_ray_count": 1116,
+        "newly_front_closed_ray_count": 0,
+        "newly_front_closed_fraction": 0.0,
+        "mean_relative_depth_error": 0.0007344992208468279,
+        "scope": "Front-only ray depth/silhouette diagnostic, not watertightness or full hole topology proof."
+      },
+      "visual_review": "accepted_for_native_integration",
+      "reused_level": "near",
+      "reuse_reason": "Near preserves box lid, straps, latch, bevels and base feet. Rejected far has lid tearing and severe broad-polygon warping; far now uses the same near file.",
+      "requested_triangles": 4500,
+      "bounds_units": "original_source_coordinates_not_authoritative_metres"
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/lod-v1/comparison-three-quarter.png",
+      "sha256": "48ccc47b6d8d6ec07896be069ed2b2338305ec89c45370824d11529d6ce90306",
+      "left_to_right": [
+        "source",
+        "near",
+        "far"
+      ],
+      "view": "three-quarter",
+      "materials": "Original source PBR attached in memory only; absent from exported LODs.",
+      "renderer": "Cycles CPU12 samples, AgX, neutral light",
+      "geometry_origin": "Reimported final manifest GLBs; shared near/far displayed by two instances when identical."
+    },
+    {
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/lod-v1/comparison-front-openings.png",
+      "sha256": "160a76875aa067890283429e4ef0b0a067b278c8e78f6846eba11f9b7eff7e48",
+      "left_to_right": [
+        "source",
+        "near",
+        "far"
+      ],
+      "view": "front-openings",
+      "materials": "Original source PBR attached in memory only; absent from exported LODs.",
+      "renderer": "Cycles CPU12 samples, AgX, neutral light",
+      "geometry_origin": "Reimported final manifest GLBs; shared near/far displayed by two instances when identical."
+    }
+  ],
+  "shared_material_policy": "Resolve each material_slots entry from the canonical original source.glb once and reuse the same PBR Material for all LOD meshes/instances.",
+  "visual_review_status": "accepted_for_native_integration",
+  "native_status": "not_run_by_lod_agent",
+  "limitations": [
+    "Front ray diagnostic is not a full topology proof.",
+    "Native Godot material assignment, in-game LOD thresholds and performance await integration."
+  ],
+  "rejected_attempt": "attempt-rejected-far.json",
+  "comparison_refresh_status": "rendered_from_final_geometry_and_visually_reviewed",
+  "visual_review": {
+    "reviewer": "b2_station_layout agent",
+    "evidence": "Actual three-quarter and front-opening CPU comparison renders viewed. Near preserves box lid, straps, latch, bevels and base feet. Rejected far has lid tearing and severe broad-polygon warping; far now uses the same near file.",
+    "native_acceptance": false,
+    "budget_adjustment": "Root authorized shape-first selection and shared near/far canonical geometry when identical; no further aggressive low-budget attempt.",
+    "final_geometry_comparison": "Final exported GLBs reimported, shared source PBR assigned, source/near/far three-quarter comparison viewed; reused far is identical geometry to near."
+  },
+  "comparison_script_sha256": "02d8dc48c1c49534f0e1be042b71497b6671c29806853ac5f54eaef882c6bd9b"
+}

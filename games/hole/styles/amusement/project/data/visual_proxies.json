@@ -1,0 +1,5141 @@
+{
+  "format": "v03_visual_proxy_recipes",
+  "status": "procedural_proxy_NOT_final_assets",
+  "assets": [
+    {
+      "asset_id": "P01",
+      "name_zh": "迷你包裹",
+      "key": "parcel_small",
+      "archetype": "micro_block_p01_v3",
+      "planned_instances": 20,
+      "method": "程序",
+      "envelope_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P01_parcel_small_white.png",
+      "model_path": "assets/final/P01_parcel_small.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.49499999999999994,
+            0.49499999999999994,
+            0.49499999999999994
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "bc8551"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.0891,
+            0.005939999999999999,
+            0.47519999999999996
+          ],
+          "position": [
+            0,
+            0.24700499999999997,
+            0
+          ],
+          "color": "edd194"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.0891,
+            0.47519999999999996,
+            0.006435
+          ],
+          "position": [
+            0,
+            0,
+            0.24651
+          ],
+          "color": "edd194"
+        }
+      ]
+    },
+    {
+      "asset_id": "P02",
+      "name_zh": "交通锥",
+      "key": "road_cone",
+      "archetype": "micro_block_p02_v3",
+      "planned_instances": 12,
+      "method": "程序",
+      "envelope_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P02_road_cone_white.png",
+      "model_path": "assets/final/P02_road_cone.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.49499999999999994,
+            0.07425,
+            0.49499999999999994
+          ],
+          "position": [
+            0,
+            -0.21037499999999998,
+            0
+          ],
+          "color": "d07940"
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.3761999999999999,
+            0.42074999999999996,
+            0.3761999999999999
+          ],
+          "position": [
+            0,
+            0.037125,
+            0
+          ],
+          "color": "ee8735",
+          "top_radius": 0.018
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.2178,
+            0.066,
+            0.2178
+          ],
+          "position": [
+            0,
+            0.04125,
+            0
+          ],
+          "color": "d6c6a7",
+          "top_radius": 0.066
+        }
+      ]
+    },
+    {
+      "asset_id": "P03",
+      "name_zh": "小陶盆绿植",
+      "key": "plant_small",
+      "archetype": "micro_block_p03_v3",
+      "planned_instances": 12,
+      "method": "混合",
+      "envelope_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P03_plant_small_white.png",
+      "model_path": "assets/final/P03_plant_small.glb",
+      "proxy_parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.39599999999999996,
+            0.23759999999999998,
+            0.39599999999999996
+          ],
+          "position": [
+            0,
+            -0.12869999999999998,
+            0
+          ],
+          "color": "ba7552",
+          "top_radius": 0.141
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.3761999999999999,
+            0.25245,
+            0.38609999999999994
+          ],
+          "position": [
+            0,
+            0.11385,
+            0
+          ],
+          "color": "739850"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.25739999999999996,
+            0.2079,
+            0.22275
+          ],
+          "position": [
+            0.07919999999999999,
+            0.07425,
+            0.049499999999999995
+          ],
+          "color": "a0af58"
+        }
+      ]
+    },
+    {
+      "asset_id": "P04",
+      "name_zh": "外卖点心盒",
+      "key": "takeaway_box",
+      "archetype": "micro_block_p04_v3",
+      "planned_instances": 12,
+      "method": "程序",
+      "envelope_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P04_takeaway_box_white.png",
+      "model_path": "assets/final/P04_takeaway_box.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.49499999999999994,
+            0.49499999999999994,
+            0.49499999999999994
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "df9a67"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.0891,
+            0.005939999999999999,
+            0.47519999999999996
+          ],
+          "position": [
+            0,
+            0.24700499999999997,
+            0
+          ],
+          "color": "edd194"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.0891,
+            0.47519999999999996,
+            0.006435
+          ],
+          "position": [
+            0,
+            0,
+            0.24651
+          ],
+          "color": "edd194"
+        }
+      ]
+    },
+    {
+      "asset_id": "P05",
+      "name_zh": "细杆街灯",
+      "key": "street_lamp",
+      "archetype": "tall_pole_p05_v3",
+      "planned_instances": 16,
+      "method": "程序",
+      "envelope_xyz": [
+        0.54,
+        3.04,
+        0.54
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P05_street_lamp_white.png",
+      "model_path": "assets/final/P05_street_lamp.glb",
+      "proxy_parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.49680000000000013,
+            0.17099999999999999,
+            0.49680000000000013
+          ],
+          "position": [
+            0,
+            -1.4344999999999999,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.138
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.14040000000000002,
+            2.5232,
+            0.14040000000000002
+          ],
+          "position": [
+            0,
+            -0.1976,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.039
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.405,
+            0.5471999999999999,
+            0.405
+          ],
+          "position": [
+            0,
+            1.1856000000000002,
+            0
+          ],
+          "color": "dabc72"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5184000000000001,
+            0.1045,
+            0.5184000000000001
+          ],
+          "position": [
+            0,
+            1.46775,
+            0
+          ],
+          "color": "28364a"
+        }
+      ]
+    },
+    {
+      "asset_id": "P06",
+      "name_zh": "玩具路桩",
+      "key": "bollard",
+      "archetype": "tall_pole_p06_v3",
+      "planned_instances": 12,
+      "method": "程序",
+      "envelope_xyz": [
+        0.54,
+        3.3600000000000003,
+        0.54
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P06_bollard_white.png",
+      "model_path": "assets/final/P06_bollard.glb",
+      "proxy_parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.43200000000000005,
+            3.1248000000000005,
+            0.43200000000000005
+          ],
+          "position": [
+            0,
+            -0.11760000000000002,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.12
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.49680000000000013,
+            0.26880000000000004,
+            0.49680000000000013
+          ],
+          "position": [
+            0,
+            1.5456000000000003,
+            0
+          ],
+          "color": "b4beac"
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.43740000000000007,
+            0.1365,
+            0.43740000000000007
+          ],
+          "position": [
+            0,
+            0.7728000000000002,
+            0
+          ],
+          "color": "e6b54d",
+          "top_radius": 0.1215
+        }
+      ]
+    },
+    {
+      "asset_id": "P07",
+      "name_zh": "桌面橙子",
+      "key": "orange",
+      "archetype": "supported_ball_p07_v3",
+      "planned_instances": 8,
+      "method": "程序",
+      "envelope_xyz": [
+        0.41600000000000004,
+        0.41600000000000004,
+        0.41600000000000004
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P07_orange_white.png",
+      "model_path": "assets/final/P07_orange.glb",
+      "proxy_parts": [
+        {
+          "kind": "sphere",
+          "size": [
+            0.3952,
+            0.38272,
+            0.3952
+          ],
+          "position": [
+            0,
+            -0.010400000000000001,
+            0
+          ],
+          "color": "ec9b37"
+        }
+      ]
+    },
+    {
+      "asset_id": "P08",
+      "name_zh": "桌面苹果",
+      "key": "apple",
+      "archetype": "supported_ball_p08_v3",
+      "planned_instances": 8,
+      "method": "Lux3D",
+      "envelope_xyz": [
+        0.41600000000000004,
+        0.41600000000000004,
+        0.41600000000000004
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P08_apple_white.png",
+      "model_path": "assets/final/P08_apple.glb",
+      "proxy_parts": [
+        {
+          "kind": "sphere",
+          "size": [
+            0.3952,
+            0.38272,
+            0.3952
+          ],
+          "position": [
+            0,
+            -0.010400000000000001,
+            0
+          ],
+          "color": "d46250"
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.0468,
+            0.0325,
+            0.0468
+          ],
+          "position": [
+            0,
+            0.18512,
+            0
+          ],
+          "color": "624b3b",
+          "top_radius": 0.018
+        }
+      ]
+    },
+    {
+      "asset_id": "P09",
+      "name_zh": "桌面玩具球",
+      "key": "toy_ball",
+      "archetype": "supported_ball_p09_v3",
+      "planned_instances": 8,
+      "method": "程序",
+      "envelope_xyz": [
+        0.41600000000000004,
+        0.41600000000000004,
+        0.41600000000000004
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P09_toy_ball_white.png",
+      "model_path": "assets/final/P09_toy_ball.glb",
+      "proxy_parts": [
+        {
+          "kind": "sphere",
+          "size": [
+            0.3952,
+            0.38272,
+            0.3952
+          ],
+          "position": [
+            0,
+            -0.010400000000000001,
+            0
+          ],
+          "color": "eccc58"
+        }
+      ]
+    },
+    {
+      "asset_id": "P10",
+      "name_zh": "翻盖垃圾桶",
+      "key": "trash_bin",
+      "archetype": "bin_p10_v3",
+      "planned_instances": 6,
+      "method": "程序",
+      "envelope_xyz": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P10_trash_bin_white.png",
+      "model_path": "assets/final/P10_trash_bin.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.84375,
+            1.0935000000000001,
+            0.7637499999999999
+          ],
+          "position": [
+            0,
+            -0.06075000000000001,
+            0
+          ],
+          "color": "568a73"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.9375,
+            0.12150000000000002,
+            0.8125
+          ],
+          "position": [
+            0,
+            0.5467500000000001,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.31875,
+            0.19440000000000004,
+            0.0175
+          ],
+          "position": [
+            0,
+            0.18225000000000002,
+            0.38593749999999993
+          ],
+          "color": "d6c6a7"
+        }
+      ]
+    },
+    {
+      "asset_id": "P11",
+      "name_zh": "分类回收桶",
+      "key": "recycle_bin",
+      "archetype": "bin_p11_v3",
+      "planned_instances": 6,
+      "method": "程序",
+      "envelope_xyz": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P11_recycle_bin_white.png",
+      "model_path": "assets/final/P11_recycle_bin.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.84375,
+            1.0935000000000001,
+            0.7637499999999999
+          ],
+          "position": [
+            0,
+            -0.06075000000000001,
+            0
+          ],
+          "color": "649cbb"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.9375,
+            0.12150000000000002,
+            0.8125
+          ],
+          "position": [
+            0,
+            0.5467500000000001,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.31875,
+            0.19440000000000004,
+            0.0175
+          ],
+          "position": [
+            0,
+            0.18225000000000002,
+            0.38593749999999993
+          ],
+          "color": "d6c6a7"
+        }
+      ]
+    },
+    {
+      "asset_id": "P12",
+      "name_zh": "街边小黑板",
+      "key": "chalkboard",
+      "archetype": "bin_p12_v3",
+      "planned_instances": 6,
+      "method": "程序",
+      "envelope_xyz": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P12_chalkboard_white.png",
+      "model_path": "assets/final/P12_chalkboard.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.796875,
+            1.03275,
+            0.13
+          ],
+          "position": [
+            0,
+            0.09112500000000001,
+            0.08125
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6562499999999999,
+            0.7776000000000002,
+            0.015
+          ],
+          "position": [
+            0,
+            0.10935000000000002,
+            0.154375
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11249999999999999,
+            0.42525,
+            0.690625
+          ],
+          "position": [
+            -0.3,
+            -0.3948750000000001,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11249999999999999,
+            0.42525,
+            0.690625
+          ],
+          "position": [
+            0.3,
+            -0.3948750000000001,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.421875,
+            0.0297,
+            0.0225
+          ],
+          "position": [
+            0,
+            -0.0675,
+            0.1665625
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.421875,
+            0.0297,
+            0.0225
+          ],
+          "position": [
+            0,
+            0.10800000000000001,
+            0.1665625
+          ],
+          "color": "d6c6a7"
+        }
+      ]
+    },
+    {
+      "asset_id": "P13",
+      "name_zh": "自包含链栏单段",
+      "key": "chain_fence",
+      "archetype": "fence_segment_p13_v3",
+      "planned_instances": 10,
+      "method": "程序",
+      "envelope_xyz": [
+        1.1880000000000002,
+        1.1199999999999999,
+        0.27999999999999997
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P13_chain_fence_white.png",
+      "model_path": "assets/final/P13_chain_fence.glb",
+      "proxy_parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.14040000000000002,
+            1.1199999999999999,
+            0.18199999999999997
+          ],
+          "position": [
+            -0.5184000000000001,
+            0,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.065
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.14040000000000002,
+            1.1199999999999999,
+            0.18199999999999997
+          ],
+          "position": [
+            0.5184000000000001,
+            0,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.065
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            -0.46332000000000007,
+            0.21432249999999994,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            -0.30888000000000004,
+            0.11080999999999999,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            -0.15444000000000002,
+            0.04870249999999999,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            0,
+            0.02799999999999998,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            0.15444000000000002,
+            0.04870249999999999,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            0.30888000000000015,
+            0.11081000000000003,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.1728,
+            0.09799999999999999,
+            0.09799999999999999
+          ],
+          "position": [
+            0.46332000000000007,
+            0.21432249999999994,
+            0
+          ],
+          "color": "28364a"
+        }
+      ]
+    },
+    {
+      "asset_id": "P14",
+      "name_zh": "公园栏杆单段",
+      "key": "park_fence",
+      "archetype": "fence_segment_p14_v3",
+      "planned_instances": 10,
+      "method": "程序",
+      "envelope_xyz": [
+        1.1880000000000002,
+        1.1199999999999999,
+        0.27999999999999997
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P14_park_fence_white.png",
+      "model_path": "assets/final/P14_park_fence.glb",
+      "proxy_parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.14040000000000002,
+            1.1199999999999999,
+            0.18199999999999997
+          ],
+          "position": [
+            -0.5184000000000001,
+            0,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.065
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.14040000000000002,
+            1.1199999999999999,
+            0.18199999999999997
+          ],
+          "position": [
+            0.5184000000000001,
+            0,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.065
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.0584000000000002,
+            0.10499999999999997,
+            0.18199999999999997
+          ],
+          "position": [
+            0,
+            -0.11199999999999997,
+            0
+          ],
+          "color": "718f88"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.0584000000000002,
+            0.10499999999999997,
+            0.18199999999999997
+          ],
+          "position": [
+            0,
+            0.30799999999999994,
+            0
+          ],
+          "color": "718f88"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.048600000000000004,
+            0.6719999999999998,
+            0.16799999999999995
+          ],
+          "position": [
+            -0.324,
+            0,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.048600000000000004,
+            0.6719999999999998,
+            0.16799999999999995
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.048600000000000004,
+            0.6719999999999998,
+            0.16799999999999995
+          ],
+          "position": [
+            0.324,
+            0,
+            0
+          ],
+          "color": "28364a"
+        }
+      ]
+    },
+    {
+      "asset_id": "P15",
+      "name_zh": "纸箱货物",
+      "key": "cargo_box",
+      "archetype": "stack_cube_p15_v3",
+      "planned_instances": 9,
+      "method": "程序",
+      "envelope_xyz": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P15_cargo_box_white.png",
+      "model_path": "assets/final/P15_cargo_box.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.81,
+            0.81,
+            0.81
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "bc8551"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.1458,
+            0.009720000000000001,
+            0.7776
+          ],
+          "position": [
+            0,
+            0.40419000000000005,
+            0
+          ],
+          "color": "edd194"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.1458,
+            0.7776,
+            0.01053
+          ],
+          "position": [
+            0,
+            0,
+            0.40338
+          ],
+          "color": "edd194"
+        }
+      ]
+    },
+    {
+      "asset_id": "P16",
+      "name_zh": "蓝色周转箱",
+      "key": "milk_crate",
+      "archetype": "stack_cube_p16_v3",
+      "planned_instances": 9,
+      "method": "程序",
+      "envelope_xyz": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P16_milk_crate_white.png",
+      "model_path": "assets/final/P16_milk_crate.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.81,
+            0.7290000000000001,
+            0.81
+          ],
+          "position": [
+            0,
+            -0.0405,
+            0
+          ],
+          "color": "6989aa"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.81,
+            0.081,
+            0.81
+          ],
+          "position": [
+            0,
+            0.36450000000000005,
+            0
+          ],
+          "color": "3f647f"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.10800000000000001,
+            0.486,
+            0.0108
+          ],
+          "position": [
+            -0.243,
+            0,
+            0.40581
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.10800000000000001,
+            0.486,
+            0.0108
+          ],
+          "position": [
+            0,
+            0,
+            0.40581
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.10800000000000001,
+            0.486,
+            0.0108
+          ],
+          "position": [
+            0.243,
+            0,
+            0.40581
+          ],
+          "color": "28364a"
+        }
+      ]
+    },
+    {
+      "asset_id": "P17",
+      "name_zh": "木色街椅",
+      "key": "wood_bench",
+      "archetype": "bench_p17_v3",
+      "planned_instances": 5,
+      "method": "程序",
+      "envelope_xyz": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P17_wood_bench_white.png",
+      "model_path": "assets/final/P17_wood_bench.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.16,
+            0.162,
+            0.45000000000000007
+          ],
+          "position": [
+            0,
+            -0.04725,
+            0.025000000000000005
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.16,
+            0.34965,
+            0.09375
+          ],
+          "position": [
+            0,
+            0.29767499999999997,
+            -0.18
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.135,
+            0.4725,
+            0.36
+          ],
+          "position": [
+            -0.756,
+            -0.23625,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.135,
+            0.4725,
+            0.36
+          ],
+          "position": [
+            0.756,
+            -0.23625,
+            0
+          ],
+          "color": "28364a"
+        }
+      ]
+    },
+    {
+      "asset_id": "P18",
+      "name_zh": "绿色街椅",
+      "key": "green_bench",
+      "archetype": "bench_p18_v3",
+      "planned_instances": 5,
+      "method": "程序",
+      "envelope_xyz": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P18_green_bench_white.png",
+      "model_path": "assets/final/P18_green_bench.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.16,
+            0.162,
+            0.45000000000000007
+          ],
+          "position": [
+            0,
+            -0.04725,
+            0.025000000000000005
+          ],
+          "color": "589a76"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.16,
+            0.34965,
+            0.09375
+          ],
+          "position": [
+            0,
+            0.29767499999999997,
+            -0.18
+          ],
+          "color": "589a76"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.135,
+            0.4725,
+            0.36
+          ],
+          "position": [
+            -0.756,
+            -0.23625,
+            0
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.135,
+            0.4725,
+            0.36
+          ],
+          "position": [
+            0.756,
+            -0.23625,
+            0
+          ],
+          "color": "28364a"
+        }
+      ]
+    },
+    {
+      "asset_id": "P19",
+      "name_zh": "珊瑚小轿车",
+      "key": "car_coral",
+      "archetype": "vehicle_p19_v3",
+      "planned_instances": 2,
+      "method": "Lux3D",
+      "envelope_xyz": [
+        1.7999999999999998,
+        1.1199999999999999,
+        0.9199999999999999
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P19_car_coral_white.png",
+      "model_path": "assets/final/P19_car_coral.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            1.7999999999999998,
+            0.5935999999999999,
+            0.8096
+          ],
+          "position": [
+            0,
+            -0.13439999999999996,
+            0
+          ],
+          "color": "d87368"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.026,
+            0.43679999999999997,
+            0.7176000000000001
+          ],
+          "position": [
+            -0.144,
+            0.26319999999999993,
+            0
+          ],
+          "color": "d87368"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.8618399999999999,
+            0.27999999999999997,
+            0.0138
+          ],
+          "position": [
+            -0.144,
+            0.28559999999999997,
+            0.36248
+          ],
+          "color": "415c75"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            -0.5579999999999999,
+            -0.39199999999999985,
+            -0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            -0.5579999999999999,
+            -0.39199999999999985,
+            0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            0.5579999999999999,
+            -0.39199999999999985,
+            -0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            0.5579999999999999,
+            -0.39199999999999985,
+            0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.021599999999999998,
+            0.13999999999999999,
+            0.13799999999999998
+          ],
+          "position": [
+            0.8964,
+            -0.03359999999999999,
+            -0.2208
+          ],
+          "color": "ecdba6"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.021599999999999998,
+            0.13999999999999999,
+            0.13799999999999998
+          ],
+          "position": [
+            0.8964,
+            -0.03359999999999999,
+            0.2208
+          ],
+          "color": "ecdba6"
+        }
+      ]
+    },
+    {
+      "asset_id": "P20",
+      "name_zh": "黄色出租车",
+      "key": "toy_taxi",
+      "archetype": "vehicle_p20_v3",
+      "planned_instances": 2,
+      "method": "Lux3D",
+      "envelope_xyz": [
+        1.7999999999999998,
+        1.1199999999999999,
+        0.9199999999999999
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P20_toy_taxi_white.png",
+      "model_path": "assets/final/P20_toy_taxi.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            1.7999999999999998,
+            0.5935999999999999,
+            0.8096
+          ],
+          "position": [
+            0,
+            -0.13439999999999996,
+            0
+          ],
+          "color": "dcad45"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.026,
+            0.43679999999999997,
+            0.7176000000000001
+          ],
+          "position": [
+            -0.144,
+            0.26319999999999993,
+            0
+          ],
+          "color": "dcad45"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.8618399999999999,
+            0.27999999999999997,
+            0.0138
+          ],
+          "position": [
+            -0.144,
+            0.28559999999999997,
+            0.36248
+          ],
+          "color": "415c75"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            -0.5579999999999999,
+            -0.39199999999999985,
+            -0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            -0.5579999999999999,
+            -0.39199999999999985,
+            0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            0.5579999999999999,
+            -0.39199999999999985,
+            -0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            0.5579999999999999,
+            -0.39199999999999985,
+            0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.021599999999999998,
+            0.13999999999999999,
+            0.13799999999999998
+          ],
+          "position": [
+            0.8964,
+            -0.03359999999999999,
+            -0.2208
+          ],
+          "color": "ecdba6"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.021599999999999998,
+            0.13999999999999999,
+            0.13799999999999998
+          ],
+          "position": [
+            0.8964,
+            -0.03359999999999999,
+            0.2208
+          ],
+          "color": "ecdba6"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.276,
+            0.12599999999999997,
+            0.207
+          ],
+          "position": [
+            0,
+            0.49279999999999996,
+            0
+          ],
+          "color": "d6c6a7"
+        }
+      ]
+    },
+    {
+      "asset_id": "P21",
+      "name_zh": "蓝色小皮卡",
+      "key": "mini_pickup",
+      "archetype": "vehicle_p21_v3",
+      "planned_instances": 2,
+      "method": "Lux3D",
+      "envelope_xyz": [
+        1.7999999999999998,
+        1.1199999999999999,
+        0.9199999999999999
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P21_mini_pickup_white.png",
+      "model_path": "assets/final/P21_mini_pickup.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            1.7999999999999998,
+            0.5935999999999999,
+            0.8096
+          ],
+          "position": [
+            0,
+            -0.13439999999999996,
+            0
+          ],
+          "color": "659ab9"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.026,
+            0.43679999999999997,
+            0.7176000000000001
+          ],
+          "position": [
+            -0.144,
+            0.26319999999999993,
+            0
+          ],
+          "color": "659ab9"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.8618399999999999,
+            0.27999999999999997,
+            0.0138
+          ],
+          "position": [
+            -0.144,
+            0.28559999999999997,
+            0.36248
+          ],
+          "color": "415c75"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            -0.5579999999999999,
+            -0.39199999999999985,
+            -0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            -0.5579999999999999,
+            -0.39199999999999985,
+            0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            0.5579999999999999,
+            -0.39199999999999985,
+            -0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.324,
+            0.3247999999999999,
+            0.1472
+          ],
+          "position": [
+            0.5579999999999999,
+            -0.39199999999999985,
+            0.3864
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.021599999999999998,
+            0.13999999999999999,
+            0.13799999999999998
+          ],
+          "position": [
+            0.8964,
+            -0.03359999999999999,
+            -0.2208
+          ],
+          "color": "ecdba6"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.021599999999999998,
+            0.13999999999999999,
+            0.13799999999999998
+          ],
+          "position": [
+            0.8964,
+            -0.03359999999999999,
+            0.2208
+          ],
+          "color": "ecdba6"
+        }
+      ]
+    },
+    {
+      "asset_id": "P22",
+      "name_zh": "薄荷零食车",
+      "key": "snack_van",
+      "archetype": "vehicle_p22_v3",
+      "planned_instances": 2,
+      "method": "Lux3D",
+      "envelope_xyz": [
+        2.4779999999999998,
+        3.105,
+        1.3216
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P22_snack_van_white.png",
+      "model_path": "assets/final/P22_snack_van.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.4779999999999998,
+            1.64565,
+            1.1630080000000003
+          ],
+          "position": [
+            0,
+            -0.3726,
+            0
+          ],
+          "color": "78a49a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.78416,
+            1.2109500000000002,
+            1.0308480000000002
+          ],
+          "position": [
+            -0.19823999999999997,
+            0.729675,
+            0
+          ],
+          "color": "78a49a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.4986944,
+            0.77625,
+            0.019824
+          ],
+          "position": [
+            -0.19823999999999997,
+            0.791775,
+            0.5207104000000001
+          ],
+          "color": "415c75"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.44604,
+            0.9004499999999999,
+            0.21145600000000003
+          ],
+          "position": [
+            -0.7681799999999999,
+            -1.0867499999999999,
+            -0.5550720000000001
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.44604,
+            0.9004499999999999,
+            0.21145600000000003
+          ],
+          "position": [
+            -0.7681799999999999,
+            -1.0867499999999999,
+            0.5550720000000001
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.44604,
+            0.9004499999999999,
+            0.21145600000000003
+          ],
+          "position": [
+            0.7681799999999999,
+            -1.0867499999999999,
+            -0.5550720000000001
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.44604,
+            0.9004499999999999,
+            0.21145600000000003
+          ],
+          "position": [
+            0.7681799999999999,
+            -1.0867499999999999,
+            0.5550720000000001
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.029735999999999995,
+            0.388125,
+            0.19824
+          ],
+          "position": [
+            1.234044,
+            -0.09315,
+            -0.317184
+          ],
+          "color": "ecdba6"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.029735999999999995,
+            0.388125,
+            0.19824
+          ],
+          "position": [
+            1.234044,
+            -0.09315,
+            0.317184
+          ],
+          "color": "ecdba6"
+        }
+      ]
+    },
+    {
+      "asset_id": "P23",
+      "name_zh": "红条纹半收棚摊桌",
+      "key": "market_red",
+      "archetype": "support_table_p23_v3",
+      "planned_instances": 2,
+      "method": "程序",
+      "envelope_xyz": [
+        1.9500000000000002,
+        2.3400000000000003,
+        1.105
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P23_market_red_white.png",
+      "model_path": "assets/final/P23_market_red.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            1.9500000000000002,
+            0.156,
+            1.105
+          ],
+          "position": [
+            0,
+            0.05199999999999998,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            -0.8710000000000001,
+            -0.5980000000000001,
+            -0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            -0.8710000000000001,
+            -0.5980000000000001,
+            0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            0.8710000000000001,
+            -0.5980000000000001,
+            -0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            0.8710000000000001,
+            -0.5980000000000001,
+            0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.058499999999999996,
+            0.949,
+            0.058499999999999996
+          ],
+          "position": [
+            -0.9165,
+            0.6044999999999999,
+            -0.47515
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.058499999999999996,
+            0.949,
+            0.058499999999999996
+          ],
+          "position": [
+            0.9165,
+            0.6044999999999999,
+            -0.47515
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            -0.8125,
+            1.1245,
+            -0.38675
+          ],
+          "color": "ca7772"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            -0.48750000000000004,
+            1.1245,
+            -0.38675
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            -0.1625,
+            1.1245,
+            -0.38675
+          ],
+          "color": "ca7772"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            0.1625,
+            1.1245,
+            -0.38675
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            0.48750000000000004,
+            1.1245,
+            -0.38675
+          ],
+          "color": "ca7772"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            0.8125,
+            1.1245,
+            -0.38675
+          ],
+          "color": "d6c6a7"
+        }
+      ]
+    },
+    {
+      "asset_id": "P24",
+      "name_zh": "绿条纹半收棚摊桌",
+      "key": "market_green",
+      "archetype": "support_table_p24_v3",
+      "planned_instances": 2,
+      "method": "程序",
+      "envelope_xyz": [
+        1.9500000000000002,
+        2.3400000000000003,
+        1.105
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P24_market_green_white.png",
+      "model_path": "assets/final/P24_market_green.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            1.9500000000000002,
+            0.156,
+            1.105
+          ],
+          "position": [
+            0,
+            0.05199999999999998,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            -0.8710000000000001,
+            -0.5980000000000001,
+            -0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            -0.8710000000000001,
+            -0.5980000000000001,
+            0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            0.8710000000000001,
+            -0.5980000000000001,
+            -0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.11050000000000001,
+            1.1440000000000001,
+            0.11050000000000001
+          ],
+          "position": [
+            0.8710000000000001,
+            -0.5980000000000001,
+            0.46149999999999997
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.058499999999999996,
+            0.949,
+            0.058499999999999996
+          ],
+          "position": [
+            -0.9165,
+            0.6044999999999999,
+            -0.47515
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.058499999999999996,
+            0.949,
+            0.058499999999999996
+          ],
+          "position": [
+            0.9165,
+            0.6044999999999999,
+            -0.47515
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            -0.8125,
+            1.1245,
+            -0.38675
+          ],
+          "color": "6d9c84"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            -0.48750000000000004,
+            1.1245,
+            -0.38675
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            -0.1625,
+            1.1245,
+            -0.38675
+          ],
+          "color": "6d9c84"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            0.1625,
+            1.1245,
+            -0.38675
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            0.48750000000000004,
+            1.1245,
+            -0.38675
+          ],
+          "color": "6d9c84"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.325,
+            0.09100000000000001,
+            0.29835
+          ],
+          "position": [
+            0.8125,
+            1.1245,
+            -0.38675
+          ],
+          "color": "d6c6a7"
+        }
+      ]
+    },
+    {
+      "asset_id": "P25",
+      "name_zh": "木托盘",
+      "key": "pallet_wood",
+      "archetype": "support_pallet_p25_v3",
+      "planned_instances": 2,
+      "method": "程序",
+      "envelope_xyz": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P25_pallet_wood_white.png",
+      "model_path": "assets/final/P25_pallet_wood.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            -0.756,
+            0.1215,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            -0.37800000000000006,
+            0.1215,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            0,
+            0.1215,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            0.3779999999999999,
+            0.1215,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            0.7560000000000001,
+            0.1215,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3402,
+            0.243,
+            1.08
+          ],
+          "position": [
+            -0.6426000000000001,
+            -0.04725000000000001,
+            0
+          ],
+          "color": "b78252"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3402,
+            0.243,
+            1.08
+          ],
+          "position": [
+            0.6426000000000001,
+            -0.04725000000000001,
+            0
+          ],
+          "color": "b78252"
+        }
+      ]
+    },
+    {
+      "asset_id": "P26",
+      "name_zh": "蓝色低托盘",
+      "key": "pallet_blue",
+      "archetype": "support_pallet_p26_v3",
+      "planned_instances": 2,
+      "method": "程序",
+      "envelope_xyz": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P26_pallet_blue_white.png",
+      "model_path": "assets/final/P26_pallet_blue.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            -0.756,
+            0.1215,
+            0
+          ],
+          "color": "587da0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            -0.37800000000000006,
+            0.1215,
+            0
+          ],
+          "color": "587da0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            0,
+            0.1215,
+            0
+          ],
+          "color": "587da0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            0.3779999999999999,
+            0.1215,
+            0
+          ],
+          "color": "587da0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3213,
+            0.09450000000000001,
+            1.08
+          ],
+          "position": [
+            0.7560000000000001,
+            0.1215,
+            0
+          ],
+          "color": "587da0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3402,
+            0.243,
+            1.08
+          ],
+          "position": [
+            -0.6426000000000001,
+            -0.04725000000000001,
+            0
+          ],
+          "color": "587da0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.3402,
+            0.243,
+            1.08
+          ],
+          "position": [
+            0.6426000000000001,
+            -0.04725000000000001,
+            0
+          ],
+          "color": "587da0"
+        }
+      ]
+    },
+    {
+      "asset_id": "P27",
+      "name_zh": "蜜桃连排楼单元",
+      "key": "row_peach",
+      "archetype": "building_segment_p27_v3",
+      "planned_instances": 4,
+      "method": "程序",
+      "envelope_xyz": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P27_row_peach_white.png",
+      "model_path": "assets/final/P27_row_peach.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            3.952,
+            1.721088
+          ],
+          "position": [
+            0,
+            -0.10400000000000001,
+            -0.176256
+          ],
+          "color": "cd998a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            0.10400000000000001,
+            1.783296
+          ],
+          "position": [
+            0,
+            2.028,
+            -0.145152
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.52,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.31200000000000006,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.0572,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.036400000000000036,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.52,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.31200000000000006,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.0572,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.036400000000000036,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.52,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.52,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.0572,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.7956000000000001,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.52,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            0.52,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.0572,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            0.7956000000000001,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.52,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.352,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.0572,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.6276,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.52,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            1.352,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.0572,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            1.6276,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.8892799999999996,
+            1.3728,
+            0.0324
+          ],
+          "position": [
+            0,
+            -1.1232000000000002,
+            0.72576
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.0884,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.8832,
+            -0.20799999999999996,
+            0.860544
+          ],
+          "color": "cd998a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.0884,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.5299200000000001,
+            -0.20799999999999996,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.0884,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.17664,
+            -0.20799999999999996,
+            0.860544
+          ],
+          "color": "cd998a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.0884,
+            0.33177599999999996
+          ],
+          "position": [
+            0.17664,
+            -0.20799999999999996,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.0884,
+            0.33177599999999996
+          ],
+          "position": [
+            0.5299200000000001,
+            -0.20799999999999996,
+            0.860544
+          ],
+          "color": "cd998a"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.0884,
+            0.33177599999999996
+          ],
+          "position": [
+            0.8831999999999998,
+            -0.20799999999999996,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.9814399999999996,
+            0.20800000000000002,
+            0.04536
+          ],
+          "position": [
+            0,
+            0.24960000000000024,
+            0.7387199999999999
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "SHOP",
+          "position": [
+            0,
+            0.24960000000000024,
+            0.7665839999999999
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P28",
+      "name_zh": "薄荷连排楼单元",
+      "key": "row_mint",
+      "archetype": "building_segment_p28_v3",
+      "planned_instances": 4,
+      "method": "程序",
+      "envelope_xyz": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P28_row_mint_white.png",
+      "model_path": "assets/final/P28_row_mint.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            3.8949999999999996,
+            1.721088
+          ],
+          "position": [
+            0,
+            -0.1025,
+            -0.176256
+          ],
+          "color": "86a895"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            0.1025,
+            1.783296
+          ],
+          "position": [
+            0,
+            1.9987499999999998,
+            -0.145152
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5125,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.3075,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.056374999999999995,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.03587500000000003,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5125,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.3075,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.056374999999999995,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.03587500000000003,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5125,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.5125,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.056374999999999995,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.784125,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5125,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            0.5125,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.056374999999999995,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            0.784125,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5125,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.3325,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.056374999999999995,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.6041249999999998,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5125,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            1.3325,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.056374999999999995,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            1.6041249999999998,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.8892799999999996,
+            1.353,
+            0.0324
+          ],
+          "position": [
+            0,
+            -1.107,
+            0.72576
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.087125,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.8832,
+            -0.20499999999999993,
+            0.860544
+          ],
+          "color": "86a895"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.087125,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.5299200000000001,
+            -0.20499999999999993,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.087125,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.17664,
+            -0.20499999999999993,
+            0.860544
+          ],
+          "color": "86a895"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.087125,
+            0.33177599999999996
+          ],
+          "position": [
+            0.17664,
+            -0.20499999999999993,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.087125,
+            0.33177599999999996
+          ],
+          "position": [
+            0.5299200000000001,
+            -0.20499999999999993,
+            0.860544
+          ],
+          "color": "86a895"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.087125,
+            0.33177599999999996
+          ],
+          "position": [
+            0.8831999999999998,
+            -0.20499999999999993,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.9814399999999996,
+            0.205,
+            0.04536
+          ],
+          "position": [
+            0,
+            0.2460000000000002,
+            0.7387199999999999
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "SHOP",
+          "position": [
+            0,
+            0.2460000000000002,
+            0.7665839999999999
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P29",
+      "name_zh": "蓝紫连排楼单元",
+      "key": "row_blue",
+      "archetype": "building_segment_p29_v3",
+      "planned_instances": 3,
+      "method": "程序",
+      "envelope_xyz": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P29_row_blue_white.png",
+      "model_path": "assets/final/P29_row_blue.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            4.085,
+            1.721088
+          ],
+          "position": [
+            0,
+            -0.1075,
+            -0.176256
+          ],
+          "color": "8b9eb4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            0.1075,
+            1.783296
+          ],
+          "position": [
+            0,
+            2.09625,
+            -0.145152
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5375,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.3225,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.059125,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.03762500000000003,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5375,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.3225,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.059125,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.03762500000000003,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5375,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.5375,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.059125,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.822375,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5375,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            0.5375,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.059125,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            0.822375,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5375,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.3975,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.059125,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.682375,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5375,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            1.3975,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.059125,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            1.682375,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.8892799999999996,
+            1.419,
+            0.0324
+          ],
+          "position": [
+            0,
+            -1.161,
+            0.72576
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.091375,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.8832,
+            -0.21499999999999994,
+            0.860544
+          ],
+          "color": "8b9eb4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.091375,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.5299200000000001,
+            -0.21499999999999994,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.091375,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.17664,
+            -0.21499999999999994,
+            0.860544
+          ],
+          "color": "8b9eb4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.091375,
+            0.33177599999999996
+          ],
+          "position": [
+            0.17664,
+            -0.21499999999999994,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.091375,
+            0.33177599999999996
+          ],
+          "position": [
+            0.5299200000000001,
+            -0.21499999999999994,
+            0.860544
+          ],
+          "color": "8b9eb4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.091375,
+            0.33177599999999996
+          ],
+          "position": [
+            0.8831999999999998,
+            -0.21499999999999994,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.9814399999999996,
+            0.215,
+            0.04536
+          ],
+          "position": [
+            0,
+            0.25800000000000023,
+            0.7387199999999999
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "SHOP",
+          "position": [
+            0,
+            0.25800000000000023,
+            0.7665839999999999
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P30",
+      "name_zh": "奶油连排楼单元",
+      "key": "row_sand",
+      "archetype": "building_segment_p30_v3",
+      "planned_instances": 3,
+      "method": "程序",
+      "envelope_xyz": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P30_row_sand_white.png",
+      "model_path": "assets/final/P30_row_sand.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            3.8189999999999995,
+            1.721088
+          ],
+          "position": [
+            0,
+            -0.10049999999999999,
+            -0.176256
+          ],
+          "color": "c4ac83"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.304,
+            0.10049999999999999,
+            1.783296
+          ],
+          "position": [
+            0,
+            1.9597499999999997,
+            -0.145152
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5025,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.3015,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.055275,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            -0.035175000000000026,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5025,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.3015,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.055275,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            -0.035175000000000026,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5025,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.5025,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.055275,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            0.768825,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5025,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            0.5025,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.055275,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            0.768825,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5025,
+            0.036287999999999994
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.3065,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.055275,
+            0.0648
+          ],
+          "position": [
+            -0.5529599999999999,
+            1.5728249999999997,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.6911999999999999,
+            0.5025,
+            0.036287999999999994
+          ],
+          "position": [
+            0.5529599999999999,
+            1.3065,
+            0.7231679999999999
+          ],
+          "color": "53687d"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.7372799999999999,
+            0.055275,
+            0.0648
+          ],
+          "position": [
+            0.5529599999999999,
+            1.5728249999999997,
+            0.737424
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.8892799999999996,
+            1.3266,
+            0.0324
+          ],
+          "position": [
+            0,
+            -1.0854,
+            0.72576
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.085425,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.8832,
+            -0.20099999999999993,
+            0.860544
+          ],
+          "color": "c4ac83"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.085425,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.5299200000000001,
+            -0.20099999999999993,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.085425,
+            0.33177599999999996
+          ],
+          "position": [
+            -0.17664,
+            -0.20099999999999993,
+            0.860544
+          ],
+          "color": "c4ac83"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.085425,
+            0.33177599999999996
+          ],
+          "position": [
+            0.17664,
+            -0.20099999999999993,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.085425,
+            0.33177599999999996
+          ],
+          "position": [
+            0.5299200000000001,
+            -0.20099999999999993,
+            0.860544
+          ],
+          "color": "c4ac83"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.35328,
+            0.085425,
+            0.33177599999999996
+          ],
+          "position": [
+            0.8831999999999998,
+            -0.20099999999999993,
+            0.860544
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            1.9814399999999996,
+            0.20099999999999998,
+            0.04536
+          ],
+          "position": [
+            0,
+            0.2412000000000002,
+            0.7387199999999999
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "SHOP",
+          "position": [
+            0,
+            0.2412000000000002,
+            0.7665839999999999
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P31",
+      "name_zh": "花店低楼",
+      "key": "flowers_shop",
+      "archetype": "wide_building_p31_v3",
+      "planned_instances": 2,
+      "method": "混合",
+      "envelope_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P31_flowers_shop_white.png",
+      "model_path": "assets/final/P31_flowers_shop.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            2.2800000000000002,
+            2.5497599999999996
+          ],
+          "position": [
+            0,
+            -0.06000000000000002,
+            -0.26112
+          ],
+          "color": "859d80"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            0.15000000000000002,
+            2.6419200000000003
+          ],
+          "position": [
+            0,
+            1.1250000000000002,
+            -0.21504
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.7289600000000003,
+            0.7920000000000001,
+            0.032
+          ],
+          "position": [
+            0,
+            -0.6480000000000001,
+            1.0649600000000001
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -1.2757333333333336,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "859d80"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.25514666666666685,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "859d80"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.2551466666666667,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "859d80"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            1.2757333333333338,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.86208,
+            0.30000000000000004,
+            0.044800000000000006
+          ],
+          "position": [
+            0,
+            0.14400000000000016,
+            1.07776
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "FLOWERS",
+          "position": [
+            0,
+            0.14400000000000016,
+            1.10528
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P32",
+      "name_zh": "书店低楼",
+      "key": "books_shop",
+      "archetype": "wide_building_p32_v3",
+      "planned_instances": 2,
+      "method": "程序",
+      "envelope_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P32_books_shop_white.png",
+      "model_path": "assets/final/P32_books_shop.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            2.2800000000000002,
+            2.5497599999999996
+          ],
+          "position": [
+            0,
+            -0.06000000000000002,
+            -0.26112
+          ],
+          "color": "86a3a0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            0.15000000000000002,
+            2.6419200000000003
+          ],
+          "position": [
+            0,
+            1.1250000000000002,
+            -0.21504
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.7289600000000003,
+            0.7920000000000001,
+            0.032
+          ],
+          "position": [
+            0,
+            -0.6480000000000001,
+            1.0649600000000001
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -1.2757333333333336,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "86a3a0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.25514666666666685,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "86a3a0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.2551466666666667,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "86a3a0"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            1.2757333333333338,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.86208,
+            0.30000000000000004,
+            0.044800000000000006
+          ],
+          "position": [
+            0,
+            0.14400000000000016,
+            1.07776
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "BOOKS",
+          "position": [
+            0,
+            0.14400000000000016,
+            1.10528
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P33",
+      "name_zh": "便利店低楼",
+      "key": "corner_shop",
+      "archetype": "wide_building_p33_v3",
+      "planned_instances": 2,
+      "method": "程序",
+      "envelope_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P33_corner_shop_white.png",
+      "model_path": "assets/final/P33_corner_shop.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            2.2800000000000002,
+            2.5497599999999996
+          ],
+          "position": [
+            0,
+            -0.06000000000000002,
+            -0.26112
+          ],
+          "color": "c0a579"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            0.15000000000000002,
+            2.6419200000000003
+          ],
+          "position": [
+            0,
+            1.1250000000000002,
+            -0.21504
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.7289600000000003,
+            0.7920000000000001,
+            0.032
+          ],
+          "position": [
+            0,
+            -0.6480000000000001,
+            1.0649600000000001
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -1.2757333333333336,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "c0a579"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.25514666666666685,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "c0a579"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.2551466666666667,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "c0a579"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            1.2757333333333338,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.86208,
+            0.30000000000000004,
+            0.044800000000000006
+          ],
+          "position": [
+            0,
+            0.14400000000000016,
+            1.07776
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "LOCAL",
+          "position": [
+            0,
+            0.14400000000000016,
+            1.10528
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P34",
+      "name_zh": "玩具街机低楼",
+      "key": "arcade_shop",
+      "archetype": "wide_building_p34_v3",
+      "planned_instances": 2,
+      "method": "混合",
+      "envelope_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P34_arcade_shop_white.png",
+      "model_path": "assets/final/P34_arcade_shop.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            2.2800000000000002,
+            2.5497599999999996
+          ],
+          "position": [
+            0,
+            -0.06000000000000002,
+            -0.26112
+          ],
+          "color": "a995b4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            3.3280000000000003,
+            0.15000000000000002,
+            2.6419200000000003
+          ],
+          "position": [
+            0,
+            1.1250000000000002,
+            -0.21504
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.7289600000000003,
+            0.7920000000000001,
+            0.032
+          ],
+          "position": [
+            0,
+            -0.6480000000000001,
+            1.0649600000000001
+          ],
+          "color": "425c70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -1.2757333333333336,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "a995b4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            -0.25514666666666685,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "a995b4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.2551466666666667,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            0.7654400000000001,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "a995b4"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5102933333333334,
+            0.12750000000000003,
+            0.49152
+          ],
+          "position": [
+            1.2757333333333338,
+            -0.11999999999999995,
+            1.2748799999999998
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            2.86208,
+            0.30000000000000004,
+            0.044800000000000006
+          ],
+          "position": [
+            0,
+            0.14400000000000016,
+            1.07776
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "PLAY",
+          "position": [
+            0,
+            0.14400000000000016,
+            1.10528
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "asset_id": "P35",
+      "name_zh": "大黄鸭与底座整件",
+      "key": "duck_monument",
+      "archetype": "landmark_p35_v3",
+      "planned_instances": 1,
+      "method": "混合",
+      "envelope_xyz": [
+        6.272,
+        6.832,
+        5.152
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P35_duck_monument_white.png",
+      "model_path": "assets/final/P35_duck_monument.glb",
+      "proxy_parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            4.5472,
+            1.9214999999999998,
+            4.819612903225806
+          ],
+          "position": [
+            0,
+            -2.45525,
+            0
+          ],
+          "color": "b9b19b",
+          "top_radius": 1.45
+        },
+        {
+          "kind": "box",
+          "size": [
+            6.272,
+            0.2562,
+            5.152
+          ],
+          "position": [
+            0,
+            -3.2878999999999996,
+            0
+          ],
+          "color": "b4b09d"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            4.1552,
+            2.88225,
+            2.792051612903226
+          ],
+          "position": [
+            0,
+            -0.042699999999999995,
+            -0.2160516129032258
+          ],
+          "color": "e9bd47"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.7561600000000002,
+            2.3912,
+            1.7616516129032258
+          ],
+          "position": [
+            0.784,
+            2.0923,
+            0.24929032258064515
+          ],
+          "color": "edc957"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.2544000000000002,
+            0.46969999999999995,
+            0.930683870967742
+          ],
+          "position": [
+            0.9408,
+            1.68665,
+            1.1134967741935484
+          ],
+          "color": "df8c3b"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.18816,
+            0.32025,
+            0.13295483870967742
+          ],
+          "position": [
+            0.31360000000000005,
+            2.2417499999999997,
+            1.0852438709677419
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.18816,
+            0.32025,
+            0.13295483870967742
+          ],
+          "position": [
+            1.19168,
+            2.2417499999999997,
+            1.0852438709677419
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            1.96,
+            1.3877499999999998,
+            0.4154838709677419
+          ],
+          "position": [
+            -0.43904000000000004,
+            0,
+            1.1965935483870966
+          ],
+          "color": "dbac3d"
+        }
+      ]
+    },
+    {
+      "asset_id": "P36",
+      "name_zh": "甜甜圈店与屋顶招牌整件",
+      "key": "donut_landmark",
+      "archetype": "landmark_p36_v3",
+      "planned_instances": 1,
+      "method": "混合",
+      "envelope_xyz": [
+        5.4,
+        4.16,
+        4.03
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P36_donut_landmark_white.png",
+      "model_path": "assets/final/P36_donut_landmark.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            5.4,
+            1.8459999999999999,
+            4.03
+          ],
+          "position": [
+            0,
+            -1.1570000000000003,
+            0
+          ],
+          "color": "cd999e"
+        },
+        {
+          "kind": "box",
+          "size": [
+            4.752000000000001,
+            0.8840000000000001,
+            0.039
+          ],
+          "position": [
+            0,
+            -1.3390000000000004,
+            2.0163
+          ],
+          "color": "435f70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            -2.3625000000000003,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            -1.6875,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "cd999e"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            -1.0125000000000002,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            -0.3375,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "cd999e"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            0.3375,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            1.0125000000000002,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "cd999e"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            1.6875,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.64125,
+            0.13,
+            0.52
+          ],
+          "position": [
+            2.3625000000000003,
+            -0.7540000000000001,
+            1.7550000000000001
+          ],
+          "color": "cd999e"
+        },
+        {
+          "kind": "box",
+          "size": [
+            4.59,
+            0.325,
+            0.052000000000000005
+          ],
+          "position": [
+            0,
+            -0.4550000000000001,
+            2.0293
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "DONUTS",
+          "position": [
+            0,
+            -0.4550000000000001,
+            2.0605
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        },
+        {
+          "kind": "torus",
+          "size": [
+            2.16,
+            0.5850000000000001,
+            2.08
+          ],
+          "position": [
+            0,
+            1.014,
+            0
+          ],
+          "color": "dd91a8",
+          "rotation_degrees": [
+            90,
+            0,
+            0
+          ],
+          "inner_radius": 0.35,
+          "outer_radius": 0.8
+        }
+      ]
+    },
+    {
+      "asset_id": "P37",
+      "name_zh": "奶茶店与屋顶杯整件",
+      "key": "boba_landmark",
+      "archetype": "landmark_p37_v3",
+      "planned_instances": 1,
+      "method": "混合",
+      "envelope_xyz": [
+        4.72,
+        4.096,
+        3.658
+      ],
+      "reference_status": "PENDING",
+      "reference_path": "assets/references/P37_boba_landmark_white.png",
+      "model_path": "assets/final/P37_boba_landmark.glb",
+      "proxy_parts": [
+        {
+          "kind": "box",
+          "size": [
+            4.72,
+            1.8175999999999999,
+            3.658
+          ],
+          "position": [
+            0,
+            -1.1392000000000002,
+            0
+          ],
+          "color": "a5a0bc"
+        },
+        {
+          "kind": "box",
+          "size": [
+            4.1536,
+            0.8704000000000001,
+            0.035399999999999994
+          ],
+          "position": [
+            0,
+            -1.3184000000000002,
+            1.83018
+          ],
+          "color": "435f70"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            -2.065,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            -1.4749999999999999,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "a5a0bc"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            -0.885,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            -0.295,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "a5a0bc"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            0.295,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            0.885,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "a5a0bc"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            1.4749999999999999,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "d6c6a7"
+        },
+        {
+          "kind": "box",
+          "size": [
+            0.5605,
+            0.128,
+            0.472
+          ],
+          "position": [
+            2.065,
+            -0.7424000000000001,
+            1.593
+          ],
+          "color": "a5a0bc"
+        },
+        {
+          "kind": "box",
+          "size": [
+            4.012,
+            0.32,
+            0.0472
+          ],
+          "position": [
+            0,
+            -0.4480000000000001,
+            1.8419799999999997
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "label",
+          "text": "BOBA & JOY",
+          "position": [
+            0,
+            -0.4480000000000001,
+            1.8702999999999999
+          ],
+          "color": "f0e6cb",
+          "pixel_size": 0.007,
+          "font_size": 20
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            1.6048,
+            1.4464,
+            1.6048
+          ],
+          "position": [
+            0,
+            0.512,
+            0
+          ],
+          "color": "d4b08b",
+          "top_radius": 0.75
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            1.888,
+            0.16640000000000002,
+            1.888
+          ],
+          "position": [
+            0,
+            1.3184,
+            0
+          ],
+          "color": "a99bc0",
+          "top_radius": 0.8
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.1298,
+            0.512,
+            0.1298
+          ],
+          "position": [
+            0.24779999999999996,
+            1.6,
+            0
+          ],
+          "color": "28364a",
+          "top_radius": 0.055
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.21239999999999998,
+            0.2304,
+            0.0826
+          ],
+          "position": [
+            -0.44839999999999997,
+            0.1408,
+            0.76346
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.21239999999999998,
+            0.2304,
+            0.0826
+          ],
+          "position": [
+            0,
+            0.1408,
+            0.76346
+          ],
+          "color": "28364a"
+        },
+        {
+          "kind": "sphere",
+          "size": [
+            0.21239999999999998,
+            0.2304,
+            0.0826
+          ],
+          "position": [
+            0.44839999999999997,
+            0.1408,
+            0.76346
+          ],
+          "color": "28364a"
+        }
+      ]
+    }
+  ]
+}

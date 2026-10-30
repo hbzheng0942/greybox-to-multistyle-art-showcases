@@ -1,0 +1,194 @@
+[
+  {
+    "asset_id": "specimen_bear",
+    "image": "process/A01/modeling-references/specimen_bear.png",
+    "sha256": "7e93814a0df6bb76c7dcbd6ffe74ead9386b17f50bbfc6bee826f6b718ee0843",
+    "observation": "Broad brown sewn bear; complete four paws and shoulder mass, round ears and projecting muzzle; no platform. Fur relief and warm/cool color boundaries remain legible."
+  },
+  {
+    "asset_id": "specimen_wolf",
+    "image": "process/A01/modeling-references/specimen_wolf.png",
+    "sha256": "139bde1ee5ab77bac9ee5c4d6021e5d91ff7417c7db7df9e8ad3808f54664d8d",
+    "observation": "Complete grey/cream wolf with pointed ears, long muzzle, four paw contacts and separated tail; no display base. Full ear tips retained inside image."
+  },
+  {
+    "asset_id": "specimen_deer",
+    "image": "process/A01/modeling-references/specimen_deer.png",
+    "sha256": "ec01127f928ebb306825328872b5ffc05a12ed98e1b102ce7b78060d6a2b1390",
+    "observation": "Tan/cream stag with four slender legs, intact separate branching antlers and open underbody; no display base. Highest antler has small but complete margin."
+  },
+  {
+    "asset_id": "dog_player",
+    "image": "process/A01/modeling-references/dog_player.png",
+    "sha256": "cf74066ce18d329dd5b2281d43017bbd6573b4160b1b85ba0183af0c1e1819ff",
+    "observation": "Small orange/cream beagle, brown floppy ears, red harness, black nose, four separated paws and distinct tail. This neutral standing design is for rigid motion; no skeletal rig is implied."
+  },
+  {
+    "asset_id": "visitor_staff_head",
+    "image": "process/A01/modeling-references/visitor_staff_head.png",
+    "sha256": "1f8889566ba56fdfe18ea9369aec18d40389118c1ff417cc04ffca40682a47ae",
+    "observation": "Navy peaked cap with readable mammoth badge; complete face, ears and hair, flat neck edge. No torso remains in crop."
+  },
+  {
+    "asset_id": "visitor_staff_torso",
+    "image": "process/A01/modeling-references/visitor_staff_torso.png",
+    "sha256": "5d550b9abc3c803f5f5a5e72fadc23aabf2255ec8b1c3f86adb0e71791d0805c",
+    "observation": "Orange padded vest, navy sleeves and mitten hands; underarm gaps visible, complete waist/belt. Dark collar inset is visible; controlled flat neck and waist caps are planned after mesh inspection, not proven watertight by this picture."
+  },
+  {
+    "asset_id": "visitor_staff_legs",
+    "image": "process/A01/modeling-references/visitor_staff_legs.png",
+    "sha256": "43dd76100faab7cf629ec1de8236dc50af7eaec4952487859b05716694ede1cd",
+    "observation": "Connected hips, two navy trouser legs and boots, visible leg separation and sole plane. A second belt remains: remove this pants belt locally and cap the upper waist; torso keeps the one final belt. Image is shape/style source, not proof that join is already repaired."
+  },
+  {
+    "asset_id": "visitor_adult_head",
+    "image": "process/A01/modeling-references/visitor_adult_head.png",
+    "sha256": "30ef41538b9be905ee684a3cf9267049de8941e2fe79c26e6cefae99c29f57a3",
+    "observation": "Cream knitted hat, brown hair, complete friendly face and ears, flat neck join; no adjacent module in crop."
+  },
+  {
+    "asset_id": "visitor_adult_torso",
+    "image": "process/A01/modeling-references/visitor_adult_torso.png",
+    "sha256": "f08a59c5d6c796066445aba362b1b31df16d88086af901415e546736800a048f",
+    "observation": "Red puffer jacket with brown collar and full mitten hands; visible arm gaps and flat lower waist; collar has shallow colored inset. Final cap topology awaits actual GLB inspection."
+  },
+  {
+    "asset_id": "visitor_adult_legs",
+    "image": "process/A01/modeling-references/visitor_adult_legs.png",
+    "sha256": "43e564e3ca25dcb811875d481b8a47bf9fac471f2f2e48c07b451f751f4967d7",
+    "observation": "Brown connected trousers, separated legs and dark shoes, flat closed top without duplicate belt. Full soles remain visible."
+  },
+  {
+    "asset_id": "visitor_child_head",
+    "image": "process/A01/modeling-references/visitor_child_head.png",
+    "sha256": "8bc2b0a236f267b03e929a07d3418b7359812e3b37b5462192bd66b499a547dc",
+    "observation": "Young bare head with dark brown layered short hair, complete ears and face, flat neck. Repair crop uses only the larger head; unwanted generated torso/legs are excluded. Original340x185 subject requirement passes without upscaling."
+  },
+  {
+    "asset_id": "visitor_child_torso",
+    "image": "process/A01/modeling-references/visitor_child_torso.png",
+    "sha256": "b64c22b28d2a9e9ecda17ea450ac16864875eebb73b4d88cb678773d7d1edcec",
+    "observation": "Mustard quilted vest over navy short sleeves, two complete arms/hands and clear gaps, visibly closed navy neckline. No head or lower-body contamination."
+  },
+  {
+    "asset_id": "visitor_child_legs",
+    "image": "process/A01/modeling-references/visitor_child_legs.png",
+    "sha256": "052e6dc2dc1ae0db611e1475c420a16dd34d98c6fa8251b971c6493a885f2dc0",
+    "observation": "Navy shorts, exposed knees, cream socks and brown trainers; joined closed waist with no belt and distinct separated legs; full soles in crop."
+  },
+  {
+    "asset_id": "prop_vase_a",
+    "image": "process/A01/modeling-references/prop_vase_a.png",
+    "sha256": "4c21447f3f0ed32780319767a02d63def7b76b16fdb1057f8e59423b6a1fc74f",
+    "observation": "Ivory narrow-neck vase with navy leaf sprigs; open thick lip, rounded belly and small integral flat foot. Entire silhouette isolated, paint retained. Native material pass must avoid treating reference highlights as albedo."
+  },
+  {
+    "asset_id": "prop_vase_b",
+    "image": "process/A01/modeling-references/prop_vase_b.png",
+    "sha256": "f2b23d895dc4782a6d7f9aceb6c09e6c0d3cead90e736467af5428c325511413",
+    "observation": "Orange round-bellied vase with cream petal band/navy marks; open lip and integral foot. No neighboring tall urn remains after corrected ROI; distinct squat silhouette."
+  },
+  {
+    "asset_id": "prop_vase_big",
+    "image": "process/A01/modeling-references/prop_vase_big.png",
+    "sha256": "c5ac7678c9852f2da32640b2b4f1184d00f9fd7d5c61961e7e6317923cb4a3a4",
+    "observation": "Tall ivory urn with large navy botanical branches and ring bands, broad open lip and stable integral foot; complete isolated object. Glaze response will be calibrated under native light."
+  },
+  {
+    "asset_id": "prop_rock_a",
+    "image": "process/A01/modeling-references/prop_rock_a.png",
+    "sha256": "d206ef62ae22d61194f7166eac05cc9b352ee96f8c4cc3636d4449f55bac2588",
+    "observation": "Rounded asymmetric ochre stone with broad fractures and flat underside, no stand or text. Clearly different silhouette and material pattern from wedge rock."
+  },
+  {
+    "asset_id": "prop_rock_b",
+    "image": "process/A01/modeling-references/prop_rock_b.png",
+    "sha256": "c7e377adf0ee869b916f5b852b1c7970a9f513e166f35aaf03660236c9487e96",
+    "observation": "Grey angular wedge stone with broad cream veins and dark cavities, flat support edge; isolated without another object."
+  },
+  {
+    "asset_id": "prop_bust",
+    "image": "process/A01/modeling-references/prop_bust.png",
+    "sha256": "7fb83f494d58b7261ac5546099b7597bc3727dab9e53e4000647061c965ba7e3",
+    "observation": "Ivory classical head/shoulder bust with wavy hair, readable face and flat cropped shoulder base; no extra pedestal, complete contour."
+  },
+  {
+    "asset_id": "prop_bone",
+    "image": "process/A01/modeling-references/prop_bone.png",
+    "sha256": "57dff59823ef1db3abf72405fdf46b981b8241c4ced4206aff6b24741241967a",
+    "observation": "Single long fossil bone with two broad knuckled ends and narrower continuous shaft; neutral ivory stone texture, complete horizontal oblique form, no stand."
+  },
+  {
+    "asset_id": "prop_specimen",
+    "image": "process/A01/modeling-references/prop_specimen.png",
+    "sha256": "a6baf4ce9bee85c117a154ba5f9365bdda56f92d3a2f2a337eac47e03d0f2587",
+    "observation": "One seated owl, broad eye discs and layered folded-wing feather relief, two visible feet and resting tail; no stump or platform."
+  },
+  {
+    "asset_id": "prop_souvenir",
+    "image": "process/A01/modeling-references/prop_souvenir.png",
+    "sha256": "8407bdf3357c29981254f6c466f393af4ba9316dc5cbc601f25b4e94e6f3d8b3",
+    "observation": "Orange/ivory small mammoth toy with trunk and two upturned tusks, thick connected legs and visible underbody gaps. Far-side leg is partly occluded in three-quarter view; rigid static source, not a rig proof."
+  },
+  {
+    "asset_id": "mammoth_back_leg",
+    "image": "process/A01/modeling-references/mammoth_back_leg.png",
+    "sha256": "e6acd0a50ac93bc4302a1e1d6e2a06d453c214862c3dd1c4478b7e11313b20d1",
+    "observation": "One complete bent hind-leg component, rounded top, knee connector, cream padded shin and three-toed broad foot; welded seams visible and no pelvis/body in crop."
+  },
+  {
+    "asset_id": "mammoth_front_leg",
+    "image": "process/A01/modeling-references/mammoth_front_leg.png",
+    "sha256": "a189a2586089aa8c2e11e34c177d89638c5d46761a65f5bea62b629c319dfcad",
+    "observation": "One straighter full foreleg with rounded top, elbow and shin, three-toed foot and flat sole region; isolated, no shoulder yoke attached."
+  },
+  {
+    "asset_id": "mammoth_pelvis",
+    "image": "process/A01/modeling-references/mammoth_pelvis.png",
+    "sha256": "3209f31f9f8f3a18a51a9b483eeef7f62f947068707606eb6415005ceddcfe79",
+    "observation": "Transverse padded hip saddle with paired flared plates, connected central bridge and two lower leg-contact lobes. Open recesses and large end sockets visible; no adjacent neck component after ROI correction."
+  },
+  {
+    "asset_id": "mammoth_chest",
+    "image": "process/A01/modeling-references/mammoth_chest.png",
+    "sha256": "d567ba4f14395cf7ce487e2965a74c9fd035c7b350a7781a1e839a1aa316e7de",
+    "observation": "Shoulder yoke with two rounded scapular plates and connected center, two lower attachment lobes and top joining socket. Full cream silhouette retained, no legs."
+  },
+  {
+    "asset_id": "mammoth_neck",
+    "image": "process/A01/modeling-references/mammoth_neck.png",
+    "sha256": "6fa3a28a6b5b3938907b674f77895928817228b1b2ab77c31ebd20f674835ecf",
+    "observation": "Three connected padded vertebral lobes with visible central linking core and open end connector; whole compact component isolated after ROI correction."
+  },
+  {
+    "asset_id": "mammoth_spine",
+    "image": "process/A01/modeling-references/mammoth_spine.png",
+    "sha256": "cd265386313c0c6e190fc271947c2b8fced37e9a3c946fa02dd483aba920c345",
+    "observation": "Ten rounded vertebral segments with upper processes, continuous dark connecting core, complete arched long backbone and both end connectors. No ribcage or limbs."
+  },
+  {
+    "asset_id": "mammoth_tail",
+    "image": "process/A01/modeling-references/mammoth_tail.png",
+    "sha256": "fbb2d0e2c488764be48d4f3d733e9b6c796e1d06d290e966a9047a9f54825b76",
+    "observation": "Continuous tapering segmented tail with broad mounting base and rounded upcurving tip; all segments visible. Actual curvature/support fit remains a 3D integration check, no pixel dimensions treated as measured mesh geometry."
+  },
+  {
+    "asset_id": "mammoth_ribs",
+    "image": "process/A01/modeling-references/mammoth_ribs.png",
+    "sha256": "03db63e6c2ef28837f0b3e050a61769636615f1279ba218cb017c2d9a0f86556",
+    "observation": "Seven paired thick padded ribs make a hollow barrel with readable large slots and open ends; top/underside carriers connect one rigid source. Not filled by a solid torso; final seam to separate spine owned locally."
+  },
+  {
+    "asset_id": "mammoth_head",
+    "image": "process/A01/modeling-references/mammoth_head.png",
+    "sha256": "d107e9f02674f95a2c95b9bf502c48f64507c3ecea58570f9629ec0bb0dc4f91",
+    "observation": "Large domed skull with deep eye sockets, nasal opening and cheek volumes; all edges complete; no tusks, lower jaw or trunk fused into the head reference."
+  },
+  {
+    "asset_id": "mammoth_jaw",
+    "image": "process/A01/modeling-references/mammoth_jaw.png",
+    "sha256": "007712703059a6db4a7e98222c3a3386b979853c5767fbdfbe7f8d498ebd72d8",
+    "observation": "Two long separated up-curving padded tusks linked by a basal mandible bridge. Both full arcs and blunt tips retained; H2 long-tusk identity preserved, no head in this component."
+  }
+]

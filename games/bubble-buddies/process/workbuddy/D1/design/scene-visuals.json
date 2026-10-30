@@ -1,0 +1,2898 @@
+{
+  "all": [
+    {
+      "path": "KeyLight",
+      "type": "DirectionalLight3D"
+    },
+    {
+      "path": "FillLight",
+      "type": "DirectionalLight3D"
+    },
+    {
+      "path": "Floor/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX10",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX11",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX12",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridX13",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "GridZ9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "BackWall/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "LeftWall/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "RightWall/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "RightWallBack",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "RightWallFront",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetGate",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetDoorPost",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetDoorPost2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "FrontWall/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WetZone",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "DryZone",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "洗护室",
+      "type": "Label3D"
+    },
+    {
+      "path": "整理室",
+      "type": "Label3D"
+    },
+    {
+      "path": "SplashDivider0/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "DividerCap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "SplashDivider1/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "DividerCap2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "SplashDivider2/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "DividerCap3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "HandoffWindowLintel/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WindowFrameTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WindowFrameSide",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WindowFrameSide2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "HandoffWindowLintel2/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WindowFrameTop2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WindowFrameSide3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WindowFrameSide4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "StaffDoorLintel/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "StaffDoorJamb/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "StaffDoorJamb2/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "StaffDoorThreshold",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "↔ 换区门",
+      "type": "Label3D"
+    },
+    {
+      "path": "PickupCourt",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "OutsideCurb",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingBench",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingBenchBack",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "主人等候",
+      "type": "Label3D"
+    },
+    {
+      "path": "接宠回家",
+      "type": "Label3D"
+    },
+    {
+      "path": "WaitingOwner/Coat",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingOwner/Head",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingOwner/Leg",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingOwner/Hand",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingOwner/Leg2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WaitingOwner/Hand2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake0/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake0Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake0Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake0Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake0Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake0Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signintake0",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake1/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake1Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake1Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake1Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake1Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake1Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signintake1",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake2/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake2Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake2Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake2Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake2Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake2Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signintake2",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark10",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark11",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark12",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Water",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0TapStem",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Tap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash0Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signwash0",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark13",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark14",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark15",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark16",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Water",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1TapStem",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Tap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "wash1Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signwash1",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark17",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark18",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark19",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark20",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "dryer/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "dryerTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "DryerBack",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Vent0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Vent1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Vent2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Vent3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Vent4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "dryerHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "dryerHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "dryerHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "dryerHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signdryer",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark21",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark22",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark23",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark24",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench0/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench0Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench0Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench0Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench0Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench0Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signbench0",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark25",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark26",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark27",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark28",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark29",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark30",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark31",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark32",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench1/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench1Top",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench1Highlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench1Highlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench1Highlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "bench1Highlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signbench1",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark33",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark34",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark35",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark36",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark37",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark38",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark39",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark40",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "brush/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "brushTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "BrushHandle",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "CombTooth0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "CombTooth1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "CombTooth2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "CombTooth3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "CombTooth4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "ScissorBlade1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "ScissorBlade3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "brushHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "brushHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "brushHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "brushHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signbrush",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark41",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark42",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark43",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark44",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "laundry/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "laundryTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "LaundryDoor",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "laundryHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "laundryHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "laundryHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "laundryHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signlaundry",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark45",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark46",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark47",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark48",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "exit/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "exitTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "exitHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "exitHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "exitHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "exitHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signexit",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark49",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark50",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark51",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark52",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "rack/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "rackTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TowelRail",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "rackHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "rackHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "rackHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "rackHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signrack",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark53",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark54",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark55",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark56",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "treatment/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "treatmentTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/HoodPost",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/HoodPost2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/HoodPost3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/HoodPost4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib10",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib11",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRib12",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/CanopyRidge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/BubbleRim",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/BubblePump",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/PumpBubble",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/PumpBubble2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/Bubbles/Bubble0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/Bubbles/Bubble1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/Bubbles/Bubble2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/Bubbles/Bubble3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/Bubbles/Bubble4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/ReadyMarker/CheckShort",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "TreatmentHood/ReadyMarker/CheckLong",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "treatmentHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "treatmentHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "treatmentHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "treatmentHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signtreatment",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark57",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark58",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark59",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark60",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake_dry/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake_dryTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "干宠入口",
+      "type": "Label3D"
+    },
+    {
+      "path": "intake_dryHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake_dryHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake_dryHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "intake_dryHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signintake_dry",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark61",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark62",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark63",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark64",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "paws/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "pawsTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/PawPad",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/ToePad",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/ToePad2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/ToePad3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/PawFile",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/ClipperHandle",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/ClipperHandle2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PawCareTools/ClipperTip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "pawsHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "pawsHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "pawsHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "pawsHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signpaws",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark65",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark66",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark67",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark68",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wet/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetRestMat",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetRestRail1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetRestRail3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_wetHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signbuffer_wet",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark69",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark70",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark71",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark72",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dry/Visual",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryTop",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryRestMat",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryRestRail1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryRestRail3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryHighlight/Edge",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryHighlight/Edge2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryHighlight/Edge3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "buffer_dryHighlight/Edge4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Signbuffer_dry",
+      "type": "Label3D"
+    },
+    {
+      "path": "AccessMark73",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark74",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark75",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "AccessMark76",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/FootMarker",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Apron",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/ApronPocket",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Head",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Cap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/CapButton",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/CapBrim",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Hand-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Eye-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Boot-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Hand1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Eye1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Boot1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/Visual/Smile",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player1/P1",
+      "type": "Label3D"
+    },
+    {
+      "path": "Player2/Visual/FootMarker",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Apron",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/ApronPocket",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Head",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Cap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/CapBand",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/CapCorner-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/CapCorner1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Hand-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Eye-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Boot-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Hand1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Eye1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Boot1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/Visual/Smile",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "Player2/P2",
+      "type": "Label3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Body",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Chest",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Head",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Muzzle",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Nose",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Smile",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Tongue",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Ear-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/InnerEar-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/EyeWhite-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Eye-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/EyeGlint-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Brow-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Leg",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Paw",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Leg2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Paw2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Ear1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/InnerEar1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/EyeWhite1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Eye1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/EyeGlint1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Brow1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Leg3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Paw3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Leg4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Paw4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Tail",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Dirt/Spot0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Dirt/Spot1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Dirt/Spot2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Foam/Bubble0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Foam/Bubble1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Foam/Bubble2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Foam/Bubble3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Foam/Bubble4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Foam/Bubble5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Ribbon/Bow-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Ribbon/Bow1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Ribbon/Knot",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/PawBadge/CleanPaw",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/PawBadge/CleanPaw2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/PawSparkles/PawSpark0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/PawSparkles/PawSpark1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/PawSparkles/PawSpark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/PawSparkles/PawSpark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea0/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea0/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea0/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea1/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea1/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea1/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea2/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea2/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea2/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea3/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea3/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fleas/Flea3/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip0/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip0/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip1/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip1/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip2/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip2/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip3/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip3/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip4/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TrimTuft/Clip4/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TowelWrap/Wrap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TowelWrap/Fold",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/TowelWrap/Tuck",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Fluff/Tuft7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/WetDrops/Drop-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/WetDrops/Bead-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/WetDrops/Drop1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/WetDrops/Bead1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Alert/Stroke",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Alert/Dot",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff10",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Puff11",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Frizz/Crown6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Crooked/SideSwept0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Crooked/SideSwept1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Crooked/SideSwept2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Crooked/SideSwept3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/Crooked/ShortPatch",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/RepairSparkles/CombSpark0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/RepairSparkles/CombSpark1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/RepairSparkles/CombSpark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/RepairSparkles/CombSpark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Visual/RepairSparkles/CombSpark4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot1/Pet1/Status",
+      "type": "Label3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Body",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Chest",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Head",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Muzzle",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Nose",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Smile",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Tongue",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Ear-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Cheek-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/EyeWhite-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Eye-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/EyeGlint-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Brow-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Leg",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Paw",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Leg2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Paw2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Ear1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Cheek1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/EyeWhite1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Eye1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/EyeGlint1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Brow1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Leg3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Paw3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Leg4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Paw4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Tail",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Dirt/Spot0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Dirt/Spot1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Dirt/Spot2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Foam/Bubble0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Foam/Bubble1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Foam/Bubble2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Foam/Bubble3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Foam/Bubble4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Foam/Bubble5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Ribbon/Bow-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Ribbon/Bow1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Ribbon/Knot",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/PawBadge/CleanPaw",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/PawBadge/CleanPaw2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/PawSparkles/PawSpark0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/PawSparkles/PawSpark1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/PawSparkles/PawSpark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/PawSparkles/PawSpark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea0/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea0/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea0/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea1/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea1/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea1/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea2/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea2/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea2/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea3/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea3/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fleas/Flea3/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip0/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip0/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip1/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip1/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip2/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip2/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip3/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip3/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip4/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TrimTuft/Clip4/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TowelWrap/Wrap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TowelWrap/Fold",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/TowelWrap/Tuck",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Fluff/Tuft7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/WetDrops/Drop-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/WetDrops/Bead-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/WetDrops/Drop1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/WetDrops/Bead1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Alert/Stroke",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Alert/Dot",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff10",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Puff11",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Frizz/Crown6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Crooked/SideSwept0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Crooked/SideSwept1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Crooked/SideSwept2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Crooked/SideSwept3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/Crooked/ShortPatch",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/RepairSparkles/CombSpark0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/RepairSparkles/CombSpark1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/RepairSparkles/CombSpark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/RepairSparkles/CombSpark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Visual/RepairSparkles/CombSpark4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot2/Pet2/Status",
+      "type": "Label3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Body",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Chest",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Head",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Muzzle",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Nose",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Smile",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Tongue",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Ear-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/EyeWhite-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Eye-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/EyeGlint-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Brow-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Leg",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Paw",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Leg2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Paw2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Ear1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/EyeWhite1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Eye1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/EyeGlint1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Brow1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Leg3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Paw3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Leg4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Paw4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Tail",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Dirt/Spot0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Dirt/Spot1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Dirt/Spot2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Foam/Bubble0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Foam/Bubble1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Foam/Bubble2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Foam/Bubble3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Foam/Bubble4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Foam/Bubble5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Ribbon/Bow-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Ribbon/Bow1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Ribbon/Knot",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/PawBadge/CleanPaw",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/PawBadge/CleanPaw2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/PawSparkles/PawSpark0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/PawSparkles/PawSpark1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/PawSparkles/PawSpark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/PawSparkles/PawSpark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea0/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea0/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea0/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea1/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea1/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea1/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea2/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea2/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea2/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea3/Bean",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea3/Antenna",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fleas/Flea3/Antenna2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip0/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip0/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip1/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip1/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip2/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip2/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip3/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip3/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip4/Curl",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TrimTuft/Clip4/Tip",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TowelWrap/Wrap",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TowelWrap/Fold",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/TowelWrap/Tuck",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Fluff/Tuft7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/WetDrops/Drop-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/WetDrops/Bead-1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/WetDrops/Drop1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/WetDrops/Bead1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Alert/Stroke",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Alert/Dot",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff7",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff8",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff9",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff10",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Puff11",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown5",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Frizz/Crown6",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Crooked/SideSwept0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Crooked/SideSwept1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Crooked/SideSwept2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Crooked/SideSwept3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/Crooked/ShortPatch",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/RepairSparkles/CombSpark0",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/RepairSparkles/CombSpark1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/RepairSparkles/CombSpark2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/RepairSparkles/CombSpark3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Visual/RepairSparkles/CombSpark4",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PetSlot3/Pet3/Status",
+      "type": "Label3D"
+    },
+    {
+      "path": "WarningRing1",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WarningRing2",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "WarningRing3",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel1/Fabric",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel1/Stripe",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel1/Status",
+      "type": "Label3D"
+    },
+    {
+      "path": "PhysicalTowel2/Fabric",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel2/Stripe",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel2/Status",
+      "type": "Label3D"
+    },
+    {
+      "path": "PhysicalTowel3/Fabric",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel3/Stripe",
+      "type": "MeshInstance3D"
+    },
+    {
+      "path": "PhysicalTowel3/Status",
+      "type": "Label3D"
+    }
+  ],
+  "owners": {
+    "BackWall": true,
+    "Floor": true,
+    "Pet1": false,
+    "Pet2": false,
+    "Pet3": false,
+    "PetSlot1": true,
+    "PetSlot2": true,
+    "PetSlot3": true,
+    "PetSlot4": true,
+    "PetSlot5": true,
+    "PetSlot6": true,
+    "PickupCourt": true,
+    "Player1": true,
+    "Player2": true,
+    "WaitingOwner": true,
+    "bench0": true,
+    "bench1": true,
+    "brush": true,
+    "buffer_dry": true,
+    "buffer_wet": true,
+    "dryer": true,
+    "exit": true,
+    "intake0": true,
+    "intake1": true,
+    "intake2": true,
+    "intake_dry": true,
+    "laundry": true,
+    "paws": true,
+    "rack": true,
+    "treatment": true,
+    "wash0": true,
+    "wash1": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "stage": "S8_calibration_only",
+  "style_id": "odd-logistics",
+  "assets": [
+    {
+      "id": "B2-LUX-03-rack_bay-tall_open",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-03-rack_bay-tall_open/source.glb",
+        "sha256": "4c064a43b390b0544a7bb207548def0748b6d599bd8e91b9b4b1c4d75cfb0356"
+      },
+      "source_up": "+Y",
+      "source_front": "+X",
+      "source_to_normalized": [
+        0.0,
+        0.0,
+        -6.0,
+        0,
+        0.0,
+        6.0,
+        0.0,
+        0,
+        6.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        9.0,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        13.9311203956604,
+        18.0,
+        5.918598532676697
+      ]
+    },
+    {
+      "id": "B2-LUX-01-hero_carrier-core_frame",
+      "role": "player_vehicle",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-01-hero_carrier-core_frame/runtime-fit-v1.glb",
+        "sha256": "b047809aed852e025827cfa370fa6d1db6b37c139980c5954d69cd76dfcb8a8e"
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "result_size_m": [
+        2.549999952316284,
+        3.299999952316284,
+        12.0
+      ],
+      "original_source_sha256": "17c0db5147d4dc56fd3805b77b8fdd4e10c6e2236db12c3301c7dbe483c26e71"
+    }
+  ],
+  "placements": [
+    {
+      "id": "odd-logistics:calibration:station_carve:dry_bank",
+      "asset_id": "B2-LUX-03-rack_bay-tall_open",
+      "space_id": "N01",
+      "source_proxy_instance_id": "odd-logistics:N01:station_carve:mass:004:-1:0",
+      "position": [
+        -52.9285354614258,
+        73.5122146606445,
+        1286.18371582031
+      ],
+      "yaw_radians": -1.5707963267948966,
+      "uniform_scale": 1.5,
+      "purpose": "End-of-N01 low-track native calibration. Existing ground; no raised podium."
+    }
+  ],
+  "limits": "One representative N01 environment and fitted player vehicle; remaining route retains S6 art proxies. Calibration is not complete-sample or H4 acceptance."
+}

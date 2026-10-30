@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "clay-first-kit-v1",
+  "status": "candidate_pending_native_review",
+  "style_reference": "art/styles/2026-09-28-three-direction-refinement/clay-playland.png",
+  "tunnel": {
+    "rib_spacing_m": 24,
+    "lamp_spacing_m": 48,
+    "lamp_energy": 2.0,
+    "wall_color": "918baf",
+    "rib_color": "c98663",
+    "floor_color": "84718e",
+    "lantern_color": "ffe0a4",
+    "dressing": true
+  },
+  "rail": {
+    "deck_color": "bca8ce",
+    "rail_color": "f2d7ac",
+    "sleeper_color": "8e7c9f",
+    "step_max_m": 3.0
+  },
+  "constraints": {
+    "gameplay_changes": false,
+    "camera_changes": false,
+    "new_collisions": false,
+    "source_frame": "SpatialTrack.pose",
+    "target_fps": 60
+  },
+  "notes": "First-kit parameters; selected only after native scene review. No arbitrary model stretching."
+}

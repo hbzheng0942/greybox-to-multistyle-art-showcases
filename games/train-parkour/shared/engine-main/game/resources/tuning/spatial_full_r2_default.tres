@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SpatialTuning" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/spatial/spatial_tuning.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+assist_time = 0.6
+assist_accel = 60.0
+assist_max_error = 8.0
+assist_settle_error = 1.6
+clean_capture_retention = 0.98
+assisted_capture_retention = 0.95
+rough_capture_retention = 0.92
+soft_contact_loss = 7.0
+lateral_grip = 70.0
+drift_grip = 130.0
+cruise = PackedFloat32Array(40, 60, 125)
+speed_cap = 175.0

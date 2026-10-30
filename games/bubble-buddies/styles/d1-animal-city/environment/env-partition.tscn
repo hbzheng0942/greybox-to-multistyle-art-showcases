@@ -1,0 +1,120 @@
+[gd_scene load_steps=19 format=3]
+
+[sub_resource type="BoxMesh" id="Mesh0"]
+size = Vector3(0.24, 2.6, 3.475)
+
+[sub_resource type="StandardMaterial3D" id="Mat0"]
+albedo_color = Color(0.43, 0.56, 0.48, 1)
+roughness = 0.5
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh1"]
+size = Vector3(0.24, 2.6, 0.25)
+
+[sub_resource type="StandardMaterial3D" id="Mat1"]
+albedo_color = Color(0.43, 0.56, 0.48, 1)
+roughness = 0.5
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh2"]
+size = Vector3(0.24, 2.6, 0.375)
+
+[sub_resource type="StandardMaterial3D" id="Mat2"]
+albedo_color = Color(0.43, 0.56, 0.48, 1)
+roughness = 0.5
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh3"]
+size = Vector3(0.24, 0.65, 1.55)
+
+[sub_resource type="StandardMaterial3D" id="Mat3"]
+albedo_color = Color(0.89, 0.78, 0.57, 1)
+roughness = 0.62
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh4"]
+size = Vector3(0.26, 0.4, 2.4)
+
+[sub_resource type="StandardMaterial3D" id="Mat4"]
+albedo_color = Color(0.89, 0.78, 0.57, 1)
+roughness = 0.62
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh5"]
+size = Vector3(0.3, 2.0, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="Mat5"]
+albedo_color = Color(0.89, 0.78, 0.57, 1)
+roughness = 0.62
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh6"]
+size = Vector3(0.26, 0.12, 1.55)
+
+[sub_resource type="StandardMaterial3D" id="Mat6"]
+albedo_color = Color(0.62, 0.47, 0.33, 1)
+roughness = 0.62
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh7"]
+size = Vector3(0.26, 1.24, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="Mat7"]
+albedo_color = Color(0.62, 0.47, 0.33, 1)
+roughness = 0.62
+metallic = 0.0
+
+[sub_resource type="BoxMesh" id="Mesh8"]
+size = Vector3(0.3, 0.08, 3.475)
+
+[sub_resource type="StandardMaterial3D" id="Mat8"]
+albedo_color = Color(0.62, 0.47, 0.33, 1)
+roughness = 0.62
+metallic = 0.0
+
+[node name="env-partition" type="Node3D"]
+
+[node name="SplashDivider0" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 1.5, -3.0625)
+mesh = SubResource("Mesh0")
+surface_material_override/0 = SubResource("Mat0")
+
+[node name="SplashDivider1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 1.5, 0.35)
+mesh = SubResource("Mesh1")
+surface_material_override/0 = SubResource("Mat1")
+
+[node name="SplashDivider2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 1.5, 2.2125)
+mesh = SubResource("Mesh2")
+surface_material_override/0 = SubResource("Mat2")
+
+[node name="HandoffWindowLintel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 2.275, -0.55)
+mesh = SubResource("Mesh3")
+surface_material_override/0 = SubResource("Mat3")
+
+[node name="StaffDoorLintel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 2.6, 3.6)
+mesh = SubResource("Mesh4")
+surface_material_override/0 = SubResource("Mat4")
+
+[node name="StaffDoorJamb" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 1.2, 2.45)
+mesh = SubResource("Mesh5")
+surface_material_override/0 = SubResource("Mat5")
+
+[node name="WindowFrameTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 2.16, -0.55)
+mesh = SubResource("Mesh6")
+surface_material_override/0 = SubResource("Mat6")
+
+[node name="WindowFrameSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 1.54, -1.285)
+mesh = SubResource("Mesh7")
+surface_material_override/0 = SubResource("Mat7")
+
+[node name="DividerCap" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 2.84, -3.0625)
+mesh = SubResource("Mesh8")
+surface_material_override/0 = SubResource("Mat8")

@@ -1,0 +1,403 @@
+{
+  "schema": 1,
+  "engine": "Godot 4.7.2",
+  "status_note": "Technical packaging checks do not imply art, animation, gameplay or performance acceptance.",
+  "games": [
+    {
+      "id": "hole",
+      "name": "Hole 黑洞",
+      "guide": "games/hole/GAME.md",
+      "styles": [
+        {
+          "id": "amusement",
+          "name": "游乐园",
+          "status": "playable-development-candidate",
+          "version": "amusement-small-props-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/amusement/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/amusement/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "snack",
+          "name": "零食店",
+          "status": "playable-development-candidate",
+          "version": "snack-small-props-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/snack/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/snack/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "mycelium",
+          "name": "蘑菇森林",
+          "status": "playable-development-candidate",
+          "version": "five-worlds-mycelium-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/mycelium/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/mycelium/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "lunar",
+          "name": "月面基地",
+          "status": "playable-development-candidate",
+          "version": "five-worlds-lunar-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/lunar/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/lunar/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "coral",
+          "name": "珊瑚海集市",
+          "status": "playable-development-candidate",
+          "version": "five-worlds-coral-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/coral/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/coral/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "saffron",
+          "name": "沙漠商队",
+          "status": "playable-development-candidate",
+          "version": "five-worlds-saffron-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/saffron/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/saffron/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "papercraft",
+          "name": "纸艺雪镇",
+          "status": "playable-development-candidate",
+          "version": "five-worlds-papercraft-001",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/papercraft/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/papercraft/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "comic",
+          "name": "国风漫画·青绿朱砂市集",
+          "status": "playable-development-candidate",
+          "version": "studio-comic-deterministic-assembly-20261013-final",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/comic/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/comic/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "enamel",
+          "name": "复古搪瓷玩具港口",
+          "status": "playable-development-candidate",
+          "version": "studio-enamel-deterministic-assembly-20261013",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/enamel/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/enamel/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "ceramic",
+          "name": "陶瓷小镇",
+          "status": "playable-development-candidate",
+          "version": "hole-lookdev-validated / case-final-v2 / combined",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/ceramic/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/ceramic/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "orbital",
+          "name": "轨道科幻小镇",
+          "status": "playable-development-candidate",
+          "version": "hole-lookdev-validated / case-final-v2 / combined",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/styles/orbital/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/styles/orbital/preview.png",
+          "verification": {
+            "human_art_acceptance": "pending",
+            "human_playtest": "pending",
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        },
+        {
+          "id": "greybox",
+          "name": "共享纯灰盒输入",
+          "status": "playable-greybox-input",
+          "version": "original-v0.3-input",
+          "source_index": "games/hole/styles.json",
+          "project": "games/hole/shared/greybox/project/project.godot",
+          "scene": "res://scenes/Main.tscn",
+          "screenshot": "games/hole/shared/greybox/preview.png",
+          "verification": {
+            "native_validation": "headless-import-and-native-scene-simulation-pass"
+          }
+        }
+      ]
+    },
+    {
+      "id": "train-parkour",
+      "name": "列车跑酷",
+      "guide": "games/train-parkour/GAME.md",
+      "styles": [
+        {
+          "id": "greybox",
+          "name": "玩法灰盒 / Gameplay Greybox",
+          "status": "playable-greybox-input",
+          "version": "m1.7r2-unified-v2",
+          "source_index": "games/train-parkour/styles.json",
+          "project": "games/train-parkour/shared/engine-main/game/project.godot",
+          "scene": "res://showcase_entries/greybox.tscn",
+          "engine_args": [
+            "--rendering-driver",
+            "vulkan"
+          ],
+          "screenshot": "games/train-parkour/styles/greybox/thumbnail.jpg",
+          "verification": {
+            "technical_validation": "native static launch verified; see validation/index.json"
+          }
+        },
+        {
+          "id": "clay",
+          "name": "彩色黏土 / Clay",
+          "status": "playable-development-candidate",
+          "version": "P21",
+          "source_index": "games/train-parkour/styles.json",
+          "project": "games/train-parkour/shared/engine-main/game/project.godot",
+          "scene": "res://showcase_entries/clay.tscn",
+          "engine_args": [
+            "--rendering-driver",
+            "vulkan"
+          ],
+          "screenshot": "games/train-parkour/styles/clay/thumbnail.jpg",
+          "verification": {
+            "technical_validation": "native static launch verified; see validation/index.json"
+          }
+        },
+        {
+          "id": "pixel-v2",
+          "name": "像素天际线 / Pixel Skyline V2",
+          "status": "playable-development-candidate",
+          "version": "route-finish / continuous + bold",
+          "source_index": "games/train-parkour/styles.json",
+          "project": "games/train-parkour/shared/engine-main/game/project.godot",
+          "scene": "res://showcase_entries/pixel_v2.tscn",
+          "engine_args": [
+            "--rendering-driver",
+            "vulkan"
+          ],
+          "screenshot": "games/train-parkour/styles/pixel-v2/thumbnail.jpg",
+          "verification": {
+            "technical_validation": "native static launch verified; see validation/index.json"
+          }
+        },
+        {
+          "id": "paper-atlas",
+          "name": "纸艺地图 / Paper Atlas",
+          "status": "playable-development-candidate",
+          "version": "R9 full-course refinement",
+          "source_index": "games/train-parkour/styles.json",
+          "project": "games/train-parkour/styles/paper-atlas/engine/game/project.godot",
+          "scene": "res://showcase_entries/paper_atlas.tscn",
+          "engine_args": [
+            "--rendering-driver",
+            "vulkan"
+          ],
+          "screenshot": "games/train-parkour/styles/paper-atlas/thumbnail.jpg",
+          "verification": {
+            "technical_validation": "native static launch verified; see validation/index.json"
+          }
+        },
+        {
+          "id": "odd-logistics",
+          "name": "怪诞物流 / Odd Logistics B2",
+          "status": "playable-development-candidate",
+          "version": "full_scene / capture18 + suite03 Vulkan",
+          "source_index": "games/train-parkour/styles.json",
+          "project": "games/train-parkour/shared/engine-main/game/project.godot",
+          "scene": "res://showcase_entries/odd_logistics.tscn",
+          "engine_args": [
+            "--rendering-driver",
+            "vulkan"
+          ],
+          "screenshot": "games/train-parkour/styles/odd-logistics/thumbnail.jpg",
+          "verification": {
+            "technical_validation": "native static launch verified; see validation/index.json"
+          }
+        },
+        {
+          "id": "halloween-comic",
+          "name": "酸色漫画鬼节 / H07 Halloween",
+          "status": "playable-development-candidate",
+          "version": "city08 + T2 + Festival V2 + staged train readability",
+          "source_index": "games/train-parkour/styles.json",
+          "project": "games/train-parkour/shared/engine-main/game/project.godot",
+          "scene": "res://showcase_entries/halloween_comic.tscn",
+          "engine_args": [
+            "--rendering-driver",
+            "vulkan"
+          ],
+          "screenshot": "games/train-parkour/styles/halloween-comic/thumbnail.jpg",
+          "verification": {
+            "technical_validation": "native static launch verified; see validation/index.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "museum-dog",
+      "name": "狗闹博物馆",
+      "guide": "games/museum-dog/GAME.md",
+      "styles": [
+        {
+          "id": "greybox",
+          "name": "Museum Dog greybox",
+          "status": "shared gameplay baseline v0.3.2",
+          "version": null,
+          "source_index": "games/museum-dog/styles.json",
+          "project": "games/museum-dog/project.godot",
+          "scene": "res://shared/game/dog_game.tscn",
+          "verification": {}
+        },
+        {
+          "id": "A01",
+          "name": "Inflatable touring museum / 充气巡回博物馆",
+          "status": "integrated skeletal development: dog +6 adult skins;2 child/2 staff skeletal production pending",
+          "version": "754b7eac17927af0 + dog d2895 skin/controller + adult3d8c v6 controller",
+          "source_index": "games/museum-dog/styles.json",
+          "project": "games/museum-dog/project.godot",
+          "scene": "res://styles/A01/runtime/integrated-skeletal-20261030/play.tscn",
+          "screenshot": "games/museum-dog/previews/current-skeletal-native.png",
+          "verification": {
+            "native_verified": false,
+            "user_accepted": false
+          }
+        },
+        {
+          "id": "A04",
+          "name": "Bamboo field museum / 竹编田野博物馆",
+          "status": "selected direction; queued; no produced game",
+          "version": null,
+          "source_index": "games/museum-dog/styles.json",
+          "verification": {}
+        },
+        {
+          "id": "A08",
+          "name": "Hand-drawn cel adventure / 手绘赛璐璐冒险馆",
+          "status": "selected direction; queued; no produced game",
+          "version": null,
+          "source_index": "games/museum-dog/styles.json",
+          "verification": {}
+        }
+      ]
+    },
+    {
+      "id": "bubble-buddies",
+      "name": "Bubble Buddies",
+      "guide": "games/bubble-buddies/GAME.md",
+      "styles": [
+        {
+          "id": "greybox",
+          "name": "Bubble Buddies v9",
+          "status": "greybox accepted for art input; final release acceptance separate",
+          "version": null,
+          "source_index": "games/bubble-buddies/styles.json",
+          "project": "games/bubble-buddies/project.godot",
+          "scene": "res://styles/greybox/play.tscn",
+          "verification": {}
+        },
+        {
+          "id": "d1-animal-city",
+          "name": "Animal City / 拟人动物都市",
+          "status": "whole-shop integrated development; H4 evidence and user visual review pending",
+          "version": "d1-whole-shop-r9 / CONTROL46",
+          "source_index": "games/bubble-buddies/styles.json",
+          "project": "games/bubble-buddies/project.godot",
+          "scene": "res://styles/d1-animal-city/play.tscn",
+          "screenshot": "games/bubble-buddies/previews/d1-r9-native.png",
+          "verification": {
+            "native_verified": false,
+            "user_accepted": false
+          }
+        },
+        {
+          "id": "d2-handcrafted-coop",
+          "name": "Handcrafted co-op",
+          "status": "selected concept; queued",
+          "version": null,
+          "source_index": "games/bubble-buddies/styles.json",
+          "verification": {}
+        },
+        {
+          "id": "d3-cel-dusk",
+          "name": "Cel dusk",
+          "status": "selected concept; queued",
+          "version": null,
+          "source_index": "games/bubble-buddies/styles.json",
+          "verification": {}
+        },
+        {
+          "id": "d4-riso",
+          "name": "Riso",
+          "status": "selected concept; queued",
+          "version": null,
+          "source_index": "games/bubble-buddies/styles.json",
+          "verification": {}
+        }
+      ]
+    }
+  ]
+}

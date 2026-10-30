@@ -1,0 +1,3932 @@
+{
+  "schema": 2,
+  "kind": "art-spatial-design",
+  "style_id": "D10",
+  "name": "Minecraft 方块像素",
+  "revision": 1,
+  "approval": {
+    "H1": "selected_image_bound_by_style_bible",
+    "H2": "pending_user_review",
+    "H3": "not_authorized"
+  },
+  "atlas_digest": "eed2af7a4af16ebb56177058314e6b7386fff27feb2c1822457d9d05c07989b5",
+  "atlas_digest_note": "Bound to this exact H2-review atlas stage revision and image/manifest hashes. H2 user acceptance remains pending.",
+  "input_artifacts": {
+    "spatial_contract": {
+      "path": "private-source-reference-omitted",
+      "sha256": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767"
+    },
+    "style_bible": {
+      "path": "private-source-reference-omitted",
+      "sha256": "d01a66f40643f7b3fe8f95104e88344ff03c5c61facea306ad107905082671ba"
+    },
+    "selected_concept": {
+      "id": "D10-v1",
+      "path": "private-source-reference-omitted",
+      "sha256": "33946a6c30eab3b06210e97bb0ab0d9ee90b70ac4d3b6efe8877db86b0f962cf"
+    },
+    "proposed_interaction_atlas": {
+      "path": "private-source-reference-omitted",
+      "sha256": "6e671c7036e313c5321bc897959c3962b7517b634318ae0eff24ff5c3f1f98c7",
+      "approval": "H2_pending"
+    }
+  },
+  "space_ids": [
+    "wet",
+    "dry",
+    "owner_court"
+  ],
+  "transition_ids": [
+    "handoff_a",
+    "handoff_b",
+    "staff_south",
+    "pet_reunion"
+  ],
+  "space_designs": [
+    {
+      "space_id": "wet",
+      "art_intent": "Minecraft 方块像素湿区：独立泡泡罩、双浴盆、接待与洗巾组成可读的忙碌洗护间。",
+      "gameplay_invariants": "保留17工位及19操作面、原碰撞/镜头/速度/服务规则；动态美术不隐式加碰撞。 三接待北置，双浴盆沿左侧，洗衣机内收(-2.35,3.25)，湿备用(-4.8,4.1)。",
+      "visual_freedom": "长方体构件、直角边、方块设备和阶梯毛簇；小像素贴图 + 大块安静地面；不是圆雕加像素滤镜。装饰优先在原占地内，任何外伸/高度为H2提议，需后续原生校准。",
+      "foreground": "湿备用与洗衣机必须独立；南门留空，机器面与毛巾状态可读。",
+      "midground": "双浴盆、泡泡罩与跑宠循环；泡沫/湿滴附着宠物或工位，清空回洗/交窗路线。",
+      "background": "北墙三接待与低噪声背板；不加遮挡固定相机的屋顶和横梁装饰。"
+    },
+    {
+      "space_id": "dry",
+      "art_intent": "Minecraft 方块像素干区：自动吹干、平垫美容、爪护与交还形成干净结果与搞笑翻车的对比。",
+      "gameplay_invariants": "保留17工位及19操作面、原碰撞/镜头/速度/服务规则；动态美术不隐式加碰撞。 美容台(5.0,0.5)、交还(5.0,2.5)，交还→B→A返窗路线保留。",
+      "visual_freedom": "长方体构件、直角边、方块设备和阶梯毛簇；工具与线缆放在原壳体/背侧，不新增中部工具台。方块刚性分件员工与四足宠物；尺寸适配原坐标，不强制整米网格。",
+      "foreground": "干备用及交还平台不挪；保留进入南门、转身和持宠返回B窗的空地。",
+      "midground": "美容是干式平垫台而非水槽；发型瑕疵与毛巾色/形状态压过背景纹理。",
+      "background": "干接待、爪护、毛巾架三者分别识别；高装饰不遮窗内宠物或工作表面。"
+    },
+    {
+      "space_id": "owner_court",
+      "art_intent": "Minecraft 方块像素接宠廊延续室内材质，提供主人与宠物重聚的可见结果。",
+      "gameplay_invariants": "RightWall 玩家碰撞完整保留；宠物沿原 start [5,0.77,2.5] 到 destination [7.9,0,2.4] 动画，6秒移除。",
+      "visual_freedom": "主人、长凳与外围承接可做长方体构件、直角边、方块设备和阶梯毛簇，但不得把表现门变成玩家出口或新可操作房间。",
+      "foreground": "接回宠物与主人可见，装饰不挡宠物离开方向。",
+      "midground": "保留主人(8.2,0,1.35)、长凳中心(8.15,0.35,-0.45)的叙事关系；长凳外形尺寸尚未冻结。",
+      "background": "右外廊保持窄带；以低噪声背板承接，不扩展场景范围。"
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "handoff_a",
+      "from_space_id": "wet",
+      "to_space_id": "dry",
+      "station_assembly_id": "station_bench0",
+      "flow_semantics": "湿→干为常态宠物流向；两窗不锁单向，毛巾可干→湿回流。",
+      "continuity_rule": "同一世界身份、共享台面/宠物与毛巾锚点，两侧外观接缝连贯；保留窗台碰撞与上梁，不能将视觉淡化当删除碰撞。窗内宠物从SharedCamera可读，人员不可穿窗。",
+      "geometry": {
+        "id": "window_a",
+        "station_id": "bench0",
+        "center_z": -0.55,
+        "wall_gap_z": [
+          -1.325,
+          0.225
+        ],
+        "lintel_center": [
+          0.0,
+          2.275,
+          -0.55
+        ],
+        "lintel_size_xyz": [
+          0.24,
+          0.65,
+          1.55
+        ],
+        "visual_frame_side_centers_z": [
+          -1.285,
+          0.185
+        ]
+      },
+      "vertical_exact": {
+        "collision_counter": [
+          0,
+          0.64
+        ],
+        "baseline_visual_top": [
+          0.62,
+          0.72
+        ],
+        "lintel": [
+          1.95,
+          2.6
+        ]
+      },
+      "model_clearance_status": "unverified; numerical gaps are not model admission"
+    },
+    {
+      "id": "handoff_b",
+      "from_space_id": "wet",
+      "to_space_id": "dry",
+      "station_assembly_id": "station_bench1",
+      "flow_semantics": "湿→干为常态宠物流向；两窗不锁单向，毛巾可干→湿回流。",
+      "continuity_rule": "同一世界身份、共享台面/宠物与毛巾锚点，两侧外观接缝连贯；保留窗台碰撞与上梁，不能将视觉淡化当删除碰撞。窗内宠物从SharedCamera可读，人员不可穿窗。",
+      "geometry": {
+        "id": "window_b",
+        "station_id": "bench1",
+        "center_z": 1.25,
+        "wall_gap_z": [
+          0.475,
+          2.025
+        ],
+        "lintel_center": [
+          0.0,
+          2.275,
+          1.25
+        ],
+        "lintel_size_xyz": [
+          0.24,
+          0.65,
+          1.55
+        ],
+        "visual_frame_side_centers_z": [
+          0.515,
+          1.985
+        ]
+      },
+      "vertical_exact": {
+        "collision_counter": [
+          0,
+          0.64
+        ],
+        "baseline_visual_top": [
+          0.62,
+          0.72
+        ],
+        "lintel": [
+          1.95,
+          2.6
+        ]
+      },
+      "model_clearance_status": "unverified; numerical gaps are not model admission"
+    },
+    {
+      "id": "staff_south",
+      "from_space_id": "wet",
+      "to_space_id": "dry",
+      "continuity_rule": "原南门始终开放、地面/阈值连续；门柱贴隔墙，装饰不伸入交还→B→A路线；不新增门扇、柱或碰撞。员工/持物/VFX使用同一跨区留空。",
+      "geometry": {
+        "id": "staff_south_door",
+        "lintel_center": [
+          0.0,
+          2.4,
+          3.6
+        ],
+        "lintel_size_xyz": [
+          0.26,
+          0.4,
+          2.4
+        ],
+        "jambs": [
+          {
+            "center": [
+              0.0,
+              1.0,
+              2.45
+            ],
+            "size_xyz": [
+              0.3,
+              2.0,
+              0.12
+            ]
+          },
+          {
+            "center": [
+              0.0,
+              1.0,
+              4.75
+            ],
+            "size_xyz": [
+              0.3,
+              2.0,
+              0.12
+            ]
+          }
+        ],
+        "clear_span_between_jamb_inner_faces_z": [
+          2.51,
+          4.69
+        ],
+        "clear_span_derivation": "2.45 + 0.12/2 through 4.75 - 0.12/2; source arithmetic, not a new runtime test.",
+        "threshold_visual_center": [
+          0.0,
+          0.03,
+          3.55
+        ],
+        "threshold_visual_size_xyz": [
+          0.7,
+          0.035,
+          2.3
+        ],
+        "behavior": "常开，人员通过它跨区换工和救场。",
+        "art_boundary": "门构件贴隔墙；不得向干区交还台—B窗—A窗主通路伸出门扇、立柱或新碰撞。"
+      },
+      "flow_semantics": "双向换工和救场；不改变原路径和移动速度。"
+    },
+    {
+      "id": "pet_reunion",
+      "from_space_id": "dry",
+      "to_space_id": "owner_court",
+      "continuity_rule": "交还台与右侧接宠廊材质及接地视觉连续，沿原动画锚点承接；RightWall玩家碰撞不变，表现门不是玩家出口。",
+      "geometry": {
+        "constraint_class": "relational",
+        "role": "交还后的表现区；人物仍被完整 RightWall 碰撞限制在店内。",
+        "baseline_display_geometry": {
+          "court_center": [
+            8.0,
+            -0.17,
+            0.0
+          ],
+          "court_size_xyz": [
+            2.4,
+            0.32,
+            9.8
+          ],
+          "court_plan_bounds_xz": {
+            "min": [
+              6.8,
+              -4.9
+            ],
+            "max": [
+              9.2,
+              4.9
+            ]
+          },
+          "curb_center": [
+            9.25,
+            0.08,
+            0.0
+          ],
+          "curb_size_xyz": [
+            0.18,
+            0.18,
+            9.8
+          ],
+          "waiting_owner_position": [
+            8.2,
+            0.0,
+            1.35
+          ],
+          "waiting_bench_center": [
+            8.15,
+            0.35,
+            -0.45
+          ],
+          "pet_gate_visual_center": [
+            6.65,
+            0.22,
+            2.4
+          ],
+          "pet_gate_visual_size_xyz": [
+            0.16,
+            0.44,
+            2.0
+          ]
+        },
+        "exact_reunion_path_anchors": {
+          "start": [
+            5.0,
+            0.77,
+            2.5
+          ],
+          "destination": [
+            7.9,
+            0.0,
+            2.4
+          ],
+          "after_age_4_seconds": "destination.z increases by (age - 4.0) * 1.0",
+          "removal_age_seconds": 6.0
+        },
+        "art_freedom": "主人、长凳、接宠廊及其环境承接可重做造型；须保留右侧接回宠物的可见叙事、动画路径与共享镜头容纳关系。不得把表现门设计成玩家新出口。"
+      },
+      "flow_semantics": "宠物交付表现路径，非人员导航连接。"
+    }
+  ],
+  "assemblies": [
+    {
+      "assembly_id": "station_intake0",
+      "station_id": "intake0",
+      "label": "接待1",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "intake0",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_intake0",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_intake0/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake0/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake0/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake0/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake0/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -4.6,
+          0.0,
+          -3.3
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          -4.6,
+          0.32,
+          -3.3
+        ],
+        "xz_bounds": {
+          "min": [
+            -5.324999999999999,
+            -4.0249999999999995
+          ],
+          "max": [
+            -3.8749999999999996,
+            -2.5749999999999997
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -4.6,
+          0.0,
+          -3.3
+        ],
+        "collision_center": [
+          -4.6,
+          0.32,
+          -3.3
+        ],
+        "baseline_worktop_center": [
+          -4.6,
+          0.67,
+          -3.3
+        ],
+        "operation_faces": [
+          {
+            "id": "intake0_south",
+            "station_id": "intake0",
+            "position": [
+              -4.6,
+              0.02,
+              -2.12
+            ],
+            "approach_from": "south",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -4.6,
+          0.75,
+          -3.3
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "intake0_south",
+          "target_position": [
+            -4.6,
+            0.02,
+            -2.12
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_intake1",
+      "station_id": "intake1",
+      "label": "接待2",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "intake1",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_intake1",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_intake1/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake1/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake1/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake1/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake1/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -3.0,
+          0.0,
+          -3.3
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          -3.0,
+          0.32,
+          -3.3
+        ],
+        "xz_bounds": {
+          "min": [
+            -3.725,
+            -4.0249999999999995
+          ],
+          "max": [
+            -2.275,
+            -2.5749999999999997
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -3.0,
+          0.0,
+          -3.3
+        ],
+        "collision_center": [
+          -3.0,
+          0.32,
+          -3.3
+        ],
+        "baseline_worktop_center": [
+          -3.0,
+          0.67,
+          -3.3
+        ],
+        "operation_faces": [
+          {
+            "id": "intake1_south",
+            "station_id": "intake1",
+            "position": [
+              -3.0,
+              0.02,
+              -2.12
+            ],
+            "approach_from": "south",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -3.0,
+          0.75,
+          -3.3
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "intake1_south",
+          "target_position": [
+            -3.0,
+            0.02,
+            -2.12
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_intake2",
+      "station_id": "intake2",
+      "label": "接待3",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "intake2",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_intake2",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_intake2/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake2/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake2/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake2/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake2/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -1.4,
+          0.0,
+          -3.3
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          -1.4,
+          0.32,
+          -3.3
+        ],
+        "xz_bounds": {
+          "min": [
+            -2.125,
+            -4.0249999999999995
+          ],
+          "max": [
+            -0.6749999999999999,
+            -2.5749999999999997
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -1.4,
+          0.0,
+          -3.3
+        ],
+        "collision_center": [
+          -1.4,
+          0.32,
+          -3.3
+        ],
+        "baseline_worktop_center": [
+          -1.4,
+          0.67,
+          -3.3
+        ],
+        "operation_faces": [
+          {
+            "id": "intake2_south",
+            "station_id": "intake2",
+            "position": [
+              -1.4,
+              0.02,
+              -2.12
+            ],
+            "approach_from": "south",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -1.4,
+          0.75,
+          -3.3
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "intake2_south",
+          "target_position": [
+            -1.4,
+            0.02,
+            -2.12
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_wash0",
+      "station_id": "wash0",
+      "label": "洗/冲A",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "wash0",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_wash0",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_wash0/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash0/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash0/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash0/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash0/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -4.7,
+          0.0,
+          -0.4
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          -4.7,
+          0.32,
+          -0.4
+        ],
+        "xz_bounds": {
+          "min": [
+            -5.425,
+            -1.125
+          ],
+          "max": [
+            -3.975,
+            0.32499999999999996
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -4.7,
+          0.0,
+          -0.4
+        ],
+        "collision_center": [
+          -4.7,
+          0.32,
+          -0.4
+        ],
+        "baseline_worktop_center": [
+          -4.7,
+          0.67,
+          -0.4
+        ],
+        "operation_faces": [
+          {
+            "id": "wash0_east",
+            "station_id": "wash0",
+            "position": [
+              -3.52,
+              0.02,
+              -0.4
+            ],
+            "approach_from": "east",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -4.7,
+          0.75,
+          -0.4
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "wash0_east",
+          "target_position": [
+            -3.52,
+            0.02,
+            -0.4
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_wash1",
+      "station_id": "wash1",
+      "label": "洗/冲B",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "wash1",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_wash1",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_wash1/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash1/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash1/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash1/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_wash1/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -4.7,
+          0.0,
+          2.2
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          -4.7,
+          0.32,
+          2.2
+        ],
+        "xz_bounds": {
+          "min": [
+            -5.425,
+            1.475
+          ],
+          "max": [
+            -3.975,
+            2.9250000000000003
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -4.7,
+          0.0,
+          2.2
+        ],
+        "collision_center": [
+          -4.7,
+          0.32,
+          2.2
+        ],
+        "baseline_worktop_center": [
+          -4.7,
+          0.67,
+          2.2
+        ],
+        "operation_faces": [
+          {
+            "id": "wash1_east",
+            "station_id": "wash1",
+            "position": [
+              -3.52,
+              0.02,
+              2.2
+            ],
+            "approach_from": "east",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -4.7,
+          0.75,
+          2.2
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "wash1_east",
+          "target_position": [
+            -3.52,
+            0.02,
+            2.2
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_dryer",
+      "station_id": "dryer",
+      "label": "自动吹干",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "dryer",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_dryer",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_dryer/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_dryer/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_dryer/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_dryer/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_dryer/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          5.0,
+          0.0,
+          -1.6
+        ],
+        "size_xyz": [
+          1.8,
+          0.64,
+          1.65
+        ],
+        "center": [
+          5.0,
+          0.32,
+          -1.6
+        ],
+        "xz_bounds": {
+          "min": [
+            4.1,
+            -2.425
+          ],
+          "max": [
+            5.9,
+            -0.7750000000000001
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          5.0,
+          0.0,
+          -1.6
+        ],
+        "collision_center": [
+          5.0,
+          0.32,
+          -1.6
+        ],
+        "baseline_worktop_center": [
+          5.0,
+          0.67,
+          -1.6
+        ],
+        "operation_faces": [
+          {
+            "id": "dryer_west",
+            "station_id": "dryer",
+            "position": [
+              3.7,
+              0.02,
+              -1.6
+            ],
+            "approach_from": "west",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          5.0,
+          0.75,
+          -1.6
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "dryer_west",
+          "target_position": [
+            3.7,
+            0.02,
+            -1.6
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_bench0",
+      "station_id": "bench0",
+      "label": "交接窗A",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "bench0",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_bench0",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_bench0/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench0/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench0/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench0/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench0/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          0.0,
+          0.0,
+          -0.55
+        ],
+        "size_xyz": [
+          1.25,
+          0.64,
+          1.55
+        ],
+        "center": [
+          0.0,
+          0.32,
+          -0.55
+        ],
+        "xz_bounds": {
+          "min": [
+            -0.625,
+            -1.3250000000000002
+          ],
+          "max": [
+            0.625,
+            0.22499999999999998
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          0.0,
+          0.0,
+          -0.55
+        ],
+        "collision_center": [
+          0.0,
+          0.32,
+          -0.55
+        ],
+        "baseline_worktop_center": [
+          0.0,
+          0.67,
+          -0.55
+        ],
+        "operation_faces": [
+          {
+            "id": "bench0_west",
+            "station_id": "bench0",
+            "position": [
+              -1.18,
+              0.02,
+              -0.55
+            ],
+            "approach_from": "west",
+            "room": "wet"
+          },
+          {
+            "id": "bench0_east",
+            "station_id": "bench0",
+            "position": [
+              1.18,
+              0.02,
+              -0.55
+            ],
+            "approach_from": "east",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          0.0,
+          0.75,
+          -0.55
+        ],
+        "towel_root": [
+          0.0,
+          0.82,
+          -0.55
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "bench0_west",
+          "target_position": [
+            -1.18,
+            0.02,
+            -0.55
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        },
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "bench0_east",
+          "target_position": [
+            1.18,
+            0.02,
+            -0.55
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "交接/回流"
+      ]
+    },
+    {
+      "assembly_id": "station_bench1",
+      "station_id": "bench1",
+      "label": "交接窗B",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "bench1",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_bench1",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_bench1/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench1/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench1/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench1/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_bench1/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          0.0,
+          0.0,
+          1.25
+        ],
+        "size_xyz": [
+          1.25,
+          0.64,
+          1.55
+        ],
+        "center": [
+          0.0,
+          0.32,
+          1.25
+        ],
+        "xz_bounds": {
+          "min": [
+            -0.625,
+            0.475
+          ],
+          "max": [
+            0.625,
+            2.025
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          0.0,
+          0.0,
+          1.25
+        ],
+        "collision_center": [
+          0.0,
+          0.32,
+          1.25
+        ],
+        "baseline_worktop_center": [
+          0.0,
+          0.67,
+          1.25
+        ],
+        "operation_faces": [
+          {
+            "id": "bench1_west",
+            "station_id": "bench1",
+            "position": [
+              -1.18,
+              0.02,
+              1.25
+            ],
+            "approach_from": "west",
+            "room": "wet"
+          },
+          {
+            "id": "bench1_east",
+            "station_id": "bench1",
+            "position": [
+              1.18,
+              0.02,
+              1.25
+            ],
+            "approach_from": "east",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          0.0,
+          0.75,
+          1.25
+        ],
+        "towel_root": [
+          0.0,
+          0.82,
+          1.25
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "bench1_west",
+          "target_position": [
+            -1.18,
+            0.02,
+            1.25
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        },
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "bench1_east",
+          "target_position": [
+            1.18,
+            0.02,
+            1.25
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "交接/回流"
+      ]
+    },
+    {
+      "assembly_id": "station_brush",
+      "station_id": "brush",
+      "label": "修毛美容",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "brush",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_brush",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_brush/slot_1",
+          "role": "干式平垫工作面（禁止误作水槽）",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_brush/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_brush/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_brush/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_brush/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          5.0,
+          0.0,
+          0.5
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          5.0,
+          0.32,
+          0.5
+        ],
+        "xz_bounds": {
+          "min": [
+            4.275,
+            -0.22499999999999998
+          ],
+          "max": [
+            5.725,
+            1.225
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          5.0,
+          0.0,
+          0.5
+        ],
+        "collision_center": [
+          5.0,
+          0.32,
+          0.5
+        ],
+        "baseline_worktop_center": [
+          5.0,
+          0.67,
+          0.5
+        ],
+        "operation_faces": [
+          {
+            "id": "brush_west",
+            "station_id": "brush",
+            "position": [
+              3.7,
+              0.02,
+              0.5
+            ],
+            "approach_from": "west",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          5.0,
+          0.75,
+          0.5
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "brush_west",
+          "target_position": [
+            3.7,
+            0.02,
+            0.5
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_laundry",
+      "station_id": "laundry",
+      "label": "洗烘毛巾",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "laundry",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_laundry",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_laundry/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_laundry/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_laundry/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_laundry/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_laundry/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -2.35,
+          0.0,
+          3.25
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          -2.35,
+          0.32,
+          3.25
+        ],
+        "xz_bounds": {
+          "min": [
+            -3.075,
+            2.525
+          ],
+          "max": [
+            -1.625,
+            3.975
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -2.35,
+          0.0,
+          3.25
+        ],
+        "collision_center": [
+          -2.35,
+          0.32,
+          3.25
+        ],
+        "baseline_worktop_center": [
+          -2.35,
+          0.67,
+          3.25
+        ],
+        "operation_faces": [
+          {
+            "id": "laundry_north",
+            "station_id": "laundry",
+            "position": [
+              -2.35,
+              0.02,
+              2.1
+            ],
+            "approach_from": "north",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "towel_root": [
+          -2.35,
+          0.82,
+          3.25
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "laundry_north",
+          "target_position": [
+            -2.35,
+            0.02,
+            2.1
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_exit",
+      "station_id": "exit",
+      "label": "交还",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "exit",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_exit",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_exit/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_exit/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_exit/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_exit/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_exit/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          5.0,
+          0.0,
+          2.5
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "center": [
+          5.0,
+          0.32,
+          2.5
+        ],
+        "xz_bounds": {
+          "min": [
+            4.275,
+            1.775
+          ],
+          "max": [
+            5.725,
+            3.225
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          5.0,
+          0.0,
+          2.5
+        ],
+        "collision_center": [
+          5.0,
+          0.32,
+          2.5
+        ],
+        "baseline_worktop_center": [
+          5.0,
+          0.67,
+          2.5
+        ],
+        "operation_faces": [
+          {
+            "id": "exit_west",
+            "station_id": "exit",
+            "position": [
+              3.7,
+              0.02,
+              2.5
+            ],
+            "approach_from": "west",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          5.0,
+          0.75,
+          2.5
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "exit_west",
+          "target_position": [
+            3.7,
+            0.02,
+            2.5
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_rack",
+      "station_id": "rack",
+      "label": "毛巾架",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "rack",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_rack",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_rack/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_rack/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_rack/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_rack/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_rack/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          5.0,
+          0.0,
+          -3.7
+        ],
+        "size_xyz": [
+          1.0,
+          0.64,
+          1.0
+        ],
+        "center": [
+          5.0,
+          0.32,
+          -3.7
+        ],
+        "xz_bounds": {
+          "min": [
+            4.5,
+            -4.2
+          ],
+          "max": [
+            5.5,
+            -3.2
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          5.0,
+          0.0,
+          -3.7
+        ],
+        "collision_center": [
+          5.0,
+          0.32,
+          -3.7
+        ],
+        "baseline_worktop_center": [
+          5.0,
+          0.67,
+          -3.7
+        ],
+        "operation_faces": [
+          {
+            "id": "rack_west",
+            "station_id": "rack",
+            "position": [
+              3.85,
+              0.02,
+              -3.7
+            ],
+            "approach_from": "west",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "towel_root": [
+          5.0,
+          0.82,
+          -3.7
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "rack_west",
+          "target_position": [
+            3.85,
+            0.02,
+            -3.7
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_treatment",
+      "station_id": "treatment",
+      "label": "除虫泡泡罩",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "treatment",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_treatment",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_treatment/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_treatment/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_treatment/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_treatment/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_treatment/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -5.6,
+          0.0,
+          -1.8
+        ],
+        "size_xyz": [
+          1.15,
+          0.64,
+          1.15
+        ],
+        "center": [
+          -5.6,
+          0.32,
+          -1.8
+        ],
+        "xz_bounds": {
+          "min": [
+            -6.175,
+            -2.375
+          ],
+          "max": [
+            -5.0249999999999995,
+            -1.225
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -5.6,
+          0.0,
+          -1.8
+        ],
+        "collision_center": [
+          -5.6,
+          0.32,
+          -1.8
+        ],
+        "baseline_worktop_center": [
+          -5.6,
+          0.67,
+          -1.8
+        ],
+        "operation_faces": [
+          {
+            "id": "treatment_east",
+            "station_id": "treatment",
+            "position": [
+              -4.5,
+              0.02,
+              -1.8
+            ],
+            "approach_from": "east",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -5.6,
+          0.75,
+          -1.8
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "treatment_east",
+          "target_position": [
+            -4.5,
+            0.02,
+            -1.8
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_intake_dry",
+      "station_id": "intake_dry",
+      "label": "干宠接待",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "intake_dry",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_intake_dry",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_intake_dry/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake_dry/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake_dry/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake_dry/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_intake_dry/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          1.35,
+          0.0,
+          -3.5
+        ],
+        "size_xyz": [
+          1.15,
+          0.64,
+          1.15
+        ],
+        "center": [
+          1.35,
+          0.32,
+          -3.5
+        ],
+        "xz_bounds": {
+          "min": [
+            0.7750000000000001,
+            -4.075
+          ],
+          "max": [
+            1.925,
+            -2.925
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          1.35,
+          0.0,
+          -3.5
+        ],
+        "collision_center": [
+          1.35,
+          0.32,
+          -3.5
+        ],
+        "baseline_worktop_center": [
+          1.35,
+          0.67,
+          -3.5
+        ],
+        "operation_faces": [
+          {
+            "id": "intake_dry_south",
+            "station_id": "intake_dry",
+            "position": [
+              1.35,
+              0.02,
+              -2.32
+            ],
+            "approach_from": "south",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          1.35,
+          0.75,
+          -3.5
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "intake_dry_south",
+          "target_position": [
+            1.35,
+            0.02,
+            -2.32
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_paws",
+      "station_id": "paws",
+      "label": "爪爪护理",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "paws",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_paws",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_paws/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_paws/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_paws/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_paws/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_paws/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          2.85,
+          0.0,
+          -3.5
+        ],
+        "size_xyz": [
+          1.15,
+          0.64,
+          1.15
+        ],
+        "center": [
+          2.85,
+          0.32,
+          -3.5
+        ],
+        "xz_bounds": {
+          "min": [
+            2.2750000000000004,
+            -4.075
+          ],
+          "max": [
+            3.425,
+            -2.925
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          2.85,
+          0.0,
+          -3.5
+        ],
+        "collision_center": [
+          2.85,
+          0.32,
+          -3.5
+        ],
+        "baseline_worktop_center": [
+          2.85,
+          0.67,
+          -3.5
+        ],
+        "operation_faces": [
+          {
+            "id": "paws_south",
+            "station_id": "paws",
+            "position": [
+              2.85,
+              0.02,
+              -2.32
+            ],
+            "approach_from": "south",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          2.85,
+          0.75,
+          -3.5
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "paws_south",
+          "target_position": [
+            2.85,
+            0.02,
+            -2.32
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_buffer_wet",
+      "station_id": "buffer_wet",
+      "label": "湿区暂存1只",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "buffer_wet",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_buffer_wet",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_buffer_wet/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_wet/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_wet/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_wet/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_wet/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          -4.8,
+          0.0,
+          4.1
+        ],
+        "size_xyz": [
+          0.9,
+          0.64,
+          0.9
+        ],
+        "center": [
+          -4.8,
+          0.32,
+          4.1
+        ],
+        "xz_bounds": {
+          "min": [
+            -5.25,
+            3.6499999999999995
+          ],
+          "max": [
+            -4.35,
+            4.55
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          -4.8,
+          0.0,
+          4.1
+        ],
+        "collision_center": [
+          -4.8,
+          0.32,
+          4.1
+        ],
+        "baseline_worktop_center": [
+          -4.8,
+          0.67,
+          4.1
+        ],
+        "operation_faces": [
+          {
+            "id": "buffer_wet_east",
+            "station_id": "buffer_wet",
+            "position": [
+              -3.7,
+              0.02,
+              4.1
+            ],
+            "approach_from": "east",
+            "room": "wet"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          -4.8,
+          0.75,
+          4.1
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "buffer_wet_east",
+          "target_position": [
+            -3.7,
+            0.02,
+            4.1
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    },
+    {
+      "assembly_id": "station_buffer_dry",
+      "station_id": "buffer_dry",
+      "label": "干区暂存1只",
+      "logical_owner": {
+        "system": "existing_gameplay_station",
+        "id": "buffer_dry",
+        "source": "game/scripts/main.gd station_positions and _build_stations; salon_model retains state/ownership"
+      },
+      "visual_owner": {
+        "style_id": "D10",
+        "slot_root": "proposed_visual/station_buffer_dry",
+        "implementation_status": "not_implemented_H2_proposal"
+      },
+      "visual_slots": [
+        {
+          "id": "station_buffer_dry/slot_1",
+          "role": "功能工作面",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_dry/slot_2",
+          "role": "外壳",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_dry/slot_3",
+          "role": "背侧功能标识",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_dry/slot_4",
+          "role": "状态/目标高亮",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        },
+        {
+          "id": "station_buffer_dry/slot_5",
+          "role": "局部FX挂点",
+          "authority": "H2_proposed",
+          "language": "长方体构件、直角边、方块设备和阶梯毛簇"
+        }
+      ],
+      "input_hash": "6bde4efdac2692a8386a5763e6216e44976424f58c1dfd55a450a56e7c628767",
+      "geometry_provenance": "source-derived exact baseline",
+      "collision": {
+        "policy": "exact_no_changes",
+        "position": [
+          5.7,
+          0.0,
+          4.1
+        ],
+        "size_xyz": [
+          0.9,
+          0.64,
+          0.9
+        ],
+        "center": [
+          5.7,
+          0.32,
+          4.1
+        ],
+        "xz_bounds": {
+          "min": [
+            5.25,
+            3.6499999999999995
+          ],
+          "max": [
+            6.15,
+            4.55
+          ]
+        }
+      },
+      "visual_envelope": {
+        "approval": "H2_pending",
+        "policy": "bounded_proposal",
+        "plan_proposal": "图中彩色轮廓内收原台体占地，仅示形体意图；不是已批准的通用外伸数值。",
+        "height_and_overhang": "未冻结新模型最高点/外伸/毛簇半径；以后续接口、视线和动态扫掠验证为准。",
+        "baseline_worktop_reference": {
+          "center_y_above_station": 0.67,
+          "thickness_y": 0.1,
+          "extra_total_x": 0.06,
+          "extra_total_z": 0.06,
+          "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+        },
+        "forbidden": [
+          "侵入19操作面",
+          "永久遮挡窗内宠物",
+          "占南门或返窗路",
+          "导入隐式碰撞/脚本/灯光/相机"
+        ]
+      },
+      "anchors": {
+        "logical_origin": [
+          5.7,
+          0.0,
+          4.1
+        ],
+        "collision_center": [
+          5.7,
+          0.32,
+          4.1
+        ],
+        "baseline_worktop_center": [
+          5.7,
+          0.67,
+          4.1
+        ],
+        "operation_faces": [
+          {
+            "id": "buffer_dry_west",
+            "station_id": "buffer_dry",
+            "position": [
+              4.6,
+              0.02,
+              4.1
+            ],
+            "approach_from": "west",
+            "room": "dry"
+          }
+        ],
+        "pivot_policy": "使用既有逻辑根；新模型从不可变源统一缩放，不修改station坐标。",
+        "pet_root": [
+          5.7,
+          0.75,
+          4.1
+        ]
+      },
+      "protected_sightlines": [
+        {
+          "observer": "SharedCamera",
+          "origin": [
+            1.1,
+            17.0,
+            12.5
+          ],
+          "target_id": "buffer_dry_west",
+          "target_position": [
+            4.6,
+            0.02,
+            4.1
+          ],
+          "rule": "新外观/FX不遮现有入口和目标状态；此记录不声明射线或模型遮挡已原生验证"
+        }
+      ],
+      "dynamic_states": [
+        "放置/拿起",
+        "抱持急转",
+        "工作/预警",
+        "本工位护理/成果"
+      ]
+    }
+  ],
+  "style_corrections": [
+    "美容台移回 (5.0,0.5)，删除概念中多余的中部/侧边工具台。",
+    "方块边长适配原尺寸；不得为像素风重排工位、缩窄南门。"
+  ],
+  "coordinate_system": {
+    "vector_order": [
+      "x",
+      "y",
+      "z"
+    ],
+    "unit": "Godot world unit",
+    "up": "+y",
+    "plan_left_wet": "-x",
+    "plan_right_dry": "+x",
+    "plan_north_back": "-z",
+    "plan_south_front": "+z",
+    "floor_surface_y": 0.0,
+    "note": "所有数值均来自源码坐标或明确标注的简单算术推导；不把世界单位冒充实地测量。"
+  },
+  "camera": {
+    "constraint_class": "exact",
+    "node": "SharedCamera",
+    "projection": "orthogonal",
+    "size": 15.2,
+    "keep_aspect": "KEEP_HEIGHT",
+    "position": [
+      1.1,
+      17.0,
+      12.5
+    ],
+    "look_at": [
+      1.1,
+      0.0,
+      -0.4
+    ],
+    "current": true,
+    "viewport_pixels": [
+      1440,
+      900
+    ],
+    "window_override_pixels": [
+      1280,
+      800
+    ],
+    "renderer": "gl_compatibility",
+    "concept_view_requirement": "每张方向场景图应展示相同固定共享斜俯视玩法构图、两房与交接关系；可另加展示镜头，但不得替代玩法镜头。",
+    "native_readability_requirement": "人员、宠物、工位入口、窗内宠物、返窗通路与预警不能被屋顶、高装饰或画面效果遮蔽。"
+  },
+  "exact_scene_geometry": {
+    "room": {
+      "constraint_class": "exact",
+      "floor_collision": {
+        "center": [
+          0.0,
+          -0.2,
+          0.0
+        ],
+        "size_xyz": [
+          13.3,
+          0.4,
+          9.9
+        ]
+      },
+      "floor_plan_bounds_xz": {
+        "min": [
+          -6.65,
+          -4.95
+        ],
+        "max": [
+          6.65,
+          4.95
+        ]
+      },
+      "boundary_collision_boxes": [
+        {
+          "id": "BackWall",
+          "center": [
+            0.0,
+            1.3,
+            -4.95
+          ],
+          "size_xyz": [
+            13.6,
+            2.6,
+            0.3
+          ]
+        },
+        {
+          "id": "LeftWall",
+          "center": [
+            -6.65,
+            0.35,
+            0.0
+          ],
+          "size_xyz": [
+            0.3,
+            0.7,
+            10.0
+          ]
+        },
+        {
+          "id": "RightWall",
+          "center": [
+            6.65,
+            0.35,
+            0.0
+          ],
+          "size_xyz": [
+            0.3,
+            0.7,
+            10.0
+          ],
+          "baseline_visual_hidden": true
+        },
+        {
+          "id": "FrontWall",
+          "center": [
+            0.0,
+            0.15,
+            4.95
+          ],
+          "size_xyz": [
+            13.6,
+            0.3,
+            0.3
+          ]
+        }
+      ],
+      "zones": [
+        {
+          "id": "wet",
+          "side": "west",
+          "relationship": "x < 0",
+          "baseline_floor_visual_center": [
+            -3.2,
+            0.012,
+            0.0
+          ],
+          "baseline_floor_visual_size_xyz": [
+            6.3,
+            0.01,
+            9.6
+          ]
+        },
+        {
+          "id": "dry",
+          "side": "east",
+          "relationship": "x > 0",
+          "baseline_floor_visual_center": [
+            3.2,
+            0.013,
+            0.0
+          ],
+          "baseline_floor_visual_size_xyz": [
+            6.3,
+            0.01,
+            9.6
+          ]
+        }
+      ],
+      "zone_visual_note": "分区的左右关系保留；基线地面颜色、网格线和临时材质不构成美术设计要求。",
+      "roof": "baseline_has_no_roof; do_not_obscure_gameplay_view"
+    },
+    "central_partition": {
+      "constraint_class": "exact",
+      "wall_axis_x": 0.0,
+      "wall_height": 2.6,
+      "wall_thickness_x": 0.24,
+      "collision_layer": 5,
+      "solid_spans_z": [
+        {
+          "id": "SplashDivider0",
+          "min_z": -4.8,
+          "max_z": -1.325,
+          "center": [
+            0.0,
+            1.3,
+            -3.0625
+          ],
+          "size_xyz": [
+            0.24,
+            2.6,
+            3.475
+          ]
+        },
+        {
+          "id": "SplashDivider1",
+          "min_z": 0.225,
+          "max_z": 0.475,
+          "center": [
+            0.0,
+            1.3,
+            0.35
+          ],
+          "size_xyz": [
+            0.24,
+            2.6,
+            0.25
+          ]
+        },
+        {
+          "id": "SplashDivider2",
+          "min_z": 2.025,
+          "max_z": 2.4,
+          "center": [
+            0.0,
+            1.3,
+            2.2125
+          ],
+          "size_xyz": [
+            0.24,
+            2.6,
+            0.375
+          ]
+        }
+      ],
+      "handoff_windows": [
+        {
+          "id": "window_a",
+          "station_id": "bench0",
+          "center_z": -0.55,
+          "wall_gap_z": [
+            -1.325,
+            0.225
+          ],
+          "lintel_center": [
+            0.0,
+            2.275,
+            -0.55
+          ],
+          "lintel_size_xyz": [
+            0.24,
+            0.65,
+            1.55
+          ],
+          "visual_frame_side_centers_z": [
+            -1.285,
+            0.185
+          ]
+        },
+        {
+          "id": "window_b",
+          "station_id": "bench1",
+          "center_z": 1.25,
+          "wall_gap_z": [
+            0.475,
+            2.025
+          ],
+          "lintel_center": [
+            0.0,
+            2.275,
+            1.25
+          ],
+          "lintel_size_xyz": [
+            0.24,
+            0.65,
+            1.55
+          ],
+          "visual_frame_side_centers_z": [
+            0.515,
+            1.985
+          ]
+        }
+      ],
+      "window_rules": [
+        "窗台供宠物与毛巾交接和合法暂存，两面可操作；不增加人物穿窗通道。",
+        "常态宠物由湿区传到干区；毛巾可反向回流；两个窗口均不锁定单向。",
+        "窗上梁基线视觉透明度 0.20、顶框 0.30，且视觉不投影；碰撞不因此删除。新造型必须提供等效可见性。"
+      ],
+      "south_staff_door": {
+        "id": "staff_south_door",
+        "lintel_center": [
+          0.0,
+          2.4,
+          3.6
+        ],
+        "lintel_size_xyz": [
+          0.26,
+          0.4,
+          2.4
+        ],
+        "jambs": [
+          {
+            "center": [
+              0.0,
+              1.0,
+              2.45
+            ],
+            "size_xyz": [
+              0.3,
+              2.0,
+              0.12
+            ]
+          },
+          {
+            "center": [
+              0.0,
+              1.0,
+              4.75
+            ],
+            "size_xyz": [
+              0.3,
+              2.0,
+              0.12
+            ]
+          }
+        ],
+        "clear_span_between_jamb_inner_faces_z": [
+          2.51,
+          4.69
+        ],
+        "clear_span_derivation": "2.45 + 0.12/2 through 4.75 - 0.12/2; source arithmetic, not a new runtime test.",
+        "threshold_visual_center": [
+          0.0,
+          0.03,
+          3.55
+        ],
+        "threshold_visual_size_xyz": [
+          0.7,
+          0.035,
+          2.3
+        ],
+        "behavior": "常开，人员通过它跨区换工和救场。",
+        "art_boundary": "门构件贴隔墙；不得向干区交还台—B窗—A窗主通路伸出门扇、立柱或新碰撞。"
+      }
+    },
+    "operation_faces": {
+      "count": 19,
+      "constraint_class": "exact",
+      "meaning": "15 个非窗口工位各一面，2 个窗口各两面。这是现有站位标记/空间审计接口，不是新增强制吸附或允许隔墙交互。",
+      "items": [
+        {
+          "id": "intake0_south",
+          "station_id": "intake0",
+          "position": [
+            -4.6,
+            0.02,
+            -2.12
+          ],
+          "approach_from": "south",
+          "room": "wet"
+        },
+        {
+          "id": "intake1_south",
+          "station_id": "intake1",
+          "position": [
+            -3.0,
+            0.02,
+            -2.12
+          ],
+          "approach_from": "south",
+          "room": "wet"
+        },
+        {
+          "id": "intake2_south",
+          "station_id": "intake2",
+          "position": [
+            -1.4,
+            0.02,
+            -2.12
+          ],
+          "approach_from": "south",
+          "room": "wet"
+        },
+        {
+          "id": "wash0_east",
+          "station_id": "wash0",
+          "position": [
+            -3.52,
+            0.02,
+            -0.4
+          ],
+          "approach_from": "east",
+          "room": "wet"
+        },
+        {
+          "id": "wash1_east",
+          "station_id": "wash1",
+          "position": [
+            -3.52,
+            0.02,
+            2.2
+          ],
+          "approach_from": "east",
+          "room": "wet"
+        },
+        {
+          "id": "dryer_west",
+          "station_id": "dryer",
+          "position": [
+            3.7,
+            0.02,
+            -1.6
+          ],
+          "approach_from": "west",
+          "room": "dry"
+        },
+        {
+          "id": "bench0_west",
+          "station_id": "bench0",
+          "position": [
+            -1.18,
+            0.02,
+            -0.55
+          ],
+          "approach_from": "west",
+          "room": "wet"
+        },
+        {
+          "id": "bench0_east",
+          "station_id": "bench0",
+          "position": [
+            1.18,
+            0.02,
+            -0.55
+          ],
+          "approach_from": "east",
+          "room": "dry"
+        },
+        {
+          "id": "bench1_west",
+          "station_id": "bench1",
+          "position": [
+            -1.18,
+            0.02,
+            1.25
+          ],
+          "approach_from": "west",
+          "room": "wet"
+        },
+        {
+          "id": "bench1_east",
+          "station_id": "bench1",
+          "position": [
+            1.18,
+            0.02,
+            1.25
+          ],
+          "approach_from": "east",
+          "room": "dry"
+        },
+        {
+          "id": "brush_west",
+          "station_id": "brush",
+          "position": [
+            3.7,
+            0.02,
+            0.5
+          ],
+          "approach_from": "west",
+          "room": "dry"
+        },
+        {
+          "id": "laundry_north",
+          "station_id": "laundry",
+          "position": [
+            -2.35,
+            0.02,
+            2.1
+          ],
+          "approach_from": "north",
+          "room": "wet"
+        },
+        {
+          "id": "exit_west",
+          "station_id": "exit",
+          "position": [
+            3.7,
+            0.02,
+            2.5
+          ],
+          "approach_from": "west",
+          "room": "dry"
+        },
+        {
+          "id": "rack_west",
+          "station_id": "rack",
+          "position": [
+            3.85,
+            0.02,
+            -3.7
+          ],
+          "approach_from": "west",
+          "room": "dry"
+        },
+        {
+          "id": "treatment_east",
+          "station_id": "treatment",
+          "position": [
+            -4.5,
+            0.02,
+            -1.8
+          ],
+          "approach_from": "east",
+          "room": "wet"
+        },
+        {
+          "id": "intake_dry_south",
+          "station_id": "intake_dry",
+          "position": [
+            1.35,
+            0.02,
+            -2.32
+          ],
+          "approach_from": "south",
+          "room": "dry"
+        },
+        {
+          "id": "paws_south",
+          "station_id": "paws",
+          "position": [
+            2.85,
+            0.02,
+            -2.32
+          ],
+          "approach_from": "south",
+          "room": "dry"
+        },
+        {
+          "id": "buffer_wet_east",
+          "station_id": "buffer_wet",
+          "position": [
+            -3.7,
+            0.02,
+            4.1
+          ],
+          "approach_from": "east",
+          "room": "wet"
+        },
+        {
+          "id": "buffer_dry_west",
+          "station_id": "buffer_dry",
+          "position": [
+            4.6,
+            0.02,
+            4.1
+          ],
+          "approach_from": "west",
+          "room": "dry"
+        }
+      ],
+      "window_helper_distinction": {
+        "actual_marker_and_layout_audit_x_offsets": [
+          -1.18,
+          1.18
+        ],
+        "get_station_access_fallback_returns": {
+          "bench0": [
+            -1.1,
+            0.02,
+            -0.55
+          ],
+          "bench1": [
+            1.1,
+            0.02,
+            1.25
+          ]
+        },
+        "note": "两个入口不同来源的现有数值均记录，未以概念契约将它们统一或改写。运行目标评分对窗台使用当前人物所在侧的 ±1.18 点。"
+      }
+    },
+    "right_pickup_area": {
+      "constraint_class": "relational",
+      "role": "交还后的表现区；人物仍被完整 RightWall 碰撞限制在店内。",
+      "baseline_display_geometry": {
+        "court_center": [
+          8.0,
+          -0.17,
+          0.0
+        ],
+        "court_size_xyz": [
+          2.4,
+          0.32,
+          9.8
+        ],
+        "court_plan_bounds_xz": {
+          "min": [
+            6.8,
+            -4.9
+          ],
+          "max": [
+            9.2,
+            4.9
+          ]
+        },
+        "curb_center": [
+          9.25,
+          0.08,
+          0.0
+        ],
+        "curb_size_xyz": [
+          0.18,
+          0.18,
+          9.8
+        ],
+        "waiting_owner_position": [
+          8.2,
+          0.0,
+          1.35
+        ],
+        "waiting_bench_center": [
+          8.15,
+          0.35,
+          -0.45
+        ],
+        "pet_gate_visual_center": [
+          6.65,
+          0.22,
+          2.4
+        ],
+        "pet_gate_visual_size_xyz": [
+          0.16,
+          0.44,
+          2.0
+        ]
+      },
+      "exact_reunion_path_anchors": {
+        "start": [
+          5.0,
+          0.77,
+          2.5
+        ],
+        "destination": [
+          7.9,
+          0.0,
+          2.4
+        ],
+        "after_age_4_seconds": "destination.z increases by (age - 4.0) * 1.0",
+        "removal_age_seconds": 6.0
+      },
+      "art_freedom": "主人、长凳、接宠廊及其环境承接可重做造型；须保留右侧接回宠物的可见叙事、动画路径与共享镜头容纳关系。不得把表现门设计成玩家新出口。"
+    }
+  },
+  "animation_vfx_plan": {
+    "routes": [
+      {
+        "id": "wet_service",
+        "label": "湿区服务/持物",
+        "xz": [
+          [
+            -3.52,
+            -0.4
+          ],
+          [
+            -2.7,
+            -0.4
+          ],
+          [
+            -1.18,
+            -0.55
+          ]
+        ],
+        "kind": "proposed_wayfinding",
+        "color": "#347894"
+      },
+      {
+        "id": "wet_towel_return",
+        "label": "湿巾回洗",
+        "xz": [
+          [
+            -1.18,
+            1.25
+          ],
+          [
+            -1.18,
+            2.1
+          ],
+          [
+            -2.35,
+            2.1
+          ]
+        ],
+        "kind": "proposed_wayfinding",
+        "color": "#347894"
+      },
+      {
+        "id": "dry_return",
+        "label": "交还 → B 窗 → A 窗",
+        "xz": [
+          [
+            3.7,
+            2.5
+          ],
+          [
+            2.4,
+            2.5
+          ],
+          [
+            2.4,
+            1.25
+          ],
+          [
+            1.18,
+            1.25
+          ],
+          [
+            1.18,
+            -0.55
+          ]
+        ],
+        "kind": "proposed_wayfinding",
+        "color": "#9764ad"
+      },
+      {
+        "id": "south_rescue",
+        "label": "南门换工 / 救场",
+        "xz": [
+          [
+            -1.18,
+            1.25
+          ],
+          [
+            -1.18,
+            3.6
+          ],
+          [
+            1.18,
+            3.6
+          ],
+          [
+            1.18,
+            1.25
+          ]
+        ],
+        "kind": "proposed_wayfinding",
+        "color": "#2c8d69"
+      }
+    ],
+    "routes_approval": "H2_proposed_navigation_readability_not_new_gameplay",
+    "player_capsule_screen_radius": 0.3,
+    "source_dynamic_contract": {
+      "constraint_class": "exact",
+      "player_capsule": {
+        "radius": 0.3,
+        "height": 1.2,
+        "center_y_above_root": 0.6
+      },
+      "station_reach_radius_xz": 1.85,
+      "station_reach_ray_height": 0.5,
+      "station_reach_requires_existing_line_of_sight": true,
+      "loose_pet_catch_radius_xz": 1.45,
+      "catch_requires_existing_line_of_sight": true,
+      "pet_station_root_offset": [
+        0.0,
+        0.75,
+        0.0
+      ],
+      "pet_carry_root": {
+        "forward_distance": 0.58,
+        "height": 0.9,
+        "visual_follows": "player Visual yaw",
+        "logical_follows": "facings[pid]"
+      },
+      "towel_station_root_offset": [
+        0.0,
+        0.82,
+        0.0
+      ],
+      "towel_carry_root": {
+        "forward_distance": 0.55,
+        "height": 0.91
+      },
+      "loose_pet_patrol_lane": [
+        [
+          -3.4,
+          0.0,
+          0.35
+        ],
+        [
+          -1.3,
+          0.0,
+          0.35
+        ],
+        [
+          -1.3,
+          0.0,
+          1.65
+        ],
+        [
+          -3.3,
+          0.0,
+          1.45
+        ]
+      ],
+      "movement": {
+        "empty_speed": 6.0,
+        "pet_carry_speed": 5.4,
+        "puddle_multiplier": 0.78,
+        "direction_frame": "screen_aligned",
+        "horizontal_start_and_stop": "immediate"
+      },
+      "import_rule": "美术资源不得隐式加入碰撞、脚本、相机或灯光来覆盖既有空间和运动接口。",
+      "note": "这些锚点是根节点/逻辑值，不代表新模型脚底或抱持接触已经校准。新模型需从不可变源均匀归一化并验证实际接触。"
+    },
+    "protected_voids": [
+      "staff_south clear span",
+      "dry_return centerline",
+      "wet_towel_return centerline",
+      "loose_pet_patrol_lane",
+      "all19operation_faces"
+    ],
+    "visual_sweep_envelopes": "not_frozen; carry roots do not define animal/cloth mesh bounds",
+    "vfx_rules": [
+      "发射器跟随逻辑宠物/工位，暂停/销毁/重开必须同步",
+      "效果读形优先于纹理，不遮订单、窗口、目标高亮和救场地面",
+      "不增加任何碰撞，不使用特效遮掩错误接触"
+    ]
+  },
+  "observation_plan": {
+    "camera": "SharedCamera",
+    "required_views": [
+      "全店固定玩法镜头",
+      "A/B窗宠物与毛巾双向接力",
+      "南门抱宠急转与双人相邻",
+      "交还→B→A返窗",
+      "主人重聚/超时/重开"
+    ],
+    "not_yet_executed": [
+      "model occlusion",
+      "contact sweep",
+      "gameplay regression",
+      "performance"
+    ]
+  },
+  "geometry_checks": {
+    "status": "passed_data_checks",
+    "checks": [
+      {
+        "id": "station_ids_and_count",
+        "passed": true,
+        "detail": 17
+      },
+      {
+        "id": "operation_faces_and_count",
+        "passed": true,
+        "detail": 19
+      },
+      {
+        "id": "all_faces_resolve",
+        "passed": true,
+        "detail": "19 existing interfaces"
+      },
+      {
+        "id": "two_window_stations",
+        "passed": true,
+        "detail": [
+          "bench0",
+          "bench1"
+        ]
+      },
+      {
+        "id": "south_door_span",
+        "passed": true,
+        "detail": {
+          "z": [
+            2.51,
+            4.69
+          ],
+          "width": 2.18
+        }
+      },
+      {
+        "id": "proposed_route_player_capsule_screen",
+        "passed": true,
+        "detail": [
+          {
+            "route_id": "wet_service",
+            "samples": 97,
+            "blocking_boxes": []
+          },
+          {
+            "route_id": "wet_towel_return",
+            "samples": 83,
+            "blocking_boxes": []
+          },
+          {
+            "route_id": "dry_return",
+            "samples": 228,
+            "blocking_boxes": []
+          },
+          {
+            "route_id": "south_rescue",
+            "samples": 286,
+            "blocking_boxes": []
+          }
+        ]
+      },
+      {
+        "id": "window_vertical_numbers",
+        "passed": true,
+        "detail": {
+          "counter_collision_y": [
+            0,
+            0.64
+          ],
+          "baseline_top_y": [
+            0.62,
+            0.72
+          ],
+          "lintel_y": [
+            1.95,
+            2.6
+          ],
+          "collision_top_to_lintel": 1.31,
+          "visual_top_to_lintel": 1.23,
+          "model_clearance_verified": false
+        }
+      }
+    ],
+    "native_verified": false,
+    "model_clearance_verified": false,
+    "route_check_method": "Sample spacing <=0.025; rectangular XZ blockers inflated by existing capsule radius 0.30; no dynamic bodies or carried visual models."
+  },
+  "artifacts": {
+    "plan_view": {
+      "path": "private-source-reference-omitted",
+      "sha256": "34771457777e2f6fc73d7aaccd2d513f48dd633ef79f0a81f96788e160f12195"
+    },
+    "section_or_volume": {
+      "path": "private-source-reference-omitted",
+      "sha256": "bab0ec0b3aa441338c857a46c623b4eafd042cea4bd8a1d9e8dd5b93c04ab8a3"
+    }
+  },
+  "production_interface_status": "planned_only; no rig code, runtime assembly or supplier submission"
+}

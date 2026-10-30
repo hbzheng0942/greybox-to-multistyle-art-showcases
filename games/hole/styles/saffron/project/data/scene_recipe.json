@@ -1,0 +1,2963 @@
+{
+  "approvalId": "b3d0f12c-2d36-483e-8182-06e4a4c86a5c",
+  "artContract": {
+    "preserveGameplayGeometry": true,
+    "prototypeId": "hole-follow-v1-652b91e20e",
+    "sourceHash": "652b91e20e0ccbbd806f1cb477c8fba2e0d68f4df2fa47fcd7b09fb10dd12db9"
+  },
+  "assets": {
+    "E04_quay_0": {
+      "assetRevisionId": "09827b43-7ab9-465f-9996-54268874b971",
+      "bakedPath": "res://assets/baked/E04_quay_0.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/21f96afed5fff56a81f4d0604c1a2d7046848452876164c1fa6439f0bb182133.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_1": {
+      "assetRevisionId": "fb7e5b08-254d-4ab8-ad3d-d81c488b25f6",
+      "bakedPath": "res://assets/baked/E04_quay_1.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/62a44196718d0de6d75b0e4dc119689e1b44a87755e004a97495f5a2cc83a467.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_2": {
+      "assetRevisionId": "8aa3a4c7-70b5-4792-b9dc-34025dd7f4b2",
+      "bakedPath": "res://assets/baked/E04_quay_2.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/22bf2b00ff9f7a274596aba7c57e74bb93d06b43df110f33651f4e151032661f.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_3": {
+      "assetRevisionId": "ff21f456-977e-434f-af5e-b80598779ee2",
+      "bakedPath": "res://assets/baked/E04_quay_3.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/dd9efe56311b278d891af585e1a1b897a90ba31ba94a70f82385d4ddeb8be3a4.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_4": {
+      "assetRevisionId": "fdc2682d-64a4-4523-8911-139dd09d577d",
+      "bakedPath": "res://assets/baked/E04_quay_4.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/f13026975a1bd84898cf605a251c021abb3a0fa25ca0feb3b6656791eb96d58b.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_5": {
+      "assetRevisionId": "86358a62-a06a-4323-a68e-ac64535e0d20",
+      "bakedPath": "res://assets/baked/E04_quay_5.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/6551c2a3165db67f32152f71c8bade8c20d8d121907164a8e1f1943acd2faea7.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E07": {
+      "bakedPath": "res://assets/baked/E07.scn",
+      "parts": [
+        {
+          "fitSize": [
+            3.25,
+            1.85,
+            1.7
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "SightseeingBoat",
+          "path": "res://assets/production/dd6f47e65df3db0c32bb77f68e10947786bab78ee81c26d06b57804181383a01.glb",
+          "position": [
+            0,
+            -0.42,
+            0
+          ],
+          "productionPartId": "07551f5a-9cdb-4ef0-8635-6a8fda9cae3c"
+        }
+      ]
+    },
+    "E08": {
+      "assetRevisionId": "6eea6c15-6ad6-477d-9e0b-66f519023b44",
+      "bakedPath": "res://assets/baked/E08.scn",
+      "cardId": "family-30",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/b0c6a4a1d9a84b290ecd22113c47b63899cfe5b99dd6587751b8ed6b42b061a9.glb"
+        }
+      ]
+    },
+    "E09": {
+      "bakedPath": "res://assets/baked/E09.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.5,
+            4.5,
+            2.1
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-tower-a",
+          "path": "res://assets/production/cdb0e4ae1a1024dfa15485e792d0e06bd29c32902078407987608d2bba0fe312.glb",
+          "source": {
+            "referenceSha256": "c35d2e85980a82cdd2e7f4babdabe79e6a433f9017d8ba282279f7317d3d4fa5",
+            "reused": false,
+            "taskId": "3847638"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-tower-a"
+    },
+    "E10": {
+      "bakedPath": "res://assets/baked/E10.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.5,
+            4.5,
+            2.1
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-tower-b",
+          "path": "res://assets/production/eb1d42544f3bfca1ee0f30338cdfcddbae76298d90c592925f60491d787a3748.glb",
+          "source": {
+            "referenceSha256": "7ec1a688fb19478bfa53414c07b0470dee60815d833b1838f7e7d13a9600441c",
+            "reused": false,
+            "taskId": "3847641"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-tower-b"
+    },
+    "E11": {
+      "bakedPath": "res://assets/baked/E11.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.5,
+            2.1,
+            1.5
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-planter",
+          "path": "res://assets/production/f3e52af1c58a665101980d75cbc0d73c09d8ea62ed4e8ee790851b3aa2651c9a.glb",
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "08a09658dacf6ae07cad90e876bc156207037b7e0eef46bfa8ed8c86a51c35b8",
+            "reused": false,
+            "taskId": "3852344",
+            "version": "G1-Turbo"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-planter"
+    },
+    "P01": {
+      "bakedPath": "res://assets/baked/P01.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-pickup",
+          "path": "res://assets/production/6ce14276a8c06f18f736ef42919bfaa7203e4400aef7904917009b3b5a1a571b.glb",
+          "source": {
+            "referenceSha256": "f933d8ec5c6eb480f53c35b79baff8ac6300094c0832fbcb65b316e283598a94",
+            "reused": false,
+            "taskId": "3847897",
+            "assetId": "five-worlds-001-saffron-assets-saffron-pickup"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-pickup",
+      "assetRevisionId": "five-worlds-saffron-001-P01"
+    },
+    "P02": {
+      "bakedPath": "res://assets/baked/P02.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-bin",
+          "path": "res://assets/production/ab3b6ca942af046eda7bdce49a20ed6d69a4668525cc2ce82166744c10255204.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "referenceSha256": "a6b9ac527a373aeeef97aad279ae938d3940df11de087125926b316db9535572",
+            "reused": true,
+            "taskId": "3847851",
+            "assetId": "five-worlds-001-saffron-assets-saffron-bin"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-bin",
+      "assetRevisionId": "five-worlds-saffron-001-P02"
+    },
+    "P03": {
+      "bakedPath": "res://assets/baked/P03.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-planter",
+          "path": "res://assets/production/f3e52af1c58a665101980d75cbc0d73c09d8ea62ed4e8ee790851b3aa2651c9a.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "08a09658dacf6ae07cad90e876bc156207037b7e0eef46bfa8ed8c86a51c35b8",
+            "reused": false,
+            "taskId": "3852344",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-planter"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-planter",
+      "assetRevisionId": "five-worlds-saffron-001-P03"
+    },
+    "P04": {
+      "bakedPath": "res://assets/baked/P04.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-pickup",
+          "path": "res://assets/production/6ce14276a8c06f18f736ef42919bfaa7203e4400aef7904917009b3b5a1a571b.glb",
+          "source": {
+            "referenceSha256": "f933d8ec5c6eb480f53c35b79baff8ac6300094c0832fbcb65b316e283598a94",
+            "reused": false,
+            "taskId": "3847897",
+            "assetId": "five-worlds-001-saffron-assets-saffron-pickup"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-pickup",
+      "assetRevisionId": "five-worlds-saffron-001-P04"
+    },
+    "P05": {
+      "bakedPath": "res://assets/baked/P05.scn",
+      "envelope": [
+        0.54,
+        3.04,
+        0.54
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.5292,
+            2.9792,
+            0.5292
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-lamp",
+          "path": "res://assets/production/f73a6ad19a2283dd499f2c31e3ef0dc1f72a4a2f18dc3db9c5c5e8d0572b1e16.glb",
+          "source": {
+            "referenceSha256": "c4866f463fbe83136c09e35bba7e2039b2f842674ab9081491698154f043883c",
+            "reused": false,
+            "taskId": "3847796",
+            "assetId": "five-worlds-001-saffron-assets-saffron-lamp"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-lamp",
+      "assetRevisionId": "five-worlds-saffron-001-P05"
+    },
+    "P06": {
+      "bakedPath": "res://assets/baked/P06.scn",
+      "envelope": [
+        0.54,
+        3.36,
+        0.54
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.5292,
+            3.2928,
+            0.5292
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-lamp",
+          "path": "res://assets/production/f73a6ad19a2283dd499f2c31e3ef0dc1f72a4a2f18dc3db9c5c5e8d0572b1e16.glb",
+          "source": {
+            "referenceSha256": "c4866f463fbe83136c09e35bba7e2039b2f842674ab9081491698154f043883c",
+            "reused": false,
+            "taskId": "3847796",
+            "assetId": "five-worlds-001-saffron-assets-saffron-lamp"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-lamp",
+      "assetRevisionId": "five-worlds-saffron-001-P06"
+    },
+    "P07": {
+      "bakedPath": "res://assets/baked/P07.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-prize",
+          "path": "res://assets/production/94a1667cd472102592095ff4ed22046f462b489deadfd20c77494f2550e1728c.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "ec221f7d5ba6c4ac58ac5ea49bbe0dfa6ab0ada0ec48bfddff18de791eb0082a",
+            "reused": false,
+            "taskId": "3852335",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-prize",
+      "assetRevisionId": "five-worlds-saffron-001-P07"
+    },
+    "P08": {
+      "bakedPath": "res://assets/baked/P08.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-prize",
+          "path": "res://assets/production/94a1667cd472102592095ff4ed22046f462b489deadfd20c77494f2550e1728c.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "ec221f7d5ba6c4ac58ac5ea49bbe0dfa6ab0ada0ec48bfddff18de791eb0082a",
+            "reused": false,
+            "taskId": "3852335",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-prize",
+      "assetRevisionId": "five-worlds-saffron-001-P08"
+    },
+    "P09": {
+      "bakedPath": "res://assets/baked/P09.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-prize",
+          "path": "res://assets/production/94a1667cd472102592095ff4ed22046f462b489deadfd20c77494f2550e1728c.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "ec221f7d5ba6c4ac58ac5ea49bbe0dfa6ab0ada0ec48bfddff18de791eb0082a",
+            "reused": false,
+            "taskId": "3852335",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-prize",
+      "assetRevisionId": "five-worlds-saffron-001-P09"
+    },
+    "P10": {
+      "bakedPath": "res://assets/baked/P10.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-bin",
+          "path": "res://assets/production/ab3b6ca942af046eda7bdce49a20ed6d69a4668525cc2ce82166744c10255204.glb",
+          "source": {
+            "referenceSha256": "a6b9ac527a373aeeef97aad279ae938d3940df11de087125926b316db9535572",
+            "reused": false,
+            "taskId": "3847851",
+            "assetId": "five-worlds-001-saffron-assets-saffron-bin"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-bin",
+      "assetRevisionId": "five-worlds-saffron-001-P10"
+    },
+    "P11": {
+      "bakedPath": "res://assets/baked/P11.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-bin",
+          "path": "res://assets/production/ab3b6ca942af046eda7bdce49a20ed6d69a4668525cc2ce82166744c10255204.glb",
+          "source": {
+            "referenceSha256": "a6b9ac527a373aeeef97aad279ae938d3940df11de087125926b316db9535572",
+            "reused": false,
+            "taskId": "3847851",
+            "assetId": "five-worlds-001-saffron-assets-saffron-bin"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-bin",
+      "assetRevisionId": "five-worlds-saffron-001-P11"
+    },
+    "P12": {
+      "bakedPath": "res://assets/baked/P12.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-sign",
+          "path": "res://assets/production/49694844340f2de8b286e3460d4ddf9b430870eca0cf3410cd10f3126a7436aa.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "199a3a2c2f9d881b8767cfa83258c6706c29f0d252283fb2ae83a2d0b5ecad0d",
+            "reused": false,
+            "taskId": "3852347",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-sign"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-sign",
+      "assetRevisionId": "five-worlds-saffron-001-P12"
+    },
+    "P13": {
+      "bakedPath": "res://assets/baked/P13.scn",
+      "envelope": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.16424,
+            1.0976,
+            0.2744
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-barrier",
+          "path": "res://assets/production/b2b405b64dbda0fb2fa0ad5d39d52cae26b40eb7ed11f8e37ab9410298c22a67.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "ad4e85eac244550fd63210f0595316bc1c2649c80248510be114236c7dfc83cc",
+            "reused": false,
+            "taskId": "3852350",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-barrier"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-barrier",
+      "assetRevisionId": "five-worlds-saffron-001-P13"
+    },
+    "P14": {
+      "bakedPath": "res://assets/baked/P14.scn",
+      "envelope": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.16424,
+            1.0976,
+            0.2744
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-barrier",
+          "path": "res://assets/production/b2b405b64dbda0fb2fa0ad5d39d52cae26b40eb7ed11f8e37ab9410298c22a67.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "ad4e85eac244550fd63210f0595316bc1c2649c80248510be114236c7dfc83cc",
+            "reused": false,
+            "taskId": "3852350",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-barrier"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-barrier",
+      "assetRevisionId": "five-worlds-saffron-001-P14"
+    },
+    "P15": {
+      "bakedPath": "res://assets/baked/P15.scn",
+      "envelope": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.7938,
+            0.7938,
+            0.7938
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-crate",
+          "path": "res://assets/production/b9a9cfd74b9caa48e8dbbb0940120d45a00d81dd67d8131c62ef5ccff384debf.glb",
+          "scale": [
+            1.01020408624457,
+            1.37318619775352,
+            1.01020408624457
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "f3c80cbde591b51dcd0d5bac1094e543fd98b6a523a0b87b602c7a0ea3075b47",
+            "reused": false,
+            "taskId": "3852338",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-crate"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-crate",
+      "assetRevisionId": "five-worlds-saffron-001-P15"
+    },
+    "P16": {
+      "bakedPath": "res://assets/baked/P16.scn",
+      "envelope": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.7938,
+            0.7938,
+            0.7938
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-crate",
+          "path": "res://assets/production/b9a9cfd74b9caa48e8dbbb0940120d45a00d81dd67d8131c62ef5ccff384debf.glb",
+          "scale": [
+            1.01020408624457,
+            1.37318619775352,
+            1.01020408624457
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "f3c80cbde591b51dcd0d5bac1094e543fd98b6a523a0b87b602c7a0ea3075b47",
+            "reused": false,
+            "taskId": "3852338",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-crate"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-crate",
+      "assetRevisionId": "five-worlds-saffron-001-P16"
+    },
+    "P17": {
+      "bakedPath": "res://assets/baked/P17.scn",
+      "envelope": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.1168,
+            0.9261,
+            0.49
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-bench",
+          "path": "res://assets/production/11210de98b971234d2949119c185135a2f5f02f5d13ce68f06ef044550c19899.glb",
+          "source": {
+            "referenceSha256": "aa279d7aaea17315d323862f28d5fd5c118b4d7cbefbaf40a4d6dcbee96700d5",
+            "reused": false,
+            "taskId": "3847792",
+            "assetId": "five-worlds-001-saffron-assets-saffron-bench"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-bench",
+      "assetRevisionId": "five-worlds-saffron-001-P17"
+    },
+    "P18": {
+      "bakedPath": "res://assets/baked/P18.scn",
+      "envelope": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.1168,
+            0.9261,
+            0.49
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-bench",
+          "path": "res://assets/production/11210de98b971234d2949119c185135a2f5f02f5d13ce68f06ef044550c19899.glb",
+          "source": {
+            "referenceSha256": "aa279d7aaea17315d323862f28d5fd5c118b4d7cbefbaf40a4d6dcbee96700d5",
+            "reused": false,
+            "taskId": "3847792",
+            "assetId": "five-worlds-001-saffron-assets-saffron-bench"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-bench",
+      "assetRevisionId": "five-worlds-saffron-001-P18"
+    },
+    "P19": {
+      "bakedPath": "res://assets/baked/P19.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.764,
+            1.0976,
+            0.9016
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-cart",
+          "path": "res://assets/production/5639a02ec733722f5d9bbc7707d6655578fa3b9617f158ab07146b74177babda.glb",
+          "source": {
+            "referenceSha256": "ed3fa3fa4dc78c799ac258252b3183851116ee8f6ac45242471274d5117f3632",
+            "reused": false,
+            "taskId": "3847707",
+            "assetId": "five-worlds-001-saffron-assets-saffron-cart"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-cart",
+      "assetRevisionId": "five-worlds-saffron-001-P19"
+    },
+    "P20": {
+      "bakedPath": "res://assets/baked/P20.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.764,
+            1.0976,
+            0.9016
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-cart",
+          "path": "res://assets/production/5639a02ec733722f5d9bbc7707d6655578fa3b9617f158ab07146b74177babda.glb",
+          "source": {
+            "referenceSha256": "ed3fa3fa4dc78c799ac258252b3183851116ee8f6ac45242471274d5117f3632",
+            "reused": false,
+            "taskId": "3847707",
+            "assetId": "five-worlds-001-saffron-assets-saffron-cart"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-cart",
+      "assetRevisionId": "five-worlds-saffron-001-P20"
+    },
+    "P21": {
+      "bakedPath": "res://assets/baked/P21.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.764,
+            1.0976,
+            0.9016
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-cart",
+          "path": "res://assets/production/5639a02ec733722f5d9bbc7707d6655578fa3b9617f158ab07146b74177babda.glb",
+          "source": {
+            "referenceSha256": "ed3fa3fa4dc78c799ac258252b3183851116ee8f6ac45242471274d5117f3632",
+            "reused": false,
+            "taskId": "3847707",
+            "assetId": "five-worlds-001-saffron-assets-saffron-cart"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-cart",
+      "assetRevisionId": "five-worlds-saffron-001-P21"
+    },
+    "P22": {
+      "bakedPath": "res://assets/baked/P22.scn",
+      "envelope": [
+        2.478,
+        3.105,
+        1.3216
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.42844,
+            1.12,
+            1.295168
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-cart",
+          "path": "res://assets/production/5639a02ec733722f5d9bbc7707d6655578fa3b9617f158ab07146b74177babda.glb",
+          "source": {
+            "referenceSha256": "ed3fa3fa4dc78c799ac258252b3183851116ee8f6ac45242471274d5117f3632",
+            "reused": false,
+            "taskId": "3847707",
+            "assetId": "five-worlds-001-saffron-assets-saffron-cart"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-cart",
+      "assetRevisionId": "five-worlds-saffron-001-P22"
+    },
+    "P23": {
+      "bakedPath": "res://assets/baked/P23.scn",
+      "envelope": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.911,
+            2.2932,
+            1.0829
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-table",
+          "path": "res://assets/production/ed732e2713cb4d782a6bf6284f8687a5a7f9091d58e120e47fbd9c0a36c90be2.glb",
+          "scale": [
+            1,
+            1.67868852459016,
+            1
+          ],
+          "source": {
+            "referenceSha256": "7cd3bd220545da47bb5c10f7845c92e04e37f6dc37da2703d038e18d9b43bb51",
+            "reused": false,
+            "taskId": "3845451",
+            "assetId": "five-worlds-001-saffron-assets-saffron-table"
+          }
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "support-contact",
+          "path": "res://assets/production/saffron-adb9af5876ef073f5520b8f4d235e25819f1e8fe20380fd4d258b85edf7dce6e.glb",
+          "recipeHash": "6ed647b465ffc6c164fd119d6e8b55b02ef4527b1dc5e56ed0f18b104a60d9b6",
+          "sha256": "adb9af5876ef073f5520b8f4d235e25819f1e8fe20380fd4d258b85edf7dce6e",
+          "sourcePath": "data/assets/procedural-adb9af5876ef073f5520b8f4d235e25819f1e8fe20380fd4d258b85edf7dce6e.glb"
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-table",
+      "assetRevisionId": "five-worlds-saffron-001-P23"
+    },
+    "P24": {
+      "bakedPath": "res://assets/baked/P24.scn",
+      "envelope": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.911,
+            2.2932,
+            1.0829
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-table",
+          "path": "res://assets/production/ed732e2713cb4d782a6bf6284f8687a5a7f9091d58e120e47fbd9c0a36c90be2.glb",
+          "scale": [
+            1,
+            1.67868852459016,
+            1
+          ],
+          "source": {
+            "referenceSha256": "7cd3bd220545da47bb5c10f7845c92e04e37f6dc37da2703d038e18d9b43bb51",
+            "reused": false,
+            "taskId": "3845451",
+            "assetId": "five-worlds-001-saffron-assets-saffron-table"
+          }
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "support-contact",
+          "path": "res://assets/production/saffron-adb9af5876ef073f5520b8f4d235e25819f1e8fe20380fd4d258b85edf7dce6e.glb",
+          "recipeHash": "6ed647b465ffc6c164fd119d6e8b55b02ef4527b1dc5e56ed0f18b104a60d9b6",
+          "sha256": "adb9af5876ef073f5520b8f4d235e25819f1e8fe20380fd4d258b85edf7dce6e",
+          "sourcePath": "data/assets/procedural-adb9af5876ef073f5520b8f4d235e25819f1e8fe20380fd4d258b85edf7dce6e.glb"
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-table",
+      "assetRevisionId": "five-worlds-saffron-001-P24"
+    },
+    "P25": {
+      "bakedPath": "res://assets/baked/P25.scn",
+      "envelope": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.8522,
+            0.33075,
+            1.0584
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-platform",
+          "path": "res://assets/production/06fafb0b41f07cb5afe38e9a3b8d2fd8b982cf61088d682833bd18bb3f6506f6.glb",
+          "scale": [
+            1.01020399955437,
+            1.02040819857187,
+            1.01020404831761
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "50bbee23aba960b0c3a8fa72bd3385298e59702546d35b783c08c1fea714e5d4",
+            "reused": false,
+            "taskId": "3852341",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-platform"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-platform",
+      "assetRevisionId": "five-worlds-saffron-001-P25"
+    },
+    "P26": {
+      "bakedPath": "res://assets/baked/P26.scn",
+      "envelope": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.8522,
+            0.33075,
+            1.0584
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "saffron-platform",
+          "path": "res://assets/production/06fafb0b41f07cb5afe38e9a3b8d2fd8b982cf61088d682833bd18bb3f6506f6.glb",
+          "scale": [
+            1.01020399955437,
+            1.02040819857187,
+            1.01020404831761
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-saffron-assets",
+            "referenceSha256": "50bbee23aba960b0c3a8fa72bd3385298e59702546d35b783c08c1fea714e5d4",
+            "reused": false,
+            "taskId": "3852341",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-saffron-assets-saffron-platform"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-platform",
+      "assetRevisionId": "five-worlds-saffron-001-P26"
+    },
+    "P27": {
+      "bakedPath": "res://assets/baked/P27.scn",
+      "envelope": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            4.0768,
+            2.032128
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-tower-a",
+          "path": "res://assets/production/cdb0e4ae1a1024dfa15485e792d0e06bd29c32902078407987608d2bba0fe312.glb",
+          "source": {
+            "referenceSha256": "c35d2e85980a82cdd2e7f4babdabe79e6a433f9017d8ba282279f7317d3d4fa5",
+            "reused": false,
+            "taskId": "3847638",
+            "assetId": "five-worlds-001-saffron-assets-saffron-tower-a"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-tower-a",
+      "assetRevisionId": "five-worlds-saffron-001-P27"
+    },
+    "P28": {
+      "bakedPath": "res://assets/baked/P28.scn",
+      "envelope": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            4.018,
+            2.032128
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-tower-b",
+          "path": "res://assets/production/eb1d42544f3bfca1ee0f30338cdfcddbae76298d90c592925f60491d787a3748.glb",
+          "source": {
+            "referenceSha256": "7ec1a688fb19478bfa53414c07b0470dee60815d833b1838f7e7d13a9600441c",
+            "reused": false,
+            "taskId": "3847641",
+            "assetId": "five-worlds-001-saffron-assets-saffron-tower-b"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-tower-b",
+      "assetRevisionId": "five-worlds-saffron-001-P28"
+    },
+    "P29": {
+      "bakedPath": "res://assets/baked/P29.scn",
+      "envelope": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            4.214,
+            2.032128
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-tower-a",
+          "path": "res://assets/production/cdb0e4ae1a1024dfa15485e792d0e06bd29c32902078407987608d2bba0fe312.glb",
+          "source": {
+            "referenceSha256": "c35d2e85980a82cdd2e7f4babdabe79e6a433f9017d8ba282279f7317d3d4fa5",
+            "reused": false,
+            "taskId": "3847638",
+            "assetId": "five-worlds-001-saffron-assets-saffron-tower-a"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-tower-a",
+      "assetRevisionId": "five-worlds-saffron-001-P29"
+    },
+    "P30": {
+      "bakedPath": "res://assets/baked/P30.scn",
+      "envelope": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.25792,
+            3.9396,
+            2.032128
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-tower-b",
+          "path": "res://assets/production/eb1d42544f3bfca1ee0f30338cdfcddbae76298d90c592925f60491d787a3748.glb",
+          "source": {
+            "referenceSha256": "7ec1a688fb19478bfa53414c07b0470dee60815d833b1838f7e7d13a9600441c",
+            "reused": false,
+            "taskId": "3847641",
+            "assetId": "five-worlds-001-saffron-assets-saffron-tower-b"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-tower-b",
+      "assetRevisionId": "five-worlds-saffron-001-P30"
+    },
+    "P31": {
+      "bakedPath": "res://assets/baked/P31.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.26144,
+            2.352,
+            3.01056
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-kiosk-a",
+          "path": "res://assets/production/a95b8e4e563f45ac5d5f340dcda484bdc5bdb81729bb8da778b5dac7190e7c91.glb",
+          "source": {
+            "referenceSha256": "527c6e8b68f3d5e010770aba69ebdd54a63de3343ab09ad7d92beb6a574054e0",
+            "reused": false,
+            "taskId": "3847680",
+            "assetId": "five-worlds-001-saffron-assets-saffron-kiosk-a"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-kiosk-a",
+      "assetRevisionId": "five-worlds-saffron-001-P31"
+    },
+    "P32": {
+      "bakedPath": "res://assets/baked/P32.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.26144,
+            2.352,
+            3.01056
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-kiosk-a",
+          "path": "res://assets/production/a95b8e4e563f45ac5d5f340dcda484bdc5bdb81729bb8da778b5dac7190e7c91.glb",
+          "source": {
+            "referenceSha256": "527c6e8b68f3d5e010770aba69ebdd54a63de3343ab09ad7d92beb6a574054e0",
+            "reused": false,
+            "taskId": "3847680",
+            "assetId": "five-worlds-001-saffron-assets-saffron-kiosk-a"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-kiosk-a",
+      "assetRevisionId": "five-worlds-saffron-001-P32"
+    },
+    "P33": {
+      "bakedPath": "res://assets/baked/P33.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.26144,
+            2.352,
+            3.01056
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-kiosk-b",
+          "path": "res://assets/production/7c5a225c3549c8df834d150d4276c850592683f34a991851be54448050b5216f.glb",
+          "source": {
+            "referenceSha256": "febfffdd0418ac1a60a386451198efc620a6127a0f37243710aac01db0976688",
+            "reused": false,
+            "taskId": "3847683",
+            "assetId": "five-worlds-001-saffron-assets-saffron-kiosk-b"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-kiosk-b",
+      "assetRevisionId": "five-worlds-saffron-001-P33"
+    },
+    "P34": {
+      "bakedPath": "res://assets/baked/P34.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            3.26144,
+            2.352,
+            3.01056
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-kiosk-b",
+          "path": "res://assets/production/7c5a225c3549c8df834d150d4276c850592683f34a991851be54448050b5216f.glb",
+          "source": {
+            "referenceSha256": "febfffdd0418ac1a60a386451198efc620a6127a0f37243710aac01db0976688",
+            "reused": false,
+            "taskId": "3847683",
+            "assetId": "five-worlds-001-saffron-assets-saffron-kiosk-b"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-kiosk-b",
+      "assetRevisionId": "five-worlds-saffron-001-P34"
+    },
+    "P35": {
+      "bakedPath": "res://assets/baked/P35.scn",
+      "envelope": [
+        6.272,
+        6.832,
+        5.152
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            6.14656,
+            6.69536,
+            5.04896
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-central",
+          "path": "res://assets/production/c1d27d46deaa8aa6d3b7e06380af1b707b010fc42df9fb391065ba2b2fde880d.glb",
+          "source": {
+            "referenceSha256": "74e300241a0d49b72fb2070f75e70e91b7804cf524366184b95cc2e2362b3cd7",
+            "reused": false,
+            "taskId": "3847482",
+            "assetId": "five-worlds-001-saffron-assets-saffron-central"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-central",
+      "assetRevisionId": "five-worlds-saffron-001-P35"
+    },
+    "P36": {
+      "bakedPath": "res://assets/baked/P36.scn",
+      "envelope": [
+        5.4,
+        4.16,
+        4.03
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            5.292,
+            4.0768,
+            3.9494
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-left",
+          "path": "res://assets/production/85f07b1e5d07f6033a17242f072f8b6a9ac94bca8cbac7358f7e9be671847330.glb",
+          "source": {
+            "referenceSha256": "fe412477b732d359a7321bfcfc07e9f709b323fb18438c6cbe961b219d784141",
+            "reused": false,
+            "taskId": "3847557",
+            "assetId": "five-worlds-001-saffron-assets-saffron-left"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-left",
+      "assetRevisionId": "five-worlds-saffron-001-P36"
+    },
+    "P37": {
+      "bakedPath": "res://assets/baked/P37.scn",
+      "envelope": [
+        4.72,
+        4.096,
+        3.658
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            4.6256,
+            4.01408,
+            3.58484
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.65,
+            "specular": 0.2,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.12,
+          "name": "saffron-rear",
+          "path": "res://assets/production/e901e12182aa51914e28b046ffb21fea49cec62374a3143a5c73cdcc3d1c7f9e.glb",
+          "source": {
+            "referenceSha256": "ac9ee06d9c0b186b9c22bf0503ff982d873c593b1b8528f6019a1b3a1e03745c",
+            "reused": false,
+            "taskId": "3847564",
+            "assetId": "five-worlds-001-saffron-assets-saffron-rear"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "saffron-rear",
+      "assetRevisionId": "five-worlds-saffron-001-P37"
+    }
+  },
+  "boardId": "five-worlds-001-saffron-board",
+  "boardRevision": 13,
+  "buildId": "five-worlds-saffron-001",
+  "cameraPresentation": {
+    "base_distance": 11.8,
+    "fov": 50,
+    "growth_distance": 1.1,
+    "lag": 0.09,
+    "lookahead": 0.16,
+    "max_distance": 18.5,
+    "motion_fov": 0,
+    "normalMap": false,
+    "overview": "debug-only",
+    "pitch": 52
+  },
+  "characterPresentation": {
+    "blinkSeconds": 0.08,
+    "defaultSkin": "star",
+    "humanArtApproved": false,
+    "mode": "2D illustrated border and eyes around open funnel",
+    "mouthRatio": 0.95,
+    "outerRadiusRatio": 1.235,
+    "sha256": "b5659548992310635c9cdbf5c39573a22686f8eef880f770bc9cdacc27bd3dcc",
+    "smallEyeScale": 1.3,
+    "sourcePrompt": "data/hole-designs/finish-v1/satin-v3-prompt.txt",
+    "texture": "res://assets/characters/star-gummy-satin-v3.png",
+    "variants": [
+      "star",
+      "frog",
+      "cream"
+    ],
+    "version": "star-gummy-satin-v3-small-screen"
+  },
+  "closureRevision": {
+    "authorization": "好，do it。把这个场景精修好就暂时close掉",
+    "formalRelease": false,
+    "materialResponse": [
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-painted-arcade-blue",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.39,
+                0.588,
+                0.902
+              ],
+              "detail_contrast": 0.015,
+              "local_bounds": [
+                -0.126,
+                0.014,
+                -0.152,
+                0.126,
+                0.114,
+                0.095
+              ],
+              "name": "blue_roof_shell",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.56,
+                0.84
+              ],
+              "strength": 1
+            }
+          ],
+          "material_revision": "b2-paint-003-p31",
+          "normal_revision": {
+            "crease_degrees": 35,
+            "id": "p31-blue-roof-barrel-normal-002",
+            "local_bounds": [
+              -0.126,
+              0.014,
+              -0.152,
+              0.126,
+              0.114,
+              0.095
+            ],
+            "method": "Fitted shallow barrel field in source blue roof region only; reject normal directions above 48 degree deviation to preserve end caps and ridges; no position or topology change.",
+            "normal_field": {
+              "alignment_full_degrees": 28,
+              "alignment_limit_degrees": 48,
+              "center_x": 0.00028,
+              "curvature": 5.7452,
+              "shape": "parabolic_barrel"
+            },
+            "protect_warm_material_edges": true,
+            "source_sha256": "74b86da61842912bc50457b83c212dc8f46789ec863542bf8d85b74e2dd4c9c2",
+            "strength": 0.94,
+            "weld_precision": 1e-06
+          },
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.32,
+            0.78
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "arcade-pavilion",
+        "slot": "P31"
+      },
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-painted-lilac",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.635,
+                0.49,
+                0.84
+              ],
+              "detail_contrast": 0.03,
+              "exclude_uv_rect": [
+                0.36,
+                0.343,
+                0.53,
+                0.415
+              ],
+              "local_bounds": [
+                -0.176,
+                0.033,
+                -0.139,
+                0.176,
+                0.127,
+                0.052
+              ],
+              "name": "lilac_roof_shell",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.55,
+                0.85
+              ],
+              "strength": 1
+            },
+            {
+              "albedo_color": [
+                0.97,
+                0.9,
+                0.73
+              ],
+              "color_family": 1,
+              "detail_contrast": 0.02,
+              "local_bounds": [
+                -0.176,
+                0.025,
+                0.038,
+                0.176,
+                0.128,
+                0.138
+              ],
+              "name": "front_cornice_warm_cream",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.57,
+                0.85
+              ],
+              "strength": 0.92
+            }
+          ],
+          "material_revision": "b2-paint-003-p32",
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.34,
+            0.8
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "magic-pavilion",
+        "slot": "P32"
+      },
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-ivory-folded-roof",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.93,
+                0.9,
+                0.8
+              ],
+              "color_family": 1,
+              "detail_contrast": 0.03,
+              "exclude_local_bounds": [
+                -0.055,
+                -0.122,
+                0,
+                0.055,
+                0.025,
+                0.137
+              ],
+              "local_bounds": [
+                -0.226,
+                -0.122,
+                -0.137,
+                0.226,
+                0.122,
+                0.137
+              ],
+              "name": "silver_facets_to_ivory",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.57,
+                0.85
+              ],
+              "strength": 1
+            },
+            {
+              "albedo_color": [
+                0.35,
+                0.51,
+                0.9
+              ],
+              "color_family": 4,
+              "detail_contrast": 0.025,
+              "exclude_local_bounds": [
+                -0.055,
+                -0.122,
+                0,
+                0.055,
+                0.025,
+                0.137
+              ],
+              "local_bounds": [
+                -0.226,
+                -0.1,
+                -0.137,
+                0.226,
+                0.122,
+                0.137
+              ],
+              "name": "painted_blue_folded_panels",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.54,
+                0.84
+              ],
+              "strength": 0.96
+            }
+          ],
+          "material_revision": "b2-paint-003-p33",
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.34,
+            0.8
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "mirror-pavilion",
+        "slot": "P33"
+      },
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-coral-roof",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.96,
+                0.57,
+                0.49
+              ],
+              "color_family": 2,
+              "detail_contrast": 0.03,
+              "exclude_uv_rect": [
+                0.818,
+                0.325,
+                0.865,
+                0.371
+              ],
+              "local_bounds": [
+                -0.141,
+                0.022,
+                -0.113,
+                0.141,
+                0.087,
+                0.113
+              ],
+              "name": "coral_roof_shell",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.42,
+                0.78
+              ],
+              "strength": 1
+            }
+          ],
+          "material_revision": "b2-paint-003-p34",
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.34,
+            0.8
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "souvenir-pavilion",
+        "slot": "P34"
+      }
+    ],
+    "sourceBuilds": [
+      "amusement-b2-finish-026",
+      "amusement-b2-lighting-026"
+    ],
+    "status": "temporarily-closed-after-review"
+  },
+  "contactShadows": {
+    "color": [
+      0.29,
+      0.23,
+      0.18
+    ],
+    "spread": 1.19,
+    "strength": 0.22
+  },
+  "coverage": {
+    "complete": true,
+    "formalRelease": false,
+    "gameplayInstances": 215,
+    "generatedSlots": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P36",
+      "P37"
+    ],
+    "localSlots": [],
+    "supplementalModels": 6
+  },
+  "finishRevision": {
+    "authorization": {
+      "plan": "docs/SAMPLE_FINISH_TODO_20260929.md",
+      "scope": "Existing P23 rear awning, P35 wheel/cabins, P36 clean canopy; shared follow camera, 60s, 2D Star Gummy polish. No new gameplay units or remote modeling tasks.",
+      "source": "explicit_user_message",
+      "sourceBuildId": "amusement-b2-session-025",
+      "text": "好，按计划收尾并review验收吧；A 星星软糖；这个星星软糖sprite是不是有点丑了，要高级审美呀！"
+    },
+    "changes": [
+      "18 degree canted wheel plane; cabins upright",
+      "rear prize awning",
+      "clean authored canopy replaces source-painted highlight bands"
+    ],
+    "characterVersion": "star-gummy-satin-v3",
+    "id": "b2-sample-finish-v1",
+    "sourceAssetsPreserved": true,
+    "sourceBuildId": "amusement-b2-session-025"
+  },
+  "floor": {
+    "asphalt_color": [
+      0.325490196078431,
+      0.470588235294118,
+      0.588235294117647
+    ],
+    "calibrated_light": true,
+    "floor_fill": 0,
+    "kerb_color": [
+      0.745098039215686,
+      0.63921568627451,
+      0.47843137254902
+    ],
+    "park_paving": false,
+    "path_edge_width": 0.13,
+    "paving_color": [
+      0.956862745098039,
+      0.862745098039216,
+      0.682352941176471
+    ],
+    "surface_style": 2,
+    "walkway_color": [
+      0.898039215686275,
+      0.780392156862745,
+      0.596078431372549
+    ]
+  },
+  "floorShader": "res://shaders/theme_floor.gdshader",
+  "groundMarks": [],
+  "instanceAssets": {},
+  "lighting": {
+    "ambient_color": [
+      0.85,
+      0.9,
+      1
+    ],
+    "ambient_energy": 0.18,
+    "key_color": [
+      1,
+      0.95,
+      0.85
+    ],
+    "key_energy": 0.56,
+    "key_rotation_degrees": [
+      -53,
+      -35,
+      0
+    ],
+    "shadow_bias": 0.1,
+    "shadow_blur": 3,
+    "shadow_distance": 70,
+    "shadow_normal_bias": 2,
+    "shadow_opacity": 0.64
+  },
+  "materialCalibration": {
+    "mode": "source-preserved-regional-art-adaptation",
+    "revisionId": "b2-paint-003",
+    "roughnessAndAlbedoRegionsExplicit": true,
+    "sourceFaithfulPBR": false,
+    "sourceFilesPreserved": true
+  },
+  "materialRevision": {
+    "id": "b2-paint-003",
+    "path": "data/material-revisions/b2-paint-003/manifest.json",
+    "sha256": "aa9297b41a24ef8e1932233c0c208e020d404363f75b684dfa2b1398b939cd47"
+  },
+  "occlusionStyle": "projected-mouth-001",
+  "presentation": {
+    "accent": [
+      0.780392156862745,
+      0.474509803921569,
+      0.290196078431373
+    ],
+    "subtitle": "沙漠商队",
+    "title": "SAFFRON CARAVAN"
+  },
+  "presentationRevision": {
+    "id": "amusement-daylight-v1",
+    "profilePath": "content/presentation/amusement-daylight-v1.json",
+    "profileSha256": "540c27ca3e16386d61d2b0c2274541446fc84ce132ccb56a4564d5cf268da1ee",
+    "scope": "Lighting and grounding only; parent geometry, assets, camera, round rules and approval remain unchanged.",
+    "sourceBuildId": "amusement-b2-finish-026"
+  },
+  "prototypeId": "hole-follow-v1-652b91e20e",
+  "refinement": {
+    "contractRevision": "hole-concept-scale-v3-aa18edd9e4",
+    "focus": [
+      "whole-scene asset scale",
+      "visible fit",
+      "landmark/body hierarchy",
+      "material consistency",
+      "lighting contact"
+    ],
+    "preserveGameplayIds": true,
+    "scaleRevisionId": "b2-concept-scale-003",
+    "sourceBuildId": "amusement-b2-region-016"
+  },
+  "scaleRevision": {
+    "clearanceOffsets": {
+      "bench_004": [
+        0.15,
+        0,
+        0.08
+      ],
+      "bin_004": [
+        1.1,
+        0,
+        0.8
+      ],
+      "bin_005": [
+        -0.18,
+        0,
+        -0.1
+      ],
+      "bin_006": [
+        0.46,
+        0,
+        -0.5
+      ],
+      "bin_013": [
+        -0.16,
+        0,
+        0
+      ],
+      "micro_block_026": [
+        0.4,
+        0,
+        -0.8
+      ],
+      "micro_block_028": [
+        0.18,
+        0,
+        0.08
+      ],
+      "micro_block_030": [
+        0.02,
+        0,
+        0.12
+      ],
+      "tall_pole_007": [
+        0.22,
+        0,
+        0
+      ],
+      "vehicle_003": [
+        0,
+        0,
+        -0.22
+      ]
+    },
+    "fitDiameters": {
+      "P01": 0.57,
+      "P02": 0.46,
+      "P03": 0.41,
+      "P04": 0.48,
+      "P05": 0.5,
+      "P06": 0.5,
+      "P07": 0.42,
+      "P08": 0.42,
+      "P09": 0.41,
+      "P10": 0.89,
+      "P11": 1.16,
+      "P12": 0.89,
+      "P13": 1.18,
+      "P14": 1.18,
+      "P15": 1.03,
+      "P16": 1.04,
+      "P17": 2.07,
+      "P18": 1.99,
+      "P19": 1.66,
+      "P20": 1.77,
+      "P21": 1.73,
+      "P22": 2.3,
+      "P23": 2.19,
+      "P24": 2.19,
+      "P25": 2.08,
+      "P26": 2.08,
+      "P27": 2.99,
+      "P28": 2.99,
+      "P29": 2.99,
+      "P30": 2.99,
+      "P31": 4.11,
+      "P32": 4.06,
+      "P33": 4.06,
+      "P34": 4.06,
+      "P35": 6.26,
+      "P36": 5.28,
+      "P37": 5.64
+    },
+    "fitMeasurement": "evidence/final_art_polish_20260929/023_candidate_geometry.json; actual nested runtime vertices at target row outer width 2.28m; structure reauthored in 003, round details preserved; >=1.5% clearance",
+    "id": "b2-concept-scale-003",
+    "rationale": "Normalize prop scale against island width; stop treating old graybox envelopes as final art dimensions.",
+    "rowSpacingScale": 1.2,
+    "scales": {
+      "P01": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P02": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P03": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P04": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P05": [
+        1.8,
+        1.9,
+        1.8
+      ],
+      "P06": [
+        1.8,
+        2.1,
+        1.8
+      ],
+      "P07": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P08": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P09": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P10": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P11": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P12": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P13": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P14": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P15": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P16": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P17": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P18": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P19": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P20": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P21": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P22": [
+        1.18,
+        1.35,
+        1.12
+      ],
+      "P23": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P24": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P25": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P26": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P27": [
+        1,
+        1,
+        1.08
+      ],
+      "P28": [
+        1,
+        1,
+        1.08
+      ],
+      "P29": [
+        1,
+        1,
+        1.08
+      ],
+      "P30": [
+        1,
+        1,
+        1.08
+      ],
+      "P31": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P32": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P33": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P34": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P35": [
+        1.12,
+        1.12,
+        1.12
+      ],
+      "P36": [
+        1.35,
+        1.3,
+        1.3
+      ],
+      "P37": [
+        1.18,
+        1.28,
+        1.18
+      ]
+    }
+  },
+  "sceneryMaterial": {
+    "model": "physical_vertex_color",
+    "roughness": 0.9,
+    "specular": 0.18
+  },
+  "sceneryOverrides": {
+    "bg_bridge_01": {
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    },
+    "bg_building_00": {
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "bg_building_01": {
+      "scale": [
+        1,
+        0.84,
+        1
+      ]
+    },
+    "bg_building_02": {
+      "scale": [
+        1,
+        1.17,
+        1
+      ]
+    },
+    "bg_building_03": {
+      "scale": [
+        1,
+        0.92,
+        1
+      ]
+    },
+    "bg_building_04": {
+      "scale": [
+        1,
+        1.08,
+        1
+      ]
+    },
+    "bg_building_05": {
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "bg_building_06": {
+      "scale": [
+        1,
+        0.84,
+        1
+      ]
+    },
+    "bg_building_07": {
+      "scale": [
+        1,
+        1.17,
+        1
+      ]
+    },
+    "bg_building_08": {
+      "scale": [
+        1,
+        0.92,
+        1
+      ]
+    },
+    "quay_00": {
+      "assetKey": "E04_quay_0",
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "quay_01": {
+      "assetKey": "E04_quay_1",
+      "rotationDegrees": [
+        0,
+        -90,
+        0
+      ]
+    },
+    "quay_02": {
+      "assetKey": "E04_quay_2",
+      "rotationDegrees": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "quay_03": {
+      "assetKey": "E04_quay_3",
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    },
+    "quay_04": {
+      "assetKey": "E04_quay_4",
+      "rotationDegrees": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "quay_05": {
+      "assetKey": "E04_quay_5",
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    }
+  },
+  "schema": "hole_scene_recipe_v1",
+  "sessionRevision": {
+    "authorization": "User requested restoring the 60-second round; spatial/art content unchanged.",
+    "previousRoundSeconds": 120,
+    "roundSeconds": 60,
+    "sourceBuildId": "amusement-b2-scale-024"
+  },
+  "sourceParts": [
+    {
+      "files": [
+        {
+          "bytes": 5414689,
+          "path": "data/assets/part-a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14_zip.zip",
+          "sha256": "d6775bb51d1dfd6f9d9520dc431046c18f33d0809562f6b60443dba4f7200bf4"
+        },
+        {
+          "bytes": 3564120,
+          "path": "data/assets/part-a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14_glb.glb",
+          "sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143"
+        }
+      ],
+      "id": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14",
+      "reference": {
+        "approvedCardFingerprint": "3b8376f2beb1c72aca1705db7fd95ee1dfcfff9560ec0daab24b2fc2610ac9b2",
+        "path": "data/assets/input-ee0b5ae128f1a87f1ae971f37b2380c494eb1b9a8aec18fc1cf32ab1916b6cd0.png",
+        "prompt": "Extract and faithfully redraw ONE yellow passenger cabin from the approved ferris wheel reference as an isolated standalone 3D modeling input on solid pure white. Preserve the rounded yellow shell, cream seat, white safety bar, small cream circular top pivot. Orthographic three quarter view. No wheel, spokes, stand, plinth, other cabins, text, dimensions or loose pieces. One complete cabin only with open front clearly visible, centered filling 80 percent frame. Same polished miniature painted toy materials.",
+        "sha256": "ee0b5ae128f1a87f1ae971f37b2380c494eb1b9a8aec18fc1cf32ab1916b6cd0",
+        "sourceReferenceId": "e1d314d9-9570-46e5-ad5b-28cd5c44f5bd"
+      },
+      "taskId": "3810557"
+    },
+    {
+      "files": [
+        {
+          "bytes": 4592193,
+          "path": "data/assets/part-329988b5-15a5-4574-a48c-96306f4a5870_zip.zip",
+          "sha256": "8d5cbe8d5f832cd749a635c518b2fef0372fb27a8145807b89a2e7b4e4874ab8"
+        },
+        {
+          "bytes": 4190380,
+          "path": "data/assets/part-329988b5-15a5-4574-a48c-96306f4a5870_glb.glb",
+          "sha256": "02538d00c9f4578a464d3162ad7149bea558962f9f9885ab74f7494916de74e2"
+        }
+      ],
+      "id": "329988b5-15a5-4574-a48c-96306f4a5870",
+      "reference": {
+        "approvedCardFingerprint": "3b8376f2beb1c72aca1705db7fd95ee1dfcfff9560ec0daab24b2fc2610ac9b2",
+        "path": "data/assets/input-1f0cb9c8768f8c45ba777b76702ae0c9baf8e7e0f91cc86227b733f04ff79bf9.png",
+        "prompt": "Extract faithfully ONE circular blue ferris wheel center hub with the raised yellow five-point star from the approved reference. Isolated shallow circular medallion, front faces viewer with slight three quarter view showing thickness. Solid pure white background. Keep exact blue/yellow miniature painted toy materials. No wheel, spoke, stand, cabin or base. One connected medallion object only. No text or labels.",
+        "sha256": "1f0cb9c8768f8c45ba777b76702ae0c9baf8e7e0f91cc86227b733f04ff79bf9",
+        "sourceReferenceId": "e1d314d9-9570-46e5-ad5b-28cd5c44f5bd"
+      },
+      "taskId": "3810560"
+    },
+    {
+      "files": [
+        {
+          "bytes": 6927300,
+          "path": "data/assets/part-c83fc2e1-0673-4441-b18b-a98c031788c2_zip.zip",
+          "sha256": "9286a7ff758c8b5437ad19d8fc0d80bcc4365f0c956dca67622c5e579d4c46bb"
+        },
+        {
+          "bytes": 6269744,
+          "path": "data/assets/part-c83fc2e1-0673-4441-b18b-a98c031788c2_glb.glb",
+          "sha256": "1ea4ae4b1a153fad23c8c92fc10ff62274d3b7ef66f8a6b5037f8ae94b079198"
+        }
+      ],
+      "id": "c83fc2e1-0673-4441-b18b-a98c031788c2",
+      "reference": {
+        "approvedCardFingerprint": "1093c4b6143f276661c414c715501e45df353933da413a6059bfea2aed59be00",
+        "path": "data/assets/input-3c55c9d6cc2afd07b48e5aa07afee9d21c27f9e685fe1d64def4f4e6b132f535.png",
+        "prompt": "Extract faithfully ONLY the bottom right coral cab, blue chassis parade truck with lilac star rainbow stage decoration from the approved 4-panel reference. ONE complete toy truck, 3/4 orthographic view, solid pure white background, fills frame. Preserve its actual roof ornaments, wheels, lights, cream yellow rail and lilac star. Do not include any gift boxes, benches, yellow supply truck or panel grid. No text. Same rounded painted miniature toy finish. Compact vehicle broad horizontal proportions, low stage decoration not a tower.",
+        "sha256": "3c55c9d6cc2afd07b48e5aa07afee9d21c27f9e685fe1d64def4f4e6b132f535",
+        "sourceReferenceId": "17acca35-908a-4582-b5a6-02314152ee62"
+      },
+      "taskId": "3810562"
+    },
+    {
+      "files": [
+        {
+          "bytes": 6880901,
+          "path": "data/assets/part-812fcc8b-82d2-4a96-9c19-2d3e69e63e39_zip.zip",
+          "sha256": "0832e36665e6d3ed5e49d9ec76eb073c4b8be6e497265b143bb9682417e5ad6e"
+        },
+        {
+          "bytes": 5365000,
+          "path": "data/assets/part-812fcc8b-82d2-4a96-9c19-2d3e69e63e39_glb.glb",
+          "sha256": "74b86da61842912bc50457b83c212dc8f46789ec863542bf8d85b74e2dd4c9c2"
+        }
+      ],
+      "id": "812fcc8b-82d2-4a96-9c19-2d3e69e63e39",
+      "reference": {
+        "approvedCardFingerprint": "463f4a2b0b6181244ac2e54566a485002993250d39b75d0fb691c41a57aeadbe",
+        "path": "data/assets/input-6a7c0a9320add28fdb75b60eb59d35a67082823ea504c52b7fe8d393ce0504f3.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP LEFT blue barrel-vault arcade pavilion. Keep the broad low footprint, blue curved roof, cream arches and open arcade entrance with toys inside. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "6a7c0a9320add28fdb75b60eb59d35a67082823ea504c52b7fe8d393ce0504f3",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3810820"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5475351,
+          "path": "data/assets/part-4726f695-a12b-494b-b6bb-210d32ad7e60_zip.zip",
+          "sha256": "4a50b5663c7dd83c059043252c1eedf36aa4f5817ff3531f12830ad306738452"
+        },
+        {
+          "bytes": 4413616,
+          "path": "data/assets/part-4726f695-a12b-494b-b6bb-210d32ad7e60_glb.glb",
+          "sha256": "1bed06ff1e048652ea7c7e34af70f020dd4d054137a6b08ab0d3e90e4beee819"
+        }
+      ],
+      "id": "4726f695-a12b-494b-b6bb-210d32ad7e60",
+      "reference": {
+        "approvedCardFingerprint": "45dd898ed853759dc6146f874bb42b5b8889ac02e4a1238c5c6dd791e65e6567",
+        "path": "data/assets/input-14257191b01839ac2e1da77e94dca43a272c0cbaa68a125a698a04495efe9ec1.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP RIGHT lilac fan-roof magic theater. Keep low broad body, fan-shaped scalloped front crown and purple curtain entry with short stairs. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "14257191b01839ac2e1da77e94dca43a272c0cbaa68a125a698a04495efe9ec1",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3810969"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5977489,
+          "path": "data/assets/part-6c915058-0cbe-440d-9535-ca101c5ca80e_zip.zip",
+          "sha256": "d3b5e2e5b9621a88392530c6073c42aacd8462d19a4723283176ea81cc3e4fb1"
+        },
+        {
+          "bytes": 4306124,
+          "path": "data/assets/part-6c915058-0cbe-440d-9535-ca101c5ca80e_glb.glb",
+          "sha256": "ecee47050d86d662e6b5dd551f68b4858d4778295390988533c68048615121e3"
+        }
+      ],
+      "id": "6c915058-0cbe-440d-9535-ca101c5ca80e",
+      "reference": {
+        "approvedCardFingerprint": "aa2564f27e1811ea9035f4a16a325c8eccb5104b603e562ed5a690748960c9cd",
+        "path": "data/assets/input-76d493f2fa722297da6c1dccf5decbb59dcb54f9de92bbbb1dce61a3480972d5.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: BOTTOM LEFT angular mirror house. Keep very distinctive low butterfly folded roof and faceted silver/cream/blue panels. Avoid black mirrors and excessive glossy highlights. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "76d493f2fa722297da6c1dccf5decbb59dcb54f9de92bbbb1dce61a3480972d5",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3810962"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7632573,
+          "path": "data/assets/part-46b657e5-06da-4a69-a5cc-e1aa419da7fa_zip.zip",
+          "sha256": "5236f0fbd07ce6944afaa0f28a1f354f5ddac295935d76d91476ba01ac0db1a6"
+        },
+        {
+          "bytes": 5309256,
+          "path": "data/assets/part-46b657e5-06da-4a69-a5cc-e1aa419da7fa_glb.glb",
+          "sha256": "cc811e9159793f5ac934780d6f9308bb66d79e3386810400c59896c03a404e43"
+        }
+      ],
+      "id": "46b657e5-06da-4a69-a5cc-e1aa419da7fa",
+      "reference": {
+        "approvedCardFingerprint": "32bc64f6be4ba1ca639aac3a896bbe253187bbdc29cd93e413d325c92b484904",
+        "path": "data/assets/input-a794d93c3ff2393429e523f7f078dd5d1309882073c8ac8393c705fa54feeeaf.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: BOTTOM RIGHT coral and lilac stepped souvenir shop. Preserve asymmetrical two-tier rounded flat roof and two different curved display windows, yellow short awning. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "a794d93c3ff2393429e523f7f078dd5d1309882073c8ac8393c705fa54feeeaf",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3811126"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7553588,
+          "path": "data/assets/part-124b2b2d-6c98-412a-857b-732ec7abad5a_zip.zip",
+          "sha256": "cf7adad07d018f620fcc2da75a07d513195d13a9e14868c7b5909b2904f3c53e"
+        },
+        {
+          "bytes": 5406540,
+          "path": "data/assets/part-124b2b2d-6c98-412a-857b-732ec7abad5a_glb.glb",
+          "sha256": "c626bddf0168f877f3cc7c8036102877d54197d0db5b1a2fe72bde80dda9564d"
+        }
+      ],
+      "id": "124b2b2d-6c98-412a-857b-732ec7abad5a",
+      "reference": {
+        "approvedCardFingerprint": "69f4f2bdff0183493106f2f62591b62b9e649e8ed48742444a75faa30c82b353",
+        "path": "data/assets/input-9ec8a6a12f045da723984c25a0f6f159bb8af021530f553408c9d0cf87ba274f.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP RIGHT coral icecream truck with lilac/cream striped service awning, blue wheel arches, compact cream icecream roof sign. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. ",
+        "sha256": "9ec8a6a12f045da723984c25a0f6f159bb8af021530f553408c9d0cf87ba274f",
+        "sourceReferenceId": "3f53625e-c832-4c1d-9966-004cec7e7d3b"
+      },
+      "taskId": "3810821"
+    },
+    {
+      "files": [
+        {
+          "bytes": 6080361,
+          "path": "data/assets/part-e98e0de8-63a9-470c-9fcd-6630c7c0de46_zip.zip",
+          "sha256": "c6475a3b3a2f2f7114cdf8426c6b20eaa374f41bd6d68628f29baf53a4c62fe1"
+        },
+        {
+          "bytes": 5526484,
+          "path": "data/assets/part-e98e0de8-63a9-470c-9fcd-6630c7c0de46_glb.glb",
+          "sha256": "f3f18d1b881a676fe119cd0d34b94d44e7ecca2ded3b564574b88e3ef3a6ebcb"
+        }
+      ],
+      "id": "e98e0de8-63a9-470c-9fcd-6630c7c0de46",
+      "reference": {
+        "approvedCardFingerprint": "13be9cd77f0b6a3d24b19e2fb22bc04e0e2ee091739231c06be618015ac22771",
+        "path": "data/assets/input-fdea0c99006a998a4a199c7d329aac11e48e6bf651005ae6476b6e93ecafdbd9.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP LEFT low wheeled rainbow parade float with cream clouds, yellow platform, blue wheels, lilac rainbow and blue flag. Keep compact low horizontal vehicle proportions. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. ",
+        "sha256": "fdea0c99006a998a4a199c7d329aac11e48e6bf651005ae6476b6e93ecafdbd9",
+        "sourceReferenceId": "3f53625e-c832-4c1d-9966-004cec7e7d3b"
+      },
+      "taskId": "3811110"
+    },
+    {
+      "files": [
+        {
+          "bytes": 4866113,
+          "path": "data/assets/part-a65f967f-7c74-468d-9640-85d818550ab9_zip.zip",
+          "sha256": "af60dd2216344a76c7150edabb6276d8141dd88769bc88693a865b2abc674557"
+        },
+        {
+          "bytes": 4057884,
+          "path": "data/assets/part-a65f967f-7c74-468d-9640-85d818550ab9_glb.glb",
+          "sha256": "4dd50b8169a8ca661fb665e2a66c15a0bb80bc76d2f36e4726b62edd1990735a"
+        }
+      ],
+      "id": "a65f967f-7c74-468d-9640-85d818550ab9",
+      "reference": {
+        "approvedCardFingerprint": "e1d1feda4ae32e68e82214258d6e77465ea2e2dad36884e01f6723f89077b1b6",
+        "path": "data/assets/input-f81b2ab53afa6c4849150a5f5b7ce3d66d050ac23fd0702bf5e99edf089f6b8b.png",
+        "prompt": "Extract faithfully the BLUE scalloped decorative FRONT FASCIA from the lower left game stall in the reference: a low shallow connected ornamental blue arched header with cream recessed panel, central blue flower-shaped medallion with yellow star, and short alternating cream/blue scalloped awning trim along bottom. This is ONLY the nonstructural decorative front panel, horizontal wide rectangle with curved top edge. NO support columns, NO tabletop, NO cabinet, NO feet, NO lamps, NO other objects. One connected component isolated on solid pure white background, slight 3/4 front view shows shallow thickness. Match approved rounded painted toy style and exact blue/cream/yellow palette. No words or numbers.",
+        "sha256": "f81b2ab53afa6c4849150a5f5b7ce3d66d050ac23fd0702bf5e99edf089f6b8b",
+        "sourceReferenceId": "3f53625e-c832-4c1d-9966-004cec7e7d3b"
+      },
+      "taskId": "3811232"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5643091,
+          "path": "data/assets/part-f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd_zip.zip",
+          "sha256": "d442f3c97606e380cb862d84caa896739417c1041f3946319f75ebf5efc7703a"
+        },
+        {
+          "bytes": 4807824,
+          "path": "data/assets/part-f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd_glb.glb",
+          "sha256": "26bf9141d98d00910c0823fae2ee861ce371d7acab6d61863e58c4695998fa33"
+        }
+      ],
+      "id": "f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd",
+      "reference": {
+        "approvedCardFingerprint": "8024337f62b57a719e63fb812f19de07a7554d17f054c46a36993658e3c64725",
+        "path": "data/assets/input-88b3f3b5c605ebe729265b84b8f13b02668f64a91020a538f8f9bbd4e24212f7.png",
+        "prompt": "Extract faithfully ONE carousel horse from this approved reference, as an isolated complete standalone 3D modeling input. White rounded toy horse, golden mane and tail, blue bridle and blue saddle with yellow piping, lilac saddle blanket, short blue hooves. Exactly four legs, one head. Horse only: NO pole, no circular base, no canopy, no other horses, no environment. 3/4 side view showing body shape and all legs, full object centered, solid pure white background, soft neutral light with no strong painted shadows. Preserve the approved toy proportions, palette and modest sculptural details. No text, labels or sheet.",
+        "sha256": "88b3f3b5c605ebe729265b84b8f13b02668f64a91020a538f8f9bbd4e24212f7",
+        "sourceReferenceId": "019d5b3e-b7a9-447f-96d6-ad9882ca87f4"
+      },
+      "taskId": "3812882"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5805032,
+          "path": "data/assets/part-f2960e43-202f-463a-98af-fcdb129ddb8b_zip.zip",
+          "sha256": "f90588991e0cfea2eadc1c5d2269aaa0fa33ad4b811e47c84761addaedd50396"
+        },
+        {
+          "bytes": 4218844,
+          "path": "data/assets/part-f2960e43-202f-463a-98af-fcdb129ddb8b_glb.glb",
+          "sha256": "9f4908d83d2896bc4f57714d62f735c50605f9f2c0c429d43fe5934c9ed839f7"
+        }
+      ],
+      "id": "f2960e43-202f-463a-98af-fcdb129ddb8b",
+      "reference": {
+        "approvedCardFingerprint": "8024337f62b57a719e63fb812f19de07a7554d17f054c46a36993658e3c64725",
+        "path": "data/assets/input-883695ee97ffa27fd505cf46edb25deea39063ce5d29586290a91b9bfbab65c5.png",
+        "prompt": "Extract faithfully ONLY the carousel striped canopy from this approved reference for 3D modeling: one shallow circular tent roof with alternating coral-pink and warm cream radial panels, golden scalloped rim, cream scalloped valance, small purple ball on golden crown. Complete connected roof, viewed in elevated 3/4. NO center column, poles, horses, base, platform, other objects or background scenery. One isolated complete component centered on pure white. Same rounded refined miniature painted toy material and exact reference design. Neutral light, no harsh painted shadows, no text.",
+        "sha256": "883695ee97ffa27fd505cf46edb25deea39063ce5d29586290a91b9bfbab65c5",
+        "sourceReferenceId": "019d5b3e-b7a9-447f-96d6-ad9882ca87f4"
+      },
+      "taskId": "3812879"
+    },
+    {
+      "files": [
+        {
+          "bytes": 4983996,
+          "path": "data/assets/part-a680b3b1-df36-43c1-9736-2212edbb08a0_zip.zip",
+          "sha256": "416397d8f0410670b273cb80bc921b553e8abb69a5b19b9decf426e75717412b"
+        },
+        {
+          "bytes": 4115768,
+          "path": "data/assets/part-a680b3b1-df36-43c1-9736-2212edbb08a0_glb.glb",
+          "sha256": "abde05172cc2fe4e5f23cf5418ec85bf1f3fdf6b58ede7768b975a6cb3c094be"
+        }
+      ],
+      "id": "a680b3b1-df36-43c1-9736-2212edbb08a0",
+      "reference": {
+        "approvedCardFingerprint": "e30ae94461e6015342854938a00a3af67e3e9c08975ae881028e6b9d7f8f6b88",
+        "path": "data/assets/input-74fd6a4319e8e7579f7c8646f20e202c5dadbcd4c6c6ab4dfa61ca853649b2b6.png",
+        "prompt": "Extract faithfully ONLY the tall rear decorative rainbow arch from the approved toy slide reference, together with two small connected cream cloud feet at the ends. Four concentric smooth pastel bands: lavender outer, peach coral, yellow, blue inner. Keep the inner arch OPEN with visible white background. This is a shallow ornamental arch panel for a procedural slide to be assembled later. NO slide, stairs, platform, railings, towers, star door, ground base or other objects. One complete connected rainbow-and-cloud component centered in 3/4 near frontal view, solid white backdrop. Approved rounded miniature painted toy style, neutral diffuse light, no text.",
+        "sha256": "74fd6a4319e8e7579f7c8646f20e202c5dadbcd4c6c6ab4dfa61ca853649b2b6",
+        "sourceReferenceId": "393dbe2d-0eeb-47c0-96f0-afee184d0257"
+      },
+      "taskId": "3812957"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7520310,
+          "path": "data/assets/part-43d8e9ea-6f98-4d17-ae41-ac8912041b54_zip.zip",
+          "sha256": "58d8373ca8634a0075d1311ce7d93168470098fe64ca487bf4651e6bac9802aa"
+        },
+        {
+          "bytes": 5872892,
+          "path": "data/assets/part-43d8e9ea-6f98-4d17-ae41-ac8912041b54_glb.glb",
+          "sha256": "0587a22520c80f80f4869855d3a62aa6f1081eb2912bfec01bc0969c3d3d8e34"
+        }
+      ],
+      "id": "43d8e9ea-6f98-4d17-ae41-ac8912041b54",
+      "reference": {
+        "approvedCardFingerprint": "3a7dbd63c5bb836acc8954ebc5ffa1ded3ecddb7ee00083b357094e325256270",
+        "path": "data/assets/input-33eb9fdcfd0158be315ce506e74e204341b50efcc2305223ec71d6ea018ececa.png",
+        "prompt": "Extract faithfully ONE park supply truck from the LOWER LEFT quadrant of this approved reference sheet, as a clean isolated 3D modeling input. Yellow rounded cab, blue open cargo bed, four chunky black wheels with golden hubs, little cream star on cab door, blue beacon; include the two cargo cases, striped cone and cream globe work lamps in the bed as attached details. Preserve the exact compact cartoon proportions and colors. Complete whole vehicle in 3/4 front side view, no other sheet objects, no labels, no environment or ground base. Center on solid pure white background with neutral diffuse lighting. Do not include the purple star parade truck from the lower right.",
+        "sha256": "33eb9fdcfd0158be315ce506e74e204341b50efcc2305223ec71d6ea018ececa",
+        "sourceReferenceId": "17acca35-908a-4582-b5a6-02314152ee62"
+      },
+      "taskId": "3812979"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7070057,
+          "path": "data/assets/part-07551f5a-9cdb-4ef0-8635-6a8fda9cae3c_zip.zip",
+          "sha256": "832b0c94a84dfdb43c14e483512b05d2aa336a27139a8287919a5f67062267e7"
+        },
+        {
+          "bytes": 5980668,
+          "path": "data/assets/part-07551f5a-9cdb-4ef0-8635-6a8fda9cae3c_glb.glb",
+          "sha256": "dd6f47e65df3db0c32bb77f68e10947786bab78ee81c26d06b57804181383a01"
+        }
+      ],
+      "id": "07551f5a-9cdb-4ef0-8635-6a8fda9cae3c",
+      "reference": {
+        "approvedCardFingerprint": "82c7f0b4ca4d7e1cb265c1eb7b0cffacc021ec9ea953805ec19479ce6f9cf75d",
+        "path": "data/assets/input-86c5e3236ff942d52a41431306f3fdb9b59a63d8c53b0c3a3092095ec41ede20.png",
+        "prompt": "Create ONE clean isolated 3D modeling reference of the amusement park sightseeing boat shown in the TOP LEFT of the supplied approved art sheet. Faithfully reproduce its cobalt blue rounded hull with raised cream scalloped garlands and golden circular medallions, cream gunwales, two coral bench seats, four slender cream canopy posts with blue bases, soft lilac curved scalloped canopy with narrow golden trim and blue corner balls. A tiny cream-and-gold bow lamp. Entire connected boat, refined rounded miniature painted toy materials, no people. Show a single three-quarter view, whole boat centered with ample margins, neutral diffuse light, on a SOLID PURE WHITE background. Exclude all bridges, buildings, trees, water, scenery, bases, labels, sheet frames and text. Preserve the approved colors and silhouette. No collage, no alternate views.",
+        "sha256": "86c5e3236ff942d52a41431306f3fdb9b59a63d8c53b0c3a3092095ec41ede20",
+        "sourceReferenceId": "ae2658d3-e4a5-48c8-85e6-a9408f99e590"
+      },
+      "taskId": "3813318"
+    }
+  ],
+  "themeId": "saffron",
+  "water": {
+    "deep_color": [
+      0.137254901960784,
+      0.407843137254902,
+      0.458823529411765
+    ],
+    "light_color": [
+      0.337254901960784,
+      0.631372549019608,
+      0.658823529411765
+    ]
+  },
+  "waterShader": "res://shaders/theme_surrounding.gdshader",
+  "zoneNames": [
+    "CARAVAN",
+    "SPICES",
+    "OASIS HALL",
+    "TRADING",
+    "RIVER DOCK",
+    "POTTERY"
+  ]
+}

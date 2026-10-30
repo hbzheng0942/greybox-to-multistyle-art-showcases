@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "assembly": {
+    "regions": {
+      "egg": {
+        "target_xyz": [
+          3.9,
+          3.136,
+          3.038
+        ],
+        "cluster_count": 6
+      },
+      "cake": {
+        "target_xyz": [
+          3.8,
+          3.136,
+          3.038
+        ],
+        "cluster_count": 6
+      },
+      "croissant": {
+        "cluster_count": 6
+      },
+      "pitcher": {
+        "cluster_count": 6
+      },
+      "jug": {
+        "cluster_count": 6
+      },
+      "kiosk": {
+        "cluster_count": 6
+      }
+    },
+    "paving_gap_multiplier": 0.5
+  },
+  "render": {
+    "ambient_energy": 0.4,
+    "sun_energy": 0.66,
+    "sun_angular_distance": 0,
+    "sun_color": "fff0d9",
+    "ambient_color": "e4dfd3",
+    "background_detail": 0.22,
+    "floor": {
+      "seam_strength": 0.38,
+      "grain_strength": 0.3,
+      "variation_strength": 0.55,
+      "lane_mark_strength": 0.18
+    },
+    "materials": {
+      "tower": {
+        "roughness_multiplier": 1.15
+      },
+      "egg": {
+        "roughness_multiplier": 1.12
+      }
+    },
+    "shadow_filter_quality": 4,
+    "shadow_blur": 4,
+    "shadow_opacity": 0.75
+  }
+}

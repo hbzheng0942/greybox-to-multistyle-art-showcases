@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "320c69e14dc851ff3c46e0103a5491f3f3b825a2e0c24e04a0ae61749c510e21",
+  "outputSha256": "099ccd44cdaf4242a4d77420ebf7a3b4989b9faff90570787fac7363db129912",
+  "labels": [
+    {
+      "labelId": "label-f3784d03ba2811809bee",
+      "instanceId": "instance-3d4b206b0fedbd5b5da4",
+      "text": "DONUTS",
+      "textSha256": "86ddc5783cca49fbaecaeba4c40aeef2dcb58e0618f27a5e860b28dd4d737dec",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "49bac6f14fa89257c3e465b69321a8bd7a2974dad78ceb2413bde0d31972addf",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "320c69e14dc851ff3c46e0103a5491f3f3b825a2e0c24e04a0ae61749c510e21",
+        "frameHash": "bfaac40ca7643cdff4f097bc12e3a4184aecb4b98af97df7a61c683feed6d6da",
+        "center": [
+          -5.10702591327572e-15,
+          -0.18476573219347367
+        ],
+        "size": [
+          1.2796873957036472,
+          0.1374479054644658
+        ],
+        "evidencePath": "evidence/human_control_20261013/sign-faces/pastry_shop-DONUTS.png",
+        "evidenceHash": "fb3e57afffe02f60e8b75fd6bf0e4cfbf0cec321c5699a71c8f1378e5ca1ac86",
+        "pixelBounds": [
+          185,
+          318,
+          455,
+          347
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 743,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "349fbef96edc8f83be340bf933516ce94fdef6301646a2f79bbefad67950ba3f",
+      "outputImageHash": "e6bfbcd2d3732f378d2ec0f89366a01bfb44a7bd412b9c55e976812e0d87a937",
+      "changedTexels": 743,
+      "maskTexels": 743,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "63fc7aa07896ff063b7fb3a64b641443eba89e3804639f15214e006b30b49ac2",
+  "preservedBinaryPrefixBytes": 6393908,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

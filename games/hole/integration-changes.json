@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "operations": [
+    {
+      "style": "amusement",
+      "path": "styles/amusement/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "amusement",
+      "path": "styles/amusement/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "snack",
+      "path": "styles/snack/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "snack",
+      "path": "styles/snack/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "mycelium",
+      "path": "styles/mycelium/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "mycelium",
+      "path": "styles/mycelium/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "lunar",
+      "path": "styles/lunar/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "lunar",
+      "path": "styles/lunar/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "coral",
+      "path": "styles/coral/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "coral",
+      "path": "styles/coral/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "saffron",
+      "path": "styles/saffron/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "saffron",
+      "path": "styles/saffron/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "papercraft",
+      "path": "styles/papercraft/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "papercraft",
+      "path": "styles/papercraft/project/data/scene_recipe.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "comic",
+      "path": "styles/comic/project/.workbench/appearance.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "comic",
+      "path": "styles/comic/project/.workbench/contract.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "comic",
+      "path": "styles/comic/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "enamel",
+      "path": "styles/enamel/project/.workbench/appearance.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "enamel",
+      "path": "styles/enamel/project/.workbench/contract.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "enamel",
+      "path": "styles/enamel/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/data/art_realization.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/data/coffee-texture.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/data/pilot_skin.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/scripts/look_controls.gd",
+      "kind": "bind final combined controls without environment setup"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/scripts/visual_factory.gd",
+      "kind": "freeze selected style as local default"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/data/art_realization.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/data/coffee-texture.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/data/graybox_config.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/data/pilot_skin.json",
+      "kind": "package-relative resources and public provenance"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/scripts/look_controls.gd",
+      "kind": "bind final combined controls without environment setup"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/scripts/visual_factory.gd",
+      "kind": "freeze selected style as local default"
+    },
+    {
+      "style": "coral",
+      "path": "styles/coral/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "mycelium",
+      "path": "styles/mycelium/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "snack",
+      "path": "styles/snack/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "ceramic",
+      "path": "styles/ceramic/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "comic",
+      "path": "styles/comic/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "lunar",
+      "path": "styles/lunar/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "saffron",
+      "path": "styles/saffron/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "orbital",
+      "path": "styles/orbital/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "papercraft",
+      "path": "styles/papercraft/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "amusement",
+      "path": "styles/amusement/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "enamel",
+      "path": "styles/enamel/project/project.godot",
+      "kind": "independent showcase user data namespace"
+    },
+    {
+      "style": "comic,enamel",
+      "path": "styles/<style>/project/runtime_bindings/hole_full_style_binding.gd",
+      "kind": "relocate required runtime hook; preserve exact script bytes and checksum; exclude upstream production evidence"
+    }
+  ]
+}

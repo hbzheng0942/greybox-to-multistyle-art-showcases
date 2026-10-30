@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "kind": "A01-native-kids-placement-check",
+  "source_files": [
+    {
+      "path": "res://art/museum-dog/styles/A01/design/native-facts.json",
+      "sha256": "dc51caa4876b8723a462a3dc5a8d37a2c45dc0f5a8b56d80d2cd69e7713a52c9"
+    },
+    {
+      "path": "res://art/museum-dog/styles/A01/concepts/inputs/vestibule.capture.json",
+      "sha256": "a1d872b3686738ee66dc979d9118505db8304f219dd0493a70e8ec65c10b85ba"
+    },
+    {
+      "path": "res://art/museum-dog/styles/A01/concepts/inputs/east-transition.capture.json",
+      "sha256": "5c83c19f6d12a062bf013ebadfe0be22258b80d1ab6f62f6914dfaafcf623227"
+    },
+    {
+      "path": "res://project.godot",
+      "sha256": "0565f11ce30f7e61da7a8b9ca920e7bd6f93a726ed2afd2f67e5f76efdb4b6cb"
+    },
+    {
+      "path": "res://game/dog_game.tscn",
+      "sha256": "6cad0fabae6a623aebd1778a544af32c0fe926dfd474673567d8ae1513ee4b68"
+    },
+    {
+      "path": "res://game/dog_game.gd",
+      "sha256": "d41449b588144c399b0a5bf34448a203374410934d492692793b6b74167c6c9d"
+    },
+    {
+      "path": "res://game/museum_builder.gd",
+      "sha256": "1eba69ee9ad4155f2c4c00b176a7af46875c3fcb8f8c20aa842f93844e368a0b"
+    },
+    {
+      "path": "res://game/prop_specs.gd",
+      "sha256": "a76bc2188f8146fd516b7d0c79f4d5fc25ea3ff56f0e10d7520d8004bad12b5f"
+    },
+    {
+      "path": "res://game/visual_catalog.gd",
+      "sha256": "438315fab1c1a86dd3db73a20aaff3bcc2c2087ebbff77fae1e6314d0d109739"
+    },
+    {
+      "path": "res://art/museum-dog/styles/A01/proxy/play.tscn",
+      "sha256": "30c8845f345c738f24424596f937e68f94d56c02adc1af3bd2f6c33cb756e81e"
+    },
+    {
+      "path": "res://art/museum-dog/styles/A01/proxy/probe.gd",
+      "sha256": "2ca2d4e8bbcf1a91791ce84082fab9217716d38e387f6c9a0626c445e89a3f3f"
+    },
+    {
+      "path": "res://art/museum-dog/styles/A01/proxy/canvas.gdshader",
+      "sha256": "7843154f80b55da0c110b9a05aea2244ea924be198890af867192d5da96ad5d3"
+    },
+    {
+      "path": "art/museum-dog/styles/A01/proxy/kids-route-check.gd",
+      "sha256": "421fcbc38b45b5ed5ae14a238a76d97883079b67b1649c5d2a3d9eca9d6a0a7f"
+    }
+  ],
+  "native_result": {
+    "actual_variant_route_matches": true,
+    "after_real_R": [
+      {
+        "index": 3,
+        "name": "小学生甲",
+        "root": "(0.4, 0.0, -9.8)",
+        "route_size": 4,
+        "spawn": "(0.4, 0.0, -9.8)"
+      },
+      {
+        "index": 0,
+        "name": "小学生乙",
+        "root": "(0.4, 0.0, -8.2)",
+        "route_size": 4,
+        "spawn": "(0.4, 0.0, -8.2)"
+      }
+    ],
+    "automatic_recovery": {
+      "down_after_7_seconds": false,
+      "immune_left": 1.01666666666667,
+      "root": "(0.4, 0.0, -9.8)",
+      "spawn": "(0.4, 0.0, -9.8)",
+      "was_down": true
+    },
+    "entry_scene": "res://art/museum-dog/styles/A01/proxy/play.tscn",
+    "native_patrol": {
+      "kids_count": 2,
+      "samples": 3600,
+      "seconds": 30,
+      "static_or_prop_overlap_samples": 0,
+      "visited_route_indices": {
+        "小学生乙": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "小学生甲": [
+          3,
+          0,
+          1,
+          2
+        ]
+      },
+      "visitor_count": 10
+    },
+    "new_spawns": [
+      {
+        "envelope_hits": [],
+        "index": 3,
+        "name": "小学生甲",
+        "native_recovery_clear": true,
+        "root": "(0.4, 0.0, -9.8)",
+        "spawn": "(0.4, 0.0, -9.8)"
+      },
+      {
+        "envelope_hits": [],
+        "index": 0,
+        "name": "小学生乙",
+        "native_recovery_clear": true,
+        "root": "(0.4, 0.0, -8.2)",
+        "spawn": "(0.4, 0.0, -8.2)"
+      }
+    ],
+    "route_envelope": {
+      "non_floor_static_or_prop_hits": [],
+      "samples": 164,
+      "size": "(0.7,1.9,0.7)"
+    }
+  },
+  "exit_code": 0,
+  "limitation": "6 ObjectDB instances leaked at immediate headless exit; lifecycle not qualified",
+  "log": {
+    "path": "art/museum-dog/styles/A01/proxy/kids-route-check.log",
+    "sha256": "5d5ceca1cdc069a1c79dc0304e68b9c85dae0d7fd2bcc9170572141452fcf8be"
+  }
+}

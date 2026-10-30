@@ -1,0 +1,5357 @@
+{
+  "approvalId": "b3d0f12c-2d36-483e-8182-06e4a4c86a5c",
+  "artContract": {
+    "authorization": {
+      "contractHash": "aa18edd9e4d23bdb2b1dbc8138ae74180c813004ba6c6cd7cdd829b9fe164c8d",
+      "plan": "docs/DEEP_ART_REVIEW_20260929.md",
+      "productionRecipeHash": "9f2819f917e324fc5c5a1e95fd96a030285d47b9e8bb11c7c459379231f263ed",
+      "scaleRevisionId": "b2-concept-scale-003",
+      "scope": "concept-matched family assembly scales, matching visual/capture envelopes, support-local anchors; row-local spacing and explicit prop clearance offsets; support roots/landmark centers and all IDs/rewards retained",
+      "source": "explicit_user_message",
+      "text": "同意，按计划推进，要极高还原度且高审美视觉的最终场景"
+    },
+    "envelopes": {
+      "P01": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "P02": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "P03": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "P04": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "P05": [
+        0.54,
+        3.04,
+        0.54
+      ],
+      "P06": [
+        0.54,
+        3.36,
+        0.54
+      ],
+      "P07": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "P08": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "P09": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "P10": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "P11": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "P12": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "P13": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "P14": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "P15": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "P16": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "P17": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "P18": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "P19": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "P20": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "P21": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "P22": [
+        2.478,
+        3.105,
+        1.3216
+      ],
+      "P23": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "P24": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "P25": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "P26": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "P27": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "P28": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "P29": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "P30": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "P31": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "P32": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "P33": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "P34": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "P35": [
+        6.272,
+        6.832,
+        5.152
+      ],
+      "P36": [
+        5.4,
+        4.16,
+        4.03
+      ],
+      "P37": [
+        4.72,
+        4.096,
+        3.658
+      ]
+    },
+    "fitProfiles": {
+      "by_slot": {
+        "P01": {
+          "diameter": 0.57,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P02": {
+          "diameter": 0.46,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P03": {
+          "diameter": 0.41,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P04": {
+          "diameter": 0.48,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P05": {
+          "diameter": 0.5,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P06": {
+          "diameter": 0.5,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P07": {
+          "diameter": 0.42,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P08": {
+          "diameter": 0.42,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P09": {
+          "diameter": 0.41,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P10": {
+          "diameter": 0.89,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P11": {
+          "diameter": 1.16,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P12": {
+          "diameter": 0.89,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P13": {
+          "diameter": 1.18,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P14": {
+          "diameter": 1.18,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P15": {
+          "diameter": 1.03,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P16": {
+          "diameter": 1.04,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P17": {
+          "diameter": 2.07,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P18": {
+          "diameter": 1.99,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P19": {
+          "diameter": 1.66,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P20": {
+          "diameter": 1.77,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P21": {
+          "diameter": 1.73,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P22": {
+          "diameter": 2.3,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P23": {
+          "diameter": 2.19,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P24": {
+          "diameter": 2.19,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P25": {
+          "diameter": 2.08,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P26": {
+          "diameter": 2.08,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P27": {
+          "diameter": 2.99,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P28": {
+          "diameter": 2.99,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P29": {
+          "diameter": 2.99,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P30": {
+          "diameter": 2.99,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P31": {
+          "diameter": 4.11,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P32": {
+          "diameter": 4.06,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P33": {
+          "diameter": 4.06,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P34": {
+          "diameter": 4.06,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P35": {
+          "diameter": 6.26,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P36": {
+          "diameter": 5.28,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        },
+        "P37": {
+          "diameter": 5.64,
+          "source": "authored_visual_contract_v3",
+          "strategy": "upright"
+        }
+      },
+      "source": "explicit shared prototype contract; no runtime mesh inference",
+      "version": "hole-slot-fit-v3"
+    },
+    "geometrySourceContractHash": "2d7f5d7e0922e97bf8296db1087969cea995e0ccd2a4b54c2ac07b6d5dbd3291",
+    "hash": "652b91e20e0ccbbd806f1cb477c8fba2e0d68f4df2fa47fcd7b09fb10dd12db9",
+    "packagePath": "data/prototype-revisions/652b91e20e0ccbbd806f1cb477c8fba2e0d68f4df2fa47fcd7b09fb10dd12db9.json",
+    "version": "hole-concept-scale-v3"
+  },
+  "assets": {
+    "E04_quay_0": {
+      "assetRevisionId": "09827b43-7ab9-465f-9996-54268874b971",
+      "bakedPath": "res://assets/baked/E04_quay_0.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/21f96afed5fff56a81f4d0604c1a2d7046848452876164c1fa6439f0bb182133.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_1": {
+      "assetRevisionId": "fb7e5b08-254d-4ab8-ad3d-d81c488b25f6",
+      "bakedPath": "res://assets/baked/E04_quay_1.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/62a44196718d0de6d75b0e4dc119689e1b44a87755e004a97495f5a2cc83a467.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_2": {
+      "assetRevisionId": "8aa3a4c7-70b5-4792-b9dc-34025dd7f4b2",
+      "bakedPath": "res://assets/baked/E04_quay_2.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/22bf2b00ff9f7a274596aba7c57e74bb93d06b43df110f33651f4e151032661f.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_3": {
+      "assetRevisionId": "ff21f456-977e-434f-af5e-b80598779ee2",
+      "bakedPath": "res://assets/baked/E04_quay_3.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/dd9efe56311b278d891af585e1a1b897a90ba31ba94a70f82385d4ddeb8be3a4.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_4": {
+      "assetRevisionId": "fdc2682d-64a4-4523-8911-139dd09d577d",
+      "bakedPath": "res://assets/baked/E04_quay_4.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/f13026975a1bd84898cf605a251c021abb3a0fa25ca0feb3b6656791eb96d58b.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E04_quay_5": {
+      "assetRevisionId": "86358a62-a06a-4323-a68e-ac64535e0d20",
+      "bakedPath": "res://assets/baked/E04_quay_5.scn",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/6551c2a3165db67f32152f71c8bade8c20d8d121907164a8e1f1943acd2faea7.glb"
+        }
+      ],
+      "slotId": "E04"
+    },
+    "E07": {
+      "bakedPath": "res://assets/baked/E07.scn",
+      "parts": [
+        {
+          "fitSize": [
+            3.25,
+            1.85,
+            1.7
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "SightseeingBoat",
+          "path": "res://assets/production/dd6f47e65df3db0c32bb77f68e10947786bab78ee81c26d06b57804181383a01.glb",
+          "position": [
+            0,
+            -0.42,
+            0
+          ],
+          "productionPartId": "07551f5a-9cdb-4ef0-8635-6a8fda9cae3c"
+        }
+      ]
+    },
+    "E08": {
+      "assetRevisionId": "6eea6c15-6ad6-477d-9e0b-66f519023b44",
+      "bakedPath": "res://assets/baked/E08.scn",
+      "cardId": "family-30",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/b0c6a4a1d9a84b290ecd22113c47b63899cfe5b99dd6587751b8ed6b42b061a9.glb"
+        }
+      ]
+    },
+    "E09": {
+      "assetRevisionId": "e5e7d848-85a3-4e48-b54e-2a0cb1a3bdae",
+      "bakedPath": "res://assets/baked/E09.scn",
+      "cardId": "family-31",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/f1ef4a21e1e71638f6113616b02ea413d316cbb18158b6f489f010b79eb21398.glb"
+        }
+      ]
+    },
+    "E10": {
+      "assetRevisionId": "24022905-788a-4549-be9b-227ff4c67ca4",
+      "bakedPath": "res://assets/baked/E10.scn",
+      "cardId": "family-31",
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/2da22200fb83871cffb88e668560a772d3043e6cebf88b177039e68fbf3d07ac.glb"
+        }
+      ]
+    },
+    "E11": {
+      "bakedPath": "res://assets/baked/E11.scn",
+      "envelope": [
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.5,
+            2.1,
+            1.5
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "enable_hole_clip": false,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-planter",
+          "path": "res://assets/production/7d7948b287313f3c72edb24c1a0ac42baaa20a64bc8bfa8665264182a09001dd.glb",
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "3545cfd32f00b6e91a9ad9d15fa6f12b4cb366cf7059ac06c8d98da79c5a476b",
+            "reused": false,
+            "taskId": "3852773",
+            "version": "G1-Turbo"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-planter"
+    },
+    "P01": {
+      "assemblyScale": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "assetRevisionId": "amusement-small-props-001-P01",
+      "authoredEnvelope": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "bakedPath": "res://assets/baked/P01.scn",
+      "cardId": "family-1",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/e5a00fff76abff6f3f851db8d87bbb60104370ce2f997cadf4d7eee5ad1f5915.glb"
+        }
+      ]
+    },
+    "P02": {
+      "bakedPath": "res://assets/baked/P02.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "metallic_multiplier": 0.08,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-prize",
+          "path": "res://assets/production/2bd8e0bca87e82ce106627b3f1e8e6ff89f3f63ed53d9f6d838e7121ac3f6e5a.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "9181ffd763fc7d62c030cb744961c8a675ec4db7ab0e826c909941f9258c4b36",
+            "reused": true,
+            "taskId": "3852764",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-prize",
+      "assetRevisionId": "amusement-small-props-001-P02"
+    },
+    "P03": {
+      "bakedPath": "res://assets/baked/P03.scn",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.4851,
+            0.4851,
+            0.4851
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-planter",
+          "path": "res://assets/production/7d7948b287313f3c72edb24c1a0ac42baaa20a64bc8bfa8665264182a09001dd.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "3545cfd32f00b6e91a9ad9d15fa6f12b4cb366cf7059ac06c8d98da79c5a476b",
+            "reused": false,
+            "taskId": "3852773",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-planter"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-planter",
+      "assetRevisionId": "amusement-small-props-001-P03"
+    },
+    "P04": {
+      "assemblyScale": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "assetRevisionId": "amusement-small-props-001-P04",
+      "authoredEnvelope": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "bakedPath": "res://assets/baked/P04.scn",
+      "cardId": "family-3",
+      "envelope": [
+        0.495,
+        0.495,
+        0.495
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/3bf9a1e9bbd484ad1ea08349c8dc49f4776e685aa418ab6f78ee6929bc42b8f5.glb"
+        }
+      ]
+    },
+    "P05": {
+      "assemblyScale": [
+        1.8,
+        1.9,
+        1.8
+      ],
+      "assetRevisionId": "amusement-small-props-001-P05",
+      "authoredEnvelope": [
+        0.3,
+        1.6,
+        0.3
+      ],
+      "bakedPath": "res://assets/baked/P05.scn",
+      "cardId": "family-4",
+      "envelope": [
+        0.54,
+        3.04,
+        0.54
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/cd2a301589aa118d0da9f5e463b19548fa075eb038d8954cce9d2e858b25cc15.glb"
+        }
+      ]
+    },
+    "P06": {
+      "assemblyScale": [
+        1.8,
+        2.1,
+        1.8
+      ],
+      "assetRevisionId": "amusement-small-props-001-P06",
+      "authoredEnvelope": [
+        0.3,
+        1.6,
+        0.3
+      ],
+      "bakedPath": "res://assets/baked/P06.scn",
+      "cardId": "family-4",
+      "envelope": [
+        0.54,
+        3.36,
+        0.54
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/121914a96ef057459d0ede94f1e59e1baef72a873e466bde805adb3357feaa46.glb"
+        }
+      ]
+    },
+    "P07": {
+      "bakedPath": "res://assets/baked/P07.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "metallic_multiplier": 0.08,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-prize",
+          "path": "res://assets/production/2bd8e0bca87e82ce106627b3f1e8e6ff89f3f63ed53d9f6d838e7121ac3f6e5a.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "9181ffd763fc7d62c030cb744961c8a675ec4db7ab0e826c909941f9258c4b36",
+            "reused": false,
+            "taskId": "3852764",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-prize",
+      "assetRevisionId": "amusement-small-props-001-P07"
+    },
+    "P08": {
+      "bakedPath": "res://assets/baked/P08.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "metallic_multiplier": 0.08,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-prize",
+          "path": "res://assets/production/2bd8e0bca87e82ce106627b3f1e8e6ff89f3f63ed53d9f6d838e7121ac3f6e5a.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "9181ffd763fc7d62c030cb744961c8a675ec4db7ab0e826c909941f9258c4b36",
+            "reused": false,
+            "taskId": "3852764",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-prize",
+      "assetRevisionId": "amusement-small-props-001-P08"
+    },
+    "P09": {
+      "bakedPath": "res://assets/baked/P09.scn",
+      "envelope": [
+        0.416,
+        0.416,
+        0.416
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.40768,
+            0.40768,
+            0.40768
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "metallic_multiplier": 0.08,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-prize",
+          "path": "res://assets/production/2bd8e0bca87e82ce106627b3f1e8e6ff89f3f63ed53d9f6d838e7121ac3f6e5a.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "9181ffd763fc7d62c030cb744961c8a675ec4db7ab0e826c909941f9258c4b36",
+            "reused": false,
+            "taskId": "3852764",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-prize"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-prize",
+      "assetRevisionId": "amusement-small-props-001-P09"
+    },
+    "P10": {
+      "assemblyScale": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "assetRevisionId": "amusement-small-props-001-P10",
+      "authoredEnvelope": [
+        0.75,
+        0.9,
+        0.65
+      ],
+      "bakedPath": "res://assets/baked/P10.scn",
+      "cardId": "family-6",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/8498c1ec8b7131f7545e5c4b492979b5839e8a1396488b0d65c383582d94ffbb.glb"
+        }
+      ]
+    },
+    "P11": {
+      "assemblyScale": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "assetRevisionId": "amusement-small-props-001-P11",
+      "authoredEnvelope": [
+        0.75,
+        0.9,
+        0.65
+      ],
+      "bakedPath": "res://assets/baked/P11.scn",
+      "cardId": "family-6",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/726d96edafe1d67ab322428ec598f15d7e9f3f8eae2a2625229fa9f68e1b31dc.glb"
+        }
+      ]
+    },
+    "P12": {
+      "bakedPath": "res://assets/baked/P12.scn",
+      "envelope": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.91875,
+            1.1907,
+            0.79625
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-sign",
+          "path": "res://assets/production/c3afe7af9d8bb7951d08792aa7adf7141f833f404d83a9e39330e2e9bac28e83.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "ac97550e1414163609dd86a92e6090ac70273835a254e4dce67873232846bf80",
+            "reused": false,
+            "taskId": "3852776",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-sign"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-sign",
+      "assetRevisionId": "amusement-small-props-001-P12"
+    },
+    "P13": {
+      "bakedPath": "res://assets/baked/P13.scn",
+      "envelope": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.16424,
+            1.0976,
+            0.2744
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-barrier",
+          "path": "res://assets/production/52b3a31855f9117c3a7c0daa98314fb8a88d20ddc449742fa73d53ec2af2500d.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "5fce0f78f33f03519c4cd5fc71d673fc1275c9d57117297cfd42ad50332e3d62",
+            "reused": false,
+            "taskId": "3852779",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-barrier"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-barrier",
+      "assetRevisionId": "amusement-small-props-001-P13"
+    },
+    "P14": {
+      "bakedPath": "res://assets/baked/P14.scn",
+      "envelope": [
+        1.188,
+        1.12,
+        0.28
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.16424,
+            1.0976,
+            0.2744
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-barrier",
+          "path": "res://assets/production/52b3a31855f9117c3a7c0daa98314fb8a88d20ddc449742fa73d53ec2af2500d.glb",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "5fce0f78f33f03519c4cd5fc71d673fc1275c9d57117297cfd42ad50332e3d62",
+            "reused": false,
+            "taskId": "3852779",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-barrier"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-barrier",
+      "assetRevisionId": "amusement-small-props-001-P14"
+    },
+    "P15": {
+      "bakedPath": "res://assets/baked/P15.scn",
+      "envelope": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.7938,
+            0.7938,
+            0.7938
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-crate",
+          "path": "res://assets/production/9bde2ef42edba3265902261ad5eaee96b6c87d0ea126fd12adc45e2fa30a1578.glb",
+          "scale": [
+            1.01020408624457,
+            1.27013580440188,
+            1.01020401039064
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "9c1c30d254262e64cf4965d0746cab5d0ee185347a54c0859103ad0f03b738c1",
+            "reused": false,
+            "taskId": "3852767",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-crate"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-crate",
+      "assetRevisionId": "amusement-small-props-001-P15"
+    },
+    "P16": {
+      "bakedPath": "res://assets/baked/P16.scn",
+      "envelope": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            0.7938,
+            0.7938,
+            0.7938
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-crate",
+          "path": "res://assets/production/9bde2ef42edba3265902261ad5eaee96b6c87d0ea126fd12adc45e2fa30a1578.glb",
+          "scale": [
+            1.01020408624457,
+            1.27013580440188,
+            1.01020401039064
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "9c1c30d254262e64cf4965d0746cab5d0ee185347a54c0859103ad0f03b738c1",
+            "reused": false,
+            "taskId": "3852767",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-crate"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-crate",
+      "assetRevisionId": "amusement-small-props-001-P16"
+    },
+    "P17": {
+      "assemblyScale": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "assetRevisionId": "amusement-small-props-001-P17",
+      "authoredEnvelope": [
+        1.6,
+        0.7,
+        0.4
+      ],
+      "bakedPath": "res://assets/baked/P17.scn",
+      "cardId": "family-10",
+      "envelope": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/65676861fe7e8f59c22d48f86eff6b4617b358e4a4b981a37ec82119011bb8a5.glb"
+        }
+      ]
+    },
+    "P18": {
+      "assemblyScale": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "assetRevisionId": "amusement-small-props-001-P18",
+      "authoredEnvelope": [
+        1.6,
+        0.7,
+        0.4
+      ],
+      "bakedPath": "res://assets/baked/P18.scn",
+      "cardId": "family-10",
+      "envelope": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/7cc78ea3b69c103014bc79a572931a918a3ca4ea8f8698b5a08c092f7732c83c.glb"
+        }
+      ]
+    },
+    "P19": {
+      "assemblyScale": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "authoredEnvelope": [
+        1.5,
+        0.8,
+        0.8
+      ],
+      "bakedPath": "res://assets/baked/P19.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.44,
+            0.76,
+            0.76
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.1,
+          "name": "supply-truck",
+          "path": "res://assets/production/0587a22520c80f80f4869855d3a62aa6f1081eb2912bfec01bc0969c3d3d8e34.glb",
+          "productionPartId": "43d8e9ea-6f98-4d17-ae41-ac8912041b54"
+        }
+      ],
+      "assetRevisionId": "amusement-small-props-001-P19"
+    },
+    "P20": {
+      "assemblyScale": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "authoredEnvelope": [
+        1.5,
+        0.8,
+        0.8
+      ],
+      "bakedPath": "res://assets/baked/P20.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.44,
+            0.76,
+            0.76
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.1,
+          "name": "parade-truck",
+          "path": "res://assets/production/1ea4ae4b1a153fad23c8c92fc10ff62274d3b7ef66f8a6b5037f8ae94b079198.glb",
+          "productionPartId": "c83fc2e1-0673-4441-b18b-a98c031788c2"
+        }
+      ],
+      "assetRevisionId": "amusement-small-props-001-P20"
+    },
+    "P21": {
+      "assemblyScale": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "authoredEnvelope": [
+        1.5,
+        0.8,
+        0.8
+      ],
+      "bakedPath": "res://assets/baked/P21.scn",
+      "envelope": [
+        1.8,
+        1.12,
+        0.92
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.44,
+            0.76,
+            0.76
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.1,
+          "name": "rainbow-float",
+          "path": "res://assets/production/f3f18d1b881a676fe119cd0d34b94d44e7ecca2ded3b564574b88e3ef3a6ebcb.glb",
+          "productionPartId": "e98e0de8-63a9-470c-9fcd-6630c7c0de46"
+        }
+      ],
+      "assetRevisionId": "amusement-small-props-001-P21"
+    },
+    "P22": {
+      "assemblyScale": [
+        1.18,
+        1.35,
+        1.12
+      ],
+      "assetRevisionId": "amusement-small-props-001-P22",
+      "authoredEnvelope": [
+        2.1,
+        2.3,
+        1.18
+      ],
+      "bakedPath": "res://assets/baked/P22.scn",
+      "envelope": [
+        2.478,
+        3.105,
+        1.3216
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.04,
+            1.54,
+            1.12
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "icecream-truck",
+          "path": "res://assets/production/c626bddf0168f877f3cc7c8036102877d54197d0db5b1a2fe72bde80dda9564d.glb",
+          "productionPartId": "124b2b2d-6c98-412a-857b-732ec7abad5a"
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/e13ee0d17077dac1ddeab851d772f8d02816aff99562835ad9339e2bec2482b0.glb"
+        }
+      ]
+    },
+    "P23": {
+      "assemblyScale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "assetRevisionId": "amusement-small-props-001-P23",
+      "authoredEnvelope": [
+        1.5,
+        1.8,
+        0.85
+      ],
+      "bakedPath": "res://assets/baked/P23.scn",
+      "cardId": "family-15",
+      "componentRevisionIds": [
+        "d0854311-6bee-4009-ab3a-6dbfb0b9b2b6"
+      ],
+      "envelope": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "parts": [
+        {
+          "assetRevisionId": "d0854311-6bee-4009-ab3a-6dbfb0b9b2b6",
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "specular": 0.35
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/8d459453430991934c27f3e3a7aa8fc743f4147abbc5fff374fe14e995dcf4a0.glb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "replacedProductionPartId": null
+        },
+        {
+          "fitSize": [
+            1.35,
+            0.45,
+            0.16
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "DecorativeFascia",
+          "path": "res://assets/production/4dd50b8169a8ca661fb665e2a66c15a0bb80bc76d2f36e4726b62edd1990735a.glb",
+          "position": [
+            0,
+            1.28,
+            -0.3
+          ],
+          "productionPartId": "a65f967f-7c74-468d-9640-85d818550ab9"
+        }
+      ]
+    },
+    "P24": {
+      "assemblyScale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "assetRevisionId": "amusement-small-props-001-P24",
+      "authoredEnvelope": [
+        1.5,
+        1.8,
+        0.85
+      ],
+      "bakedPath": "res://assets/baked/P24.scn",
+      "cardId": "family-15",
+      "envelope": [
+        1.95,
+        2.34,
+        1.105
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/9e22ba3e21a92cf36adb14b2d38449b0df7cc1490ac1f3264f7483e1c0261bee.glb"
+        }
+      ]
+    },
+    "P25": {
+      "bakedPath": "res://assets/baked/P25.scn",
+      "envelope": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.8522,
+            0.33075,
+            1.0584
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-platform",
+          "path": "res://assets/production/06b5043c13f6502007d3adf38e0c342a645896cb6fcf55472b805d1189134cc5.glb",
+          "scale": [
+            1.02383963817897,
+            1.02040819857187,
+            1.01020404831761
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "7854f17809f87405fedd066023c3d6b49a6556c4e037e7035d190b23c3e77824",
+            "reused": false,
+            "taskId": "3852770",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-platform"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-platform",
+      "assetRevisionId": "amusement-small-props-001-P25"
+    },
+    "P26": {
+      "bakedPath": "res://assets/baked/P26.scn",
+      "envelope": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            1.8522,
+            0.33075,
+            1.0584
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0.68,
+            "specular": 0.18,
+            "texture_max_size": 512
+          },
+          "maxFootprintCorrection": 1.2,
+          "name": "amusement-platform",
+          "path": "res://assets/production/06b5043c13f6502007d3adf38e0c342a645896cb6fcf55472b805d1189134cc5.glb",
+          "scale": [
+            1.02383963817897,
+            1.02040819857187,
+            1.01020404831761
+          ],
+          "source": {
+            "generationBatchId": "theme-small-props-001-amusement-assets",
+            "referenceSha256": "7854f17809f87405fedd066023c3d6b49a6556c4e037e7035d190b23c3e77824",
+            "reused": false,
+            "taskId": "3852770",
+            "version": "G1-Turbo",
+            "assetId": "theme-small-props-001-amusement-assets-amusement-platform"
+          }
+        }
+      ],
+      "route": "lux3d",
+      "sourceKey": "amusement-platform",
+      "assetRevisionId": "amusement-small-props-001-P26"
+    },
+    "P27": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "amusement-small-props-001-P27",
+      "authoredEnvelope": [
+        2.304,
+        4.16,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P27.scn",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/afc146cc2d51a0af478477d925a2411adebad64e81504e29d446e01b5985a241.glb"
+        }
+      ]
+    },
+    "P27_low": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "a0ed62bd-0e21-40c9-96b7-e5682f61288f",
+      "authoredEnvelope": [
+        2.304,
+        4.16,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P27_low.scn",
+      "baseSlot": "P27",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/5c1c06d7cf1f286dcd6e71af021f50bf0888ddc1343bf5089dc4e47f8058a273.glb"
+        }
+      ],
+      "variantLabel": "矮层店面 · 完整陈列与绿植"
+    },
+    "P28": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "amusement-small-props-001-P28",
+      "authoredEnvelope": [
+        2.304,
+        4.1,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P28.scn",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/a3071da5b13eba9d8341a12619086ec215ce7bce7b223a99b281ef4d089ec54b.glb"
+        }
+      ]
+    },
+    "P28_low": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "8a391613-a0b1-473c-89ce-36fb2a08fa39",
+      "authoredEnvelope": [
+        2.304,
+        4.1,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P28_low.scn",
+      "baseSlot": "P28",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/ff3628e5264e9874b0b32c892f74348d79ab9f752860231b41fe79080aa3815c.glb"
+        }
+      ],
+      "variantLabel": "矮层店面 · 完整陈列与绿植"
+    },
+    "P29": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "amusement-small-props-001-P29",
+      "authoredEnvelope": [
+        2.304,
+        4.3,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P29.scn",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/45c3545eba778aff800531b47e798686a2723ace140161242349de190dcf1573.glb"
+        }
+      ]
+    },
+    "P29_low": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "16d1d000-b879-4935-851d-666c7ce7df39",
+      "authoredEnvelope": [
+        2.304,
+        4.3,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P29_low.scn",
+      "baseSlot": "P29",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/fd06a6262208c9e426f5e1e706399d1fffff314d94b6c4a6fa1a31914a5591f6.glb"
+        }
+      ],
+      "variantLabel": "矮层店面 · 完整陈列与绿植"
+    },
+    "P30": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "amusement-small-props-001-P30",
+      "authoredEnvelope": [
+        2.304,
+        4.02,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P30.scn",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/a62c7449a99ba311b48f1416594709477888b0f432af49aaf18afcbddca47308.glb"
+        }
+      ]
+    },
+    "P30_low": {
+      "assemblyScale": [
+        1,
+        1,
+        1.08
+      ],
+      "assetRevisionId": "d1382195-9401-49a6-af2b-fcab9aa14066",
+      "authoredEnvelope": [
+        2.304,
+        4.02,
+        1.92
+      ],
+      "bakedPath": "res://assets/baked/P30_low.scn",
+      "baseSlot": "P30",
+      "cardId": "family-17",
+      "envelope": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/686fe2e005e347ca38d449419b75778929eaa7ad40f36cde15d767f8a89166fc.glb"
+        }
+      ],
+      "variantLabel": "矮层店面 · 完整陈列与绿植"
+    },
+    "P31": {
+      "assemblyScale": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "assetRevisionId": "amusement-small-props-001-P31",
+      "authoredEnvelope": [
+        2.6,
+        1.6,
+        2.4
+      ],
+      "bakedPath": "res://assets/baked/P31.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.48,
+            1.53,
+            2.28
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "satin-painted-arcade-blue",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.39,
+                  0.588,
+                  0.902
+                ],
+                "detail_contrast": 0.015,
+                "local_bounds": [
+                  -0.126,
+                  0.014,
+                  -0.152,
+                  0.126,
+                  0.114,
+                  0.095
+                ],
+                "name": "blue_roof_shell",
+                "protect_warm_trim": true,
+                "roughness_range": [
+                  0.56,
+                  0.84
+                ],
+                "strength": 1
+              }
+            ],
+            "material_revision": "b2-closure-027-p31",
+            "normal_revision": {
+              "crease_degrees": 35,
+              "id": "p31-blue-roof-barrel-normal-002",
+              "local_bounds": [
+                -0.126,
+                0.014,
+                -0.152,
+                0.126,
+                0.114,
+                0.095
+              ],
+              "method": "Fitted shallow barrel field in source blue roof region only; reject normal directions above 48 degree deviation to preserve end caps and ridges; no position or topology change.",
+              "normal_field": {
+                "alignment_full_degrees": 28,
+                "alignment_limit_degrees": 48,
+                "center_x": 0.00028,
+                "curvature": 5.7452,
+                "shape": "parabolic_barrel"
+              },
+              "protect_warm_material_edges": true,
+              "source_sha256": "74b86da61842912bc50457b83c212dc8f46789ec863542bf8d85b74e2dd4c9c2",
+              "strength": 0.94,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0.56,
+            "roughness_range": [
+              0.56,
+              0.86
+            ],
+            "specular": 0.25,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.25,
+          "name": "arcade-pavilion",
+          "path": "res://assets/production/74b86da61842912bc50457b83c212dc8f46789ec863542bf8d85b74e2dd4c9c2.glb",
+          "productionPartId": "812fcc8b-82d2-4a96-9c19-2d3e69e63e39"
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/337b8099b65f76550cc6b4ffbd7bd25cd63345e755247d3b269ceee970d52e06.glb"
+        }
+      ]
+    },
+    "P32": {
+      "assemblyScale": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "assetRevisionId": "amusement-small-props-001-P32",
+      "authoredEnvelope": [
+        2.6,
+        1.6,
+        2.4
+      ],
+      "bakedPath": "res://assets/baked/P32.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.48,
+            1.38,
+            2.28
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "satin-painted-lilac",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.635,
+                  0.49,
+                  0.84
+                ],
+                "detail_contrast": 0.03,
+                "exclude_uv_rect": [
+                  0.36,
+                  0.343,
+                  0.53,
+                  0.415
+                ],
+                "local_bounds": [
+                  -0.176,
+                  0.033,
+                  -0.139,
+                  0.176,
+                  0.127,
+                  0.052
+                ],
+                "name": "lilac_roof_shell",
+                "protect_warm_trim": true,
+                "roughness_range": [
+                  0.55,
+                  0.85
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.9,
+                  0.73
+                ],
+                "color_family": 1,
+                "detail_contrast": 0.02,
+                "local_bounds": [
+                  -0.176,
+                  0.025,
+                  0.038,
+                  0.176,
+                  0.128,
+                  0.138
+                ],
+                "name": "front_cornice_warm_cream",
+                "protect_warm_trim": true,
+                "roughness_range": [
+                  0.57,
+                  0.85
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-closure-027-p32",
+            "roughness_floor": 0.56,
+            "roughness_range": [
+              0.56,
+              0.86
+            ],
+            "specular": 0.25,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.25,
+          "name": "magic-pavilion",
+          "path": "res://assets/production/1bed06ff1e048652ea7c7e34af70f020dd4d054137a6b08ab0d3e90e4beee819.glb",
+          "productionPartId": "4726f695-a12b-494b-b6bb-210d32ad7e60"
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/2128699c9d34a20b84519324703653b56d45f2dec5244af1736f5817b1bc4c97.glb"
+        }
+      ]
+    },
+    "P33": {
+      "assemblyScale": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "assetRevisionId": "amusement-small-props-001-P33",
+      "authoredEnvelope": [
+        2.6,
+        1.6,
+        2.4
+      ],
+      "bakedPath": "res://assets/baked/P33.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.48,
+            1.5,
+            2.28
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "satin-ivory-folded-roof",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.93,
+                  0.9,
+                  0.8
+                ],
+                "color_family": 1,
+                "detail_contrast": 0.03,
+                "exclude_local_bounds": [
+                  -0.055,
+                  -0.122,
+                  0,
+                  0.055,
+                  0.025,
+                  0.137
+                ],
+                "local_bounds": [
+                  -0.226,
+                  -0.122,
+                  -0.137,
+                  0.226,
+                  0.122,
+                  0.137
+                ],
+                "name": "silver_facets_to_ivory",
+                "protect_warm_trim": true,
+                "roughness_range": [
+                  0.57,
+                  0.85
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.35,
+                  0.51,
+                  0.9
+                ],
+                "color_family": 4,
+                "detail_contrast": 0.025,
+                "exclude_local_bounds": [
+                  -0.055,
+                  -0.122,
+                  0,
+                  0.055,
+                  0.025,
+                  0.137
+                ],
+                "local_bounds": [
+                  -0.226,
+                  -0.1,
+                  -0.137,
+                  0.226,
+                  0.122,
+                  0.137
+                ],
+                "name": "painted_blue_folded_panels",
+                "protect_warm_trim": true,
+                "roughness_range": [
+                  0.54,
+                  0.84
+                ],
+                "strength": 0.96
+              }
+            ],
+            "material_revision": "b2-closure-027-p33",
+            "roughness_floor": 0.56,
+            "roughness_range": [
+              0.56,
+              0.86
+            ],
+            "specular": 0.25,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.25,
+          "name": "mirror-pavilion",
+          "path": "res://assets/production/ecee47050d86d662e6b5dd551f68b4858d4778295390988533c68048615121e3.glb",
+          "productionPartId": "6c915058-0cbe-440d-9535-ca101c5ca80e"
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/e89383066241a04e4d7c0d7d979d18852bb6c84c8384b2666a7b549126f2f21b.glb"
+        }
+      ]
+    },
+    "P34": {
+      "assemblyScale": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "assetRevisionId": "amusement-small-props-001-P34",
+      "authoredEnvelope": [
+        2.6,
+        1.6,
+        2.4
+      ],
+      "bakedPath": "res://assets/baked/P34.scn",
+      "envelope": [
+        3.328,
+        2.4,
+        3.072
+      ],
+      "parts": [
+        {
+          "fitSize": [
+            2.48,
+            1.32,
+            2.28
+          ],
+          "fitYawDegrees": 0,
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "satin-coral-roof",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.96,
+                  0.57,
+                  0.49
+                ],
+                "color_family": 2,
+                "detail_contrast": 0.03,
+                "exclude_uv_rect": [
+                  0.818,
+                  0.325,
+                  0.865,
+                  0.371
+                ],
+                "local_bounds": [
+                  -0.141,
+                  0.022,
+                  -0.113,
+                  0.141,
+                  0.087,
+                  0.113
+                ],
+                "name": "coral_roof_shell",
+                "protect_warm_trim": true,
+                "roughness_range": [
+                  0.42,
+                  0.78
+                ],
+                "strength": 1
+              }
+            ],
+            "material_revision": "b2-closure-027-p34",
+            "roughness_floor": 0.56,
+            "roughness_range": [
+              0.56,
+              0.86
+            ],
+            "specular": 0.25,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.25,
+          "name": "souvenir-pavilion",
+          "path": "res://assets/production/cc811e9159793f5ac934780d6f9308bb66d79e3386810400c59896c03a404e43.glb",
+          "productionPartId": "46b657e5-06da-4a69-a5cc-e1aa419da7fa"
+        },
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/e89383066241a04e4d7c0d7d979d18852bb6c84c8384b2666a7b549126f2f21b.glb"
+        }
+      ]
+    },
+    "P35": {
+      "assemblyScale": [
+        1.12,
+        1.12,
+        1.12
+      ],
+      "assetRevisionId": "amusement-small-props-001-P35",
+      "authoredEnvelope": [
+        5.6,
+        6.1,
+        4.6
+      ],
+      "bakedPath": "res://assets/baked/P35.scn",
+      "cardId": "family-22",
+      "componentRevisionIds": [
+        "fe90ad71-e47d-41c2-bb98-60beb5ee3d72"
+      ],
+      "envelope": [
+        6.272,
+        6.832,
+        5.152
+      ],
+      "parts": [
+        {
+          "assetRevisionId": "fe90ad71-e47d-41c2-bb98-60beb5ee3d72",
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "specular": 0.35
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/b960645b8f8aef0a1356bf8a14a57621632e3edd463b87b7680fb3291cf65426.glb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "replacedProductionPartId": null
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024
+          },
+          "name": "Cabin0",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            0,
+            4.65242015443322,
+            -0.636094897748986
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024,
+            "yellow_recolor": [
+              0.71,
+              0.52,
+              0.91
+            ]
+          },
+          "name": "Cabin1",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            1.49906637611548,
+            4.06187718525109,
+            -0.444215855589847
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024,
+            "yellow_recolor": [
+              0.37,
+              0.65,
+              0.93
+            ]
+          },
+          "name": "Cabin2",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            2.12,
+            2.6361803398875,
+            0.0190211303259032
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024
+          },
+          "name": "Cabin3",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            1.49906637611548,
+            1.21048349452391,
+            0.482258116241653
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024,
+            "yellow_recolor": [
+              0.71,
+              0.52,
+              0.91
+            ]
+          },
+          "name": "Cabin4",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            2.5e-16,
+            0.619940525341773,
+            0.674137158400792
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024,
+            "yellow_recolor": [
+              0.37,
+              0.65,
+              0.93
+            ]
+          },
+          "name": "Cabin5",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            -1.49906637611548,
+            1.21048349452391,
+            0.482258116241653
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024
+          },
+          "name": "Cabin6",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            -2.12,
+            2.6361803398875,
+            0.0190211303259032
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.1,
+            1.12,
+            0.96
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "material_class": "painted-cabin-with-warm-cream-frames",
+            "material_regions": [
+              {
+                "albedo_color": [
+                  0.95,
+                  0.73,
+                  0.26
+                ],
+                "detail_contrast": 0.015,
+                "exclude_local_bounds": [
+                  -0.042,
+                  -0.038,
+                  -0.028,
+                  0.042,
+                  0.027,
+                  0.05
+                ],
+                "exclude_sphere": [
+                  0,
+                  0.036,
+                  0.039,
+                  0.0125
+                ],
+                "exclusion_feather": 0.003,
+                "local_bounds": [
+                  -0.061,
+                  -0.064,
+                  -0.048,
+                  0.061,
+                  0.064,
+                  0.048
+                ],
+                "name": "continuous_cabin_shell",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.52,
+                  0.84
+                ],
+                "strength": 0.96
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.925,
+                  0.815
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.035,
+                "local_bounds": [
+                  -0.049,
+                  -0.043,
+                  -0.03,
+                  0.049,
+                  0.03,
+                  0.05
+                ],
+                "name": "warm_cream_window_frame",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 1
+              },
+              {
+                "albedo_color": [
+                  0.97,
+                  0.92,
+                  0.8
+                ],
+                "color_family": 3,
+                "detail_contrast": 0.06,
+                "local_bounds": [
+                  -0.014,
+                  0.024,
+                  0.026,
+                  0.014,
+                  0.05,
+                  0.051
+                ],
+                "name": "warm_cream_badge",
+                "protect_warm_trim": false,
+                "roughness_range": [
+                  0.58,
+                  0.86
+                ],
+                "strength": 0.92
+              }
+            ],
+            "material_revision": "b2-paint-003-p35",
+            "normal_revision": {
+              "crease_degrees": 32,
+              "exclude_local_bounds": [
+                -0.046,
+                -0.045,
+                -0.032,
+                0.046,
+                0.031,
+                0.05
+              ],
+              "exclude_sphere": [
+                0,
+                0.036,
+                0.039,
+                0.014
+              ],
+              "id": "p35-cabin-shell-area-normal-001",
+              "local_bounds": [
+                -0.061,
+                -0.064,
+                -0.048,
+                0.061,
+                0.064,
+                0.048
+              ],
+              "method": "Area weighted normals on continuous cabin shell only; excluded window, seat, frame and badge remain exact; preserve source edges above 32 degrees.",
+              "protect_warm_material_edges": false,
+              "source_sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143",
+              "strength": 0.85,
+              "weld_precision": 1e-06
+            },
+            "roughness_floor": 0,
+            "roughness_range": [
+              0.3,
+              0.76
+            ],
+            "texture_max_size": 1024,
+            "yellow_recolor": [
+              0.71,
+              0.52,
+              0.91
+            ]
+          },
+          "name": "Cabin7",
+          "path": "res://assets/production/27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143.glb",
+          "position": [
+            -1.49906637611548,
+            4.06187718525109,
+            -0.444215855589847
+          ],
+          "productionPartId": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14"
+        },
+        {
+          "fitSize": [
+            1.45,
+            1.45,
+            0.52
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "CenterStar",
+          "path": "res://assets/production/02538d00c9f4578a464d3162ad7149bea558962f9f9885ab74f7494916de74e2.glb",
+          "position": [
+            0,
+            2.76988609169223,
+            0.899287447491396
+          ],
+          "productionPartId": "329988b5-15a5-4574-a48c-96306f4a5870",
+          "rotationDegrees": [
+            -18,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "P36": {
+      "assemblyScale": [
+        1.35,
+        1.3,
+        1.3
+      ],
+      "assetRevisionId": "amusement-small-props-001-P36",
+      "authoredEnvelope": [
+        4,
+        3.2,
+        3.1
+      ],
+      "bakedPath": "res://assets/baked/P36.scn",
+      "cardId": "family-23",
+      "componentRevisionIds": [
+        "bdfc9af9-a92b-4302-8120-b76e705bc26d"
+      ],
+      "envelope": [
+        5.4,
+        4.16,
+        4.03
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/c00374a61c894a94f1f7f2343c793c642bc30cca62c223c891d069ecc84b3ac1.glb"
+        },
+        {
+          "fitSize": [
+            0.88,
+            0.76,
+            0.43
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "CarouselHorse0",
+          "path": "res://assets/production/26bf9141d98d00910c0823fae2ee861ce371d7acab6d61863e58c4695998fa33.glb",
+          "position": [
+            0.828411334164463,
+            0.7,
+            0.400168291382332
+          ],
+          "productionPartId": "f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd",
+          "rotationDegrees": [
+            0,
+            64.2168992191129,
+            0
+          ]
+        },
+        {
+          "fitSize": [
+            0.88,
+            0.76,
+            0.43
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "CarouselHorse1",
+          "path": "res://assets/production/26bf9141d98d00910c0823fae2ee861ce371d7acab6d61863e58c4695998fa33.glb",
+          "position": [
+            -0.400168291382332,
+            0.7,
+            0.828411334164463
+          ],
+          "productionPartId": "f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd",
+          "rotationDegrees": [
+            0,
+            -25.7831007808871,
+            0
+          ]
+        },
+        {
+          "fitSize": [
+            0.88,
+            0.76,
+            0.43
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "CarouselHorse2",
+          "path": "res://assets/production/26bf9141d98d00910c0823fae2ee861ce371d7acab6d61863e58c4695998fa33.glb",
+          "position": [
+            -0.828411334164463,
+            0.7,
+            -0.400168291382332
+          ],
+          "productionPartId": "f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd",
+          "rotationDegrees": [
+            0,
+            -115.783100780887,
+            0
+          ]
+        },
+        {
+          "fitSize": [
+            0.88,
+            0.76,
+            0.43
+          ],
+          "fitYawDegrees": 90,
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "name": "CarouselHorse3",
+          "path": "res://assets/production/26bf9141d98d00910c0823fae2ee861ce371d7acab6d61863e58c4695998fa33.glb",
+          "position": [
+            0.400168291382332,
+            0.7,
+            -0.828411334164463
+          ],
+          "productionPartId": "f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd",
+          "rotationDegrees": [
+            0,
+            -205.783100780887,
+            0
+          ]
+        },
+        {
+          "assetRevisionId": "bdfc9af9-a92b-4302-8120-b76e705bc26d",
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "specular": 0.35
+          },
+          "name": "StripedCanopy",
+          "path": "res://assets/production/6b1a677227af9b713ae3596d8bac50f779a8fc59aa7b92d72c7c62e5ffd6332a.glb",
+          "position": [
+            0,
+            1.82,
+            0
+          ],
+          "replacedProductionPartId": "f2960e43-202f-463a-98af-fcdb129ddb8b"
+        }
+      ]
+    },
+    "P37": {
+      "assemblyScale": [
+        1.18,
+        1.28,
+        1.18
+      ],
+      "assetRevisionId": "amusement-small-props-001-P37",
+      "authoredEnvelope": [
+        4,
+        3.2,
+        3.1
+      ],
+      "bakedPath": "res://assets/baked/P37.scn",
+      "cardId": "family-24",
+      "envelope": [
+        4.72,
+        4.096,
+        3.658
+      ],
+      "parts": [
+        {
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0
+          },
+          "name": "ProceduralStructure",
+          "path": "res://assets/production/16b206121638613d31c9b4b0c04f12f4f7c3bbd19960d6bf94b5aaff2dac754f.glb"
+        },
+        {
+          "fitSize": [
+            2.28,
+            1.18,
+            0.38
+          ],
+          "material": {
+            "albedo_gain": 1,
+            "roughness_floor": 0,
+            "texture_max_size": 1024
+          },
+          "maxFootprintCorrection": 1.1,
+          "name": "RainbowCloudArch",
+          "path": "res://assets/production/abde05172cc2fe4e5f23cf5418ec85bf1f3fdf6b58ede7768b975a6cb3c094be.glb",
+          "position": [
+            0.15,
+            1.8,
+            -1.22
+          ],
+          "productionPartId": "a680b3b1-df36-43c1-9736-2212edbb08a0"
+        }
+      ]
+    }
+  },
+  "boardId": "9bdee18b-1b65-4c01-b847-0b20e806b793",
+  "boardRevision": 37,
+  "buildId": "amusement-small-props-001",
+  "cameraPresentation": {
+    "base_distance": 11.8,
+    "fov": 50,
+    "growth_distance": 1.1,
+    "lag": 0.09,
+    "lookahead": 0.16,
+    "max_distance": 18.5,
+    "motion_fov": 0,
+    "normalMap": false,
+    "overview": "debug-only",
+    "pitch": 52
+  },
+  "characterPresentation": {
+    "blinkSeconds": 0.08,
+    "defaultSkin": "star",
+    "humanArtApproved": false,
+    "mode": "2D illustrated border and eyes around open funnel",
+    "mouthRatio": 0.95,
+    "outerRadiusRatio": 1.235,
+    "sha256": "b5659548992310635c9cdbf5c39573a22686f8eef880f770bc9cdacc27bd3dcc",
+    "smallEyeScale": 1.3,
+    "sourcePrompt": "data/hole-designs/finish-v1/satin-v3-prompt.txt",
+    "texture": "res://assets/characters/star-gummy-satin-v3.png",
+    "variants": [
+      "star",
+      "frog",
+      "cream"
+    ],
+    "version": "star-gummy-satin-v3-small-screen"
+  },
+  "closureRevision": {
+    "authorization": "好，do it。把这个场景精修好就暂时close掉",
+    "formalRelease": false,
+    "materialResponse": [
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-painted-arcade-blue",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.39,
+                0.588,
+                0.902
+              ],
+              "detail_contrast": 0.015,
+              "local_bounds": [
+                -0.126,
+                0.014,
+                -0.152,
+                0.126,
+                0.114,
+                0.095
+              ],
+              "name": "blue_roof_shell",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.56,
+                0.84
+              ],
+              "strength": 1
+            }
+          ],
+          "material_revision": "b2-paint-003-p31",
+          "normal_revision": {
+            "crease_degrees": 35,
+            "id": "p31-blue-roof-barrel-normal-002",
+            "local_bounds": [
+              -0.126,
+              0.014,
+              -0.152,
+              0.126,
+              0.114,
+              0.095
+            ],
+            "method": "Fitted shallow barrel field in source blue roof region only; reject normal directions above 48 degree deviation to preserve end caps and ridges; no position or topology change.",
+            "normal_field": {
+              "alignment_full_degrees": 28,
+              "alignment_limit_degrees": 48,
+              "center_x": 0.00028,
+              "curvature": 5.7452,
+              "shape": "parabolic_barrel"
+            },
+            "protect_warm_material_edges": true,
+            "source_sha256": "74b86da61842912bc50457b83c212dc8f46789ec863542bf8d85b74e2dd4c9c2",
+            "strength": 0.94,
+            "weld_precision": 1e-06
+          },
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.32,
+            0.78
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "arcade-pavilion",
+        "slot": "P31"
+      },
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-painted-lilac",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.635,
+                0.49,
+                0.84
+              ],
+              "detail_contrast": 0.03,
+              "exclude_uv_rect": [
+                0.36,
+                0.343,
+                0.53,
+                0.415
+              ],
+              "local_bounds": [
+                -0.176,
+                0.033,
+                -0.139,
+                0.176,
+                0.127,
+                0.052
+              ],
+              "name": "lilac_roof_shell",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.55,
+                0.85
+              ],
+              "strength": 1
+            },
+            {
+              "albedo_color": [
+                0.97,
+                0.9,
+                0.73
+              ],
+              "color_family": 1,
+              "detail_contrast": 0.02,
+              "local_bounds": [
+                -0.176,
+                0.025,
+                0.038,
+                0.176,
+                0.128,
+                0.138
+              ],
+              "name": "front_cornice_warm_cream",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.57,
+                0.85
+              ],
+              "strength": 0.92
+            }
+          ],
+          "material_revision": "b2-paint-003-p32",
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.34,
+            0.8
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "magic-pavilion",
+        "slot": "P32"
+      },
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-ivory-folded-roof",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.93,
+                0.9,
+                0.8
+              ],
+              "color_family": 1,
+              "detail_contrast": 0.03,
+              "exclude_local_bounds": [
+                -0.055,
+                -0.122,
+                0,
+                0.055,
+                0.025,
+                0.137
+              ],
+              "local_bounds": [
+                -0.226,
+                -0.122,
+                -0.137,
+                0.226,
+                0.122,
+                0.137
+              ],
+              "name": "silver_facets_to_ivory",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.57,
+                0.85
+              ],
+              "strength": 1
+            },
+            {
+              "albedo_color": [
+                0.35,
+                0.51,
+                0.9
+              ],
+              "color_family": 4,
+              "detail_contrast": 0.025,
+              "exclude_local_bounds": [
+                -0.055,
+                -0.122,
+                0,
+                0.055,
+                0.025,
+                0.137
+              ],
+              "local_bounds": [
+                -0.226,
+                -0.1,
+                -0.137,
+                0.226,
+                0.122,
+                0.137
+              ],
+              "name": "painted_blue_folded_panels",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.54,
+                0.84
+              ],
+              "strength": 0.96
+            }
+          ],
+          "material_revision": "b2-paint-003-p33",
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.34,
+            0.8
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "mirror-pavilion",
+        "slot": "P33"
+      },
+      {
+        "before": {
+          "albedo_gain": 1,
+          "material_class": "satin-coral-roof",
+          "material_regions": [
+            {
+              "albedo_color": [
+                0.96,
+                0.57,
+                0.49
+              ],
+              "color_family": 2,
+              "detail_contrast": 0.03,
+              "exclude_uv_rect": [
+                0.818,
+                0.325,
+                0.865,
+                0.371
+              ],
+              "local_bounds": [
+                -0.141,
+                0.022,
+                -0.113,
+                0.141,
+                0.087,
+                0.113
+              ],
+              "name": "coral_roof_shell",
+              "protect_warm_trim": true,
+              "roughness_range": [
+                0.42,
+                0.78
+              ],
+              "strength": 1
+            }
+          ],
+          "material_revision": "b2-paint-003-p34",
+          "roughness_floor": 0,
+          "roughness_range": [
+            0.34,
+            0.8
+          ],
+          "texture_max_size": 1024
+        },
+        "part": "souvenir-pavilion",
+        "slot": "P34"
+      }
+    ],
+    "sourceBuilds": [
+      "amusement-b2-finish-026",
+      "amusement-b2-lighting-026"
+    ],
+    "status": "temporarily-closed-after-review"
+  },
+  "contactShadows": {
+    "color": [
+      0.24,
+      0.25,
+      0.37
+    ],
+    "spread": 1.26,
+    "strength": 0.24
+  },
+  "coverage": {
+    "complete": true,
+    "formalRelease": false,
+    "generatedSlots": [
+      "P02",
+      "P03",
+      "P07",
+      "P08",
+      "P09",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P25",
+      "P26"
+    ],
+    "localSlots": [],
+    "slots": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P35",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "E09",
+      "E10",
+      "P36",
+      "P37",
+      "E11",
+      "E08",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P27_low",
+      "P28_low",
+      "P29_low",
+      "P30_low",
+      "P20",
+      "P22",
+      "P21",
+      "P19",
+      "E07"
+    ],
+    "supplementalModels": 6
+  },
+  "finishRevision": {
+    "authorization": {
+      "plan": "docs/SAMPLE_FINISH_TODO_20260929.md",
+      "scope": "Existing P23 rear awning, P35 wheel/cabins, P36 clean canopy; shared follow camera, 60s, 2D Star Gummy polish. No new gameplay units or remote modeling tasks.",
+      "source": "explicit_user_message",
+      "sourceBuildId": "amusement-b2-session-025",
+      "text": "好，按计划收尾并review验收吧；A 星星软糖；这个星星软糖sprite是不是有点丑了，要高级审美呀！"
+    },
+    "changes": [
+      "18 degree canted wheel plane; cabins upright",
+      "rear prize awning",
+      "clean authored canopy replaces source-painted highlight bands"
+    ],
+    "characterVersion": "star-gummy-satin-v3",
+    "id": "b2-sample-finish-v1",
+    "sourceAssetsPreserved": true,
+    "sourceBuildId": "amusement-b2-session-025"
+  },
+  "floor": {
+    "asphalt_color": [
+      0.36,
+      0.58,
+      0.97
+    ],
+    "calibrated_light": true,
+    "floor_fill": 0,
+    "kerb_color": [
+      1,
+      0.78,
+      0.32
+    ],
+    "park_paving": true,
+    "path_edge_width": 0.2,
+    "paving_color": [
+      0.99,
+      0.86,
+      0.59
+    ],
+    "walkway_color": [
+      0.995,
+      0.975,
+      0.885
+    ]
+  },
+  "floorShader": "res://shaders/park_floor_v2.gdshader",
+  "groundMarks": [
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -20,
+        -15.4
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.7216
+      ],
+      "radius": 1.1,
+      "shape": "circle"
+    },
+    {
+      "angle": 1.1,
+      "aspect": 1,
+      "center": [
+        -13,
+        -15.2
+      ],
+      "color": [
+        1,
+        0.64,
+        0.52,
+        0.76
+      ],
+      "radius": 2,
+      "shape": "triangle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -3.5,
+        -13.8
+      ],
+      "color": [
+        1,
+        0.64,
+        0.52,
+        0.76
+      ],
+      "radius": 1.6,
+      "shape": "circle"
+    },
+    {
+      "angle": 3.14159265358979,
+      "aspect": 1,
+      "center": [
+        0.6,
+        -15
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.7216
+      ],
+      "radius": 1.8,
+      "shape": "triangle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        19.8,
+        -8
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.7216
+      ],
+      "radius": 2.3,
+      "shape": "circle"
+    },
+    {
+      "angle": -0.8,
+      "aspect": 1,
+      "center": [
+        20.7,
+        -3
+      ],
+      "color": [
+        1,
+        0.8,
+        0.32,
+        0.85
+      ],
+      "radius": 2.7,
+      "shape": "triangle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -21,
+        -3
+      ],
+      "color": [
+        1,
+        0.64,
+        0.52,
+        0.76
+      ],
+      "radius": 2.1,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -12.1,
+        -1
+      ],
+      "color": [
+        1,
+        0.8,
+        0.32,
+        0.85
+      ],
+      "radius": 1.25,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        11.3,
+        0.3
+      ],
+      "color": [
+        1,
+        0.8,
+        0.32,
+        0.85
+      ],
+      "radius": 1.4,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        19.3,
+        12.5
+      ],
+      "color": [
+        1,
+        0.64,
+        0.52,
+        0.76
+      ],
+      "radius": 1.4,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        12.1,
+        16
+      ],
+      "color": [
+        1,
+        0.8,
+        0.32,
+        0.85
+      ],
+      "radius": 1.45,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        20.7,
+        18
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.7216
+      ],
+      "radius": 3.3,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -2.55,
+        11.7
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.7216
+      ],
+      "radius": 1.6,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -8.9,
+        18
+      ],
+      "color": [
+        1,
+        0.64,
+        0.52,
+        0.76
+      ],
+      "radius": 2.7,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        2.5,
+        15.8
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.7216
+      ],
+      "radius": 1,
+      "shape": "circle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        3.2,
+        10.2
+      ],
+      "color": [
+        1,
+        0.64,
+        0.52,
+        0.76
+      ],
+      "radius": 0.85,
+      "shape": "circle"
+    },
+    {
+      "angle": 1.5707963267949,
+      "aspect": 1,
+      "center": [
+        -12,
+        4.3
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.6314
+      ],
+      "radius": 1.55,
+      "roadOnly": true,
+      "shape": "triangle"
+    },
+    {
+      "angle": 1.5707963267949,
+      "aspect": 1,
+      "center": [
+        -2.3,
+        4.3
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.6314
+      ],
+      "radius": 1.35,
+      "roadOnly": true,
+      "shape": "triangle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        6.5,
+        13.3
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.6314
+      ],
+      "radius": 1.25,
+      "roadOnly": true,
+      "shape": "triangle"
+    },
+    {
+      "angle": 3.14159265358979,
+      "aspect": 1,
+      "center": [
+        -7.3,
+        -5.6
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.6314
+      ],
+      "radius": 1.2,
+      "roadOnly": true,
+      "shape": "triangle"
+    },
+    {
+      "angle": 0,
+      "aspect": 1,
+      "center": [
+        -7.3,
+        -14.6
+      ],
+      "color": [
+        0.8,
+        0.67,
+        0.96,
+        0.6314
+      ],
+      "radius": 1.25,
+      "roadOnly": true,
+      "shape": "triangle"
+    }
+  ],
+  "instanceAssets": {
+    "building_segment_005": "P27_low",
+    "building_segment_006": "P28_low",
+    "building_segment_007": "P29_low",
+    "building_segment_008": "P30_low",
+    "building_segment_013": "P27_low",
+    "building_segment_014": "P28_low"
+  },
+  "lighting": {
+    "ambient_color": [
+      0.85,
+      0.9,
+      1
+    ],
+    "ambient_energy": 0.12,
+    "key_color": [
+      1,
+      0.98,
+      0.94
+    ],
+    "key_energy": 0.46,
+    "key_rotation_degrees": [
+      -55,
+      -35,
+      0
+    ],
+    "shadow_bias": 0.1,
+    "shadow_blur": 2,
+    "shadow_distance": 70,
+    "shadow_normal_bias": 2,
+    "shadow_opacity": 0.76
+  },
+  "materialCalibration": {
+    "mode": "source-preserved-regional-art-adaptation",
+    "revisionId": "b2-paint-003",
+    "roughnessAndAlbedoRegionsExplicit": true,
+    "sourceFaithfulPBR": false,
+    "sourceFilesPreserved": true
+  },
+  "materialRevision": {
+    "id": "b2-paint-003",
+    "path": "data/material-revisions/b2-paint-003/manifest.json",
+    "sha256": "aa9297b41a24ef8e1932233c0c208e020d404363f75b684dfa2b1398b939cd47"
+  },
+  "occlusionStyle": "projected-mouth-001",
+  "presentation": {
+    "accent": [
+      0.98,
+      0.76,
+      0.31
+    ],
+    "subtitle": "吞食乐园",
+    "title": "STARLIGHT PARK"
+  },
+  "presentationRevision": {
+    "id": "amusement-daylight-v1",
+    "profilePath": "content/presentation/amusement-daylight-v1.json",
+    "profileSha256": "540c27ca3e16386d61d2b0c2274541446fc84ce132ccb56a4564d5cf268da1ee",
+    "scope": "Lighting and grounding only; parent geometry, assets, camera, round rules and approval remain unchanged.",
+    "sourceBuildId": "amusement-b2-finish-026"
+  },
+  "prototypeId": "hole-follow-v1-652b91e20e",
+  "refinement": {
+    "contractRevision": "hole-concept-scale-v3-aa18edd9e4",
+    "focus": [
+      "whole-scene asset scale",
+      "visible fit",
+      "landmark/body hierarchy",
+      "material consistency",
+      "lighting contact"
+    ],
+    "preserveGameplayIds": true,
+    "scaleRevisionId": "b2-concept-scale-003",
+    "sourceBuildId": "amusement-b2-region-016"
+  },
+  "scaleRevision": {
+    "clearanceOffsets": {
+      "bench_004": [
+        0.15,
+        0,
+        0.08
+      ],
+      "bin_004": [
+        1.1,
+        0,
+        0.8
+      ],
+      "bin_005": [
+        -0.18,
+        0,
+        -0.1
+      ],
+      "bin_006": [
+        0.46,
+        0,
+        -0.5
+      ],
+      "bin_013": [
+        -0.16,
+        0,
+        0
+      ],
+      "micro_block_026": [
+        0.4,
+        0,
+        -0.8
+      ],
+      "micro_block_028": [
+        0.18,
+        0,
+        0.08
+      ],
+      "micro_block_030": [
+        0.02,
+        0,
+        0.12
+      ],
+      "tall_pole_007": [
+        0.22,
+        0,
+        0
+      ],
+      "vehicle_003": [
+        0,
+        0,
+        -0.22
+      ]
+    },
+    "fitDiameters": {
+      "P01": 0.57,
+      "P02": 0.46,
+      "P03": 0.41,
+      "P04": 0.48,
+      "P05": 0.5,
+      "P06": 0.5,
+      "P07": 0.42,
+      "P08": 0.42,
+      "P09": 0.41,
+      "P10": 0.89,
+      "P11": 1.16,
+      "P12": 0.89,
+      "P13": 1.18,
+      "P14": 1.18,
+      "P15": 1.03,
+      "P16": 1.04,
+      "P17": 2.07,
+      "P18": 1.99,
+      "P19": 1.66,
+      "P20": 1.77,
+      "P21": 1.73,
+      "P22": 2.3,
+      "P23": 2.19,
+      "P24": 2.19,
+      "P25": 2.08,
+      "P26": 2.08,
+      "P27": 2.99,
+      "P28": 2.99,
+      "P29": 2.99,
+      "P30": 2.99,
+      "P31": 4.11,
+      "P32": 4.06,
+      "P33": 4.06,
+      "P34": 4.06,
+      "P35": 6.26,
+      "P36": 5.28,
+      "P37": 5.64
+    },
+    "fitMeasurement": "evidence/final_art_polish_20260929/023_candidate_geometry.json; actual nested runtime vertices at target row outer width 2.28m; structure reauthored in 003, round details preserved; >=1.5% clearance",
+    "id": "b2-concept-scale-003",
+    "rationale": "Normalize prop scale against island width; stop treating old graybox envelopes as final art dimensions.",
+    "rowSpacingScale": 1.2,
+    "scales": {
+      "P01": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P02": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P03": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P04": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P05": [
+        1.8,
+        1.9,
+        1.8
+      ],
+      "P06": [
+        1.8,
+        2.1,
+        1.8
+      ],
+      "P07": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P08": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P09": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P10": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P11": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P12": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P13": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P14": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P15": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P16": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P17": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P18": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P19": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P20": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P21": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P22": [
+        1.18,
+        1.35,
+        1.12
+      ],
+      "P23": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P24": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P25": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P26": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P27": [
+        1,
+        1,
+        1.08
+      ],
+      "P28": [
+        1,
+        1,
+        1.08
+      ],
+      "P29": [
+        1,
+        1,
+        1.08
+      ],
+      "P30": [
+        1,
+        1,
+        1.08
+      ],
+      "P31": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P32": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P33": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P34": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P35": [
+        1.12,
+        1.12,
+        1.12
+      ],
+      "P36": [
+        1.35,
+        1.3,
+        1.3
+      ],
+      "P37": [
+        1.18,
+        1.28,
+        1.18
+      ]
+    }
+  },
+  "sceneryMaterial": {
+    "model": "physical_vertex_color",
+    "roughness": 0.9,
+    "specular": 0.18
+  },
+  "sceneryOverrides": {
+    "bg_bridge_01": {
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    },
+    "bg_building_00": {
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "bg_building_01": {
+      "scale": [
+        1,
+        0.84,
+        1
+      ]
+    },
+    "bg_building_02": {
+      "scale": [
+        1,
+        1.17,
+        1
+      ]
+    },
+    "bg_building_03": {
+      "scale": [
+        1,
+        0.92,
+        1
+      ]
+    },
+    "bg_building_04": {
+      "scale": [
+        1,
+        1.08,
+        1
+      ]
+    },
+    "bg_building_05": {
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "bg_building_06": {
+      "scale": [
+        1,
+        0.84,
+        1
+      ]
+    },
+    "bg_building_07": {
+      "scale": [
+        1,
+        1.17,
+        1
+      ]
+    },
+    "bg_building_08": {
+      "scale": [
+        1,
+        0.92,
+        1
+      ]
+    },
+    "quay_00": {
+      "assetKey": "E04_quay_0",
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "quay_01": {
+      "assetKey": "E04_quay_1",
+      "rotationDegrees": [
+        0,
+        -90,
+        0
+      ]
+    },
+    "quay_02": {
+      "assetKey": "E04_quay_2",
+      "rotationDegrees": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "quay_03": {
+      "assetKey": "E04_quay_3",
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    },
+    "quay_04": {
+      "assetKey": "E04_quay_4",
+      "rotationDegrees": [
+        0,
+        -180,
+        0
+      ]
+    },
+    "quay_05": {
+      "assetKey": "E04_quay_5",
+      "rotationDegrees": [
+        0,
+        90,
+        0
+      ]
+    }
+  },
+  "schema": "hole_scene_recipe_v1",
+  "sessionRevision": {
+    "authorization": "User requested restoring the 60-second round; spatial/art content unchanged.",
+    "previousRoundSeconds": 120,
+    "roundSeconds": 60,
+    "sourceBuildId": "amusement-b2-scale-024"
+  },
+  "sourceParts": [
+    {
+      "files": [
+        {
+          "bytes": 5414689,
+          "path": "data/assets/part-a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14_zip.zip",
+          "sha256": "d6775bb51d1dfd6f9d9520dc431046c18f33d0809562f6b60443dba4f7200bf4"
+        },
+        {
+          "bytes": 3564120,
+          "path": "data/assets/part-a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14_glb.glb",
+          "sha256": "27a8efec3e55b781e273013d7da6877ccd67ec8ae24c9cb4085f360df6b90143"
+        }
+      ],
+      "id": "a52b9ec7-ae4c-40dc-86ff-84c5d5d01c14",
+      "reference": {
+        "approvedCardFingerprint": "3b8376f2beb1c72aca1705db7fd95ee1dfcfff9560ec0daab24b2fc2610ac9b2",
+        "path": "data/assets/input-ee0b5ae128f1a87f1ae971f37b2380c494eb1b9a8aec18fc1cf32ab1916b6cd0.png",
+        "prompt": "Extract and faithfully redraw ONE yellow passenger cabin from the approved ferris wheel reference as an isolated standalone 3D modeling input on solid pure white. Preserve the rounded yellow shell, cream seat, white safety bar, small cream circular top pivot. Orthographic three quarter view. No wheel, spokes, stand, plinth, other cabins, text, dimensions or loose pieces. One complete cabin only with open front clearly visible, centered filling 80 percent frame. Same polished miniature painted toy materials.",
+        "sha256": "ee0b5ae128f1a87f1ae971f37b2380c494eb1b9a8aec18fc1cf32ab1916b6cd0",
+        "sourceReferenceId": "e1d314d9-9570-46e5-ad5b-28cd5c44f5bd"
+      },
+      "taskId": "3810557"
+    },
+    {
+      "files": [
+        {
+          "bytes": 4592193,
+          "path": "data/assets/part-329988b5-15a5-4574-a48c-96306f4a5870_zip.zip",
+          "sha256": "8d5cbe8d5f832cd749a635c518b2fef0372fb27a8145807b89a2e7b4e4874ab8"
+        },
+        {
+          "bytes": 4190380,
+          "path": "data/assets/part-329988b5-15a5-4574-a48c-96306f4a5870_glb.glb",
+          "sha256": "02538d00c9f4578a464d3162ad7149bea558962f9f9885ab74f7494916de74e2"
+        }
+      ],
+      "id": "329988b5-15a5-4574-a48c-96306f4a5870",
+      "reference": {
+        "approvedCardFingerprint": "3b8376f2beb1c72aca1705db7fd95ee1dfcfff9560ec0daab24b2fc2610ac9b2",
+        "path": "data/assets/input-1f0cb9c8768f8c45ba777b76702ae0c9baf8e7e0f91cc86227b733f04ff79bf9.png",
+        "prompt": "Extract faithfully ONE circular blue ferris wheel center hub with the raised yellow five-point star from the approved reference. Isolated shallow circular medallion, front faces viewer with slight three quarter view showing thickness. Solid pure white background. Keep exact blue/yellow miniature painted toy materials. No wheel, spoke, stand, cabin or base. One connected medallion object only. No text or labels.",
+        "sha256": "1f0cb9c8768f8c45ba777b76702ae0c9baf8e7e0f91cc86227b733f04ff79bf9",
+        "sourceReferenceId": "e1d314d9-9570-46e5-ad5b-28cd5c44f5bd"
+      },
+      "taskId": "3810560"
+    },
+    {
+      "files": [
+        {
+          "bytes": 6927300,
+          "path": "data/assets/part-c83fc2e1-0673-4441-b18b-a98c031788c2_zip.zip",
+          "sha256": "9286a7ff758c8b5437ad19d8fc0d80bcc4365f0c956dca67622c5e579d4c46bb"
+        },
+        {
+          "bytes": 6269744,
+          "path": "data/assets/part-c83fc2e1-0673-4441-b18b-a98c031788c2_glb.glb",
+          "sha256": "1ea4ae4b1a153fad23c8c92fc10ff62274d3b7ef66f8a6b5037f8ae94b079198"
+        }
+      ],
+      "id": "c83fc2e1-0673-4441-b18b-a98c031788c2",
+      "reference": {
+        "approvedCardFingerprint": "1093c4b6143f276661c414c715501e45df353933da413a6059bfea2aed59be00",
+        "path": "data/assets/input-3c55c9d6cc2afd07b48e5aa07afee9d21c27f9e685fe1d64def4f4e6b132f535.png",
+        "prompt": "Extract faithfully ONLY the bottom right coral cab, blue chassis parade truck with lilac star rainbow stage decoration from the approved 4-panel reference. ONE complete toy truck, 3/4 orthographic view, solid pure white background, fills frame. Preserve its actual roof ornaments, wheels, lights, cream yellow rail and lilac star. Do not include any gift boxes, benches, yellow supply truck or panel grid. No text. Same rounded painted miniature toy finish. Compact vehicle broad horizontal proportions, low stage decoration not a tower.",
+        "sha256": "3c55c9d6cc2afd07b48e5aa07afee9d21c27f9e685fe1d64def4f4e6b132f535",
+        "sourceReferenceId": "17acca35-908a-4582-b5a6-02314152ee62"
+      },
+      "taskId": "3810562"
+    },
+    {
+      "files": [
+        {
+          "bytes": 6880901,
+          "path": "data/assets/part-812fcc8b-82d2-4a96-9c19-2d3e69e63e39_zip.zip",
+          "sha256": "0832e36665e6d3ed5e49d9ec76eb073c4b8be6e497265b143bb9682417e5ad6e"
+        },
+        {
+          "bytes": 5365000,
+          "path": "data/assets/part-812fcc8b-82d2-4a96-9c19-2d3e69e63e39_glb.glb",
+          "sha256": "74b86da61842912bc50457b83c212dc8f46789ec863542bf8d85b74e2dd4c9c2"
+        }
+      ],
+      "id": "812fcc8b-82d2-4a96-9c19-2d3e69e63e39",
+      "reference": {
+        "approvedCardFingerprint": "463f4a2b0b6181244ac2e54566a485002993250d39b75d0fb691c41a57aeadbe",
+        "path": "data/assets/input-6a7c0a9320add28fdb75b60eb59d35a67082823ea504c52b7fe8d393ce0504f3.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP LEFT blue barrel-vault arcade pavilion. Keep the broad low footprint, blue curved roof, cream arches and open arcade entrance with toys inside. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "6a7c0a9320add28fdb75b60eb59d35a67082823ea504c52b7fe8d393ce0504f3",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3810820"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5475351,
+          "path": "data/assets/part-4726f695-a12b-494b-b6bb-210d32ad7e60_zip.zip",
+          "sha256": "4a50b5663c7dd83c059043252c1eedf36aa4f5817ff3531f12830ad306738452"
+        },
+        {
+          "bytes": 4413616,
+          "path": "data/assets/part-4726f695-a12b-494b-b6bb-210d32ad7e60_glb.glb",
+          "sha256": "1bed06ff1e048652ea7c7e34af70f020dd4d054137a6b08ab0d3e90e4beee819"
+        }
+      ],
+      "id": "4726f695-a12b-494b-b6bb-210d32ad7e60",
+      "reference": {
+        "approvedCardFingerprint": "45dd898ed853759dc6146f874bb42b5b8889ac02e4a1238c5c6dd791e65e6567",
+        "path": "data/assets/input-14257191b01839ac2e1da77e94dca43a272c0cbaa68a125a698a04495efe9ec1.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP RIGHT lilac fan-roof magic theater. Keep low broad body, fan-shaped scalloped front crown and purple curtain entry with short stairs. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "14257191b01839ac2e1da77e94dca43a272c0cbaa68a125a698a04495efe9ec1",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3810969"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5977489,
+          "path": "data/assets/part-6c915058-0cbe-440d-9535-ca101c5ca80e_zip.zip",
+          "sha256": "d3b5e2e5b9621a88392530c6073c42aacd8462d19a4723283176ea81cc3e4fb1"
+        },
+        {
+          "bytes": 4306124,
+          "path": "data/assets/part-6c915058-0cbe-440d-9535-ca101c5ca80e_glb.glb",
+          "sha256": "ecee47050d86d662e6b5dd551f68b4858d4778295390988533c68048615121e3"
+        }
+      ],
+      "id": "6c915058-0cbe-440d-9535-ca101c5ca80e",
+      "reference": {
+        "approvedCardFingerprint": "aa2564f27e1811ea9035f4a16a325c8eccb5104b603e562ed5a690748960c9cd",
+        "path": "data/assets/input-76d493f2fa722297da6c1dccf5decbb59dcb54f9de92bbbb1dce61a3480972d5.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: BOTTOM LEFT angular mirror house. Keep very distinctive low butterfly folded roof and faceted silver/cream/blue panels. Avoid black mirrors and excessive glossy highlights. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "76d493f2fa722297da6c1dccf5decbb59dcb54f9de92bbbb1dce61a3480972d5",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3810962"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7632573,
+          "path": "data/assets/part-46b657e5-06da-4a69-a5cc-e1aa419da7fa_zip.zip",
+          "sha256": "5236f0fbd07ce6944afaa0f28a1f354f5ddac295935d76d91476ba01ac0db1a6"
+        },
+        {
+          "bytes": 5309256,
+          "path": "data/assets/part-46b657e5-06da-4a69-a5cc-e1aa419da7fa_glb.glb",
+          "sha256": "cc811e9159793f5ac934780d6f9308bb66d79e3386810400c59896c03a404e43"
+        }
+      ],
+      "id": "46b657e5-06da-4a69-a5cc-e1aa419da7fa",
+      "reference": {
+        "approvedCardFingerprint": "32bc64f6be4ba1ca639aac3a896bbe253187bbdc29cd93e413d325c92b484904",
+        "path": "data/assets/input-a794d93c3ff2393429e523f7f078dd5d1309882073c8ac8393c705fa54feeeaf.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: BOTTOM RIGHT coral and lilac stepped souvenir shop. Preserve asymmetrical two-tier rounded flat roof and two different curved display windows, yellow short awning. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. This pavilion is broad and low, width 2.6m depth 2.4m maximum height 1.6m; retain its specific roof silhouette within that compact proportion.",
+        "sha256": "a794d93c3ff2393429e523f7f078dd5d1309882073c8ac8393c705fa54feeeaf",
+        "sourceReferenceId": "5ea67915-8f98-46ad-8cad-995b75fd6f22"
+      },
+      "taskId": "3811126"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7553588,
+          "path": "data/assets/part-124b2b2d-6c98-412a-857b-732ec7abad5a_zip.zip",
+          "sha256": "cf7adad07d018f620fcc2da75a07d513195d13a9e14868c7b5909b2904f3c53e"
+        },
+        {
+          "bytes": 5406540,
+          "path": "data/assets/part-124b2b2d-6c98-412a-857b-732ec7abad5a_glb.glb",
+          "sha256": "c626bddf0168f877f3cc7c8036102877d54197d0db5b1a2fe72bde80dda9564d"
+        }
+      ],
+      "id": "124b2b2d-6c98-412a-857b-732ec7abad5a",
+      "reference": {
+        "approvedCardFingerprint": "69f4f2bdff0183493106f2f62591b62b9e649e8ed48742444a75faa30c82b353",
+        "path": "data/assets/input-9ec8a6a12f045da723984c25a0f6f159bb8af021530f553408c9d0cf87ba274f.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP RIGHT coral icecream truck with lilac/cream striped service awning, blue wheel arches, compact cream icecream roof sign. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. ",
+        "sha256": "9ec8a6a12f045da723984c25a0f6f159bb8af021530f553408c9d0cf87ba274f",
+        "sourceReferenceId": "3f53625e-c832-4c1d-9966-004cec7e7d3b"
+      },
+      "taskId": "3810821"
+    },
+    {
+      "files": [
+        {
+          "bytes": 6080361,
+          "path": "data/assets/part-e98e0de8-63a9-470c-9fcd-6630c7c0de46_zip.zip",
+          "sha256": "c6475a3b3a2f2f7114cdf8426c6b20eaa374f41bd6d68628f29baf53a4c62fe1"
+        },
+        {
+          "bytes": 5526484,
+          "path": "data/assets/part-e98e0de8-63a9-470c-9fcd-6630c7c0de46_glb.glb",
+          "sha256": "f3f18d1b881a676fe119cd0d34b94d44e7ecca2ded3b564574b88e3ef3a6ebcb"
+        }
+      ],
+      "id": "e98e0de8-63a9-470c-9fcd-6630c7c0de46",
+      "reference": {
+        "approvedCardFingerprint": "13be9cd77f0b6a3d24b19e2fb22bc04e0e2ee091739231c06be618015ac22771",
+        "path": "data/assets/input-fdea0c99006a998a4a199c7d329aac11e48e6bf651005ae6476b6e93ecafdbd9.png",
+        "prompt": "Create one isolated single-object 3D modeling reference by faithfully extracting ONLY the specified object from this approved four-panel image: TOP LEFT low wheeled rainbow parade float with cream clouds, yellow platform, blue wheels, lilac rainbow and blue flag. Keep compact low horizontal vehicle proportions. Preserve approved design and colors; do not redesign it. Solid pure white background, no grid or other objects, no text or dimensions. Orthographic front three-quarter view, complete object centered with flat base visible. Clean stylized miniature painted toy materials, soft neutral studio lighting without baked directional dark shadows. ",
+        "sha256": "fdea0c99006a998a4a199c7d329aac11e48e6bf651005ae6476b6e93ecafdbd9",
+        "sourceReferenceId": "3f53625e-c832-4c1d-9966-004cec7e7d3b"
+      },
+      "taskId": "3811110"
+    },
+    {
+      "files": [
+        {
+          "bytes": 4866113,
+          "path": "data/assets/part-a65f967f-7c74-468d-9640-85d818550ab9_zip.zip",
+          "sha256": "af60dd2216344a76c7150edabb6276d8141dd88769bc88693a865b2abc674557"
+        },
+        {
+          "bytes": 4057884,
+          "path": "data/assets/part-a65f967f-7c74-468d-9640-85d818550ab9_glb.glb",
+          "sha256": "4dd50b8169a8ca661fb665e2a66c15a0bb80bc76d2f36e4726b62edd1990735a"
+        }
+      ],
+      "id": "a65f967f-7c74-468d-9640-85d818550ab9",
+      "reference": {
+        "approvedCardFingerprint": "e1d1feda4ae32e68e82214258d6e77465ea2e2dad36884e01f6723f89077b1b6",
+        "path": "data/assets/input-f81b2ab53afa6c4849150a5f5b7ce3d66d050ac23fd0702bf5e99edf089f6b8b.png",
+        "prompt": "Extract faithfully the BLUE scalloped decorative FRONT FASCIA from the lower left game stall in the reference: a low shallow connected ornamental blue arched header with cream recessed panel, central blue flower-shaped medallion with yellow star, and short alternating cream/blue scalloped awning trim along bottom. This is ONLY the nonstructural decorative front panel, horizontal wide rectangle with curved top edge. NO support columns, NO tabletop, NO cabinet, NO feet, NO lamps, NO other objects. One connected component isolated on solid pure white background, slight 3/4 front view shows shallow thickness. Match approved rounded painted toy style and exact blue/cream/yellow palette. No words or numbers.",
+        "sha256": "f81b2ab53afa6c4849150a5f5b7ce3d66d050ac23fd0702bf5e99edf089f6b8b",
+        "sourceReferenceId": "3f53625e-c832-4c1d-9966-004cec7e7d3b"
+      },
+      "taskId": "3811232"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5643091,
+          "path": "data/assets/part-f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd_zip.zip",
+          "sha256": "d442f3c97606e380cb862d84caa896739417c1041f3946319f75ebf5efc7703a"
+        },
+        {
+          "bytes": 4807824,
+          "path": "data/assets/part-f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd_glb.glb",
+          "sha256": "26bf9141d98d00910c0823fae2ee861ce371d7acab6d61863e58c4695998fa33"
+        }
+      ],
+      "id": "f2520fe3-14e4-41fb-a033-5a9b3fe0a7cd",
+      "reference": {
+        "approvedCardFingerprint": "8024337f62b57a719e63fb812f19de07a7554d17f054c46a36993658e3c64725",
+        "path": "data/assets/input-88b3f3b5c605ebe729265b84b8f13b02668f64a91020a538f8f9bbd4e24212f7.png",
+        "prompt": "Extract faithfully ONE carousel horse from this approved reference, as an isolated complete standalone 3D modeling input. White rounded toy horse, golden mane and tail, blue bridle and blue saddle with yellow piping, lilac saddle blanket, short blue hooves. Exactly four legs, one head. Horse only: NO pole, no circular base, no canopy, no other horses, no environment. 3/4 side view showing body shape and all legs, full object centered, solid pure white background, soft neutral light with no strong painted shadows. Preserve the approved toy proportions, palette and modest sculptural details. No text, labels or sheet.",
+        "sha256": "88b3f3b5c605ebe729265b84b8f13b02668f64a91020a538f8f9bbd4e24212f7",
+        "sourceReferenceId": "019d5b3e-b7a9-447f-96d6-ad9882ca87f4"
+      },
+      "taskId": "3812882"
+    },
+    {
+      "files": [
+        {
+          "bytes": 5805032,
+          "path": "data/assets/part-f2960e43-202f-463a-98af-fcdb129ddb8b_zip.zip",
+          "sha256": "f90588991e0cfea2eadc1c5d2269aaa0fa33ad4b811e47c84761addaedd50396"
+        },
+        {
+          "bytes": 4218844,
+          "path": "data/assets/part-f2960e43-202f-463a-98af-fcdb129ddb8b_glb.glb",
+          "sha256": "9f4908d83d2896bc4f57714d62f735c50605f9f2c0c429d43fe5934c9ed839f7"
+        }
+      ],
+      "id": "f2960e43-202f-463a-98af-fcdb129ddb8b",
+      "reference": {
+        "approvedCardFingerprint": "8024337f62b57a719e63fb812f19de07a7554d17f054c46a36993658e3c64725",
+        "path": "data/assets/input-883695ee97ffa27fd505cf46edb25deea39063ce5d29586290a91b9bfbab65c5.png",
+        "prompt": "Extract faithfully ONLY the carousel striped canopy from this approved reference for 3D modeling: one shallow circular tent roof with alternating coral-pink and warm cream radial panels, golden scalloped rim, cream scalloped valance, small purple ball on golden crown. Complete connected roof, viewed in elevated 3/4. NO center column, poles, horses, base, platform, other objects or background scenery. One isolated complete component centered on pure white. Same rounded refined miniature painted toy material and exact reference design. Neutral light, no harsh painted shadows, no text.",
+        "sha256": "883695ee97ffa27fd505cf46edb25deea39063ce5d29586290a91b9bfbab65c5",
+        "sourceReferenceId": "019d5b3e-b7a9-447f-96d6-ad9882ca87f4"
+      },
+      "taskId": "3812879"
+    },
+    {
+      "files": [
+        {
+          "bytes": 4983996,
+          "path": "data/assets/part-a680b3b1-df36-43c1-9736-2212edbb08a0_zip.zip",
+          "sha256": "416397d8f0410670b273cb80bc921b553e8abb69a5b19b9decf426e75717412b"
+        },
+        {
+          "bytes": 4115768,
+          "path": "data/assets/part-a680b3b1-df36-43c1-9736-2212edbb08a0_glb.glb",
+          "sha256": "abde05172cc2fe4e5f23cf5418ec85bf1f3fdf6b58ede7768b975a6cb3c094be"
+        }
+      ],
+      "id": "a680b3b1-df36-43c1-9736-2212edbb08a0",
+      "reference": {
+        "approvedCardFingerprint": "e30ae94461e6015342854938a00a3af67e3e9c08975ae881028e6b9d7f8f6b88",
+        "path": "data/assets/input-74fd6a4319e8e7579f7c8646f20e202c5dadbcd4c6c6ab4dfa61ca853649b2b6.png",
+        "prompt": "Extract faithfully ONLY the tall rear decorative rainbow arch from the approved toy slide reference, together with two small connected cream cloud feet at the ends. Four concentric smooth pastel bands: lavender outer, peach coral, yellow, blue inner. Keep the inner arch OPEN with visible white background. This is a shallow ornamental arch panel for a procedural slide to be assembled later. NO slide, stairs, platform, railings, towers, star door, ground base or other objects. One complete connected rainbow-and-cloud component centered in 3/4 near frontal view, solid white backdrop. Approved rounded miniature painted toy style, neutral diffuse light, no text.",
+        "sha256": "74fd6a4319e8e7579f7c8646f20e202c5dadbcd4c6c6ab4dfa61ca853649b2b6",
+        "sourceReferenceId": "393dbe2d-0eeb-47c0-96f0-afee184d0257"
+      },
+      "taskId": "3812957"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7520310,
+          "path": "data/assets/part-43d8e9ea-6f98-4d17-ae41-ac8912041b54_zip.zip",
+          "sha256": "58d8373ca8634a0075d1311ce7d93168470098fe64ca487bf4651e6bac9802aa"
+        },
+        {
+          "bytes": 5872892,
+          "path": "data/assets/part-43d8e9ea-6f98-4d17-ae41-ac8912041b54_glb.glb",
+          "sha256": "0587a22520c80f80f4869855d3a62aa6f1081eb2912bfec01bc0969c3d3d8e34"
+        }
+      ],
+      "id": "43d8e9ea-6f98-4d17-ae41-ac8912041b54",
+      "reference": {
+        "approvedCardFingerprint": "3a7dbd63c5bb836acc8954ebc5ffa1ded3ecddb7ee00083b357094e325256270",
+        "path": "data/assets/input-33eb9fdcfd0158be315ce506e74e204341b50efcc2305223ec71d6ea018ececa.png",
+        "prompt": "Extract faithfully ONE park supply truck from the LOWER LEFT quadrant of this approved reference sheet, as a clean isolated 3D modeling input. Yellow rounded cab, blue open cargo bed, four chunky black wheels with golden hubs, little cream star on cab door, blue beacon; include the two cargo cases, striped cone and cream globe work lamps in the bed as attached details. Preserve the exact compact cartoon proportions and colors. Complete whole vehicle in 3/4 front side view, no other sheet objects, no labels, no environment or ground base. Center on solid pure white background with neutral diffuse lighting. Do not include the purple star parade truck from the lower right.",
+        "sha256": "33eb9fdcfd0158be315ce506e74e204341b50efcc2305223ec71d6ea018ececa",
+        "sourceReferenceId": "17acca35-908a-4582-b5a6-02314152ee62"
+      },
+      "taskId": "3812979"
+    },
+    {
+      "files": [
+        {
+          "bytes": 7070057,
+          "path": "data/assets/part-07551f5a-9cdb-4ef0-8635-6a8fda9cae3c_zip.zip",
+          "sha256": "832b0c94a84dfdb43c14e483512b05d2aa336a27139a8287919a5f67062267e7"
+        },
+        {
+          "bytes": 5980668,
+          "path": "data/assets/part-07551f5a-9cdb-4ef0-8635-6a8fda9cae3c_glb.glb",
+          "sha256": "dd6f47e65df3db0c32bb77f68e10947786bab78ee81c26d06b57804181383a01"
+        }
+      ],
+      "id": "07551f5a-9cdb-4ef0-8635-6a8fda9cae3c",
+      "reference": {
+        "approvedCardFingerprint": "82c7f0b4ca4d7e1cb265c1eb7b0cffacc021ec9ea953805ec19479ce6f9cf75d",
+        "path": "data/assets/input-86c5e3236ff942d52a41431306f3fdb9b59a63d8c53b0c3a3092095ec41ede20.png",
+        "prompt": "Create ONE clean isolated 3D modeling reference of the amusement park sightseeing boat shown in the TOP LEFT of the supplied approved art sheet. Faithfully reproduce its cobalt blue rounded hull with raised cream scalloped garlands and golden circular medallions, cream gunwales, two coral bench seats, four slender cream canopy posts with blue bases, soft lilac curved scalloped canopy with narrow golden trim and blue corner balls. A tiny cream-and-gold bow lamp. Entire connected boat, refined rounded miniature painted toy materials, no people. Show a single three-quarter view, whole boat centered with ample margins, neutral diffuse light, on a SOLID PURE WHITE background. Exclude all bridges, buildings, trees, water, scenery, bases, labels, sheet frames and text. Preserve the approved colors and silhouette. No collage, no alternate views.",
+        "sha256": "86c5e3236ff942d52a41431306f3fdb9b59a63d8c53b0c3a3092095ec41ede20",
+        "sourceReferenceId": "ae2658d3-e4a5-48c8-85e6-a9408f99e590"
+      },
+      "taskId": "3813318"
+    }
+  ],
+  "water": {
+    "deep_color": [
+      0.25,
+      0.58,
+      0.62
+    ],
+    "light_color": [
+      0.5,
+      0.79,
+      0.81
+    ]
+  },
+  "waterShader": "res://shaders/park_water_v2.gdshader",
+  "themeId": "amusement"
+}

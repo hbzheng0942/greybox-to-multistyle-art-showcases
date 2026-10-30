@@ -1,0 +1,53 @@
+{
+  "game": "bubble-buddies",
+  "engine": "Godot4.7.2",
+  "default_style": "d1-animal-city",
+  "styles": [
+    {
+      "id": "greybox",
+      "name": "Bubble Buddies v9",
+      "entry": "styles/greybox/play.tscn",
+      "status": "greybox accepted for art input; final release acceptance separate"
+    },
+    {
+      "id": "d1-animal-city",
+      "name": "Animal City / 拟人动物都市",
+      "entry": "styles/d1-animal-city/play.tscn",
+      "source_revision": "d1-whole-shop-r9 / CONTROL46",
+      "status": "whole-shop integrated development; H4 evidence and user visual review pending",
+      "native_verified": false,
+      "user_accepted": false
+    },
+    {
+      "id": "d2-handcrafted-coop",
+      "name": "Handcrafted co-op",
+      "entry": null,
+      "status": "selected concept; queued"
+    },
+    {
+      "id": "d3-cel-dusk",
+      "name": "Cel dusk",
+      "entry": null,
+      "status": "selected concept; queued"
+    },
+    {
+      "id": "d4-riso",
+      "name": "Riso",
+      "entry": null,
+      "status": "selected concept; queued"
+    }
+  ],
+  "process_only_original_lineage": [
+    "D01 quirky low-poly",
+    "D03 cardboard puppet",
+    "D05 anime cel",
+    "D10 block pixel"
+  ],
+  "lineage_note": "Original D01 and independent WorkBuddy D1 are distinct experiments.",
+  "package_checks": {
+    "headless_import": "pass",
+    "headless_entry_assembly": "pass",
+    "visual_review": "staged native clean screenshot reviewed; service-loop/H4/user acceptance pending",
+    "human_accepted": false
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "style_id": "D05",
+  "complete_sample": false,
+  "scope": "current bound models from original art-v1 qualification registry; no raw supplier records",
+  "models": [
+    {
+      "asset_id": "D05-staff",
+      "role": "character",
+      "file": "process/original-lineage/D05/assets/D05-staff/asset.glb",
+      "sha256": "d5f92993eb831c0258638c4ec64bcd43be162ec61a24e960a370dad1914fb025",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-pet",
+      "role": "pet",
+      "file": "process/original-lineage/D05/assets/D05-pet/asset.glb",
+      "sha256": "764959b8674ad2a913e904028683a82fe4d036aedd03434ab488c5f88bce3a55",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_receive_large",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_receive_large/asset.glb",
+      "sha256": "1d8e62730a078b18d1a627afa6f9b121f278d99637a64aaa345db6f8623820bb",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_receive_compact",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_receive_compact/asset.glb",
+      "sha256": "28783cb98b898e7d2fc3f81cbe66036713fb5a307a5abbe33ef2e30c4b5d9c68",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_buffer",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_buffer/asset.glb",
+      "sha256": "f5d88f5d38c7da371a5230176ac4e5e7be16350b7eeb6cb91792037d79e873a2",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_bath",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_bath/asset.glb",
+      "sha256": "e75c17ed815da6ce6ea41ff1c1ab36987d0587726e6aebffe9ffbe047bfac151",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_dryer",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_dryer/asset.glb",
+      "sha256": "1aff6fdb51453e2338886fea0c414edb8d1e504bb92b5d8193284dd581611efc",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_handoff",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_handoff/asset.glb",
+      "sha256": "38d9eb714926c34da5925160d7cb42d6d394c473a5b77036f39d3186fdef3d20",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_groom",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_groom/asset.glb",
+      "sha256": "3c4d8668550f26d4775cf26b11856f0e01a77f2d170b98c8674c7c69b47c91dc",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_laundry_body",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_laundry_body/asset.glb",
+      "sha256": "dcfc26db52058180569fa62d89565580c1f772c99a60f4299f22b3caa7606afe",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_laundry_door",
+      "role": "movable_part",
+      "file": "process/original-lineage/D05/assets/D05-eq_laundry_door/asset.glb",
+      "sha256": "60d95dc03eddb4cd7af490dd4879524b9e62ca99c2e571ad57c80205c2e90e9e",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_return",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_return/asset.glb",
+      "sha256": "f2c3186be28bcc3542afa2f8fed0950a2084dbd51cab0c89ee4f1aa070d6efb4",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_towel_rack",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_towel_rack/asset.glb",
+      "sha256": "e90e39be439a212b060f7d8d037c3ee62591e6ad4483348422e93e87c94a5f43",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-eq_treatment",
+      "role": "station",
+      "file": "process/original-lineage/D05/assets/D05-eq_treatment/asset.glb",
+      "sha256": "a815c4238ced35d1889b461d4fbf58e418836996ce6b2018984539baef0ebbab",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-tool_nozzle",
+      "role": "hand_tool",
+      "file": "process/original-lineage/D05/assets/D05-tool_nozzle/asset.glb",
+      "sha256": "434865fa85f991497466e5de8c5acf2ba328790ea3f651dcc63797f4f96b5b28",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-tool_comb",
+      "role": "tool",
+      "file": "process/original-lineage/D05/assets/D05-tool_comb/asset.glb",
+      "sha256": "2fa1f875b148a33ab382cdf25c256269fb2c9ab4cb850d45283ed6dbb7c04887",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-tool_shears_half",
+      "role": "articulated_tool_part",
+      "file": "process/original-lineage/D05/assets/D05-tool_shears_half/asset.glb",
+      "sha256": "fc4dac66ecb3b43b72d90275d747832b75d488500cdeced69c6c9ba90102e944",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-tool_paw_clipper_half",
+      "role": "articulated_tool_part",
+      "file": "process/original-lineage/D05/assets/D05-tool_paw_clipper_half/asset.glb",
+      "sha256": "ea9a65de5cc1154dc93f50eecb0985d3a16ec27a7f0bbe6b0f98917f818fb84e",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-tool_paw_file",
+      "role": "hand_tool",
+      "file": "process/original-lineage/D05/assets/D05-tool_paw_file/asset.glb",
+      "sha256": "11cd7c1420218b5157fa1cd30e1e3a06793fad981f47aaa73da59789250b3bfb",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-towel_sheet",
+      "role": "deformable_prop",
+      "file": "process/original-lineage/D05/assets/D05-towel_sheet/towel-forms.glb",
+      "sha256": "7bbcb9c5ae95b73421bd8d22b4219659559e9bc93c96250def60963d82c94dee",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-owner_bench",
+      "role": "furniture",
+      "file": "process/original-lineage/D05/assets/D05-owner_bench/asset.glb",
+      "sha256": "183f58cc8f40a301781a2db4ca0f1083d132e7aa2e0dede346307a411edbc34b",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-pet_gate",
+      "role": "environment_part",
+      "file": "process/original-lineage/D05/assets/D05-pet_gate/asset.glb",
+      "sha256": "a857b1f16db175d5585390a2b202d9c273d21ad71c8d1630ee82c81722972578",
+      "status": "bound",
+      "native_runtime_verified": false
+    },
+    {
+      "asset_id": "D05-sign_frame",
+      "role": "environment_part",
+      "file": "process/original-lineage/D05/assets/D05-sign_frame/asset.glb",
+      "sha256": "dcf581eefe312297ef368b37518ac699ef5beb01af8761ddbb45c9b2799a807f",
+      "status": "bound",
+      "native_runtime_verified": false
+    }
+  ]
+}

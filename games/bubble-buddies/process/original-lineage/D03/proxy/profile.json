@@ -1,0 +1,31 @@
+{
+  "name": "纸偶狐兔",
+  "shape": "paper",
+  "wet": "a5c8bd",
+  "dry": "e1c99b",
+  "shell": "c89563",
+  "accent": "c5704e",
+  "staff": [
+    "bc6b3c",
+    "cfc1a3"
+  ],
+  "pet": [
+    "c78d4b",
+    "dbcca0",
+    "999c7e"
+  ],
+  "wall": "b9a183",
+  "schema": 1,
+  "kind": "art_proxy",
+  "style_id": "D03",
+  "stage": "S6",
+  "quality": "cheap native massing; not H4 sample",
+  "staff_height": 1.54,
+  "staff_body_width": 0.48,
+  "pet_width": 0.58,
+  "pet_depth": 0.79,
+  "pet_height": 0.7,
+  "pet_support_local_y": -0.03,
+  "towel_fold_center_local_y": -0.04,
+  "source_design_sha256": "1faf46314b245d0ba779cf0dfe99f059a383fb8f6e84c07c9cbaa6b58d492043"
+}

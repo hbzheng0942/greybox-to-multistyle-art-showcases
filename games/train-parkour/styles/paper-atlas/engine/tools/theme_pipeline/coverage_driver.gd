@@ -1,0 +1,1 @@
+../../../../../shared/engine-main/tools/theme_pipeline/coverage_driver.gd

@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://levels/labs/spatial_full_lab/spatial_full_lab.gd" id="1_lab"]
+[ext_resource type="Script" path="res://scripts/spatial/spatial_full_r2_route.gd" id="2_route"]
+
+
+
+
+[sub_resource type="ProceduralSkyMaterial" id="SkyMaterial"]
+sky_top_color = Color(0.14, 0.24, 0.34, 1)
+sky_horizon_color = Color(0.62, 0.73, 0.78, 1)
+ground_bottom_color = Color(0.12, 0.19, 0.23, 1)
+ground_horizon_color = Color(0.62, 0.73, 0.78, 1)
+
+[sub_resource type="Sky" id="Sky"]
+sky_material = SubResource("SkyMaterial")
+
+[sub_resource type="Environment" id="Environment"]
+background_mode = 2
+sky = SubResource("Sky")
+ambient_light_source = 3
+ambient_light_color = Color(0.67, 0.8, 0.87, 1)
+ambient_light_energy = 0.65
+reflected_light_source = 2
+tonemap_mode = 2
+fog_enabled = true
+fog_light_color = Color(0.57, 0.69, 0.76, 1)
+fog_density = 0.00045
+
+[node name="ControllerLab" type="Node3D"]
+script = ExtResource("1_lab")
+geometry_step = 4.0
+
+[node name="RouteRoot" type="Node3D" parent="."]
+
+[node name="MainRoute" type="Path3D" parent="RouteRoot"]
+script = ExtResource("2_route")
+
+
+
+[node name="GameplayRoot" type="Node3D" parent="."]
+
+[node name="PresentationRoot" type="Node3D" parent="."]
+
+[node name="EnvironmentRoot" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="EnvironmentRoot"]
+environment = SubResource("Environment")
+
+[node name="Sun" type="DirectionalLight3D" parent="EnvironmentRoot"]
+rotation_degrees = Vector3(-42, -28, 0)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 180.0
+
+[node name="DebugRoot" type="Node3D" parent="."]
+
+[node name="PlayerSpawn" type="Marker3D" parent="."]

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/tuning.gd" id="1_tuning"]
+
+[resource]
+script = ExtResource("1_tuning")
+move_speed = 7.2
+acceleration = 48.0
+braking = 64.0
+diameter_scale = 1.0
+fit_margin = 0.95
+capture_factor = 0.9
+enforce_tier_gate = false
+continuous_growth = true
+swallow_time_scale = 1.0
+growth_blend = 0.12
+round_seconds = 60.0
+camera_scale = 1.0
+sound_enabled = true
+camera_fov = 52.0
+camera_pitch = 52.0
+camera_lookahead = 0.16
+camera_lag = 0.09
+joystick_radius = 55.0
+sfx_volume = 0.8
+shore_margin = 0.18

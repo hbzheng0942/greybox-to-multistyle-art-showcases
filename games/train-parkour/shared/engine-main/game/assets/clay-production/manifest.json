@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "status": "native_reviewed_first_kit_quality_pending",
+  "assets": [
+    {
+      "id": "ceramic-lantern",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/ceramic-lantern.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        1.8138502836227417,
+        5.769999980926514,
+        1.8138502836227417
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "9809af9787c162991dde5cfb6941d2de378dfc88f65227d1b8fee007106f78a7",
+      "triangles": 3472
+    },
+    {
+      "id": "service-cabinet",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/service-cabinet.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        3.299999952316284,
+        3.299999952316284,
+        1.855000078678131
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "b3f001a6f973ac5eadad7a702c2b772267438da5a3ee86d1bc30eb6f06c933f4",
+      "triangles": 2576
+    },
+    {
+      "id": "ventilation-fan",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/ventilation-fan.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        3.5,
+        4.150000095367432,
+        1.050000011920929
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "507ce58de225b55d4e6640c87f94c1d93dca7b6f87418f61b098bf07feccff65",
+      "triangles": 2840
+    },
+    {
+      "id": "vault-rib",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/vault-rib.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        76.0,
+        15.100000381469727,
+        2.299999952316284
+      ],
+      "origin": "track frame center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "ffdefc807b32e86ea105fb80543e1260f7f19ec9012970da31eb0db0dbb0d6e0",
+      "triangles": 1244
+    },
+    {
+      "id": "platform-bench",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/platform-bench.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        3.200000047683716,
+        2.0749998092651367,
+        1.0499999523162842
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "2926211b2604db67e1a4b052c9ce69e2ee0254ad91de71fd63eda1eea300d8f5",
+      "triangles": 752
+    },
+    {
+      "id": "rail-sleeper",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/rail-sleeper.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        2.0999999046325684,
+        0.15000000223517418,
+        0.41999998688697815
+      ],
+      "origin": "track frame center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "223ed5a65db0f119acb8f6e66894039fa71398c60444745f9f624c86e284a359",
+      "triangles": 188
+    },
+    {
+      "id": "gallery-pier",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/gallery-pier.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        3.0999999046325684,
+        9.800000190734863,
+        3.299999952316284
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "1af190a9ba5f2b39395f6becad15241ec78ca52ecec0a1fe8d7b10b11f046dd3",
+      "triangles": 1980
+    },
+    {
+      "id": "service-bay",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/service-bay.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        11.0,
+        7.400000095367432,
+        3.0600000619888306
+      ],
+      "origin": "ground center",
+      "forward": "+Z Godot (-Y Blender), decorative front",
+      "sha256": "b4ae47c366ab6bf913400d0c382897c58ad6911d06f4262313c8ce94160f6a21",
+      "triangles": 2632
+    },
+    {
+      "id": "clay-carriage",
+      "method": "precise_blender_template",
+      "runtime": "game/assets/clay-production/clay-carriage.glb",
+      "source": "tools/art_workbench/build_clay_kit.py",
+      "dimensions_godot_m": [
+        2.675999879837036,
+        2.869999885559082,
+        12.279999732971191
+      ],
+      "origin": "ground center",
+      "forward": "-Z Godot (+Y Blender), travel axis; lantern rotationally symmetric",
+      "sha256": "eb168eb684bb5b10674668d095197a497ab0ec77eb311791857be9a179548153",
+      "triangles": 6264
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "theme_id": "odd_logistics",
+  "seed": 20261020,
+  "assets": [
+    {
+      "id": "proxy_kit",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/dcc/proxy-v1/proxy-kit.glb",
+      "provenance": "Independent Blender-authored S6 proxy; instantiate module roots only",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "measured_size_m": [
+          24.422455600349913,
+          62.13643820804813,
+          24.0
+        ],
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "runtime_sha256": "47b90b2c983b5b4231f10cee72f4666d3a71dea8c5db9e9558ca7517cc5867ca"
+      }
+    },
+    {
+      "id": "b2_lux_03_rack_bay_tall_open",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-03-rack_bay-tall_open/source.glb",
+      "provenance": "G1 image-conditioned calibration source; original retained, explicit local fit recorded where applicable",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "measured_size_m": [
+          13.9311203956604,
+          18.0,
+          5.918598532676697
+        ],
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "runtime_sha256": "4c064a43b390b0544a7bb207548def0748b6d599bd8e91b9b4b1c4d75cfb0356"
+      },
+      "source_asset_id": "B2-LUX-03-rack_bay-tall_open"
+    },
+    {
+      "id": "b2_lux_01_hero_carrier_core_frame",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-01-hero_carrier-core_frame/runtime-fit-v1.glb",
+      "provenance": "G1 image-conditioned calibration source; original retained, explicit local fit recorded where applicable",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "measured_size_m": [
+          2.549999952316284,
+          3.299999952316284,
+          12.0
+        ],
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "runtime_sha256": "b047809aed852e025827cfa370fa6d1db6b37c139980c5954d69cd76dfcb8a8e"
+      },
+      "source_asset_id": "B2-LUX-01-hero_carrier-core_frame"
+    },
+    {
+      "id": "b2_lux_04_warehouse_bay_high_storage",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-high_storage/source.glb",
+      "source_asset_id": "B2-LUX-04-warehouse_bay-high_storage",
+      "provenance": "Canonical G1 source PBR; reviewed geometry-only LODs share source material in sample assembly",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          23.112713,
+          24.0,
+          22.118066
+        ],
+        "runtime_sha256": "feceb9d6493a7e82bcefc6e066335077f4a655cf8d1c4bc71381436d557fe922"
+      }
+    },
+    {
+      "id": "b2_lux_04_warehouse_bay_low_receiving",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/source.glb",
+      "source_asset_id": "B2-LUX-04-warehouse_bay-low_receiving",
+      "provenance": "Canonical G1 source PBR; reviewed geometry-only LODs share source material in sample assembly",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          18.0,
+          9.702004,
+          14.696398
+        ],
+        "runtime_sha256": "bda343a87b7de513967d01ccda28997d5d9837dc47cf893860213a807fccfafd"
+      }
+    },
+    {
+      "id": "b2_lux_06_locked_freight_squat_strapped",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/source.glb",
+      "source_asset_id": "B2-LUX-06-locked_freight-squat_strapped",
+      "provenance": "Canonical G1 source PBR; reviewed geometry-only LODs share source material in sample assembly",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          2.180023,
+          1.8,
+          2.210878
+        ],
+        "runtime_sha256": "950f65abac60e9ad70647e9e69d318194fad83bc758b4c5bf0e103073b24580a"
+      }
+    },
+    {
+      "id": "b2_lux_08_cage_cart_dented_cage",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-08-cage_cart-dented_cage/source.glb",
+      "source_asset_id": "B2-LUX-08-cage_cart-dented_cage",
+      "provenance": "Canonical G1 source PBR; reviewed geometry-only LODs share source material in sample assembly",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          2.487785,
+          2.8,
+          2.959335
+        ],
+        "runtime_sha256": "4d9ff0c320c7d4c70ac7f335c5a7858275de05f189c12e686f1d3979cae04b2b"
+      }
+    },
+    {
+      "id": "b2_lux_22_scanner_bollard_offset_bollard",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-22-scanner_bollard-offset_bollard/source.glb",
+      "source_asset_id": "B2-LUX-22-scanner_bollard-offset_bollard",
+      "provenance": "User-approved G1 clean reference; shared PBR LOD functional art",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          0.8624305754061234,
+          1.0,
+          1.0167451131676084
+        ],
+        "runtime_sha256": "6f9b1673c31d83985a14f993e1f88393c16c79d4475e044fd739b5082fca4f26"
+      }
+    },
+    {
+      "id": "b2_lux_23_speed_lamp_bent_elbow",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-23-speed_lamp-bent_elbow/source.glb",
+      "source_asset_id": "B2-LUX-23-speed_lamp-bent_elbow",
+      "provenance": "User-approved G1 clean reference; shared PBR LOD functional art",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          0.30381636608863255,
+          1.0,
+          0.5147667698364603
+        ],
+        "runtime_sha256": "a2d5e37ca70ec7834a05ed1306b45c26b5749baae6c72bee7583984a3d57934e"
+      }
+    },
+    {
+      "id": "b2_lux_24_ceiling_lamp_fat_strip_lamp",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-24-ceiling_lamp-fat_strip_lamp/source.glb",
+      "source_asset_id": "B2-LUX-24-ceiling_lamp-fat_strip_lamp",
+      "provenance": "User-approved G1 clean reference; shared PBR LOD functional art",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          4.642296962438247,
+          1.0,
+          1.015423481437459
+        ],
+        "runtime_sha256": "79af1fb8200a73f7b8d4aef00128db03902ab4339b5e45a50b6c423f3e3f8c33"
+      }
+    },
+    {
+      "id": "b2_lux_11_soft_obstacle_plastic_cone",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-plastic_cone/source.glb",
+      "source_asset_id": "B2-LUX-11-soft_obstacle-plastic_cone",
+      "provenance": "User-approved G1 clean reference; shared PBR LOD functional art",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          0.7121846201110673,
+          1.0,
+          0.6814357754406891
+        ],
+        "runtime_sha256": "fedabda33320373096263eb8ef3ed202f9ee828f0d20324dbbd4cd41d757dcfc"
+      }
+    },
+    {
+      "id": "b2_lux_11_soft_obstacle_loose_bin",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-loose_bin/source.glb",
+      "source_asset_id": "B2-LUX-11-soft_obstacle-loose_bin",
+      "provenance": "User-approved G1 clean reference; shared PBR LOD functional art",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          1.2271619105136202,
+          1.0,
+          1.177862364028097
+        ],
+        "runtime_sha256": "e5abb42227499b1a4d038345f19fd02c4ccddb72f24b828104be132682133e13"
+      }
+    },
+    {
+      "id": "b2_lux_06_locked_freight_tall_lockbox",
+      "kind": "scene",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-tall_lockbox/source.glb",
+      "source_asset_id": "B2-LUX-06-locked_freight-tall_lockbox",
+      "provenance": "User-approved G1 clean reference; shared PBR LOD functional art",
+      "contract": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "-Z",
+        "pivot_m": [
+          0,
+          0,
+          0
+        ],
+        "measured_size_m": [
+          0.5642566373309994,
+          1.0,
+          0.5698743750173692
+        ],
+        "runtime_sha256": "ac261456d2f4a3cd1b29e064092fc9c8dd739a4f1937dc0d34c3fcc2125adb5f"
+      }
+    }
+  ],
+  "instances": []
+}

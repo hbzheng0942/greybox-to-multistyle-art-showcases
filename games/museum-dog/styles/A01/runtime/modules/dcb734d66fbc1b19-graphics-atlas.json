@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "path": "res://styles/A01/assets/authored_graphics_kit/poster-atlas-d3ed7c3c227f55fa.png",
+  "sha256": "d3ed7c3c227f55fa20fc3f69ce6a3404da5b7811d065220f9495a3100ed88527",
+  "columns": 3,
+  "rows": 2,
+  "cells": [
+    "mammoth_landscape",
+    "ammonite",
+    "ceramics",
+    "woodland_specimens",
+    "mammoth_anatomy",
+    "kids_discovery"
+  ]
+}

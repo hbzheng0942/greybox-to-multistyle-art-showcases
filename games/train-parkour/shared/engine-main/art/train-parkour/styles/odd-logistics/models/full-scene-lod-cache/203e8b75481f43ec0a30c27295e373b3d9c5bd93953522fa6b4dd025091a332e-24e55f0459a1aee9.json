@@ -1,0 +1,80 @@
+{
+  "base_index_count": 83877,
+  "base_triangles": 27959,
+  "base_vertex_count": 45814,
+  "cache_key": {
+    "bone_transforms": [],
+    "godot": "4.7.2-stable (official)",
+    "material_policy": "none",
+    "normal_merge_angle": 60.0,
+    "normal_split_angle": 25.0,
+    "schema": "b2-importer-mesh-lod/v1",
+    "source_sha256": "203e8b75481f43ec0a30c27295e373b3d9c5bd93953522fa6b4dd025091a332e"
+  },
+  "cache_reused": false,
+  "compiler_sha256": "4010ee1b18f31473d965d92a4000fec1ec0b1b1c0b7a42bfc34bf7773d20ba90",
+  "lod_count": 1,
+  "lods": [
+    {
+      "index": 0,
+      "index_count": 56421,
+      "indices_sha256": "0ae36bbc15c4356f3414499cef2d93c90628d8cf17e46d424875d858c8b6d1dc",
+      "screen_size": 2.0654687881469727,
+      "triangles": 18807
+    }
+  ],
+  "mesh": {
+    "path": "art/train-parkour/styles/odd-logistics/models/full-scene-lod-cache/203e8b75481f43ec0a30c27295e373b3d9c5bd93953522fa6b4dd025091a332e-24e55f0459a1aee9.res",
+    "sha256": "cb733629ec3f0ffb51e8e59beb5f4514377f7ad2d76e00dd44812303c5f9e909"
+  },
+  "original_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "219398659e43805f7fdb272b4e4dffc98789d12c8abe9c10684cbdb1b833bcc0",
+    "normals": "f1c1c32923a35b9d6ac8cef6f78421f9a7ea48eb43cfd98f942fa6dcad620ec3",
+    "tangents": "6bcc6615af9f02f307c4e978a210f46bffdc3f7f568e583c3ba47a51c8181682",
+    "uv": "75e1fc7bfe30aed24e084d92e4778dda4505e0820e39c2af630b493f1a917d4e",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "6e11be53a3654fec4328bf3f2e7a589d17f9ed0191cec3e81a8e48f0d408f756",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "preservation": {
+    "base_aabb_exact": true,
+    "base_primitive_exact": true,
+    "external_resource_dependencies": 0,
+    "highest_lod_scope": "Exact source positions, UV0, index order, primitive and AABB; ArrayMesh normal/tangent encoding may change decoded attribute bits.",
+    "importer_base_arrays_exact": true,
+    "materials": 0,
+    "reencoded_attributes": [
+      "normals",
+      "tangents"
+    ],
+    "saved_roundtrip_arrays_exact": true,
+    "textures_copied": 0,
+    "vertices_uv_indices_exact": true
+  },
+  "saved_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "219398659e43805f7fdb272b4e4dffc98789d12c8abe9c10684cbdb1b833bcc0",
+    "normals": "9f6d0bd084c48667d0a1433400a0d9bbb245152f547fe64e4b984cc4985b5a7e",
+    "tangents": "200012080983cad8317b0cc81fa39a2f5a524d502b5e72eb55e335b8c48c5b92",
+    "uv": "75e1fc7bfe30aed24e084d92e4778dda4505e0820e39c2af630b493f1a917d4e",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "6e11be53a3654fec4328bf3f2e7a589d17f9ed0191cec3e81a8e48f0d408f756",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "source_geometry": {
+    "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-03-rack_bay-tall_open/lod-v1/near.glb",
+    "sha256": "203e8b75481f43ec0a30c27295e373b3d9c5bd93953522fa6b4dd025091a332e"
+  },
+  "status": "compiled"
+}

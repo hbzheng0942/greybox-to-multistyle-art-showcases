@@ -1,0 +1,1 @@
+../../../../../../shared/engine-main/game/tests/behavior/spatial_full_driver.gd

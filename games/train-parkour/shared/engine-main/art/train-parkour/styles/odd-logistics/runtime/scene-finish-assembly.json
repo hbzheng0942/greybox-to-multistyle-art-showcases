@@ -1,0 +1,368 @@
+{
+  "schema": 1,
+  "stage": "S8_scene_rebuild_experiment",
+  "style_id": "odd-logistics",
+  "assets": [
+    {
+      "id": "B2-LUX-04-warehouse_bay-high_storage",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-high_storage/source.glb",
+        "sha256": "feceb9d6493a7e82bcefc6e066335077f4a655cf8d1c4bc71381436d557fe922"
+      },
+      "source_up": "+Y",
+      "source_front": "+Z",
+      "source_to_normalized": [
+        -5.778178,
+        0,
+        -7.076227192603654e-16,
+        0,
+        0,
+        5.778178,
+        0,
+        0,
+        7.076227192603654e-16,
+        0,
+        -5.778178,
+        0,
+        0.0,
+        11.999999463189601,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        23.112713,
+        24.0,
+        22.118066
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-high_storage/lod-v1/manifest.json",
+        "sha256": "4e318be4da6f5c552b0a47a8ddee26604472524dfb136fcc9aadc1eacb2520eb"
+      }
+    },
+    {
+      "id": "B2-LUX-04-warehouse_bay-low_receiving",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/source.glb",
+        "sha256": "bda343a87b7de513967d01ccda28997d5d9837dc47cf893860213a807fccfafd"
+      },
+      "source_up": "+Y",
+      "source_front": "+Z",
+      "source_to_normalized": [
+        -3.0,
+        0,
+        -3.6739403974420594e-16,
+        0,
+        0,
+        3.0,
+        0,
+        0,
+        3.6739403974420594e-16,
+        0,
+        -3.0,
+        0,
+        0.0,
+        4.851002097129822,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        18.0,
+        9.702004,
+        14.696398
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/lod-v1/manifest.json",
+        "sha256": "a7995c70133facc83c5bca0cf2ccf386e7e62d073aba67348a52ce9e9c8a07cb"
+      }
+    },
+    {
+      "id": "B2-LUX-06-locked_freight-squat_strapped",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/source.glb",
+        "sha256": "950f65abac60e9ad70647e9e69d318194fad83bc758b4c5bf0e103073b24580a"
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        2.725029,
+        0,
+        -0.0,
+        0,
+        0,
+        2.725029,
+        0,
+        0,
+        0.0,
+        0,
+        2.725029,
+        0,
+        -0.0,
+        0.9000000985070765,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        2.180023,
+        1.8,
+        2.210878
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-06-locked_freight-squat_strapped/lod-v1/manifest.json",
+        "sha256": "6da1f202f7240de2bc5998db0167650786d31578ab99d0ff01f6df7f9c3807f7"
+      }
+    },
+    {
+      "id": "B2-LUX-08-cage_cart-dented_cage",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-08-cage_cart-dented_cage/source.glb",
+        "sha256": "4d9ff0c320c7d4c70ac7f335c5a7858275de05f189c12e686f1d3979cae04b2b"
+      },
+      "source_up": "+Y",
+      "source_front": "+Z",
+      "source_to_normalized": [
+        -2.073154,
+        0,
+        -2.538881410239532e-16,
+        0,
+        0,
+        2.073154,
+        0,
+        0,
+        2.538881410239532e-16,
+        0,
+        -2.073154,
+        0,
+        0.0,
+        1.400000159132004,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        2.487785,
+        2.8,
+        2.959335
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-08-cage_cart-dented_cage/lod-v1/manifest.json",
+        "sha256": "53202cf091c4e91d7221d279847e35e84a74504a000fb46550d56fc55a28b159"
+      }
+    },
+    {
+      "id": "B2-LUX-03-rack_bay-tall_open",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-03-rack_bay-tall_open/source.glb",
+        "sha256": "4c064a43b390b0544a7bb207548def0748b6d599bd8e91b9b4b1c4d75cfb0356"
+      },
+      "source_up": "+Y",
+      "source_front": "+X",
+      "source_to_normalized": [
+        0.0,
+        0.0,
+        -6.0,
+        0,
+        0.0,
+        6.0,
+        0.0,
+        0,
+        6.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        9.0,
+        0.0,
+        1
+      ],
+      "result_size_m": [
+        13.93112,
+        18.0,
+        5.918599
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-03-rack_bay-tall_open/lod-v1/manifest.json",
+        "sha256": "0d58713e0be37aa16f89af344a776a0487c686358846639b402fd76f435a971d"
+      }
+    },
+    {
+      "id": "B2-LUX-03-rack_bay-squat_loaded",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-03-rack_bay-squat_loaded/source.glb",
+        "sha256": "47b814bddcb40c8c35148669c7bb1e537c3963a7d2db39debc208b493533ebe6",
+        "gltf_y_up_bounds": {
+          "min": [
+            -1.5,
+            -1.7223799228668213,
+            -3.3218958377838135
+          ],
+          "max": [
+            1.5,
+            1.7223799228668213,
+            3.3218958377838135
+          ]
+        },
+        "actual_triangles": 233443,
+        "nodes": [
+          {
+            "mesh": 0,
+            "name": "geometry_0"
+          }
+        ]
+      },
+      "source_up": "+Y",
+      "source_front": "+X",
+      "source_to_normalized": [
+        0,
+        0,
+        -3.0,
+        0,
+        0,
+        3.0,
+        0,
+        0,
+        3.0,
+        0,
+        0,
+        0,
+        0,
+        5.167139768600464,
+        0,
+        1
+      ],
+      "result_size_m": [
+        19.93137502670288,
+        10.334279537200928,
+        9.0
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/runtime/scene-finish-squat-lod.json",
+        "sha256": "e4956c06fe479ae97dc00b5278ff0f867aa07347ff3f611e8a0f91bce90bc5d5"
+      }
+    },
+    {
+      "id": "B2-LUX-07-soft_parcel-fat_sagging",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-07-soft_parcel-fat_sagging/source.glb",
+        "sha256": "7c5d6a948ec55652424070009fd86e39cf8191d0bc836ecf9992096c1961c03d",
+        "gltf_y_up_bounds": {
+          "min": [
+            -0.15000000596046448,
+            -0.09275951981544495,
+            -0.14825141429901123
+          ],
+          "max": [
+            0.15000000596046448,
+            0.09275951981544495,
+            0.14825141429901123
+          ]
+        },
+        "actual_triangles": 79992,
+        "nodes": [
+          {
+            "mesh": 0,
+            "name": "geometry_0"
+          }
+        ]
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        5.3902823235265105,
+        0,
+        0,
+        0,
+        0,
+        5.3902823235265105,
+        0,
+        0,
+        0,
+        0,
+        5.3902823235265105,
+        0,
+        -0.0,
+        0.5,
+        -0.0,
+        1
+      ],
+      "result_size_m": [
+        1.6170847613151258,
+        1.0,
+        1.5982339558675311
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/runtime/scene-finish-fat_sagging-lod.json",
+        "sha256": "789aa24fdd9eb3fa0054d5325c18220943a91293d803a59ff8b3eb5fd9905dbf"
+      }
+    },
+    {
+      "id": "B2-LUX-07-soft_parcel-lopsided_bundle",
+      "role": "environment",
+      "source": {
+        "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-07-soft_parcel-lopsided_bundle/source.glb",
+        "sha256": "8692cb7a269e1bea6eb687664c1623e193aeca212c78cc954bcd75cde3367d4d",
+        "gltf_y_up_bounds": {
+          "min": [
+            -0.3284286558628082,
+            -0.375,
+            -0.2997867166996002
+          ],
+          "max": [
+            0.3284286558628082,
+            0.375,
+            0.2997867166996002
+          ]
+        },
+        "actual_triangles": 78203,
+        "nodes": [
+          {
+            "mesh": 0,
+            "name": "geometry_0"
+          }
+        ]
+      },
+      "source_up": "+Y",
+      "source_front": "-Z",
+      "source_to_normalized": [
+        1.3333333333333333,
+        0,
+        0,
+        0,
+        0,
+        1.3333333333333333,
+        0,
+        0,
+        0,
+        0,
+        1.3333333333333333,
+        0,
+        -0.0,
+        0.5,
+        -0.0,
+        1
+      ],
+      "result_size_m": [
+        0.8758097489674885,
+        1.0,
+        0.7994312445322672
+      ],
+      "lod_manifest": {
+        "path": "art/train-parkour/styles/odd-logistics/runtime/scene-finish-lopsided_bundle-lod.json",
+        "sha256": "99096e9ff56c4ebec73f03fe87061d3823ccb9b30667011d0b038a840e246bf9"
+      }
+    }
+  ],
+  "new_gameplay_collision": false,
+  "status": "concept_finish_native_review_pending",
+  "limits": "No H4 or performance acceptance.",
+  "functional": {
+    "path": "art/train-parkour/styles/odd-logistics/runtime/scene-rebuild-functional.json",
+    "sha256": "9305da6274aac74124ca729acecb774ff7622fe3e44444cfe2f21f0bfdcd1776"
+  },
+  "design_scope": "Non-symmetric receiving hall and stacked cargo towers, direct approved-concept comparison"
+}

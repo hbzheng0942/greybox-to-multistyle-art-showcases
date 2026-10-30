@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "result": "pass",
+  "checked_file_paths": 4007,
+  "relative_resource_links": 1472,
+  "unique_assets": 941,
+  "unique_asset_bytes": 6231468413,
+  "game_manifest_records": 2995,
+  "checks": [
+    "repository-internal link closure",
+    "SHA256-addressed immutable resources",
+    "current game manifest hashes",
+    "streamed source and binary privacy scan",
+    "excluded cache/private folders"
+  ],
+  "errors": [],
+  "incremental_followup": "The only first-run finding was the report self-link before the --write output existed. Rechecked after output creation; reference now resolves. Asset/source checks unchanged."
+}

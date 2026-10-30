@@ -1,0 +1,1116 @@
+{
+  "schema_id": "bubble-buddies.concept-spatial-contract",
+  "schema_version": 1,
+  "artifact_role": "finite_room_concept_input",
+  "case_id": "bubble-buddies",
+  "round_id": "round-01",
+  "recorded_date": "2026-10-20",
+  "timezone": "Asia/Singapore",
+  "status": "source_derived_constraints_for_concept_exploration",
+  "approval_status": "not_a_style_selection_or_production_approval",
+  "purpose": "为同一已接受 v9 灰盒的差异化非写实卡通概念提供共同空间输入。概念图是外观目标，不是度量几何真值；交付仍需在原生玩法镜头和碰撞中验证。",
+  "workspace_root": "private-source-reference-omitted",
+  "engine_root": "game",
+  "coordinate_system": {
+    "vector_order": [
+      "x",
+      "y",
+      "z"
+    ],
+    "unit": "Godot world unit",
+    "up": "+y",
+    "plan_left_wet": "-x",
+    "plan_right_dry": "+x",
+    "plan_north_back": "-z",
+    "plan_south_front": "+z",
+    "floor_surface_y": 0.0,
+    "note": "所有数值均来自源码坐标或明确标注的简单算术推导；不把世界单位冒充实地测量。"
+  },
+  "camera": {
+    "constraint_class": "exact",
+    "node": "SharedCamera",
+    "projection": "orthogonal",
+    "size": 15.2,
+    "keep_aspect": "KEEP_HEIGHT",
+    "position": [
+      1.1,
+      17.0,
+      12.5
+    ],
+    "look_at": [
+      1.1,
+      0.0,
+      -0.4
+    ],
+    "current": true,
+    "viewport_pixels": [
+      1440,
+      900
+    ],
+    "window_override_pixels": [
+      1280,
+      800
+    ],
+    "renderer": "gl_compatibility",
+    "concept_view_requirement": "每张方向场景图应展示相同固定共享斜俯视玩法构图、两房与交接关系；可另加展示镜头，但不得替代玩法镜头。",
+    "native_readability_requirement": "人员、宠物、工位入口、窗内宠物、返窗通路与预警不能被屋顶、高装饰或画面效果遮蔽。"
+  },
+  "room": {
+    "constraint_class": "exact",
+    "floor_collision": {
+      "center": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "size_xyz": [
+        13.3,
+        0.4,
+        9.9
+      ]
+    },
+    "floor_plan_bounds_xz": {
+      "min": [
+        -6.65,
+        -4.95
+      ],
+      "max": [
+        6.65,
+        4.95
+      ]
+    },
+    "boundary_collision_boxes": [
+      {
+        "id": "BackWall",
+        "center": [
+          0.0,
+          1.3,
+          -4.95
+        ],
+        "size_xyz": [
+          13.6,
+          2.6,
+          0.3
+        ]
+      },
+      {
+        "id": "LeftWall",
+        "center": [
+          -6.65,
+          0.35,
+          0.0
+        ],
+        "size_xyz": [
+          0.3,
+          0.7,
+          10.0
+        ]
+      },
+      {
+        "id": "RightWall",
+        "center": [
+          6.65,
+          0.35,
+          0.0
+        ],
+        "size_xyz": [
+          0.3,
+          0.7,
+          10.0
+        ],
+        "baseline_visual_hidden": true
+      },
+      {
+        "id": "FrontWall",
+        "center": [
+          0.0,
+          0.15,
+          4.95
+        ],
+        "size_xyz": [
+          13.6,
+          0.3,
+          0.3
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "wet",
+        "side": "west",
+        "relationship": "x < 0",
+        "baseline_floor_visual_center": [
+          -3.2,
+          0.012,
+          0.0
+        ],
+        "baseline_floor_visual_size_xyz": [
+          6.3,
+          0.01,
+          9.6
+        ]
+      },
+      {
+        "id": "dry",
+        "side": "east",
+        "relationship": "x > 0",
+        "baseline_floor_visual_center": [
+          3.2,
+          0.013,
+          0.0
+        ],
+        "baseline_floor_visual_size_xyz": [
+          6.3,
+          0.01,
+          9.6
+        ]
+      }
+    ],
+    "zone_visual_note": "分区的左右关系保留；基线地面颜色、网格线和临时材质不构成美术设计要求。",
+    "roof": "baseline_has_no_roof; do_not_obscure_gameplay_view"
+  },
+  "central_partition": {
+    "constraint_class": "exact",
+    "wall_axis_x": 0.0,
+    "wall_height": 2.6,
+    "wall_thickness_x": 0.24,
+    "collision_layer": 5,
+    "solid_spans_z": [
+      {
+        "id": "SplashDivider0",
+        "min_z": -4.8,
+        "max_z": -1.325,
+        "center": [
+          0.0,
+          1.3,
+          -3.0625
+        ],
+        "size_xyz": [
+          0.24,
+          2.6,
+          3.475
+        ]
+      },
+      {
+        "id": "SplashDivider1",
+        "min_z": 0.225,
+        "max_z": 0.475,
+        "center": [
+          0.0,
+          1.3,
+          0.35
+        ],
+        "size_xyz": [
+          0.24,
+          2.6,
+          0.25
+        ]
+      },
+      {
+        "id": "SplashDivider2",
+        "min_z": 2.025,
+        "max_z": 2.4,
+        "center": [
+          0.0,
+          1.3,
+          2.2125
+        ],
+        "size_xyz": [
+          0.24,
+          2.6,
+          0.375
+        ]
+      }
+    ],
+    "handoff_windows": [
+      {
+        "id": "window_a",
+        "station_id": "bench0",
+        "center_z": -0.55,
+        "wall_gap_z": [
+          -1.325,
+          0.225
+        ],
+        "lintel_center": [
+          0.0,
+          2.275,
+          -0.55
+        ],
+        "lintel_size_xyz": [
+          0.24,
+          0.65,
+          1.55
+        ],
+        "visual_frame_side_centers_z": [
+          -1.285,
+          0.185
+        ]
+      },
+      {
+        "id": "window_b",
+        "station_id": "bench1",
+        "center_z": 1.25,
+        "wall_gap_z": [
+          0.475,
+          2.025
+        ],
+        "lintel_center": [
+          0.0,
+          2.275,
+          1.25
+        ],
+        "lintel_size_xyz": [
+          0.24,
+          0.65,
+          1.55
+        ],
+        "visual_frame_side_centers_z": [
+          0.515,
+          1.985
+        ]
+      }
+    ],
+    "window_rules": [
+      "窗台供宠物与毛巾交接和合法暂存，两面可操作；不增加人物穿窗通道。",
+      "常态宠物由湿区传到干区；毛巾可反向回流；两个窗口均不锁定单向。",
+      "窗上梁基线视觉透明度 0.20、顶框 0.30，且视觉不投影；碰撞不因此删除。新造型必须提供等效可见性。"
+    ],
+    "south_staff_door": {
+      "id": "staff_south_door",
+      "lintel_center": [
+        0.0,
+        2.4,
+        3.6
+      ],
+      "lintel_size_xyz": [
+        0.26,
+        0.4,
+        2.4
+      ],
+      "jambs": [
+        {
+          "center": [
+            0.0,
+            1.0,
+            2.45
+          ],
+          "size_xyz": [
+            0.3,
+            2.0,
+            0.12
+          ]
+        },
+        {
+          "center": [
+            0.0,
+            1.0,
+            4.75
+          ],
+          "size_xyz": [
+            0.3,
+            2.0,
+            0.12
+          ]
+        }
+      ],
+      "clear_span_between_jamb_inner_faces_z": [
+        2.51,
+        4.69
+      ],
+      "clear_span_derivation": "2.45 + 0.12/2 through 4.75 - 0.12/2; source arithmetic, not a new runtime test.",
+      "threshold_visual_center": [
+        0.0,
+        0.03,
+        3.55
+      ],
+      "threshold_visual_size_xyz": [
+        0.7,
+        0.035,
+        2.3
+      ],
+      "behavior": "常开，人员通过它跨区换工和救场。",
+      "art_boundary": "门构件贴隔墙；不得向干区交还台—B窗—A窗主通路伸出门扇、立柱或新碰撞。"
+    }
+  },
+  "stations": {
+    "count": 17,
+    "constraint_class": "exact",
+    "position_semantics": "station_positions logical base anchor; static collision box center is position + [0,0.32,0].",
+    "size_semantics": "size_xyz is the existing static collision box, not an approval to change footprint or interface.",
+    "common_visual_top_baseline": {
+      "center_y_above_station": 0.67,
+      "thickness_y": 0.1,
+      "extra_total_x": 0.06,
+      "extra_total_z": 0.06,
+      "note": "Current decorative top only; not a newly approved universal art-envelope limit."
+    },
+    "items": [
+      {
+        "id": "intake0",
+        "label": "接待1",
+        "zone": "wet",
+        "position": [
+          -4.6,
+          0.0,
+          -3.3
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "intake0_south"
+        ]
+      },
+      {
+        "id": "intake1",
+        "label": "接待2",
+        "zone": "wet",
+        "position": [
+          -3.0,
+          0.0,
+          -3.3
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "intake1_south"
+        ]
+      },
+      {
+        "id": "intake2",
+        "label": "接待3",
+        "zone": "wet",
+        "position": [
+          -1.4,
+          0.0,
+          -3.3
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "intake2_south"
+        ]
+      },
+      {
+        "id": "wash0",
+        "label": "洗/冲A",
+        "zone": "wet",
+        "position": [
+          -4.7,
+          0.0,
+          -0.4
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "wash0_east"
+        ]
+      },
+      {
+        "id": "wash1",
+        "label": "洗/冲B",
+        "zone": "wet",
+        "position": [
+          -4.7,
+          0.0,
+          2.2
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "wash1_east"
+        ]
+      },
+      {
+        "id": "dryer",
+        "label": "自动吹干",
+        "zone": "dry",
+        "position": [
+          5.0,
+          0.0,
+          -1.6
+        ],
+        "size_xyz": [
+          1.8,
+          0.64,
+          1.65
+        ],
+        "face_ids": [
+          "dryer_west"
+        ]
+      },
+      {
+        "id": "bench0",
+        "label": "交接窗A",
+        "zone": "shared_partition",
+        "position": [
+          0.0,
+          0.0,
+          -0.55
+        ],
+        "size_xyz": [
+          1.25,
+          0.64,
+          1.55
+        ],
+        "face_ids": [
+          "bench0_west",
+          "bench0_east"
+        ]
+      },
+      {
+        "id": "bench1",
+        "label": "交接窗B",
+        "zone": "shared_partition",
+        "position": [
+          0.0,
+          0.0,
+          1.25
+        ],
+        "size_xyz": [
+          1.25,
+          0.64,
+          1.55
+        ],
+        "face_ids": [
+          "bench1_west",
+          "bench1_east"
+        ]
+      },
+      {
+        "id": "brush",
+        "label": "修毛美容",
+        "zone": "dry",
+        "position": [
+          5.0,
+          0.0,
+          0.5
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "brush_west"
+        ]
+      },
+      {
+        "id": "laundry",
+        "label": "洗烘毛巾",
+        "zone": "wet",
+        "position": [
+          -2.35,
+          0.0,
+          3.25
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "laundry_north"
+        ]
+      },
+      {
+        "id": "exit",
+        "label": "交还",
+        "zone": "dry",
+        "position": [
+          5.0,
+          0.0,
+          2.5
+        ],
+        "size_xyz": [
+          1.45,
+          0.64,
+          1.45
+        ],
+        "face_ids": [
+          "exit_west"
+        ]
+      },
+      {
+        "id": "rack",
+        "label": "毛巾架",
+        "zone": "dry",
+        "position": [
+          5.0,
+          0.0,
+          -3.7
+        ],
+        "size_xyz": [
+          1.0,
+          0.64,
+          1.0
+        ],
+        "face_ids": [
+          "rack_west"
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "除虫泡泡罩",
+        "zone": "wet",
+        "position": [
+          -5.6,
+          0.0,
+          -1.8
+        ],
+        "size_xyz": [
+          1.15,
+          0.64,
+          1.15
+        ],
+        "face_ids": [
+          "treatment_east"
+        ]
+      },
+      {
+        "id": "intake_dry",
+        "label": "干宠接待",
+        "zone": "dry",
+        "position": [
+          1.35,
+          0.0,
+          -3.5
+        ],
+        "size_xyz": [
+          1.15,
+          0.64,
+          1.15
+        ],
+        "face_ids": [
+          "intake_dry_south"
+        ]
+      },
+      {
+        "id": "paws",
+        "label": "爪爪护理",
+        "zone": "dry",
+        "position": [
+          2.85,
+          0.0,
+          -3.5
+        ],
+        "size_xyz": [
+          1.15,
+          0.64,
+          1.15
+        ],
+        "face_ids": [
+          "paws_south"
+        ]
+      },
+      {
+        "id": "buffer_wet",
+        "label": "湿区暂存1只",
+        "zone": "wet",
+        "position": [
+          -4.8,
+          0.0,
+          4.1
+        ],
+        "size_xyz": [
+          0.9,
+          0.64,
+          0.9
+        ],
+        "face_ids": [
+          "buffer_wet_east"
+        ]
+      },
+      {
+        "id": "buffer_dry",
+        "label": "干区暂存1只",
+        "zone": "dry",
+        "position": [
+          5.7,
+          0.0,
+          4.1
+        ],
+        "size_xyz": [
+          0.9,
+          0.64,
+          0.9
+        ],
+        "face_ids": [
+          "buffer_dry_west"
+        ]
+      }
+    ]
+  },
+  "operation_faces": {
+    "count": 19,
+    "constraint_class": "exact",
+    "meaning": "15 个非窗口工位各一面，2 个窗口各两面。这是现有站位标记/空间审计接口，不是新增强制吸附或允许隔墙交互。",
+    "items": [
+      {
+        "id": "intake0_south",
+        "station_id": "intake0",
+        "position": [
+          -4.6,
+          0.02,
+          -2.12
+        ],
+        "approach_from": "south",
+        "room": "wet"
+      },
+      {
+        "id": "intake1_south",
+        "station_id": "intake1",
+        "position": [
+          -3.0,
+          0.02,
+          -2.12
+        ],
+        "approach_from": "south",
+        "room": "wet"
+      },
+      {
+        "id": "intake2_south",
+        "station_id": "intake2",
+        "position": [
+          -1.4,
+          0.02,
+          -2.12
+        ],
+        "approach_from": "south",
+        "room": "wet"
+      },
+      {
+        "id": "wash0_east",
+        "station_id": "wash0",
+        "position": [
+          -3.52,
+          0.02,
+          -0.4
+        ],
+        "approach_from": "east",
+        "room": "wet"
+      },
+      {
+        "id": "wash1_east",
+        "station_id": "wash1",
+        "position": [
+          -3.52,
+          0.02,
+          2.2
+        ],
+        "approach_from": "east",
+        "room": "wet"
+      },
+      {
+        "id": "dryer_west",
+        "station_id": "dryer",
+        "position": [
+          3.7,
+          0.02,
+          -1.6
+        ],
+        "approach_from": "west",
+        "room": "dry"
+      },
+      {
+        "id": "bench0_west",
+        "station_id": "bench0",
+        "position": [
+          -1.18,
+          0.02,
+          -0.55
+        ],
+        "approach_from": "west",
+        "room": "wet"
+      },
+      {
+        "id": "bench0_east",
+        "station_id": "bench0",
+        "position": [
+          1.18,
+          0.02,
+          -0.55
+        ],
+        "approach_from": "east",
+        "room": "dry"
+      },
+      {
+        "id": "bench1_west",
+        "station_id": "bench1",
+        "position": [
+          -1.18,
+          0.02,
+          1.25
+        ],
+        "approach_from": "west",
+        "room": "wet"
+      },
+      {
+        "id": "bench1_east",
+        "station_id": "bench1",
+        "position": [
+          1.18,
+          0.02,
+          1.25
+        ],
+        "approach_from": "east",
+        "room": "dry"
+      },
+      {
+        "id": "brush_west",
+        "station_id": "brush",
+        "position": [
+          3.7,
+          0.02,
+          0.5
+        ],
+        "approach_from": "west",
+        "room": "dry"
+      },
+      {
+        "id": "laundry_north",
+        "station_id": "laundry",
+        "position": [
+          -2.35,
+          0.02,
+          2.1
+        ],
+        "approach_from": "north",
+        "room": "wet"
+      },
+      {
+        "id": "exit_west",
+        "station_id": "exit",
+        "position": [
+          3.7,
+          0.02,
+          2.5
+        ],
+        "approach_from": "west",
+        "room": "dry"
+      },
+      {
+        "id": "rack_west",
+        "station_id": "rack",
+        "position": [
+          3.85,
+          0.02,
+          -3.7
+        ],
+        "approach_from": "west",
+        "room": "dry"
+      },
+      {
+        "id": "treatment_east",
+        "station_id": "treatment",
+        "position": [
+          -4.5,
+          0.02,
+          -1.8
+        ],
+        "approach_from": "east",
+        "room": "wet"
+      },
+      {
+        "id": "intake_dry_south",
+        "station_id": "intake_dry",
+        "position": [
+          1.35,
+          0.02,
+          -2.32
+        ],
+        "approach_from": "south",
+        "room": "dry"
+      },
+      {
+        "id": "paws_south",
+        "station_id": "paws",
+        "position": [
+          2.85,
+          0.02,
+          -2.32
+        ],
+        "approach_from": "south",
+        "room": "dry"
+      },
+      {
+        "id": "buffer_wet_east",
+        "station_id": "buffer_wet",
+        "position": [
+          -3.7,
+          0.02,
+          4.1
+        ],
+        "approach_from": "east",
+        "room": "wet"
+      },
+      {
+        "id": "buffer_dry_west",
+        "station_id": "buffer_dry",
+        "position": [
+          4.6,
+          0.02,
+          4.1
+        ],
+        "approach_from": "west",
+        "room": "dry"
+      }
+    ],
+    "window_helper_distinction": {
+      "actual_marker_and_layout_audit_x_offsets": [
+        -1.18,
+        1.18
+      ],
+      "get_station_access_fallback_returns": {
+        "bench0": [
+          -1.1,
+          0.02,
+          -0.55
+        ],
+        "bench1": [
+          1.1,
+          0.02,
+          1.25
+        ]
+      },
+      "note": "两个入口不同来源的现有数值均记录，未以概念契约将它们统一或改写。运行目标评分对窗台使用当前人物所在侧的 ±1.18 点。"
+    }
+  },
+  "right_pickup_area": {
+    "constraint_class": "relational",
+    "role": "交还后的表现区；人物仍被完整 RightWall 碰撞限制在店内。",
+    "baseline_display_geometry": {
+      "court_center": [
+        8.0,
+        -0.17,
+        0.0
+      ],
+      "court_size_xyz": [
+        2.4,
+        0.32,
+        9.8
+      ],
+      "court_plan_bounds_xz": {
+        "min": [
+          6.8,
+          -4.9
+        ],
+        "max": [
+          9.2,
+          4.9
+        ]
+      },
+      "curb_center": [
+        9.25,
+        0.08,
+        0.0
+      ],
+      "curb_size_xyz": [
+        0.18,
+        0.18,
+        9.8
+      ],
+      "waiting_owner_position": [
+        8.2,
+        0.0,
+        1.35
+      ],
+      "waiting_bench_center": [
+        8.15,
+        0.35,
+        -0.45
+      ],
+      "pet_gate_visual_center": [
+        6.65,
+        0.22,
+        2.4
+      ],
+      "pet_gate_visual_size_xyz": [
+        0.16,
+        0.44,
+        2.0
+      ]
+    },
+    "exact_reunion_path_anchors": {
+      "start": [
+        5.0,
+        0.77,
+        2.5
+      ],
+      "destination": [
+        7.9,
+        0.0,
+        2.4
+      ],
+      "after_age_4_seconds": "destination.z increases by (age - 4.0) * 1.0",
+      "removal_age_seconds": 6.0
+    },
+    "art_freedom": "主人、长凳、接宠廊及其环境承接可重做造型；须保留右侧接回宠物的可见叙事、动画路径与共享镜头容纳关系。不得把表现门设计成玩家新出口。"
+  },
+  "interaction_and_dynamic_clearance": {
+    "constraint_class": "exact",
+    "player_capsule": {
+      "radius": 0.3,
+      "height": 1.2,
+      "center_y_above_root": 0.6
+    },
+    "station_reach_radius_xz": 1.85,
+    "station_reach_ray_height": 0.5,
+    "station_reach_requires_existing_line_of_sight": true,
+    "loose_pet_catch_radius_xz": 1.45,
+    "catch_requires_existing_line_of_sight": true,
+    "pet_station_root_offset": [
+      0.0,
+      0.75,
+      0.0
+    ],
+    "pet_carry_root": {
+      "forward_distance": 0.58,
+      "height": 0.9,
+      "visual_follows": "player Visual yaw",
+      "logical_follows": "facings[pid]"
+    },
+    "towel_station_root_offset": [
+      0.0,
+      0.82,
+      0.0
+    ],
+    "towel_carry_root": {
+      "forward_distance": 0.55,
+      "height": 0.91
+    },
+    "loose_pet_patrol_lane": [
+      [
+        -3.4,
+        0.0,
+        0.35
+      ],
+      [
+        -1.3,
+        0.0,
+        0.35
+      ],
+      [
+        -1.3,
+        0.0,
+        1.65
+      ],
+      [
+        -3.3,
+        0.0,
+        1.45
+      ]
+    ],
+    "movement": {
+      "empty_speed": 6.0,
+      "pet_carry_speed": 5.4,
+      "puddle_multiplier": 0.78,
+      "direction_frame": "screen_aligned",
+      "horizontal_start_and_stop": "immediate"
+    },
+    "import_rule": "美术资源不得隐式加入碰撞、脚本、相机或灯光来覆盖既有空间和运动接口。",
+    "note": "这些锚点是根节点/逻辑值，不代表新模型脚底或抱持接触已经校准。新模型需从不可变源均匀归一化并验证实际接触。"
+  },
+  "constraint_classes": {
+    "exact": {
+      "meaning": "本轮概念与后续接入不得改变的具体玩法和几何接口。",
+      "preserve": [
+        "camera 的玩法镜头参数与 viewport 基线",
+        "room.floor_collision 和 boundary_collision_boxes",
+        "central_partition 的实墙、窗台、上梁、南门框碰撞",
+        "17 个 station ID、逻辑坐标、台体碰撞尺寸与占位语义",
+        "19 个 operation_faces 的现有站位与工位侧向关系",
+        "interaction_and_dynamic_clearance 的胶囊、距离、视线、锚点、跑宠通道与移动参数",
+        "原有服务规则、所有权、容量、计时、发单与补救逻辑"
+      ]
+    },
+    "relational": {
+      "meaning": "视觉表达可以重做，但空间及合作关系必须清楚。",
+      "preserve": [
+        "左湿右干，两间可辨认的功能房间",
+        "中央完整隔墙上恰有 A/B 两个交接窗，南端一个人员跨区门",
+        "常态隔窗传宠与毛巾回流；跨门是换工和救场路径",
+        "北侧接待，左侧洗护设备，右侧整理/交还工位，各区南侧暂存",
+        "右侧接宠表现区与店内交还台的空间连续性",
+        "两个玩家、工位用途、服务状态和可补救事故的可辨认关系"
+      ]
+    },
+    "bounded": {
+      "meaning": "允许造型变化，但受到实际操作、视线和状态可读性的包络约束；未批准额外数值包络。",
+      "rules": [
+        "柜台、设备外观不侵入操作面、相邻工作站或可走路径；不偷偷加入新碰撞。",
+        "门框、门饰保持贴墙，干区交还台至 B 窗再到 A 窗的往返视线和路线保持可用。",
+        "窗口上梁、顶框与屋顶处理须保留窗内宠物可见性；不能以实顶遮住玩法画面。",
+        "角色帽子、宠物耳朵/尾巴/毛簇、设备罩体的视觉体积须在抱宠急转、交窗、落台和双人相邻时验证。",
+        "正常宠物轮廓须给炸毛/歪刘海留出明显变化；脏、泡沫、湿、干、包巾、护理成果与预警不能被材质噪声吞没。",
+        "标识和特效不遮挡订单、角色身份、目标高亮或紧急状态。",
+        "接宠廊外观可创作，但不改变右侧玩家边界或宠物回家动画接口。"
+      ],
+      "unapproved_numeric_envelopes": [
+        "new asset overhang limits",
+        "maximum visual character height",
+        "screen-space outline width",
+        "effect occupancy and performance budgets"
+      ]
+    },
+    "free": {
+      "meaning": "在以上约束内可做真正风格差异的外观设计。",
+      "design_dimensions": [
+        "可爱、欢乐、宠物闹腾与队友救场的店铺身份和环境叙事",
+        "建筑装饰语汇、柜台/设备造型、材质、色彩、图案与非写实照明",
+        "员工服饰、围裙、面部与角色比例语言",
+        "宠物品类、体型/轮廓语言与无伤害喜剧表情",
+        "毛巾、工具、导视、工序图标和 UI 的统一视觉语汇",
+        "手绘、赛璐璐、纸艺/布偶、软陶、玩具等媒介表达及对应状态特效"
+      ],
+      "not_locked_by_greybox": [
+        "yellow-blue palette",
+        "primitive mesh shapes",
+        "temporary grid",
+        "existing pet breed assumptions",
+        "current decorative prop styling"
+      ]
+    }
+  },
+  "concept_readback_checks": [
+    "同一斜俯视视角内仍可一眼指出左湿右干、两个交接窗、南门和右侧接宠区。",
+    "17 个工位的位置与角色入口不被概念重新排布；渲染图不被用作坐标权威。",
+    "角色忙碌和宠物闹腾可读，同时留出工作面、搬运动线和队友救场通路。",
+    "风格差异至少体现在轮廓/形体构造、材质媒介、光影边界或动作表达，而非只换配色。",
+    "原生适配、资产预算、风格选择和样段验收仍是后续独立步骤，本文件不声明它们已完成。"
+  ],
+  "spatial_scope": {
+    "mode": "finite",
+    "space_ids": [
+      "wet",
+      "dry",
+      "owner_court"
+    ],
+    "transition_ids": [
+      "handoff_a",
+      "handoff_b",
+      "staff_south",
+      "pet_reunion"
+    ],
+    "segments": []
+  },
+  "extends": {
+    "path": "private-source-reference-omitted",
+    "sha256": "57ba97c3690696b18c1cd89f8756153b3c81cacc3a9eb16edf98fc38f92fb17c",
+    "change": "Adds finite-space coverage IDs only; all existing coordinates and behaviors unchanged."
+  }
+}

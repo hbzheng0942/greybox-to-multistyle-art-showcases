@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "pixel_skyline_v2",
+  "status": "development",
+  "baseline": "art/themes/baselines/m1.7r2-unified-v2.json",
+  "application_scene": "game/scenes/app/spatial_full_r2_lab.tscn",
+  "camera_policy": "baseline",
+  "recipe": "art/themes/pixel_skyline_v2/recipe.json",
+  "catalog": "art/themes/pixel_skyline_v2/catalog.json",
+  "presentation_script": "game/themes/pixel_skyline_v2/presentation.gd",
+  "render_profile": {
+    "mode": "pixel",
+    "divisor": 2
+  },
+  "production_stage": "Atelier tunnel and return/observatory art samples; native concept review separate from technical acceptance",
+  "spatial_contract": "Frozen R2 input; authored world uses metres, +Y up, -Z forward and identity runtime transform",
+  "lux3d_version": "G1"
+}

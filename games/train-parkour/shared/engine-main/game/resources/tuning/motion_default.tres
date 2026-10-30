@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MotionTuning" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/motion_tuning.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+camera_distance = 15.0
+camera_height = 5.8
+camera_lookahead = 40.0
+camera_response = 18.0
+fov_fast = 86.0

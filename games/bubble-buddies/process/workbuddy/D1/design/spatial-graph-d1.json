@@ -1,0 +1,72 @@
+{
+  "schema": 2,
+  "style_id": "d1-animal-city",
+  "atlas_digest": "b0d248bbe85824002c961a347851dc16368610deefb6a3b4e542869a2ea253fa",
+  "space_ids": [
+    "wet_room",
+    "dry_room",
+    "pickup_strip"
+  ],
+  "transition_ids": [
+    "window_north",
+    "window_south",
+    "staff_passage",
+    "pickup_interface"
+  ],
+  "space_designs": [
+    {
+      "space_id": "wet_room",
+      "art_intent": "The room where animals get deliberately soaked. D1 reads here as celadon tile with a legible grout grid, cast-brass floor drains, and glazed ceramic tubs that look hand-thrown rather than moulded. Eight stations keep their exact gameplay footprints; what changes is that each one gets a rim, a lip or a tap so its silhouette says what it does from 53 degrees above.",
+      "gameplay_invariants": "Exact and non-negotiable: the eight station positions and the operation face each one exposes via get_station_access(); the wet/dry floor boundary at x = 0; the 0.6 m player capsule clearance between neighbouring stations; the fixed orthographic camera at (1.27, 17.36, 12.03) looking at (1.27, 0.36, -0.87) with size 11.6 and no yaw (contract revision 3; the pitch is unchanged at 52.808 deg, only the framing was tightened). Art may not move a station, rotate an operation face, or raise anything into the camera's sight line to the far room.",
+      "visual_freedom": "Bounded. Station bodies may gain rims, taps, hoses, drains, splash guards and feet inside a 0.12 m envelope around the current footprint and below 1.0 m. Tile module, grout width, tile colour variation and drain placement are free. The laundry unit may become a front-loading drum. The floor may carry a subtle wet sheen but must not stop reading as a walkable tile grid, because players read routes off it.",
+      "foreground": "The three intake counters along the back wall and the two wash tubs, all seen from above: their tops are the largest single colour read in the room. Water in the tubs is the one place D1 can justify a saturated accent, and it must stay legible against celadon.",
+      "midground": "The floor: 41% of all 3D pixels in frame. The grout grid is the room's drawing; it has to be designed as a pattern, not left as a tint. The wet face of the partition sits here too but is edge-on to the camera, so it contributes a thin pale line and two window reveals, nothing more.",
+      "background": "The 2.6 m back wall with its tile wainscot and the open top of the box. There is no ceiling: the camera looks into an open-topped room, so the back wall is the only large vertical surface and it is foreshortened to about 0.6 of its true height."
+    },
+    {
+      "space_id": "dry_room",
+      "art_intent": "The grooming parlour: warm timber floor, cream plaster, clean fur and folded towels. D1 reads here as the warm half of one building rather than a different building, so the plaster, the trim profile and the brass hardware family must be identical to the wet room; only the floor material, the wall colour temperature and the props change.",
+      "gameplay_invariants": "Exact: the seven dry-room station positions plus the two handoff counters at x = 0, and their operation faces; the 2.45-4.75 doorway as the only floor-level crossing; the waiting owner's fixed position at (8.2, 0, 1.35) is outside this room and must stay visible through the pet gate.",
+      "visual_freedom": "Bounded. The dryer may gain a vent grille, a drum door and a lintel hood within its 1.8 x 1.65 footprint. The brush station may gain a mirror, a shelf and hanging tools. The towel rack may become a rail with real hanging cloth. Wood plank direction, board width and colour variation are free as long as the planks run with the camera's depth axis so the floor does not band horizontally.",
+      "foreground": "The two handoff counters and the grooming table, which are where players' hands work. These are the only places in the room where a small prop at pet height (a brush, a bow, a towel) will actually be seen.",
+      "midground": "The wood floor and the dry face of the partition. The floor is the pattern carrier here; the partition face is again edge-on and contributes a pale line, two reveals and the doorway's capped jamb.",
+      "background": "The back wall with a plaster finish and a hung sign band, plus the right wall broken by the 0.44 m pet gate and its two 1.2 m posts, through which the pickup strip is visible."
+    },
+    {
+      "space_id": "pickup_strip",
+      "art_intent": "The concrete apron outside the right wall where owners wait and pets go home. It is the emptiest 12% of the frame, which makes it the cheapest place in the whole scene to buy story: a bench, a mat, a bell, a chalkboard, a queue rail, a plant. D1 should treat it as the shop's front porch, not as leftover ground.",
+      "gameplay_invariants": "Exact: the 2.4 x 9.8 deck at x = 6.8-9.2, its 0.18 curb at x = 9.25, the waiting bench at (8.15, 0.35, -0.45) and the owner at (8.2, 0, 1.35). Nothing may enter the 1.4-3.4 pet gate sight line. The deck sits 0.17 m below the salon floor and must never be given the salon's floor material.",
+      "visual_freedom": "Free above 0.5 m and outside the owner's 0.35 m footprint. This is the most permissive space in the scene: props, planters, signage, weather staining, a step, a door mat. Colour should stay in the building's own family so the strip reads as the same shop seen from outside.",
+      "foreground": "The waiting bench and the owner, both small on screen. Any prop placed here has to be at least 0.4 m tall to register at 52.6 px per metre.",
+      "midground": "The screed deck itself: a large, flat, unbroken surface that currently carries nothing. It should get joints, a curb shadow and a change of texture at the gate.",
+      "background": "The outer face of the right wall and the dark void beyond the curb. The void is 58% of the frame and reads as night; D1 should not try to fill it, only to make the curb edge deliberate."
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "window_north",
+      "from_space_id": "wet_room",
+      "to_space_id": "dry_room",
+      "continuity_rule": "One shared horizontal plane at exactly y = 0.72, which is simultaneously the station top, the window sill and the counter surface. The same marble slab and the same brass post family must continue across the pier at z = 0.225-0.475, so the two openings read as one counter run cut by a pier rather than two unrelated hatches. The pet crosses at counter height, so nothing may be added on the counter that blocks a 0.45 m wide, 0.5 m tall pet silhouette."
+    },
+    {
+      "id": "window_south",
+      "from_space_id": "wet_room",
+      "to_space_id": "dry_room",
+      "continuity_rule": "Same 0.72 plane, same slab, same posts as window_north. The frame head is fixed at 1.96 and must stay open: the camera looks down at 52.8 degrees, so anything hung in the opening occludes the far room's floor, which is the largest readable surface on the other side."
+    },
+    {
+      "id": "staff_passage",
+      "from_space_id": "wet_room",
+      "to_space_id": "dry_room",
+      "continuity_rule": "The only floor-level crossing: a 2.45-4.75 opening with a 2.2 head. The floor material must change exactly at x = 0 with no threshold strip and no raised trim, because a 2 cm lip is a visible snag at this camera angle and the staff capsule has no step logic. The concept's capped wall end becomes the jamb treatment on both sides so the doorway reads as the partition ending, not as a hole punched in it."
+    },
+    {
+      "id": "pickup_interface",
+      "from_space_id": "dry_room",
+      "to_space_id": "pickup_strip",
+      "continuity_rule": "Separated by the 0.7 m right wall, linked only visually through the 0.44 m pet gate at z = 1.4-3.4 between two 1.2 m posts. The two floors are 0.17 m apart in height and must never share material or trim: the seam is the shop's front door and has to stay legible as a step down, even though no player ever crosses it."
+    }
+  ],
+  "note": "D1 spatial graph. Every invariant above is measured from game/scripts/main.gd and game/scripts/salon_visuals.gd, not inferred from the concept; see design/plan-view.png, design/section-x0.png and design/frame-budget.png. The surface shares quoted in the midground fields come from design/evidence/frame-probe.json, which casts orthographic rays from the game's own camera through a 192x120 screen grid. Those shares are recorded as a priority ordering for where detail is worth building, not as a target that any single surface must hit."
+}

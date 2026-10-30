@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "theme_id": "halloween_festival",
+  "seed": 20261029,
+  "assets": [
+    {
+      "id": "h07_native_presentation_sources",
+      "kind": "box",
+      "size_m": [
+        1,
+        1,
+        1
+      ],
+      "color": "50376a",
+      "provenance": "Dependency declaration for authored presentation.gd; no recipe instances. Native source creates the real refined station and viaduct meshes."
+    }
+  ],
+  "instances": []
+}

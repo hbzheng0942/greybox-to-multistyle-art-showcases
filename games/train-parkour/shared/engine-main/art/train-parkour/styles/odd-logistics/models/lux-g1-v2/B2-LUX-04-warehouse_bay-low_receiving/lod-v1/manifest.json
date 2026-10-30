@@ -1,0 +1,279 @@
+{
+  "schema": 1,
+  "asset_id": "B2-LUX-04-warehouse_bay-low_receiving",
+  "kind": "shared_geometry_only_runtime_lods",
+  "source": {
+    "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/source.glb",
+    "sha256": "bda343a87b7de513967d01ccda28997d5d9837dc47cf893860213a807fccfafd",
+    "gltf_y_up_bounds": {
+      "min": [
+        -3.0,
+        -1.617000699043274,
+        -2.449399709701538
+      ],
+      "max": [
+        3.0,
+        1.617000699043274,
+        2.449399709701538
+      ]
+    },
+    "actual_triangles": 248291,
+    "nodes": [
+      {
+        "mesh": 0,
+        "name": "geometry_0"
+      }
+    ]
+  },
+  "script_sha256": "9b22635e56f2906f28293dfc3fd827322edc7ea8d99d006e66a1c8ccac45b569",
+  "blender_version": "5.1.2",
+  "source_unchanged": true,
+  "source_coordinate_system": "original glTF +Y up; no normalization",
+  "method": "Exact-position seam weld retaining loop UV; protected-extrema Blender collapse decimate;35deg-sharp weighted normals; geometry-only PLACEHOLDER glTF materials",
+  "algorithm_reference": "https://github.com/blender/blender/blob/main/source/blender/bmesh/tools/bmesh_decimate_collapse.cc#L225",
+  "levels": [
+    {
+      "id": "near",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/lod-v1/near.glb",
+      "sha256": "06080f1a0ed26e7ce3632716368214353c311de93b5890ef428c82c99db91e6c",
+      "bytes": 1705680,
+      "target_triangles": 35000,
+      "gltf_y_up_bounds": {
+        "min": [
+          -3.0,
+          -1.617000699043274,
+          -2.449399709701538
+        ],
+        "max": [
+          3.0,
+          1.617000699043274,
+          2.449399709701538
+        ]
+      },
+      "actual_triangles": 34948,
+      "vertex_count": 46718,
+      "mesh_count": 1,
+      "surface_count": 1,
+      "surfaces": [
+        {
+          "mesh_index": 0,
+          "primitive_index": 0,
+          "vertex_count": 46718,
+          "uv_count": 46718,
+          "triangle_count": 34948
+        }
+      ],
+      "uv": {
+        "attribute": "TEXCOORD_0",
+        "count": 46718,
+        "complete": true,
+        "finite": true,
+        "min": [
+          0.0,
+          0.00042808055877685547
+        ],
+        "max": [
+          0.9995704293251038,
+          1.0
+        ]
+      },
+      "image_count": 0,
+      "texture_count": 0,
+      "nodes": [
+        {
+          "mesh": 0,
+          "name": "geometry_0.001"
+        }
+      ],
+      "materials": [],
+      "bounds_delta_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "bounds_units_note": "Original source coordinate units, named m for loader schema compatibility; no physical normalization applied.",
+      "roundtrip_verified": true,
+      "roundtrip_world_bounds_max_delta": 0.0,
+      "preprocess": {
+        "exact_position_weld_distance": 6e-07,
+        "source_vertices": 176068,
+        "welded_vertices": 124228,
+        "protected_extreme_contact_vertices": 287,
+        "normal_transfer": "geometry-derived weighted normals,35-degree sharp edges; no dense custom normal transfer"
+      },
+      "material_slots": [
+        {
+          "lod_mesh_index": 0,
+          "lod_primitive_index": 0,
+          "source_mesh_index": 0,
+          "source_primitive_index": 0,
+          "source_material_index": 0,
+          "source_material_name": "Designer_Logic_PBR"
+        }
+      ],
+      "front_ray_diagnostic": {
+        "grid": [
+          96,
+          96
+        ],
+        "silhouette_iou": 0.9993964996982498,
+        "source_open_or_recessed_ray_count": 5730,
+        "newly_front_closed_ray_count": 1,
+        "newly_front_closed_fraction": 0.00017452006980802793,
+        "mean_relative_depth_error": 0.0006161746669176701,
+        "scope": "Front-only ray depth/silhouette diagnostic, not watertightness or full hole topology proof."
+      },
+      "visual_review": "accepted_for_native_integration",
+      "requested_triangles": 35000,
+      "bounds_units": "original_source_coordinates_not_authoritative_metres"
+    },
+    {
+      "id": "far",
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/lod-v1/far.glb",
+      "sha256": "7485248e54b02a5c1569ca45e8c32206e1ff47d50910383bff593873c552645d",
+      "bytes": 1161800,
+      "target_triangles": 20000,
+      "gltf_y_up_bounds": {
+        "min": [
+          -3.0,
+          -1.617000699043274,
+          -2.449399709701538
+        ],
+        "max": [
+          3.0,
+          1.617000699043274,
+          2.449399709701538
+        ]
+      },
+      "actual_triangles": 19939,
+      "vertex_count": 32536,
+      "mesh_count": 1,
+      "surface_count": 1,
+      "surfaces": [
+        {
+          "mesh_index": 0,
+          "primitive_index": 0,
+          "vertex_count": 32536,
+          "uv_count": 32536,
+          "triangle_count": 19939
+        }
+      ],
+      "uv": {
+        "attribute": "TEXCOORD_0",
+        "count": 32536,
+        "complete": true,
+        "finite": true,
+        "min": [
+          0.0,
+          0.00042808055877685547
+        ],
+        "max": [
+          0.9995704293251038,
+          1.0
+        ]
+      },
+      "image_count": 0,
+      "texture_count": 0,
+      "nodes": [
+        {
+          "mesh": 0,
+          "name": "geometry_0.002"
+        }
+      ],
+      "materials": [],
+      "bounds_delta_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "bounds_units_note": "Original source coordinate units, named m for loader schema compatibility; no physical normalization applied.",
+      "roundtrip_verified": true,
+      "roundtrip_world_bounds_max_delta": 0.0,
+      "preprocess": {
+        "exact_position_weld_distance": 6e-07,
+        "source_vertices": 176068,
+        "welded_vertices": 124228,
+        "protected_extreme_contact_vertices": 287,
+        "normal_transfer": "geometry-derived weighted normals,35-degree sharp edges; no dense custom normal transfer"
+      },
+      "material_slots": [
+        {
+          "lod_mesh_index": 0,
+          "lod_primitive_index": 0,
+          "source_mesh_index": 0,
+          "source_primitive_index": 0,
+          "source_material_index": 0,
+          "source_material_name": "Designer_Logic_PBR"
+        }
+      ],
+      "front_ray_diagnostic": {
+        "grid": [
+          96,
+          96
+        ],
+        "silhouette_iou": 0.999275887038378,
+        "source_open_or_recessed_ray_count": 5730,
+        "newly_front_closed_ray_count": 3,
+        "newly_front_closed_fraction": 0.0005235602094240838,
+        "mean_relative_depth_error": 0.0008932085048125411,
+        "scope": "Front-only ray depth/silhouette diagnostic, not watertightness or full hole topology proof."
+      },
+      "visual_review": "accepted_for_native_integration",
+      "requested_triangles": 6500,
+      "bounds_units": "original_source_coordinates_not_authoritative_metres"
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/lod-v1/comparison-three-quarter.png",
+      "sha256": "ac0f1a609986fd8c87f803e721b6b7d2760cf9de0b98310b971303b5e11ae8b7",
+      "left_to_right": [
+        "source",
+        "near",
+        "far"
+      ],
+      "view": "three-quarter",
+      "materials": "Original source PBR attached in memory only; absent from exported LODs.",
+      "renderer": "Cycles CPU12 samples, AgX, neutral light"
+    },
+    {
+      "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-04-warehouse_bay-low_receiving/lod-v1/comparison-front-openings.png",
+      "sha256": "df1e46aab22469be1f08c09a6b6bb39527b24bc8b7eb743fc45846ccb125d35d",
+      "left_to_right": [
+        "source",
+        "near",
+        "far"
+      ],
+      "view": "front-openings",
+      "materials": "Original source PBR attached in memory only; absent from exported LODs.",
+      "renderer": "Cycles CPU12 samples, AgX, neutral light"
+    }
+  ],
+  "shared_material_policy": "Resolve each material_slots entry from the canonical original source.glb once and reuse the same PBR Material for all LOD meshes/instances.",
+  "visual_review_status": "accepted_for_native_integration",
+  "native_status": "not_run_by_lod_agent",
+  "limitations": [
+    "Front ray diagnostic is not a full topology proof.",
+    "Native Godot material assignment, in-game LOD thresholds and performance await integration."
+  ],
+  "visual_review": {
+    "reviewer": "b2_station_layout agent",
+    "evidence": "Actual three-quarter and front-opening CPU comparison renders viewed. Near and far preserve roof, front opening, side service doorway and feet. Far interior floor/right wall have broader faceting, acceptable for distant use pending native thresholds.",
+    "native_acceptance": false,
+    "budget_adjustment": "Root authorized shape-first selection and shared near/far canonical geometry when identical; no further aggressive low-budget attempt."
+  }
+}

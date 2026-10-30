@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "case_id": "train-parkour",
+  "engine": "Godot 4.7.2",
+  "default_style": "halloween-comic",
+  "styles": "styles.json",
+  "shared_engine": "shared/engine-main/game",
+  "paper_source_variant": "styles/paper-atlas/engine/game",
+  "assets": "../../shared/assets/sha256",
+  "status": "playable development candidates; art/human acceptance not implied",
+  "excluded": [
+    "A1 incomplete art direction",
+    "cel coast rejected full-world art",
+    "obsolete pixel v1 and historical worktrees"
+  ],
+  "greybox_style": "greybox",
+  "process_materials": "process/INDEX.md"
+}

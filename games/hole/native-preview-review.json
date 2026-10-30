@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "reviews": [
+    {
+      "style": "amusement",
+      "preview": "styles/amusement/preview.png",
+      "sha256": "a63b11c7ef21db72fe7fce3f98f1e3d3e0bcba30d1a6d76a8dc4575417aa31da",
+      "version": "amusement-small-props-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down island with pastel fairground tents and ferris wheel; in-world zone labels remain in this historical capture."
+    },
+    {
+      "style": "snack",
+      "preview": "styles/snack/preview.png",
+      "sha256": "03113d303415f19236001200425ece48f13d9467ff424797a7474af1261c7b11",
+      "version": "snack-small-props-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down island with biscuit landmark, pastry shops and purple road; historical zone labels remain."
+    },
+    {
+      "style": "mycelium",
+      "preview": "styles/mycelium/preview.png",
+      "sha256": "ec5c16c804c874577048c8069376ce32b182da5d0a4d78f5aefb7bede29bc5e4",
+      "version": "five-worlds-mycelium-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down island with red mushroom caps and timber/acorn buildings; historical zone labels remain."
+    },
+    {
+      "style": "lunar",
+      "preview": "styles/lunar/preview.png",
+      "sha256": "5b34cbc20614a7d08f7a117bf151078a9a2e42697d55fbd4945fe456fd94c937",
+      "version": "five-worlds-lunar-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down lunar compound with ivory/orange cylindrical buildings and dark exterior."
+    },
+    {
+      "style": "coral",
+      "preview": "styles/coral/preview.png",
+      "sha256": "5a3eed48134de6a06a4f94514c2d3dd9f21ade37341088a07f7356f8d1b1b1da",
+      "version": "five-worlds-coral-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down pearl-shell market with pink shell buildings and turquoise water."
+    },
+    {
+      "style": "saffron",
+      "preview": "styles/saffron/preview.png",
+      "sha256": "244bf5fc646289d9f3fffe4f6ac4870d3158f089302a2807b62673384aa00fde",
+      "version": "five-worlds-saffron-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down sandstone bazaar with blue domes and bronze landmark."
+    },
+    {
+      "style": "papercraft",
+      "preview": "styles/papercraft/preview.png",
+      "sha256": "fe2a391c0dbc1c36885008c219a3ddbd86cc31a4d3d3c71eafc58b280e52d511",
+      "version": "five-worlds-papercraft-001",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot top-down white/blue folded-paper snow-town with red roof accents."
+    },
+    {
+      "style": "comic",
+      "preview": "styles/comic/preview.png",
+      "sha256": "9901cc41608affb8238c2ef43530ccb43730c6d58e7fe8082401516c06eb17ee",
+      "version": "studio-comic-deterministic-assembly-20261013-final",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot gameplay camera with green tiled roofs, Chinese shop signs, vehicles and hole; replaced erroneous workbench interface preview."
+    },
+    {
+      "style": "enamel",
+      "preview": "styles/enamel/preview.png",
+      "sha256": "80a4930eee8bae58bcea2827964347c2065930bbd1f63af77c196f5bd620c90c",
+      "version": "studio-enamel-deterministic-assembly-20261013",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot gameplay camera with blue/yellow/red enamel toy shops, English shop signs, vehicles and hole; replaced erroneous workbench interface preview."
+    },
+    {
+      "style": "ceramic",
+      "preview": "styles/ceramic/preview.png",
+      "sha256": "07040a829e89beb98db7ca7fb2615ffc002761451ed114fb71aeef905af076b0",
+      "version": "hole-lookdev-validated / case-final-v2 / combined",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot gameplay camera with cream/cobalt canister towers, ceramic shops and visible hole."
+    },
+    {
+      "style": "orbital",
+      "preview": "styles/orbital/preview.png",
+      "sha256": "98031b99142c60cc96cbb801acbc0d8f5772f9d0f6104210e4b8ebf3631881c0",
+      "version": "hole-lookdev-validated / case-final-v2 / combined",
+      "identity": "historical-godot-native-capture",
+      "actual_pixels_viewed": true,
+      "result": "pass-native-image-identity",
+      "observation": "Godot gameplay camera with orange/ivory cylinders, metallic road and visible hole."
+    }
+  ],
+  "scope": "Image identity and style matching only; not current-package screenshot acceptance."
+}

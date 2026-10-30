@@ -1,0 +1,5317 @@
+{
+  "schema": "hole_graybox_v0.3",
+  "status": "authored_not_engine_validated",
+  "coordinate_convention": "Godot: +Y up, -Z north. position_xyz is logical bounding-box CENTER. Full table h=1.80; physical support surface is at 1.00 above base.",
+  "recipe": {
+    "round_seconds": 60,
+    "start_on_first_movement": true,
+    "move_speed": 7.2,
+    "acceleration": 48,
+    "growth_thresholds_cumulative": [
+      0,
+      16,
+      60,
+      140,
+      280,
+      520
+    ],
+    "hole_diameters": [
+      0.9,
+      1.45,
+      2.1,
+      3,
+      4.3,
+      6.2
+    ],
+    "eligibility": "flat_proxy_fit AND unlocked AND capture_height AND unclaimed; min_tier gate disabled by default",
+    "flat_proxy_margin": 0.95,
+    "capture_center_radius_factor": 0.9,
+    "swallow_durations_seconds": [
+      0.2,
+      0.27,
+      0.42,
+      0.64,
+      0.82,
+      1.05
+    ],
+    "capture_commit_seconds": 0.1,
+    "growth_blend_seconds": 0.12,
+    "progression_on": "swallow_completion",
+    "score_on": "swallow_completion",
+    "no_new_captures_after_timeout": true,
+    "finish_inflight_captures_at_timeout": true,
+    "initial_variant": "solo_baseline",
+    "optional_variant": "one_rival_validation",
+    "success_milestone": "Consume at least one landmark; continue to timeout or full clear. Score on completion only; 1134 total, no synthetic whole-assembly bonus. Diameter capped at 6.8 after growth 1000.",
+    "support_policy": "Payload remains locked while root support is present. Capture root; detach existing descendants preserving IDs and world transforms; become separately capturable after entering the ground capture band. No new reward units are spawned.",
+    "geometry_note": "Flat span = footprint diagonal for box proxies, diameter for sphere/cylinder proxies. Eligibility is NOT full-footprint coverage at the current offset; pull eligible targets inward before sinking. Use swept capture query to avoid frame-rate-dependent misses.",
+    "capture_band_max_bottom_y": 0.35,
+    "empty_travel_warning_seconds": 3,
+    "continuous_growth_tail_diameter": 6.8,
+    "continuous_growth_tail_score": 1000
+  },
+  "map": {
+    "floor_size_xz": [
+      44,
+      36
+    ],
+    "land_polygon_xz": [
+      [
+        -22,
+        -18
+      ],
+      [
+        22,
+        -18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        -9,
+        18
+      ],
+      [
+        -9,
+        8
+      ],
+      [
+        -22,
+        8
+      ]
+    ],
+    "water_cut_corner_xz": [
+      -9,
+      8
+    ],
+    "spawn_xyz": [
+      -16.8,
+      0,
+      5.5
+    ],
+    "rival_spawn_xyz": [
+      4,
+      0,
+      10.8
+    ],
+    "hole_center_bounds_x": [
+      -22,
+      22
+    ],
+    "hole_center_bounds_z": [
+      -18,
+      18
+    ],
+    "movement_policy": "swept_disk_land_erosion",
+    "shore_margin": 0.18,
+    "navigation_cell_size": 0.75,
+    "zones": [
+      {
+        "id": "A",
+        "label_zh": "甜甜圈起步街角",
+        "label_en": "DONUT CORNER",
+        "bounds_xmin_xmax_zmin_zmax": [
+          -20.3,
+          -9.7,
+          -2.55,
+          7.03
+        ],
+        "gameplay": true,
+        "instance_count": 38,
+        "growth_total": 201
+      },
+      {
+        "id": "B",
+        "label_zh": "奶茶与书店商业街",
+        "label_en": "BOBA / BOOKS",
+        "bounds_xmin_xmax_zmin_zmax": [
+          -20.3,
+          -4.7,
+          -16.2,
+          -2.8
+        ],
+        "gameplay": true,
+        "instance_count": 42,
+        "growth_total": 330
+      },
+      {
+        "id": "C",
+        "label_zh": "中央鸭子广场",
+        "label_en": "DUCK PLAZA",
+        "bounds_xmin_xmax_zmin_zmax": [
+          -5.75,
+          5.11,
+          -8.01,
+          2.1
+        ],
+        "gameplay": true,
+        "instance_count": 34,
+        "growth_total": 139
+      },
+      {
+        "id": "D",
+        "label_zh": "东侧果蔬市集",
+        "label_en": "MARKET / RELEASE",
+        "bounds_xmin_xmax_zmin_zmax": [
+          7.84,
+          19.175,
+          1.9,
+          12.9
+        ],
+        "gameplay": true,
+        "instance_count": 64,
+        "growth_total": 174
+      },
+      {
+        "id": "E",
+        "label_zh": "滨水陆侧步道",
+        "label_en": "QUAYSIDE / DRY",
+        "bounds_xmin_xmax_zmin_zmax": [
+          -7.16,
+          4.03,
+          8.85,
+          14.1
+        ],
+        "gameplay": true,
+        "instance_count": 17,
+        "growth_total": 37
+      },
+      {
+        "id": "F",
+        "label_zh": "北侧花店与连排楼",
+        "label_en": "FLOWERS / NORTH",
+        "bounds_xmin_xmax_zmin_zmax": [
+          7.2,
+          19.9,
+          -15.8,
+          -2.6
+        ],
+        "gameplay": true,
+        "instance_count": 20,
+        "growth_total": 253
+      }
+    ],
+    "proposed_routes": [
+      [
+        "A",
+        "B",
+        "F",
+        "C"
+      ],
+      [
+        "A",
+        "E",
+        "D",
+        "F",
+        "C"
+      ]
+    ],
+    "randomization_enabled": false,
+    "scenery_policy": "BG outside playable land, NEVER in gameplay ledger",
+    "note": "Concept perspective translated into coherent planar blockout, not an exact camera reconstruction."
+  },
+  "archetypes": [
+    {
+      "id": "building_segment_p27_v3",
+      "label_zh": "窄楼单元",
+      "size_xyz": [
+        2.304,
+        4.16,
+        2.0736
+      ],
+      "min_tier": 3,
+      "growth": 16,
+      "score": 16,
+      "expected_count": 4,
+      "swallow_profile": "segment_sink",
+      "proxy_flat_span": 2.99,
+      "gameplay_family": "building_segment"
+    },
+    {
+      "id": "building_segment_p28_v3",
+      "label_zh": "窄楼单元",
+      "size_xyz": [
+        2.304,
+        4.1,
+        2.0736
+      ],
+      "min_tier": 3,
+      "growth": 16,
+      "score": 16,
+      "expected_count": 4,
+      "swallow_profile": "segment_sink",
+      "proxy_flat_span": 2.99,
+      "gameplay_family": "building_segment"
+    },
+    {
+      "id": "building_segment_p29_v3",
+      "label_zh": "窄楼单元",
+      "size_xyz": [
+        2.304,
+        4.3,
+        2.0736
+      ],
+      "min_tier": 3,
+      "growth": 16,
+      "score": 16,
+      "expected_count": 3,
+      "swallow_profile": "segment_sink",
+      "proxy_flat_span": 2.99,
+      "gameplay_family": "building_segment"
+    },
+    {
+      "id": "building_segment_p30_v3",
+      "label_zh": "窄楼单元",
+      "size_xyz": [
+        2.304,
+        4.02,
+        2.0736
+      ],
+      "min_tier": 3,
+      "growth": 16,
+      "score": 16,
+      "expected_count": 3,
+      "swallow_profile": "segment_sink",
+      "proxy_flat_span": 2.99,
+      "gameplay_family": "building_segment"
+    },
+    {
+      "id": "vehicle_p22_v3",
+      "label_zh": "车辆体块",
+      "size_xyz": [
+        2.4779999999999998,
+        3.105,
+        1.3216
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 2.3,
+      "gameplay_family": "vehicle"
+    },
+    {
+      "id": "landmark_p35_v3",
+      "label_zh": "大地标",
+      "size_xyz": [
+        6.272,
+        6.832,
+        5.152
+      ],
+      "min_tier": 5,
+      "growth": 60,
+      "score": 60,
+      "expected_count": 1,
+      "swallow_profile": "landmark_sink",
+      "proxy_flat_span": 6.26,
+      "gameplay_family": "landmark"
+    },
+    {
+      "id": "micro_block_p01_v3",
+      "label_zh": "小方块",
+      "size_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 20,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 0.57,
+      "gameplay_family": "micro_block"
+    },
+    {
+      "id": "micro_block_p02_v3",
+      "label_zh": "小方块",
+      "size_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 12,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 0.46,
+      "gameplay_family": "micro_block"
+    },
+    {
+      "id": "micro_block_p03_v3",
+      "label_zh": "小方块",
+      "size_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 12,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 0.41,
+      "gameplay_family": "micro_block"
+    },
+    {
+      "id": "micro_block_p04_v3",
+      "label_zh": "小方块",
+      "size_xyz": [
+        0.49499999999999994,
+        0.49499999999999994,
+        0.49499999999999994
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 12,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 0.48,
+      "gameplay_family": "micro_block"
+    },
+    {
+      "id": "tall_pole_p05_v3",
+      "label_zh": "细高立柱",
+      "size_xyz": [
+        0.54,
+        3.04,
+        0.54
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 16,
+      "swallow_profile": "tip_and_sink",
+      "proxy_flat_span": 0.5,
+      "gameplay_family": "tall_pole"
+    },
+    {
+      "id": "tall_pole_p06_v3",
+      "label_zh": "细高立柱",
+      "size_xyz": [
+        0.54,
+        3.3600000000000003,
+        0.54
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 12,
+      "swallow_profile": "tip_and_sink",
+      "proxy_flat_span": 0.5,
+      "gameplay_family": "tall_pole"
+    },
+    {
+      "id": "supported_ball_p07_v3",
+      "label_zh": "台面小球",
+      "size_xyz": [
+        0.41600000000000004,
+        0.41600000000000004,
+        0.41600000000000004
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 8,
+      "swallow_profile": "released_compact",
+      "proxy_flat_span": 0.42,
+      "gameplay_family": "supported_ball"
+    },
+    {
+      "id": "supported_ball_p08_v3",
+      "label_zh": "台面小球",
+      "size_xyz": [
+        0.41600000000000004,
+        0.41600000000000004,
+        0.41600000000000004
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 8,
+      "swallow_profile": "released_compact",
+      "proxy_flat_span": 0.42,
+      "gameplay_family": "supported_ball"
+    },
+    {
+      "id": "supported_ball_p09_v3",
+      "label_zh": "台面小球",
+      "size_xyz": [
+        0.41600000000000004,
+        0.41600000000000004,
+        0.41600000000000004
+      ],
+      "min_tier": 0,
+      "growth": 1,
+      "score": 1,
+      "expected_count": 8,
+      "swallow_profile": "released_compact",
+      "proxy_flat_span": 0.41,
+      "gameplay_family": "supported_ball"
+    },
+    {
+      "id": "bin_p10_v3",
+      "label_zh": "紧凑中件",
+      "size_xyz": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 6,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 0.89,
+      "gameplay_family": "bin"
+    },
+    {
+      "id": "bin_p11_v3",
+      "label_zh": "紧凑中件",
+      "size_xyz": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 6,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 1.16,
+      "gameplay_family": "bin"
+    },
+    {
+      "id": "bin_p12_v3",
+      "label_zh": "紧凑中件",
+      "size_xyz": [
+        0.9375,
+        1.215,
+        0.8125
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 6,
+      "swallow_profile": "compact",
+      "proxy_flat_span": 0.89,
+      "gameplay_family": "bin"
+    },
+    {
+      "id": "fence_segment_p13_v3",
+      "label_zh": "独立栏杆段",
+      "size_xyz": [
+        1.1880000000000002,
+        1.1199999999999999,
+        0.27999999999999997
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 10,
+      "swallow_profile": "long_tip",
+      "proxy_flat_span": 1.18,
+      "gameplay_family": "fence_segment"
+    },
+    {
+      "id": "fence_segment_p14_v3",
+      "label_zh": "独立栏杆段",
+      "size_xyz": [
+        1.1880000000000002,
+        1.1199999999999999,
+        0.27999999999999997
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 10,
+      "swallow_profile": "long_tip",
+      "proxy_flat_span": 1.18,
+      "gameplay_family": "fence_segment"
+    },
+    {
+      "id": "stack_cube_p15_v3",
+      "label_zh": "堆叠箱单元",
+      "size_xyz": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 9,
+      "swallow_profile": "released_compact",
+      "proxy_flat_span": 1.03,
+      "gameplay_family": "stack_cube"
+    },
+    {
+      "id": "stack_cube_p16_v3",
+      "label_zh": "堆叠箱单元",
+      "size_xyz": [
+        0.81,
+        0.81,
+        0.81
+      ],
+      "min_tier": 1,
+      "growth": 3,
+      "score": 3,
+      "expected_count": 9,
+      "swallow_profile": "released_compact",
+      "proxy_flat_span": 1.04,
+      "gameplay_family": "stack_cube"
+    },
+    {
+      "id": "bench_p17_v3",
+      "label_zh": "横向长条件",
+      "size_xyz": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 5,
+      "swallow_profile": "long_tip",
+      "proxy_flat_span": 2.07,
+      "gameplay_family": "bench"
+    },
+    {
+      "id": "bench_p18_v3",
+      "label_zh": "横向长条件",
+      "size_xyz": [
+        2.16,
+        0.945,
+        0.5
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 5,
+      "swallow_profile": "long_tip",
+      "proxy_flat_span": 1.99,
+      "gameplay_family": "bench"
+    },
+    {
+      "id": "vehicle_p19_v3",
+      "label_zh": "车辆体块",
+      "size_xyz": [
+        1.7999999999999998,
+        1.1199999999999999,
+        0.9199999999999999
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 1.66,
+      "gameplay_family": "vehicle"
+    },
+    {
+      "id": "vehicle_p20_v3",
+      "label_zh": "车辆体块",
+      "size_xyz": [
+        1.7999999999999998,
+        1.1199999999999999,
+        0.9199999999999999
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 1.77,
+      "gameplay_family": "vehicle"
+    },
+    {
+      "id": "vehicle_p21_v3",
+      "label_zh": "车辆体块",
+      "size_xyz": [
+        1.7999999999999998,
+        1.1199999999999999,
+        0.9199999999999999
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 1.73,
+      "gameplay_family": "vehicle"
+    },
+    {
+      "id": "support_table_p23_v3",
+      "label_zh": "半收棚市集桌（桌面高1.0，完整外廓高1.8）",
+      "size_xyz": [
+        1.9500000000000002,
+        2.3400000000000003,
+        1.105
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "support_release",
+      "proxy_flat_span": 2.19,
+      "support_surface_height_from_base": 1.3,
+      "gameplay_family": "support_table"
+    },
+    {
+      "id": "support_table_p24_v3",
+      "label_zh": "半收棚市集桌（桌面高1.0，完整外廓高1.8）",
+      "size_xyz": [
+        1.9500000000000002,
+        2.3400000000000003,
+        1.105
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "support_release",
+      "proxy_flat_span": 2.19,
+      "support_surface_height_from_base": 1.3,
+      "gameplay_family": "support_table"
+    },
+    {
+      "id": "support_pallet_p25_v3",
+      "label_zh": "支撑底座",
+      "size_xyz": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "support_release",
+      "proxy_flat_span": 2.08,
+      "gameplay_family": "support_pallet"
+    },
+    {
+      "id": "support_pallet_p26_v3",
+      "label_zh": "支撑底座",
+      "size_xyz": [
+        1.89,
+        0.3375,
+        1.08
+      ],
+      "min_tier": 2,
+      "growth": 7,
+      "score": 7,
+      "expected_count": 2,
+      "swallow_profile": "support_release",
+      "proxy_flat_span": 2.08,
+      "gameplay_family": "support_pallet"
+    },
+    {
+      "id": "wide_building_p31_v3",
+      "label_zh": "宽矮建筑",
+      "size_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "min_tier": 4,
+      "growth": 34,
+      "score": 34,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 4.11,
+      "gameplay_family": "wide_building"
+    },
+    {
+      "id": "wide_building_p32_v3",
+      "label_zh": "宽矮建筑",
+      "size_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "min_tier": 4,
+      "growth": 34,
+      "score": 34,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 4.06,
+      "gameplay_family": "wide_building"
+    },
+    {
+      "id": "wide_building_p33_v3",
+      "label_zh": "宽矮建筑",
+      "size_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "min_tier": 4,
+      "growth": 34,
+      "score": 34,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 4.06,
+      "gameplay_family": "wide_building"
+    },
+    {
+      "id": "wide_building_p34_v3",
+      "label_zh": "宽矮建筑",
+      "size_xyz": [
+        3.3280000000000003,
+        2.4000000000000004,
+        3.072
+      ],
+      "min_tier": 4,
+      "growth": 34,
+      "score": 34,
+      "expected_count": 2,
+      "swallow_profile": "wide_sink",
+      "proxy_flat_span": 4.06,
+      "gameplay_family": "wide_building"
+    },
+    {
+      "id": "landmark_p36_v3",
+      "label_zh": "大地标",
+      "size_xyz": [
+        5.4,
+        4.16,
+        4.03
+      ],
+      "min_tier": 5,
+      "growth": 60,
+      "score": 60,
+      "expected_count": 1,
+      "swallow_profile": "landmark_sink",
+      "proxy_flat_span": 5.28,
+      "gameplay_family": "landmark"
+    },
+    {
+      "id": "landmark_p37_v3",
+      "label_zh": "大地标",
+      "size_xyz": [
+        4.72,
+        4.096,
+        3.658
+      ],
+      "min_tier": 5,
+      "growth": 60,
+      "score": 60,
+      "expected_count": 1,
+      "swallow_profile": "landmark_sink",
+      "proxy_flat_span": 5.64,
+      "gameplay_family": "landmark"
+    }
+  ],
+  "assemblies": [
+    {
+      "id": "row_buildings_01",
+      "type": "independent_group",
+      "members": [
+        "building_segment_001",
+        "building_segment_002",
+        "building_segment_003"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "row_buildings_02",
+      "type": "independent_group",
+      "members": [
+        "building_segment_004",
+        "building_segment_005",
+        "building_segment_006"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "row_buildings_03",
+      "type": "independent_group",
+      "members": [
+        "building_segment_007",
+        "building_segment_008",
+        "building_segment_009"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "row_buildings_04",
+      "type": "independent_group",
+      "members": [
+        "building_segment_010",
+        "building_segment_011",
+        "building_segment_012"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "row_buildings_05",
+      "type": "independent_group",
+      "members": [
+        "building_segment_013",
+        "building_segment_014"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "market_table_01",
+      "type": "support_release",
+      "root": "support_table_001",
+      "members": [
+        "support_table_001",
+        "supported_ball_001",
+        "supported_ball_002",
+        "supported_ball_003",
+        "supported_ball_004",
+        "supported_ball_005",
+        "supported_ball_006"
+      ],
+      "root_reward": 0,
+      "support_surface_height": 1.3
+    },
+    {
+      "id": "market_table_02",
+      "type": "support_release",
+      "root": "support_table_002",
+      "members": [
+        "support_table_002",
+        "supported_ball_007",
+        "supported_ball_008",
+        "supported_ball_009",
+        "supported_ball_010",
+        "supported_ball_011",
+        "supported_ball_012"
+      ],
+      "root_reward": 0,
+      "support_surface_height": 1.3
+    },
+    {
+      "id": "market_table_03",
+      "type": "support_release",
+      "root": "support_table_003",
+      "members": [
+        "support_table_003",
+        "supported_ball_013",
+        "supported_ball_014",
+        "supported_ball_015",
+        "supported_ball_016",
+        "supported_ball_017",
+        "supported_ball_018"
+      ],
+      "root_reward": 0,
+      "support_surface_height": 1.3
+    },
+    {
+      "id": "market_table_04",
+      "type": "support_release",
+      "root": "support_table_004",
+      "members": [
+        "support_table_004",
+        "supported_ball_019",
+        "supported_ball_020",
+        "supported_ball_021",
+        "supported_ball_022",
+        "supported_ball_023",
+        "supported_ball_024"
+      ],
+      "root_reward": 0,
+      "support_surface_height": 1.3
+    },
+    {
+      "id": "cargo_pallet_01",
+      "type": "support_release_chain",
+      "root": "support_pallet_001",
+      "members": [
+        "support_pallet_001",
+        "stack_cube_001",
+        "stack_cube_002",
+        "stack_cube_003",
+        "stack_cube_004",
+        "stack_cube_005"
+      ],
+      "root_reward": 0,
+      "columns": 2
+    },
+    {
+      "id": "cargo_pallet_02",
+      "type": "support_release_chain",
+      "root": "support_pallet_002",
+      "members": [
+        "support_pallet_002",
+        "stack_cube_006",
+        "stack_cube_007",
+        "stack_cube_008",
+        "stack_cube_009",
+        "stack_cube_010"
+      ],
+      "root_reward": 0,
+      "columns": 2
+    },
+    {
+      "id": "cargo_pallet_03",
+      "type": "support_release_chain",
+      "root": "support_pallet_003",
+      "members": [
+        "support_pallet_003",
+        "stack_cube_011",
+        "stack_cube_012",
+        "stack_cube_013",
+        "stack_cube_014"
+      ],
+      "root_reward": 0,
+      "columns": 2
+    },
+    {
+      "id": "cargo_pallet_04",
+      "type": "support_release_chain",
+      "root": "support_pallet_004",
+      "members": [
+        "support_pallet_004",
+        "stack_cube_015",
+        "stack_cube_016",
+        "stack_cube_017",
+        "stack_cube_018"
+      ],
+      "root_reward": 0,
+      "columns": 2
+    },
+    {
+      "id": "rail_A",
+      "type": "independent_group",
+      "members": [
+        "fence_segment_001",
+        "fence_segment_002",
+        "fence_segment_003",
+        "fence_segment_004"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "rail_B",
+      "type": "independent_group",
+      "members": [
+        "fence_segment_005",
+        "fence_segment_006",
+        "fence_segment_007",
+        "fence_segment_008"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "rail_C",
+      "type": "independent_group",
+      "members": [
+        "fence_segment_009",
+        "fence_segment_010",
+        "fence_segment_011",
+        "fence_segment_012",
+        "fence_segment_013",
+        "fence_segment_014"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "rail_D",
+      "type": "independent_group",
+      "members": [
+        "fence_segment_015",
+        "fence_segment_016"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "rail_E",
+      "type": "independent_group",
+      "members": [
+        "fence_segment_017",
+        "fence_segment_018"
+      ],
+      "root_reward": 0
+    },
+    {
+      "id": "rail_F",
+      "type": "independent_group",
+      "members": [
+        "fence_segment_019",
+        "fence_segment_020"
+      ],
+      "root_reward": 0
+    }
+  ],
+  "instances": [
+    {
+      "id": "landmark_001",
+      "archetype": "landmark_p36_v3",
+      "zone": "A",
+      "position_xyz": [
+        -16,
+        2.08,
+        -1
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P36"
+    },
+    {
+      "id": "landmark_002",
+      "archetype": "landmark_p37_v3",
+      "zone": "B",
+      "position_xyz": [
+        -9.5,
+        2.048,
+        -11
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P37"
+    },
+    {
+      "id": "landmark_003",
+      "archetype": "landmark_p35_v3",
+      "zone": "C",
+      "position_xyz": [
+        0,
+        3.416,
+        -3
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P35"
+    },
+    {
+      "id": "wide_building_001",
+      "archetype": "wide_building_p31_v3",
+      "zone": "A",
+      "position_xyz": [
+        -11,
+        1.2000000000000002,
+        -0.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P31"
+    },
+    {
+      "id": "wide_building_002",
+      "archetype": "wide_building_p32_v3",
+      "zone": "A",
+      "position_xyz": [
+        -19,
+        1.2000000000000002,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P32"
+    },
+    {
+      "id": "wide_building_003",
+      "archetype": "wide_building_p33_v3",
+      "zone": "B",
+      "position_xyz": [
+        -6,
+        1.2000000000000002,
+        -15
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P33"
+    },
+    {
+      "id": "wide_building_004",
+      "archetype": "wide_building_p34_v3",
+      "zone": "B",
+      "position_xyz": [
+        -6,
+        1.2000000000000002,
+        -7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P34"
+    },
+    {
+      "id": "wide_building_005",
+      "archetype": "wide_building_p31_v3",
+      "zone": "B",
+      "position_xyz": [
+        -19,
+        1.2000000000000002,
+        -4
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P31"
+    },
+    {
+      "id": "wide_building_006",
+      "archetype": "wide_building_p32_v3",
+      "zone": "F",
+      "position_xyz": [
+        17,
+        1.2000000000000002,
+        -8.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P32"
+    },
+    {
+      "id": "wide_building_007",
+      "archetype": "wide_building_p33_v3",
+      "zone": "F",
+      "position_xyz": [
+        17,
+        1.2000000000000002,
+        -4.6
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P33"
+    },
+    {
+      "id": "wide_building_008",
+      "archetype": "wide_building_p34_v3",
+      "zone": "F",
+      "position_xyz": [
+        10,
+        1.2000000000000002,
+        -3.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P34"
+    },
+    {
+      "id": "building_segment_001",
+      "archetype": "building_segment_p27_v3",
+      "zone": "B",
+      "position_xyz": [
+        -17.9,
+        2.08,
+        -12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_01",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P27"
+    },
+    {
+      "id": "building_segment_002",
+      "archetype": "building_segment_p28_v3",
+      "zone": "B",
+      "position_xyz": [
+        -15.5,
+        2.05,
+        -12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_01",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P28"
+    },
+    {
+      "id": "building_segment_003",
+      "archetype": "building_segment_p29_v3",
+      "zone": "B",
+      "position_xyz": [
+        -13.1,
+        2.15,
+        -12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_01",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P29"
+    },
+    {
+      "id": "building_segment_004",
+      "archetype": "building_segment_p30_v3",
+      "zone": "B",
+      "position_xyz": [
+        -17.9,
+        2.01,
+        -7.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_02",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P30"
+    },
+    {
+      "id": "building_segment_005",
+      "archetype": "building_segment_p27_v3",
+      "zone": "B",
+      "position_xyz": [
+        -15.5,
+        2.08,
+        -7.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_02",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P27"
+    },
+    {
+      "id": "building_segment_006",
+      "archetype": "building_segment_p28_v3",
+      "zone": "B",
+      "position_xyz": [
+        -13.1,
+        2.05,
+        -7.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_02",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P28"
+    },
+    {
+      "id": "building_segment_007",
+      "archetype": "building_segment_p29_v3",
+      "zone": "F",
+      "position_xyz": [
+        8.6,
+        2.15,
+        -13
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_03",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P29"
+    },
+    {
+      "id": "building_segment_008",
+      "archetype": "building_segment_p30_v3",
+      "zone": "F",
+      "position_xyz": [
+        11,
+        2.01,
+        -13
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_03",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P30"
+    },
+    {
+      "id": "building_segment_009",
+      "archetype": "building_segment_p27_v3",
+      "zone": "F",
+      "position_xyz": [
+        13.4,
+        2.08,
+        -13
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_03",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P27"
+    },
+    {
+      "id": "building_segment_010",
+      "archetype": "building_segment_p28_v3",
+      "zone": "F",
+      "position_xyz": [
+        8.6,
+        2.05,
+        -7.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_04",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P28"
+    },
+    {
+      "id": "building_segment_011",
+      "archetype": "building_segment_p29_v3",
+      "zone": "F",
+      "position_xyz": [
+        11,
+        2.15,
+        -7.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_04",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P29"
+    },
+    {
+      "id": "building_segment_012",
+      "archetype": "building_segment_p30_v3",
+      "zone": "F",
+      "position_xyz": [
+        13.4,
+        2.01,
+        -7.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_04",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P30"
+    },
+    {
+      "id": "building_segment_013",
+      "archetype": "building_segment_p27_v3",
+      "zone": "F",
+      "position_xyz": [
+        16.8,
+        2.08,
+        -13
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_05",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P27"
+    },
+    {
+      "id": "building_segment_014",
+      "archetype": "building_segment_p28_v3",
+      "zone": "F",
+      "position_xyz": [
+        19.2,
+        2.05,
+        -13
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "row_buildings_05",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P28"
+    },
+    {
+      "id": "support_table_001",
+      "archetype": "support_table_p23_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        1.1700000000000002,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P23"
+    },
+    {
+      "id": "supported_ball_001",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.48,
+        1.508,
+        4.752999999999999
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": "support_table_001",
+      "root_support_id": "support_table_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_002",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        1.508,
+        4.752999999999999
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": "support_table_001",
+      "root_support_id": "support_table_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_003",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        10.52,
+        1.508,
+        4.752999999999999
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": "support_table_001",
+      "root_support_id": "support_table_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "supported_ball_004",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.48,
+        1.508,
+        5.247000000000001
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": "support_table_001",
+      "root_support_id": "support_table_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_005",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        1.508,
+        5.247000000000001
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": "support_table_001",
+      "root_support_id": "support_table_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_006",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        10.52,
+        1.508,
+        5.247000000000001
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_01",
+      "support_id": "support_table_001",
+      "root_support_id": "support_table_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "support_table_002",
+      "archetype": "support_table_p24_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        1.1700000000000002,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P24"
+    },
+    {
+      "id": "supported_ball_007",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        13.48,
+        1.508,
+        4.752999999999999
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": "support_table_002",
+      "root_support_id": "support_table_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_008",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        1.508,
+        4.752999999999999
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": "support_table_002",
+      "root_support_id": "support_table_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_009",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        14.52,
+        1.508,
+        4.752999999999999
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": "support_table_002",
+      "root_support_id": "support_table_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "supported_ball_010",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        13.48,
+        1.508,
+        5.247000000000001
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": "support_table_002",
+      "root_support_id": "support_table_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_011",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        1.508,
+        5.247000000000001
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": "support_table_002",
+      "root_support_id": "support_table_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_012",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        14.52,
+        1.508,
+        5.247000000000001
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_02",
+      "support_id": "support_table_002",
+      "root_support_id": "support_table_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "support_table_003",
+      "archetype": "support_table_p23_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        1.1700000000000002,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P23"
+    },
+    {
+      "id": "supported_ball_013",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.48,
+        1.508,
+        8.753
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": "support_table_003",
+      "root_support_id": "support_table_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_014",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        1.508,
+        8.753
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": "support_table_003",
+      "root_support_id": "support_table_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_015",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        10.52,
+        1.508,
+        8.753
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": "support_table_003",
+      "root_support_id": "support_table_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "supported_ball_016",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.48,
+        1.508,
+        9.247
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": "support_table_003",
+      "root_support_id": "support_table_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_017",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        1.508,
+        9.247
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": "support_table_003",
+      "root_support_id": "support_table_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_018",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        10.52,
+        1.508,
+        9.247
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_03",
+      "support_id": "support_table_003",
+      "root_support_id": "support_table_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "support_table_004",
+      "archetype": "support_table_p24_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        1.1700000000000002,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P24"
+    },
+    {
+      "id": "supported_ball_019",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        13.48,
+        1.508,
+        8.753
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": "support_table_004",
+      "root_support_id": "support_table_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_020",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        1.508,
+        8.753
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": "support_table_004",
+      "root_support_id": "support_table_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_021",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        14.52,
+        1.508,
+        8.753
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": "support_table_004",
+      "root_support_id": "support_table_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "supported_ball_022",
+      "archetype": "supported_ball_p07_v3",
+      "zone": "D",
+      "position_xyz": [
+        13.48,
+        1.508,
+        9.247
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": "support_table_004",
+      "root_support_id": "support_table_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P07"
+    },
+    {
+      "id": "supported_ball_023",
+      "archetype": "supported_ball_p08_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        1.508,
+        9.247
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": "support_table_004",
+      "root_support_id": "support_table_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P08"
+    },
+    {
+      "id": "supported_ball_024",
+      "archetype": "supported_ball_p09_v3",
+      "zone": "D",
+      "position_xyz": [
+        14.52,
+        1.508,
+        9.247
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "market_table_04",
+      "support_id": "support_table_004",
+      "root_support_id": "support_table_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P09"
+    },
+    {
+      "id": "support_pallet_001",
+      "archetype": "support_pallet_p25_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.5,
+        0.16875,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_01",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P25"
+    },
+    {
+      "id": "stack_cube_001",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.067999999999998,
+        0.7425000000000002,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_01",
+      "support_id": "support_pallet_001",
+      "root_support_id": "support_pallet_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_002",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.067999999999998,
+        1.5525,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_01",
+      "support_id": "stack_cube_001",
+      "root_support_id": "support_pallet_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "stack_cube_003",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.067999999999998,
+        2.3625000000000003,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_01",
+      "support_id": "stack_cube_002",
+      "root_support_id": "support_pallet_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_004",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.932000000000002,
+        0.7425000000000002,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_01",
+      "support_id": "support_pallet_001",
+      "root_support_id": "support_pallet_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "stack_cube_005",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.932000000000002,
+        1.5525,
+        5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_01",
+      "support_id": "stack_cube_004",
+      "root_support_id": "support_pallet_001",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "support_pallet_002",
+      "archetype": "support_pallet_p26_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.5,
+        0.16875,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_02",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P26"
+    },
+    {
+      "id": "stack_cube_006",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.067999999999998,
+        0.7425000000000002,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_02",
+      "support_id": "support_pallet_002",
+      "root_support_id": "support_pallet_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "stack_cube_007",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.067999999999998,
+        1.5525,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_02",
+      "support_id": "stack_cube_006",
+      "root_support_id": "support_pallet_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_008",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.067999999999998,
+        2.3625000000000003,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_02",
+      "support_id": "stack_cube_007",
+      "root_support_id": "support_pallet_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "stack_cube_009",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.932000000000002,
+        0.7425000000000002,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_02",
+      "support_id": "support_pallet_002",
+      "root_support_id": "support_pallet_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_010",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.932000000000002,
+        1.5525,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_02",
+      "support_id": "stack_cube_009",
+      "root_support_id": "support_pallet_002",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "support_pallet_003",
+      "archetype": "support_pallet_p25_v3",
+      "zone": "D",
+      "position_xyz": [
+        10,
+        0.16875,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_03",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P25"
+    },
+    {
+      "id": "stack_cube_011",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.568,
+        0.7425000000000002,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_03",
+      "support_id": "support_pallet_003",
+      "root_support_id": "support_pallet_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_012",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.568,
+        1.5525,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_03",
+      "support_id": "stack_cube_011",
+      "root_support_id": "support_pallet_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "stack_cube_013",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        10.432,
+        0.7425000000000002,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_03",
+      "support_id": "support_pallet_003",
+      "root_support_id": "support_pallet_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_014",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        10.432,
+        1.5525,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_03",
+      "support_id": "stack_cube_013",
+      "root_support_id": "support_pallet_003",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "support_pallet_004",
+      "archetype": "support_pallet_p26_v3",
+      "zone": "D",
+      "position_xyz": [
+        14,
+        0.16875,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_04",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P26"
+    },
+    {
+      "id": "stack_cube_015",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        13.568,
+        0.7425000000000002,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_04",
+      "support_id": "support_pallet_004",
+      "root_support_id": "support_pallet_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_016",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        13.568,
+        1.5525,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_04",
+      "support_id": "stack_cube_015",
+      "root_support_id": "support_pallet_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "stack_cube_017",
+      "archetype": "stack_cube_p15_v3",
+      "zone": "D",
+      "position_xyz": [
+        14.432,
+        0.7425000000000002,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_04",
+      "support_id": "support_pallet_004",
+      "root_support_id": "support_pallet_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P15"
+    },
+    {
+      "id": "stack_cube_018",
+      "archetype": "stack_cube_p16_v3",
+      "zone": "D",
+      "position_xyz": [
+        14.432,
+        1.5525,
+        12.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "cargo_pallet_04",
+      "support_id": "stack_cube_017",
+      "root_support_id": "support_pallet_004",
+      "initial_state": "SUPPORTED_LOCKED",
+      "asset_id": "P16"
+    },
+    {
+      "id": "fence_segment_001",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "A",
+      "position_xyz": [
+        -15.375,
+        0.5599999999999999,
+        6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_A",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_002",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "A",
+      "position_xyz": [
+        -14.125,
+        0.5599999999999999,
+        6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_A",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_003",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "A",
+      "position_xyz": [
+        -12.875,
+        0.5599999999999999,
+        6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_A",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_004",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "A",
+      "position_xyz": [
+        -11.625,
+        0.5599999999999999,
+        6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_A",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_005",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "B",
+      "position_xyz": [
+        -12.375,
+        0.5599999999999999,
+        -5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_B",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_006",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "B",
+      "position_xyz": [
+        -11.125,
+        0.5599999999999999,
+        -5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_B",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_007",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "B",
+      "position_xyz": [
+        -9.875,
+        0.5599999999999999,
+        -5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_B",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_008",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "B",
+      "position_xyz": [
+        -8.625,
+        0.5599999999999999,
+        -5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_B",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_009",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "C",
+      "position_xyz": [
+        -3.125,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_C",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_010",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "C",
+      "position_xyz": [
+        -1.875,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_C",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_011",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "C",
+      "position_xyz": [
+        -0.625,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_C",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_012",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "C",
+      "position_xyz": [
+        0.625,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_C",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_013",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "C",
+      "position_xyz": [
+        1.875,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_C",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_014",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "C",
+      "position_xyz": [
+        3.125,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_C",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_015",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "D",
+      "position_xyz": [
+        17.375,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_D",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_016",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "D",
+      "position_xyz": [
+        18.625,
+        0.5599999999999999,
+        2
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_D",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_017",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "E",
+      "position_xyz": [
+        0.375,
+        0.5599999999999999,
+        14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_E",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_018",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "E",
+      "position_xyz": [
+        1.625,
+        0.5599999999999999,
+        14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_E",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "fence_segment_019",
+      "archetype": "fence_segment_p13_v3",
+      "zone": "F",
+      "position_xyz": [
+        13.875,
+        0.5599999999999999,
+        -15.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_F",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P13"
+    },
+    {
+      "id": "fence_segment_020",
+      "archetype": "fence_segment_p14_v3",
+      "zone": "F",
+      "position_xyz": [
+        15.125,
+        0.5599999999999999,
+        -15.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": "rail_F",
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P14"
+    },
+    {
+      "id": "vehicle_001",
+      "archetype": "vehicle_p19_v3",
+      "zone": "A",
+      "position_xyz": [
+        -16.42,
+        0.5599999999999999,
+        5.28
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P19"
+    },
+    {
+      "id": "vehicle_002",
+      "archetype": "vehicle_p20_v3",
+      "zone": "A",
+      "position_xyz": [
+        -14.82,
+        0.5599999999999999,
+        4.64
+      ],
+      "yaw_degrees": 90,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P20"
+    },
+    {
+      "id": "vehicle_003",
+      "archetype": "vehicle_p21_v3",
+      "zone": "B",
+      "position_xyz": [
+        -16.1,
+        0.5599999999999999,
+        -3.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P21"
+    },
+    {
+      "id": "vehicle_004",
+      "archetype": "vehicle_p22_v3",
+      "zone": "B",
+      "position_xyz": [
+        -13.86,
+        1.5524999999999998,
+        -4.56
+      ],
+      "yaw_degrees": 90,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P22"
+    },
+    {
+      "id": "vehicle_005",
+      "archetype": "vehicle_p19_v3",
+      "zone": "B",
+      "position_xyz": [
+        -11.94,
+        0.5599999999999999,
+        -5.84
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P19"
+    },
+    {
+      "id": "vehicle_006",
+      "archetype": "vehicle_p20_v3",
+      "zone": "C",
+      "position_xyz": [
+        -4.32,
+        0.5599999999999999,
+        -4.66
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P20"
+    },
+    {
+      "id": "vehicle_007",
+      "archetype": "vehicle_p21_v3",
+      "zone": "D",
+      "position_xyz": [
+        8.64,
+        0.5599999999999999,
+        3.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P21"
+    },
+    {
+      "id": "vehicle_008",
+      "archetype": "vehicle_p22_v3",
+      "zone": "E",
+      "position_xyz": [
+        -6.36,
+        1.5524999999999998,
+        9.64
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P22"
+    },
+    {
+      "id": "bench_001",
+      "archetype": "bench_p17_v3",
+      "zone": "A",
+      "position_xyz": [
+        -16.42,
+        0.4725,
+        6.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P17"
+    },
+    {
+      "id": "bench_002",
+      "archetype": "bench_p18_v3",
+      "zone": "A",
+      "position_xyz": [
+        -15.78,
+        0.4725,
+        3.68
+      ],
+      "yaw_degrees": 90,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P18"
+    },
+    {
+      "id": "bench_003",
+      "archetype": "bench_p17_v3",
+      "zone": "B",
+      "position_xyz": [
+        -16.1,
+        0.4725,
+        -4.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P17"
+    },
+    {
+      "id": "bench_004",
+      "archetype": "bench_p18_v3",
+      "zone": "C",
+      "position_xyz": [
+        -3.5300000000000002,
+        0.4725,
+        -5.54
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P18"
+    },
+    {
+      "id": "bench_005",
+      "archetype": "bench_p17_v3",
+      "zone": "C",
+      "position_xyz": [
+        -3.68,
+        0.4725,
+        -0.5
+      ],
+      "yaw_degrees": 90,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P17"
+    },
+    {
+      "id": "bench_006",
+      "archetype": "bench_p18_v3",
+      "zone": "C",
+      "position_xyz": [
+        3.68,
+        0.4725,
+        -0.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P18"
+    },
+    {
+      "id": "bench_007",
+      "archetype": "bench_p17_v3",
+      "zone": "D",
+      "position_xyz": [
+        8.64,
+        0.4725,
+        2.96
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P17"
+    },
+    {
+      "id": "bench_008",
+      "archetype": "bench_p18_v3",
+      "zone": "D",
+      "position_xyz": [
+        11.84,
+        0.4725,
+        6.8
+      ],
+      "yaw_degrees": 90,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P18"
+    },
+    {
+      "id": "bench_009",
+      "archetype": "bench_p17_v3",
+      "zone": "E",
+      "position_xyz": [
+        -6.36,
+        0.4725,
+        10.6
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P17"
+    },
+    {
+      "id": "bench_010",
+      "archetype": "bench_p18_v3",
+      "zone": "F",
+      "position_xyz": [
+        8,
+        0.4725,
+        -10.06
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P18"
+    },
+    {
+      "id": "bin_001",
+      "archetype": "bin_p10_v3",
+      "zone": "A",
+      "position_xyz": [
+        -16.74,
+        0.6075,
+        4.32
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P10"
+    },
+    {
+      "id": "bin_002",
+      "archetype": "bin_p11_v3",
+      "zone": "A",
+      "position_xyz": [
+        -13.86,
+        0.6075,
+        4.64
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P11"
+    },
+    {
+      "id": "bin_003",
+      "archetype": "bin_p12_v3",
+      "zone": "A",
+      "position_xyz": [
+        -13.54,
+        0.6075,
+        3.68
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P12"
+    },
+    {
+      "id": "bin_004",
+      "archetype": "bin_p10_v3",
+      "zone": "B",
+      "position_xyz": [
+        -13.4,
+        0.6075,
+        -2.4799999999999995
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P10"
+    },
+    {
+      "id": "bin_005",
+      "archetype": "bin_p11_v3",
+      "zone": "B",
+      "position_xyz": [
+        -15,
+        0.6075,
+        -5.3
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P11"
+    },
+    {
+      "id": "bin_006",
+      "archetype": "bin_p12_v3",
+      "zone": "B",
+      "position_xyz": [
+        -11.479999999999999,
+        0.6075,
+        -7.3
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P12"
+    },
+    {
+      "id": "bin_007",
+      "archetype": "bin_p10_v3",
+      "zone": "B",
+      "position_xyz": [
+        -10.02,
+        0.6075,
+        -8.08
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P10"
+    },
+    {
+      "id": "bin_008",
+      "archetype": "bin_p11_v3",
+      "zone": "C",
+      "position_xyz": [
+        -4.32,
+        0.6075,
+        -3.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P11"
+    },
+    {
+      "id": "bin_009",
+      "archetype": "bin_p12_v3",
+      "zone": "C",
+      "position_xyz": [
+        -4.64,
+        0.6075,
+        -0.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P12"
+    },
+    {
+      "id": "bin_010",
+      "archetype": "bin_p10_v3",
+      "zone": "C",
+      "position_xyz": [
+        3.68,
+        0.6075,
+        0.46
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P10"
+    },
+    {
+      "id": "bin_011",
+      "archetype": "bin_p11_v3",
+      "zone": "C",
+      "position_xyz": [
+        4.32,
+        0.6075,
+        -4.98
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P11"
+    },
+    {
+      "id": "bin_012",
+      "archetype": "bin_p12_v3",
+      "zone": "C",
+      "position_xyz": [
+        -0.16,
+        0.6075,
+        -7.22
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P12"
+    },
+    {
+      "id": "bin_013",
+      "archetype": "bin_p10_v3",
+      "zone": "D",
+      "position_xyz": [
+        8.48,
+        0.6075,
+        4.88
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P10"
+    },
+    {
+      "id": "bin_014",
+      "archetype": "bin_p11_v3",
+      "zone": "D",
+      "position_xyz": [
+        12.8,
+        0.6075,
+        6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P11"
+    },
+    {
+      "id": "bin_015",
+      "archetype": "bin_p12_v3",
+      "zone": "E",
+      "position_xyz": [
+        -4.76,
+        0.6075,
+        9.64
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P12"
+    },
+    {
+      "id": "bin_016",
+      "archetype": "bin_p10_v3",
+      "zone": "E",
+      "position_xyz": [
+        -4.44,
+        0.6075,
+        10.6
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P10"
+    },
+    {
+      "id": "bin_017",
+      "archetype": "bin_p11_v3",
+      "zone": "F",
+      "position_xyz": [
+        8,
+        0.6075,
+        -9.1
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P11"
+    },
+    {
+      "id": "bin_018",
+      "archetype": "bin_p12_v3",
+      "zone": "F",
+      "position_xyz": [
+        14.72,
+        0.6075,
+        -10.06
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P12"
+    },
+    {
+      "id": "tall_pole_001",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "A",
+      "position_xyz": [
+        -17.7,
+        1.52,
+        5.28
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_002",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "A",
+      "position_xyz": [
+        -15.14,
+        1.6800000000000002,
+        3.36
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_003",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "A",
+      "position_xyz": [
+        -13.54,
+        1.52,
+        3.04
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_004",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "A",
+      "position_xyz": [
+        -11.94,
+        1.6800000000000002,
+        2.08
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_005",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "A",
+      "position_xyz": [
+        -18.02,
+        1.52,
+        4.64
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_006",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "A",
+      "position_xyz": [
+        -17.7,
+        1.6800000000000002,
+        5.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_007",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "B",
+      "position_xyz": [
+        -17.16,
+        1.52,
+        -3.28
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_008",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "B",
+      "position_xyz": [
+        -14.82,
+        1.6800000000000002,
+        -4.56
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_009",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "B",
+      "position_xyz": [
+        -10.98,
+        1.52,
+        -6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_010",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "B",
+      "position_xyz": [
+        -10.02,
+        1.6800000000000002,
+        -7.44
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_011",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "B",
+      "position_xyz": [
+        -7.14,
+        1.52,
+        -9.04
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_012",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "B",
+      "position_xyz": [
+        -14.82,
+        1.6800000000000002,
+        -3.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_013",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "C",
+      "position_xyz": [
+        -5.6,
+        1.52,
+        -4.66
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_014",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "C",
+      "position_xyz": [
+        -3.04,
+        1.6800000000000002,
+        -0.5
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_015",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "C",
+      "position_xyz": [
+        3.68,
+        1.52,
+        -1.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_016",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "C",
+      "position_xyz": [
+        4.32,
+        1.6800000000000002,
+        -5.62
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_017",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "C",
+      "position_xyz": [
+        -0.16,
+        1.52,
+        -6.58
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_018",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "C",
+      "position_xyz": [
+        -5.6,
+        1.6800000000000002,
+        -5.3
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_019",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "C",
+      "position_xyz": [
+        -4.32,
+        1.52,
+        -1.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_020",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "C",
+      "position_xyz": [
+        4.32,
+        1.6800000000000002,
+        -1.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_021",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.92,
+        1.52,
+        3.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_022",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "D",
+      "position_xyz": [
+        12.48,
+        1.6800000000000002,
+        6.16
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_023",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "E",
+      "position_xyz": [
+        -5.08,
+        1.52,
+        9
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_024",
+      "archetype": "tall_pole_p06_v3",
+      "zone": "E",
+      "position_xyz": [
+        -4.44,
+        1.6800000000000002,
+        11.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P06"
+    },
+    {
+      "id": "tall_pole_025",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "E",
+      "position_xyz": [
+        -1.88,
+        1.52,
+        11.88
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_026",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "E",
+      "position_xyz": [
+        1.64,
+        1.52,
+        12.52
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_027",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "F",
+      "position_xyz": [
+        8,
+        1.52,
+        -10.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "tall_pole_028",
+      "archetype": "tall_pole_p05_v3",
+      "zone": "F",
+      "position_xyz": [
+        14.72,
+        1.52,
+        -9.42
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P05"
+    },
+    {
+      "id": "micro_block_001",
+      "archetype": "micro_block_p01_v3",
+      "zone": "A",
+      "position_xyz": [
+        -15.14,
+        0.24749999999999997,
+        5.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_002",
+      "archetype": "micro_block_p02_v3",
+      "zone": "A",
+      "position_xyz": [
+        -14.5,
+        0.24749999999999997,
+        3.36
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_003",
+      "archetype": "micro_block_p03_v3",
+      "zone": "A",
+      "position_xyz": [
+        -12.9,
+        0.24749999999999997,
+        3.04
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_004",
+      "archetype": "micro_block_p04_v3",
+      "zone": "A",
+      "position_xyz": [
+        -11.3,
+        0.24749999999999997,
+        2.08
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_005",
+      "archetype": "micro_block_p01_v3",
+      "zone": "A",
+      "position_xyz": [
+        -18.02,
+        0.24749999999999997,
+        4
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_006",
+      "archetype": "micro_block_p02_v3",
+      "zone": "A",
+      "position_xyz": [
+        -16.42,
+        0.24749999999999997,
+        6.88
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_007",
+      "archetype": "micro_block_p03_v3",
+      "zone": "A",
+      "position_xyz": [
+        -13.86,
+        0.24749999999999997,
+        5.28
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_008",
+      "archetype": "micro_block_p04_v3",
+      "zone": "A",
+      "position_xyz": [
+        -12.58,
+        0.24749999999999997,
+        3.68
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_009",
+      "archetype": "micro_block_p01_v3",
+      "zone": "A",
+      "position_xyz": [
+        -11.94,
+        0.24749999999999997,
+        2.72
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_010",
+      "archetype": "micro_block_p02_v3",
+      "zone": "A",
+      "position_xyz": [
+        -18.66,
+        0.24749999999999997,
+        4.64
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_011",
+      "archetype": "micro_block_p03_v3",
+      "zone": "A",
+      "position_xyz": [
+        -17.06,
+        0.24749999999999997,
+        6.88
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_012",
+      "archetype": "micro_block_p04_v3",
+      "zone": "A",
+      "position_xyz": [
+        -14.5,
+        0.24749999999999997,
+        5.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_013",
+      "archetype": "micro_block_p01_v3",
+      "zone": "A",
+      "position_xyz": [
+        -12.9,
+        0.24749999999999997,
+        4.32
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_014",
+      "archetype": "micro_block_p02_v3",
+      "zone": "A",
+      "position_xyz": [
+        -11.94,
+        0.24749999999999997,
+        1.44
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_015",
+      "archetype": "micro_block_p03_v3",
+      "zone": "A",
+      "position_xyz": [
+        -18.34,
+        0.24749999999999997,
+        5.28
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_016",
+      "archetype": "micro_block_p04_v3",
+      "zone": "A",
+      "position_xyz": [
+        -16.42,
+        0.24749999999999997,
+        3.68
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_017",
+      "archetype": "micro_block_p01_v3",
+      "zone": "A",
+      "position_xyz": [
+        -15.14,
+        0.24749999999999997,
+        2.72
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_018",
+      "archetype": "micro_block_p02_v3",
+      "zone": "A",
+      "position_xyz": [
+        -14.18,
+        0.24749999999999997,
+        2.72
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_019",
+      "archetype": "micro_block_p03_v3",
+      "zone": "B",
+      "position_xyz": [
+        -17.38,
+        0.24749999999999997,
+        -3.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_020",
+      "archetype": "micro_block_p04_v3",
+      "zone": "B",
+      "position_xyz": [
+        -12.9,
+        0.24749999999999997,
+        -4.56
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_021",
+      "archetype": "micro_block_p01_v3",
+      "zone": "B",
+      "position_xyz": [
+        -13.22,
+        0.24749999999999997,
+        -6.16
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_022",
+      "archetype": "micro_block_p02_v3",
+      "zone": "B",
+      "position_xyz": [
+        -10.02,
+        0.24749999999999997,
+        -8.72
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_023",
+      "archetype": "micro_block_p03_v3",
+      "zone": "B",
+      "position_xyz": [
+        -6.5,
+        0.24749999999999997,
+        -9.04
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_024",
+      "archetype": "micro_block_p04_v3",
+      "zone": "B",
+      "position_xyz": [
+        -16.1,
+        0.24749999999999997,
+        -4.88
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_025",
+      "archetype": "micro_block_p01_v3",
+      "zone": "B",
+      "position_xyz": [
+        -12.9,
+        0.24749999999999997,
+        -3.92
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_026",
+      "archetype": "micro_block_p02_v3",
+      "zone": "B",
+      "position_xyz": [
+        -11.54,
+        0.24749999999999997,
+        -8.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_027",
+      "archetype": "micro_block_p03_v3",
+      "zone": "B",
+      "position_xyz": [
+        -9.38,
+        0.24749999999999997,
+        -7.44
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_028",
+      "archetype": "micro_block_p04_v3",
+      "zone": "B",
+      "position_xyz": [
+        -6.96,
+        0.24749999999999997,
+        -9.6
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_029",
+      "archetype": "micro_block_p01_v3",
+      "zone": "B",
+      "position_xyz": [
+        -16.74,
+        0.24749999999999997,
+        -4.88
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_030",
+      "archetype": "micro_block_p02_v3",
+      "zone": "B",
+      "position_xyz": [
+        -13.52,
+        0.24749999999999997,
+        -3.1599999999999997
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_031",
+      "archetype": "micro_block_p03_v3",
+      "zone": "B",
+      "position_xyz": [
+        -10.66,
+        0.24749999999999997,
+        -6.16
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_032",
+      "archetype": "micro_block_p04_v3",
+      "zone": "B",
+      "position_xyz": [
+        -10.66,
+        0.24749999999999997,
+        -7.44
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_033",
+      "archetype": "micro_block_p01_v3",
+      "zone": "C",
+      "position_xyz": [
+        -3.04,
+        0.24749999999999997,
+        -4.66
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_034",
+      "archetype": "micro_block_p02_v3",
+      "zone": "C",
+      "position_xyz": [
+        -4.32,
+        0.24749999999999997,
+        0.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_035",
+      "archetype": "micro_block_p03_v3",
+      "zone": "C",
+      "position_xyz": [
+        4.64,
+        0.24749999999999997,
+        0.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_036",
+      "archetype": "micro_block_p04_v3",
+      "zone": "C",
+      "position_xyz": [
+        4.32,
+        0.24749999999999997,
+        -4.34
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_037",
+      "archetype": "micro_block_p01_v3",
+      "zone": "C",
+      "position_xyz": [
+        0.48,
+        0.24749999999999997,
+        -6.58
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_038",
+      "archetype": "micro_block_p02_v3",
+      "zone": "C",
+      "position_xyz": [
+        -5.28,
+        0.24749999999999997,
+        -3.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_039",
+      "archetype": "micro_block_p03_v3",
+      "zone": "C",
+      "position_xyz": [
+        -3.04,
+        0.24749999999999997,
+        -1.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_040",
+      "archetype": "micro_block_p04_v3",
+      "zone": "C",
+      "position_xyz": [
+        3.04,
+        0.24749999999999997,
+        -1.14
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_041",
+      "archetype": "micro_block_p01_v3",
+      "zone": "C",
+      "position_xyz": [
+        4.96,
+        0.24749999999999997,
+        -5.62
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_042",
+      "archetype": "micro_block_p02_v3",
+      "zone": "C",
+      "position_xyz": [
+        -0.16,
+        0.24749999999999997,
+        -7.86
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_043",
+      "archetype": "micro_block_p03_v3",
+      "zone": "D",
+      "position_xyz": [
+        9.92,
+        0.24749999999999997,
+        3.28
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_044",
+      "archetype": "micro_block_p04_v3",
+      "zone": "D",
+      "position_xyz": [
+        11.2,
+        0.24749999999999997,
+        6.8
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_045",
+      "archetype": "micro_block_p01_v3",
+      "zone": "D",
+      "position_xyz": [
+        16,
+        0.24749999999999997,
+        10.64
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_046",
+      "archetype": "micro_block_p02_v3",
+      "zone": "D",
+      "position_xyz": [
+        8.64,
+        0.24749999999999997,
+        10.96
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P02"
+    },
+    {
+      "id": "micro_block_047",
+      "archetype": "micro_block_p03_v3",
+      "zone": "D",
+      "position_xyz": [
+        8.64,
+        0.24749999999999997,
+        5.52
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P03"
+    },
+    {
+      "id": "micro_block_048",
+      "archetype": "micro_block_p04_v3",
+      "zone": "E",
+      "position_xyz": [
+        -6.36,
+        0.24749999999999997,
+        11.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P04"
+    },
+    {
+      "id": "micro_block_049",
+      "archetype": "micro_block_p01_v3",
+      "zone": "E",
+      "position_xyz": [
+        -3.8,
+        0.24749999999999997,
+        9.96
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_050",
+      "archetype": "micro_block_p01_v3",
+      "zone": "E",
+      "position_xyz": [
+        -1.88,
+        0.24749999999999997,
+        12.52
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_051",
+      "archetype": "micro_block_p01_v3",
+      "zone": "E",
+      "position_xyz": [
+        1,
+        0.24749999999999997,
+        12.52
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_052",
+      "archetype": "micro_block_p01_v3",
+      "zone": "E",
+      "position_xyz": [
+        3.88,
+        0.24749999999999997,
+        9.96
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_053",
+      "archetype": "micro_block_p01_v3",
+      "zone": "E",
+      "position_xyz": [
+        -7,
+        0.24749999999999997,
+        11.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_054",
+      "archetype": "micro_block_p01_v3",
+      "zone": "E",
+      "position_xyz": [
+        -5.08,
+        0.24749999999999997,
+        11.24
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_055",
+      "archetype": "micro_block_p01_v3",
+      "zone": "F",
+      "position_xyz": [
+        8.64,
+        0.24749999999999997,
+        -10.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    },
+    {
+      "id": "micro_block_056",
+      "archetype": "micro_block_p01_v3",
+      "zone": "F",
+      "position_xyz": [
+        14.72,
+        0.24749999999999997,
+        -10.7
+      ],
+      "yaw_degrees": 0,
+      "assembly_id": null,
+      "support_id": null,
+      "root_support_id": null,
+      "initial_state": "AVAILABLE",
+      "asset_id": "P01"
+    }
+  ],
+  "external_references": [
+    "docs/references/approved_concept_02.png"
+  ],
+  "runtime_revision": "hole-concept-scale-v3",
+  "summary": {
+    "logical_units": 215,
+    "score_total": 1134,
+    "growth_total": 1134,
+    "locked_payloads": 42,
+    "assemblies": 19,
+    "visual_asset_variants": 37,
+    "visual_reference_approved": false,
+    "style_concept_approved": true
+  },
+  "fit_profiles": {
+    "version": "hole-slot-fit-v3",
+    "source": "explicit shared prototype contract; no runtime mesh inference",
+    "by_slot": {
+      "P36": {
+        "diameter": 5.28,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P37": {
+        "diameter": 5.64,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P35": {
+        "diameter": 6.26,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P31": {
+        "diameter": 4.11,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P32": {
+        "diameter": 4.06,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P33": {
+        "diameter": 4.06,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P34": {
+        "diameter": 4.06,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P27": {
+        "diameter": 2.99,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P28": {
+        "diameter": 2.99,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P29": {
+        "diameter": 2.99,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P30": {
+        "diameter": 2.99,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P23": {
+        "diameter": 2.19,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P07": {
+        "diameter": 0.42,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P08": {
+        "diameter": 0.42,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P09": {
+        "diameter": 0.41,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P24": {
+        "diameter": 2.19,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P25": {
+        "diameter": 2.08,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P15": {
+        "diameter": 1.03,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P16": {
+        "diameter": 1.04,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P26": {
+        "diameter": 2.08,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P13": {
+        "diameter": 1.18,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P14": {
+        "diameter": 1.18,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P19": {
+        "diameter": 1.66,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P20": {
+        "diameter": 1.77,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P21": {
+        "diameter": 1.73,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P22": {
+        "diameter": 2.3,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P17": {
+        "diameter": 2.07,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P18": {
+        "diameter": 1.99,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P10": {
+        "diameter": 0.89,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P11": {
+        "diameter": 1.16,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P12": {
+        "diameter": 0.89,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P05": {
+        "diameter": 0.5,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P06": {
+        "diameter": 0.5,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P01": {
+        "diameter": 0.57,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P02": {
+        "diameter": 0.46,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P03": {
+        "diameter": 0.41,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      },
+      "P04": {
+        "diameter": 0.48,
+        "strategy": "upright",
+        "source": "authored_visual_contract_v3"
+      }
+    }
+  },
+  "layout_revision": {
+    "id": "b2-concept-scale-003",
+    "changes": [
+      {
+        "id": "building_segment_001",
+        "reason": "row_spacing",
+        "from": [
+          -17.5,
+          2.08,
+          -12.5
+        ],
+        "to": [
+          -17.9,
+          2.08,
+          -12.5
+        ]
+      },
+      {
+        "id": "building_segment_002",
+        "reason": "row_spacing",
+        "from": [
+          -15.5,
+          2.05,
+          -12.5
+        ],
+        "to": [
+          -15.5,
+          2.05,
+          -12.5
+        ]
+      },
+      {
+        "id": "building_segment_003",
+        "reason": "row_spacing",
+        "from": [
+          -13.5,
+          2.15,
+          -12.5
+        ],
+        "to": [
+          -13.1,
+          2.15,
+          -12.5
+        ]
+      },
+      {
+        "id": "building_segment_004",
+        "reason": "row_spacing",
+        "from": [
+          -17.5,
+          2.01,
+          -7.5
+        ],
+        "to": [
+          -17.9,
+          2.01,
+          -7.5
+        ]
+      },
+      {
+        "id": "building_segment_005",
+        "reason": "row_spacing",
+        "from": [
+          -15.5,
+          2.08,
+          -7.5
+        ],
+        "to": [
+          -15.5,
+          2.08,
+          -7.5
+        ]
+      },
+      {
+        "id": "building_segment_006",
+        "reason": "row_spacing",
+        "from": [
+          -13.5,
+          2.05,
+          -7.5
+        ],
+        "to": [
+          -13.1,
+          2.05,
+          -7.5
+        ]
+      },
+      {
+        "id": "building_segment_007",
+        "reason": "row_spacing",
+        "from": [
+          9,
+          2.15,
+          -13
+        ],
+        "to": [
+          8.6,
+          2.15,
+          -13
+        ]
+      },
+      {
+        "id": "building_segment_008",
+        "reason": "row_spacing",
+        "from": [
+          11,
+          2.01,
+          -13
+        ],
+        "to": [
+          11,
+          2.01,
+          -13
+        ]
+      },
+      {
+        "id": "building_segment_009",
+        "reason": "row_spacing",
+        "from": [
+          13,
+          2.08,
+          -13
+        ],
+        "to": [
+          13.4,
+          2.08,
+          -13
+        ]
+      },
+      {
+        "id": "building_segment_010",
+        "reason": "row_spacing",
+        "from": [
+          9,
+          2.05,
+          -7.5
+        ],
+        "to": [
+          8.6,
+          2.05,
+          -7.5
+        ]
+      },
+      {
+        "id": "building_segment_011",
+        "reason": "row_spacing",
+        "from": [
+          11,
+          2.15,
+          -7.5
+        ],
+        "to": [
+          11,
+          2.15,
+          -7.5
+        ]
+      },
+      {
+        "id": "building_segment_012",
+        "reason": "row_spacing",
+        "from": [
+          13,
+          2.01,
+          -7.5
+        ],
+        "to": [
+          13.4,
+          2.01,
+          -7.5
+        ]
+      },
+      {
+        "id": "building_segment_013",
+        "reason": "row_spacing",
+        "from": [
+          17,
+          2.08,
+          -13
+        ],
+        "to": [
+          16.8,
+          2.08,
+          -13
+        ]
+      },
+      {
+        "id": "building_segment_014",
+        "reason": "row_spacing",
+        "from": [
+          19,
+          2.05,
+          -13
+        ],
+        "to": [
+          19.2,
+          2.05,
+          -13
+        ]
+      },
+      {
+        "id": "vehicle_003",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -16.1,
+          0.5599999999999999,
+          -3.28
+        ],
+        "to": [
+          -16.1,
+          0.5599999999999999,
+          -3.5
+        ]
+      },
+      {
+        "id": "micro_block_028",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -7.14,
+          0.24749999999999997,
+          -9.68
+        ],
+        "to": [
+          -6.96,
+          0.24749999999999997,
+          -9.6
+        ]
+      },
+      {
+        "id": "bench_004",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -3.68,
+          0.4725,
+          -5.62
+        ],
+        "to": [
+          -3.5300000000000002,
+          0.4725,
+          -5.54
+        ]
+      },
+      {
+        "id": "tall_pole_007",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -17.38,
+          1.52,
+          -3.28
+        ],
+        "to": [
+          -17.16,
+          1.52,
+          -3.28
+        ]
+      },
+      {
+        "id": "bin_013",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          8.64,
+          0.6075,
+          4.88
+        ],
+        "to": [
+          8.48,
+          0.6075,
+          4.88
+        ]
+      },
+      {
+        "id": "bin_004",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -14.5,
+          0.6075,
+          -3.28
+        ],
+        "to": [
+          -13.4,
+          0.6075,
+          -2.4799999999999995
+        ]
+      },
+      {
+        "id": "bin_005",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -14.82,
+          0.6075,
+          -5.2
+        ],
+        "to": [
+          -15,
+          0.6075,
+          -5.3
+        ]
+      },
+      {
+        "id": "micro_block_030",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -13.54,
+          0.24749999999999997,
+          -3.28
+        ],
+        "to": [
+          -13.52,
+          0.24749999999999997,
+          -3.1599999999999997
+        ]
+      },
+      {
+        "id": "bin_006",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -11.94,
+          0.6075,
+          -6.8
+        ],
+        "to": [
+          -11.479999999999999,
+          0.6075,
+          -7.3
+        ]
+      },
+      {
+        "id": "micro_block_026",
+        "reason": "measured_neighbor_clearance",
+        "from": [
+          -11.94,
+          0.24749999999999997,
+          -7.44
+        ],
+        "to": [
+          -11.54,
+          0.24749999999999997,
+          -8.24
+        ]
+      }
+    ]
+  },
+  "art_scale_revision": {
+    "id": "b2-concept-scale-003",
+    "rationale": "Normalize prop scale against island width; stop treating old graybox envelopes as final art dimensions.",
+    "fitDiameters": {
+      "P01": 0.57,
+      "P02": 0.46,
+      "P03": 0.41,
+      "P04": 0.48,
+      "P05": 0.5,
+      "P06": 0.5,
+      "P07": 0.42,
+      "P08": 0.42,
+      "P09": 0.41,
+      "P10": 0.89,
+      "P11": 1.16,
+      "P12": 0.89,
+      "P13": 1.18,
+      "P14": 1.18,
+      "P15": 1.03,
+      "P16": 1.04,
+      "P17": 2.07,
+      "P18": 1.99,
+      "P19": 1.66,
+      "P20": 1.77,
+      "P21": 1.73,
+      "P22": 2.3,
+      "P23": 2.19,
+      "P24": 2.19,
+      "P25": 2.08,
+      "P26": 2.08,
+      "P27": 2.99,
+      "P28": 2.99,
+      "P29": 2.99,
+      "P30": 2.99,
+      "P31": 4.11,
+      "P32": 4.06,
+      "P33": 4.06,
+      "P34": 4.06,
+      "P35": 6.26,
+      "P36": 5.28,
+      "P37": 5.64
+    },
+    "fitMeasurement": "evidence/final_art_polish_20260929/023_candidate_geometry.json; actual nested runtime vertices at target row outer width 2.28m; structure reauthored in 003, round details preserved; >=1.5% clearance",
+    "rowSpacingScale": 1.2,
+    "clearanceOffsets": {
+      "vehicle_003": [
+        0,
+        0,
+        -0.22
+      ],
+      "micro_block_028": [
+        0.18,
+        0,
+        0.08
+      ],
+      "bench_004": [
+        0.15,
+        0,
+        0.08
+      ],
+      "tall_pole_007": [
+        0.22,
+        0,
+        0
+      ],
+      "bin_013": [
+        -0.16,
+        0,
+        0
+      ],
+      "bin_004": [
+        1.1,
+        0,
+        0.8
+      ],
+      "bin_005": [
+        -0.18,
+        0,
+        -0.1
+      ],
+      "micro_block_030": [
+        0.02,
+        0,
+        0.12
+      ],
+      "bin_006": [
+        0.46,
+        0,
+        -0.5
+      ],
+      "micro_block_026": [
+        0.4,
+        0,
+        -0.8
+      ]
+    },
+    "scales": {
+      "P01": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P02": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P03": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P04": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "P05": [
+        1.8,
+        1.9,
+        1.8
+      ],
+      "P06": [
+        1.8,
+        2.1,
+        1.8
+      ],
+      "P07": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P08": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P09": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P10": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P11": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P12": [
+        1.25,
+        1.35,
+        1.25
+      ],
+      "P13": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P14": [
+        1.08,
+        1.4,
+        1.4
+      ],
+      "P15": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P16": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P17": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P18": [
+        1.35,
+        1.35,
+        1.25
+      ],
+      "P19": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P20": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P21": [
+        1.2,
+        1.4,
+        1.15
+      ],
+      "P22": [
+        1.18,
+        1.35,
+        1.12
+      ],
+      "P23": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P24": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "P25": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P26": [
+        1.35,
+        1.35,
+        1.35
+      ],
+      "P27": [
+        1,
+        1,
+        1.08
+      ],
+      "P28": [
+        1,
+        1,
+        1.08
+      ],
+      "P29": [
+        1,
+        1,
+        1.08
+      ],
+      "P30": [
+        1,
+        1,
+        1.08
+      ],
+      "P31": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P32": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P33": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P34": [
+        1.28,
+        1.5,
+        1.28
+      ],
+      "P35": [
+        1.12,
+        1.12,
+        1.12
+      ],
+      "P36": [
+        1.35,
+        1.3,
+        1.3
+      ],
+      "P37": [
+        1.18,
+        1.28,
+        1.18
+      ]
+    }
+  }
+}

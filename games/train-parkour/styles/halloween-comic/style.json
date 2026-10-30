@@ -1,0 +1,17 @@
+{
+  "id": "halloween-comic",
+  "name": "酸色漫画鬼节 / H07 Halloween",
+  "version": "city08 + T2 + Festival V2 + staged train readability",
+  "engine": "main",
+  "descriptor": "art/themes/halloween_festival/integrated-theme.json",
+  "scene": "halloween_comic",
+  "progress": "37-track, nine-region connected playable candidate. Concept fidelity, stable performance and human acceptance remain open.",
+  "engine_root": "shared/engine-main/game",
+  "entry_scene": "res://showcase_entries/halloween_comic.tscn",
+  "status": "playable-development-candidate",
+  "thumbnail": "styles/halloween-comic/thumbnail.jpg",
+  "technical_validation": "native static launch verified; see validation/index.json",
+  "native_preview": "styles/halloween-comic/thumbnail.jpg",
+  "native_preview_sha256": "7cae742a20cf1dda7512fa24b90390e8f9d71061cdbd9c358d7f98eee3260fbb",
+  "native_preview_scope": "Native static launch frame; no human play, concept-fidelity or performance claim."
+}

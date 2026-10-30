@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "halloween_festival",
+  "status": "development",
+  "baseline": "art/themes/baselines/m1.7r2-unified-v2.json",
+  "application_scene": "game/scenes/app/spatial_full_r2_lab.tscn",
+  "camera_policy": "baseline",
+  "presentation_script": "game/themes/halloween_festival/integrated_presentation.gd",
+  "render_profile": {
+    "mode": "native"
+  },
+  "recipe": "art/themes/halloween_festival/recipe.json",
+  "catalog": "art/themes/catalog.json",
+  "production_stage": "T2 scene + Festival V2 + exact static batching; concept-light refinement candidate",
+  "lux3d_version": "G1",
+  "new_paid_generation_count": 3,
+  "new_paid_generation_count_this_refinement": 0
+}

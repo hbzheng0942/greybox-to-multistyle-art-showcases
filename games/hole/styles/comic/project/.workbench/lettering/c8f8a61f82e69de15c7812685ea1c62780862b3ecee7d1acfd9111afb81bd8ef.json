@@ -1,0 +1,64 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "b79f73fb6de0764c27273f196547cc06045ead4d2992652a4fcebc88638ffbd6",
+  "outputSha256": "b6a8a9614d0bf5f6842cac2904a7571000a432ce3387c173bf2f541b600b5f24",
+  "labels": [
+    {
+      "labelId": "label-1b63746ef723569ef2c4",
+      "instanceId": "instance-ab05c2b25a45bf553331",
+      "text": "茶坊",
+      "textSha256": "c805555ed5c622854a7e29b7f01667c452cdf99be8af04e2121fa9782a692883",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "a8edca01e9a0c6a34bd941583ad5c6d79381125010e495ae2ebd7094e6cd0dd5",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "b79f73fb6de0764c27273f196547cc06045ead4d2992652a4fcebc88638ffbd6",
+        "frameHash": "cf182528b0e896ed768350dde9107c91b6857e1fe129e545e0b19f3374a8a167",
+        "center": [
+          -0.0194586208771066,
+          0.35142815688560675
+        ],
+        "size": [
+          1.3231862196429014,
+          0.2918793131565224
+        ],
+        "evidencePath": "evidence/assembly_repair_20261013/comic-sign-faces/tea_shop-__.png",
+        "evidenceHash": "d043036e1db475db70bb9614b81b774c96048adca80db0bd239e05e571d6c0be",
+        "pixelBounds": [
+          215,
+          245,
+          419,
+          290
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 626,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "fa908adf1efa4db0ab406afbaf78a5745be85b3f4851ab27a265ff9c447b9cf6",
+      "outputImageHash": "22c453d8e9c3fe1846f0751063d40866a6da2999fa979bcfcb4d94f4d58452d6",
+      "changedTexels": 626,
+      "maskTexels": 626,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "a49c8940eda0f2723a07d37c48e96c0bd2afaa7750ce0bef0b942d2153ddfb48",
+  "preservedBinaryPrefixBytes": 7142868,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}

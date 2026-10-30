@@ -1,0 +1,155 @@
+{
+  "package_revision": "integrated-skeletal-20261030",
+  "museum_all_skeletal_work_complete": false,
+  "scope": "Full museum source environment, with dog and adult skeletal development integration; child/staff skeletal work remains upstream. Static composition is not animation acceptance.",
+  "source_workstreams": [
+    "fixed A01 scene754b7",
+    "dog quadruped production",
+    "adult humanoid rig/motion v6 repair",
+    "native combined integration fixture prepared for10 actors; current package tests only available6 adults"
+  ],
+  "items": [
+    {
+      "id": "environment-and-gameplay",
+      "component": "A01 full museum + native gameplay",
+      "source_revision": "754b7eac17927af0",
+      "in_754b": true,
+      "in_package": true,
+      "binding": "A01 scene -> shared/game/dog_game.tscn; semantic VisualRoot owners",
+      "mechanism": "static scene composition; native CharacterBody/RigidBody gameplay",
+      "validation": "Current staged full-environment assembly and controlled skeletal/native fixture passed37 assertions; no final art/user acceptance.",
+      "complete": true
+    },
+    {
+      "id": "dog-skin",
+      "component": "Dog27-bone skinned mesh",
+      "source_sha256": "d2895cc92b9c3ba66ab6ad4fcfd13b615777a92a8f534c6a7c9a1e23c05084f9",
+      "in_754b": false,
+      "in_package": true,
+      "binding": "visual_catalog player/dog -> skin-d2895cc92b9c3ba6.glb -> Skeleton3D",
+      "mechanism": "actual JOINTS/WEIGHTS,27bones; no embedded clips; trusted controller writes skeletal poses",
+      "validation": "Controlled staged headless/native fixture: 37 assertions passed; actual bone pose changes, adult patrol/clap/knockdown/recovery/R and native neck E/carry/Space/R observed. See process/animation/VALIDATION.json; camera partly occluded; no final acceptance.",
+      "complete": false,
+      "package_behavior_verified": true,
+      "controlled_native_review": true
+    },
+    {
+      "id": "dog-driver",
+      "component": "Dog skeletal gait/idle/trot/run/turn/stop/reset",
+      "source_sha256": "c6a587dbbd7df36757e55ac23f57804ee2bc015245f3a79f4dc330ca4acdfed5",
+      "in_754b": false,
+      "in_package": true,
+      "binding": "A01 DOG_MOTION -> setup(game) -> actual dog Skeleton3D",
+      "mechanism": "distance-driven procedural skeletal IK; fixed head/neck preserves native Mouth",
+      "validation": "Controlled staged headless/native fixture: 37 assertions passed; actual bone pose changes, adult patrol/clap/knockdown/recovery/R and native neck E/carry/Space/R observed. See process/animation/VALIDATION.json; camera partly occluded; no final acceptance.",
+      "complete": false,
+      "package_behavior_verified": true,
+      "controlled_native_review": true
+    },
+    {
+      "id": "adult-skin-motion",
+      "component": "Adult humanoid52-bone skin + two base motion clips",
+      "source_sha256": "3d8c86aed09c732837a7ef5e7abc61abfaa8191e23c16b6590b6a117ed6d0614",
+      "in_754b": false,
+      "in_package": true,
+      "binding": "6 actual adult visitor torso artwork owners -> skinned full-body model",
+      "mechanism": "source animation_1/animation_2 bone-only tracks sampled by trusted controller; source AnimationPlayers removed after extracting clips",
+      "validation": "Controlled staged headless/native fixture: 37 assertions passed; actual bone pose changes, adult patrol/clap/knockdown/recovery/R and native neck E/carry/Space/R observed. See process/animation/VALIDATION.json; camera partly occluded; no final acceptance.",
+      "complete": false,
+      "package_behavior_verified": true,
+      "controlled_native_review": true
+    },
+    {
+      "id": "adult-driver",
+      "component": "Adult retargeting, clap, ragdoll attachment, recovery, reset and camera hulls",
+      "source_sha256": "193b1c93e3b901d5964a7a2bd99c2ae07d0b3be769492f5081aa9d21a1ed59e1",
+      "in_754b": false,
+      "in_package": true,
+      "binding": "visitor_skin_motion ->6adult Skeleton3D; camera_guard dynamic_motion_shapes",
+      "mechanism": "native visitor root/three rigid bodies stay physics authority; per-bone hulls and sole correction",
+      "validation": "Controlled staged headless/native fixture: 37 assertions passed; actual bone pose changes, adult patrol/clap/knockdown/recovery/R and native neck E/carry/Space/R observed. See process/animation/VALIDATION.json; camera partly occluded; no final acceptance.",
+      "complete": false,
+      "package_behavior_verified": true,
+      "controlled_native_review": true
+    },
+    {
+      "id": "child-skin-motion",
+      "component": "Two child visitors skeletal upgrade",
+      "in_754b": false,
+      "in_package": false,
+      "binding": "existing2child visual fragments remain",
+      "mechanism": "old procedural cut-mesh animation, not skeletal skin",
+      "validation": "preflight input ready; no produced rig/motion GLB located; upstream production pending",
+      "complete": false
+    },
+    {
+      "id": "staff-skin-motion",
+      "component": "Two staff visitors skeletal upgrade",
+      "in_754b": false,
+      "in_package": false,
+      "binding": "existing2staff visual fragments remain",
+      "mechanism": "old procedural cut-mesh animation, not skeletal skin",
+      "validation": "preflight input ready; no produced rig/motion GLB located; upstream production pending",
+      "complete": false
+    },
+    {
+      "id": "mammoth-physics-bones",
+      "component": "12 detachable mammoth skeleton segments / grab / throw / reset",
+      "in_754b": true,
+      "in_package": true,
+      "binding": "game.skel ->12 native RigidBody3D + support graph; A01 composite carried contact",
+      "mechanism": "actual articulated physical fragments, not Skeleton3D skin deformation",
+      "validation": "Controlled staged headless/native fixture: 37 assertions passed; actual bone pose changes, adult patrol/clap/knockdown/recovery/R and native neck E/carry/Space/R observed. See process/animation/VALIDATION.json; camera partly occluded; no final acceptance.",
+      "complete": false,
+      "package_behavior_verified": true,
+      "controlled_native_review": true
+    },
+    {
+      "id": "mouth-contact",
+      "component": "Mouth anchor and held-object collision",
+      "in_754b": true,
+      "in_package": true,
+      "binding": "native Dog/Mouth Node3D; held_art_contact restores original body/shape state",
+      "mechanism": "physics attachment and composite collision; no BoneAttachment3D pretending to own physics; head remains neutral",
+      "validation": "Controlled staged headless/native fixture: 37 assertions passed; actual bone pose changes, adult patrol/clap/knockdown/recovery/R and native neck E/carry/Space/R observed. See process/animation/VALIDATION.json; camera partly occluded; no final acceptance.",
+      "complete": false,
+      "package_behavior_verified": true,
+      "controlled_native_review": true
+    },
+    {
+      "id": "static-exhibits",
+      "component": "Bear/wolf/taxidermy and other exhibit models",
+      "in_754b": true,
+      "in_package": true,
+      "binding": "semantic visual owners and original exhibit rigid bodies",
+      "mechanism": "static visual models; no new skeletal animation produced for taxidermy exhibits",
+      "validation": "source rigging plan targets dog+3human appearances, not these static exhibits",
+      "complete": true
+    }
+  ],
+  "git_worktree_findings": "The canonical Chaos project has no .git/worktree metadata. Parallel work is represented by production run directories and separate runtime/source manifests; no branch merge was inferred.",
+  "upstream_handoff": "Detailed source paths, exact module/model hashes and preflight/output evidence are kept in the private integration evidence; pending rigs must be integrated by actual output hash before claiming all10 skeletal visitors.",
+  "latest_check": {
+    "kind": "controlled full-environment headless and native skeletal fixture",
+    "assertions_passed": 37,
+    "assertions_failed": 0,
+    "actual_tree_counts": {
+      "AnimationPlayer": 0,
+      "AnimationTree": 0,
+      "BoneAttachment3D": 0,
+      "Skeleton3D": 7,
+      "skinned_meshes": 19
+    },
+    "actual_bone_pose_hashes": {
+      "dog_unique": 55,
+      "adult_unique": 109
+    },
+    "registered_adult_skin_camera_shapes": 18,
+    "maximum_stable_bite_error_m": 3.62560911071341e-07,
+    "source_asset_hashes_unchanged": true,
+    "rendered_review": "actual walk/clap/held-neck/carry/reset bone poses reviewed; some NPC occlusion; no full camera-route or final art acceptance",
+    "evidence": "process/animation/VALIDATION.json"
+  },
+  "latest_development": "Upstream adult 18261f4a5bec5e58 local v7 garment/head-neck repair is pending targeted inner-thigh patch/native replay. It is not the frozen package or its captured verification.",
+  "packaged_captured_verified": "Adult3d8c86aed09c7328 skin with v6 driver, dogd2895cc92b9c3ba6, fixed754b7 environment, distinct integrated-skeletal-20261030 package."
+}

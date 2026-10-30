@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "assembly": {
+    "regions": {
+      "gyro": {
+        "target_xyz": [
+          4,
+          2.0,
+          3.038
+        ],
+        "cluster_count": 6
+      },
+      "dome": {
+        "target_xyz": [
+          3.8,
+          3.136,
+          3.038
+        ],
+        "cluster_count": 6
+      },
+      "drum": {
+        "cluster_count": 6
+      },
+      "kiosk": {
+        "cluster_count": 6
+      }
+    },
+    "paving_gap_multiplier": 0.55
+  },
+  "render": {
+    "ambient_energy": 0.38,
+    "sun_energy": 0.68,
+    "sun_angular_distance": 0,
+    "sun_color": "fff1dc",
+    "ambient_color": "c6d0d9",
+    "floor": {
+      "seam_strength": 0.4,
+      "grain_strength": 0.35,
+      "variation_strength": 0.5,
+      "lane_mark_strength": 0.25
+    },
+    "materials": {
+      "tower": {
+        "roughness_multiplier": 1.12
+      },
+      "gyro": {
+        "roughness_multiplier": 1.12
+      }
+    },
+    "shadow_filter_quality": 4,
+    "shadow_blur": 4,
+    "shadow_opacity": 0.75
+  }
+}

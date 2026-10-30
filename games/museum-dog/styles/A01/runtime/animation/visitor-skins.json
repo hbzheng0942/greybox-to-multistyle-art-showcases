@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "kind": "a01-visitor-skeletal-motion",
+  "actors": {
+    "adult": {
+      "path": "res://styles/A01/assets/visitor_adult/skin-motion-3d8c86aed09c7328.glb",
+      "sha256": "3d8c86aed09c732837a7ef5e7abc61abfaa8191e23c16b6590b6a117ed6d0614",
+      "idle_animation": "animation_1",
+      "walk_animation": "animation_2",
+      "stride_m": 0.72,
+      "qualification": "adult-only upstream native fixture; whole-scene staged integration under validation; child/staff rigs not yet produced"
+    }
+  }
+}

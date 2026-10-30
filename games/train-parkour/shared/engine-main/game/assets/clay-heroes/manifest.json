@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "station-main-building",
+      "generation_model": "G1",
+      "source_sha256": "c3af52104f87b4948eb8b840d13231201038fdd930a21a749ae17884ca02d0f2",
+      "source_triangles": 289035,
+      "runtime": "game/assets/clay-heroes/station-main-building.glb",
+      "method": "lux3d_standard_processed",
+      "uniform_scale": 32.08510657625535,
+      "dimensions_godot_m": [
+        31.999999999999996,
+        25.66069031001187,
+        28.17849059034894
+      ],
+      "source_front": "+Z",
+      "source_up": "+Y",
+      "normalization_yaw_degrees": 180,
+      "normalization": "Uniform width scale, bottom-center pivot, inspected facade heading; no nonuniform distortion.",
+      "normal_processing": "LOD0 preserves source geometry and split normals; reduced distance LODs recompute smooth normals. No generated normal texture or UV rebake.",
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 289035
+        },
+        {
+          "level": 1,
+          "triangles": 30000
+        },
+        {
+          "level": 2,
+          "triangles": 9000
+        }
+      ],
+      "materials": 1,
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "art/workflows/clay-pilot/production-v3/hero-standard/station-retry/runtime/station-main-building.glb",
+        "bytes_before": 19158100,
+        "bytes_after": 15091184,
+        "sha256_before": "5257962d7a78914ae0a0a7a3d879a180d1447cfcca6cbdee6cc5d4477e797b23",
+        "sha256_after": "362081f86f2a0b6679eb5f8d8e18f88d611db8bea26e4a5c0f419e23b029a976",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 4840332,
+            "bytes_after": 865078,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 1475692,
+            "bytes_after": 1384026,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 15091184,
+      "runtime_sha256": "362081f86f2a0b6679eb5f8d8e18f88d611db8bea26e4a5c0f419e23b029a976",
+      "reference_experiment": "art/workflows/clay-pilot/production-v3/hero-standard/station-retry/reference-review.json"
+    },
+    {
+      "id": "island-rock-base",
+      "source_sha256": "50afcb88f582f056eb6772bd2d040bdf6ea0e50ca772ec8ed24446f34b84475b",
+      "runtime": "game/assets/clay-heroes/island-rock-base.glb",
+      "method": "lux3d_processed",
+      "source_triangles": 89928,
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 45000
+        },
+        {
+          "level": 1,
+          "triangles": 18000
+        },
+        {
+          "level": 2,
+          "triangles": 6750
+        }
+      ],
+      "uniform_scale": 147.43612656452476,
+      "source_front": "-Z",
+      "source_up": "+Y",
+      "normalization": "one uniform scale; bottom-center pivot; optional 180 degree heading based on inspected facade; Blender glTF Y-up export",
+      "dimensions_godot_m": [
+        140.0,
+        92.28997787714498,
+        147.8047956203225
+      ],
+      "materials": 1,
+      "lod_policy": "per-instance whole-object distance bands, select one LOD; shared embedded textures",
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "game/assets/clay-heroes/island-rock-base.glb",
+        "bytes_before": 10588000,
+        "bytes_after": 3429940,
+        "sha256_before": "a0d1a9e2b2c33190368a3b43e73e3fc9018ddc050de1fb6d216caa4b3505552c",
+        "sha256_after": "df6d3c14e1e5da5be141e2152a59c034e5820c7b7005ee10cff54eed802389c0",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 6498472,
+            "bytes_after": 706064,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              1024,
+              1024
+            ],
+            "bytes_before": 1677604,
+            "bytes_after": 311959,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 3429940,
+      "runtime_sha256": "df6d3c14e1e5da5be141e2152a59c034e5820c7b7005ee10cff54eed802389c0"
+    },
+    {
+      "id": "clay-flower-shrub-cluster",
+      "source_sha256": "5682d5dc1146e1b5fbef99f9277ebc955481d6ba47893e9535f1d44bfa632df7",
+      "runtime": "game/assets/clay-heroes/clay-flower-shrub-cluster.glb",
+      "method": "lux3d_processed",
+      "source_triangles": 28886,
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 10000
+        },
+        {
+          "level": 1,
+          "triangles": 4000
+        },
+        {
+          "level": 2,
+          "triangles": 1499
+        }
+      ],
+      "uniform_scale": 6.023116377804687,
+      "source_front": "+Z",
+      "source_up": "+Y",
+      "normalization": "one uniform scale; bottom-center pivot; optional 180 degree heading based on inspected facade; Blender glTF Y-up export",
+      "dimensions_godot_m": [
+        6.0,
+        3.3668970166984327,
+        5.995596435934892
+      ],
+      "materials": 1,
+      "lod_policy": "per-instance whole-object distance bands, select one LOD; shared embedded textures",
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "game/assets/clay-heroes/clay-flower-shrub-cluster.glb",
+        "bytes_before": 7825724,
+        "bytes_after": 1133432,
+        "sha256_before": "07896a0ae0698adcf10457685cde0e995b13b66a0124d82fe9fe1cbc3c7bd9ca",
+        "sha256_after": "af711f4e99d569f2a80db4a88e1ae54120675d1244fa2fb9bb93754e55af26b3",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              1024,
+              1024
+            ],
+            "bytes_before": 5650592,
+            "bytes_after": 258663,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              512,
+              512
+            ],
+            "bytes_before": 1303608,
+            "bytes_after": 3251,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 1133432,
+      "runtime_sha256": "af711f4e99d569f2a80db4a88e1ae54120675d1244fa2fb9bb93754e55af26b3"
+    },
+    {
+      "id": "cypress-grove",
+      "source_sha256": "3cf342caa2c34093d0c5b0b5874bf01bdf383405c71a2112ebee4edb96962bb4",
+      "runtime": "game/assets/clay-heroes/cypress-grove.glb",
+      "method": "lux3d_processed",
+      "source_triangles": 19794,
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 13999
+        },
+        {
+          "level": 1,
+          "triangles": 5600
+        },
+        {
+          "level": 2,
+          "triangles": 2100
+        }
+      ],
+      "uniform_scale": 9.065591780056947,
+      "source_front": "-Z",
+      "source_up": "+Y",
+      "normalization": "one uniform scale; bottom-center pivot; optional 180 degree heading based on inspected facade; Blender glTF Y-up export",
+      "dimensions_godot_m": [
+        5.5,
+        9.057577828773848,
+        5.316533416016918
+      ],
+      "materials": 1,
+      "lod_policy": "per-instance whole-object distance bands, select one LOD; shared embedded textures",
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "game/assets/clay-heroes/cypress-grove.glb",
+        "bytes_before": 10583900,
+        "bytes_after": 1731728,
+        "sha256_before": "ca2d6185402c16cd8516e5e4c5a39a188f81132e5d53ee8113055a1429fe194e",
+        "sha256_after": "4851d0c52f78e54063f658e6b1bcd4e95baab6f8787699cd9170d954694e302b",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              1024,
+              1024
+            ],
+            "bytes_before": 6637356,
+            "bytes_after": 322446,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              512,
+              512
+            ],
+            "bytes_before": 2690328,
+            "bytes_after": 153071,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 1731728,
+      "runtime_sha256": "4851d0c52f78e54063f658e6b1bcd4e95baab6f8787699cd9170d954694e302b"
+    },
+    {
+      "id": "island-city-crown",
+      "generation_model": "G1",
+      "source_sha256": "ca6ef49ef24e3371e3174df3200f201a388947a3002d85635788ff89444c4dd3",
+      "source_triangles": 285292,
+      "runtime": "game/assets/clay-heroes/island-city-crown.glb",
+      "method": "lux3d_standard_processed",
+      "uniform_scale": 69.19837362558702,
+      "dimensions_godot_m": [
+        62.0,
+        52.75561721379969,
+        69.44265389689956
+      ],
+      "source_front": "+Z",
+      "source_up": "+Y",
+      "normalization_yaw_degrees": 180,
+      "normalization": "Uniform width scale, bottom-center pivot, inspected facade heading; no nonuniform distortion.",
+      "normal_processing": "LOD0 preserves source geometry and split normals; reduced distance LODs recompute smooth normals. No generated normal texture or UV rebake.",
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 285292
+        },
+        {
+          "level": 1,
+          "triangles": 48000
+        },
+        {
+          "level": 2,
+          "triangles": 14000
+        }
+      ],
+      "materials": 1,
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "game/assets/clay-heroes/island-city-crown.glb",
+        "bytes_before": 17371720,
+        "bytes_after": 14000824,
+        "sha256_before": "565b7de7de314a77ed4ead085786ef37b9cf49a6f29fb3206f83c412d684e15f",
+        "sha256_after": "74574c597e981d634472f2541f547b632688c32c2776904fc5d9bda736e5dc49",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 3854440,
+            "bytes_after": 604702,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 995704,
+            "bytes_after": 874543,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 14000824,
+      "runtime_sha256": "74574c597e981d634472f2541f547b632688c32c2776904fc5d9bda736e5dc49"
+    },
+    {
+      "id": "station-corner-pavilion",
+      "generation_model": "G1",
+      "source_sha256": "d7a93a96798bc8b247abbca7b49373dcc8df71c94f004dbb7d83dbae14ffee62",
+      "source_triangles": 298075,
+      "runtime": "game/assets/clay-heroes/station-corner-pavilion.glb",
+      "method": "lux3d_standard_processed",
+      "uniform_scale": 17.95182804473793,
+      "dimensions_godot_m": [
+        18.0,
+        17.997885655628657,
+        12.545069632835968
+      ],
+      "source_front": "+Z",
+      "source_up": "+Y",
+      "normalization_yaw_degrees": 180,
+      "normalization": "Uniform width scale, bottom-center pivot, inspected facade heading; no nonuniform distortion.",
+      "normal_processing": "LOD0 preserves source geometry and split normals; reduced distance LODs recompute smooth normals. No generated normal texture or UV rebake.",
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 298075
+        },
+        {
+          "level": 1,
+          "triangles": 36000
+        },
+        {
+          "level": 2,
+          "triangles": 10000
+        }
+      ],
+      "materials": 1,
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "game/assets/clay-heroes/station-corner-pavilion.glb",
+        "bytes_before": 17205128,
+        "bytes_after": 14384152,
+        "sha256_before": "af30011c316953e092b0e223d435accd1bc17ac2275ce0cbbe44b73b1b8b1707",
+        "sha256_after": "cf89639b8322f4a6241ee6deaeabeec943b5c927a0e04c1a1b78f066287d8589",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 3250948,
+            "bytes_after": 504953,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 835640,
+            "bytes_after": 760654,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 14384152,
+      "runtime_sha256": "cf89639b8322f4a6241ee6deaeabeec943b5c927a0e04c1a1b78f066287d8589"
+    },
+    {
+      "id": "cliff-terrace-garden",
+      "generation_model": "G1",
+      "source_sha256": "9a7ef84df324c26e7c99bf20db9b76434aab2f606f0b8df5b7dd5d8d935f57ae",
+      "source_triangles": 291792,
+      "runtime": "game/assets/clay-heroes/cliff-terrace-garden.glb",
+      "method": "lux3d_standard_processed",
+      "uniform_scale": 23.926434683399886,
+      "dimensions_godot_m": [
+        24.0,
+        23.435487735310897,
+        21.79677410154022
+      ],
+      "source_front": "+Z",
+      "source_up": "+Y",
+      "normalization_yaw_degrees": 180,
+      "normalization": "Uniform width scale, bottom-center pivot, inspected facade heading; no nonuniform distortion.",
+      "normal_processing": "LOD0 locally reduced; all reduced LODs recompute smooth normals. No generated normal texture or UV rebake.",
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 90000
+        },
+        {
+          "level": 1,
+          "triangles": 18000
+        },
+        {
+          "level": 2,
+          "triangles": 4500
+        }
+      ],
+      "materials": 1,
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "art/workflows/clay-pilot/production-v3/lux-enrichment/runtime/cliff-terrace-garden.glb",
+        "bytes_before": 11422544,
+        "bytes_after": 7840132,
+        "sha256_before": "6ce32486ef74a7dc8869837d9e5770123d55a22d1b4627c4fde27fb458f5cf6f",
+        "sha256_after": "c89035ea512f5138917e382313226cf56eac1550904bc9f1209d640fd0440dcd",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 4003460,
+            "bytes_after": 603370,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 1529720,
+            "bytes_after": 1347406,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 7840132,
+      "runtime_sha256": "c89035ea512f5138917e382313226cf56eac1550904bc9f1209d640fd0440dcd",
+      "visibility_distances_m": [
+        240,
+        600
+      ]
+    },
+    {
+      "id": "terrace-garden-house",
+      "generation_model": "G1",
+      "source_sha256": "5d52fea2f1729b9b51e26cc67071ba20b7978bd85218951154b3a6bce3560bc8",
+      "source_triangles": 286892,
+      "runtime": "game/assets/clay-heroes/terrace-garden-house.glb",
+      "method": "lux3d_standard_processed",
+      "uniform_scale": 11.953558632209024,
+      "dimensions_godot_m": [
+        12.0,
+        11.426410419703892,
+        9.88558897610661
+      ],
+      "source_front": "+X",
+      "source_up": "+Y",
+      "normalization_yaw_degrees": 90,
+      "normalization": "Uniform width scale, bottom-center pivot, inspected facade heading; no nonuniform distortion.",
+      "normal_processing": "LOD0 locally reduced; Reduced LODs recompute smooth normals. No generated normal texture or UV rebake.",
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 100000
+        },
+        {
+          "level": 1,
+          "triangles": 20000
+        },
+        {
+          "level": 2,
+          "triangles": 4499
+        }
+      ],
+      "materials": 1,
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "local/enrichment-house-output/runtime/terrace-garden-house.glb",
+        "bytes_before": 10684404,
+        "bytes_after": 7568392,
+        "sha256_before": "354e17b9501b2694e2632d03982b62fd8ddb7532a94c36572216200c8be7c708",
+        "sha256_after": "4a7ea7169692e82647e9c873126397c2b930068a00293de78062e0c1e10f46d2",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 3600196,
+            "bytes_after": 576575,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 773180,
+            "bytes_after": 680793,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 7568392,
+      "runtime_sha256": "4a7ea7169692e82647e9c873126397c2b930068a00293de78062e0c1e10f46d2",
+      "visibility_distances_m": [
+        110,
+        300
+      ]
+    },
+    {
+      "id": "clay-topiary-garden",
+      "generation_model": "G1",
+      "source_sha256": "ec28e0e4ae8e71b34a1b0afc41bc7ded75ec2fdb31e405b5d9205c6077f2d377",
+      "source_triangles": 296996,
+      "runtime": "game/assets/clay-heroes/clay-topiary-garden.glb",
+      "method": "lux3d_standard_processed",
+      "uniform_scale": 8.98419632899396,
+      "dimensions_godot_m": [
+        9.0,
+        7.74435946128241,
+        9.008919285181506
+      ],
+      "source_front": "-Z",
+      "source_up": "+Y",
+      "normalization_yaw_degrees": 0,
+      "normalization": "Uniform width scale, bottom-center pivot, inspected facade heading; no nonuniform distortion.",
+      "normal_processing": "LOD0 preserves source geometry and split normals; reduced distance LODs recompute smooth normals. No generated normal texture or UV rebake.",
+      "lods": [
+        {
+          "level": 0,
+          "triangles": 296996
+        },
+        {
+          "level": 1,
+          "triangles": 100000
+        },
+        {
+          "level": 2,
+          "triangles": 19999
+        }
+      ],
+      "materials": 1,
+      "source_unchanged": true,
+      "texture_optimization": {
+        "path": "local/enrichment-plant-output/runtime/clay-topiary-garden.glb",
+        "bytes_before": 27518236,
+        "bytes_after": 23463540,
+        "sha256_before": "9a0abab5b63cc1e925c3d05e4b70c1802055d35f61a11d5240634a332af47933",
+        "sha256_after": "fd6d1a8d86285f3517dc898ca7824266d7d991c0505ac998390644f0bac320ce",
+        "geometry_buffers_unchanged": true,
+        "textures": [
+          {
+            "image": 0,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 4685472,
+            "bytes_after": 787310,
+            "mime": "image/jpeg"
+          },
+          {
+            "image": 1,
+            "from": [
+              2048,
+              2048
+            ],
+            "to": [
+              2048,
+              2048
+            ],
+            "bytes_before": 2297596,
+            "bytes_after": 2141059,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "runtime_bytes": 23463540,
+      "runtime_sha256": "fd6d1a8d86285f3517dc898ca7824266d7d991c0505ac998390644f0bac320ce",
+      "visibility_distances_m": [
+        65,
+        200
+      ]
+    }
+  ]
+}

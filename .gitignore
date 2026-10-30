@@ -1,0 +1,17 @@
+# Large immutable assets are included in the complete Release package.
+/shared/assets/sha256/
+# Reproducible and task-local outputs.
+**/.godot/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/.venv/
+.DS_Store
+downloads/
+dist/
+.local/
+private/
+*.zip
+*.zip.part*
+*.partial
+*.log

@@ -1,0 +1,316 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000" role="img" aria-label="A01 原生尺度平面与充气展馆设计约束"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8" fill="#d86423" /></marker><marker id="dim" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M7,0 L0,3.5 L7,7" fill="none" stroke="#566570" /></marker></defs><rect x="0" y="0" width="1500" height="1000" fill="#faf8f1" /><g font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" fill="#253d49">
+<text x="54" y="58" font-size="32" font-weight="700" fill="#253d49" text-anchor="start">A01 · 充气巡回博物馆</text>
+<text x="54" y="90" font-size="19" font-weight="400" fill="#253d49" text-anchor="start">平面 / 五区一体 · 原生几何为事实，橙色引导为设计意图</text>
+<rect x="1180" y="40" width="265" height="42" rx="10" fill="#ffe5cb" stroke="none" stroke-width="1" />
+<text x="1312" y="67" font-size="17" font-weight="600" fill="#9a481d" text-anchor="middle">H2 设计草案 · 待确认</text>
+<rect x="436" y="357" width="368" height="322" rx="0" fill="#f1e5d4" stroke="none" stroke-width="1" />
+<rect x="206" y="403" width="230" height="230" rx="0" fill="#dfe9ec" stroke="none" stroke-width="1" />
+<rect x="804" y="403" width="230" height="230" rx="0" fill="#e2e8dc" stroke="none" stroke-width="1" />
+<rect x="528" y="150" width="184" height="207" rx="0" fill="#f5e6be" stroke="none" stroke-width="1" />
+<rect x="551" y="679" width="138" height="78.2" rx="0" fill="#e7e2dc" stroke="none" stroke-width="1" />
+<polygon points="446.92,387.48 468.77,387.48 468.77,409.33 446.92,409.33" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/d2ae79e2717f</title></polygon>
+<polygon points="449.80,390.35 465.90,390.35 465.90,406.45 449.80,406.45" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/2e18bc25d355</title></polygon>
+<polygon points="771.23,387.48 793.08,387.48 793.08,409.33 771.23,409.33" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/86b7544d846e</title></polygon>
+<polygon points="774.10,390.35 790.20,390.35 790.20,406.45 774.10,406.45" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/89e03f8f2adc</title></polygon>
+<polygon points="446.92,626.67 468.77,626.67 468.77,648.52 446.92,648.52" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/44bbd4b2609e</title></polygon>
+<polygon points="449.80,629.55 465.90,629.55 465.90,645.65 449.80,645.65" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/f197f86edec2</title></polygon>
+<polygon points="771.23,626.67 793.08,626.67 793.08,648.52 771.23,648.52" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/c9ebcc4e390f</title></polygon>
+<polygon points="774.10,629.55 790.20,629.55 790.20,645.65 774.10,645.65" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/column/871bd074d7c0</title></polygon>
+<polygon points="511.90,362.52 672.90,362.52 672.90,367.12 511.90,367.12" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/structure/2d9e2ee8707b</title></polygon>
+<polygon points="532.60,409.90 707.40,409.90 707.40,478.90 532.60,478.90" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/display_platform/196f6cd82ac2</title></polygon>
+<polygon points="513.51,395.41 514.89,395.41 514.89,396.79 513.51,396.79" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/barrier_post/3288164f83a2</title></polygon>
+<polygon points="725.11,395.41 726.49,395.41 726.49,396.79 725.11,396.79" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/barrier_post/3db889d93c6e</title></polygon>
+<polygon points="513.51,492.01 514.89,492.01 514.89,493.39 513.51,493.39" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/barrier_post/c397b5d8566a</title></polygon>
+<polygon points="725.11,492.01 726.49,492.01 726.49,493.39 725.11,493.39" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/barrier_post/dbfc197e6f27</title></polygon>
+<polygon points="562.50,626.10 511.90,626.10 511.90,612.30 562.50,612.30" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/bench/2291f76f498d</title></polygon>
+<polygon points="562.50,615.06 511.90,615.06 511.90,612.30 562.50,612.30" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/bench/e6835be7e56e</title></polygon>
+<polygon points="728.10,626.10 677.50,626.10 677.50,612.30 728.10,612.30" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/bench/2583d45e33c7</title></polygon>
+<polygon points="728.10,615.06 677.50,615.06 677.50,612.30 728.10,612.30" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/bench/2e9784fd856d</title></polygon>
+<polygon points="467.05,438.65 487.75,438.65 487.75,459.35 467.05,459.35" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/display_platform/f1e5c6d65785</title></polygon>
+<polygon points="752.25,438.65 772.95,438.65 772.95,459.35 752.25,459.35" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/display_platform/e6644ba5b0f0</title></polygon>
+<polygon points="456.70,543.30 498.10,543.30 498.10,584.70 456.70,584.70" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/display_platform/765f22d28720</title></polygon>
+<polygon points="741.90,543.30 783.30,543.30 783.30,584.70 741.90,584.70" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/display_platform/3dbdddeedbe8</title></polygon>
+<polygon points="456.70,642.20 511.90,642.20 511.90,669.80 456.70,669.80" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/gift_table/70c5caa6427d</title></polygon>
+<polygon points="728.10,642.20 783.30,642.20 783.30,669.80 728.10,669.80" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>hall/gift_table/d54d8741e7b6</title></polygon>
+<polygon points="217.50,402.08 424.50,402.08 424.50,407.14 217.50,407.14" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/48f2e2ec1767</title></polygon>
+<polygon points="217.50,402.08 424.50,402.08 424.50,415.88 217.50,415.88" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/a89f7cc8de97</title></polygon>
+<polygon points="217.50,401.85 424.50,401.85 424.50,416.11 217.50,416.11" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/9a9b737ee14a</title></polygon>
+<polygon points="220.26,404.61 421.74,404.61 421.74,416.11 220.26,416.11" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/fe1db18d0987</title></polygon>
+<polygon points="424.50,633.92 217.50,633.92 217.50,628.86 424.50,628.86" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/945b056f651c</title></polygon>
+<polygon points="424.50,633.92 217.50,633.92 217.50,620.12 424.50,620.12" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/066f38f4c123</title></polygon>
+<polygon points="424.50,634.15 217.50,634.15 217.50,619.89 424.50,619.89" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/d44a322337b6</title></polygon>
+<polygon points="421.74,631.39 220.26,631.39 220.26,619.89 421.74,619.89" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_shelf/f0f29ae623fc</title></polygon>
+<polygon points="223.25,454.75 271.55,454.75 271.55,480.05 223.25,480.05" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_table/d6e8f47ecf7b</title></polygon>
+<polygon points="223.25,542.15 271.55,542.15 271.55,567.45 223.25,567.45" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_table/ecc8accf577a</title></polygon>
+<polygon points="287.65,454.75 335.95,454.75 335.95,480.05 287.65,480.05" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_table/00868f5542d3</title></polygon>
+<polygon points="287.65,542.15 335.95,542.15 335.95,567.45 287.65,567.45" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_table/f58bcca963c3</title></polygon>
+<polygon points="352.05,454.75 400.35,454.75 400.35,480.05 352.05,480.05" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_table/fddf7ac3b121</title></polygon>
+<polygon points="352.05,542.15 400.35,542.15 400.35,567.45 352.05,567.45" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_table/cbca17ba08a8</title></polygon>
+<polygon points="383.10,561.70 415.30,561.70 415.30,593.90 383.10,593.90" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>porcelain/display_platform/311832686751</title></polygon>
+<polygon points="838.50,438.65 898.30,438.65 898.30,486.95 838.50,486.95" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/specimen_display/720f572c7e6a</title></polygon>
+<polygon points="930.50,429.45 990.30,429.45 990.30,477.75 930.50,477.75" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/specimen_display/4f68561d67f5</title></polygon>
+<polygon points="875.30,539.85 935.10,539.85 935.10,588.15 875.30,588.15" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/specimen_display/69dd2993bad6</title></polygon>
+<polygon points="852.30,514.55 875.30,514.55 875.30,530.65 852.30,530.65" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/display_table/c2d86c1f7397</title></polygon>
+<polygon points="944.30,519.15 967.30,519.15 967.30,535.25 944.30,535.25" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/display_table/600b7b02e452</title></polygon>
+<polygon points="893.70,601.95 916.70,601.95 916.70,618.05 893.70,618.05" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/display_table/9490c6863115</title></polygon>
+<polygon points="937.40,591.60 1011.00,591.60 1011.00,619.20 937.40,619.20" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/furniture/c1812c8791f4</title></polygon>
+<polygon points="902.90,626.10 852.30,626.10 852.30,612.30 902.90,612.30" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/bench/a9a0da8eea81</title></polygon>
+<polygon points="902.90,615.06 852.30,615.06 852.30,612.30 902.90,612.30" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>taxidermy/bench/c00ca3e5f686</title></polygon>
+<polygon points="557.90,220.15 682.10,220.15 682.10,254.65 557.90,254.65" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/97960b67242e</title></polygon>
+<polygon points="631.50,148.16 705.10,148.16 705.10,151.84 631.50,151.84" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/4ad8ed26d0f6</title></polygon>
+<polygon points="631.50,212.56 705.10,212.56 705.10,216.24 631.50,216.24" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/0c6dfd8884d6</title></polygon>
+<polygon points="629.66,148.16 633.34,148.16 633.34,216.24 629.66,216.24" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/3ed3148bc13e</title></polygon>
+<polygon points="703.26,148.16 706.94,148.16 706.94,216.24 703.26,216.24" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/76e17b82a950</title></polygon>
+<polygon points="541.80,159.20 587.80,159.20 587.80,177.60 541.80,177.60" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/bcab79e0b1e1</title></polygon>
+<polygon points="546.40,278.80 583.20,278.80 583.20,315.60 546.40,315.60" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/367bf4e28c1e</title></polygon>
+<polygon points="548.70,253.50 576.30,253.50 576.30,281.10 548.70,281.10" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/3b8a28c6d653</title></polygon>
+<polygon points="544.10,182.20 576.30,182.20 576.30,237.40 544.10,237.40" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/54aef7285259</title></polygon>
+<polygon points="531.22,168.40 534.90,168.40 534.90,242.00 531.22,242.00" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/68d5a4b7e6a9</title></polygon>
+<polygon points="533.06,169.55 541.34,169.55 541.34,240.85 533.06,240.85" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>kids/furniture/5b2911870e3c</title></polygon>
+<polygon points="551.00,700.85 601.60,700.85 601.60,721.55 551.00,721.55" fill="#c5ccca" stroke="#8b999c" stroke-width="1"><title>vestibule/furniture/a8d067fe4aaa</title></polygon>
+<line x1="436" y1="357" x2="436" y2="495" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="436" y1="564" x2="436" y2="679" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="804" y1="357" x2="804" y2="495" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="804" y1="564" x2="804" y2="679" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="436" y1="357" x2="670.6" y2="357" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="709.7" y1="357" x2="804" y2="357" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="436" y1="679" x2="585.5" y2="679" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="654.5" y1="679" x2="804" y2="679" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="206" y1="403" x2="206" y2="633" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="206" y1="403" x2="436" y2="403" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="206" y1="633" x2="436" y2="633" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="1034" y1="403" x2="1034" y2="633" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="804" y1="403" x2="1034" y2="403" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="804" y1="633" x2="1034" y2="633" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="528" y1="150" x2="528" y2="357" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="712" y1="150" x2="712" y2="357" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="528" y1="150" x2="712" y2="150" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="551" y1="679" x2="551" y2="757.2" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="689" y1="679" x2="689" y2="757.2" stroke="#354955" stroke-width="6.8999999999999995" />
+<line x1="551" y1="757.2" x2="689" y2="757.2" stroke="#354955" stroke-width="6.8999999999999995" />
+<rect x="429.1" y="493.39" width="13.799999999999999" height="3.22" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="429.1" y="562.39" width="13.799999999999999" height="3.22" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="797.1" y="493.39" width="13.799999999999999" height="3.22" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="797.1" y="562.39" width="13.799999999999999" height="3.22" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="668.99" y="350.1" width="3.22" height="13.799999999999999" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="708.09" y="350.1" width="3.22" height="13.799999999999999" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="583.89" y="672.1" width="3.22" height="13.799999999999999" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="652.89" y="672.1" width="3.22" height="13.799999999999999" rx="0" fill="#354955" stroke="none" stroke-width="1" />
+<rect x="532.6" y="409.9" width="174.79999999999998" height="69" rx="0" fill="#d9bc91" stroke="#725e47" stroke-width="1.7" />
+<rect x="549.735" y="427.84000000000003" width="135.58499999999998" height="33.12" rx="0" fill="#dbeaf0" stroke="#327c9b" stroke-width="1.5" stroke-dasharray="5 3" />
+<text x="620" y="470.85" font-size="13" font-weight="600" fill="#253d49" text-anchor="middle">12 骨段 / 既有支撑</text>
+<circle cx="477.40000438690174" cy="449.0" r="2.5" fill="#8f493a"><title>hall/prop_bust/4ee6d55fdb42</title></circle>
+<circle cx="762.5999956130983" cy="449.0" r="2.5" fill="#8f493a"><title>hall/prop_bust/20cab38f32cb</title></circle>
+<circle cx="467.0500087738038" cy="553.6499989032744" r="2.5" fill="#8f493a"><title>hall/prop_rock/cf2fc7c48d16</title></circle>
+<circle cx="487.75" cy="553.6499989032744" r="2.5" fill="#8f493a"><title>hall/prop_rock/30c5459f3729</title></circle>
+<circle cx="467.0500087738038" cy="567.4500021934509" r="2.5" fill="#8f493a"><title>hall/prop_rock/caabcd160cc0</title></circle>
+<circle cx="487.75" cy="567.4500021934509" r="2.5" fill="#8f493a"><title>hall/prop_rock/db64a6d74d4c</title></circle>
+<circle cx="467.0500087738038" cy="581.25" r="2.5" fill="#8f493a"><title>hall/prop_rock/699e70bb709e</title></circle>
+<circle cx="752.25" cy="553.6499989032744" r="2.5" fill="#8f493a"><title>hall/prop_rock/63755f91c766</title></circle>
+<circle cx="772.9499912261962" cy="553.6499989032744" r="2.5" fill="#8f493a"><title>hall/prop_rock/8ed336ff13ef</title></circle>
+<circle cx="752.25" cy="567.4500021934509" r="2.5" fill="#8f493a"><title>hall/prop_rock/7687c3c3525c</title></circle>
+<circle cx="772.9499912261962" cy="567.4500021934509" r="2.5" fill="#8f493a"><title>hall/prop_rock/e18a6ee55c6a</title></circle>
+<circle cx="752.25" cy="581.25" r="2.5" fill="#8f493a"><title>hall/prop_rock/410641ae1ee2</title></circle>
+<circle cx="464.75" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/d7a40bfdb047</title></circle>
+<circle cx="477.62999868392944" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/e2ac58e8d480</title></circle>
+<circle cx="490.5099973678589" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/2a81baf86c36</title></circle>
+<circle cx="503.3899960517883" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/c058725f478b</title></circle>
+<circle cx="464.75" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/52f74854d516</title></circle>
+<circle cx="477.62999868392944" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/824422c5ba58</title></circle>
+<circle cx="490.5099973678589" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/5f43985135c2</title></circle>
+<circle cx="503.3899960517883" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/84d2b7d86631</title></circle>
+<circle cx="736.1500043869017" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/a76e8f8a6a10</title></circle>
+<circle cx="749.0300030708312" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/185270bb538b</title></circle>
+<circle cx="761.9100017547609" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/b521900961a0</title></circle>
+<circle cx="774.7900004386903" cy="650.4800052642823" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/fef466b0ace3</title></circle>
+<circle cx="736.1500043869017" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/d54f91be07cc</title></circle>
+<circle cx="749.0300030708312" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/e41a25e717d3</title></circle>
+<circle cx="761.9100017547609" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/9e5e425e9328</title></circle>
+<circle cx="774.7900004386903" cy="661.5199947357177" r="2.5" fill="#8f493a"><title>hall/prop_souvenir/4a8f945dab35</title></circle>
+<circle cx="234.0599842071535" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/cda64bd5ea2b</title></circle>
+<circle cx="258.9000043869027" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/efcc2aa334dd</title></circle>
+<circle cx="283.7400026321407" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/23dbeb67ab8e</title></circle>
+<circle cx="308.580000877381" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/21630d43bd95</title></circle>
+<circle cx="333.419999122619" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/d1b584e80790</title></circle>
+<circle cx="358.2599973678593" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/b9c7b96ba3bc</title></circle>
+<circle cx="383.0999956130973" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/7ea1b87b1410</title></circle>
+<circle cx="407.9399938583374" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/3fd194c6afc0</title></circle>
+<circle cx="234.0599842071535" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/c644824f422b</title></circle>
+<circle cx="258.9000043869027" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/d683ddc43f70</title></circle>
+<circle cx="283.7400026321407" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/35e5a9fc755c</title></circle>
+<circle cx="308.580000877381" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/f652bb3439dc</title></circle>
+<circle cx="333.419999122619" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/2fec505d534c</title></circle>
+<circle cx="358.2599973678593" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/a69d458edac9</title></circle>
+<circle cx="383.0999956130973" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/389fbd5f2dbc</title></circle>
+<circle cx="407.9399938583374" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/bc70c9c28922</title></circle>
+<circle cx="234.0599842071535" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/5649ad9e1eb2</title></circle>
+<circle cx="258.9000043869027" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/71c8482e4773</title></circle>
+<circle cx="283.7400026321407" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/e096be0a957e</title></circle>
+<circle cx="308.580000877381" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/cc34e3cf54f2</title></circle>
+<circle cx="333.419999122619" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/3eee312bf6e8</title></circle>
+<circle cx="358.2599973678593" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/366b1b523381</title></circle>
+<circle cx="383.0999956130973" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/de42d65346f7</title></circle>
+<circle cx="407.9399938583374" cy="410.3600039482117" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/8c1bc15cdbbb</title></circle>
+<circle cx="407.9399938583374" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/ce6beb95a918</title></circle>
+<circle cx="383.0999956130973" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/a9ca00d10bda</title></circle>
+<circle cx="358.2599973678593" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/c61678cf0825</title></circle>
+<circle cx="333.419999122619" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/52c24852cd41</title></circle>
+<circle cx="308.580000877381" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/273047ad8e2a</title></circle>
+<circle cx="283.7400026321407" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/534fbb3c7e54</title></circle>
+<circle cx="258.9000043869027" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/ac070a316228</title></circle>
+<circle cx="234.0599842071535" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/90c1d3bb19b7</title></circle>
+<circle cx="407.9399938583374" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/a8558c1c844f</title></circle>
+<circle cx="383.0999956130973" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/7421e0971d58</title></circle>
+<circle cx="358.2599973678593" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/d54b9af4a077</title></circle>
+<circle cx="333.419999122619" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/18302903a1f4</title></circle>
+<circle cx="308.580000877381" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/7cd104a61bb1</title></circle>
+<circle cx="283.7400026321407" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/22502393fe88</title></circle>
+<circle cx="258.9000043869027" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/c06cba204386</title></circle>
+<circle cx="234.0599842071535" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/dc268824270d</title></circle>
+<circle cx="407.9399938583374" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/d3bf274b2ab8</title></circle>
+<circle cx="383.0999956130973" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/708f2a1b7a57</title></circle>
+<circle cx="358.2599973678593" cy="625.6399960517883" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/a7c36b3503e4</title></circle>
+<circle cx="333.419999122619" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/fcf8410c35b6</title></circle>
+<circle cx="308.580000877381" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/1a39cc7438e0</title></circle>
+<circle cx="283.7400026321407" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/7434cd50ed2a</title></circle>
+<circle cx="258.9000043869027" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/b90d01fe968e</title></circle>
+<circle cx="234.0599842071535" cy="625.640007019043" r="2.5" fill="#8f493a"><title>porcelain/prop_plate/71cd1773dba0</title></circle>
+<circle cx="233.59997367858836" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/99d8cc360f93</title></circle>
+<circle cx="247.3999824523915" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/c53224f69b1a</title></circle>
+<circle cx="261.1999912261969" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/434aacc7d0c0</title></circle>
+<circle cx="233.59997367858836" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/4f5654791b7d</title></circle>
+<circle cx="247.3999824523915" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/74139575af6a</title></circle>
+<circle cx="261.1999912261969" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/58f953d37bef</title></circle>
+<circle cx="298.0" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/5b47bbbddc36</title></circle>
+<circle cx="311.8000087738031" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/e12871bed198</title></circle>
+<circle cx="325.6000175476085" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/64e125b38a32</title></circle>
+<circle cx="298.0" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/18ac8d94930a</title></circle>
+<circle cx="311.8000087738031" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/3151ac8ed947</title></circle>
+<circle cx="325.6000175476085" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/2836cd6989bf</title></circle>
+<circle cx="362.3999824523915" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/c9bae687cdc8</title></circle>
+<circle cx="376.1999912261969" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/7624bf64f8fb</title></circle>
+<circle cx="390.0" cy="467.3999989032744" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/36188b70bf02</title></circle>
+<circle cx="362.3999824523915" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/0af83d3b20f0</title></circle>
+<circle cx="376.1999912261969" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/93423e5510f2</title></circle>
+<circle cx="390.0" cy="554.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase/18abcea8ac57</title></circle>
+<circle cx="399.1999912261962" cy="577.7999978065491" r="2.5" fill="#8f493a"><title>porcelain/prop_vase_big/330a34a7eaf2</title></circle>
+<circle cx="863.800008773803" cy="522.6000010967256" r="2.5" fill="#8f493a"><title>taxidermy/prop_specimen/0b5da488a026</title></circle>
+<circle cx="955.800008773803" cy="527.1999994516373" r="2.5" fill="#8f493a"><title>taxidermy/prop_specimen/b7dc8dd8da14</title></circle>
+<circle cx="905.199991226197" cy="610.0" r="2.5" fill="#8f493a"><title>taxidermy/prop_specimen/d8ded100bfce</title></circle>
+<circle cx="946.5999956130972" cy="605.4000043869017" r="2.5" fill="#8f493a"><title>taxidermy/prop_bone/ea3edd10daa7</title></circle>
+<circle cx="957.6400070190434" cy="605.4000043869017" r="2.5" fill="#8f493a"><title>taxidermy/prop_bone/4e9a8289aa96</title></circle>
+<circle cx="968.6799964904783" cy="605.4000043869017" r="2.5" fill="#8f493a"><title>taxidermy/prop_bone/c25cb45afd5b</title></circle>
+<circle cx="979.7200078964245" cy="605.4000043869017" r="2.5" fill="#8f493a"><title>taxidermy/prop_bone/c3ced9a98f86</title></circle>
+<circle cx="990.7600193023682" cy="605.4000043869017" r="2.5" fill="#8f493a"><title>taxidermy/prop_bone/ba2f01232b3c</title></circle>
+<circle cx="1001.8000087738031" cy="605.4000043869017" r="2.5" fill="#8f493a"><title>taxidermy/prop_bone/e230d88fca11</title></circle>
+<circle cx="569.3999989032744" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/da82702458f7</title></circle>
+<circle cx="583.6599990129472" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/e6b56126ff3a</title></circle>
+<circle cx="597.9200004935265" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/f94fa828dd04</title></circle>
+<circle cx="612.1799999177456" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/a81b5bee08ec</title></circle>
+<circle cx="626.4400000274181" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/521bc9204383</title></circle>
+<circle cx="640.6999994516373" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/e9e8b043f3c6</title></circle>
+<circle cx="654.9599995613097" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/4c3a8f310b04</title></circle>
+<circle cx="669.2200024127959" cy="230.5" r="2.5" fill="#8f493a"><title>kids/prop_craft/7809a9e879f7</title></circle>
+<circle cx="569.3999989032744" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/4bf5c7c19ee3</title></circle>
+<circle cx="583.6599990129472" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/a167d0676a0c</title></circle>
+<circle cx="597.9200004935265" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/7ffff7911a3a</title></circle>
+<circle cx="612.1799999177456" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/0e3ff1efcad3</title></circle>
+<circle cx="626.4400000274181" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/7cbd801f4bc2</title></circle>
+<circle cx="640.6999994516373" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/f7c6eede3705</title></circle>
+<circle cx="654.9599995613097" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/de779c9544a8</title></circle>
+<circle cx="669.2200024127959" cy="244.30000877380309" r="2.5" fill="#8f493a"><title>kids/prop_craft/5cead2546e0c</title></circle>
+<circle cx="642.9999972581863" cy="160.3499956130973" r="2.5" fill="#8f493a"><title>kids/prop_ball/1eb770c02311</title></circle>
+<circle cx="659.5599979162216" cy="160.3499956130973" r="2.5" fill="#8f493a"><title>kids/prop_ball/e6f4c6655d58</title></circle>
+<circle cx="676.1199958324432" cy="160.3499956130973" r="2.5" fill="#8f493a"><title>kids/prop_ball/7d9b46718868</title></circle>
+<circle cx="692.6799964904785" cy="160.3499956130973" r="2.5" fill="#8f493a"><title>kids/prop_ball/2b6b7d36f684</title></circle>
+<circle cx="642.9999972581863" cy="181.0499868392942" r="2.5" fill="#8f493a"><title>kids/prop_ball/072f67bdf1f1</title></circle>
+<circle cx="659.5599979162216" cy="181.0499868392942" r="2.5" fill="#8f493a"><title>kids/prop_ball/713d062608f3</title></circle>
+<circle cx="676.1199958324432" cy="181.0499868392942" r="2.5" fill="#8f493a"><title>kids/prop_ball/070a99746a2d</title></circle>
+<circle cx="692.6799964904785" cy="181.0499868392942" r="2.5" fill="#8f493a"><title>kids/prop_ball/be321a63e42f</title></circle>
+<circle cx="642.9999972581863" cy="201.75" r="2.5" fill="#8f493a"><title>kids/prop_ball/5d2b76844d34</title></circle>
+<circle cx="659.5599979162216" cy="201.75" r="2.5" fill="#8f493a"><title>kids/prop_ball/d6c32f01891e</title></circle>
+<circle cx="676.1199958324432" cy="201.75" r="2.5" fill="#8f493a"><title>kids/prop_ball/869e3bfea564</title></circle>
+<circle cx="692.6799964904785" cy="201.75" r="2.5" fill="#8f493a"><title>kids/prop_ball/352d5b73bd87</title></circle>
+<circle cx="551.0" cy="168.4000043869027" r="2.5" fill="#8f493a"><title>kids/prop_button/9f7a3f13339b</title></circle>
+<circle cx="560.2000021934509" cy="168.4000043869027" r="2.5" fill="#8f493a"><title>kids/prop_button/8311b82b991d</title></circle>
+<circle cx="569.3999989032744" cy="168.4000043869027" r="2.5" fill="#8f493a"><title>kids/prop_button/fcfd4169c4e9</title></circle>
+<circle cx="578.6000010967256" cy="168.4000043869027" r="2.5" fill="#8f493a"><title>kids/prop_button/a951834d5715</title></circle>
+<circle cx="537.2000021934509" cy="174.1500043869027" r="2.5" fill="#8f493a"><title>kids/prop_craft/77cf71650f18</title></circle>
+<circle cx="537.2000021934509" cy="186.5700035095217" r="2.5" fill="#8f493a"><title>kids/prop_craft/c9b32ef960f8</title></circle>
+<circle cx="537.2000021934509" cy="198.99000263214072" r="2.5" fill="#8f493a"><title>kids/prop_craft/49e9152c6381</title></circle>
+<circle cx="537.2000021934509" cy="211.41000175475966" r="2.5" fill="#8f493a"><title>kids/prop_craft/1e0f5b3ef312</title></circle>
+<circle cx="537.2000021934509" cy="223.830000877381" r="2.5" fill="#8f493a"><title>kids/prop_craft/9679d3ba14f1</title></circle>
+<circle cx="537.2000021934509" cy="236.25" r="2.5" fill="#8f493a"><title>kids/prop_craft/6a04cf1c2d41</title></circle>
+<circle cx="537.2000021934509" cy="174.1500043869027" r="2.5" fill="#8f493a"><title>kids/prop_craft/c0d9d0c2fe01</title></circle>
+<circle cx="537.2000021934509" cy="186.5700035095217" r="2.5" fill="#8f493a"><title>kids/prop_craft/8da37fe27131</title></circle>
+<circle cx="537.2000021934509" cy="198.99000263214072" r="2.5" fill="#8f493a"><title>kids/prop_craft/ec52b68a091f</title></circle>
+<circle cx="537.2000021934509" cy="211.41000175475966" r="2.5" fill="#8f493a"><title>kids/prop_craft/1d0fe4fb61d5</title></circle>
+<circle cx="537.2000021934509" cy="223.830000877381" r="2.5" fill="#8f493a"><title>kids/prop_craft/6786ae712dac</title></circle>
+<circle cx="537.2000021934509" cy="236.25" r="2.5" fill="#8f493a"><title>kids/prop_craft/1eb1db739906</title></circle>
+<circle cx="576.3000005483627" cy="711.1999912261962" r="2.5" fill="#8f493a"><title>vestibule/prop_brochure/48589989b9fd</title></circle>
+<polyline points="620.0,554.8 528.0,529.5 390.0,529.5" fill="none" stroke="#d86423" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#arrow)" />
+<polyline points="620.0,554.8 712.0,529.5 850.0,529.5" fill="none" stroke="#d86423" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#arrow)" />
+<polyline points="620.0,554.8 739.6,529.5 739.6,384.6 690.1,377.7 690.1,329.4" fill="none" stroke="#d86423" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#arrow)" />
+<polyline points="620.0,554.8 620.0,697.4" fill="none" stroke="#d86423" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#arrow)" />
+<circle cx="620" cy="554.8" r="7" fill="#d86423" stroke="white" stroke-width="2" />
+<text x="632" y="560.8" font-size="14" font-weight="600" fill="#9a481d" text-anchor="start">狗起点</text>
+<text x="620" y="307" font-size="21" font-weight="700" fill="#253d49" text-anchor="middle">儿童区</text>
+<text x="620" y="329" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">8 × 9 m / 顶 6.00</text>
+<text x="321" y="364" font-size="21" font-weight="700" fill="#253d49" text-anchor="middle">瓷器馆</text>
+<text x="321" y="386" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">10 × 10 m / 顶 5.20</text>
+<text x="919" y="364" font-size="21" font-weight="700" fill="#253d49" text-anchor="middle">标本馆</text>
+<text x="919" y="386" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">10 × 10 m / 顶 5.50</text>
+<text x="620" y="633" font-size="21" font-weight="700" fill="#253d49" text-anchor="middle">中庭</text>
+<text x="620" y="655" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">16 × 14 m / 顶 8.50</text>
+<text x="620" y="727" font-size="21" font-weight="700" fill="#253d49" text-anchor="middle">门厅</text>
+<text x="620" y="749" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">6 × 3.4 m</text>
+<rect x="396" y="517.5" width="80" height="24" rx="6" fill="#fffdf7" stroke="#d86423" stroke-width="1" />
+<text x="436" y="534.5" font-size="14" font-weight="600" fill="#9a481d" text-anchor="middle">2.86 m</text>
+<rect x="764" y="517.5" width="80" height="24" rx="6" fill="#fffdf7" stroke="#d86423" stroke-width="1" />
+<text x="804" y="534.5" font-size="14" font-weight="600" fill="#9a481d" text-anchor="middle">2.86 m</text>
+<rect x="650.15" y="345" width="80" height="24" rx="6" fill="#fffdf7" stroke="#d86423" stroke-width="1" />
+<text x="690.15" y="362" font-size="14" font-weight="600" fill="#9a481d" text-anchor="middle">1.56 m</text>
+<rect x="580" y="667" width="80" height="24" rx="6" fill="#fffdf7" stroke="#d86423" stroke-width="1" />
+<text x="620" y="684" font-size="14" font-weight="600" fill="#9a481d" text-anchor="middle">2.86 m</text>
+<line x1="597" y1="757.2" x2="643" y2="757.2" stroke="#9b3c3c" stroke-width="9" />
+<text x="620" y="791.2" font-size="15" font-weight="600" fill="#9b3c3c" text-anchor="middle">外门封闭 · 无室外关卡</text>
+<line x1="206" y1="126" x2="206" y2="134" stroke="#758690" stroke-width="1" />
+<text x="206" y="119" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">X -18</text>
+<line x1="436" y1="126" x2="436" y2="134" stroke="#758690" stroke-width="1" />
+<text x="436" y="119" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">X -8</text>
+<line x1="620" y1="126" x2="620" y2="134" stroke="#758690" stroke-width="1" />
+<text x="620" y="119" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">X 0</text>
+<line x1="804" y1="126" x2="804" y2="134" stroke="#758690" stroke-width="1" />
+<text x="804" y="119" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">X 8</text>
+<line x1="1034" y1="126" x2="1034" y2="134" stroke="#758690" stroke-width="1" />
+<text x="1034" y="119" font-size="13" font-weight="400" fill="#253d49" text-anchor="middle">X 18</text>
+<text x="120" y="175" font-size="15" font-weight="600" fill="#253d49" text-anchor="start">−Z</text>
+<line x1="135" y1="222" x2="135" y2="185" stroke="#d86423" stroke-width="2" marker-end="url(#arrow)" />
+<text x="105" y="248" font-size="13" font-weight="400" fill="#253d49" text-anchor="start">儿童区方向</text>
+<line x1="205" y1="850" x2="320" y2="850" stroke="#354955" stroke-width="5" />
+<line x1="205" y1="842" x2="205" y2="858" stroke="#354955" stroke-width="2" />
+<line x1="320" y1="842" x2="320" y2="858" stroke="#354955" stroke-width="2" />
+<text x="262" y="880" font-size="15" font-weight="400" fill="#253d49" text-anchor="middle">5 m 原生单位</text>
+<rect x="1110" y="130" width="340" height="700" rx="15" fill="#ffffff" stroke="#d9ded9" stroke-width="1" />
+<text x="1134" y="165" font-size="22" font-weight="700" fill="#253d49" text-anchor="start">事实与设计分开</text>
+<rect x="1134" y="192" width="16" height="16" rx="3" fill="#354955" stroke="none" stroke-width="1" />
+<text x="1162" y="206" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">原生墙、门柱、碰撞轮廓</text>
+<rect x="1134" y="230" width="16" height="16" rx="3" fill="#c5ccca" stroke="none" stroke-width="1" />
+<text x="1162" y="244" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">原生展具／支撑面投影</text>
+<rect x="1134" y="268" width="16" height="16" rx="3" fill="#327c9b" stroke="none" stroke-width="1" />
+<text x="1162" y="282" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">骨架碰撞并集，不是模型外形</text>
+<rect x="1134" y="306" width="16" height="16" rx="3" fill="#8f493a" stroke="none" stroke-width="1" />
+<text x="1162" y="320" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">149 件裸露展品中心</text>
+<rect x="1134" y="344" width="16" height="16" rx="3" fill="#d86423" stroke="none" stroke-width="1" />
+<text x="1162" y="358" font-size="15" font-weight="400" fill="#253d49" text-anchor="start">设计引导线，尚非导航验证</text>
+<text x="1134" y="420" font-size="16" font-weight="600" fill="#9a481d" text-anchor="start">四门净高均为 3.55 m</text>
+<text x="1134" y="455" font-size="16" font-weight="600" fill="#9a481d" text-anchor="start">儿童区净宽最小：1.56 m</text>
+<text x="1134" y="490" font-size="16" font-weight="600" fill="#9a481d" text-anchor="start">气柱向实墙侧鼓起，不缩门</text>
+<text x="1134" y="525" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">主展台物理顶面 y = 0.85</text>
+<text x="1134" y="560" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">现有装饰盖板顶 y = 0.92</text>
+<text x="1134" y="595" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">围绳无碰撞；不增加绳障碍</text>
+<text x="1134" y="630" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">小件必须外露、独立、可咬</text>
+<text x="1134" y="665" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">原灰盒儿童点与家具重叠</text>
+<text x="1134" y="700" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">A01 实例已修正；共享源未改</text>
+<text x="54" y="940" font-size="16" font-weight="400" fill="#253d49" text-anchor="start">来源：当前 native-facts.json；图示为事实平面与设计草案。未验证新增美术后的完整导航、相机或碰撞净空。</text>
+</g></svg>

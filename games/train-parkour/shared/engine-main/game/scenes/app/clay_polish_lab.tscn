@@ -1,0 +1,55 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/spatial/spatial_session.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/art/clay_polish_environment.tscn" id="2_lab"]
+[ext_resource type="PackedScene" path="res://scenes/player/train.tscn" id="3_train"]
+[ext_resource type="PackedScene" path="res://scenes/camera/rail_camera.tscn" id="4_camera"]
+[ext_resource type="Script" path="res://scripts/spatial/spatial_hud.gd" id="5_hud"]
+[ext_resource type="Script" path="res://scripts/spatial/spatial_audio.gd" id="6_audio"]
+
+[ext_resource type="Script" path="res://scripts/spatial/spatial_train.gd" id="7_flow"]
+[ext_resource type="Script" path="res://scripts/spatial/spatial_fx.gd" id="8_fx"]
+
+[ext_resource type="Script" path="res://scripts/spatial/spatial_camera.gd" id="9_camera"]
+[ext_resource type="Resource" path="res://resources/tuning/spatial_full_r2_default.tres" id="10_tuning"]
+
+[ext_resource type="Script" path="res://scripts/art/polish/clay_polish_train.gd" id="11_art"]
+
+[node name="Main" type="Node3D"]
+process_mode = 3
+script = ExtResource("1_main")
+wait_for_start = true
+
+[node name="ControllerLab" parent="." instance=ExtResource("2_lab")]
+
+[node name="Actors" type="Node3D" parent="."]
+
+[node name="Train" parent="Actors" instance=ExtResource("3_train")]
+
+script = ExtResource("7_flow")
+settings = ExtResource("10_tuning")
+
+[node name="FlowFX" type="Node3D" parent="Actors/Train"]
+script = ExtResource("8_fx")
+
+[node name="RailCamera" parent="." instance=ExtResource("4_camera")]
+script = ExtResource("9_camera")
+station_art_camera = true
+
+[node name="MotionAudio" type="Node" parent="."]
+script = ExtResource("6_audio")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="LabHUD" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("5_hud")
+
+[node name="ClayTrainVisual" type="Node" parent="."]
+script = ExtResource("11_art")

@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "intent": "Nine-space B2 warehouse logistics reconstruction preservingN01",
+  "space_runtime": {
+    "N01": "station",
+    "N02": "canyon",
+    "N03": "vertical",
+    "N04": "coaster",
+    "N05": "coaster",
+    "N06": "tunnel",
+    "N07": "valley",
+    "N08": "finale",
+    "N09": "finale"
+  },
+  "track_runtime_exceptions": {
+    "landmark_return": "valley"
+  },
+  "scenery_clearance_m": 9.0,
+  "regions": [
+    {
+      "space": "N03",
+      "tracks": [
+        "rush",
+        "carve",
+        "wall",
+        "inverted",
+        "drop",
+        "rollout"
+      ],
+      "kind": "sorter",
+      "spacing": 48,
+      "sides": [
+        -34,
+        38
+      ],
+      "height": 92,
+      "floor": 16.5
+    },
+    {
+      "space": "N04",
+      "tracks": [
+        "loop_entry",
+        "loop_out",
+        "exit_ramp"
+      ],
+      "kind": "winch",
+      "spacing": 58,
+      "sides": [
+        -45,
+        48
+      ],
+      "height": 112,
+      "floor": 16.5
+    },
+    {
+      "space": "N05",
+      "tracks": [
+        "grind",
+        "relay",
+        "high",
+        "high_merge"
+      ],
+      "kind": "transfer",
+      "spacing": 65,
+      "sides": [
+        -34,
+        40
+      ],
+      "height": 72,
+      "floor": 10.0
+    },
+    {
+      "space": "N06",
+      "tracks": [
+        "tunnel"
+      ],
+      "kind": "scanner",
+      "spacing": 24,
+      "sides": [
+        -25,
+        25
+      ],
+      "height": 20,
+      "floor": 10.0
+    },
+    {
+      "space": "N07",
+      "tracks": [
+        "cliff_turn",
+        "cliff_lip",
+        "upper",
+        "rescue",
+        "rescue_merge",
+        "finish"
+      ],
+      "kind": "returns",
+      "spacing": 64,
+      "sides": [
+        -34,
+        39
+      ],
+      "height": 65,
+      "floor": -25.28558
+    },
+    {
+      "space": "N08",
+      "tracks": [
+        "landmark_return",
+        "underpass",
+        "return_switchback"
+      ],
+      "kind": "underpass",
+      "spacing": 72,
+      "sides": [
+        -36,
+        42
+      ],
+      "height": 55,
+      "floor": -25.28558
+    },
+    {
+      "space": "N09",
+      "tracks": [
+        "final_approach",
+        "final_ramp",
+        "final_receiver",
+        "final_upper_catch",
+        "final_upper",
+        "victory_run"
+      ],
+      "kind": "dispatch",
+      "spacing": 52,
+      "sides": [
+        -33,
+        38
+      ],
+      "height": 52,
+      "floor": -36.28558
+    }
+  ],
+  "water": "Not applicable: approved spatialcontract requireslocaldryfloor; conceptualwaternotpartoffrozenscene",
+  "shared_landmark": "OneB2-LM01, use measured/revisedsidefoundation andprotect19munderpass",
+  "authoring": "groundedserviceislands withactualG1 focalprops, controlledsteelstructures, darkrubber andwarmpracticals",
+  "art_reserves": [
+    {
+      "id": "N05-high-exit-flight",
+      "space": "N05",
+      "groups": [
+        "storage_stack"
+      ],
+      "minimum_m": [
+        1250,
+        50,
+        -881
+      ],
+      "maximum_m": [
+        1386,
+        96,
+        -818
+      ],
+      "basis": "suite-01 high clock 28.817-29.400: train and chase-camera flight envelope, padded. Omit whole cargo islands; preserve the frozen trajectory."
+    },
+    {
+      "id": "N07-rescue-camera-deck",
+      "space": "N07",
+      "groups": [
+        "service_deck"
+      ],
+      "minimum_m": [
+        3478.9,
+        23.6,
+        -1782.8
+      ],
+      "maximum_m": [
+        3481,
+        25.7,
+        -1780.7
+      ],
+      "basis": "suite-01 rescue clock 44.433-44.550: conservative camera chord witness. Omit the complete service deck and mounted props."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "base_index_count": 35904,
+  "base_triangles": 11968,
+  "base_vertex_count": 14164,
+  "cache_key": {
+    "bone_transforms": [],
+    "godot": "4.7.2-stable (official)",
+    "material_policy": "none",
+    "normal_merge_angle": 60.0,
+    "normal_split_angle": 25.0,
+    "schema": "b2-importer-mesh-lod/v1",
+    "source_sha256": "c9866a633591321a80d98931016191daff4734901f97ed479be15826e4d800a4"
+  },
+  "cache_reused": false,
+  "compiler_sha256": "4010ee1b18f31473d965d92a4000fec1ec0b1b1c0b7a42bfc34bf7773d20ba90",
+  "lod_count": 1,
+  "lods": [
+    {
+      "index": 0,
+      "index_count": 21762,
+      "indices_sha256": "9c6c8ddb6b8ea4334c5a60aed53477837491e7b1abce949ac2c5aff40167988b",
+      "screen_size": 0.5865984559059143,
+      "triangles": 7254
+    }
+  ],
+  "mesh": {
+    "path": "art/train-parkour/styles/odd-logistics/models/full-scene-lod-cache/c9866a633591321a80d98931016191daff4734901f97ed479be15826e4d800a4-5ea2b047093c5fdf.res",
+    "sha256": "9ccaa86cb8ed6727222057ec9c60b2dc3b84fa238f89b913a1f7f180775fa87b"
+  },
+  "original_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "6ac54ec2ee51407806f587664ee64188a234dd3ef07e32d54bb1f8c3687cba86",
+    "normals": "1db6bed92aaa0cb2c208813280d9b18443140db6070a24f6204f774043739688",
+    "tangents": "2fc47f0f867d6071ad3cbd3e09032a5eca43f15ca7a3db471727781a17045a98",
+    "uv": "b173ebca9bd52f239a9dfdc5eff1682ecdc4ec0fa66a38829d93eb825aaa812f",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "1bb35f0e751e957699d6b612ffe272603a054dd0baf55046e955f96e84df1060",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "preservation": {
+    "base_aabb_exact": true,
+    "base_primitive_exact": true,
+    "external_resource_dependencies": 0,
+    "highest_lod_scope": "Exact source positions, UV0, index order, primitive and AABB; ArrayMesh normal/tangent encoding may change decoded attribute bits.",
+    "importer_base_arrays_exact": true,
+    "materials": 0,
+    "reencoded_attributes": [
+      "normals",
+      "tangents"
+    ],
+    "saved_roundtrip_arrays_exact": true,
+    "textures_copied": 0,
+    "vertices_uv_indices_exact": true
+  },
+  "saved_array_sha256": {
+    "bones": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "colors": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom1": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "custom3": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "indices": "6ac54ec2ee51407806f587664ee64188a234dd3ef07e32d54bb1f8c3687cba86",
+    "normals": "8e7782e0673558716656d427d8dc8dcf1c386a0f04d73ea9ec85c54d069d2438",
+    "tangents": "9efd2cc25f1d26551896eef485a17d5fa1cc5b13d55df237504921bf353f1817",
+    "uv": "b173ebca9bd52f239a9dfdc5eff1682ecdc4ec0fa66a38829d93eb825aaa812f",
+    "uv2": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "vertices": "1bb35f0e751e957699d6b612ffe272603a054dd0baf55046e955f96e84df1060",
+    "weights": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "source_geometry": {
+    "path": "art/train-parkour/styles/odd-logistics/models/lux-g1-v2/B2-LUX-11-soft_obstacle-plastic_cone/lod-v1/near.glb",
+    "sha256": "c9866a633591321a80d98931016191daff4734901f97ed479be15826e4d800a4"
+  },
+  "status": "compiled"
+}

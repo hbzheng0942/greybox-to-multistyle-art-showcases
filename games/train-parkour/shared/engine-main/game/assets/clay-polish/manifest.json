@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "status": "authored",
+  "assets": [
+    {
+      "id": "terrace-house",
+      "runtime": "game/assets/clay-polish/terrace-house.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        23.899999618530273,
+        15.910000801086426,
+        10.599999904632568
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 23116,
+      "sha256": "b46107af38ae4ba990d8aa00277aa1f441c091270f8ff7ed165ceb1c0cd26e72"
+    },
+    {
+      "id": "belfry-tower",
+      "runtime": "game/assets/clay-polish/belfry-tower.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        11.399999618530273,
+        26.639999389648438,
+        11.399999618530273
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 26332,
+      "sha256": "73a54f4ae39d285244c7f7991f989133d5767fb93243ba63d1c8df0d25b1a861"
+    },
+    {
+      "id": "canopy-bay",
+      "runtime": "game/assets/clay-polish/canopy-bay.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        54.099998474121094,
+        17.0,
+        30.799999237060547
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 22824,
+      "sha256": "2f47be1e7022749bebaf045f64676ccc8ab5ef9ab77d810fb34cbc1eb6a38b3a"
+    },
+    {
+      "id": "viaduct-bay",
+      "runtime": "game/assets/clay-polish/viaduct-bay.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        32.5,
+        26.299999237060547,
+        7.599999904632568
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 6052,
+      "sha256": "f9395d0c054ef890a0ca1b67e5316de649c2cfdc817161213e8e7fa834da22ba"
+    },
+    {
+      "id": "promenade-parapet",
+      "runtime": "game/assets/clay-polish/promenade-parapet.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        12.5,
+        2.540000081062317,
+        1.2000000476837158
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 2944,
+      "sha256": "679968574548d39c17f193f05c09b5a8a7eff4b5e27731a23c4d4895d87ee033"
+    },
+    {
+      "id": "banner-lantern",
+      "runtime": "game/assets/clay-polish/banner-lantern.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        2.6042078137397766,
+        7.389999866485596,
+        1.408415675163269
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 6484,
+      "sha256": "a73d0d86fc5d6d86429b11ba81d30008a1e8749dd7ee9e4bb8314f45b3cba420"
+    },
+    {
+      "id": "wall-sconce",
+      "runtime": "game/assets/clay-polish/wall-sconce.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        1.406051754951477,
+        2.009999990463257,
+        2.348025858402252
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 2112,
+      "sha256": "326ae91028ad69ad6742383cfbdce10b4be2175c9ea01615feb1ed92cc056678"
+    },
+    {
+      "id": "maintenance-bay",
+      "runtime": "game/assets/clay-polish/maintenance-bay.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        6.6000001430511475,
+        6.789999961853027,
+        2.299999952316284
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 9664,
+      "sha256": "789b00a7295bd1cc19e4770c9b0e65649e2b09b2021fbc7561bf1173b950382a"
+    },
+    {
+      "id": "gallery-trim",
+      "runtime": "game/assets/clay-polish/gallery-trim.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        39.79999923706055,
+        19.274815648794174,
+        3.0999999046325684
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 4064,
+      "sha256": "a9e6999ef28afb08df8fd720cd332dda4e025e22c8dfffe3c0d5f8239e81fd72"
+    },
+    {
+      "id": "terminal-clock",
+      "runtime": "game/assets/clay-polish/terminal-clock.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        4.300000190734863,
+        13.579999984027793,
+        3.5000007152557373
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 5572,
+      "sha256": "96062ac031a0c568f534b3a0ab2f97c47de1fa49f5ff879a5349f49cd69af476"
+    },
+    {
+      "id": "hero-carriage",
+      "runtime": "game/assets/clay-polish/hero-carriage.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        2.8130000829696655,
+        3.042500138282776,
+        12.619999408721924
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 17342,
+      "sha256": "cba9b546ffe44d8eca50f5fc94c97a0e5a7d3bc7693aa1b6b8b2fbc2919103b0"
+    },
+    {
+      "id": "arcade-wall",
+      "runtime": "game/assets/clay-polish/arcade-wall.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        13.300000190734863,
+        12.309999465942383,
+        2.7600001096725464
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 5864,
+      "sha256": "0a192ebae20f48ff51dee3d712b1ed32cf5214905fc8b373c81508ed0e3b0c46"
+    },
+    {
+      "id": "cloud-cluster",
+      "runtime": "game/assets/clay-polish/cloud-cluster.glb",
+      "source": "tools/art_workbench/build_clay_polish.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        92.57265090942383,
+        43.914631843566895,
+        33.63619613647461
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 6692,
+      "sha256": "4200f88fda820ed644106cd74f67b21d229cfb05dc3c4192cf82a10f2f6c8193"
+    },
+    {
+      "id": "sculpted-garden",
+      "runtime": "game/assets/clay-polish/sculpted-garden.glb",
+      "source": "tools/art_workbench/build_clay_gardens.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        7.092000246047974,
+        10.360499382019043,
+        6.0567028522491455
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 28404,
+      "sha256": "73150e0c08ad78861d1a7ac2d48686f8df818ebca0c95ceab51a83e12dcb9973"
+    },
+    {
+      "id": "garden-bed",
+      "runtime": "game/assets/clay-polish/garden-bed.glb",
+      "source": "tools/art_workbench/build_clay_gardens.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        7.699999809265137,
+        7.180000305175781,
+        3.5
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 16864,
+      "sha256": "f138e6a2474fc34870422f0dd1a9227e2bab9f5df590f5ed2c1f825b18275ace"
+    },
+    {
+      "id": "trailing-garden",
+      "runtime": "game/assets/clay-polish/trailing-garden.glb",
+      "source": "tools/art_workbench/build_clay_gardens.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        5.044000148773193,
+        6.078164219856262,
+        2.290000081062317
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 16504,
+      "sha256": "736a941209c4fb89cc6fcd2830b6d5f8c77261454c7110551d4a060a9d0c7d77"
+    },
+    {
+      "id": "cliff-grotto",
+      "runtime": "game/assets/clay-polish/cliff-grotto.glb",
+      "source": "tools/art_workbench/build_clay_gardens.py",
+      "method": "authored_blender",
+      "contact_ao": {
+        "uv": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "distance_m": 3.0,
+        "samples": 16
+      },
+      "dimensions_godot_m": [
+        9.199999809265137,
+        7.649999812245369,
+        6.199999809265137
+      ],
+      "pivot": "ground center; wall-sconce uses attachment origin",
+      "coordinate_conversion": "Blender Z-up +Y travel exported once to Godot Y-up -Z travel; facade front +Z",
+      "triangles": 3304,
+      "sha256": "b7ceef9d92cba0333ce916164a2813d5d4ff68fdf8b6074e5dc7fde20c3552d8"
+    },
+    {
+      "id": "rounded-cliff",
+      "runtime": "game/assets/clay-polish/rounded-cliff.glb",
+      "source": "tools/art_workbench/round_clay_cliff.py",
+      "method": "procedural refinement of approved Lux asset",
+      "source_sha256": "dfd2d9dae5b3242d9c85d9981ca286415d5e4ad2b997fbb535decabe643a600f",
+      "dimensions_godot_m": [
+        20.100172996520996,
+        16.662547573447227,
+        19.95595645904541
+      ],
+      "pivot": "preserved normalized cliff origin",
+      "coordinate_conversion": "Blender glTF importer and Y-up exporter; no manual axis rotation",
+      "triangles": 46009,
+      "sha256": "2dcaa3da2a461115dbfef0d55570591998e365b2e9964fe07578f0d1b1665b8f",
+      "recipe": {
+        "voxel_m": 0.1,
+        "smooth_iterations": 14,
+        "decimate_ratio": 0.08
+      },
+      "storage_policy": "reproducible recipe + in-use GLB; no duplicate authoring or generated originals"
+    }
+  ]
+}

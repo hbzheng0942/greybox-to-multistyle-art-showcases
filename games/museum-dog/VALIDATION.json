@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-30",
+  "engine": "Godot4.7.2",
+  "source_asset_import": "pass; clean generated cache created from staged source files",
+  "entries": [],
+  "limits": [
+    "Headless load/assembly checks do not verify rendered appearance, controls, performance or user acceptance.",
+    "Source and package revisions remain separate; public status does not infer H4/H5."
+  ],
+  "rendered_review": "controlled native skeletal fixture reviewed; process/animation/VALIDATION.json; camera occlusion and pending child/staff rigs remain",
+  "skeletal_combined_headless": {
+    "entry": "res://styles/A01/runtime/integrated-skeletal-20261030/play.tscn",
+    "passed_assertions": 37,
+    "failed_assertions": 0,
+    "adult_skeletal_actors": 6,
+    "dog_bones": 27,
+    "registered_adult_skin_camera_shapes": 18,
+    "sampled_actual_pose_hashes": {
+      "dog": 55,
+      "adult": 109
+    },
+    "maximum_stable_bite_error_m": 3.62560911071341e-07,
+    "source_asset_hashes_unchanged": true,
+    "scope": "Controlled full-environment fixture. Children/staff new skins are not produced, so not all10 skeletal visitors or H4 acceptance."
+  },
+  "skeletal_combined_native": {
+    "package_revision": "integrated-skeletal-20261030",
+    "scope": "controlled full-environment museum fixture; unrelated props frozen; actual native motor/E/grab/throw/R and visitor patrol/ragdoll/recovery run through a trusted driver; six adult skins and one dog skin, children/staff new rigs pending",
+    "human_playtest": false,
+    "performance_certification": false,
+    "overlay_ui": "hidden; phases kept in sidecar",
+    "native_resolution": [
+      1280,
+      720
+    ],
+    "actual_tree_counts": {
+      "AnimationPlayer": 0,
+      "AnimationTree": 0,
+      "BoneAttachment3D": 0,
+      "Skeleton3D": 7,
+      "skinned_meshes": 19
+    },
+    "actual_bone_pose_hashes": {
+      "dog_unique": 55,
+      "adult_unique": 109
+    },
+    "stable_carry_samples": 28,
+    "maximum_stable_bite_error_m": 3.62560911071341e-07,
+    "source_asset_hashes_unchanged": true,
+    "visual_review": {
+      "seen": [
+        "adult connected walk pose",
+        "adult skeletal clap",
+        "dog actual skin with held native neck bone",
+        "dog carrying walk",
+        "reset restored dog and skin binding"
+      ],
+      "limits": [
+        "NPCs partly occlude the controlled knockdown/carry camera at some moments; no complete camera-route or final art acceptance claim."
+      ]
+    },
+    "passed_assertions": 37,
+    "failed_assertions": 0
+  },
+  "recording_adapter": "Default clean presentation adapter added after capture; gameplay/skin/controller hashes unchanged; final clean-mode headless checks recorded separately.",
+  "clean_recording_mode": {
+    "default": true,
+    "restore_flag": "--show-hud",
+    "explicit_clean_flag": "--showcase-clean",
+    "checks": [
+      {
+        "clean_enabled": true,
+        "entry": "res://shared/game/dog_game.tscn",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "style": "",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      },
+      {
+        "clean_enabled": true,
+        "entry": "res://styles/A01/runtime/integrated-skeletal-20261030/play.tscn",
+        "menu_preserved": true,
+        "ok": true,
+        "pause_preserved": true,
+        "style": "",
+        "visible_overlay_panels": 0,
+        "visible_prototype_labels": 0
+      }
+    ],
+    "native_pixels_of_adapter": "Presentation adapter added after native capture; it applies the same hiding policy. Final eight headless checks validate actual node visibility/menu preservation; no new performance claim."
+  }
+}

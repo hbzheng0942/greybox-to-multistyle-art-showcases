@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "status": "actors_enabled_local_static_review_complete_integration_pending",
+  "assets": {
+    "skeleton": {
+      "enabled": true,
+      "path": "art/train-parkour/styles/halloween-comic/assets/festival-v2/skeleton/skeleton-parts-v1.glb",
+      "sha256": "617bc622b30fcb3c647249ba689eb63f685a7f8c576af2533876e599eee2b5d2",
+      "rig_path": "art/train-parkour/styles/halloween-comic/assets/festival-v2/skeleton/rig.json",
+      "rig_sha256": "9e611073351a8172d9b19816bf67a4d3cef478c95a4ee9c30a564b89706e461d",
+      "source_sha256": "6e3cd5258805a155a47782748c9ce03e5dac8b52ecb9b59fa8f07f9dafb0d0c0",
+      "native_visual_review": "actor_static_views_reviewed_integration_pending"
+    },
+    "ghost": {
+      "enabled": true,
+      "path": "art/train-parkour/styles/halloween-comic/production/festival-v2/models/ghost/4461060/a234e015b6beaee3299badec842cbaf20393f313bdd30129da0e9c9b9c72d3dc.glb",
+      "sha256": "a234e015b6beaee3299badec842cbaf20393f313bdd30129da0e9c9b9c72d3dc",
+      "yaw_degrees": 0.0,
+      "target_height": 1.75,
+      "native_visual_review": "actor_static_views_reviewed_integration_pending",
+      "geometry_policy": "canonical GLB referenced unchanged; runtime uniform normalization"
+    },
+    "pumpkin": {
+      "enabled": true,
+      "path": "art/train-parkour/styles/halloween-comic/production/festival-v2/models/pumpkin/4461166/ae2c99c833996cfefdf963e72496e8c32921e86f69a69fd46ad68d3c25bb7f01.glb",
+      "sha256": "ae2c99c833996cfefdf963e72496e8c32921e86f69a69fd46ad68d3c25bb7f01",
+      "yaw_degrees": 0.0,
+      "target_width": 1.65,
+      "native_visual_review": "actor_static_views_reviewed_integration_pending",
+      "geometry_policy": "canonical GLB referenced unchanged; runtime uniform normalization"
+    }
+  }
+}

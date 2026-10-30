@@ -1,0 +1,99 @@
+{
+  "schema": "surface-ink-v1",
+  "sourceSha256": "110b02121f10128e239cee811caa4064ef3796808b2a532422c3ca111a7d6539",
+  "outputSha256": "f46fe0b61ea851c534d8821cc88beae79a613d740db53b75d988f2bc9aa6cde9",
+  "labels": [
+    {
+      "labelId": "label-9bb6dca8fd7ccbe49dcb",
+      "instanceId": "instance-9ef4f0a15ee8cfafc7b1",
+      "text": "FRESH",
+      "textSha256": "477b172177e8a23b2b2c30cedaa19a2a4504ba4627ecae34b79bd7d1e08ac798",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "eb5fc16a945c45ad6e56bfc2f1f777f7e3d2d0124aa3257627a93b8a0e4deb02",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "110b02121f10128e239cee811caa4064ef3796808b2a532422c3ca111a7d6539",
+        "frameHash": "26931bf332a99f4c9f5028c86a966699cba25f7c731d27f93d2e1937c4cc77ab",
+        "center": [
+          1.8316290553710424e-8,
+          -0.08457511462272321
+        ],
+        "size": [
+          0.2839084643784404,
+          0.0647144293803798
+        ],
+        "evidencePath": "evidence/human_control_20261013/sign-faces/street_blackboard-FRESH.png",
+        "evidenceHash": "8ac9a7baeab281bcc701b91e277cd428b147ef2d2803bd84854fd27664473989",
+        "pixelBounds": [
+          184,
+          181,
+          456,
+          243
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 5262,
+      "materials": [
+        0
+      ]
+    },
+    {
+      "labelId": "label-3989243261b669435d0c",
+      "instanceId": "instance-9ef4f0a15ee8cfafc7b1",
+      "text": "TREATS",
+      "textSha256": "95f9396aca029f2f6cd46f6a99e3529169b9c23104ac17deb27fa391ae3b2c29",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "anchorHash": "73efe1fa0237d51199ad9050f25719dc1214a4a197f7ee8175ad2cf5386e33a5",
+      "surfaceRegion": {
+        "schema": "actual-sign-region-v1",
+        "sourceSha256": "110b02121f10128e239cee811caa4064ef3796808b2a532422c3ca111a7d6539",
+        "frameHash": "e5c8c1a970fa5a91c21a09d216aed20ac28ef6eac689b061a4972f23efd5599d",
+        "center": [
+          1.7442063640626948e-8,
+          0.05542487107216171
+        ],
+        "size": [
+          0.2839084643784404,
+          0.0647144293803798
+        ],
+        "evidencePath": "evidence/human_control_20261013/sign-faces/street_blackboard-TREATS.png",
+        "evidenceHash": "8ac9a7baeab281bcc701b91e277cd428b147ef2d2803bd84854fd27664473989",
+        "pixelBounds": [
+          184,
+          181,
+          456,
+          243
+        ],
+        "locator": "actual-model-front-visual-inspection",
+        "humanArtApproval": false
+      },
+      "paintedTexels": 5787,
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "materialIndex": 0,
+      "sourceImageHash": "549bc50fc39368906b69029176d95150561b6161dbfb7840db4c255cd57c3fcd",
+      "outputImageHash": "781c5fccdc30ef2319ab2d1c8589d5ff9930f1624c78c7506a0b4e992d4661d2",
+      "changedTexels": 8316,
+      "maskTexels": 8316,
+      "inkColor": [
+        255,
+        239,
+        205
+      ],
+      "backgroundUntouched": true,
+      "alphaUntouched": true
+    }
+  ],
+  "preservedBinaryPrefixSha256": "0d5b1076d1761eecdf40439b939ec74373299b77725d4659a3827c9f5568d758",
+  "preservedBinaryPrefixBytes": 5890284,
+  "noAddedGeometry": true,
+  "noBackgroundPlate": true,
+  "metallicRoughnessNormalEmissiveUnchanged": true,
+  "humanArtApproval": false
+}
