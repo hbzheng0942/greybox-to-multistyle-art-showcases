@@ -4,6 +4,8 @@
 
 **[下载完整工程与资源](https://github.com/hbzheng0942/greybox-to-multistyle-art-showcases/releases/latest)** · [机器可查询目录](catalog.json) · [后续 Agent 交接](docs/AGENT_HANDOFF.md) · [资源与授权说明](NOTICE.md)
 
+当前完整资源正在分片上传，首次Release尚未公开。源码、风格截图与过程目录已可浏览；完整包经云端哈希校验后开放下载。
+
 [已有录制素材与版本说明](media/README.md) · [同事录制指南](docs/RECORDING_GUIDE.md)
 
 `main` 分支提供源码、截图和索引；**完整 Release 压缩包包含运行与编辑所需模型、纹理、音频**。GitHub 的 Source code ZIP 不含大资源。这里的“开发候选”表示当前工程，人工美术、玩法与性能验收另行记录。
