@@ -329,6 +329,16 @@
       }
     },
     {
+      "offset": 268435456,
+      "bytes": 8388608,
+      "sha256": "8e66b2b5aaab02223ba818135e9b02e0ecb358746fffec480f73583e458a807a",
+      "source": {
+        "type": "git",
+        "path": "large-files/greybox-to-multistyle-art-showcases-v0.1.0-20261030.zip.chunk0033",
+        "blob_sha": "9d0b8cc5a6076e60ad3bd1ae82d4301d7ff94d11"
+      }
+    },
+    {
       "offset": 3489660928,
       "bytes": 268435456,
       "sha256": "ea9874c03ee02125b7c808631fedb55982fce1d3f291b4750d7be4a1ea3b6b66",
@@ -381,5 +391,5 @@
   ],
   "chunk_bytes": 8388608,
   "expected_git_chunks": 448,
-  "uploaded_git_chunks": 17
+  "uploaded_git_chunks": 18
 }
