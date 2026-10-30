@@ -1,6 +1,6 @@
 # 大资源分片传输
 
-同事使用工程只需克隆 `main`，再安装完整Release资源：
+同事使用工程只需克隆 `main`，再安装完整Release资源。安装后资源就在本地工程目录，全部灰盒与美术工程可离线打开；无需切换到资源分支：
 
 ```sh
 git clone --single-branch --branch main https://github.com/hbzheng0942/greybox-to-multistyle-art-showcases.git

@@ -64,7 +64,7 @@ H07按并行制作模块核对集成；未完成的性能实验不覆盖已集�
 
 使用 **Godot 4.7.2**。先取得完整 Release 工程，再打开所选 `project.godot`，等待资源导入。完整包内的相对资源链接指向包内共享资源；不要只移动某个风格子目录。
 
-同事通过 Git 拉取后，一条命令安装大资源，保留可编辑源码和后续增量更新：
+**同事无需切换到 `large-files` 分支。** 通过 Git 拉取 `main` 后，一条命令将全部模型、纹理、音频还原到当前工程目录；安装后可离线打开全部灰盒与美术工程，并继续通过Git增量更新源码：
 
 ```sh
 git clone --single-branch --branch main https://github.com/hbzheng0942/greybox-to-multistyle-art-showcases.git
