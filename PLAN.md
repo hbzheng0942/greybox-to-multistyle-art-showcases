@@ -15,7 +15,7 @@ Ownership:
 
 All workers share this checkout. Preserve other workers' changes. Original projects remain read-only for this task. Do not copy whole repositories, caches, historical builds or production/provider records. Stage explicit runtime/source dependencies only. Use one repository-wide content-hash asset store under `shared/assets/sha256/` and repository-internal relative links at original resource paths.
 
-Repository source, preview images and manifests are tracked by Git. Large resource bytes are delivered in the complete release archive, with clear retrieval instructions for a source checkout. Root will verify current GitHub limits before choosing the final archive route. No LFS billing or paid generation is authorized by this plan.
+Repository source, preview images and manifests are tracked by Git on `main`. Large resource bytes are delivered in the complete release archive. At the user's request, transfer uses 8 MiB ordinary Git chunks in a separate `large-files` branch, existing verified Release volumes, and GitHub Actions assembly. Keep source clones on `main` with `--single-branch`. No LFS billing or paid generation is authorized by this plan. The GitLab route was cancelled by the user.
 
 Keep actual local source paths, dirty-source diffs and private provenance outside the public repository. Public manifests contain relative paths, content hashes and status. Preserve third-party notices. A technical launch check is distinct from visual/user acceptance.
 

@@ -8,6 +8,8 @@ Read `PLAN.md`, `catalog.json` and the relevant `games/<game>/GAME.md`. Each sty
 
 Game and style code is tracked in Git. Large immutable resources are keyed by SHA256 under `shared/assets/sha256/` and supplied by the complete Release package. Original engine paths use repository-internal relative links; no author-machine paths should be necessary.
 
+`main` remains the editable source/catalog branch. The independent `large-files` branch carries 8 MiB transfer chunks and `large-files/manifest.json`; completed Release volumes can be reused as additional assembly inputs. Do not merge that branch into `main`. Follow [LARGE_FILES.md](LARGE_FILES.md) for the pinned-commit Actions assembly and hash checks. The initial complete archive remains bound to source commit `799c478fe45278cd5db3f3c3a1eb2ec83709583f`; later transport/documentation commits do not change that frozen game payload.
+
 Do not recursively copy original workspaces or include `.godot`, nested `.git`, provider responses, production jobs, credentials, old build archives or rejected versions. Never update a style to a newer directory based on modification time alone. Preserve source and asset versions in the manifest before changing entry pointers.
 
 ## Updating a style

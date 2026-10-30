@@ -6,7 +6,7 @@
 
 [已有录制素材与版本说明](media/README.md) · [同事录制指南](docs/RECORDING_GUIDE.md)
 
-Git 仓库提供源码、截图和索引；**完整 Release 压缩包包含运行与编辑所需模型、纹理、音频**。GitHub 的 Source code ZIP 不含大资源。这里的“开发候选”表示当前工程，人工美术、玩法与性能验收另行记录。
+`main` 分支提供源码、截图和索引；**完整 Release 压缩包包含运行与编辑所需模型、纹理、音频**。GitHub 的 Source code ZIP 不含大资源。这里的“开发候选”表示当前工程，人工美术、玩法与性能验收另行记录。
 
 ## 按游戏查找
 
@@ -67,13 +67,13 @@ H07按并行制作模块核对集成；未完成的性能实验不覆盖已集�
 同事通过 Git 拉取后，一条命令安装大资源，保留可编辑源码和后续增量更新：
 
 ```sh
-git clone https://github.com/hbzheng0942/greybox-to-multistyle-art-showcases.git
+git clone --single-branch --branch main https://github.com/hbzheng0942/greybox-to-multistyle-art-showcases.git
 cd greybox-to-multistyle-art-showcases
 python3 tools/download_complete.py --install-resources
 python3 tools/launch.py
 ```
 
-Release 可能分卷提供同一个完整ZIP。下载脚本会按顺序合并、校验SHA256并解压；只需Python3标准库，无额外依赖。在源码仓库运行：
+Release 分卷提供同一个完整ZIP。下载脚本会按顺序合并、校验每卷及完整ZIP的SHA256，已验证的分卷可续传；只需Python3标准库，无额外依赖。在源码仓库运行：
 
 ```sh
 python3 tools/download_complete.py --extract --output ../showcase-complete
@@ -84,6 +84,8 @@ python3 tools/launch.py hole orbital --godot /path/to/Godot
 ```
 
 `launch.py`列出可运行的`游戏ID 风格ID`。也可按各游戏说明直接在Godot编辑器中打开。Windows未启用符号链接时，下载脚本会将链接还原成独立文件，所需磁盘会增加。首次导入会产生本机缓存；缓存和引擎可执行文件不在交付包内。
+
+发布采用小分片传输：独立 `large-files` 分支保存8 MiB片，GitHub Actions按清单与哈希拼接、复用已上传分卷，再生成完整Release。使用上面的单分支克隆命令即可避免同时拉取传输分片。详见[分片传输与校验](docs/LARGE_FILES.md)。
 
 ## 文件组织与工作留痕
 

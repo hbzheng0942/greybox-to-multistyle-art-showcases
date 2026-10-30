@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "date": "2026-10-30",
+  "frozen_game_source": "799c478fe45278cd5db3f3c3a1eb2ec83709583f",
+  "result": "pass",
+  "unit_tests": 17,
+  "unit_test_command": "python3 -B -m unittest discover -s tools -p 'test_*tools.py'",
+  "package_check": {
+    "result": "pass",
+    "checked_file_paths": 4013,
+    "relative_resource_links": 1472,
+    "unique_assets": 941,
+    "unique_asset_bytes": 6231468413,
+    "game_manifest_records": 2995,
+    "errors": []
+  },
+  "network_probe": {
+    "scope": "first 1024 bytes of one already uploaded draft Release volume compared with frozen local ZIP; not a full remote download",
+    "result": "pass",
+    "bytes": 1024,
+    "redirect_host": "release-assets.githubusercontent.com"
+  },
+  "limits": "The full GitHub Actions assembly and anonymous complete-Release readback are pending until all resource chunks have been committed. Unit tests and a prefix probe alone do not prove full remote publication.",
+  "tested_files": {
+    "tools/assemble_large_files.py": "9334cd8c8ec08fbb9029cd4ae3ecce3910c89db61d16c362852e30fb6b3c0ce5",
+    "tools/test_assembly_tools.py": "1e1df49b3a2f1d1577e2c05f2ddbe73d15fd102a9293149ed9ab4a6f13d11733",
+    "tools/test_release_tools.py": "57423b7df7b2ccee8044635903fedcbe648fea7c3d2032499dd7a0084a4d982c",
+    "tools/extract_showcase.py": "492cb77ed831ac1383a14a99de70796ec4fff530f49ab6a34a6719beb8560dde",
+    ".github/workflows/assemble-large-files.yml": "9f71e2e4c23e52d35b1457778a0779393351df563f8984f05a018382ce6f0014"
+  }
+}

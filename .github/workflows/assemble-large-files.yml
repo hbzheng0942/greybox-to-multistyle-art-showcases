@@ -1,0 +1,44 @@
+name: Assemble complete showcase package
+
+on:
+  workflow_dispatch:
+    inputs:
+      resources_commit:
+        description: Complete large-files branch commit (full 40-character SHA)
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: assemble-showcase-release
+  cancel-in-progress: false
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Test integrity and streaming tools
+        run: python3 -B -m unittest discover -s tools -p 'test_*tools.py'
+      - name: Assemble, verify and publish the frozen complete package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESOURCES_COMMIT: ${{ inputs.resources_commit }}
+        run: >-
+          python3 -B tools/assemble_large_files.py
+          --resources-commit "$RESOURCES_COMMIT"
+          --output "$RUNNER_TEMP/showcase-release"
+          --publish
+      - name: Retain the small publication receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: showcase-publication-receipt
+          path: ${{ runner.temp }}/showcase-release/publication-receipt.json
+          if-no-files-found: error
+          retention-days: 30
